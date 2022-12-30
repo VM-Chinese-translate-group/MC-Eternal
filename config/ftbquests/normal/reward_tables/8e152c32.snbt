@@ -1035,6 +1035,32 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
+			id: "thesummoner:enhanced_summoner_orb"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thesummoner:summoner_orb"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "thesummoner:summoner"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mowziesmobs:earth_talisman"
 		}
 	},
@@ -1686,6 +1712,10 @@
 		weight: 2
 	},
 	{
+		item: "cyclicmagic:beacon_potion",
+		weight: 2
+	},
+	{
 		item: {
 			id: "minecraft:red_flower",
 			tag: {
@@ -1886,6 +1916,14 @@
 	{
 		item: "bewitchment:sanguine_cloth",
 		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:poppet_vampiric"
+		}
 	},
 	{
 		item: "bewitchment:bottled_hellfire"
