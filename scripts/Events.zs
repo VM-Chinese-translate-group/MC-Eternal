@@ -14,7 +14,11 @@ events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLiv
 				if(multishoot == enchts.definition.id){
 					event.cancel();
 					if (!event.player.world.isRemote()) {
+<<<<<<< HEAD
 						event.player.sendChat("Multishot 已被禁用，但玩家 " ~ event.player.name ~ " 仍尝试使用。");
+=======
+						event.player.sendChat("Multishot is disabled, but the player " ~ event.player.name ~ " tried to use anyways.");
+>>>>>>> fd068b6ec48a0a72f8e3b5bf7308c739a5448fd5
 					}
 				}
 			}
@@ -38,11 +42,19 @@ events.onEntityLivingEquipmentChange(function(event as crafttweaker.event.Entity
 				val user as IPlayer = event.entityLivingBase;
 				if (!event.entityLivingBase.world.isRemote()) {
 					event.entityLivingBase.setItemToSlot(event.slot, null);
+<<<<<<< HEAD
 					user.sendChat("该物品不再存在");
 				}
 				if (event.entityLivingBase.world.isRemote()) {
 					event.entityLivingBase.setItemToSlot(event.slot, null);
 					user.sendChat("该物品不再存在");
+=======
+					user.sendChat("The item is no more");
+				}
+				if (event.entityLivingBase.world.isRemote()) {
+					event.entityLivingBase.setItemToSlot(event.slot, null);
+					user.sendChat("The item is no more");
+>>>>>>> fd068b6ec48a0a72f8e3b5bf7308c739a5448fd5
 				}
 				
 			}				
