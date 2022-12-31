@@ -1,4 +1,4 @@
-任务分配见“任务分配.xls”
+任务分配见 https://docs.qq.com/sheet/DUHh0SlNrcktKSFdD?tab=BB08J2&u=33ca5fce19c849b1858b5dfcba569c81
 
 不要在en_us中直接汉化！！
 先复制en_us并改名为zh_cn，然后在其中汉化！！
