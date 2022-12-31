@@ -1,5 +1,5 @@
 {
-	title: "&lTeleport to the Aurorian",
+	title: "&l传送到极光幽境",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -8,7 +8,7 @@
 	},
 	x: 1.5d,
 	y: 4.0d,
-	description: "&oOne time use spell",
+	description: "&o一次性使用法术",
 	tasks: [{
 		uid: "208e3e2e",
 		type: "item",
@@ -24,7 +24,7 @@
 	rewards: [{
 		uid: "16dc1d3f",
 		type: "command",
-		title: "&lWarp The Aurorian",
+		title: "&l传送极光幽境",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -32,6 +32,6 @@
 			id: "theaurorian:locator",
 			tag: {}
 		},
-		command: "/say Hi, @team!"
+		command: "/say 你好，@TEAM!"
 	}]
 }

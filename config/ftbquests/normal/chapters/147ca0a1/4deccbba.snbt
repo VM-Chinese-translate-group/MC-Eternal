@@ -1,9 +1,9 @@
 {
 	x: 0.0d,
 	y: 2.0d,
-	description: "&oSlay a Pharaoh ",
+	description: "&o杀死一个法老",
 	text: [
-		"Place four royal torches around the sarcophagus on the Carved Limestone, continuing the pattern. Make sure they are all lit."
+		"在石棺周围的四个錾制石灰岩砖上，沿着图案放置皇家火把，确保火把都点亮了。"
 	],
 	dependencies: [
 		"99a4bfed"
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "265dab04",
 		type: "kill",
-		title: "&3Regicide",
+		title: "&3弑君之人",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

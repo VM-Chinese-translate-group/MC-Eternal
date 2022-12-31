@@ -1,8 +1,8 @@
 {
-	title: "Yuck!",
+	title: "恶心！",
 	x: -1.75d,
 	y: 1.05d,
-	description: "&oThis is definitely going to give me bad ju ju",
+	description: "&o这东西不干净",
 	dependencies: [
 		"93182620"
 	],
