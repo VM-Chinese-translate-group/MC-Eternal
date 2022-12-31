@@ -28,7 +28,6 @@ for essenceRecipes in essenceRecipeNames {
 	recipes.removeByRecipeName("mysticalagriculture:"~essenceRecipes);
 }
 
-
 #MystAggra配方
 var mystAggraRecipenames = ["stuff_1","nether_star_seeds","dragon_egg_seeds","dragon_egg_chunks","special_1"] as string[];
 for magrecipes in mystAggraRecipenames {
