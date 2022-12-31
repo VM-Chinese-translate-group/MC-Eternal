@@ -1,5 +1,6 @@
 #MC Eternal Scripts
 
+
 print("--- 加载 AdvRocketry.zs ---");
 
 #Remove Recipes
@@ -24,4 +25,3 @@ recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<ore:ingotBrickNetherGlaze
 <atum:scarab>.addTooltip(format.red("阿图姆只能通过高级火箭前往。"));
 <theaurorian:aurorianportalframebricks>.addTooltip(format.red("极光幽境只能通过高级火箭前往。"));
 
-print("--- AdvRocketry.zs 载入 ---");	
