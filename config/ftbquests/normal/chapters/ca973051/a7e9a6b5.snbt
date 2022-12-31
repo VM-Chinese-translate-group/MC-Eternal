@@ -1,7 +1,7 @@
 {
 	x: -12.0d,
 	y: -18.5d,
-	description: "&oAn entity of unimaginable power...",
+	description: "&o拥有难以想象力量的生物",
 	dependencies: [
 		"1a8e514e"
 	],
@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "cd6a83f6",
 		type: "kill",
-		title: "&d&lDefeat the Final Boss",
+		title: "&d&l打败最终BOSS",
 		icon: "twilightforest:castle_door 1 2",
 		entity: "twilightforest:kobold",
 		value: 1L
@@ -34,11 +34,11 @@
 				}],
 				display: {
 					Lore: [
-						"Wielded by Ancient Giants to slay great creatures...",
-						"§6Wield in Offhand to multiply Damage of other weapons, at the cost of a LOT of Attack Speed.",
-						"§dExclusive Twilight Relic"
+						"曾由古代巨人挥舞,以杀死伟大的生物。。。",
+						"§6在副手时挥舞,以大量攻速为代价,提高主武器的伤害",
+						"§d暮色森林独家遗物"
 					],
-					Name: "§7§lTitan's Bane"
+					Name: "§7§l泰坦巨剑"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 4435534,
@@ -47,7 +47,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.attackDamage",
 					Operation: 0,
-					Name: "Titanslaying"
+					Name: "泰坦杀戮"
 				},
 				{
 					UUIDMost: 4437534,
@@ -56,7 +56,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.attackSpeed",
 					Operation: 0,
-					Name: "Titanslaying"
+					Name: "泰坦杀戮"
 				},
 				{
 					UUIDMost: 4437534,
@@ -65,7 +65,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.reachDistance",
 					Operation: 0,
-					Name: "Titanslaying"
+					Name: "泰坦杀戮"
 				},
 				{
 					UUIDMost: 4435534,
@@ -74,7 +74,7 @@
 					Slot: "offhand",
 					AttributeName: "generic.attackDamage",
 					Operation: 1,
-					Name: "Titanslaying"
+					Name: "泰坦杀戮"
 				},
 				{
 					UUIDMost: 4437534,
@@ -83,7 +83,7 @@
 					Slot: "offhand",
 					AttributeName: "generic.attackSpeed",
 					Operation: 1,
-					Name: "Titanslaying"
+					Name: "泰坦杀戮"
 				}]
 			}
 		}

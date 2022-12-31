@@ -2,7 +2,7 @@
 	x: -10.0d,
 	y: -5.0d,
 	shape: "diamond",
-	description: "&oEnchanting a Raven's Feather with Light leads to a Focus which can reveal places of great magical power... What could such places hold?",
+	description: "&o用光对渡鸦的羽毛附魔,可以得到一个魔力核心,这个魔力核心可以可以揭示拥有巨量魔力的地方。。。 我不禁遐想,这种地方会有什么?",
 	dependencies: [
 		"8b2bcc08"
 	],

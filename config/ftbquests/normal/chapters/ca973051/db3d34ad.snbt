@@ -8,7 +8,7 @@
 	x: -20.0d,
 	y: -3.0d,
 	shape: "diamond",
-	description: "The Beneath is a massive mining dimension ruled by dragons and cursed by darkness. I'd suggest bringing a torch, who knows? perhaps the darkness can manifest itself *Creatures here are 4 times stronger than their overworld counterpart*",
+	description: "深渊世界是一个由龙统治，被黑暗所株洲的巨大采矿维度 我的建议是带上火把，但，谁知道呢？ 也许黑暗会自我彰显出来。 *注意：这里的所有生物比在主世界强上4倍*",
 	tasks: [{
 		uid: "052f0dfd",
 		type: "dimension",
@@ -26,7 +26,7 @@
 			id: "enderio:item_soul_vial",
 			tag: {
 				display: {
-					Name: "Personal Bodyguard"
+					Name: "召唤私人保镖"
 				},
 				entityId: "minecraft:villager_golem"
 			},

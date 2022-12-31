@@ -1,16 +1,16 @@
 {
-	title: "The Snow Queen",
+	title: "冰雪女王",
 	x: -10.0d,
 	y: -14.0d,
 	shape: "diamond",
-	description: "&oIn the heart of the great Glaciers of the Twilight Forest's coldest region, a Tower as beatiful as an Aurora lies... What could possibly be within?",
+	description: "&o在暮色森林最寒冷地区的大冰川中心，坐落着一座与极光一样美丽的高塔。。。我不禁幻想，里边会有些什么呢？",
 	dependencies: [
 		"d233564c"
 	],
 	tasks: [{
 		uid: "6c74d970",
 		type: "advancement",
-		title: "Advancement: &eClear Skies",
+		title: "进度: &e澄澈之空",
 		icon: "twilightforest:trophy 1 5",
 		advancement: "twilightforest:progress_glacier",
 		criterion: ""
@@ -45,11 +45,11 @@
 				}],
 				display: {
 					Lore: [
-						"Filled to the brim with powerful End magic...",
-						"§6Hits hard, but at what cost?",
-						"§dExclusive Twilight Relic"
+						"充满了强大而神奇的末影能量。。。",
+						"§6射击强而有力，但是代价是什么？",
+						"§d暮色森林专属遗物"
 					],
-					Name: "§d§lBow of Ender Exchange"
+					Name: "§d§l末影弓"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 43294,

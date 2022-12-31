@@ -1,16 +1,16 @@
 {
-	title: "The Naga",
+	title: "娜迦",
 	x: -11.5d,
 	y: -7.0d,
 	shape: "diamond",
-	description: "&oIn the depths of the Twilight Forest lie large Courtyards, they almost seem like a way to keep something contained... What could they possibly hold? &d&l*BEWARE! The Bosses of this Dimension are MUCH stronger than usual!*",
+	description: "&o在暮色森林的深处,有一个巨型院子, 他们好像是用来收容某种东西的.... 我不禁怀疑,它到底关的是什么? &d&l*警告,此整合包暮色森林的BOSS比你单独游玩的时候要强得多*",
 	dependencies: [
 		"0653553e"
 	],
 	tasks: [{
 		uid: "0611b624",
 		type: "advancement",
-		title: "Advancement: &eTime To Even The Scales",
+		title: "进度: &e娜迦猎人",
 		icon: "twilightforest:miniature_structure 1 5",
 		advancement: "twilightforest:progress_naga",
 		criterion: ""
@@ -49,10 +49,10 @@
 				}],
 				display: {
 					Lore: [
-						"Plated in several layers of Scales...",
-						"§dExclusive Twilight Relic"
+						"上渡有多层鳞片。。。",
+						"§d暮色森林独家遗物"
 					],
-					Name: "§2§lMultilayer Naga Scale Leggings"
+					Name: "§2§l多层鳞片娜迦护腿"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 443528,

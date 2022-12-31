@@ -1,16 +1,16 @@
 {
-	title: "The Minoshroom",
+	title: "暮色森林的米诺菇",
 	x: -14.0d,
 	y: -11.0d,
 	shape: "diamond",
-	description: "&oIn the Swamps of the Twilight Forest lay Hills with an entrance to an Underground Labyrinth... What could they possibly contain? &l*Eat the Meef Stroganoff to progress further!*",
+	description: "&o在暮色森林的沼泽地中，有一个小山包，里面有通向地下迷宫的入口。。。 地下迷宫里会有什么呢？ &l*吃了牛头人沙拉酱肉才能有进一步发现*",
 	dependencies: [
 		"0647fe18"
 	],
 	tasks: [{
 		uid: "5767c4a6",
 		type: "advancement",
-		title: "Advancement: &eMighty Stroganoff",
+		title: "进度: &e强力的牛肉人沙拉酱肉",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -50,11 +50,11 @@
 				}],
 				display: {
 					Lore: [
-						"Once wielded by the strongest of Minotaurs...",
-						"§6Wield in Offhand for a Speed boost.",
-						"§dExclusive Twilight Relic"
+						"曾经由最强壮的米诺陶诺斯使用",
+						"§6在副手挥动获得速度提升。",
+						"§d暮色森林独家遗物"
 					],
-					Name: "§3§lFurious Minoshroom Axe"
+					Name: "§3§l暴怒米诺陶战斧"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 324924,

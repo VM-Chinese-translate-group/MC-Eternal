@@ -1,8 +1,8 @@
 {
-	title: "&a&lDraeton Aircraft",
+	title: "&a&l德雷顿飞艇",
 	x: -6.5d,
 	y: -3.5d,
-	description: "An aircraft used to soar the skies of the Betweenlands",
+	description: "一架用于在交错次元的天空翱翔的飞行器",
 	dependencies: [
 		"b86b7a71"
 	],

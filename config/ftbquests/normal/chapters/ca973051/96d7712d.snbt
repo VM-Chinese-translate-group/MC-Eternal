@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -13.0d,
-	description: "&oFiery Thorns!",
+	description: "&o燃烧荆棘！",
 	dependencies: [
 		"d592428b",
 		"7e91214b"

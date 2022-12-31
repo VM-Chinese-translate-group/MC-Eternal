@@ -2,9 +2,9 @@
 	x: -18.0d,
 	y: -1.0d,
 	shape: "gear",
-	description: "*Combine multiple rat upgrades into one upgrade*",
+	description: "*将多个老鼠升级合成一个*",
 	text: [
-		"Imagine a world full of battle-god flying rats... I can and its beautiful "
+		"你能想象吗，一个充满战神级飞鼠的世界，反正我可以，而且那世界一定很美 "
 	],
 	dependencies: [
 		"af8a9ce0"

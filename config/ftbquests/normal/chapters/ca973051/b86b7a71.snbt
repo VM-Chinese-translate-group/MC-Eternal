@@ -3,7 +3,7 @@
 	x: -8.0d,
 	y: -3.0d,
 	shape: "diamond",
-	description: "The Betweenlands dimension is a dark and mysterious realm where strange, monstrous creatures roam amongst the remnants of long lost civilisations that have succumbed to the spread of decay. As dangerous as it is beautiful, there is much to explore!",
+	description: "交错次元是一个黑暗而神秘的维度，那里有奇怪且畸形的生物在早已消逝的文明的遗迹中游荡，这些文明已经屈服于不断蔓延的腐烂。这个维度既危险又美丽，更有许多事物等你探索！",
 	tasks: [{
 		uid: "f181e24d",
 		type: "dimension",

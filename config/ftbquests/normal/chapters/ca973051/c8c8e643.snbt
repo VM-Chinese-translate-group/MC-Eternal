@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -15.0d,
-	description: "&oI've got you in my Sights!",
+	description: "&o我看见你了!",
 	dependencies: [
 		"eaed8a89"
 	],

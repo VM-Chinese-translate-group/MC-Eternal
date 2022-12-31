@@ -1,7 +1,7 @@
 {
 	x: -18.5d,
 	y: -3.5d,
-	description: "*Bonemeal grass in Ratlantis*",
+	description: "*鼠西洲的灰色植株*",
 	dependencies: [
 		"fc9d0886"
 	],
