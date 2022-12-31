@@ -8,12 +8,9 @@ var pamgarden = ["arid","frost","shaded","soggy","tropical","windy"] as string[]
 recipes.addShaped(<harvestcraft:toastitem>, [[<ore:cropCinnamon>, <dungeontactics:toast>]]);
 recipes.removeShapeless(<harvestcraft:plainyogurtitem> * 4, [<harvestcraft:plainyogurtitem>, <minecraft:leather>]);
 for gardens in pamgarden {
-	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("Disabled, purchase Harvestcraft seeds from the Farming for Blockheads Market"));
+	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("禁用，请从农场贸易的贸易站中购买潘马斯农场中的种子"));
 }
 
-<<<<<<< HEAD
-print("--- Harvestcraft.zs 载入 ---");	
-=======
 //Recipes for Uncraftable Pam's foods
 
 //BBQ Jackfruit
@@ -50,5 +47,4 @@ recipes.addShapeless("schnitzel_mce", <harvestcraft:schnitzelitem>, [<ore:toolSk
 //Imitation Crab Sticks
 recipes.addShapeless("imitationcrabsticks_mce", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>.reuse(), <ore:cropWheat>, <ore:listAllfishcooked>, <ore:listAllegg>, <ore:dyeRed>]);
 
-print("--- Harvestcraft.zs initialized ---");	
->>>>>>> 5fc3e6368e68926a5478c5b9ce09684462a17af7
+print("--- Harvestcraft.zs 载入 ---");	

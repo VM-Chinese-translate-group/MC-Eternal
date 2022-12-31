@@ -3,56 +3,56 @@ import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 #MC Eternal Scripts
 
-print("--- loading Tooltip.zs ---");
+print("--- 加载 Tooltip.zs ---");
 
 #Add tooltip
-<extrautils2:bagofholding>.addTooltip(format.red("WARNING! Deletes items when switching gamemodes"));
-<rats:arcane_technology>.addTooltip(format.gold("Drops from the Ratlantean Automaton"));
-<ftbquests:book>.addTooltip(format.gold("A new beginning, Open me!"));
-<minecraft:nether_star>.addTooltip(format.gold("Earth below us, Drifting falling"));
-<ebwizardry:crystal_block:*>.addTooltip(format.gold("Can be used to ward off Nether Portal Corruption"));
-<wings:fairy_dust>.addTooltip(format.gold("Can be used to transmute certain metals. This dust radiates primal magic energy"));
-<ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("Step one... Dress to impress!"));
-<ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("Keep your eyes on the stars, and your feet on the ground. -Theodore Roosevelt"));
-<mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple("Do all Mystical Agriculture quests to unlock"));
-<mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple("Do all Farming and Agriculture quests to unlock"));
-<minecolonies:blockhuttownhall>.addTooltip(format.darkPurple("Use a supplyship or supplycamp to obtain"));
-<ftbquests:lootcrate>.withTag({type: "cheesy_cache"}).addTooltip(format.gold("Hmm I wonder what it tastes like?... Did I really just think that? Yes you did"));
-<ftbquests:lootcrate>.withTag({type: "common_lootbox"}).addTooltip(format.gold("Random loot reward for completing a quest"));
-<ftbquests:lootcrate>.withTag({type: "unclaimed_black_market_container"}).addTooltip(format.gold("An item sold at a previous auction that was never picked up by the winning bidder. Buyer beware."));
-<icbmclassic:emptower>.addTooltip(format.darkPurple("Only obtainable from the Shop"));
-<cyclicmagic:inventory_food>.addTooltip(format.red("WARNING! Can delete items inside when the game crashes or closes unexpectedly"));
-<cookingforblockheads:sink>.addTooltip(format.red("Does not produce Infinite Water"));
-<immersiveengineering:railgun>.addTooltip(format.lightPurple("Damage amplified to 40x"));
-<immersiveengineering:revolver>.addTooltip(format.lightPurple("Bullet Damage values amplified to ~15x"));
-<thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
-<agricraft:sprinkler>.addTooltip(format.red("WARNING: Will cause serious FPS lag if Particles are not disabled in Agricraft's Config"));
-<extrautils2:chickenring:1>.addTooltip(format.red("Do not wear as a bauble, may teleport you down randomly while flying"));
-<appliedenergistics2:sky_stone_block>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
-<thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("Damage Amplified to 20x"));
-<appliedenergistics2:sky_compass>.addTooltip(format.red("Only Spawns in The Beneath and on The Moon"));
-<lootgames:ms_activator>.addTooltip(format.red("WARNING: DO NOT PLACE IN YOUR BASE"));
-<erebus:materials:1>.addTooltip(format.gold("The Tinkers' Construct material for this item has been buffed massively."));
-<theaurorian:auroriansteel>.addTooltip(format.gold("The Tinkers' Construct material for this item has been buffed massively."));
-<extrautils2:teleporter:1>.addTooltip(format.red("Disabled and will cause a Crash if you try to use it! use the Beneath and Beneath Teleporter instead."));
-<thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("Right-click with an Essentia Filter to unclog!"));
-<thaumcraft:filter>.addTooltip(format.aqua("Right-click a Clogged Flux Condenser Lattice to unclog it!"));
-<nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4x Total Power Generation! (Disclaimer: reflected in Fuel tooltips)"));
-<randomthings:spectreanchor>.addTooltip(format.red("Use Tombstone Soulbound instead"));
+<extrautils2:bagofholding>.addTooltip(format.red("警告！ 切换游戏模式时将会删除物品"));
+<rats:arcane_technology>.addTooltip(format.gold("从鼠西族战机上掉落"));
+<ftbquests:book>.addTooltip(format.gold("一个新的起点，打开我！"));
+<minecraft:nether_star>.addTooltip(format.gold("地球在我们下面，漂流着坠落"));
+<ebwizardry:crystal_block:*>.addTooltip(format.gold("用于防止下界传送门腐败"));
+<wings:fairy_dust>.addTooltip(format.gold("可用于转化某些金属。这尘埃散发着原始的魔法能量"));
+<ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("第一步…… 穿得让人印象深刻！"));
+<ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("眼望星空，脚踏实地。——西奥多·罗斯福"));
+<mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple("完成所有神秘农业任务以解锁"));
+<mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple("完成所有 Farming 和 Agriculture 任务以解锁"));
+<minecolonies:blockhuttownhall>.addTooltip(format.darkPurple("通过补给船或补给营地获取"));
+<ftbquests:lootcrate>.withTag({type: "cheesy_cache"}).addTooltip(format.gold("嗯，我想知道它是什么味道？…… 我真的是这么想的吗？你是这么想的"));
+<ftbquests:lootcrate>.withTag({type: "common_lootbox"}).addTooltip(format.gold("完成任务的随机战利品奖励"));
+<ftbquests:lootcrate>.withTag({type: "unclaimed_black_market_container"}).addTooltip(format.gold("在前一次拍卖中售出的物品，中标者未购买。买家当心上当受骗。"));
+<icbmclassic:emptower>.addTooltip(format.darkPurple("仅可从商店购买"));
+<cyclicmagic:inventory_food>.addTooltip(format.red("警告！当游戏崩溃或意外关闭时，可以删除里面的物品"));
+<cookingforblockheads:sink>.addTooltip(format.red("不无限产生水"));
+<immersiveengineering:railgun>.addTooltip(format.lightPurple("伤害放大至 40 倍"));
+<immersiveengineering:revolver>.addTooltip(format.lightPurple("子弹伤害放大至约 15 倍"));
+<thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("伤害放大至 20 倍"));
+<agricraft:sprinkler>.addTooltip(format.red("警告：如果农业工艺的配置中未禁用粒子，将导致严重的FPS卡顿"));
+<extrautils2:chickenring:1>.addTooltip(format.red("不要穿在饰品栏上，飞行时可能会随机传送你"));
+<appliedenergistics2:sky_stone_block>.addTooltip(format.red("只会在深渊世界和月球上重生"));
+<thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("伤害放大至 20 倍));
+<appliedenergistics2:sky_compass>.addTooltip(format.red("只会在深渊世界和月球上重生"));
+<lootgames:ms_activator>.addTooltip(format.red("警告：不 要 放 在 你 的 基 地！"));
+<erebus:materials:1>.addTooltip(format.gold("匠魂的材料已被大量修改。"));
+<theaurorian:auroriansteel>.addTooltip(format.gold("匠魂的材料已被大量修改。"));
+<extrautils2:teleporter:1>.addTooltip(format.red("禁用，如果您尝试使用它，将导致崩溃！请改用深渊世界和深渊世界深渊世界传送门。"));
+<thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("用源质滤管右键以清除！"));
+<thaumcraft:filter>.addTooltip(format.aqua("右键堵塞的咒波凝结器格栅以清洗！"));
+<nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4 倍总发电量！（免责声明：反映在燃料工具提示中）"));
+<randomthings:spectreanchor>.addTooltip(format.red("改用墓碑绑定"));
 
-<necromancersdelight:charm_bone_bag>.addTooltip(format.red("Temporarily Disabled, this item will be obtainable again in a (hopefully near) future version of MCE."));
+<necromancersdelight:charm_bone_bag>.addTooltip(format.red("暂时禁用，此物品将在（希望不久）将来的MCE版本中再次启用。"));
 
 var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
 for armor in supremarmor {
-  armor.addTooltip(format.red("Flight Disabled"));
+  armor.addTooltip(format.red("禁用飞行"));
 }
 
 var beneathores = [<mekanism:oreblock>,<nuclearcraft:ore:3>,<nuclearcraft:ore:5>,<nuclearcraft:ore:6>,<nuclearcraft:ore:7>,<immersiveengineering:ore:5>] as IItemStack[];
 for ores in beneathores {
-	ores.addTooltip(format.darkPurple("Only found in the Beneath"));
+	ores.addTooltip(format.darkPurple("只能在深渊世界中找到"));
 }
 
-var mektooltiptext = ["If used in an AE2 Autocrafting Pattern, manually add this item into the crafting pattern, else it will not work.","Do not place with a Builder's Wand, will revert to Basic version."] as string[];
+var mektooltiptext = ["如果在AE2自动制作样板中使用，请手动将此物品添加到制作样板中，否则将无法工作。","不要使用建筑之杖放置，否则将恢复为基础版本。"] as string[];
 var mektooltipitems = [<mekanism:energycube>,<mekanism:basicblock2:3>,<mekanism:basicblock2:4>,<mekanism:transmitter:*>,<mekanism:gastank>,<mekanism:basicblock:6>,<mekanism:machineblock2:11>] as IItemStack[];
 for items in mektooltipitems {
 	for text in mektooltiptext {
@@ -61,23 +61,23 @@ for items in mektooltipitems {
 }
 val mekfactorymetas = [5,6,7] as int[];
 for metas in mekfactorymetas {
-	itemUtils.getItem("mekanism:machineblock",metas).addTooltip(format.red("Do not place with a Builder's Wand, will transform into a Smelting Factory"));
+	itemUtils.getItem("mekanism:machineblock",metas).addTooltip(format.red("不要使用建筑之杖放置，否则将变为熔炼工厂"));
 }
 
 
 val thaumcuriosities = { 
-	1:"Alchemy", 
-	0:"Auromancy", 
-	4:"Infusion", 
-	5:"Artifice", 
-	2:"Golemancy", 
-	3:"Eldritch"
+	1:"炼金术", 
+	0:"神秘学", 
+	4:"奥术注魔", 
+	5:"炼化学", 
+	2:"傀儡学", 
+	3:"邪术学"
 } as string[int];
 
 for metas in thaumcuriosities {
-	itemUtils.getItem("thaumcraft:curio",metas).addTooltip(format.lightPurple("More likely to give "~thaumcuriosities[metas]~" Research"));
+	itemUtils.getItem("thaumcraft:curio",metas).addTooltip(format.lightPurple("更有可能获得 "~thaumcuriosities[metas]~" 研究"));
 }
-<thaumcraft:curio:3>.addTooltip(format.darkPurple("Will grant some Warp on use!"));
+<thaumcraft:curio:3>.addTooltip(format.darkPurple("使用时会获得一些Warp！"));
 
 var aePresses = [
 	<appliedenergistics2:material:13>,
@@ -87,7 +87,7 @@ var aePresses = [
 ] as IItemStack[];
 
 for press in aePresses {
-	press.addTooltip(format.aqua("Can be purchased in the Shop!"));
+	press.addTooltip(format.aqua("可在商店购买！"));
 }
 
 var meteorRelatedItems = [
@@ -96,7 +96,7 @@ var meteorRelatedItems = [
 ] as IItemStack[];
 
 for item in meteorRelatedItems {
-	item.addTooltip(format.red("AE2 Meteors Spawn in The Beneath and on The Moon"));
+	item.addTooltip(format.red("AE2陨石会生成在深渊世界和月球上"));
 }
 
 var candleData = {
@@ -119,7 +119,7 @@ var candleData = {
 } as IEnchantmentDefinition[][int];
 
 for meta in candleData {
-	itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.gold("Boosts rates of in Matrix Enchanting:"), format.gold("Hold SHIFT to see affected Enchantments"));
+	itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.gold("提高矩阵内附魔的速率："), format.gold("按住 SHIFT 查看受影响的魔法"));
 	for enchant in candleData[meta] {
 		itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.aqua("- "~game.localize(enchant.name)));
 	}
@@ -134,7 +134,7 @@ val nonFunctionalExtraCellsThings = [
 
 for thing in nonFunctionalExtraCellsThings {
 	recipes.remove(thing);
-	thing.addTooltip(format.red("Disabled, doesn't work for technical reasons."));
+	thing.addTooltip(format.red("禁用，因技术原因无法使用。"));
 }
 
 val NBeeT = {MaxH: 50, Mate: {Chromosomes: [{UID1: "careerbees.energy", UID0: "careerbees.energy", Slot: 0 as byte}, {UID1: "forestry.speedSlow", UID0: "forestry.speedSlow", Slot: 1 as byte}, {UID1: "forestry.lifespanLong", UID0: "forestry.lifespanLong", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 6 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 9 as byte}, {UID1: "forestry.floweringSlow", UID0: "forestry.floweringSlow", Slot: 10 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 11 as byte}, {UID1: "careerbees.effect.rf", UID0: "careerbees.effect.rf", Slot: 12 as byte}]}, Health: 50, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "careerbees.energy", UID0: "careerbees.energy", Slot: 0 as byte}, {UID1: "forestry.speedSlow", UID0: "forestry.speedSlow", Slot: 1 as byte}, {UID1: "forestry.lifespanLong", UID0: "forestry.lifespanLong", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 6 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 9 as byte}, {UID1: "forestry.floweringSlow", UID0: "forestry.floweringSlow", Slot: 10 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 11 as byte}, {UID1: "careerbees.effect.rf", UID0: "careerbees.effect.rf", Slot: 12 as byte}]}} as IData;
@@ -144,17 +144,17 @@ val beeTypes = [
 	<forestry:bee_drone_ge>
 ] as IItemStack[];
 for bee in beeTypes {
-	bee.withTag(NBeeT).addTooltip(format.aqua("Cannot be bred directly, craft a Gene Sample of this species to acquire it"));
-	bee.withTag(NBeeT).addTooltip(format.aqua("See the uses for 'Avatar of Ratlantis' to find the recipe"));
+	bee.withTag(NBeeT).addTooltip(format.aqua("无法直接繁殖，请制作该物种的基因样本以获取它"));
+	bee.withTag(NBeeT).addTooltip(format.aqua("查看 鼠西洲的降灵 的用法以找到配方"));
 }
 
 for num in 0 to 5 {
-	itemUtils.getItem("vampirism:pure_blood", num).addTooltip(format.aqua("Dropped by Level "+(num+1)+" Vampire Barons, or crafted, for a price."));
+	itemUtils.getItem("vampirism:pure_blood", num).addTooltip(format.aqua("被 "+(num+1)+" 级吸血鬼伯爵丢弃，也许是精心制作的，价格不菲。"));
 }
 
 for resItem,amount in {<xreliquary:angelheart_vial> : 5, <xreliquary:phoenix_down>: 25} as string[IItemStack] {
-	resItem.addTooltip(format.lightPurple("Restores "+amount+"% HP."));
+	resItem.addTooltip(format.lightPurple("恢复 "+amount+"% 生命值."));
 }
 
-print("--- Tooltip.zs initialized ---");	
+print("--- Tooltip.zs 载入 ---");	
 

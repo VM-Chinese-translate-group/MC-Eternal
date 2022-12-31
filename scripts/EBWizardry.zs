@@ -1,6 +1,6 @@
 #MC Eternal Scripts
 
-print("--- loading EBWizardry.zs ---");
+print("--- 加载 EBWizardry.zs ---");
 
 #Setup/Vars
 // The spell oredict was not very functional across saves carried over between versions, it has been deprecated
@@ -29,7 +29,7 @@ val bookTypes = [
 #Disabled Spell Tooltips
 for spell in disabledSpells {
 	for book in bookTypes {
-		itemUtils.getItem(book, spell).addTooltip(format.red("Disabled, cannot be bound to Wands or Cast."));
+		itemUtils.getItem(book, spell).addTooltip(format.red("禁用，无法绑定到魔杖或进行施法。"));
 	}
 }
 
@@ -54,4 +54,4 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mce_warlock_transmutation_
 	[<ebwizardry:ethereal_crystalweave>, <twilightforest:knightmetal_ring>, null]
 ]);
 
-print("--- EBWizardry.zs initialized ---");
+print("--- EBWizardry.zs 载入 ---");

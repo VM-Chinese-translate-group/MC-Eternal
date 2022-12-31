@@ -1,8 +1,8 @@
 {
-	title: "恶心！",
+	title: "恶心！（呕————）",
 	x: -1.75d,
 	y: 1.05d,
-	description: "&o这东西不干净",
+	description: "&o恶心的东西指定不怎么干净，留着肯定会带来厄运",
 	dependencies: [
 		"93182620"
 	],

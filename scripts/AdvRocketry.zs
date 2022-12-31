@@ -35,22 +35,15 @@ recipes.addShaped(<advancedrocketry:fuelingstation>, [[<ore:crystalIron>, <ore:c
 recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<ore:ingotBrickNetherGlazed>, <ore:gearTitanium>, <ore:ingotBrickNetherGlazed>], [<ore:itemPrecientCrystal>, <ore:componentComputerChip>, <ore:itemPrecientCrystal>], [<ore:ingotBrickNetherGlazed>, <powersuits:powerarmorcomponent:12>, <ore:ingotBrickNetherGlazed>]]);
 
 #Space Dimension Tooltips
-<<<<<<< HEAD
-<erebus:gaean_keystone>.addTooltip(format.red("混沌之地只能通过高级火箭前往。"));
-<erebus:portal_activator>.addTooltip(format.red("混沌之地只能通过高级火箭前往。"));
-<atum:scarab>.addTooltip(format.red("阿图姆只能通过高级火箭前往。"));
-<theaurorian:aurorianportalframebricks>.addTooltip(format.red("极光幽境只能通过高级火箭前往。"));
-=======
 var ohnoeffort = {
-	<erebus:gaean_keystone> : "The Erebus",
-	<erebus:portal_activator> : "The Erebus",
-	<atum:scarab> : "The Atum",
-	<theaurorian:aurorianportalframebricks> : "The Aurorian"
+	<erebus:gaean_keystone> : "混沌之地",
+	<erebus:portal_activator> : "混沌之地",
+	<atum:scarab> : "阿图姆",
+	<theaurorian:aurorianportalframebricks> : "极光幽境"
 } as string[IItemStack];
 
 for usualobjects in ohnoeffort {
-	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" cannot be accessed normally.\nYou will need to use Advanced Rocketry."));
+	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" 无法正常前往。\n你需要使用高级火箭前往。"));
 }
->>>>>>> 5fc3e6368e68926a5478c5b9ce09684462a17af7
 
 print("--- AdvRocketry.zs 载入 ---");	
