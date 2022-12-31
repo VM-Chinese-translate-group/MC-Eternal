@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 4.5d,
 	shape: "diamond",
-	description: "Harness the power of the Earth!",
+	description: "掌握地球的力量！",
 	tasks: [{
 		uid: "596beca6",
 		type: "item",

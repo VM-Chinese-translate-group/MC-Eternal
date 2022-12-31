@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "6abe261c",
 		type: "item",
-		title: "Troll's Mossy Column",
+		title: "食人妖的苔石柱",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
