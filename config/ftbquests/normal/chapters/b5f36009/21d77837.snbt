@@ -1,10 +1,10 @@
 {
-	title: "&bVisit Auroian",
+	title: "&b前往极光幽境",
 	icon: "theaurorian:petuniaplant",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "octagon",
-	description: "&oThis beautiful planet consists of a dark cold quiet forest, filled with magical plants and forgotten ruins bathed in moon light. Quite the sight to be seen.",
+	description: "&o这颗美丽的星球由一片幽暗、寒凉、宁谧的森林组成，森林里生长着神奇瑰丽的植物，也有隐藏在其中的古老废墟在月光下熠熠生辉。一切景象都那么美好。",
 	size: 1.3d,
 	tasks: [{
 		uid: "e4af555b",

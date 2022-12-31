@@ -82,7 +82,7 @@
         
 		"Bisect":
         {
-            "text" : "想要服务器？使用永恒代码",
+            "text" : "想要服务器吗？使用代码Eternal",
 			"normalTextColor" : 3125670,
 			"hoverTextColor" : 7654321,
             "posX" : -90,
@@ -193,20 +193,6 @@
             {
                 "type" : "openGui",
                 "gui" : "credits"
-            }
-        },
-        "vm":
-        {
-            "text" : "VM 汉化组汉化！",
-            "hoverText" : "§nVM 汉化组汉化！",
-            "posX" : -197,
-            "posY" : -20,
-            "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://vmct-cn.top/mce"
             }
         },
         
