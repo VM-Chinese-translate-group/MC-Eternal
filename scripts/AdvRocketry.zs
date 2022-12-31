@@ -1,6 +1,6 @@
 #MC Eternal Scripts
 
-print("--- loading AdvRocketry.zs ---");
+print("--- 加载 AdvRocketry.zs ---");
 
 #Remove Recipes
 recipes.remove(<advancedrocketry:stationbuilder>);
@@ -19,9 +19,9 @@ recipes.addShaped(<advancedrocketry:fuelingstation>, [[<ore:crystalIron>, <ore:c
 recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<ore:ingotBrickNetherGlazed>, <ore:gearTitanium>, <ore:ingotBrickNetherGlazed>], [<ore:itemPrecientCrystal>, <ore:componentComputerChip>, <ore:itemPrecientCrystal>], [<ore:ingotBrickNetherGlazed>, <powersuits:powerarmorcomponent:12>, <ore:ingotBrickNetherGlazed>]]);
 
 #Space Dimension Tooltips
-<erebus:gaean_keystone>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry."));
-<erebus:portal_activator>.addTooltip(format.red("Erebus is only accessible through Advanced Rocketry."));
-<atum:scarab>.addTooltip(format.red("The Atum is only accessible through Advanced Rocketry."));
-<theaurorian:aurorianportalframebricks>.addTooltip(format.red("The Aurorian is only accessible through Advanced Rocketry."));
+<erebus:gaean_keystone>.addTooltip(format.red("混沌之地只能通过高级火箭前往。"));
+<erebus:portal_activator>.addTooltip(format.red("混沌之地只能通过高级火箭前往。"));
+<atum:scarab>.addTooltip(format.red("阿图姆只能通过高级火箭前往。"));
+<theaurorian:aurorianportalframebricks>.addTooltip(format.red("极光幽境只能通过高级火箭前往。"));
 
-print("--- AdvRocketry.zs initialized ---");	
+print("--- AdvRocketry.zs 载入 ---");	
