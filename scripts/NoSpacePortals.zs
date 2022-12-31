@@ -18,7 +18,7 @@ events.onEntityTravelToDimension(function(event as crafttweaker.event.EntityTrav
 						if(user.world.getBlock(X, Y, Z).definition.id == "theaurorian:aurorianportal" || user.world.getBlock(X, Y, Z).definition.id == "erebus:portal" || user.world.getBlock(X, Y, Z).definition.id == "atum:portal") {
 							event.cancel();	
 							if(!user.world.isRemote()) {
-								user.sendChat("§c使用先进的火箭达到这个维度！");
+								user.sendChat("§c使用高级火箭达到这个维度！");
 							}
 						}
 					}

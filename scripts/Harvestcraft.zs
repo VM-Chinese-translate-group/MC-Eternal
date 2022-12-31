@@ -1,6 +1,6 @@
 #MC Eternal Scripts
 
-print("--- loading Harvestcraft.zs ---");
+print("--- 加载 Harvestcraft.zs ---");
 
 var pamgarden = ["arid","frost","shaded","soggy","tropical","windy"] as string[];
 
@@ -11,4 +11,4 @@ for gardens in pamgarden {
 	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("已禁用，从傻瓜市场购买农作物种子"));
 }
 
-print("--- Harvestcraft.zs initialized ---");	
+print("--- Harvestcraft.zs 载入 ---");	

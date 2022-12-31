@@ -174,5 +174,5 @@ import crafttweaker.oredict.IOreDictEntry;
 		] as IItemStack[];
 
 	for itemBook in addedBooks {
-		itemBook.addTooltip(format.gold("Included within the standard Akashic Tome"));
+		itemBook.addTooltip(format.gold("包含在阿卡什宝典中"));
 	}
