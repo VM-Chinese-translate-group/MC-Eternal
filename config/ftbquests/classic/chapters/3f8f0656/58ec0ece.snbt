@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"ea06a612"
+	],
+	tasks: [{
+		uid: "14917459",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:controlcircuit",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "0e948731",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "82a2b0e6",
+		type: "loot",
+		table: 1
+	}]
+}

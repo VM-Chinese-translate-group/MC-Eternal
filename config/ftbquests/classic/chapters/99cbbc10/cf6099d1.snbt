@@ -1,0 +1,181 @@
+{
+	title: "Something smells fishy!",
+	x: 7.0d,
+	y: -2.0d,
+	text: [
+		"Raw fish can be smelted in a furnace to create cooked fish except Calamari, Clam, Crab, Crayfish, Frog, Octopus, Scallop, Shrimp, Snail and Turtles."
+	],
+	dependencies: [
+		"281d36be"
+	],
+	tasks: [{
+		uid: "89c9b11d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:anchovyrawitem"
+		}]
+	},
+	{
+		uid: "394ef619",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:bassrawitem"
+		}]
+	},
+	{
+		uid: "3ef5f0e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:calamarirawitem"
+		}]
+	},
+	{
+		uid: "51925d6c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:catfishrawitem"
+		}]
+	},
+	{
+		uid: "259a1d38",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:charrrawitem"
+		}]
+	},
+	{
+		uid: "67880249",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:grouperrawitem"
+		}]
+	},
+	{
+		uid: "16ad1828",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:herringrawitem"
+		}]
+	},
+	{
+		uid: "0d3dc160",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:mudfishrawitem"
+		}]
+	},
+	{
+		uid: "ec7444e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:octopusrawitem"
+		}]
+	},
+	{
+		uid: "ec95ed5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:perchrawitem"
+		}]
+	},
+	{
+		uid: "b6e25810",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:snapperrawitem"
+		}]
+	},
+	{
+		uid: "1dac7dfc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:tilapiarawitem"
+		}]
+	},
+	{
+		uid: "6aea51f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:troutrawitem"
+		}]
+	},
+	{
+		uid: "728aa059",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:tunarawitem"
+		}]
+	},
+	{
+		uid: "a07a464e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:walleyerawitem"
+		}]
+	},
+	{
+		uid: "6d2b1453",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:greenheartfishitem"
+		}]
+	}],
+	rewards: [{
+		uid: "75a4e3ed",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "35f9d1a8",
+		type: "loot",
+		table: 1
+	}]
+}

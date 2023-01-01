@@ -1,0 +1,21 @@
+{
+	x: -17.0d,
+	y: -7.5d,
+	shape: "square",
+	tasks: [{
+		uid: "28425eba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "0ae064d1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

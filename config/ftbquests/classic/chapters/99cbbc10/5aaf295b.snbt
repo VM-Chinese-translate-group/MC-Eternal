@@ -1,0 +1,69 @@
+{
+	title: "Machines in Harvestcraft",
+	x: 0.0d,
+	y: -3.5d,
+	description: "They don�t need energy!",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9dce4f0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:apiary"
+		}]
+	},
+	{
+		uid: "9ce5c9c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:grinder"
+		}]
+	},
+	{
+		uid: "18ae5e76",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:presser"
+		}]
+	},
+	{
+		uid: "b04cfd80",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:waterfilter"
+		}]
+	},
+	{
+		uid: "f67da2e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:well"
+		}]
+	}],
+	rewards: [{
+		uid: "91c449c6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a2a5d7ce",
+		type: "loot",
+		table: 1
+	}]
+}

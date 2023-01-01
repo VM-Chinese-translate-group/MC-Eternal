@@ -1,0 +1,41 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	description: "Pain and Suffering",
+	dependencies: [
+		"ca973051"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "245e050c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:opinium",
+			Damage: 8s
+		}],
+		count: 100L
+	}],
+	rewards: [{
+		uid: "62cbd30a",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "9c148a9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		},
+		count: 10
+	}]
+}

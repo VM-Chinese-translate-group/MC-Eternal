@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	description: "The lifeblood of futuristic technology.",
+	dependencies: [
+		"aa690e30"
+	],
+	tasks: [{
+		uid: "5cd31ab4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:ingot",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "64d34253",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

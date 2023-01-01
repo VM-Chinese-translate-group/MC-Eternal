@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"5111a663"
+	],
+	tasks: [{
+		uid: "f5a1e441",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 22s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "597a4594",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

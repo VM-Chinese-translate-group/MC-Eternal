@@ -1,0 +1,41 @@
+{
+	x: 2.0d,
+	y: -10.0d,
+	dependencies: [
+		"75791fca"
+	],
+	tasks: [{
+		uid: "087288fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:controlcircuit",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "c43e0eb8",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "52990d72",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "4dc65431",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

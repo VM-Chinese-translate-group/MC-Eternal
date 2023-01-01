@@ -1,0 +1,56 @@
+{
+	x: -10.15d,
+	y: -10.5d,
+	shape: "octagon",
+	dependencies: [
+		"bc9c4ee1"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "8ee46e3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:xp_drain"
+		}]
+	},
+	{
+		uid: "6ea90ad5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:xp_shower"
+		}]
+	},
+	{
+		uid: "1631946d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:tank"
+		}]
+	}],
+	rewards: [{
+		uid: "5cdc28fc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b322e4a6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ineffableglass",
+			Damage: 3s
+		},
+		count: 16
+	}]
+}

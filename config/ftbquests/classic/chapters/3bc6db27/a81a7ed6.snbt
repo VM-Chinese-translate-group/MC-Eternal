@@ -1,0 +1,43 @@
+{
+	title: "Major components",
+	x: -1.5d,
+	y: 7.5d,
+	description: "Common materials used to make advance machines and items",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "751a7037",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:plates",
+			Damage: 2s
+		}],
+		count: 32L
+	},
+	{
+		uid: "5ceab3f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:plates",
+			Damage: 36s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d25f165d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e2615a24",
+		type: "loot",
+		table: 1
+	}]
+}

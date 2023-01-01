@@ -1,0 +1,38 @@
+{
+	title: "Special Blends",
+	x: 12.0d,
+	y: 7.5d,
+	description: "Used to upgrade Machine Chassis",
+	dependencies: [
+		"3fd484fc"
+	],
+	tasks: [{
+		uid: "4c3b2077",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 51s
+		}],
+		count: 6L
+	},
+	{
+		uid: "2cd9f453",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 52s
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "835ed722",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

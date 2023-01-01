@@ -1,0 +1,96 @@
+{
+	title: "Runes of Sin",
+	x: 13.5d,
+	y: -5.0d,
+	description: "Quests around will unlock as you acquire each Rune!",
+	dependencies: [
+		"2d45e4da"
+	],
+	tasks: [{
+		uid: "34f7ff53",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 9s
+		}]
+	},
+	{
+		uid: "20d39f85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 10s
+		}]
+	},
+	{
+		uid: "d12ad7f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 11s
+		}]
+	},
+	{
+		uid: "d157bad6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 12s
+		}]
+	},
+	{
+		uid: "99f71948",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 13s
+		}]
+	},
+	{
+		uid: "9eb4a17e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 14s
+		}]
+	},
+	{
+		uid: "cf9ac603",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 15s
+		}]
+	}],
+	rewards: [{
+		uid: "9fac9d2a",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "2cfd0d84",
+		type: "loot",
+		table: 1
+	}]
+}

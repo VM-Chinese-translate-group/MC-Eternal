@@ -1,0 +1,23 @@
+{
+	x: 13.5d,
+	y: 10.5d,
+	description: "Basic Solar Generator",
+	dependencies: [
+		"043d0a65"
+	],
+	tasks: [{
+		uid: "e897eeb2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "964cd362",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

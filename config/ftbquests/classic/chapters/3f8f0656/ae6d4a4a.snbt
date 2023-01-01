@@ -1,0 +1,29 @@
+{
+	x: 10.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "878edfdc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:dominos"
+		}]
+	}],
+	rewards: [{
+		uid: "c55005ae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ec1adafd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chancecubes:chance_cube"
+		}
+	}]
+}

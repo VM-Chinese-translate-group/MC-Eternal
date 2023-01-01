@@ -1,0 +1,21 @@
+{
+	x: -16.0d,
+	y: -1.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "ea7d2f0a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bibliocraft:swordpedestal",
+			Damage: 15s
+		}]
+	}],
+	rewards: [{
+		uid: "cd135352",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

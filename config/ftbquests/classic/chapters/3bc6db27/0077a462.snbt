@@ -1,0 +1,28 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	dependencies: [
+		"0d4cae94"
+	],
+	tasks: [{
+		uid: "1b212eb8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 66s
+		}]
+	}],
+	rewards: [{
+		uid: "16246b5c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "aaa68023",
+		type: "loot",
+		table: 1
+	}]
+}

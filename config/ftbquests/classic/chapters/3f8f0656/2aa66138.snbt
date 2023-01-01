@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 9.5d,
+	dependencies: [
+		"a5523eb2"
+	],
+	tasks: [{
+		uid: "0edc5225",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openmodularturrets:upgrade_meta",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "7fb985b1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7454639c",
+		type: "loot",
+		table: 1
+	}]
+}

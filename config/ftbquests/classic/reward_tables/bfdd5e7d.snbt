@@ -1,0 +1,40 @@
+{
+	title: "Twilight",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:twilight_spell_book",
+			Damage: 174s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:twilight_spell_book",
+			Damage: 179s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:twilight_spell_book",
+			Damage: 174s
+		}
+	}],
+	loot_crate: {
+		string_id: "twilight",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

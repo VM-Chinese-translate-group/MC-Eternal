@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "bfa7e5d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:tank"
+		}]
+	}],
+	rewards: [{
+		uid: "ea3e9629",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

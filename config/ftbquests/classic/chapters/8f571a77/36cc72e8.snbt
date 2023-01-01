@@ -1,0 +1,38 @@
+{
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "inventorypets:nugget_lapis"
+	},
+	x: -8.0d,
+	y: -7.0d,
+	description: "Mining",
+	can_repeat: true,
+	tasks: [{
+		uid: "db124768",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "0d9f2580",
+		type: "item",
+		title: "1 Currency",
+		auto: "no_toast",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1L
+			}
+		}
+	}]
+}

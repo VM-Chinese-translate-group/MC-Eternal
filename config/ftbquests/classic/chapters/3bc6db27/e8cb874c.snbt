@@ -1,0 +1,23 @@
+{
+	x: -10.0d,
+	y: -0.5d,
+	dependencies: [
+		"ae866870"
+	],
+	tasks: [{
+		uid: "118d3c5e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:metal_device0",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "af54df84",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

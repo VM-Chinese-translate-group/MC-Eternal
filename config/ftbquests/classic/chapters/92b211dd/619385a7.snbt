@@ -1,0 +1,59 @@
+{
+	title: "Bare Minimum Rocket",
+	x: -1.5d,
+	y: -4.5d,
+	description: "Everything you need to build the absolute cheapest rocket possible.",
+	dependencies: [
+		"d78bfda8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "28fcebfc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "5ecab1e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:seat"
+		}]
+	},
+	{
+		uid: "7801d662",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:fueltank"
+		}],
+		count: 6L
+	},
+	{
+		uid: "0ceb26ed",
+		type: "item",
+		title: "Rocket Engine",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:rocketmotor"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:advrocketmotor"
+		}],
+		count: 2L
+	}]
+}

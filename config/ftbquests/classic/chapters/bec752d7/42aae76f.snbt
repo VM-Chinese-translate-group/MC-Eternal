@@ -1,0 +1,73 @@
+{
+	title: "Elemental Runes",
+	x: 15.0d,
+	y: -4.5d,
+	description: "Quests around will unlock as you acquire each Rune!",
+	dependencies: [
+		"2d45e4da"
+	],
+	tasks: [{
+		uid: "95bd4add",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "80831a7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune"
+		}]
+	},
+	{
+		uid: "10a2bedf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "4eb30150",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "5b6ca5ea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "3ef20ade",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "afefe13d",
+		type: "loot",
+		table: 1
+	}]
+}

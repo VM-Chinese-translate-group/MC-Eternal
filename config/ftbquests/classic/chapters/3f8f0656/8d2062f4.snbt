@@ -1,0 +1,57 @@
+{
+	x: -5.0d,
+	y: 10.0d,
+	description: "Can be bought from the Coin Shop!",
+	dependencies: [
+		"464d17d4"
+	],
+	tasks: [{
+		uid: "21f9438c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 13s
+		}]
+	},
+	{
+		uid: "70c083a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 14s
+		}]
+	},
+	{
+		uid: "7b96128b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 15s
+		}]
+	},
+	{
+		uid: "95fc0bd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 19s
+		}]
+	}],
+	rewards: [{
+		uid: "59c70f72",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

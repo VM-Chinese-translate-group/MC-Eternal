@@ -1,0 +1,38 @@
+{
+	title: "Redstone x1",
+	x: -9.5d,
+	y: -7.0d,
+	description: "Mining",
+	can_repeat: true,
+	tasks: [{
+		uid: "12a6f92e",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_dusttinyredstone"
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "32d535a1",
+		type: "item",
+		title: "1 Currency",
+		auto: "no_toast",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1L
+			}
+		}
+	}]
+}

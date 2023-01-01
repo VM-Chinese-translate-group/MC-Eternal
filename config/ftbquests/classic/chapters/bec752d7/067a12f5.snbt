@@ -1,0 +1,202 @@
+{
+	title: "&5Thaumic Ore Processing",
+	x: 22.5d,
+	y: -1.0d,
+	description: "&oThaumcraft is a Tech Mod&7 *Read Description*",
+	text: [
+		"&7Getting more from your Ore is always nice, and &dThaumcraft&7 has a way to do it!",
+		"",
+		"&5Native Clusters&7 can be smelted into &62 Ingots&7, and it might be possible to &dblend other methods of Ore Processing with this one&7!"
+	],
+	dependencies: [
+		"9cec7878"
+	],
+	tasks: [{
+		uid: "645f2e69",
+		type: "item",
+		title: "Any &5Native Cluster",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster",
+			Damage: 6s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cluster",
+			Damage: 7s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusteraluminium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterancientdebris"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterardite"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterastralstarmetal"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterboron"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clustercobalt"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterdilithium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusteriridium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterlithium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clustermagnesium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clustermithril"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusternickel"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusteroctine"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterosmium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterplatinum"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clustersyrmorite"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusterthorium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clustertitanium"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clustertungsten"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_clusteruranium"
+		},
+		{
+			item: "jaopca:item_clusterzinc"
+		}]
+	}],
+	rewards: [{
+		uid: "10d00e7f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}
