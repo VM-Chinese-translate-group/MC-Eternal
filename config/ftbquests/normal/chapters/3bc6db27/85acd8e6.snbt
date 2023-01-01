@@ -1,11 +1,11 @@
 {
-	title: "考古组装",
+	title: "Ancient Assembly",
 	x: -16.5d,
 	y: 5.5d,
-	description: "重建失落之物*阅读描述*",
+	description: "Rebuilding what was Lost *Read Description*",
 	text: [
-		"考古工作台用于修复古代物品, 例如雕像和古代剑.",
-		"请确保在修复时不要耗尽遗迹碎片!"
+		"The Archeology Workbench is used to repair Ancient items, such as Figurines and Ancient Swords.",
+		"Make sure it doesn't run out of Relic Scraps while repairing something!"
 	],
 	dependencies: [
 		"7f9d5c9b",

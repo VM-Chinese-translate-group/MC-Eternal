@@ -2,7 +2,7 @@
 	x: -11.5d,
 	y: -3.5d,
 	shape: "gear",
-	description: "基础发电机",
+	description: "Basic power generation",
 	tasks: [{
 		uid: "0c2cd485",
 		type: "item",

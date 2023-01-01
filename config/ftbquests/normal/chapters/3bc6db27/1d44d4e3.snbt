@@ -1,10 +1,10 @@
 {
-	title: "多大一个高炉啊",
+	title: "What a Blast",
 	x: -5.0d,
 	y: 5.5d,
-	description: "*点击阅读描述*",
+	description: "*Click to read description*",
 	text: [
-		"需要 34 个任意种类的机械外壳搭建成 3x4 的多方块结构，并且工业高炉放在底层的正前面."
+		"Requires 34 machine casing of any kind to form the 3x4 multi-block structure with the Blast furnace machine is placed in front the center of the bottom layer."
 	],
 	dependencies: [
 		"06cc512e"

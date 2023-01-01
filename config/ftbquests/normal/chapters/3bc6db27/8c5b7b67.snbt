@@ -1,9 +1,9 @@
 {
-	title: "最坚硬的锭!",
+	title: "Toughest Ingot!",
 	x: 1.0d,
 	y: 6.5d,
 	text: [
-		"钨矿只能被工业磨粉机粉碎, 并且磨出的粉只能在2,500热量的工业高炉里烧制."
+		"Tungsten ore can only be ground up using the Industrial Grinder, and the resulting dust can only be smelt in a Blast furnace housing 2,500 heat."
 	],
 	dependencies: [
 		"06cc512e"
