@@ -5,14 +5,16 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 print("--- 加载 Tooltip.zs ---");
 
-#Add tooltip
-<extrautils2:bagofholding>.addTooltip(format.red("警告！ 切换游戏模式时将会删除物品"));
-<rats:arcane_technology>.addTooltip(format.gold("从鼠西族战机上掉落"));
+#Add tooltip 
+<extrautils2:bagofholding>.addTooltip(format.red("警告！切换游戏模式时将会删除此物品"));
+<rats:arcane_technology>.addTooltip(format.gold("掉落自 鼠西族战机"));
 <ftbquests:book>.addTooltip(format.gold("一个新的起点，打开我！"));
-<minecraft:nether_star>.addTooltip(format.gold("地球在我们下面，漂流着坠落"));
-<ebwizardry:crystal_block:*>.addTooltip(format.gold("用于防止下界传送门腐败"));
-<wings:fairy_dust>.addTooltip(format.gold("可用于转化某些金属。这尘埃散发着原始的魔法能量"));
-<ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("第一步…… 穿得让人印象深刻！"));
+#来自一首歌《Major Tom (Coming Home)-Peter Schilling》
+#原文：Earth below us, drifting falling
+<minecraft:nether_star>.addTooltip(format.gold("我们脚下的大地，飘然而下"));
+<ebwizardry:crystal_block:*>.addTooltip(format.gold("可以防止下界传送门腐败"));
+<wings:fairy_dust>.addTooltip(format.gold("这尘埃散发着原始的魔法能量。也许可以转化某些金属。"));
+<ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("第一步……穿得让人印象深刻！"));
 <ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("眼望星空，脚踏实地。——西奥多·罗斯福"));
 <mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple("完成所有神秘农业任务以解锁"));
 <mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple("完成所有 Farming 和 Agriculture 任务以解锁"));
@@ -27,20 +29,20 @@ print("--- 加载 Tooltip.zs ---");
 <immersiveengineering:revolver>.addTooltip(format.lightPurple("子弹伤害放大至约 15 倍"));
 <thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("伤害放大至 20 倍"));
 <agricraft:sprinkler>.addTooltip(format.red("警告：如果农业工艺的配置中未禁用粒子，将导致严重的FPS卡顿"));
-<extrautils2:chickenring:1>.addTooltip(format.red("不要穿在饰品栏上，飞行时可能会随机传送你"));
+<extrautils2:chickenring:1>.addTooltip(format.red("不要穿在饰品栏上，飞行时可能会将你随机传送"));
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("只会在深渊世界和月球上重生"));
 <thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("伤害放大至 20 倍));
 <appliedenergistics2:sky_compass>.addTooltip(format.red("只会在深渊世界和月球上重生"));
 <lootgames:ms_activator>.addTooltip(format.red("警告：不 要 放 在 你 的 基 地！"));
-<erebus:materials:1>.addTooltip(format.gold("匠魂的材料已被大量修改。"));
-<theaurorian:auroriansteel>.addTooltip(format.gold("匠魂的材料已被大量修改。"));
+<erebus:materials:1>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
+<theaurorian:auroriansteel>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
 <extrautils2:teleporter:1>.addTooltip(format.red("禁用，如果您尝试使用它，将导致崩溃！请改用深渊世界和深渊世界深渊世界传送门。"));
-<thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("用源质滤管右键以清除！"));
+<thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("用源质滤管右键以清洗！"));
 <thaumcraft:filter>.addTooltip(format.aqua("右键堵塞的咒波凝结器格栅以清洗！"));
-<nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4 倍总发电量！（免责声明：反映在燃料工具提示中）"));
+<nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4 倍总发电量！（免责声明：显示在燃料工具提示中）"));
 <randomthings:spectreanchor>.addTooltip(format.red("改用墓碑绑定"));
 
-<necromancersdelight:charm_bone_bag>.addTooltip(format.red("暂时禁用，此物品将在（希望不久）将来的MCE版本中再次启用。"));
+<necromancersdelight:charm_bone_bag>.addTooltip(format.red("暂时禁用，此物品将在（希望不久）将来的 MCE 版本中再次启用。"));
 
 var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
 for armor in supremarmor {
@@ -52,7 +54,7 @@ for ores in beneathores {
 	ores.addTooltip(format.darkPurple("只能在深渊世界中找到"));
 }
 
-var mektooltiptext = ["如果在AE2自动制作样板中使用，请手动将此物品添加到制作样板中，否则将无法工作。","不要使用建筑之杖放置，否则将恢复为基础版本。"] as string[];
+var mektooltiptext = ["如果在 AE2 自动制作样板中使用，请手动将此物品添加到制作样板中，否则将无法工作。","不要使用建筑之杖放置，否则将恢复为基础版本。"] as string[];
 var mektooltipitems = [<mekanism:energycube>,<mekanism:basicblock2:3>,<mekanism:basicblock2:4>,<mekanism:transmitter:*>,<mekanism:gastank>,<mekanism:basicblock:6>,<mekanism:machineblock2:11>] as IItemStack[];
 for items in mektooltipitems {
 	for text in mektooltiptext {
@@ -77,7 +79,7 @@ val thaumcuriosities = {
 for metas in thaumcuriosities {
 	itemUtils.getItem("thaumcraft:curio",metas).addTooltip(format.lightPurple("更有可能获得 "~thaumcuriosities[metas]~" 研究"));
 }
-<thaumcraft:curio:3>.addTooltip(format.darkPurple("使用时会获得一些Warp！"));
+<thaumcraft:curio:3>.addTooltip(format.darkPurple("使用时会获得一些扭曲效果！"));
 
 var aePresses = [
 	<appliedenergistics2:material:13>,
@@ -96,7 +98,7 @@ var meteorRelatedItems = [
 ] as IItemStack[];
 
 for item in meteorRelatedItems {
-	item.addTooltip(format.red("AE2陨石会生成在深渊世界和月球上"));
+	item.addTooltip(format.red("AE2 陨石会生成在深渊世界和月球上"));
 }
 
 var candleData = {
@@ -144,7 +146,7 @@ val beeTypes = [
 	<forestry:bee_drone_ge>
 ] as IItemStack[];
 for bee in beeTypes {
-	bee.withTag(NBeeT).addTooltip(format.aqua("无法直接繁殖，请制作该物种的基因样本以获取它"));
+	bee.withTag(NBeeT).addTooltip(format.aqua("无法直接繁殖，请制作该生物的基因样本以获取它"));
 	bee.withTag(NBeeT).addTooltip(format.aqua("查看 鼠西洲的降灵 的用法以找到配方"));
 }
 
