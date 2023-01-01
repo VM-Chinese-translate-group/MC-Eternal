@@ -1,11 +1,11 @@
 {
-	title: "An Introduction to Railways",
+	title: "铁轨导论",
 	x: 2.5d,
 	y: 4.5d,
 	shape: "gear",
-	description: "My way or the railway!",
+	description: "我滴轨轨!",
 	text: [
-		"Create a custom modular minecart that can be used for infinite possibilities"
+		"制作一个有无限可能的自定义矿车"
 	],
 	tasks: [{
 		uid: "8f84a92b",

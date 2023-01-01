@@ -2,7 +2,7 @@
 	title: "Cultured Swine",
 	x: -19.0d,
 	y: 3.0d,
-	description: "It was THIS easy? *Read Description*",
+	description: "It was THIS easy? *阅读描述*",
 	text: [
 		"The Culture Vat is used to reconstruct the DNA of Prehistoric Creatures (and Plants!), but beware! DNA Reconstruction may fail and produce a nasty Failuresaurus (or Mutant Plant!), which will trample all over your area and leave an icky trail of goop."
 	],
