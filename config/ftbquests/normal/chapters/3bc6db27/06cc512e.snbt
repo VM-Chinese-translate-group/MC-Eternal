@@ -1,9 +1,9 @@
 {
-	title: "树脂开端",
+	title: "Sap-py Beginnings",
 	x: -2.0d,
 	y: 4.0d,
 	shape: "gear",
-	description: "&oO Rubber Tree O Rubber Tree, your Resin is so Sti-cky...（歌曲《O' Rubber Tree》的歌词）",
+	description: "&oO Rubber Tree O Rubber Tree, your Resin is so Sti-cky...",
 	tasks: [{
 		uid: "da21502e",
 		type: "item",

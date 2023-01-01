@@ -1,8 +1,8 @@
 {
-	title: "电解!",
+	title: "Electrifying!",
 	x: -5.0d,
 	y: 4.5d,
-	description: "从各种物品中产出液体和粉.",
+	description: "Produces Fluids and Dusts from different items.",
 	dependencies: [
 		"06cc512e"
 	],
