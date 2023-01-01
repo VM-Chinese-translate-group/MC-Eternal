@@ -1,8 +1,8 @@
 {
-	title: "Turrets + Minecart = ? (the answer is success)",
+	title: "炮塔 + 矿车 = ? (答案是肯定的)",
 	x: 2.0d,
 	y: 6.0d,
-	description: "Not so subtle base defence",
+	description: "不太灵活的防御",
 	dependencies: [
 		"a03300a2"
 	],
