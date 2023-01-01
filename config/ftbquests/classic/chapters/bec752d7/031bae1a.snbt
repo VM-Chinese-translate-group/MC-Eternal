@@ -1,0 +1,69 @@
+{
+	title: "Spectral Dust",
+	x: 5.5d,
+	y: -4.0d,
+	description: "Those pesky Remnants are always protecting the Obelisks! Maybe their dust can be turned into something useful...",
+	dependencies: [
+		"10e24111"
+	],
+	tasks: [{
+		uid: "d1a9b60f",
+		type: "item",
+		title: "4x Spectral Dust",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 6s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 7s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "019f2c6c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

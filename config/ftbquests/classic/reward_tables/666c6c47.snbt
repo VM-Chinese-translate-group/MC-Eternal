@@ -1,0 +1,101 @@
+{
+	title: "Forgotten trash can",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "extrautils2:trashcan"
+	},
+	empty_weight: 1,
+	loot_size: 34,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:leather_chestplate"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:leather_leggings"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dungeontactics:studded_boots"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_burger"
+		},
+		count: 3,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:cheese"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:intestine"
+		},
+		random_bonus: 3,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "Rent - a - rat       : RECEIPT"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:kungpaochickenitem"
+		}
+	}],
+	loot_crate: {
+		string_id: "starting_gear",
+		color: 8421504,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

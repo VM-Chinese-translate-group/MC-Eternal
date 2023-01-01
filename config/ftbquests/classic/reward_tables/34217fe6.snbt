@@ -1,0 +1,159 @@
+{
+	title: "Adventuring Master Cache 4000",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "treasure2:safe"
+	},
+	loot_size: 34,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.bow_copper",
+			tag: {
+				display: {
+					Name: "Adventurers Bow"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:jam_on_toast"
+		},
+		count: 15,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:tool.shield_copper",
+			tag: {
+				display: {
+					Name: "Adventurers Shield"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:armor.plate_copper",
+			tag: {
+				display: {
+					Name: "Adventurers Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalfoundation:armor.legs_copper",
+			tag: {
+				display: {
+					Name: "Adventurers Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "enderio:long_floating"
+			}
+		},
+		count: 16,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:long_strength"
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ghostsexplosives:tnt_lightning"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:hang_glider"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:cold_iron_sword",
+			tag: {
+				display: {
+					Name: "Blade Of The Avid Adventurer"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling",
+			Damage: 1s
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "adventuring_master_cache_4000",
+		color: 16713530,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

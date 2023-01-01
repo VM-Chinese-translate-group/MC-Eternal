@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	description: "Cheesemaker `",
+	can_repeat: true,
+	tasks: [{
+		uid: "85938d9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:cheese"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "19e11af4",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

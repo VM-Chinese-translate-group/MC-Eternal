@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: -3.0d,
+	description: "Lumberjack `",
+	can_repeat: true,
+	tasks: [{
+		uid: "af00fbe4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:log",
+			Damage: 2s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "4f2a158a",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

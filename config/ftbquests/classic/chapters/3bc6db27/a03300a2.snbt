@@ -1,0 +1,65 @@
+{
+	x: 3.0d,
+	y: 5.5d,
+	description: "Mining with style!",
+	dependencies: [
+		"5111a663"
+	],
+	tasks: [{
+		uid: "3162083d",
+		type: "item",
+		title: "Drill",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Damage: 42s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Damage: 8s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Damage: 43s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4cb17ee1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 10s
+		}]
+	}],
+	rewards: [{
+		uid: "9f6bf928",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "634960b4",
+		type: "loot",
+		table: 1
+	}]
+}

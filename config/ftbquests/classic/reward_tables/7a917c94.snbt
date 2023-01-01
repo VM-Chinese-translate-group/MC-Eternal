@@ -1,0 +1,13 @@
+{
+	title: "junk 2",
+	loot_size: 27,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stupidthings:balloon",
+			Damage: 6s
+		}
+	}]
+}

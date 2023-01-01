@@ -1,0 +1,77 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	text: [
+		"What do you mean it's not butter?"
+	],
+	tasks: [{
+		uid: "01836049",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:butteritem"
+		}]
+	},
+	{
+		uid: "b65dcddf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:almondbutteritem"
+		}]
+	},
+	{
+		uid: "8f0a1ec7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:cashewbutteritem"
+		}]
+	},
+	{
+		uid: "bd44d5ce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:chestnutbutteritem"
+		}]
+	},
+	{
+		uid: "6fd674af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:peanutbutteritem"
+		}]
+	},
+	{
+		uid: "01d00e01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:pistachiobutteritem"
+		}]
+	},
+	{
+		uid: "925046a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:nutellaitem"
+		}]
+	}]
+}

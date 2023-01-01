@@ -1,0 +1,28 @@
+{
+	x: -4.5d,
+	y: -3.5d,
+	dependencies: [
+		"c4490107"
+	],
+	tasks: [{
+		uid: "ca0cfcff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:plastic"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "4f3b29a2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "dbea1fcf",
+		type: "loot",
+		table: 1
+	}]
+}

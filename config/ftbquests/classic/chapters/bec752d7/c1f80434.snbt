@@ -1,0 +1,23 @@
+{
+	x: 23.0d,
+	y: 8.5d,
+	description: "''Botania by Ellpeck''",
+	dependencies: [
+		"009f8f45"
+	],
+	tasks: [{
+		uid: "9dd289f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:gold_leaf"
+		}]
+	}],
+	rewards: [{
+		uid: "b465efc9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

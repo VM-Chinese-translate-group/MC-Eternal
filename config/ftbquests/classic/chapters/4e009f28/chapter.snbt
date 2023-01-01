@@ -1,0 +1,13 @@
+{
+	title: "Mystical Agriculture",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "mysticalagradditions:stuff",
+		Damage: 69s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

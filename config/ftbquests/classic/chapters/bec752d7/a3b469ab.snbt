@@ -1,0 +1,188 @@
+{
+	title: "An Archmage needs an Archive",
+	x: 8.0d,
+	y: -1.0d,
+	description: "Searching for your stashed Spells",
+	text: [
+		"Bookshelves can be placed down and have Spell Books stored in them, those Spell Books can then be easily accessed via an Arcane Workbench or Lectern."
+	],
+	dependencies: [
+		"66a69ac3"
+	],
+	tasks: [{
+		uid: "7a08f01f",
+		type: "item",
+		title: "Wood Lectern",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:oak_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:birch_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spruce_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:jungle_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:acacia_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:dark_oak_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:twilight_oak_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:canopy_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:darkwood_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:mangrove_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:transwood_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:sortingwood_lectern"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:timewood_lectern"
+		}]
+	},
+	{
+		uid: "f65411ef",
+		type: "item",
+		title: "Wooden Bookshelf",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:oak_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:birch_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spruce_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:jungle_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:acacia_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:dark_oak_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:twilight_oak_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:canopy_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:darkwood_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:mangrove_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:transwood_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:sortingwood_bookshelf"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:timewood_bookshelf"
+		}]
+	}],
+	rewards: [{
+		uid: "e0aaecc6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3ca11606",
+		type: "loot",
+		table: 5
+	}]
+}

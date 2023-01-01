@@ -1,0 +1,38 @@
+{
+	x: 0.5d,
+	y: 9.0d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "8a7ce0c1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecolonies:blockhutcowboy"
+		}]
+	}],
+	rewards: [{
+		uid: "ffef81b2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "127272af",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "ed299fae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"treasure2:pouchable": {}
+			},
+			id: "minecraft:diamond"
+		}
+	}]
+}

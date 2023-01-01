@@ -1,0 +1,13 @@
+{
+	title: "Legendary Artifacts",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "iceandfire:tide_trident"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"54219a72"
+	],
+	tasks: [{
+		uid: "dab8f78c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "d7e0b807",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

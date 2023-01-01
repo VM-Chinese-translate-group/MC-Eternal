@@ -1,0 +1,23 @@
+{
+	x: -18.5d,
+	y: -3.5d,
+	description: "*Bonemeal grass in Ratlantis*",
+	dependencies: [
+		"fc9d0886"
+	],
+	tasks: [{
+		uid: "c3f51bf7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:ratglove_petals"
+		}]
+	}],
+	rewards: [{
+		uid: "a801986d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

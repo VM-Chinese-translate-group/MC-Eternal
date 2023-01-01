@@ -1,0 +1,31 @@
+{
+	title: "Ball-sy Grindr",
+	x: 15.0d,
+	y: 6.0d,
+	description: "Reduces power consumption and increases chances of bonus output of certain grindable items.",
+	dependencies: [
+		"20e40ad0"
+	],
+	tasks: [{
+		uid: "56644c9d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ball",
+			Damage: 6s
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "4346b6d1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e7c0be42",
+		type: "loot",
+		table: 1
+	}]
+}

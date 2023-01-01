@@ -1,0 +1,50 @@
+{
+	title: "Turrets + Minecart = ? (the answer is success)",
+	x: 2.0d,
+	y: 6.0d,
+	description: "Not so subtle base defence",
+	dependencies: [
+		"a03300a2"
+	],
+	tasks: [{
+		uid: "96895a1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 26s
+		}]
+	},
+	{
+		uid: "1b392f40",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 29s
+		}]
+	}],
+	rewards: [{
+		uid: "8220c7a2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "66b37ca0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "minecraft:strong_harming"
+			}
+		},
+		count: 32
+	}]
+}

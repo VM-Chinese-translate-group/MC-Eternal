@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	dependencies: [
+		"cfd9d297"
+	],
+	tasks: [{
+		uid: "31b442e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:nuclear_furnace_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "b8c5a725",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b569c9cc",
+		type: "loot",
+		table: 1
+	}]
+}

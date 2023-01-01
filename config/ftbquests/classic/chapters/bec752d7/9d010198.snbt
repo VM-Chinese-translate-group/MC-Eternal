@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 10.5d,
+	dependencies: [
+		"ecf94583"
+	],
+	tasks: [{
+		uid: "78deb766",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "totemic:buffalo_items",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "b7714e13",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

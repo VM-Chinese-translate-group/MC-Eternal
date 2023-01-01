@@ -1,0 +1,41 @@
+{
+	title: "He protec, he attac and most importantly he got your back",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "stupidthings:mine_turtle"
+	},
+	x: -18.0d,
+	y: -1.0d,
+	description: "Lil turtle buddy &o*He explodes stop acting all surprised, have you seen how much he looks like a landmine??*",
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "9f1682e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gunpowder"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "186c02f2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stupidthings:mine_turtle",
+			tag: {
+				display: {
+					Name: "Turtle buddy"
+				}
+			}
+		}
+	}]
+}

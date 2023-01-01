@@ -1,0 +1,50 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	dependencies: [
+		"51dd58b3"
+	],
+	tasks: [{
+		uid: "8bebde4c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:upgrade",
+			Damage: 8s
+		}]
+	},
+	{
+		uid: "6b32ca51",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 44s
+		}]
+	},
+	{
+		uid: "feceb9c4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 25s
+		}]
+	}],
+	rewards: [{
+		uid: "90e9641f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a35ea8c1",
+		type: "loot",
+		table: 1
+	}]
+}
