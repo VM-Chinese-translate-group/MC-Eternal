@@ -31,7 +31,7 @@ print("--- 加载 Tooltip.zs ---");
 <agricraft:sprinkler>.addTooltip(format.red("警告：如果农业工艺的配置中未禁用粒子，将导致严重的FPS卡顿"));
 <extrautils2:chickenring:1>.addTooltip(format.red("不要穿在饰品栏上，飞行时可能会将你随机传送"));
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("只会在深渊世界和月球上重生"));
-<thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("伤害放大至 20 倍));
+<thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("伤害放大至 20 倍"));
 <appliedenergistics2:sky_compass>.addTooltip(format.red("只会在深渊世界和月球上重生"));
 <lootgames:ms_activator>.addTooltip(format.red("警告：不 要 放 在 你 的 基 地！"));
 <erebus:materials:1>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));

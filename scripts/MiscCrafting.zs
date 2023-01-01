@@ -82,7 +82,7 @@ for entry in chiseling {
 #Danknull T6
 #stupidly op and too stupidly cheap, some spicy is nice yeah?
 recipes.remove(<danknull:dank_null_5>);
-recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lore:["紧凑型机器必须是新制作的","内容和设置将被保留！"]}}),
+recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lore:["空间压缩机械必须是新制作的","内容和设置将被保留！"]}}),
 	[[<danknull:dank_null_panel_5>, <rats:idol_of_ratlantis>, <danknull:dank_null_panel_5>],
 	[<extracells:storage.component:2>, <danknull:dank_null_4>.marked("dank5"), <extracells:storage.component:2>],
 	[<danknull:dank_null_panel_5>, <compactmachines3:machine:5>.marked("cm"),<danknull:dank_null_panel_5>]],

@@ -131,9 +131,9 @@ rifts.entrances.cannot_be_placed_on_rift=这种门不能放在裂痕上。
 tools.rift_miss=你只能在裂痕核心上使用这个物品
 tools.target_became_block=失败，存储的位置现在有了一个方块
 
-dimdoors.general=General Settings
-dimdoors.general.tooltip=General configuration settings for the mod
-dimdoors.general.baseDimensionID=Base Dimension ID
+dimdoors.general=通用设置
+dimdoors.general.tooltip=模组常规配置设置
+dimdoors.general.baseDimensionID=基础维度ID
 dimdoors.general.baseDimensionID.tooltip=Dimension ID of the first Dimensional Doors dimension. Other dimensions will use consecutive IDs. It is strongly recommended to leave this to the default value.
 dimdoors.general.useStatusBar=Status Bar Messages
 dimdoors.general.useStatusBar.tooltip=Whether to use the status bar to send messages rather than the chat.
