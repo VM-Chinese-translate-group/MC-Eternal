@@ -14,7 +14,7 @@ events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLiv
 				if(multishoot == enchts.definition.id){
 					event.cancel();
 					if (!event.player.world.isRemote()) {
-						event.player.sendChat("万箭齐发附魔 已被禁用，但玩家 " ~ event.player.name ~ " 仍尝试使用。");
+						event.player.sendChat("万箭齐发 附魔已被禁用，但玩家 " ~ event.player.name ~ " 仍尝试使用。");
 					}
 				}
 			}
