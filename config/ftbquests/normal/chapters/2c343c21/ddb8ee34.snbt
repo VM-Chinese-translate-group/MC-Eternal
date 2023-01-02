@@ -1,5 +1,5 @@
 {
-	title: "&6&lBounty: &c&l5th Legion",
+	title: "&6&l悬赏：&c&l第五军团",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -9,7 +9,7 @@
 	x: -5.0d,
 	y: -1.5d,
 	shape: "square",
-	description: "&oAn undead twisted abomination sent to take over planets by raw force. One of the highest military ranks in the Undying army. It is rumoured that in order for an Undying Soldier to be promoted it must have committed an act so unbelievably heinous...",
+	description: "&o一个不死的扭曲的憎恶，被派来以原始的力量接管星球。是不死军队中最高的军衔之一。有传言说，一个不死士兵得到晋升，必须得犯下一个令人难以置信的恶行......",
 	text: [
 		""
 	],
@@ -17,7 +17,7 @@
 	tasks: [{
 		uid: "72f4d886",
 		type: "kill",
-		title: "&6&lBounty: &c&l5th Legion",
+		title: "&6&l悬赏：&c&l第五军团",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -35,7 +35,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}
