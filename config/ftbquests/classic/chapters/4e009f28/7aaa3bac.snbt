@@ -6,7 +6,11 @@
 		uid: "28425eba",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:crafting 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

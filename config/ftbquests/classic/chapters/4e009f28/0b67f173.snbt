@@ -5,7 +5,10 @@
 		uid: "c5e74dbd",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:basalz_essence"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:basalz_essence"
 		}]
 	}],
 	rewards: [{

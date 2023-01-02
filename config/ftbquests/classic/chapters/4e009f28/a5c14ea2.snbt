@@ -6,7 +6,10 @@
 		uid: "0ebaa626",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:marble_essence"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:marble_essence"
 		}]
 	}],
 	rewards: [{

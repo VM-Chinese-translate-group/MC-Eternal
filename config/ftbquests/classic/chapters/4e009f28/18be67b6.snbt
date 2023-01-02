@@ -5,7 +5,10 @@
 		uid: "00f83d3e",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:ice_essence"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:ice_essence"
 		}]
 	}],
 	rewards: [{

@@ -5,7 +5,10 @@
 		uid: "934a942a",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:blizz_essence"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:blizz_essence"
 		}]
 	}],
 	rewards: [{

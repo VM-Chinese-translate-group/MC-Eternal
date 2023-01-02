@@ -5,7 +5,10 @@
 		uid: "f49b8117",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:octine_essence"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:octine_essence"
 		}]
 	}],
 	rewards: [{

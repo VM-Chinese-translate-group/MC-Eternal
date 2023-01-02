@@ -8,7 +8,10 @@
 		uid: "f0994b33",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:superium_furnace"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:superium_furnace"
 		}]
 	}],
 	rewards: [{

@@ -1,7 +1,7 @@
 {
 	x: -15.0d,
 	y: 3.0d,
-	description: "谁的时间之瓶？",
+	description: "Time in a bottle who?",
 	dependencies: [
 		"9773c9ad"
 	],
@@ -9,7 +9,10 @@
 		uid: "bae0e4b2",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:ultimate_furnace"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:ultimate_furnace"
 		}]
 	}],
 	rewards: [{
@@ -21,6 +24,9 @@
 		uid: "dd1550e7",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

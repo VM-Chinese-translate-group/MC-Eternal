@@ -5,7 +5,10 @@
 		uid: "e72bb0b2",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:dye_essence"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:dye_essence"
 		}]
 	}],
 	rewards: [{

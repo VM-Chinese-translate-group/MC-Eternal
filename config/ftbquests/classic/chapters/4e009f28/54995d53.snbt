@@ -5,7 +5,10 @@
 		uid: "0efae565",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:inferium_furnace"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:inferium_furnace"
 		}]
 	}],
 	rewards: [{
