@@ -1,8 +1,8 @@
 {
-	title: "高级工具",
+	title: "Ultimate Tools",
 	x: 1.0d,
 	y: 7.5d,
-	description: "科技复兴后期工具",
+	description: "End-game tools of Tech reborn",
 	dependencies: [
 		"c147bd9f"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -8.0d,
 	y: -4.0d,
-	description: "简易矿石加倍",
+	description: "Simple ore doubling",
 	dependencies: [
 		"d67c46dd"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "超频",
+	title: "Overclocked",
 	x: -3.0d,
 	y: 3.0d,
-	description: "这个升级用更多的能量，但可以加速机器的处理速度.",
+	description: "This upgrade increases the processing speed of machines at the cost of additional power cost.",
 	dependencies: [
 		"06cc512e"
 	],
