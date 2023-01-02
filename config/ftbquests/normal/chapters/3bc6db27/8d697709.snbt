@@ -1,10 +1,10 @@
 {
-	title: "&kKowalski&r, Analysis.",
+	title: "&kKowalski&r, 分析.",
 	x: -15.0d,
 	y: 1.5d,
-	description: "Introduction to Fossils and Archeology",
+	description: "考古与化石导论",
 	text: [
-		"The Analyzer is used to, shockingly, Analyze various Fossils and Relics! you'll find DNA Samples, Sand, more Sand, and maybe even Broken ancient Figurines!"
+		"分析器用于分析各种化石和遗迹碎片! 你可以找出DNA样本, 沙子, 更多的沙子, 以及破损的古代雕塑!"
 	],
 	tasks: [{
 		uid: "75e89bab",

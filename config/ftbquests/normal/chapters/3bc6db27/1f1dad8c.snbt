@@ -1,8 +1,8 @@
 {
-	title: "§6Infinity Drill [Legendary]",
+	title: "§6无限钻头 [传说]",
 	x: -3.5d,
 	y: -7.0d,
-	description: "Change the drill to Legendary mode to complete the quest (Shift+Right-click to change modes)",
+	description: "将无限钻头升级成传说级别才能完成此任务 (Shift+右键点击切换模式)",
 	dependencies: [
 		"b6d54587"
 	],
