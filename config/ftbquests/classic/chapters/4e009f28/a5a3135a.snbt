@@ -5,10 +5,7 @@
 		uid: "309ec353",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:knightslime_essence"
+			item: "mysticalagriculture:knightslime_essence"
 		}]
 	}],
 	rewards: [{

@@ -5,10 +5,7 @@
 		uid: "398f7d87",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:elementium_essence"
+			item: "mysticalagriculture:elementium_essence"
 		}]
 	}],
 	rewards: [{

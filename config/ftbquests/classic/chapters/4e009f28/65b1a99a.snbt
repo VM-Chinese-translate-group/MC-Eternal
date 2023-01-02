@@ -6,10 +6,7 @@
 		uid: "bdf41aea",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:graphite_essence"
+			item: "mysticalagriculture:graphite_essence"
 		}]
 	}],
 	rewards: [{

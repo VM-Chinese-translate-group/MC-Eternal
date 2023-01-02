@@ -5,10 +5,7 @@
 		uid: "3ed7392a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:water_essence"
+			item: "mysticalagriculture:water_essence"
 		}]
 	}],
 	rewards: [{

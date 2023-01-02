@@ -6,11 +6,7 @@
 		uid: "5793493b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagradditions:insanium",
-			Damage: 2s
+			item: "mysticalagradditions:insanium 1 2"
 		}],
 		count: 64L
 	}],
@@ -53,9 +49,6 @@
 		uid: "915fed08",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

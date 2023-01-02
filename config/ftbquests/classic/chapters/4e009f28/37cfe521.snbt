@@ -5,10 +5,7 @@
 		uid: "c7235a8b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:pulsating_iron_essence"
+			item: "mysticalagriculture:pulsating_iron_essence"
 		}]
 	}],
 	rewards: [{

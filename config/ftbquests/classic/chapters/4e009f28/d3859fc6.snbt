@@ -8,10 +8,7 @@
 		uid: "0c259910",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:prudentium_furnace"
+			item: "mysticalagriculture:prudentium_furnace"
 		}]
 	}],
 	rewards: [{
