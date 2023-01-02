@@ -2,9 +2,9 @@
 	title: "内陆殖民地",
 	x: 1.0d,
 	y: -1.0d,
-	description: "＊只能选一个！＊",
+	description: "*只能选一个！*",
 	text: [
-		"提示:补给营地需要16 x 12 x 17的面积来放置。"
+		"提示:补给营地需要16x12x17的面积来放置。"
 	],
 	dependencies: [
 		"793fdf70"
