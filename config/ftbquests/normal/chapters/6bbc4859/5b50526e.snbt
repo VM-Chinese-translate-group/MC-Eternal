@@ -1,10 +1,10 @@
 {
-	title: "黄金种子",
+	title: "Gold Seeds",
 	icon: "mysticalagriculture:gold_seeds",
 	x: 0.0d,
 	y: -0.5d,
 	shape: "diamond",
-	description: "*解锁自完成农业章节*",
+	description: "*Unlocked from completing the Farming chapter*",
 	can_repeat: true,
 	dependencies: [
 		"99cbbc10"
