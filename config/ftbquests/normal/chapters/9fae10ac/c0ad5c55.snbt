@@ -1,7 +1,7 @@
 {
 	x: -2.5d,
 	y: -2.0d,
-	description: "An incarnation of pure terror that can be summoned out of the ground.",
+	description: "它是纯粹恐怖的化身，可以在地上把它召唤出来。",
 	tasks: [{
 		uid: "d8f5acba",
 		type: "kill",

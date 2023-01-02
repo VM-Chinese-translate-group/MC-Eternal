@@ -2,7 +2,7 @@
 	x: -5.5d,
 	y: -3.5d,
 	shape: "pentagon",
-	description: "Barako is the chief of the Barakoa tribe, residing in a stationary seat upon a throne in Barakoa villages. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams.",
+	description: "太阳酋长是 Barakoa 部落的首领，居住在 Barakoa 村落宝座上的固定座位上。他从太阳中汲取能量，发出阳光冲击，太阳耀斑和巨大的太阳光束。",
 	text: [
 		"Those strong enough to face and defeat him, however, are rewarded with his mask: the Sol Visage. This mask allows its wearers to breathe life into masks to create Barakoa followers. "
 	],

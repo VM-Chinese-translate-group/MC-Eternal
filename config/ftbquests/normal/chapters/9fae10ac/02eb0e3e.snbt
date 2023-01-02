@@ -1,7 +1,7 @@
 {
 	x: -10.0d,
 	y: 1.0d,
-	description: "The Snow Queen is found in an ice-encrusted room near the top of the Aurora Palace. She is perhaps the most human-like creature encountered in the Twilight Forest, resembling a woman, but with large violet eyes and pale blue skin.",
+	description: "冰雪女王被发现于靠近极光宫殿最顶层冰霜包裹的房间里。她可能是你在暮色森林中遇到的最像人类的生物。如果不是那紫罗兰色的眼睛与淡蓝的皮肤，她看起来就跟人类女性一样了。",
 	tasks: [{
 		uid: "d7c695b2",
 		type: "kill",

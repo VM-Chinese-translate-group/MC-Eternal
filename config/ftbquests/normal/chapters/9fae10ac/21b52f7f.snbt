@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 3.0d,
-	description: "The Questing Ram is a very rare and special mob that spawns in a Quest Grove. It appears as a large ram with glowing stripes on its body. Questing Rams are useful for when they are fed one of each of the 16 colors of Wool, it will grant great riches!",
+	description: "谜题羊是一种生成在谜题羊树丛中非常稀有特殊的生物。它看起来是一只身上有发光条纹的体型很大的公羊。谜题羊很有用因为当它们在 16 色羊毛中的每一种羊毛都获得一块时会给与玩家丰厚的奖励",
 	tasks: [{
 		uid: "b8e73222",
 		type: "item",

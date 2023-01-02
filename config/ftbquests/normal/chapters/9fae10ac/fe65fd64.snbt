@@ -2,7 +2,7 @@
 	x: 3.5d,
 	y: 2.0d,
 	shape: "octagon",
-	description: "&oFind and slay the Illager king in his protected compound",
+	description: "&o 找到灾厄塔主并在它的领地将其击杀。",
 	tasks: [{
 		uid: "c9f2c919",
 		type: "kill",

@@ -9,7 +9,7 @@
 	x: -3.0d,
 	y: -4.0d,
 	shape: "square",
-	description: "The Ender Dragon is a hostile boss mob that appears in the End dimension. The Ender Dragon is a large dragon that breathes fire, spits fireballs, and is able to fly with great ease and maneuverability.",
+	description: "末影龙是一种出现在末地的敌对 BOSS 生物。末影龙是一种能吐龙息和火球的大龙，它可以轻松的进行机动飞行。",
 	tasks: [{
 		uid: "e21f7a78",
 		type: "kill",

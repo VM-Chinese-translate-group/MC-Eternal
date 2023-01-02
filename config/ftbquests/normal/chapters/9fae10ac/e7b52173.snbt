@@ -1,9 +1,9 @@
 {
 	x: -7.5d,
 	y: -2.0d,
-	description: "A venomous, multi-headed serpent that can regenerate any of its heads if they are severed.",
+	description: "一种多头的毒蛇，当它头被打断后可以重生。",
 	text: [
-		"Only the primal unrelenting power of fire can stop such a beast "
+		"只有原始持续燃烧的火焰力量可以阻止这种怪物。"
 	],
 	tasks: [{
 		uid: "84c7bcb1",

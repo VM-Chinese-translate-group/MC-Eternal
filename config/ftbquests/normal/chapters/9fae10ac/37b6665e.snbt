@@ -8,7 +8,7 @@
 	},
 	x: -10.0d,
 	y: 0.0d,
-	description: "The Twilight Lich resides on the top of a Lich Tower. It appears as a tall humanoid skeleton wearing a purple cape, and a large golden crown. Surrounding itself is a wall of shields to protect itself from any damage, but perhaps they can be broken?",
+	description: "巫妖住在巫妖塔的顶端。它的外表是穿着紫色斗篷的高个子类人骷髅，还戴着巨大金冠。围绕着它的法术护盾使它不受任何伤害，但也许……这些护盾可以被破坏。",
 	tasks: [{
 		uid: "ba8ee198",
 		type: "kill",

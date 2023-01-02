@@ -1,7 +1,7 @@
 {
 	x: -1.0d,
 	y: 2.0d,
-	description: "A giant amphibian that can only found in the burning hot nether . It is so-called a \"living artillery\", having the ability to spray volleys of fireball at player.",
+	description: "一种只生活在灼热下界的巨型两栖动物。它就是所谓的 \" 活生生的火炮 \" ，可以对玩家进行烈焰弹齐射攻击。",
 	tasks: [{
 		uid: "101dffa6",
 		type: "kill",

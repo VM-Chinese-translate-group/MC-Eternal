@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 2.0d,
-	description: "The Knight Phantoms reside in a brick-layered room in the Goblin Knight Stronghold. They appear as ghostly pieces of Phantom Armor, and appear to have a spooky, ghost-like look when attacking.",
+	description: "幻影骑士们住在地精骑士要塞中砖块层叠的房间里。他们以幽灵般漂浮的幻影骑士盔甲的形式出现，并在攻击时会表现出如同阴森鬼魂的样子。",
 	tasks: [{
 		uid: "7ccfd3b3",
 		type: "kill",

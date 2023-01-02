@@ -1,9 +1,9 @@
 {
-	title: "Defeat Vampire Baron",
+	title: "击杀吸血鬼伯爵",
 	x: -5.5d,
 	y: 3.0d,
 	shape: "diamond",
-	description: "But my very feelings changed to repulsion and terror when I saw the whole man slowly emerge from the window, and begin to crawl down the castle wall over that dreadful abyss, face down, with his cloak spreading out around him like great wings. -3.22",
+	description: "但是当我看到整个人影从窗户里浮现出来，头朝下爬下城堡围墙越过怕的深渊，斗篷像翅膀一样在他身后展开时候，我的感觉变成了强烈的厌恶和恐惧。 -3.22",
 	text: [
 		"*Only found in Vampire Forests*"
 	],

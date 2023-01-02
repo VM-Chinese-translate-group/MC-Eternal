@@ -1,7 +1,7 @@
 {
 	x: -9.5d,
 	y: -2.0d,
-	description: "A ruthless winged reptile that travels far and wide to raze villages with its fiery breath.",
+	description: "冷酷的有翼爬行动物，它会到处游荡用烈火龙息摧毁村庄。",
 	tasks: [{
 		uid: "8dc5fce4",
 		type: "kill",
