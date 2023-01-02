@@ -19,7 +19,7 @@ print("--- 加载 Tooltip.zs ---");
 <mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple("完成所有神秘农业任务以解锁"));
 <mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple("完成所有 Farming 和 Agriculture 任务以解锁"));
 <minecolonies:blockhuttownhall>.addTooltip(format.darkPurple("通过补给船或补给营地获取"));
-<ftbquests:lootcrate>.withTag({type: "cheesy_cache"}).addTooltip(format.gold("嗯，我想知道它是什么味道？…… 我真的是这么想的吗？你是这么想的"));
+<ftbquests:lootcrate>.withTag({type: "cheesy_cache"}).addTooltip(format.gold("嗯，我想知道它是什么味道？……我真的是这么想的吗？你是这么想的"));
 <ftbquests:lootcrate>.withTag({type: "common_lootbox"}).addTooltip(format.gold("完成任务的随机战利品奖励"));
 <ftbquests:lootcrate>.withTag({type: "unclaimed_black_market_container"}).addTooltip(format.gold("在前一次拍卖中售出的物品，中标者未购买。买家当心上当受骗。"));
 <icbmclassic:emptower>.addTooltip(format.darkPurple("仅可从商店购买"));
@@ -33,10 +33,10 @@ print("--- 加载 Tooltip.zs ---");
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("只会在深渊世界和月球上重生"));
 <thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("伤害放大至 20 倍"));
 <appliedenergistics2:sky_compass>.addTooltip(format.red("只会在深渊世界和月球上重生"));
-<lootgames:ms_activator>.addTooltip(format.red("警告：不 要 放 在 你 的 基 地！"));
+<lootgames:ms_activator>.addTooltip(format.red("警告：不！要！放！在！你！的！基！地！里！"));
 <erebus:materials:1>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
 <theaurorian:auroriansteel>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
-<extrautils2:teleporter:1>.addTooltip(format.red("禁用，如果您尝试使用它，将导致崩溃！请改用深渊世界和深渊世界深渊世界传送门。"));
+<extrautils2:teleporter:1>.addTooltip(format.red("禁用，如果您尝试使用它，将导致崩溃！请改用深渊世界和深渊世界传送门。"));
 <thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("用源质滤管右键以清洗！"));
 <thaumcraft:filter>.addTooltip(format.aqua("右键堵塞的咒波凝结器格栅以清洗！"));
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4 倍总发电量！（免责声明：显示在燃料工具提示中）"));
@@ -147,7 +147,7 @@ val beeTypes = [
 ] as IItemStack[];
 for bee in beeTypes {
 	bee.withTag(NBeeT).addTooltip(format.aqua("无法直接繁殖，请制作该生物的基因样本以获取它"));
-	bee.withTag(NBeeT).addTooltip(format.aqua("查看 鼠西洲的降灵 的用法以找到配方"));
+	bee.withTag(NBeeT).addTooltip(format.aqua("查看“鼠西洲的降灵”的用法以找到配方"));
 }
 
 for num in 0 to 5 {
@@ -155,7 +155,7 @@ for num in 0 to 5 {
 }
 
 for resItem,amount in {<xreliquary:angelheart_vial> : 5, <xreliquary:phoenix_down>: 25} as string[IItemStack] {
-	resItem.addTooltip(format.lightPurple("恢复 "+amount+"% 生命值."));
+	resItem.addTooltip(format.lightPurple("恢复 "+amount+"% 生命值。"));
 }
 
 print("--- Tooltip.zs 载入 ---");	
