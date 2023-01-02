@@ -1,5 +1,5 @@
 {
-	title: "Murray's missing bones",
+	title: "Murray遗失的骨头",
 	icon: "minecraft:bone",
 	x: 5.0d,
 	y: -5.5d,
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "2540ad73",
 		type: "checkmark",
-		title: "The Bones Song",
+		title: "骨之歌",
 		icon: "minecraft:bone"
 	},
 	{
@@ -56,15 +56,15 @@
 			id: "minecraft:writable_book",
 			tag: {
 				pages: [
-					"The Rib Bone is connected to the Arm BoneThe Arm Bone is connected to the Head BoneThe Head Bone is connected to the Leg Bone",
-					"Toebone connected to the ankleboneanklebone connected to the shinboneshinbone connected to the kneebonekneebone connected to the thighbone",
-					"The Rib Bone is connected to the Arm BoneThe Arm Bone is connected to the Head BoneThe Head Bone is connected to the Leg Bone",
-					"Toebone connected to the ankleboneanklebone connected to the shinboneshinbone connected to the kneebonekneebone connected to the thighbone",
-					"The Rib Bone is connected to the Arm BoneThe Arm Bone is connected to the Head BoneThe Head Bone is connected to the Leg Bone",
-					"Toebone connected to the ankleboneanklebone connected to the shinboneshinbone connected to the kneebonekneebone connected to the thighbone"
+					"肋骨与臂骨相连臂骨与头骨相连头骨与腿骨相连",
+					"趾骨与踝骨相连踝骨与胫骨相连鼻骨与膝骨相连膝骨与大腿骨相连",
+					"肋骨与臂骨相连臂骨与头骨相连头骨与腿骨相连",
+					"趾骨与踝骨相连踝骨与胫骨相连鼻骨与膝骨相连膝骨与大腿骨相连",
+					"肋骨与臂骨相连臂骨与头骨相连头骨与腿骨相连",
+					"趾骨与踝骨相连踝骨与胫骨相连鼻骨与膝骨相连膝骨与大腿骨相连"
 				],
 				display: {
-					Name: "The Bones Song"
+					Name: "骨之歌"
 				}
 			}
 		}

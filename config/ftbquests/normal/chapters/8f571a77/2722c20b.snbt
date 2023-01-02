@@ -1,9 +1,9 @@
 {
 	x: -2.0d,
 	y: -7.0d,
-	description: "Mining",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing Bosses*"
+		"*完成Boss后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [

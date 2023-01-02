@@ -2,9 +2,9 @@
 	x: 0.0d,
 	y: -7.0d,
 	shape: "diamond",
-	description: "Exotic",
+	description: "极品",
 	text: [
-		"Unlocked from completing the Introduction chapter"
+		"完成介绍章节后解锁"
 	],
 	can_repeat: true,
 	dependencies: [

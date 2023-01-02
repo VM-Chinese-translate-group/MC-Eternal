@@ -1,7 +1,7 @@
 {
 	x: -7.5d,
 	y: 1.0d,
-	description: "Block `",
+	description: "方块",
 	can_repeat: true,
 	tasks: [{
 		uid: "50f9c354",

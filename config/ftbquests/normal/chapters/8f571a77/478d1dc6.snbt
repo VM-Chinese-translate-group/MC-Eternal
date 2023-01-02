@@ -1,7 +1,7 @@
 {
 	x: 3.0d,
 	y: -5.0d,
-	description: "*Can not be automated*",
+	description: "*不可自动*",
 	can_repeat: true,
 	tasks: [{
 		uid: "7bcec48b",

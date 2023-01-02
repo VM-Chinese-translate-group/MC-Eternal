@@ -2,7 +2,7 @@
 	x: -8.5d,
 	y: 1.0d,
 	shape: "circle",
-	description: "Block `",
+	description: "方块",
 	can_repeat: true,
 	tasks: [{
 		uid: "a0cc0e14",
