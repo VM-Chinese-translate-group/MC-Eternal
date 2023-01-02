@@ -1,9 +1,9 @@
 {
-	title: "&9&lExtraterrestrial Artifacts",
+	title: "&9&l地外遗物",
 	x: 3.2d,
 	y: 0.4d,
 	shape: "octagon",
-	description: "&oI'm sure the universe is full of intelligent life. It's just been too intelligent to come here - Arthur C. Clarke",
+	description: "&o我坚信宇宙中充满了智慧生命，只是他们更高等而不屑于出现-亚瑟·查理斯·克拉克",
 	size: 0.8d,
 	tasks: [{
 		uid: "b12c2066",
@@ -29,10 +29,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8From a faraway land where the dead stay awake and the living are most unwelcome",
-						"�e(Rare Extraterrestrial Artifact)"
+						"§8来自一个遥远的地方，那里的死人不会睡觉，活人是最不受欢迎的",
+						"§e（稀有地外遗物）"
 					],
-					Name: "�7Hammer of the Undying"
+					Name: "§7不死之锤"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -75,8 +75,8 @@
 				HideFlags: 4,
 				display: {
 					Lore: [
-						"Blue in the darkness",
-						"Like a sickly diamond"
+						"黑暗中的蓝",
+						"像是病态的钻石"
 					]
 				}
 			}
@@ -92,7 +92,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

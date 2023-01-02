@@ -1,10 +1,10 @@
 {
-	title: "Visit &l&6&lThe Moon",
+	title: "访问&l&6&l月球",
 	icon: "rats:marbled_cheese_raw",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "octagon",
-	description: "&oI wonder what happened to the Ratlanteans?",
+	description: "&o我想知道鼠西族发生了什么事？",
 	tasks: [{
 		uid: "a1d9a0bd",
 		type: "dimension",
@@ -18,7 +18,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

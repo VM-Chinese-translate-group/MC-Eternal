@@ -2,12 +2,12 @@
 	x: -5.75d,
 	y: 0.0d,
 	shape: "square",
-	description: "&oThe Feral Ratlantean is a monstrous giant rodent that can only be assumed to be the direct ancestor of the once civilized Ratlanteans, this form however, is tainted by the deadly plague. Avoiding close contact with the creature may prove necessary.",
+	description: "&o野生的鼠西族是一种畸形的巨型啮齿动物，只能被认为是旧文明鼠西族的直接祖先，然而这种形态被致命的瘟疫所玷污。避免与这种生物接触可能是必要的。",
 	size: 0.5d,
 	tasks: [{
 		uid: "d20d7be4",
 		type: "kill",
-		title: "&6&lBounty: &ePlague Beast",
+		title: "&6&l悬赏：&e瘟兽",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -86,7 +86,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

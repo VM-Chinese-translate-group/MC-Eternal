@@ -1,9 +1,9 @@
 {
-	title: "Moon Master",
+	title: "月球主人",
 	x: -5.0d,
 	y: 1.5d,
 	shape: "diamond",
-	description: "&eThe Moon is mine! Muahah!",
+	description: "&e月亮是我的啦！Muahah！",
 	hide_dependency_lines: true,
 	dependencies: [
 		"935cd7e4"
@@ -34,10 +34,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�aThree things are certain in life: death, taxes and opening a bad chancecube",
-						"�e(�R�eRare Moon Artifact)"
+						"§a人生有三件事是不可避免的：死亡、税收和打开一个糟糕的机会方块",
+						"§e（§R§e稀有月球装备）"
 					],
-					Name: "�9God-King's Grace, Breath of Life"
+					Name: "§9神王的恩典，生命的气息"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -64,10 +64,10 @@
 				}],
 				display: {
 					Lore: [
-						"§eBlessed by the Rat King himself",
-						"§eI wouldn't suggest eating this.."
+						"§e得到鼠王本人的祝福",
+						"§e我不建议吃这个..."
 					],
-					Name: "§lThe §6§lHoly Cheese"
+					Name: "§6§l神圣奶酪"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,

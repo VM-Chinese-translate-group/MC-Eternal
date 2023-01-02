@@ -2,12 +2,12 @@
 	x: -4.25d,
 	y: -1.5d,
 	shape: "square",
-	description: "&oOne of the more violent monsters from the planet of Primordium. Lower ranked than its undying soldier cousin, this beast makes up for it in speed and its unwillingness to die. Some reports claim this creature enjoys to torture its enemy brutally...",
+	description: "&o来自原基星球的一种暴力怪物。比起它的不死士兵表兄，这种野兽的等级较低，但它的速度和不甘心死亡的精神弥补了这一点。一些报告称这种生物喜欢残忍地折磨它的敌人......",
 	size: 0.5d,
 	tasks: [{
 		uid: "47a0426c",
 		type: "kill",
-		title: "&6&lBounty: &r&8Enraged Fleshripper",
+		title: "&6&l悬赏：&r&8愤怒的肉食动物",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -25,7 +25,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}

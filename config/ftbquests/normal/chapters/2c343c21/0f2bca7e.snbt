@@ -2,12 +2,12 @@
 	x: -4.25d,
 	y: -0.75d,
 	shape: "square",
-	description: "&oAn undead Mage who was raised by another Necromancer. This particular variant is rumoured to be especially dangerous due to its innate affinity for magic. With its corrupted and wretched mind, it can raise the terrors of the Earth... ",
+	description: "&o一个不死法师，由另一个死灵法师抚养长大。这种特殊的变种特别危险，因为它天生对魔法有亲和力。凭借其腐化和邪恶的头脑，它可以唤起地球上的恐惧...... ",
 	size: 0.5d,
 	tasks: [{
 		uid: "1df44e96",
 		type: "kill",
-		title: "&6&lBounty: &r&dTwisted Ethereal Necromancer",
+		title: "&6&l悬赏：悚怖尸巫&r&d",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -25,7 +25,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§dExterrestrial Cache"
 				},
 				type: "extraterrestrial_cache"
 			}
