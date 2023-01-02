@@ -1,5 +1,5 @@
 {
-	title: "乌黑色Psi金属胸甲",
+	title: "Ebony Psimetal Chestplate",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -46,7 +46,7 @@
 	},
 	x: -1.0d,
 	y: -2.0d,
-	description: "*解锁自完成秘密*",
+	description: "*Unlocked from completing Secret*",
 	can_repeat: true,
 	dependencies: [
 		"9fb9dd41"

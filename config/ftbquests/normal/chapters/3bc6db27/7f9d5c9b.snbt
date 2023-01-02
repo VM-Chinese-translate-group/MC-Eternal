@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "3787c47a",
 		type: "advancement",
-		title: "进度: &e... 画出图案",
+		title: "Advancement: &e... Figures",
 		icon: "fossil:figurine",
 		advancement: "fossil:fossil/figurine",
 		criterion: ""
