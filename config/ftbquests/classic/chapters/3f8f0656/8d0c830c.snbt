@@ -1,0 +1,22 @@
+{
+	x: 8.5d,
+	y: 1.5d,
+	dependencies: [
+		"d256da0e"
+	],
+	tasks: [{
+		uid: "06b6c648",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:decay_hastener_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "583970fd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

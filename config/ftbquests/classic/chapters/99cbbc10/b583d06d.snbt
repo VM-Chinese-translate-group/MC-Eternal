@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "db35b3ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "agricraft:crop_sticks"
+		}]
+	}],
+	rewards: [{
+		uid: "c507650e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

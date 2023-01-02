@@ -1,0 +1,29 @@
+{
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "mysticalagriculture:crafting",
+		Damage: 24s
+	},
+	x: 3.0d,
+	y: -2.5d,
+	description: "Drop `",
+	can_repeat: true,
+	tasks: [{
+		uid: "f9355618",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:feather"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "681b8aef",
+		type: "ftbmoney:money",
+		ftb_money: 8L
+	}]
+}

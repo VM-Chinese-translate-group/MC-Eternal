@@ -1,0 +1,13 @@
+{
+	title: "junk",
+	loot_size: 27,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "stupidthings:rubber_chicken"
+		}
+	}]
+}

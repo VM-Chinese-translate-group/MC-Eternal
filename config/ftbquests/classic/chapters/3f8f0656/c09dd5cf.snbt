@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	dependencies: [
+		"4a72129f"
+	],
+	tasks: [{
+		uid: "7ee97085",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:basicblock2",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f807a60",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

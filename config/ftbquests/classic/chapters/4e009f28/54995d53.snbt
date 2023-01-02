@@ -1,0 +1,19 @@
+{
+	x: -16.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "0efae565",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:inferium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "40bcff17",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

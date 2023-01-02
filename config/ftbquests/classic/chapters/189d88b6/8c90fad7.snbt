@@ -1,0 +1,49 @@
+{
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 2s,
+				id: 74s
+			}]
+		}
+	},
+	x: -17.5d,
+	y: -7.5d,
+	dependencies: [
+		"e2e9e16e"
+	],
+	tasks: [{
+		uid: "ae5ff32f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:decorativesolidwood",
+			Damage: 1s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "fa70bee1",
+		type: "item",
+		title: "Kaboomerang II",
+		auto: "no_toast",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 74s
+				}]
+			}
+		}
+	}]
+}

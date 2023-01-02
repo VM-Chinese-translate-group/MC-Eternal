@@ -1,0 +1,42 @@
+{
+	x: 11.0d,
+	y: 0.5d,
+	dependencies: [
+		"cb9faa4a"
+	],
+	tasks: [{
+		uid: "8e8711fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cookingforblockheads:toaster"
+		}]
+	}],
+	rewards: [{
+		uid: "32e6cad5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d182a499",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:ironbrewitem"
+		}
+	},
+	{
+		uid: "c647e6da",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bread"
+		}
+	}]
+}

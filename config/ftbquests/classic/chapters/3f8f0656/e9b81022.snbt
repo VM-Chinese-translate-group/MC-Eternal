@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"1d53269e"
+	],
+	tasks: [{
+		uid: "685196c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:cooler",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "efbb3471",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

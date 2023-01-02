@@ -1,0 +1,165 @@
+{
+	title: "Prehistoric Playtime!",
+	x: -20.0d,
+	y: 5.0d,
+	description: "All kinds of creatures need something to do, even those from Prehistory are no exception!",
+	dependencies: [
+		"044435a4"
+	],
+	tasks: [{
+		uid: "84f7317c",
+		type: "item",
+		title: "Any Color of Toy Ball",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 6s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 7s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 8s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 9s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 10s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 11s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 12s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 13s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 14s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toyball",
+			Damage: 15s
+		}]
+	},
+	{
+		uid: "08eb45cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:bubble_blower"
+		}]
+	},
+	{
+		uid: "f542a61e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toy_scratching_post"
+		}]
+	},
+	{
+		uid: "cd6bcbd1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:toy_tethered_log"
+		}]
+	}],
+	rewards: [{
+		uid: "b710f8b3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3e0bd63a",
+		type: "loot",
+		table: 1
+	}]
+}

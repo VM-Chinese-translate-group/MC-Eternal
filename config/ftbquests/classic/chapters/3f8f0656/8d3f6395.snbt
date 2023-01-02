@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: 9.0d,
+	description: "Dunk Charged Certus, Redstone, and Nether Quartz into Water to create!",
+	dependencies: [
+		"464d17d4"
+	],
+	tasks: [{
+		uid: "fccc273e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "71cb259b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "44a7b503",
+		type: "loot",
+		table: 1
+	}]
+}

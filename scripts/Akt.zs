@@ -96,14 +96,6 @@ import crafttweaker.oredict.IOreDictEntry;
 				},
 				Damage: 0 as short
 			},
-			bloodmagic: {
-				id: "guideapi:bloodmagic-guide",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "guideapi"
-				},
-				Damage: 0 as short
-			},
 			forestry: {
 				id: "forestry:book_forester",
 				Count: 1 as byte,

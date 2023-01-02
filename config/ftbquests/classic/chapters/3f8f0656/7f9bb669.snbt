@@ -1,0 +1,55 @@
+{
+	title: "Misc. Alloys",
+	x: 10.5d,
+	y: 4.5d,
+	description: "Required Alloys to craft/upgrade machines",
+	dependencies: [
+		"3fd484fc"
+	],
+	tasks: [{
+		uid: "60c1184c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		}],
+		count: 16L
+	},
+	{
+		uid: "df12b918",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 7s
+		}],
+		count: 8L
+	},
+	{
+		uid: "f55d3032",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 5s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e2230f63",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ee61e95b",
+		type: "loot",
+		table: 1
+	}]
+}

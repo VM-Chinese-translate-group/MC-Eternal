@@ -1,0 +1,27 @@
+{
+	x: -8.5d,
+	y: 13.5d,
+	description: "Carries 32 Channels instead of 8! What's a Channel? Go check out a Tutorial!",
+	dependencies: [
+		"df01785d"
+	],
+	tasks: [{
+		uid: "d90fd2c1",
+		type: "item",
+		title: "ME Dense Cable",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 516s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 76s
+		}]
+	}]
+}

@@ -1,0 +1,96 @@
+{
+	title: "Electrolyser",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:electrolyser"
+	},
+	x: -1.5d,
+	y: -3.0d,
+	description: "Splits Water into Hydrogen and Oxygen, required to produce Rocket Fuel and fill your Airtight armor with Oxygen.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d5dbf68e"
+	],
+	tasks: [{
+		uid: "0ac3f1ea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:electrolyser"
+		}]
+	},
+	{
+		uid: "8975b18a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:structuremachine"
+		}],
+		count: 2L
+	},
+	{
+		uid: "161d3a38",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}]
+	},
+	{
+		uid: "b19559ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "e5e87048",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 3s
+		}],
+		count: 2L,
+		consume_items: false
+	},
+	{
+		uid: "f81cd3c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:forgepowerinput"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "474a04a1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}
