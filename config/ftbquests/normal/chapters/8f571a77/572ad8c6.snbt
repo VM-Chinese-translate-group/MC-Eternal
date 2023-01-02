@@ -1,10 +1,10 @@
 {
-	title: "青金石x16",
+	title: "Lapis x16",
 	x: -8.0d,
 	y: -6.0d,
-	description: "挖矿",
+	description: "Mining",
 	text: [
-		"*完成介绍章节后解锁*"
+		"*Unlocked after completing the Introduction chapter*"
 	],
 	can_repeat: true,
 	dependencies: [

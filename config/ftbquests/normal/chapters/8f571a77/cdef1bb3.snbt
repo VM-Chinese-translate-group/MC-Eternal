@@ -1,9 +1,9 @@
 {
 	x: -5.0d,
 	y: -5.0d,
-	description: "挖矿",
+	description: "Mining `",
 	text: [
-		"*完成传说装备章节后解锁*"
+		"*Unlocked after completing the Legendary Artifacts chapter*"
 	],
 	can_repeat: true,
 	dependencies: [

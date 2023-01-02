@@ -7,9 +7,9 @@
 	},
 	x: 1.0d,
 	y: -6.5d,
-	description: "*能量* *输入进任务显示器* ",
+	description: "*Energy* *Input into Task Screen* ",
 	text: [
-		"*完成科学导论后解锁*"
+		"*Unlocked after completing Introduction to Science*"
 	],
 	can_repeat: true,
 	dependencies: [

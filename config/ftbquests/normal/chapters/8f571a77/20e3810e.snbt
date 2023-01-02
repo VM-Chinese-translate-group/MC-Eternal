@@ -2,7 +2,7 @@
 	icon: "botania:manaresource 1 16",
 	x: 4.0d,
 	y: -7.0d,
-	description: "掉落物",
+	description: "Drop `",
 	can_repeat: true,
 	tasks: [{
 		uid: "a0cbc4ea",

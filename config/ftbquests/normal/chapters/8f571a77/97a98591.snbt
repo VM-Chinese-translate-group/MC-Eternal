@@ -2,7 +2,7 @@
 	icon: "minecraft:gold_nugget",
 	x: -5.0d,
 	y: -7.0d,
-	description: "挖矿",
+	description: "Mining",
 	can_repeat: true,
 	tasks: [{
 		uid: "84750764",

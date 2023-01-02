@@ -2,9 +2,9 @@
 	x: -12.5d,
 	y: -4.5d,
 	shape: "rsquare",
-	description: "*阅读描述*",
+	description: "*Read Description*",
 	text: [
-		"任务显示器将成为你最好的朋友，要开始自动化，只需打开gui并选择一个任务。将物品放入任务显示器中，然后你就可以看到金币在流动了。"
+		"The task screen will become your best friend, to begin automating simply open the gui and pick a task. Pipe the items into the task screen and watch the coins flow!"
 	],
 	dependencies: [
 		"cb3bf98e"

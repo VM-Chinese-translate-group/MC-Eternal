@@ -2,9 +2,9 @@
 	icon: "immersiveengineering:metal_device0 1 2",
 	x: 1.0d,
 	y: -5.5d,
-	description: "*能量* *输入进任务显示器* ",
+	description: "*Energy* *Input into Task Screen* ",
 	text: [
-		"*完成进阶科技后解锁*"
+		"*Unlocked after completing Advanced Science*"
 	],
 	can_repeat: true,
 	dependencies: [

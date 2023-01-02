@@ -1,9 +1,9 @@
 {
-	title: "16x生肉",
+	title: "16x Raw Meat",
 	x: -0.5d,
 	y: -3.0d,
 	shape: "octagon",
-	description: "狩猎",
+	description: "Hunter `",
 	can_repeat: true,
 	tasks: [{
 		uid: "b2076dad",

@@ -1,7 +1,7 @@
 {
 	x: -9.5d,
 	y: -1.0d,
-	description: "伐木",
+	description: "Lumberjack `",
 	can_repeat: true,
 	tasks: [{
 		uid: "4f9146c6",

@@ -1,7 +1,7 @@
 {
 	x: -4.5d,
 	y: -2.0d,
-	description: "耕作",
+	description: "Farming `",
 	can_repeat: true,
 	tasks: [{
 		uid: "107e429c",

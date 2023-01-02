@@ -1,5 +1,5 @@
 {
-	title: "玩家商店",
+	title: "Player Shop",
 	icon: "twilightforest:twilight_sapling 1 9",
 	disable_toast: true,
 	always_invisible: false,
@@ -343,7 +343,7 @@
 		rotation: 1.0d,
 		image: "assets:wither.png",
 		hover: [
-			"你好！我是Murray，我的头断开了。你能帮我找到其他地方的我的身体吗？"
+			"Hello! I'm Murray the detached skeletal head. Could you help me find my misplaced body?"
 		],
 		click: "",
 		dev: false
@@ -356,7 +356,7 @@
 		rotation: 0.0d,
 		image: "assets:bone.png",
 		hover: [
-			"肋骨与臂骨相连"
+			"The rib bone is connected to the arm bone"
 		],
 		click: "",
 		dev: false
@@ -369,7 +369,7 @@
 		rotation: -100.0d,
 		image: "assets:bone.png",
 		hover: [
-			"臂骨与头骨相连"
+			"The arm bone is connected to the head bone"
 		],
 		click: "",
 		dev: false
@@ -382,7 +382,7 @@
 		rotation: 130.0d,
 		image: "assets:bone.png",
 		hover: [
-			"腿骨与髋骨相连"
+			"The leg bone is connected to the hip bone"
 		],
 		click: "",
 		dev: false
@@ -395,7 +395,7 @@
 		rotation: 133.0d,
 		image: "assets:bone.png",
 		hover: [
-			"头骨与腿骨相连"
+			"The head bone is connected to the leg bone"
 		],
 		click: "",
 		dev: false
