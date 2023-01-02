@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: -3.0d,
-	description: "Efficient Steel production",
+	description: "高效生产钢",
 	dependencies: [
 		"e9d7985e"
 	],

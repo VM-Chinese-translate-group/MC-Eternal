@@ -1,8 +1,8 @@
 {
-	title: "Sticks and stone may break my bones",
+	title: "棒子和石头可能会打断我的骨头",
 	x: -5.5d,
 	y: 3.5d,
-	description: "Small titanium dust can be obtained by electrolyzing 12 bauxite dust",
+	description: "通过电解12个铝土矿粉可得到小钛粉",
 	dependencies: [
 		"668bfe7b"
 	],

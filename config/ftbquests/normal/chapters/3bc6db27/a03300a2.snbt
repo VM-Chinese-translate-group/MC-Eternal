@@ -1,7 +1,7 @@
 {
 	x: 3.0d,
 	y: 5.5d,
-	description: "Mining with style!",
+	description: "挖出风格!",
 	dependencies: [
 		"5111a663"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -6.0d,
 	y: -2.5d,
-	description: "Charges items with RF",
+	description: "用RF充能物品",
 	dependencies: [
 		"749a3883"
 	],

@@ -1,9 +1,9 @@
 {
 	x: -18.0d,
 	y: 4.5d,
-	description: "There's Dinosaurs in this here Dirt",
+	description: "这的泥土里有恐龙",
 	text: [
-		"Sifts through more common resources to potentially acquire rare items, like Fossils or Prehistoric Plants!"
+		"筛更多的常见的资源来获得稀有物品，如化石或史前植物!"
 	],
 	dependencies: [
 		"8d697709"
