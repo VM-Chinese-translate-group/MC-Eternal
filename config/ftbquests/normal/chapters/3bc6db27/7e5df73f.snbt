@@ -1,8 +1,8 @@
 {
-	title: "充能水晶",
+	title: "Energized Crystals",
 	x: 0.0d,
 	y: 3.0d,
-	description: "用于制作高级物品和机器.",
+	description: "Used to craft advance items and machines.",
 	dependencies: [
 		"06cc512e"
 	],
