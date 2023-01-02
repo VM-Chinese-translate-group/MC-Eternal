@@ -1,5 +1,5 @@
 {
-	title: "&c&l完成所有的挑战，从整合包作者那里夺回你的灵魂！",
+	title: "&c&lComplete all challenges and reclaim your soul from the modpack author",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -9,7 +9,7 @@
 	x: 0.0d,
 	y: -1.5d,
 	shape: "hexagon",
-	description: "&o所以呃...我猜你已经得到了吧？下次我再找你！是的，这听起来不错，我的意思是恭喜你完成了所有这些荒谬的挑战。守护好你的灵魂..直到你下次容易上当时再给我。",
+	description: "&oSo uh... I guess you've earned it? I'll get you next time! Yeah that sounds good, I mean congrats on completing all of these ridiculous challenges. Keep the soul.. Until you willfully give it to me again the next time you get easily fooled.",
 	dependencies: [
 		"03049ff4",
 		"bec752d7",
