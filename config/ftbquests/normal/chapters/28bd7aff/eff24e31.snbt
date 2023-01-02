@@ -1,12 +1,12 @@
 {
-	title: "Down a dark path",
+	title: "跌入黑暗之径",
 	x: -7.0d,
 	y: -1.0d,
 	optional: true,
 	tasks: [{
 		uid: "bc7b6a1e",
 		type: "kill",
-		title: "Murder a Innocent Citizen",
+		title: "谋杀一位无辜的市民",
 		icon: "witherskelefix:fragment",
 		entity: "minecolonies:citizen",
 		value: 1L
@@ -28,7 +28,7 @@
 			id: "ancientspellcraft:ancient_spellcraft_scroll",
 			tag: {
 				display: {
-					Name: "Summon Undead Wizard"
+					Name: "召唤不死巫师"
 				}
 			},
 			Damage: 208s
