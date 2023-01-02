@@ -1,9 +1,9 @@
 {
-	title: "Top Tier Food: Miner�s Stew",
+	title: "顶级美食:矿物炖肉",
 	x: 2.0d,
 	y: -5.5d,
 	text: [
-		"It is edible� but is it tasty?"
+		"它可以吃，但好吃吗?"
 	],
 	tasks: [{
 		uid: "3e110cdc",

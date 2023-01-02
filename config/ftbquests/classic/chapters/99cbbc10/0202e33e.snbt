@@ -1,9 +1,9 @@
 {
-	title: "Top Tier Food: Gourmet Vension Burger",
+	title: "顶级美食:美食鹿肉汉堡",
 	x: -1.0d,
 	y: -5.5d,
 	text: [
-		"Bet you can�t eat 5 of them! No no! Stop, don�t eat 5 of them! "
+		"我打赌你不可以吃掉 5 个！不 不！5 个，不要吃掉其中 5 个! "
 	],
 	tasks: [{
 		uid: "5639618b",

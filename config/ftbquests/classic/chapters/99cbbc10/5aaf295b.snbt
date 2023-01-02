@@ -1,8 +1,8 @@
 {
-	title: "Machines in Harvestcraft",
+	title: "潘马斯农场中的机器",
 	x: 0.0d,
 	y: -3.5d,
-	description: "They don�t need energy!",
+	description: "T他们不需要能量!",
 	text: [
 		""
 	],

@@ -1,9 +1,9 @@
 {
-	title: "How to become a cookie monster!",
+	title: "我要制造一个曲奇饼干怪物!",
 	x: 10.5d,
 	y: -5.5d,
 	text: [
-		"Cookie!"
+		"曲奇饼干!"
 	],
 	tasks: [{
 		uid: "55357cf4",

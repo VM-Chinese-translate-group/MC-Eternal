@@ -1,9 +1,9 @@
 {
-	title: "Something smells fishy!",
+	title: "有鱼腥味!",
 	x: 7.0d,
 	y: -2.0d,
 	text: [
-		"Raw fish can be smelted in a furnace to create cooked fish except Calamari, Clam, Crab, Crayfish, Frog, Octopus, Scallop, Shrimp, Snail and Turtles."
+		"除了鱿鱼、蛤蜊、螃蟹、小龙虾、青蛙、章鱼、扇贝、虾、蜗牛和乌龟外，生鱼可以在炉中熔炼，以制作熟鱼."
 	],
 	dependencies: [
 		"281d36be"

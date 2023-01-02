@@ -1,8 +1,8 @@
 {
-	title: "Cooking Part 2.",
+	title: "烹饪的第二部分.",
 	x: 10.0d,
 	y: 0.5d,
-	description: "&oIf the way is hazy",
+	description: "&o如果路是朦胧的",
 	dependencies: [
 		"0a5005e1"
 	],

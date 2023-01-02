@@ -1,9 +1,9 @@
 {
-	title: "Enderios",
+	title: "末影麦片",
 	x: 2.0d,
 	y: -6.5d,
 	text: [
-		"Part of a balanced breakfast! Not actually healthy� be careful you will get nausea, dizziness, confusion and random teleportation!"
+		"均衡早餐的一部分!不健康！小心！你会恶心，头晕，混乱和随机瞬间移动!"
 	],
 	tasks: [{
 		uid: "0e552e89",

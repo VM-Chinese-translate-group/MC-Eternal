@@ -1,9 +1,9 @@
 {
-	title: "Condiments",
+	title: "调味品",
 	x: -1.0d,
 	y: -6.5d,
 	text: [
-		"Let's add some flavors!"
+		"让我们添加一点味道吧!"
 	],
 	tasks: [{
 		uid: "689eb539",

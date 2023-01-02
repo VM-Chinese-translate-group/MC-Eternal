@@ -2,7 +2,7 @@
 	x: 10.0d,
 	y: -8.0d,
 	text: [
-		"Me love COOKIES!"
+		"我喜欢饼干!"
 	],
 	dependencies: [
 		"17f50c84"

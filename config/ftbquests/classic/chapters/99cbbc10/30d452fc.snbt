@@ -2,7 +2,7 @@
 	x: 11.0d,
 	y: -3.0d,
 	text: [
-		"Nom Nom COOKIE! Nom"
+		"Nom Nom 饼干! Nom"
 	],
 	dependencies: [
 		"17f50c84"
