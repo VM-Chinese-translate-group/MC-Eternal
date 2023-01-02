@@ -1,5 +1,5 @@
 {
-	title: "下界之星三明治",
+	title: "Netherstar Sandwich",
 	icon: {
 		id: "culinaryconstruct:sandwich",
 		tag: {
@@ -50,7 +50,7 @@
 	},
 	x: 1.0d,
 	y: -2.0d,
-	description: "*解锁自完成秘密*",
+	description: "*Unlocked from completing Secret*",
 	can_repeat: true,
 	dependencies: [
 		"ca973051"

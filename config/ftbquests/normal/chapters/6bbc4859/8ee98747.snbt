@@ -84,7 +84,7 @@
 	x: 0.0d,
 	y: -3.0d,
 	shape: "hexagon",
-	description: "*解锁自完成挑战章节*",
+	description: "*Unlocked from completing the Challenge chapter*",
 	can_repeat: true,
 	dependencies: [
 		"03049ff4"
