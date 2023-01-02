@@ -1,7 +1,7 @@
 {
 	x: -10.5d,
 	y: -2.0d,
-	description: "A hideous brute that lurks in caves and savagely bludgeons any trespassers upon its turf.",
+	description: "一种可怕的野兽，生活在洞穴深处。它会挥舞可怕的重型武器锤击闯入领地的入侵者。",
 	tasks: [{
 		uid: "b1e1743e",
 		type: "kill",

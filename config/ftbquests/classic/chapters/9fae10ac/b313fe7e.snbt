@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 1.0d,
-	description: "The Ur-Ghast can be found flying around at the top of the gigantic Dark Tower. It appears as a large, supernatural creature with many large, waving tentacles. It is covered in what adventurers fear is blood, or could be Carminite...",
+	description: "暮初恶魂徘徊在高大的黑暗高塔顶部。这种巨大的超自然生物挥舞着许多巨型触须，表面覆盖着令冒险者们闻风丧胆的血渍，也有可能只是砷铅铁矿石？",
 	tasks: [{
 		uid: "39892d9b",
 		type: "kill",

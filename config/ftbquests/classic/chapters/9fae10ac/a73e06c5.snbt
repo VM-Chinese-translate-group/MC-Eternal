@@ -1,7 +1,7 @@
 {
 	x: 2.0d,
 	y: 0.0d,
-	description: "The Feral Ratlantean is a monstrous giant rodent that can only be assumed to be the direct ancestor of the once civilized Ratlanteans.",
+	description: "野蛮鼠西族是可怕的巨型啮齿动物，它们被学术界暂定为曾经鼠西族文明的直系祖先。",
 	tasks: [{
 		uid: "4fc922ce",
 		type: "kill",

@@ -8,7 +8,7 @@
 	},
 	x: -9.0d,
 	y: 0.0d,
-	description: "The Hydra can be found in a unique, cracked-open Hydra Lair in a Fire Swamp. The Hydra appears as a massive creature, with two stumpy legs supporting a wide, scaly body. Multiple serpentine necks end in large fiery heads.",
+	description: "九头蛇居住在火焰沼泽上独一无二的空心九头蛇巢穴内。九头蛇是一个体型庞大的生物，粗壮的双腿支撑起了其硕大无比的身躯，诸多蜿蜒的脖颈延申出暴虐的龙首。",
 	tasks: [{
 		uid: "d579d980",
 		type: "kill",

@@ -14,7 +14,7 @@
 	},
 	x: -12.5d,
 	y: 1.0d,
-	description: "Giants live on solid cloudbanks above the Highlands biome. For unknown reasons (Sorcery? Coincidence? Symbolism?) they look like giant versions of the player looking at them",
+	description: "巨人生活在高原之上的实心云岸上。因为某些未知的原因（魔法？巧合？还是象征手法？）他们看起来就像是玩家相貌的巨大化版本。",
 	tasks: [{
 		uid: "6a38e0b0",
 		type: "kill",

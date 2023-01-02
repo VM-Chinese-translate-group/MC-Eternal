@@ -1,7 +1,7 @@
 {
 	x: -12.5d,
 	y: 2.0d,
-	description: "The fearsome Alpha Yeti is much larger than the rest of the Yetis in its pack. It has six large blue horns and is constantly aggressive towards players",
+	description: "可怕的雪怪首领比这一种群中其余任何一只雪怪的体型都要大。它的头上有六只蓝色的角，并且始终对玩家抱有敌意。",
 	tasks: [{
 		uid: "deea36c3",
 		type: "kill",
