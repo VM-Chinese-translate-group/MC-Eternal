@@ -1,9 +1,9 @@
 {
 	x: -9.5d,
 	y: -5.0d,
-	description: "Mining `",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing the Exploration chapter*"
+		"*完成探索章节后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [

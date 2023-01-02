@@ -2,7 +2,7 @@
 	icon: "inventorypets:nugget_lapis",
 	x: -8.0d,
 	y: -7.0d,
-	description: "Mining",
+	description: "挖矿",
 	can_repeat: true,
 	tasks: [{
 		uid: "db124768",

@@ -2,9 +2,9 @@
 	icon: "charm:ender_pearl_block",
 	x: 4.0d,
 	y: -5.0d,
-	description: "Drop `",
+	description: "掉落",
 	text: [
-		"*Unlocked after defeating the Ender Dragon*"
+		"*击杀末影龙后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [

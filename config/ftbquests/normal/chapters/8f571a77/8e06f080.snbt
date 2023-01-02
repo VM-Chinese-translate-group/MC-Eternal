@@ -1,10 +1,10 @@
 {
-	title: "Gold x16",
+	title: "金x16",
 	x: -5.0d,
 	y: -6.0d,
-	description: "Mining",
+	description: "挖矿",
 	text: [
-		"Unlocked after completing the Introduction chapter"
+		"完成介绍章节后解锁"
 	],
 	can_repeat: true,
 	dependencies: [

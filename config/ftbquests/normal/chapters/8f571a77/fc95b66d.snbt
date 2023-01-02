@@ -1,8 +1,8 @@
 {
-	title: "Redstone x1",
+	title: "红石x1",
 	x: -9.5d,
 	y: -7.0d,
-	description: "Mining",
+	description: "挖矿",
 	can_repeat: true,
 	tasks: [{
 		uid: "12a6f92e",
@@ -15,7 +15,7 @@
 	rewards: [{
 		uid: "32d535a1",
 		type: "item",
-		title: "1 Currency",
+		title: "1货币",
 		auto: "no_toast",
 		item: {
 			id: "lodsofemone:coin_small",

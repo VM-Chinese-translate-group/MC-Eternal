@@ -2,9 +2,9 @@
 	x: -12.5d,
 	y: -6.0d,
 	shape: "gear",
-	description: "*Read Description*",
+	description: "*阅读描述*",
 	text: [
-		"So you've decided you want coins? Don't we all? Luckily for you I'm going to teach you the basics for automating the process and setting you up for life!"
+		"所以你已经决定你想要金币？这难道不是人之常情吗？幸运的是，我将教会你关于自动化过程的基本知识，并为你的生活做好准备！"
 	],
 	tasks: [{
 		uid: "d2c2ad39",
