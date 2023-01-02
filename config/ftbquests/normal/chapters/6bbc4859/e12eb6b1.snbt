@@ -1,10 +1,10 @@
 {
-	title: "创意奶酪",
+	title: "Creative Cheese",
 	icon: "rats:creative_cheese",
 	x: 2.0d,
 	y: 1.0d,
 	shape: "square",
-	description: "*解锁自完成秘密*",
+	description: "*Unlocked by completing Secret*",
 	can_repeat: true,
 	dependencies: [
 		"09898bbf"

@@ -1,10 +1,10 @@
 {
-	title: "烈焰人种子",
+	title: "Blaze Seeds",
 	icon: "mysticalagriculture:blaze_seeds",
 	x: -1.5d,
 	y: -0.5d,
 	shape: "diamond",
-	description: "*解锁自完成探索章节*",
+	description: "*Unlocked from completing the Exploration chapter*",
 	can_repeat: true,
 	dependencies: [
 		"209b79b1"
