@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: 12.0d,
-	description: "Accesses items stored in an ME Network! And has a Crafting Grid!",
+	description: "访问存储在ME网络中的物品！还有一个合成台！",
 	dependencies: [
 		"8e9ea584"
 	],

@@ -1,7 +1,7 @@
 {
 	x: 8.5d,
 	y: -2.5d,
-	description: "Provides extra sides to a Machine it's placed next to.",
+	description: "给其他的机器提供一个额外的接口来进行自动化(机械需要与接口紧挨着)",
 	dependencies: [
 		"d256da0e"
 	],

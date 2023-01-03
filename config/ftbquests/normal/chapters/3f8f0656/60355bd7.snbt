@@ -1,8 +1,8 @@
 {
-	title: "Short-range Teleportation",
+	title: "短程传送",
 	x: 15.0d,
 	y: 4.5d,
-	description: "Craft a Staff of Travelling",
+	description: "打造旅行权杖",
 	dependencies: [
 		"7b601388",
 		"4faafd29"

@@ -1,8 +1,8 @@
 {
-	title: "Commonly-used Alloys",
+	title: "常用合金",
 	x: 10.5d,
 	y: 6.0d,
-	description: "Most used alloys of EnderIO",
+	description: "最常用的末影接口合金",
 	dependencies: [
 		"3fd484fc"
 	],

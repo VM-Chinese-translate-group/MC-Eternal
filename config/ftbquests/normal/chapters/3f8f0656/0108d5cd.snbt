@@ -1,7 +1,7 @@
 {
 	x: 9.0d,
 	y: 10.5d,
-	description: "Conduits are used to transfer items/fluid/power to selected destinations. Note: Use color coding to sort input/output",
+	description: "导管用于将物品/流体/能量输送到选定的目标。注意：可以使用颜色编码对输入/输出进行排序",
 	dependencies: [
 		"cb777ab6"
 	],

@@ -1,7 +1,7 @@
 {
 	x: 19.5d,
 	y: 7.5d,
-	description: "Enhanced Machinery",
+	description: "强化机械",
 	dependencies: [
 		"be9cdc44",
 		"1bfccc16"

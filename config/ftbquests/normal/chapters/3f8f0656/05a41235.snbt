@@ -1,8 +1,8 @@
 {
-	title: "Special Blends",
+	title: "特殊混合物",
 	x: 12.0d,
 	y: 7.5d,
-	description: "Used to upgrade Machine Chassis",
+	description: "用于升级机械框架",
 	dependencies: [
 		"3fd484fc"
 	],

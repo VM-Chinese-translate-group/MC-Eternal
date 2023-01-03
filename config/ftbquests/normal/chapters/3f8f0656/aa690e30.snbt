@@ -1,9 +1,9 @@
 {
-	title: "The search for a durable and sturdy enough material to craft advanced technology",
+	title: "寻找一种足够耐用和坚固的材料来制造出更为先进地科技",
 	x: 0.0d,
 	y: -3.0d,
 	shape: "diamond",
-	description: "*Osmium can only be mined from The Beneath*",
+	description: "*锇只能从地下开采出来*",
 	tasks: [{
 		uid: "1b64512d",
 		type: "item",
