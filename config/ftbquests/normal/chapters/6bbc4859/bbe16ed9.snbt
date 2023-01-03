@@ -3,7 +3,7 @@
 	x: -2.0d,
 	y: 1.0d,
 	shape: "square",
-	description: "*解锁自完成模拟殖民地章节*",
+	description: "*Unlocked from completing the Mayor Position Available chapter*",
 	dependencies: [
 		"28bd7aff"
 	],
