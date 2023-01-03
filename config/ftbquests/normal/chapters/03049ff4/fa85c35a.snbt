@@ -1,8 +1,8 @@
 {
-	title: "&lThe Millionare",
+	title: "&l百万富翁",
 	x: -1.5d,
 	y: 1.0d,
-	description: "*\"I've earned this fortune fair and square! You should just try a little harder!\"*",
+	description: "*\"这些都是我正当手段赚来的，你只是需要再努力一下下！\"*",
 	tasks: [{
 		uid: "ef34bac9",
 		type: "ftbmoney:money",

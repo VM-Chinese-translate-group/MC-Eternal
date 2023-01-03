@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: 8.5d,
-	description: "Pain and Suffering",
+	description: "痛苦与磨难",
 	dependencies: [
 		"ca973051"
 	],

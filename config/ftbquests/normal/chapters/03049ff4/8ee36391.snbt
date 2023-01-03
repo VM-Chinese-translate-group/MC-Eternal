@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: -1.0d,
-	description: "&oWhile you played Minecraft I studied the blade",
+	description: "&o\"我只是把你玩MC的时间用来研究刀剑而已\"",
 	tasks: [{
 		uid: "3c75fd33",
 		type: "item",

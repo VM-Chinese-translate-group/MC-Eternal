@@ -1,8 +1,8 @@
 {
-	title: "Quack",
+	title: "嘎嘎嘎",
 	x: 3.5d,
 	y: -4.5d,
-	description: "Why would anyone want to complete this quest?",
+	description: "为什么大家都不想完成这个任务？",
 	text: [
 		""
 	],
@@ -44,7 +44,7 @@
 					id: 15
 				}],
 				display: {
-					Name: "Legendary Rubber Chicken"
+					Name: "传说级尖叫鸡"
 				}
 			}
 		}

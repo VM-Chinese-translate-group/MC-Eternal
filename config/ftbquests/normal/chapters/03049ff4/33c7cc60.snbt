@@ -1,5 +1,5 @@
 {
-	title: "&lSince Last Death",
+	title: "&l距上次死亡时间",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -8,7 +8,7 @@
 	},
 	x: 4.0d,
 	y: -1.0d,
-	description: "&c&oHardcore mode without the hardcore ",
+	description: "&c&o\"把非极限模式当成极限模式玩"\",
 	optional: true,
 	tasks: [{
 		uid: "125c1d87",
@@ -73,9 +73,9 @@
 				}],
 				display: {
 					Lore: [
-						"Patrick: Life! Death! Life! Death! Life!"
+						"帕特里克: 死了又活，活了又死！"
 					],
-					Name: "Death"
+					Name: "死亡"
 				}
 			}
 		}

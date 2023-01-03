@@ -1,8 +1,8 @@
 {
-	title: "Dirt Factory",
+	title: "泥土工厂",
 	x: 2.0d,
 	y: -3.0d,
-	description: "&oBig money, big women, big fun",
+	description: "&o赚大钱，泡好妞，享极乐",
 	tasks: [{
 		uid: "7c9d3ac1",
 		type: "item",
@@ -46,7 +46,7 @@
 	{
 		uid: "6583c282",
 		type: "item",
-		title: "Golden Lootbox",
+		title: "黄金战利品箱",
 		icon: "treasure2:gold_strongbox",
 		item: {
 			id: "ftbquests:lootcrate",
@@ -62,7 +62,7 @@
 			id: "minecraft:dirt",
 			tag: {
 				display: {
-					Name: "Triple enriched diamond filtered quality dirt"
+					Name: "三重富集钻石过滤精选优质土"
 				}
 			}
 		}

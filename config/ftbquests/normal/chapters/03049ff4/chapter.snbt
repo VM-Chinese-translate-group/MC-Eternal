@@ -1,5 +1,5 @@
 {
-	title: "Challenges",
+	title: "挑战",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -17,7 +17,7 @@
 		rotation: -2.0d,
 		image: "assets:challenges.png",
 		hover: [
-			"Thanks for playing! If you've enjoyed the experience so far why not leave a review on CurseForge. It really does make a difference! :D (Click to be redirected)"
+			"感谢你的游玩！ 如果您喜欢目前为止的游戏体验，为什么不去CruseForge上留下您的宝贵评论呢？这确实会对我意义非凡！ :D (点击跳转)"
 		],
 		click: "https://www.curseforge.com/minecraft/modpacks/minecraft-eternal",
 		dev: false
