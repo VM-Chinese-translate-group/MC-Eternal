@@ -3,7 +3,7 @@
 	x: 10.0d,
 	y: -1.0d,
 	shape: "square",
-	description: "&o烤一个漂亮的蛋糕，真是小菜一碟！",
+	description: "&o烤出一块漂亮的蛋糕，真是小菜一碟！",
 	size: 1.2d,
 	tasks: [{
 		uid: "46fa01c1",
