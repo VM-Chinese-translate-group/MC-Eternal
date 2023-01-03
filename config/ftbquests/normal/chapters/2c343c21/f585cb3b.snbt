@@ -2,12 +2,12 @@
 	x: -4.25d,
 	y: 0.0d,
 	shape: "square",
-	description: "&o野生的鼠西族是一种畸形的巨型啮齿动物，被认为是旧文明鼠西族的直接祖先。",
+	description: "&o野蛮的鼠西族是一种畸形的巨型啮齿动物，被认为是旧文明鼠西族的直接祖先。",
 	size: 0.5d,
 	tasks: [{
 		uid: "28117dd7",
 		type: "kill",
-		title: "&6&l悬赏：&e野生鼠西族",
+		title: "&6&l悬赏：&e野蛮鼠西族",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
