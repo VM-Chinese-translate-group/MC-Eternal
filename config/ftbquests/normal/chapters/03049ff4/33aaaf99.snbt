@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "4b2b221f",
 		type: "item",
-		title: "Catch 1500x Fish",
+		title: "抓住 鱼 x1500 ",
 		items: [{
 			ForgeCaps: {
 				Parent: {
@@ -32,7 +32,7 @@
 			id: "mysticalagriculture:supremium_fishing_rod",
 			tag: {
 				display: {
-					Name: "Nat Pagle's Extreme Angler FC-5000"
+					Name: "奈特-帕格的极限垂钓FC-5000型"
 				}
 			}
 		}

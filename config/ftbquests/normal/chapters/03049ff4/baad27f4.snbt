@@ -1,8 +1,8 @@
 {
-	title: "&5&lDraconic Devolution",
+	title: "&5&l严肃的权力下放",
 	x: 0.0d,
 	y: 1.0d,
-	description: "What's a Draconic Evolution?",
+	description: "什么是进化的残酷？",
 	tasks: [{
 		uid: "0f418320",
 		type: "item",
@@ -532,7 +532,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "How §lNOT§r §oto Train your Dragon"
+					Name: "如何 §l不去§r §o 训练你的龙"
 				}
 			}
 		}

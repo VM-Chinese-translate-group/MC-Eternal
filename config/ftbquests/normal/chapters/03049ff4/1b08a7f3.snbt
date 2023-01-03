@@ -1,8 +1,8 @@
 {
-	title: "&lTime Played",
+	title: "&l游戏时间",
 	x: 4.0d,
 	y: -2.0d,
-	description: "&oTime is money friend!",
+	description: "&o\"时间就是金钱，我的朋友\"!",
 	tasks: [{
 		uid: "b9edbae7",
 		type: "stat",

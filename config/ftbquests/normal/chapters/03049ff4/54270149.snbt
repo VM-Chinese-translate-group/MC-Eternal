@@ -1,8 +1,8 @@
 {
-	title: "&b&lAngel Ring",
+	title: "&b&l天使指环",
 	x: 1.0d,
 	y: 1.0d,
-	description: "What? You have to work for creative flight? *Surprised Pikachu face*",
+	description: "什么？为了创造模式的飞行你还得干活？*皮卡丘惊讶.jpg*",
 	tasks: [{
 		uid: "a9d001c9",
 		type: "item",
