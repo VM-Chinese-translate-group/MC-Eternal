@@ -8,7 +8,7 @@
 	x: 0.0d,
 	y: 2.5d,
 	shape: "square",
-	description: "*解锁自完成介绍章节*",
+	description: "*Unlocked from completing the Introduction chapter*",
 	can_repeat: true,
 	dependencies: [
 		"189d88b6"
