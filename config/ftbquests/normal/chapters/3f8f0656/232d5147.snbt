@@ -1,8 +1,8 @@
 {
-	title: "进阶能源存储",
+	title: "Advanced Energy Storage",
 	x: 15.0d,
 	y: 9.0d,
-	description: "制造电容组",
+	description: "Craft a Capacitor Bank",
 	dependencies: [
 		"bde05be8",
 		"65ea1d0d"

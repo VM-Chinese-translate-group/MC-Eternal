@@ -1,7 +1,7 @@
 {
 	x: -4.5d,
 	y: 9.0d,
-	description: "将充能赛特斯石英水晶、红石和下界石英一起扔到水中制造",
+	description: "Dunk Charged Certus, Redstone, and Nether Quartz into Water to create!",
 	dependencies: [
 		"464d17d4"
 	],

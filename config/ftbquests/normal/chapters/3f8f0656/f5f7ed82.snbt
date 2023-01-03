@@ -1,8 +1,8 @@
 {
-	title: "快速提取",
+	title: "Speedy Extract",
 	x: 12.0d,
 	y: 10.5d,
-	description: "提高物品/流体导管的提取速度",
+	description: "Increases extraction speed of item/fluid conduits",
 	dependencies: [
 		"0108d5cd"
 	],

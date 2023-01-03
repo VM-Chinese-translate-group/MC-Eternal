@@ -1,8 +1,8 @@
 {
-	title: "电容",
+	title: "Capacitate",
 	x: 10.5d,
 	y: 9.0d,
-	description: "用于制作高级物品/机器，而且这是高级机器所需的物品",
+	description: "Used in crafting advance items/machines and required for advanced machines",
 	dependencies: [
 		"d3804759"
 	],

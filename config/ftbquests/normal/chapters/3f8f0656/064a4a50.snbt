@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: -5.0d,
-	description: "如果我不能潜水的话，那么这些东西是怎么回事？",
+	description: "If I can't scuba, then what's this all been about?",
 	dependencies: [
 		"567a3a9f"
 	],

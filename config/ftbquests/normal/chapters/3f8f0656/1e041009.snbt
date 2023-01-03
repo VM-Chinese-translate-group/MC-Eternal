@@ -1,7 +1,7 @@
 {
 	x: -8.5d,
 	y: 13.5d,
-	description: "可以承载32个通道而不是8个！什么是频道？去看看教程吧！",
+	description: "Carries 32 Channels instead of 8! What's a Channel? Go check out a Tutorial!",
 	dependencies: [
 		"df01785d"
 	],

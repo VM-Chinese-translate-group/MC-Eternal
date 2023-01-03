@@ -1,8 +1,8 @@
 {
-	title: "自动化中心",
+	title: "Autocrafting Central",
 	x: -7.0d,
 	y: 11.5d,
-	description: "创建自动化样板的基础，这是AE2自动化的血统！",
+	description: "Basics for creating Encoded Patterns, the blood of AE2 Autocrafting!",
 	dependencies: [
 		"4e92c856",
 		"8aaec445"

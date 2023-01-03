@@ -1,5 +1,5 @@
 {
-	title: "起始框架",
+	title: "Starting Chassis",
 	x: 9.0d,
 	y: 7.5d,
 	description: "Base crafting component of all EnderIO machinery",

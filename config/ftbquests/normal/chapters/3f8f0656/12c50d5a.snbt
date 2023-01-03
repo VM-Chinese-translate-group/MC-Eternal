@@ -1,7 +1,7 @@
 {
 	x: 5.0d,
 	y: 1.0d,
-	description: "把它放置在裂变反应堆的外壁上，充当反应堆控制器的远程访问接口。",
+	description: "Placed in the wall of a Fission Reactor, acts as a remote Access to the Reactor's controller.",
 	dependencies: [
 		"d256da0e"
 	],

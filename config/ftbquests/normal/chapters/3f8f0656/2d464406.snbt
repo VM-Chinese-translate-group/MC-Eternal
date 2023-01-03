@@ -1,7 +1,7 @@
 {
 	x: 16.5d,
 	y: 6.0d,
-	description: "用于制造不同用途的流体",
+	description: "Used to create fluids with different uses",
 	dependencies: [
 		"20e40ad0"
 	],

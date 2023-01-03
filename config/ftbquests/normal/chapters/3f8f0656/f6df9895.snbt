@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: 9.5d,
-	description: "将ME网络呈现到持有者，甚至穿过墙壁！右键单击ME方块来呈现出连接到的网络。",
+	description: "Visualizes an ME Network to the holder, even through Walls! Right-click an ME block to visualize the network it's conncted to.",
 	dependencies: [
 		"8e9ea584"
 	],

@@ -1,7 +1,7 @@
 {
 	x: 9.0d,
 	y: 9.0d,
-	description: "用于末影接口的导管",
+	description: "Used for EnderIO conduits",
 	dependencies: [
 		"d3804759"
 	],

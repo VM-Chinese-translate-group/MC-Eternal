@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: -6.5d,
-	description: "动态储罐是存储大量流体的绝佳方法！",
+	description: "Dynamic tanks are an excellent method of storing large amounts of a liquid in style!",
 	dependencies: [
 		"567a3a9f"
 	],

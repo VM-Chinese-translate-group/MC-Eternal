@@ -1,7 +1,7 @@
 {
 	x: -7.5d,
 	y: 9.0d,
-	description: "如果你想在MC永恒中找到AE的陨石，你需要这个！",
+	description: "You'll want this if you want to find AE Meteors in MC Eternal!",
 	dependencies: [
 		"464d17d4"
 	],

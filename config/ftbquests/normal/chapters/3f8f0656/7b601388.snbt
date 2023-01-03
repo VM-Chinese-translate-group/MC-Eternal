@@ -1,7 +1,7 @@
 {
 	x: 13.5d,
 	y: 6.0d,
-	description: "使用生物掉落物/灵魂制作物品的机器",
+	description: "Machines that crafts items using mob drops/souls",
 	dependencies: [
 		"05a41235"
 	],

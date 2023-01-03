@@ -1,8 +1,8 @@
 {
-	title: "无线充能",
+	title: "Wireless charging",
 	x: 18.0d,
 	y: 10.5d,
-	description: "如果要查看无线充能天线的覆盖范围，请鼠标右键单击它。",
+	description: "To see the radius of the antenna, right click on it.",
 	dependencies: [
 		"043d0a65",
 		"65ea1d0d"

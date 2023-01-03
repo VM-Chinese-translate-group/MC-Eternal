@@ -3,7 +3,7 @@
 	x: 5.5d,
 	y: -0.5d,
 	shape: "gear",
-	description: "核电工艺是一个非常复杂的模组。您是否需要一些教程？查看核电工艺开发者的官方Youtube和教程！*可重复的任务*",
+	description: "NuclearCraft is a pretty complex mod. Need some tutorials? Check out the NuclearCraft Developer's official Youtube and Tutorials! *Repeatable Quest*",
 	can_repeat: true,
 	optional: true,
 	tasks: [{

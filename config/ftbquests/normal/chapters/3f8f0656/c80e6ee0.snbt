@@ -1,8 +1,8 @@
 {
-	title: "自动化处理器",
+	title: "Crafting CPU",
 	x: -7.5d,
 	y: 12.5d,
-	description: "自动化制作的大脑。制作出来的处理器们必须摆放成一个\"长方体\"形状(要有6个完整且连续的面)来生效，当它形成结构时材质会发生变化",
+	description: "The Brain of Autocrafting. Crafting CPUs must be a \"Cuboid\" shape (have exactly 6 continous faces) to be valid, the Textures will change when it forms.",
 	dependencies: [
 		"5e6ab1fd"
 	],

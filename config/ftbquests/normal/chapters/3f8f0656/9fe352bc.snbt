@@ -1,7 +1,7 @@
 {
 	x: 10.5d,
 	y: 10.5d,
-	description: "更大的容量，更快的速度",
+	description: "Large transfer capacity and faster rate of transfer",
 	dependencies: [
 		"0108d5cd"
 	],

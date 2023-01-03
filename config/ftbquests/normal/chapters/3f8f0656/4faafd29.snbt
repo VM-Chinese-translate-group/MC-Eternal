@@ -1,8 +1,8 @@
 {
-	title: "步行限制了基础",
+	title: "Walking Restricted Base",
 	x: 16.5d,
 	y: 4.5d,
-	description: "制作2个旅行锚",
+	description: "Craft 2 Travel Anchors",
 	dependencies: [
 		"f55d3032"
 	],

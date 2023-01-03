@@ -1,8 +1,8 @@
 {
-	title: "太阳————!!!",
+	title: "SOLAAAR",
 	x: 15.0d,
 	y: 10.5d,
-	description: "打造更高阶的光伏电池",
+	description: "Craft an Advanced Photovoltaic Cell",
 	dependencies: [
 		"38c98eb3"
 	],

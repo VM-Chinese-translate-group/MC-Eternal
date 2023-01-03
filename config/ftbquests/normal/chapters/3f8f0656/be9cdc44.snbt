@@ -1,7 +1,7 @@
 {
 	x: 18.0d,
 	y: 9.0d,
-	description: "最先进的末影接口合金",
+	description: "Most advanced alloy of EnderIO",
 	dependencies: [
 		"63c1390f"
 	],

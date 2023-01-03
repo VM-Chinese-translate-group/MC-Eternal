@@ -1,8 +1,7 @@
 {
 	x: 13.5d,
 	y: 7.5d,
-	description: "需要电容才能工作
-	*升级*",
+	description: "Requires capacitor to operate *Upgraded*",
 	dependencies: [
 		"77d70953",
 		"05a41235"
