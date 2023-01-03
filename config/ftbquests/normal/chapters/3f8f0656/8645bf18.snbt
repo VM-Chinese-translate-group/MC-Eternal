@@ -1,7 +1,7 @@
 {
 	x: 12.0d,
 	y: 4.5d,
-	description: "Wingardium Leviosa",
+	description: "羽加迪姆·勒维奥萨(哈利波特中的漂浮咒)",
 	dependencies: [
 		"829fb6bc"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -5.5d,
 	y: 11.0d,
-	description: "Holds ME Storage Cells, AE's native form of Item Storage",
+	description: "掌握ME存储元件，AE的原生物品存储形式",
 	dependencies: [
 		"8e9ea584"
 	],

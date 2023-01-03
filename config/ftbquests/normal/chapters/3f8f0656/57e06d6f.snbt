@@ -1,9 +1,9 @@
 {
-	title: "An Introduction to EnderIO",
+	title: "末影接口简介",
 	x: 9.0d,
 	y: 6.0d,
 	shape: "diamond",
-	description: "Set bedrock on fire for a chance to obtain grains of infinity",
+	description: "点燃基岩就有机会获得无限的粉末",
 	tasks: [{
 		uid: "38b90259",
 		type: "item",

@@ -1,7 +1,7 @@
 {
 	x: 16.5d,
 	y: 9.0d,
-	description: "Supreme energy storage!",
+	description: "至高无上的储能！",
 	dependencies: [
 		"63c1390f",
 		"232d5147"

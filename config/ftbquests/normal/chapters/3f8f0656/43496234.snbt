@@ -1,9 +1,9 @@
 {
-	title: "AE2torials",
+	title: "AE2旅途",
 	x: -5.5d,
 	y: 8.5d,
 	shape: "gear",
-	description: "Unfamiliar with Applied Energistics 2 and need to learn? Check out these Tutorials! *Repeatable Quest*",
+	description: "不熟悉AE2，需要学习？看看这些教程！*可重复的任务*",
 	can_repeat: true,
 	optional: true,
 	tasks: [{
