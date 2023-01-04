@@ -1,0 +1,45 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	shape: "square",
+	description: "这种绿色、笨重的怪物被大多数人认为是可憎的。村民们也对它们退避三舍。无论受害者的体型大小，他们都能轻而易举地将受害者们击飞数十格。",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	tasks: [{
+		uid: "fc568a13",
+		type: "kill",
+		title: "悬赏：巨人",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "ancientbeasts:giant_zombie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "893f5de0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "b9548cd1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6f454c79",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "midnight:nagrilite_axe"
+		}
+	}]
+}

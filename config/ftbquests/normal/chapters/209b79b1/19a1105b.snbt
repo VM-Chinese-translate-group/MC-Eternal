@@ -1,0 +1,55 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:knightmetal_sword"
+	},
+	x: -5.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "战斗高塔是获得战利品的绝佳来源。*在世界各处分布着高耸入云的石塔，如果它的四周有窗户，并且顶部有一个愤怒的石头巨人，那么你就能分辨这是一座战斗高塔了。*",
+	dependencies: [
+		"3acd3f99"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0af7f29f",
+		type: "kill",
+		title: "悬赏：高塔傀儡",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "battletowers:golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2c4f025d",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "77d3d177",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "237f1ade",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:bonesword"
+		}
+	},
+	{
+		uid: "7e8a964f",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 2
+	}]
+}

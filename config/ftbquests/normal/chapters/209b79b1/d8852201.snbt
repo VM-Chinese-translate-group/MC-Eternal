@@ -1,0 +1,37 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	shape: "gear",
+	description: "&o你想成为一名赏金猎人？你将会猎杀一些最恶心、最危险、最恐怖的生物，这可是一项艰苦的工作！你，准备好了吗？",
+	text: [
+		"通过完成悬赏可以获得奖励。奖励开始时很少，但随着你完成和解锁的悬赏越多，奖励也会越加丰厚。当然，毫无疑问，风险与奖励成正比——风险越大，奖励越多。"
+	],
+	tasks: [{
+		uid: "eaa757cf",
+		type: "checkmark",
+		title: "&6&l悬赏及介绍"
+	}],
+	rewards: [{
+		uid: "01cc171b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c918c9eb",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "fabbd448",
+		type: "item",
+		item: {
+			id: "harvestcraft:sundayroastitem",
+			tag: {
+				display: {
+					Name: "赏金猎人盛宴"
+				}
+			}
+		},
+		count: 16
+	}]
+}

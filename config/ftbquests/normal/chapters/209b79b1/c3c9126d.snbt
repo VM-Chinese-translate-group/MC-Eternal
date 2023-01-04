@@ -1,0 +1,44 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	shape: "square",
+	description: "一种掌握了魔法和死灵术的类人生物。这种强大的巫师会攻击任何挡在它面前的玩家和生物。",
+	dependencies: [
+		"37a80b0e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "feaa4c1e",
+		type: "kill",
+		title: "悬赏：巫师",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "ebwizardry:evil_wizard",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "67c38c4b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "0c526406",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "659d8125",
+		type: "item",
+		item: "ebwizardry:identification_scroll",
+		count: 3
+	},
+	{
+		uid: "e3baba5a",
+		type: "item",
+		item: "ebwizardry:astral_diamond"
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	shape: "square",
+	description: "&o一个古老的故事告诉人们：当你凝视着稻草人空洞的眼睛时，你的灵魂就会被吸走。幸运的是，这只是一个故事。但是稻草人还是会用它的镰刀收割你的灵魂……",
+	text: [
+		"*只有勇敢的人才会在晚上挑战稻草人。*咳咳*，我开玩笑的。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe0ed182",
+		type: "kill",
+		title: "Bounty: Scarecrow",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:scarecrow",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "75b5f6ca",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "679aeb19",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f60daef4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "2a2f645f",
+		type: "item",
+		item: {
+			id: "minecraft:tnt",
+			tag: {
+				display: {
+					Name: "这可能会在以后派上用场？"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	shape: "square",
+	description: "&o德鲁伊法师可以在&l暮色森林&7&o中生成。他常常研究被禁止的古代法术，并用他的研究成果攻击玩家。",
+	dependencies: [
+		"7780b056"
+	],
+	hide: true,
+	tasks: [{
+		uid: "338a2e0c",
+		type: "kill",
+		title: "悬赏：德鲁伊法师",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:staff"
+		},
+		entity: "tfspellpack:druid_mage",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4377ba9e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "91179b07",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "74eb3f8a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_stop_time"
+		}
+	}]
+}

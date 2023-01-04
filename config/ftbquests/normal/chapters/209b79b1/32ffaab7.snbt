@@ -1,0 +1,57 @@
+{
+	x: 2.5d,
+	y: -7.5d,
+	shape: "square",
+	description: "当人类最终意识到他们应该让丛林处于原始状态时，总是为时已晚。成年的尸蛆最终变成了巨蜂——是集速度、凶猛和毒刺为一体的空中敌对生物。",
+	text: [
+		"丛林中的尸蛆实际上不仅仅是一些讨厌的吸血鬼，当它们进食时，他们也会变形。"
+	],
+	dependencies: [
+		"3b74e727"
+	],
+	hide: true,
+	tasks: [{
+		uid: "edf23ef1",
+		type: "kill",
+		title: "悬赏：巨蜂",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_sword"
+		},
+		entity: "mod_lavacow:vespa",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c577af82",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f5a2d43c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mod_lavacow:potion_of_mooten_lava"
+		}
+	},
+	{
+		uid: "e0c3e084",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "983ef712",
+		type: "item",
+		item: "minecraft:emerald_block",
+		count: 2
+	}]
+}
