@@ -8,7 +8,7 @@
 	x: 0.0d,
 	y: -2.0d,
 	shape: "diamond",
-	description: "&o从阿图姆收集所有文物",
+	description: "&o从阿图姆收集所有神器",
 	hide_dependency_lines: true,
 	dependencies: [
 		"99a4bfed"

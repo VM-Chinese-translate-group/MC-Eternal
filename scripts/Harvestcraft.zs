@@ -8,7 +8,7 @@ var pamgarden = ["arid","frost","shaded","soggy","tropical","windy"] as string[]
 recipes.addShaped(<harvestcraft:toastitem>, [[<ore:cropCinnamon>, <dungeontactics:toast>]]);
 recipes.removeShapeless(<harvestcraft:plainyogurtitem> * 4, [<harvestcraft:plainyogurtitem>, <minecraft:leather>]);
 for gardens in pamgarden {
-	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("禁用，请从农场贸易的贸易站中购买潘马斯农场中的种子"));
+	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("已禁用，请从农场贸易的农贸市场中购买潘马斯农场中的种子"));
 }
 
 //Recipes for Uncraftable Pam's foods

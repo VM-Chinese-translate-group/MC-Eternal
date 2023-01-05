@@ -29,7 +29,7 @@ val bookTypes = [
 #Disabled Spell Tooltips
 for spell in disabledSpells {
 	for book in bookTypes {
-		itemUtils.getItem(book, spell).addTooltip(format.red("禁用，无法绑定到魔杖或进行施法。"));
+		itemUtils.getItem(book, spell).addTooltip(format.red("已禁用，无法绑定到魔杖或进行施法。"));
 	}
 }
 

@@ -25,7 +25,7 @@ var itemsToNuke = [
 
 for item in itemsToNuke {
 	recipes.remove(item);
-	item.addTooltip(format.red("禁用"));
+	item.addTooltip(format.red("已禁用"));
 }
 
 #Homing Beecon

@@ -36,7 +36,7 @@ print("--- 加载 Tooltip.zs ---");
 <lootgames:ms_activator>.addTooltip(format.red("警告：不！要！放！在！你！的！基！地！里！"));
 <erebus:materials:1>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
 <theaurorian:auroriansteel>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
-<extrautils2:teleporter:1>.addTooltip(format.red("禁用，如果您尝试使用它，将导致崩溃！请改用深渊世界和深渊世界传送门。"));
+<extrautils2:teleporter:1>.addTooltip(format.red("已禁用，如果你尝试使用它，将导致崩溃！请改用深渊世界和深渊世界传送门。"));
 <thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("用源质滤管右键以清洗！"));
 <thaumcraft:filter>.addTooltip(format.aqua("右键堵塞的咒波凝结器格栅以清洗！"));
 <nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4 倍总发电量！（免责声明：显示在燃料工具提示中）"));
@@ -46,7 +46,7 @@ print("--- 加载 Tooltip.zs ---");
 
 var supremarmor = [<mysticalagriculture:supremium_helmet>,<mysticalagriculture:supremium_chestplate>,<mysticalagriculture:supremium_leggings>,<mysticalagriculture:supremium_boots>] as IItemStack[];
 for armor in supremarmor {
-  armor.addTooltip(format.red("禁用飞行"));
+  armor.addTooltip(format.red("已禁用飞行"));
 }
 
 var beneathores = [<mekanism:oreblock>,<nuclearcraft:ore:3>,<nuclearcraft:ore:5>,<nuclearcraft:ore:6>,<nuclearcraft:ore:7>,<immersiveengineering:ore:5>] as IItemStack[];
