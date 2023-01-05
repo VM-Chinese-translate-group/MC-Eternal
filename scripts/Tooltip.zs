@@ -25,13 +25,13 @@ print("--- 加载 Tooltip.zs ---");
 <icbmclassic:emptower>.addTooltip(format.darkPurple("仅可从商店购买"));
 <cyclicmagic:inventory_food>.addTooltip(format.red("警告！当游戏崩溃或意外关闭时，可以删除里面的物品"));
 <cookingforblockheads:sink>.addTooltip(format.red("不无限产生水"));
-<immersiveengineering:railgun>.addTooltip(format.lightPurple("伤害放大至 40 倍"));
-<immersiveengineering:revolver>.addTooltip(format.lightPurple("子弹伤害放大至约 15 倍"));
-<thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("伤害放大至 20 倍"));
+<immersiveengineering:railgun>.addTooltip(format.lightPurple("伤害增加至 40 倍"));
+<immersiveengineering:revolver>.addTooltip(format.lightPurple("子弹伤害增加至约 15 倍"));
+<thaumicaugmentation:impulse_cannon>.addTooltip(format.lightPurple("伤害增加至 20 倍"));
 <agricraft:sprinkler>.addTooltip(format.red("警告：如果农业工艺的配置中未禁用粒子，将导致严重的FPS卡顿"));
 <extrautils2:chickenring:1>.addTooltip(format.red("不要穿在饰品栏上，飞行时可能会将你随机传送"));
 <appliedenergistics2:sky_stone_block>.addTooltip(format.red("只会在深渊世界和月球上重生"));
-<thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("伤害放大至 20 倍"));
+<thaumicaugmentation:impulse_cannon_augment>.addTooltip(format.lightPurple("伤害增加至 20 倍"));
 <appliedenergistics2:sky_compass>.addTooltip(format.red("只会在深渊世界和月球上重生"));
 <lootgames:ms_activator>.addTooltip(format.red("警告：不！要！放！在！你！的！基！地！里！"));
 <erebus:materials:1>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
@@ -121,7 +121,7 @@ var candleData = {
 } as IEnchantmentDefinition[][int];
 
 for meta in candleData {
-	itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.gold("提高矩阵内附魔的速率："), format.gold("按住 SHIFT 查看受影响的魔法"));
+	itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.gold("提高矩阵附魔的概率："), format.gold("按住 SHIFT 查看受影响的附魔"));
 	for enchant in candleData[meta] {
 		itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.aqua("- "~game.localize(enchant.name)));
 	}

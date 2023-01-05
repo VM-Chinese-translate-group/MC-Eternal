@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "a6834200",
 		type: "advancement",
-		title: "揭开一座古老的金字塔的面纱",
+		title: "揭开一座古老金字塔的面纱",
 		icon: "atum:khnumite_face",
 		advancement: "",
 		criterion: "atum:core/pyramidscheme"
