@@ -20,7 +20,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "§d外星秘物"
 				},
 				type: "extraterrestrial_cache"
 			}
