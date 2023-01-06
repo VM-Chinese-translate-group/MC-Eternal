@@ -3,7 +3,7 @@
 	x: 3.2d,
 	y: 2.0d,
 	shape: "octagon",
-	description: "&o不死的老鼠... 我只听说过关于这种力量的传说...",
+	description: "&o不死的老鼠……我只听说过关于这种力量的传说……",
 	size: 0.8d,
 	tasks: [{
 		uid: "fe8478d9",
