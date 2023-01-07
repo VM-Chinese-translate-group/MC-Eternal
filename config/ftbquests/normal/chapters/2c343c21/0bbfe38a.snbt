@@ -1,5 +1,5 @@
 {
-	title: "&9&l外星遗物",
+	title: "&9&l地外遗物",
 	x: 3.2d,
 	y: 0.4d,
 	shape: "octagon",
@@ -30,7 +30,7 @@
 				display: {
 					Lore: [
 						"§8来自一个遥远的地方，那里的死人不会睡觉，活人是最不受欢迎的",
-						"§e（稀有外星遗物）"
+						"§e（稀有地外遗物）"
 					],
 					Name: "§7不死之锤"
 				},
@@ -92,7 +92,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

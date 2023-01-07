@@ -35,7 +35,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§d外星秘物"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}
