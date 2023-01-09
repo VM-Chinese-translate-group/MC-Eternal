@@ -1,7 +1,7 @@
 {
 	x: -2.5d,
 	y: 13.5d,
-	description: "Boosts the range of Wireless Access Points, but increases the Energy cost to maintain! Both increases are exponential!",
+	description: "增大无线访问的范围，但增加持续使用的能源成本！这两种增长都是指数级的！",
 	dependencies: [
 		"e2b78c00"
 	],

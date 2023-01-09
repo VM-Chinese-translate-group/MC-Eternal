@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: 11.5d,
-	description: "Quantum Rings allow you to connect your ME Network to far away places, you can build a pair with these Items.",
+	description: "量子环允许您将您的ME网络连接到遥远的地方，您可以使用一对链接这些物品。",
 	dependencies: [
 		"8e9ea584"
 	],

@@ -2,7 +2,7 @@
 	title: "Simple Machines",
 	x: 10.5d,
 	y: 7.5d,
-	description: "Basic machines of EnderIO. Requires to craft other materials",
+	description: "末影接口的基础机器。需要去制作其它的材料",
 	dependencies: [
 		"d3804759"
 	],

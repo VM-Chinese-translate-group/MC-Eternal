@@ -1,7 +1,7 @@
 {
 	x: -2.5d,
 	y: 11.5d,
-	description: "ME Terminal, but Wireless! Wireless Access Points determine the range, more than one Access Point is allowed!",
+	description: "ME终端，但无线！ME无线访问点决定范围，允许多个访问点！",
 	dependencies: [
 		"8e9ea584"
 	],

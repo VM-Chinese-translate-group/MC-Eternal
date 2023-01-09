@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: 14.0d,
-	description: "Teleports Channels (or other things) to linked ends.",
+	description: "将通道（或其他东西）传送到链接的末端。",
 	dependencies: [
 		"1e041009"
 	],
