@@ -4,7 +4,7 @@
 	x: 0.0d,
 	y: -0.5d,
 	shape: "diamond",
-	description: "*解锁自完成农业章节*",
+	description: "*完成农业章节以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"99cbbc10"
