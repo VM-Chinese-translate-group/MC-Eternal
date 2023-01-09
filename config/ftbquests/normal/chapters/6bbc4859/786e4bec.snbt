@@ -46,7 +46,7 @@
 	},
 	x: -1.0d,
 	y: -2.0d,
-	description: "*解锁自完成秘密*",
+	description: "*完成秘密以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"9fb9dd41"
