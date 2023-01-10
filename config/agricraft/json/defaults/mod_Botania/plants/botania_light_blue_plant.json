@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_light_blue_plant.json",
   "enabled": true,
   "id": "botania:light_blue_flower_plant",
-  "plant_name": "Mystical Light Blue Flower",
-  "seed_name": "Mystical Light Blue Seeds",
+  "plant_name": "淡蓝色神秘花",
+  "seed_name": "淡蓝色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A beautiful flower that is blue as the sky on a sunny day."
+    "default": "花色蔚蓝如天空。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

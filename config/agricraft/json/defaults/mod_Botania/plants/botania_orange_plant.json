@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_orange_plant.json",
   "enabled": true,
   "id": "botania:orange_flower_plant",
-  "plant_name": "Mystical Orange Flower",
-  "seed_name": "Mystical Orange Seeds",
+  "plant_name": "橙色神秘花",
+  "seed_name": "橙色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A beautiful flower with a firey disposition."
+    "default": "一株想当消防员的花"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,
