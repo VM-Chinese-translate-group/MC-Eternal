@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/creeper_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:creeper_plant",
-  "plant_name": "Creeper Crop",
-  "seed_name": "Creeper Seeds",
+  "plant_name": "爬行者精华株",
+  "seed_name": "爬行者种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:creeper_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Creeper Seeds."
+    "default": "爬行者种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

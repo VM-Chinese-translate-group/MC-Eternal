@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/certus_quartz_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:certus_quartz_plant",
-  "plant_name": "Certus Quartz",
-  "seed_name": "Certus Quartz Seeds",
+  "plant_name": "赛特斯石英精华株",
+  "seed_name": "赛特斯石英种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:certus_quartz_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Certus Quartz Seeds."
+    "default": "赛特斯石英种子"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/emerald_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:emerald_plant",
-  "plant_name": "Emerald Crop",
-  "seed_name": "Emerald Seeds",
+  "plant_name": "绿宝石精华株",
+  "seed_name": "绿宝石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:emerald_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Emerald Seeds."
+    "default": "绿宝石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/ironwood_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:ironwood_plant",
-  "plant_name": "Ironwood Crop",
-  "seed_name": "Ironwood Seeds",
+  "plant_name": "铁树精华株",
+  "seed_name": "铁树种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:ironwood_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ironwood Seeds."
+    "default": "铁树种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

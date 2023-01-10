@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/blaze_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:blaze_plant",
-  "plant_name": "Blaze Crop",
-  "seed_name": "Blaze Seeds",
+  "plant_name": "烈焰人精华株",
+  "seed_name": "烈焰人种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:blaze_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Blaze Seeds."
+    "default": "烈焰人种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/ghast_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:ghast_plant",
-  "plant_name": "Ghast Crop",
-  "seed_name": "Ghast Seeds",
+  "plant_name": "恶魂精华株",
+  "seed_name": "恶魂种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:ghast_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ghast Seeds."
+    "default": "恶魂种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

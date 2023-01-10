@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/bronze_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:bronze_plant",
-  "plant_name": "Bronze Crop",
-  "seed_name": "Bronze Seeds",
+  "plant_name": "青铜精华株",
+  "seed_name": "青铜种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:bronze_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Bronze Seeds."
+    "default": "青铜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

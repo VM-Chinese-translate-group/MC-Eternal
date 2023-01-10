@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/fire_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:fire_plant",
-  "plant_name": "Fire Crop",
-  "seed_name": "Fire Seeds",
+  "plant_name": "火精华株",
+  "seed_name": "火种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:fire_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Fire Seeds."
+    "default": "火种子"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

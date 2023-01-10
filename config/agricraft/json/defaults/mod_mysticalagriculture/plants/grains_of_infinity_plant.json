@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/grains_of_infinity_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:grains_of_infinity_plant",
-  "plant_name": "Grains of Infinity",
-  "seed_name": "Grains of Infinity Seeds",
+  "plant_name": "基岩粉精华株",
+  "seed_name": "基岩粉种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:grains_of_infinity_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Grains of Infinity Seeds."
+    "default": "基岩粉种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

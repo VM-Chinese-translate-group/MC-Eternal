@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/ice_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:ice_plant",
-  "plant_name": "Ice Crop",
-  "seed_name": "Ice Seeds",
+  "plant_name": "Ice精华株",
+  "seed_name": "Ice种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:ice_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ice. Ice. Baby."
+    "default": "宝贝，那是冰冰吗？"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/magnesium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:magnesium_plant",
-  "plant_name": "Magnesium Crop",
-  "seed_name": "Magnesium Seeds",
+  "plant_name": "镁精华株",
+  "seed_name": "镁种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:magnesium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Magnesium Seeds."
+    "default": "镁种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

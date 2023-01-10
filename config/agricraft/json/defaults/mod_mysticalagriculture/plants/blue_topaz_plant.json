@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/blue_topaz_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:blue_topaz_plant",
-  "plant_name": "Blue Topaz Crop",
-  "seed_name": "Blue Topaz Seeds",
+  "plant_name": "蓝色黄玉精华株",
+  "seed_name": "蓝色黄玉种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:blue_topaz_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Blue Topaz Seeds."
+    "default": "蓝色黄玉种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

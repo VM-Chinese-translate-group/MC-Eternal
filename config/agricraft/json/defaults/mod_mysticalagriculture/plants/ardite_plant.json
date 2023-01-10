@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/ardite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:ardite_plant",
-  "plant_name": "Ardite Crop",
-  "seed_name": "Ardite Seeds",
+  "plant_name": "阿迪特精华株",
+  "seed_name": "阿迪特种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:ardite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ardite Seeds."
+    "default": "阿迪特种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

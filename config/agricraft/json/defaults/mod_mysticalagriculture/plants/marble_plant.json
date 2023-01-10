@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/marble_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:marble_plant",
-  "plant_name": "Marble",
-  "seed_name": "Marble Seeds",
+  "plant_name": "大理石",
+  "seed_name": "大理石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:marble_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Marble Seeds."
+    "default": "大理石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

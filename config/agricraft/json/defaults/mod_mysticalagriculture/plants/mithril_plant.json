@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/mithril_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:mithril_plant",
-  "plant_name": "Mithril Crop",
-  "seed_name": "Mithril Seeds",
+  "plant_name": "秘银精华株",
+  "seed_name": "秘银种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:mithril_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Mithril Seeds."
+    "default": "秘银种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

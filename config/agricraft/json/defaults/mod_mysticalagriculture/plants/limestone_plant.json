@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/limestone_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:limestone_plant",
-  "plant_name": "Limestone",
-  "seed_name": "Limestone Seeds",
+  "plant_name": "石灰石",
+  "seed_name": "石灰石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:limestone_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Limestone Seeds."
+    "default": "石灰石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

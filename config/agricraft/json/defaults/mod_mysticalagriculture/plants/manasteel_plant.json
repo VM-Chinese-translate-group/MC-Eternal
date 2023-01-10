@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/manasteel_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:manasteel_plant",
-  "plant_name": "Manasteel",
-  "seed_name": "Manasteel Seeds",
+  "plant_name": "魔力钢",
+  "seed_name": "魔力钢种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:manasteel_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Manasteel Seeds."
+    "default": "魔力钢种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/copper_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:copper_plant",
-  "plant_name": "Copper Crop",
-  "seed_name": "Copper Seeds",
+  "plant_name": "铜精华株",
+  "seed_name": "铜种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:copper_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Copper Seeds."
+    "default": "铜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

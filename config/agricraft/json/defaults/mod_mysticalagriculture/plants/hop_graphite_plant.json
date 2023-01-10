@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/hop_graphite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:hop_graphite_plant",
-  "plant_name": "HOP Graphite Crop",
-  "seed_name": "HOP Graphite Seeds",
+  "plant_name": "高定向热解石墨精华株",
+  "seed_name": "高定向热解石墨种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:hop_graphite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "HOP Graphite Seeds."
+    "default": "高定向热解石墨种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

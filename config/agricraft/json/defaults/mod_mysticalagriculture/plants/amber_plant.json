@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/amber_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:amber_plant",
-  "plant_name": "Amber",
-  "seed_name": "Amber Seeds",
+  "plant_name": "琥珀精华株",
+  "seed_name": "琥珀种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:amber_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Amber Seeds."
+    "default": "琥珀种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

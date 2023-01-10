@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/chimerite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:chimerite_plant",
-  "plant_name": "Chimerite Crop",
-  "seed_name": "Chimerite Seeds",
+  "plant_name": "精灵矿精华株",
+  "seed_name": "精灵矿种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:chimerite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "chimerite Seeds."
+    "default": "精灵矿种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

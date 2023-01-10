@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/graphite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:graphite_plant",
-  "plant_name": "Graphite Crop",
-  "seed_name": "Graphite Seeds",
+  "plant_name": "石墨精华株",
+  "seed_name": "石墨种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:graphite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Graphite Seeds."
+    "default": "石墨种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

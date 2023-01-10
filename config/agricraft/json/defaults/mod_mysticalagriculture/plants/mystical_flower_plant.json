@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/mystical_flower_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:mystical_flower_plant",
-  "plant_name": "Mystical Flower Crop",
-  "seed_name": "Mystical Flower Seeds",
+  "plant_name": "神秘花精华株",
+  "seed_name": "神秘花种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:mystical_flower_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Mystical Flower Seeds."
+    "default": "神秘花种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
