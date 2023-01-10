@@ -2,7 +2,7 @@
   "path": "mod_biomesoplenty/soils/loamy_farmland_soil.json",
   "enabled": true,
   "id": "loamy_farmland_soil",
-  "name": "Loamy Farmland",
+  "name": "壤质土耕地",
   "varients": [
     {
       "item": "biomesoplenty:farmland_0",
