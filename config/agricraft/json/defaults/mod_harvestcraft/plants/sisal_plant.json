@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/sisal_plant.json",
   "enabled": true,
   "id": "harvestcraft:sisal_plant",
-  "plant_name": "Sisal",
-  "seed_name": "Sisal Seeds",
+  "plant_name": "剑麻",
+  "seed_name": "剑麻种子",
   "seed_items": [
     {
       "item": "harvestcraft:sisalseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sisal Seeds."
+    "default": "剑麻种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

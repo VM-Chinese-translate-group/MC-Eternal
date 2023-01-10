@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/rye_plant.json",
   "enabled": true,
   "id": "harvestcraft:rye_plant",
-  "plant_name": "Rye",
-  "seed_name": "Rye Seeds",
+  "plant_name": "黑麦",
+  "seed_name": "黑麦种子",
   "seed_items": [
     {
       "item": "harvestcraft:ryeseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Rye Seeds."
+    "default": "黑麦种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

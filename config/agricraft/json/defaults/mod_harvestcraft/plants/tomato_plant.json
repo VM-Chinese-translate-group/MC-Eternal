@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/tomato_plant.json",
   "enabled": true,
   "id": "harvestcraft:tomato_plant",
-  "plant_name": "Tomato",
-  "seed_name": "Tomato Seeds",
+  "plant_name": "番茄",
+  "seed_name": "番茄种子",
   "seed_items": [
     {
       "item": "harvestcraft:tomatoseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tomato Seeds."
+    "default": "番茄种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

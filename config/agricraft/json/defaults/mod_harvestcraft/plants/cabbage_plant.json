@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/cabbage_plant.json",
   "enabled": true,
   "id": "harvestcraft:cabbage_plant",
-  "plant_name": "Cabbage",
-  "seed_name": "Cabbage Seeds",
+  "plant_name": "包菜",
+  "seed_name": "包菜种子",
   "seed_items": [
     {
       "item": "harvestcraft:cabbageseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Cabbage Seeds."
+    "default": "包菜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

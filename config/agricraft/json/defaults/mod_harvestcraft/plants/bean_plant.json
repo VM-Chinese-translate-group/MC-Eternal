@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/bean_plant.json",
   "enabled": true,
   "id": "harvestcraft:bean_plant",
-  "plant_name": "Bean",
-  "seed_name": "Bean Seeds",
+  "plant_name": "豆子",
+  "seed_name": "豆子种子",
   "seed_items": [
     {
       "item": "harvestcraft:beanseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Bean Seeds."
+    "default": "豆子种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

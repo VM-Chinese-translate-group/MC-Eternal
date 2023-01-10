@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/turnip_plant.json",
   "enabled": true,
   "id": "harvestcraft:turnip_plant",
-  "plant_name": "Turnip",
-  "seed_name": "Turnip Seeds",
+  "plant_name": "芜菁",
+  "seed_name": "芜菁种子",
   "seed_items": [
     {
       "item": "harvestcraft:turnipseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Turnip Seeds."
+    "default": "芜菁种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/taro_plant.json",
   "enabled": true,
   "id": "harvestcraft:taro_plant",
-  "plant_name": "Taro",
-  "seed_name": "Taro Seeds",
+  "plant_name": "芋头",
+  "seed_name": "芋头种子",
   "seed_items": [
     {
       "item": "harvestcraft:taroseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Taro Seeds."
+    "default": "芋头种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/blueberry_plant.json",
   "enabled": true,
   "id": "harvestcraft:blueberry_plant",
-  "plant_name": "Blueberry",
-  "seed_name": "Blueberry Seeds",
+  "plant_name": "蓝莓",
+  "seed_name": "蓝莓种子",
   "seed_items": [
     {
       "item": "harvestcraft:blueberryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Blueberry Seeds."
+    "default": "蓝莓种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

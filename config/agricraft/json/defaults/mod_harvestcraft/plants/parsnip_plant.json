@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/parsnip_plant.json",
   "enabled": true,
   "id": "harvestcraft:parsnip_plant",
-  "plant_name": "Parsnip",
-  "seed_name": "Parsnip Seeds",
+  "plant_name": "防风草",
+  "seed_name": "防风草种子",
   "seed_items": [
     {
       "item": "harvestcraft:parsnipseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Parsnip Seeds."
+    "default": "防风草种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

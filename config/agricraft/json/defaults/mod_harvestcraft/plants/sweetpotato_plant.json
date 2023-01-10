@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/sweetpotato_plant.json",
   "enabled": true,
   "id": "harvestcraft:sweetpotato_plant",
-  "plant_name": "Sweet Potato",
-  "seed_name": "Sweet Potato Seeds",
+  "plant_name": "红薯",
+  "seed_name": "红薯种子",
   "seed_items": [
     {
       "item": "harvestcraft:sweetpotatoseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sweet Potato Seeds."
+    "default": "红薯种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

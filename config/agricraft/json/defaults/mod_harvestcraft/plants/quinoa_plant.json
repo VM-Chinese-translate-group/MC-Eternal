@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/quinoa_plant.json",
   "enabled": true,
   "id": "harvestcraft:quinoa_plant",
-  "plant_name": "Quinoa",
-  "seed_name": "Quinoa Seeds",
+  "plant_name": "藜麦",
+  "seed_name": "藜麦种子",
   "seed_items": [
     {
       "item": "harvestcraft:quinoaseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Quinoa Seeds."
+    "default": "藜麦种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/asparagus_plant.json",
   "enabled": true,
   "id": "harvestcraft:asparagus_plant",
-  "plant_name": "Asparagus",
-  "seed_name": "Asparagus Seeds",
+  "plant_name": "芦笋",
+  "seed_name": "芦笋种子",
   "seed_items": [
     {
       "item": "harvestcraft:asparagusseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Asparagus Seeds."
+    "default": "芦笋种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

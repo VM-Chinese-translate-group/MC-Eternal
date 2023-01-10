@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/raspberry_plant.json",
   "enabled": true,
   "id": "harvestcraft:raspberry_plant",
-  "plant_name": "Raspberry",
-  "seed_name": "Raspberry Seeds",
+  "plant_name": "树莓",
+  "seed_name": "树莓种子",
   "seed_items": [
     {
       "item": "harvestcraft:raspberryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Raspberry Seeds."
+    "default": "树莓种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

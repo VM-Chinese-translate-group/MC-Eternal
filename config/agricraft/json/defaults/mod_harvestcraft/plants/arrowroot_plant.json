@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/arrowroot_plant.json",
   "enabled": true,
   "id": "harvestcraft:arrowroot_plant",
-  "plant_name": "Arrowroot",
-  "seed_name": "Arrowroot Seeds",
+  "plant_name": "竹芋",
+  "seed_name": "竹芋种子",
   "seed_items": [
     {
       "item": "harvestcraft:arrowrootseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Arrowroot Seeds."
+    "default": "竹芋种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

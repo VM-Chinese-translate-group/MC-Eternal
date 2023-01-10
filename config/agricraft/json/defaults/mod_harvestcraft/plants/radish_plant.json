@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/radish_plant.json",
   "enabled": true,
   "id": "harvestcraft:radish_plant",
-  "plant_name": "Radish",
-  "seed_name": "Radish Seeds",
+  "plant_name": "小红萝卜",
+  "seed_name": "小红萝卜种子",
   "seed_items": [
     {
       "item": "harvestcraft:radishseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Radish Seeds."
+    "default": "小红萝卜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

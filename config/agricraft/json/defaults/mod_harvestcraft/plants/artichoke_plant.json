@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/artichoke_plant.json",
   "enabled": true,
   "id": "harvestcraft:artichoke_plant",
-  "plant_name": "Artichoke",
-  "seed_name": "Artichoke Seeds",
+  "plant_name": "洋蓟",
+  "seed_name": "洋蓟种子",
   "seed_items": [
     {
       "item": "harvestcraft:artichokeseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Artichoke Seeds."
+    "default": "洋蓟种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

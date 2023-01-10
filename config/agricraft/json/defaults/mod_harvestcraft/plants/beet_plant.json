@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/beet_plant.json",
   "enabled": true,
   "id": "harvestcraft:beet_plant",
-  "plant_name": "Beet",
-  "seed_name": "Beet Seeds",
+  "plant_name": "甜菜",
+  "seed_name": "甜菜种子",
   "seed_items": [
     {
       "item": "harvestcraft:beetseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Beet Seeds."
+    "default": "甜菜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

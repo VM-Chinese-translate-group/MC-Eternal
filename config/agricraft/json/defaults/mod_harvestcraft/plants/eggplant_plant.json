@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/eggplant_plant.json",
   "enabled": true,
   "id": "harvestcraft:eggplant_plant",
-  "plant_name": "Eggplant",
-  "seed_name": "Eggplant Seeds",
+  "plant_name": "茄子",
+  "seed_name": "茄子种子",
   "seed_items": [
     {
       "item": "harvestcraft:eggplantseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Eggplant Seeds."
+    "default": "茄子种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

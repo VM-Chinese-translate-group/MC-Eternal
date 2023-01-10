@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/sesameseed_plant.json",
   "enabled": true,
   "id": "harvestcraft:sesameseed_plant",
-  "plant_name": "Sesame Seeds",
-  "seed_name": "Sesame Seeds Seeds",
+  "plant_name": "芝麻",
+  "seed_name": "芝麻种子",
   "seed_items": [
     {
       "item": "harvestcraft:sesameseedsseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sesame Seeds Seeds."
+    "default": "芝麻种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/kiwi_plant.json",
   "enabled": true,
   "id": "harvestcraft:kiwi_plant",
-  "plant_name": "Kiwi",
-  "seed_name": "Kiwi Seeds",
+  "plant_name": "猕猴桃",
+  "seed_name": "猕猴桃种子",
   "seed_items": [
     {
       "item": "harvestcraft:kiwiseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Kiwi Seeds."
+    "default": "猕猴桃种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

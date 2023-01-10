@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/millet_plant.json",
   "enabled": true,
   "id": "harvestcraft:millet_plant",
-  "plant_name": "Millet",
-  "seed_name": "Millet Seeds",
+  "plant_name": "小米",
+  "seed_name": "小米种子",
   "seed_items": [
     {
       "item": "harvestcraft:milletseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Millet Seeds."
+    "default": "小米种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

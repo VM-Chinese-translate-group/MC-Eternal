@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/chickpea_plant.json",
   "enabled": true,
   "id": "harvestcraft:chickpea_plant",
-  "plant_name": "Chickpea",
-  "seed_name": "Chickpea Seeds",
+  "plant_name": "鹰嘴豆",
+  "seed_name": "鹰嘴豆种子",
   "seed_items": [
     {
       "item": "harvestcraft:chickpeaseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Chickpea Seeds."
+    "default": "鹰嘴豆种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

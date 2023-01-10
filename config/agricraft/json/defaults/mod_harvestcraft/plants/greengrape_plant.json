@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/greengrape_plant.json",
   "enabled": true,
   "id": "harvestcraft:greengrape_plant",
-  "plant_name": "Greengrape",
-  "seed_name": "Greengrape Seeds",
+  "plant_name": "绿葡萄",
+  "seed_name": "绿葡萄种子",
   "seed_items": [
     {
       "item": "harvestcraft:greengrapeseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Greengrape Seeds."
+    "default": "绿葡萄种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

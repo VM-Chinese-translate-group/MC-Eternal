@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/agave_plant.json",
   "enabled": true,
   "id": "harvestcraft:agave_plant",
-  "plant_name": "Agave",
-  "seed_name": "Agave Seeds",
+  "plant_name": "龙舌兰",
+  "seed_name": "龙舌兰种子",
   "seed_items": [
     {
       "item": "harvestcraft:agaveseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Agave Seeds."
+    "default": "龙舌兰种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

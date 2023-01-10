@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/mustard_plant.json",
   "enabled": true,
   "id": "harvestcraft:mustard_plant",
-  "plant_name": "Mustard",
-  "seed_name": "Mustard Seeds",
+  "plant_name": "芥菜籽",
+  "seed_name": "芥菜籽种子",
   "seed_items": [
     {
       "item": "harvestcraft:mustardseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Mustard Seeds."
+    "default": "芥菜籽种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

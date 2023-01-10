@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/rutabaga_plant.json",
   "enabled": true,
   "id": "harvestcraft:rutabaga_plant",
-  "plant_name": "Rutabaga",
-  "seed_name": "Rutabaga Seeds",
+  "plant_name": "芜菁甘蓝",
+  "seed_name": "芜菁甘蓝种子",
   "seed_items": [
     {
       "item": "harvestcraft:rutabagaseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Rutabaga Seeds."
+    "default": "芜菁甘蓝种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
