@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "水稻, 许多人的基本食物. While commonly associated with flooded rice paddies, rice does not have to grow in flooded plains, but often is."
+    "default": "水稻, 许多人的基本食物。虽然人们经常认为水稻需要在漫水的稻田中生长，但事实并不如此，水稻无需这么多水。但这也不妨碍它经常在漫水的环境中生长。"
   },
   "growth_chance": 1.0,
   "growth_bonus": 0.025,
