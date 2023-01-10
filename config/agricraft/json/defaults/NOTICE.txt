@@ -1,0 +1,6 @@
+以下Agricraft的mod联动未焊（整合包中不含的模组）:
+(Mods Not Included in the Modpack)：
+Agricultural Expansion
+Arms Magica 2
+Cuisine
+Natura
