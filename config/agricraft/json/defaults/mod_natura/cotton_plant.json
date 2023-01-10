@@ -2,8 +2,8 @@
   "path": "mod_natura/cotton_plant.json",
   "enabled": true,
   "id": "natura:cotton_plant",
-  "plant_name": "Cotton",
-  "seed_name": "Cotton Seeds",
+  "plant_name": "棉花",
+  "seed_name": "棉花种子",
   "seed_items": [
     {
       "item": "natura:overworld_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Testing 1, 2, 3."
+    "default": "棉花种子。"
   },
   "growth_chance": 1.0,
   "growth_bonus": 0.025,

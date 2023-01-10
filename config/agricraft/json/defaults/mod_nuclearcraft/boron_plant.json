@@ -2,8 +2,8 @@
   "path": "mod_nuclearcraft/boron_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:boron_plant",
-  "plant_name": "Boron Crop",
-  "seed_name": "Boron Seeds",
+  "plant_name": "硼精华株",
+  "seed_name": "硼种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:boron_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Boron Seeds."
+    "default": "硼种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

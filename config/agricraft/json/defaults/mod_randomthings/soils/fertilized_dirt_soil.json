@@ -2,7 +2,7 @@
   "path": "mod_randomthings/soils/fertilized_dirt_soil.json",
   "enabled": true,
   "id": "fertilized_dirt_soil",
-  "name": "Fertilized Dirt Soil",
+  "name": "沃土",
   "varients": [
     {
       "item": "randomthings:fertilizeddirttilled",
