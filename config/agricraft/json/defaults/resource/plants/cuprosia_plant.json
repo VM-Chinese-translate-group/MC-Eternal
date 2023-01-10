@@ -2,12 +2,12 @@
   "path": "resource/plants/cuprosia_plant.json",
   "enabled": true,
   "id": "resource:cuprosia_plant",
-  "plant_name": "Cuprosia",
-  "seed_name": "Cuprosia Seeds",
+  "plant_name": "红铜花",
+  "seed_name": "红铜花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "Known as the engineer\u0027s delight, this plant produces a substance of incredible utility."
+    "default": "红铜花是一株能让工程师痴迷的花，这株花能生产用途广泛的金属————铜。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

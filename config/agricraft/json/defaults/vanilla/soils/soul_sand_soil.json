@@ -2,7 +2,7 @@
   "path": "vanilla/soils/soul_sand_soil.json",
   "enabled": true,
   "id": "soul_sand_soil",
-  "name": "Soul Sand",
+  "name": "灵魂沙",
   "varients": [
     {
       "item": "minecraft:soul_sand",

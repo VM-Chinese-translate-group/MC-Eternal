@@ -2,12 +2,12 @@
   "path": "resource/plants/niccissus_plant.json",
   "enabled": true,
   "id": "resource:niccissus_plant",
-  "plant_name": "Niccissus",
-  "seed_name": "Niccissus Seeds",
+  "plant_name": "镍粉藤",
+  "seed_name": "镍粉藤种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "While there is much debate over which is the best plant, we can all agree that the Niccissus plant is by far the most self-absorbed."
+    "default": "每当人们辩论什么是最好的植物时，镍粉藤总是以最自我专注的身份出现在人们的口中。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

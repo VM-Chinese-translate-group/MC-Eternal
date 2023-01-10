@@ -2,12 +2,12 @@
   "path": "resource/plants/platiolus_plant.json",
   "enabled": true,
   "id": "resource:platiolus_plant",
-  "plant_name": "Platiolus",
-  "seed_name": "Platiolus Seeds",
+  "plant_name": "铂金草",
+  "seed_name": "铂金草种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "The unquestioned king among the metal-bearing plants, this plant has a gleam to it that puts even the aurigold flower to shame."
+    "default": "它是金属世界毋庸置疑的植物之王，铂金草拥有更甚于金光花的闪光！"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

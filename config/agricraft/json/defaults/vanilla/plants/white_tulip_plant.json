@@ -2,12 +2,12 @@
   "path": "vanilla/plants/white_tulip_plant.json",
   "enabled": true,
   "id": "vanilla:white_tulip_plant",
-  "plant_name": "White Tulip",
-  "seed_name": "White Tulip Seeds",
+  "plant_name": "白色郁金香",
+  "seed_name": "白色郁金香种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A snow-white varient of the perrenial tulip plant. The plant is valued mostly for its distinctive blooms."
+    "default": "郁金香以四季长久著称，白色郁金香是郁金香的雪白色变种。因其花朵与众不同，故拥有一定美学价值。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

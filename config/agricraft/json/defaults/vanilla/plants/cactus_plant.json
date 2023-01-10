@@ -2,8 +2,8 @@
   "path": "vanilla/plants/cactus_plant.json",
   "enabled": true,
   "id": "vanilla:cactus_plant",
-  "plant_name": "Cactus",
-  "seed_name": "Cactus Seeds",
+  "plant_name": "仙人掌",
+  "seed_name": "仙人掌种子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",
@@ -28,7 +28,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "A very prickly plant."
+    "default": "仙人掌是个刺手的植物"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

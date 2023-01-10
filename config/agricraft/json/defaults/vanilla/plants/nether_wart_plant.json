@@ -2,8 +2,8 @@
   "path": "vanilla/plants/nether_wart_plant.json",
   "enabled": true,
   "id": "vanilla:nether_wart_plant",
-  "plant_name": "Nether Wart",
-  "seed_name": "Nether Spores",
+  "plant_name": "下界疣",
+  "seed_name": "下界疣种子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",
@@ -28,7 +28,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "An oddity from the nether, said to have somewhat mystical properties. The fungus appears to have a strong aptitude for heat, yet oddly cannot withstand the burning of the sun. Its fruit makes a covetable prize for the aspiring young brewer."
+    "default": "下界疣是在地狱中发现的古怪生命，据说拥有一些神秘的特性。该真菌好高温，但不能在太阳下存活。对于有志成为酿造师的年轻人来说，下界疣的果实令他们垂涎欲滴。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

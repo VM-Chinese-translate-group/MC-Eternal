@@ -2,8 +2,8 @@
   "path": "vanilla/plants/red_mushroom_plant.json",
   "enabled": true,
   "id": "vanilla:red_mushroom_plant",
-  "plant_name": "Red Mushroom",
-  "seed_name": "Red Mushroom Spores",
+  "plant_name": "红色蘑菇",
+  "seed_name": "红色蘑菇孢子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",
@@ -28,9 +28,10 @@
   ],
   "description": {
     "translations": {
-      "en_US": "Shrooms, ever so trippy."
+      "en_US": "Shrooms, ever so trippy.",
+      "zh_CN": "死神蘑菇~让我迷迷糊糊~"
     },
-    "default": "Badger, badger, badger."
+    "default": "红伞伞~~白杆杆~~"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
