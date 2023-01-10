@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/starmetal_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:starmetal_plant",
-  "plant_name": "Starmetal Crop",
-  "seed_name": "Starmetal Seeds",
+  "plant_name": "星辉矿精华株",
+  "seed_name": "星辉矿种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:starmetal_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Starmetal Seeds."
+    "default": "星辉矿种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

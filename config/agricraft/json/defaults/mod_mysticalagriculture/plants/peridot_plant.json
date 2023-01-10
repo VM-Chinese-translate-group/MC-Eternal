@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/peridot_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:peridot_plant",
-  "plant_name": "Peridot",
-  "seed_name": "Peridot Seeds",
+  "plant_name": "橄榄石精华株",
+  "seed_name": "橄榄石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:peridot_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Peridot Seeds."
+    "default": "橄榄石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

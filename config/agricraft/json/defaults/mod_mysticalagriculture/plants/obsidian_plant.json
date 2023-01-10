@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/obsidian_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:obsidian_plant",
-  "plant_name": "Obsidian Crop",
-  "seed_name": "Obsidian Seeds",
+  "plant_name": "黑曜石精华株",
+  "seed_name": "黑曜石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:obsidian_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Obsidian Seeds."
+    "default": "黑曜石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

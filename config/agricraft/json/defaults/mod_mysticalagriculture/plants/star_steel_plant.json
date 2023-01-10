@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/star_steel_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:star_steel_plant",
-  "plant_name": "Star-Steel Crop",
-  "seed_name": "Star-Steel Seeds",
+  "plant_name": "星钢精华株",
+  "seed_name": "星钢种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:star_steel_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Star-Steel Seeds."
+    "default": "星钢种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

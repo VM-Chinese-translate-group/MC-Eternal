@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/tin_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:tin_plant",
-  "plant_name": "Tin Crop",
-  "seed_name": "Tin Seeds",
+  "plant_name": "锡精华株",
+  "seed_name": "锡种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:tin_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tin Seeds."
+    "default": "锡种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

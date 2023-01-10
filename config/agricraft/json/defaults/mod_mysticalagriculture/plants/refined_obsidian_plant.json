@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/refined_obsidian_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:refined_obsidian_plant",
-  "plant_name": "Refined Obsidian",
-  "seed_name": "Refined Obsidian Seeds",
+  "plant_name": "强化黑曜石",
+  "seed_name": "强化黑曜石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:refined_obsidian_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Refined Obsidian Seeds."
+    "default": "强化黑曜石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

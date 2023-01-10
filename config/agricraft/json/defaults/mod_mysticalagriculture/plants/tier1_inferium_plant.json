@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/tier1_inferium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:tier1_inferium_plant",
-  "plant_name": "Tier1 Inferium Crop",
-  "seed_name": "Tier1 Inferium Seeds",
+  "plant_name": "下级精华精华株",
+  "seed_name": "下级精华种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:tier1_inferium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tier1 Inferium Seeds."
+    "default": "下级精华种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

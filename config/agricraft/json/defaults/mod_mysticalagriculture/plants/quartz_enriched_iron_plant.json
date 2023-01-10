@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/quartz_enriched_iron_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:quartz_enriched_iron_plant",
-  "plant_name": "Quartz Enriched Iron Crop",
-  "seed_name": "Quartz Enriched Iron Seeds",
+  "plant_name": "富石英铁精华株",
+  "seed_name": "富石英铁种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:quartz_enriched_iron_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Quartz Enriched Iron Seeds."
+    "default": "富石英铁种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

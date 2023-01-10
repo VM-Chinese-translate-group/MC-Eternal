@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/rock_crystal_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:rock_crystal_plant",
-  "plant_name": "Rock Crystal Crop",
-  "seed_name": "Rock Crystal Seeds",
+  "plant_name": "水晶石精华株",
+  "seed_name": "水晶石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:rock_crystal_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Rock Crystal Seeds."
+    "default": "水晶石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

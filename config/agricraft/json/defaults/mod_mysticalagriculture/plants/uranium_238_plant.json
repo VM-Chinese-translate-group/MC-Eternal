@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/uranium_238_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:uranium_238_plant",
-  "plant_name": "Uranium 238 Crop",
-  "seed_name": "Uranium 238 Seeds",
+  "plant_name": "铀-238精华株",
+  "seed_name": "铀-238种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:uranium_238_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Uranium 238 Seeds."
+    "default": "铀-238种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

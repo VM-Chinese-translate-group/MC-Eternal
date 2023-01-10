@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/rubber_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:rubber_plant",
-  "plant_name": "Rubber",
-  "seed_name": "Rubber Seeds",
+  "plant_name": "橡胶精华株",
+  "seed_name": "橡胶种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:rubber_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Rubber Seeds."
+    "default": "橡胶种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

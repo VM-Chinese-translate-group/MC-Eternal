@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/soularium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:soularium_plant",
-  "plant_name": "Soularium Crop",
-  "seed_name": "Soularium Seeds",
+  "plant_name": "魂金精华株",
+  "seed_name": "魂金种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:soularium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Soularium Seeds."
+    "default": "魂金种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

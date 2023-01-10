@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/steel_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:steel_plant",
-  "plant_name": "Steel Crop",
-  "seed_name": "Steel Seeds",
+  "plant_name": "钢精华株",
+  "seed_name": "钢种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:steel_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Steel Seeds."
+    "default": "钢种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

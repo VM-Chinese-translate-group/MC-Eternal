@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/slimy_bone_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:slimy_bone_plant",
-  "plant_name": "Slimy Bone Crop",
-  "seed_name": "Slimy Bone Seeds",
+  "plant_name": "粘骨精华株",
+  "seed_name": "粘骨种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:slimy_bone_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Slimy Bone Seeds."
+    "default": "粘骨种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
