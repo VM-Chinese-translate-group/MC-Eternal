@@ -2,22 +2,21 @@
 	title: "给火箭加油",
 	x: 0.5d,
 	y: -7.5d,
-	description: "右键单击带有火箭燃料的容器的火箭，将容器中的所有燃料倾倒到其中，任何容器中无法装入火箭的火箭燃料都将丢失！",
+	description: "*阅读描述*",
+	text: [
+		"右键单击带有火箭燃料的容器的火箭，将容器中的所有燃料倾倒到其中，任何容器中无法装入火箭的火箭燃料都将丢失！",
+		"",
+		"&o注意：只有高级火箭的火箭燃料能在MCE中使用。",
+		"",
+		"&l在身上带着装有火箭燃料的液体容器时，点击液体任务图标，即可提交!"
+	],
 	dependencies: [
 		"d78bfda8"
 	],
 	tasks: [{
-		uid: "f53c6742",
-		type: "item",
-		items: [{
-			id: "advancedrocketry:bucketrocketfuel",
-			tag: {
-				Fluid: {
-					FluidName: "rocketfuel",
-					Amount: 1000
-				}
-			}
-		}]
+		uid: "3c8b654d",
+		type: "fluid",
+		fluid: "rocketfuel"
 	}],
 	rewards: [{
 		uid: "66352cca",

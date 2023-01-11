@@ -1,0 +1,16 @@
+{
+	title: "目的地设置!",
+	x: 0.0d,
+	y: -6.5d,
+	description: "行星ID芯片用于将你的火箭的目的地设置为一个星球，将其插入火箭的导航电脑中， 并在火箭的GUI中点击\"选择目的地\"，当然是在在它组装之后。",
+	dependencies: [
+		"d78bfda8"
+	],
+	tasks: [{
+		uid: "0e2f0701",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	}]
+}
