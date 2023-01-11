@@ -1,7 +1,7 @@
 {
 	x: -17.0d,
 	y: -10.5d,
-	description: "I command thee to make me some lunch!",
+	description: "乃令尔为我炊！",
 	dependencies: [
 		"6353cb76"
 	],

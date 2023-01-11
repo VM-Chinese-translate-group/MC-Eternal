@@ -1,13 +1,14 @@
 {
 	x: -12.0d,
 	y: 1.5d,
-	description: "&oMining with style!",
+	description: "&o优雅的采矿！",
 	dependencies: [
 		"14b54c00"
 	],
 	tasks: [{
 		uid: "e586b499",
 		type: "item",
+		title: "矿用TNT",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

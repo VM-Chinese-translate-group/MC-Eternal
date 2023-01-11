@@ -1,8 +1,8 @@
 {
-	title: "&cDeserted",
+	title: "&c遗忘者",
 	x: -12.5d,
 	y: -5.0d,
-	description: "&oFind and slay the Deserted &k0",
+	description: "&o找到并击杀遗忘者 &k0",
 	dependencies: [
 		"92ca1bd3"
 	],
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "557d229d",
 		type: "advancement",
-		title: "Locate and kill the Deserted",
+		title: "定位并击杀遗忘者",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

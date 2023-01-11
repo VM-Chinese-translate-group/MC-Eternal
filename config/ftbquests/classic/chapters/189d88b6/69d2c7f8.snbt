@@ -1,8 +1,8 @@
 {
-	title: "Nether Adventurer",
+	title: "地狱冒险家",
 	x: -9.5d,
 	y: -7.5d,
-	description: "&oIt's deep underground, Past the bedrock, But don't dig straight down, You'll regret that",
+	description: "&o它生成在地底，它的硬度仅此基岩，一般情况下请不要直接站在上面挖掘它，否则你会后悔的。",
 	dependencies: [
 		"d22a6b71"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -3.5d,
 	y: -3.0d,
-	description: "Ammo for a more sophisticated weapon",
+	description: "似乎是更加先进的武器弹药",
 	text: [
 		"*Spawns in jungles*"
 	],

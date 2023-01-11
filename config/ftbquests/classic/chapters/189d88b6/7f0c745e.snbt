@@ -1,7 +1,7 @@
 {
 	x: -6.0d,
 	y: -7.0d,
-	description: "Nether Resource",
+	description: "地狱资源",
 	hide_dependency_lines: true,
 	dependencies: [
 		"36443d40"

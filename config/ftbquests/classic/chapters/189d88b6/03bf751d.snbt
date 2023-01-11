@@ -1,7 +1,7 @@
 {
 	x: -1.5d,
 	y: -2.0d,
-	description: "&oDrops from the Ithaqua. A cursed being that thrives in the coniferous forest. &cPlayers should prepare themselves when they hear its horrifying howls. &k12&r",
+	description: "&o伊萨库亚的掉落物。“伊萨库亚是一种生存在针叶林中的诅咒生物。当你听到它可怕的嚎叫时，最好做好准备。”&k12&r",
 	dependencies: [
 		"55a5150c"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -10.5d,
 	y: -6.5d,
-	description: "Waystones can be used as a method of fast travel, all villages contain one waystone, you can place a waystone anywhere in the world and teleport to it instantly using xp ",
+	description: "传送石碑是一种快速旅行的方式，几乎所有的村庄都有一个传送石碑，当然你也可以在世界的任何地方放置指路石，并使用经验进行远距离传送。",
 	dependencies: [
 		"d22a6b71"
 	],

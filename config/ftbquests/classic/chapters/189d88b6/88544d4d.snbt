@@ -1,7 +1,7 @@
 {
 	x: -16.8d,
 	y: -4.55d,
-	description: "Press ` to Ore Excavate and mine ore veins in one fell swoop!",
+	description: "按~来并挖掘矿石，一键清空矿脉！。 译者：使用前，请注意镐子耐久，以及挖掘的方块是否为迷宫方块",
 	dependencies: [
 		"87cb3976"
 	],
@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "3235ead8",
 		type: "checkmark",
-		title: "Excavation",
+		title: "挖掘进行时！",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

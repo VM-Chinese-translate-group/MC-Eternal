@@ -1,5 +1,5 @@
 {
-	title: "Chop Chop!",
+	title: "劈啪劈啪！",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -9,12 +9,12 @@
 	x: -17.5d,
 	y: -4.55d,
 	shape: "diamond",
-	description: "When you try to cut a Tree, it might look strange, here i'll tell you why!",
+	description: "当你试图砍树的时候，它可能越砍越怪，所以在这我将告诉你这是为什么!",
 	text: [
-		"As of MC Eternal 1.4, the mod \"§bHT's Tree Chop§r\" has been added, in short, it lets you cut down whole trees.",
-		"When you break part of a Tree, it will turn into this weird \"§3Chopped Log§r\" block, if you keep breaking this new block, eventually, the whole Tree will be cut all at once!",
-		"The amount of cutting on Chopped Logs that needs to be done to chop a tree scales with the amount of Wood in the tree, so if it's really big, it'll take a long time to cut, in total, it takes less chops to cut a whole tree.",
-		"If you don't want this mod's effect, you can hold §6SNEAK§r to disable it for as long as it is held, or press §6N§r (by default) to open a menu that has a toggle for it."
+		"从永恒的mc1.4版本开始，增加了\"§bHT's Tree Chop§r \"mod，简而言之，它能让你一次砍倒整棵树。",
+		"当你砍伐这棵树时，你砍伐的地方将会变成类似剥皮原木的\"§3原木条§r \"方块，如果你继续砍伐同一位置，这个方块将不断变细，最终，它将会被直接砍断。",
+		"砍树所需砍伐的次数与树木所包含的原木数量成比例，所以如果它真的非常非常大，你就需要花费很长的时间来砍，总的来说，一般的树砍所需的砍伐的次数会少的多，所以没事别拿普通斧子砍丛林木。",
+		"如果你不想这个很怪的模组影响你游戏，你可以按住§6潜行§r来禁用这个功能（指按住shift同时挖掘原木），或者按§6N§r（默认）来打开此模组的菜单以关闭它。"
 	],
 	dependencies: [
 		"87cb3976"

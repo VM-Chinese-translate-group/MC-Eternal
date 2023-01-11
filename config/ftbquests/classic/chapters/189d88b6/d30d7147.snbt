@@ -1,7 +1,7 @@
 {
 	x: -10.5d,
 	y: -3.5d,
-	description: "&o&nCan be used to cut stone into stairs, walls and more for less!",
+	description: "&o&n你可以用它将石材切割成楼梯、不同花纹的墙等，而且它所消耗的材料更少!",
 	dependencies: [
 		"c6a58218"
 	],
