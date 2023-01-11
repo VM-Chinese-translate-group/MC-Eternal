@@ -1,0 +1,11 @@
+{
+	title: "§c§l一个公平的警告",
+	x: -1.5d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "§o世界之上的敌人比你记忆中的更强大……",
+	tasks: [{
+		uid: "49667236",
+		type: "checkmark"
+	}]
+}

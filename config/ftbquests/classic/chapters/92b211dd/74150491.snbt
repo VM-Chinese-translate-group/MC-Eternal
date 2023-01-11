@@ -1,0 +1,21 @@
+{
+	title: "都充好气了!",
+	x: -0.5d,
+	y: -7.5d,
+	description: "站在气体装填台上，让气体充满你的密封胸甲。",
+	dependencies: [
+		"a4168e42"
+	],
+	tasks: [{
+		uid: "94e399d5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}],
+	rewards: [{
+		uid: "4ae50d5b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

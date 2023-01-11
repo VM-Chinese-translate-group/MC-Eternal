@@ -1,0 +1,34 @@
+{
+	title: "密封你的盔甲",
+	x: -1.5d,
+	y: -6.5d,
+	description: "要想把你的盔甲密封起来，就要把盔甲和钻石一起塞进化学反应器。胸甲碎片还需要一个超高压罐。",
+	dependencies: [
+		"d78bfda8"
+	],
+	tasks: [{
+		uid: "958fe9fb",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 4L
+	},
+	{
+		uid: "60df7c9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "advancedrocketry:pressuretank",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "722e527e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "给火箭加油",
+	x: 0.5d,
+	y: -7.5d,
+	description: "右键单击带有火箭燃料的容器的火箭，将容器中的所有燃料倾倒到其中，任何容器中无法装入火箭的火箭燃料都将丢失！",
+	dependencies: [
+		"d78bfda8"
+	],
+	tasks: [{
+		uid: "f53c6742",
+		type: "item",
+		items: [{
+			id: "advancedrocketry:bucketrocketfuel",
+			tag: {
+				Fluid: {
+					FluidName: "rocketfuel",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "66352cca",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

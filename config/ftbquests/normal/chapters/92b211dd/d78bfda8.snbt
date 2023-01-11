@@ -1,0 +1,50 @@
+{
+	icon: "advancedrocketry:rocketbuilder",
+	x: 0.0d,
+	y: -4.0d,
+	description: "将发射台上的结构组装成可使用的火箭。 *阅读描述以了解更多信息*",
+	text: [
+		"将发射台平放在地面上，然后在发射台的边缘放置一个结构塔，并向上搭建。",
+		"",
+		"火箭组装机放置在边缘，与第一座结构塔类似，但要高出一个方块。",
+		"",
+		"任何超过结构塔高度的方块都不会被登记为火箭的一部分。",
+		"",
+		"另外，你可以使用比任务所要求的更多的发射台和结构塔。"
+	],
+	dependencies: [
+		"c2a800d8",
+		"0374614c",
+		"604d9e61",
+		"3f406a26",
+		"1781981e"
+	],
+	tasks: [{
+		uid: "2315706c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "d616d311",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 9L
+	},
+	{
+		uid: "6c1921e6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a0acbf55",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}
