@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "708aab03",
 		type: "kill",
-		title: "&6&lBounty: Midge Swarm",
+		title: "&6&l悬赏：蠓群",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

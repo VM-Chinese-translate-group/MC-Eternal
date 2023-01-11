@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "dd83ed5a",
 		type: "kill",
-		title: "&6&lBounty: Beetle Larva",
+		title: "&6&l悬赏：甲虫幼虫	",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

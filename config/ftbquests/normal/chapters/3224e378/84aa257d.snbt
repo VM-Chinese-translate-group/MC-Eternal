@@ -1,10 +1,10 @@
 {
-	title: "&cVisit &cErebus",
+	title: "&c访问 &c混沌之地",
 	icon: "erebus:block_of_bones",
 	x: -0.5d,
 	y: 0.0d,
 	shape: "octagon",
-	description: "&oThe land of terrible mutated creatures and blood-curdling insects who want nothing more than to see you dead, you are not likely to survive long here...",
+	description: "&o这片土地上有着恐怖的异变生物和令人毛骨悚然的昆虫，它们只想看到你的死去，你不太可能在这里活很久…",
 	size: 1.2d,
 	tasks: [{
 		uid: "065d44d7",

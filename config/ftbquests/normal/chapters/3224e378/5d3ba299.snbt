@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "12da76c3",
 		type: "kill",
-		title: "&6&lBounty: Mosquito",
+		title: "&6&l悬赏：蚊子,
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

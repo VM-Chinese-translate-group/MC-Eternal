@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "180da69c",
 		type: "kill",
-		title: "&6&lBounty: Bombardier Beetle",
+		title: "&6&l悬赏：射炮步甲",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "0cfad7cb",
 		type: "kill",
-		title: "&6&lBounty: Rhinoceros Beetle",
+		title: "&6&l悬赏：独角仙",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
