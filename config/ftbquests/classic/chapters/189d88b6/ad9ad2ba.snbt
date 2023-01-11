@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: 0.5d,
-	description: "&o摸起来很温暖",
+	description: "&oFeels warm to the touch",
 	dependencies: [
 		"b97f548a"
 	],

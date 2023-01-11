@@ -1,8 +1,8 @@
 {
-	title: "黑暗即将来临",
+	title: "Impending darkness",
 	x: -13.0d,
 	y: -1.5d,
-	description: "黑夜降落，很快你就会发现一切希望、光明和神圣的东西都抛弃了你。",
+	description: "When night comes you will soon notice hope, light and everything holy has forsaken you.",
 	dependencies: [
 		"a2b4f121"
 	],

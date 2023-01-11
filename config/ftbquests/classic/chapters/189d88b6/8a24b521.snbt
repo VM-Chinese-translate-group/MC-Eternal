@@ -1,8 +1,8 @@
 {
-	title: "锭！锭！锭！",
+	title: "Ingots, Ingots, Ingots!",
 	x: -9.5d,
 	y: 5.5d,
-	description: "阶段一",
+	description: "Part Uno",
 	dependencies: [
 		"ae2e1bfa"
 	],

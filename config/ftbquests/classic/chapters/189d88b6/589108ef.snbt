@@ -1,7 +1,7 @@
 {
 	x: -15.5d,
 	y: 2.5d,
-	description: "&o大容量，超便携的存储袋！",
+	description: "&oLarge portable storage",
 	dependencies: [
 		"cc3f3c37"
 	],

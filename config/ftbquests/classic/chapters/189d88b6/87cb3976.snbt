@@ -1,5 +1,5 @@
 {
-	title: "&3&l一份礼物？",
+	title: "&3&lA gift?",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -9,7 +9,7 @@
 	x: -16.0d,
 	y: -3.0d,
 	shape: "heart",
-	description: "感谢你下载我的整合包! 为了它我们花费了大量的时间，希望它能带给大家一个有趣的体验。祝您游玩愉快!  -Adam",
+	description: "Thank you for downloading my pack! Lots of work went into making this hopefully a fun experience for everyone. Enjoy! -Adam",
 	hide_dependency_lines: true,
 	dependencies: [
 		"5eed1197"

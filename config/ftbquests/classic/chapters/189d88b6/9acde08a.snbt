@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: -1.5d,
 	shape: "octagon",
-	description: "&o它就像你小脑瓜所想象的那样神奇",
+	description: "&oIt's just as amazing as you pictured in that little brain of yours",
 	dependencies: [
 		"b102924c"
 	],

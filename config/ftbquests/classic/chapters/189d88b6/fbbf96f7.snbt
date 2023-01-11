@@ -1,8 +1,8 @@
 {
-	title: "箱子里充满了垃圾？我给你个好东西！",
+	title: "Inventory full of junk? I gotchu",
 	x: -14.0d,
 	y: -2.5d,
-	description: "板条箱就像箱子一样，但比它更好！",
+	description: "Storage crates are like chests but better",
 	dependencies: [
 		"31b29c7d"
 	],

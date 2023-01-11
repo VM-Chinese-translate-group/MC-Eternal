@@ -1,9 +1,9 @@
 {
-	title: "&c&l龙钢剑",
+	title: "&c&lDragon Steel Sword",
 	x: -12.5d,
 	y: -11.5d,
 	shape: "octagon",
-	description: "&o我曾听过关于这种恐怖力量的传说",
+	description: "&oI've heard tales of such power",
 	dependencies: [
 		"e375f1be"
 	],

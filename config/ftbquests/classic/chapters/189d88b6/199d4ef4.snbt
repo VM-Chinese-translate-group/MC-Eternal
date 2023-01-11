@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: 2.5d,
-	description: "*在山洞中按住右键会将玩家传送回到洞口*",
+	description: "*Holding right click while in a cave will teleport the player back to the surface*",
 	dependencies: [
 		"49dff6a0"
 	],

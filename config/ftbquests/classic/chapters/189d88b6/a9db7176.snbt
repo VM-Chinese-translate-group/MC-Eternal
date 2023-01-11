@@ -2,7 +2,7 @@
 	x: -7.5d,
 	y: 4.0d,
 	shape: "hexagon",
-	description: "&o这种液体金属似乎极其致密，将它冷却为固态后却又同时保持着韧性，它必定是锻造剑刃的上好材料！",
+	description: "&oThis liquid appears to be quite dense while remaining flexible, it would make for a fine blade!",
 	dependencies: [
 		"4837a5ed"
 	],

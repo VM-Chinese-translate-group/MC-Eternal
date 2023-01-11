@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: 2.5d,
-	description: "&6当使用这个传说级神器时，如果你受到伤害，它将提供8秒的再生效果，并以1耐久/秒的速度修复所有你装备的物品。这不是我......&k111&r 从来不是......啊—— 我听到了召唤.......",
+	description: "&6When using this legendary artifact, it will give 8 seconds of Regeneration if the player is wounded, and will repair all equipped items at a rate of 1/sec. &cSomething feels off... I am not myself...&k111&r I never was... I hear the calling...",
 	dependencies: [
 		"946700ea"
 	],

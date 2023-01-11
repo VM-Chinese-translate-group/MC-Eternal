@@ -1,10 +1,10 @@
 {
 	x: 0.5d,
 	y: -2.0d,
-	description: "成年炎熔螈并不能被驯服；但是，你可以使用甘蔗牛驯服幼年炎熔螈，成功记录大约为33%。",
+	description: "Adult Salamanders cannot be tamed; however, a player can use a Cane Beef on a baby Salamander to have a 33% chance of taming the fiery beast",
 	text: [
-		"炎熔螈被驯服后，你就可以拿着棍子与它互动，右键它切换坐下、跟随和巡逻模式。被驯服的炎熔螈收到伤害后会缓慢地回复生命，如果处在熔岩中回复速度更快。当然，水会使它收到伤害。",
-		"你可以给被驯服的炎熔螈套上鞍，然后就可以将其做为不错的地狱坐骑，当你骑上它后还按住G键向面前发射8个火球。"
+		"Once tamed, interacting with a Salamander while holding a Stick will set it to sit, follow or patrol mode. Tamed Salamanders will slowly regenerate their health, and faster if submerged into lava. Water on the other hand will harm the creature.",
+		"&oA Player can ride a tamed Salamander by putting a Saddle on it. In addition you can press G to shot 8 fireballs in the facing direction."
 	],
 	dependencies: [
 		"4cac20d0"
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "4e974ea1",
 		type: "advancement",
-		title: "唯一一种与&c死亡毁灭之使者&r相配的坐骑",
+		title: "The only mount suitable for the bringer of &cDeath and Destruction",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

@@ -1,8 +1,8 @@
 {
-	title: "遇见旅行者",
+	title: "Meet the Traveler",
 	x: -11.0d,
 	y: -5.5d,
-	description: "你可以通过用&c火§r&7点燃&9煤炭块&r &7来召唤旅行者，他们会出售各种有关地牢boss位置的地图。",
+	description: "The Traveler can be summoned by lighting a &9Block of Coal&r &7on &cfire§r&7, they sell maps to various Bosses from Dungeons Mod.",
 	dependencies: [
 		"d22a6b71"
 	],

@@ -1,11 +1,11 @@
 {
-	title: "水族伙伴！",
+	title: "Aqua Buddy!",
 	x: -19.5d,
 	y: 0.5d,
 	shape: "circle",
-	description: "你可以在海洋生物群系和深海生物群系发现海马。这是一种极优雅的海洋生物，你可以将它驯服并作为你的坐骑！",
+	description: "Hippocampi can be found swimming around in Ocean and Deep Ocean biomes. A graceful seafaring beast that can be tamed and handled as a versatile speed mount!",
 	text: [
-		"*使用海绵驯服海马*"
+		"*Tame a Hippocampus using Sponge blocks*"
 	],
 	dependencies: [
 		"51b6044a"

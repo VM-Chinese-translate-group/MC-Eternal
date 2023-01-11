@@ -1,7 +1,7 @@
 {
 	x: -9.45d,
 	y: -11.549999999999999d,
-	description: "*用 \"邪恶点滴 \"右键泥土或草地可将其转换为诅咒之土以生成大量的怪物*",
+	description: "*Right click an enclosed dirt area with the Drop of Evil to create a rudimentary method of spawning evil creatures*",
 	dependencies: [
 		"bc9c4ee1"
 	],

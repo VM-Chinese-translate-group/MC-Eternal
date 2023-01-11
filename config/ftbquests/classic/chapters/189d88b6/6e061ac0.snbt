@@ -1,7 +1,7 @@
 {
 	x: -11.5d,
 	y: -2.0d,
-	description: "便携式小箱子！",
+	description: "Portable Storage",
 	dependencies: [
 		"31b29c7d"
 	],

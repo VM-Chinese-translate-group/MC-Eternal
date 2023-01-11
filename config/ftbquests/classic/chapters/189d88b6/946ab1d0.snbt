@@ -1,8 +1,8 @@
 {
-	title: "&7&l战争 &kdestruction",
+	title: "&7&lWar &kdestruction",
 	x: -3.5d,
 	y: 2.0d,
-	description: "它有什么好处吗？",
+	description: "What is it good for?",
 	dependencies: [
 		"f687915f"
 	],

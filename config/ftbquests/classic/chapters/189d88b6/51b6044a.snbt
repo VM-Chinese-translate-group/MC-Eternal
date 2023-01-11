@@ -2,7 +2,7 @@
 	title: "Lazy river",
 	x: -17.0d,
 	y: 0.0d,
-	description: "你很快就会发现，水的流向与你平常所见的情况不大相同。*有些溪流现在会相互相连并缓慢流动，制作一条船，从流飘荡，任意东西！看看水的冒险之路通向哪里！\"。",
+	description: "You'll soon find water flows quite differently then maybe what you're used too. *some* streams now connect to bodies of water and flow, craft a boat and go for a paddle, see where the adventure takes you!",
 	dependencies: [
 		"87cb3976"
 	],

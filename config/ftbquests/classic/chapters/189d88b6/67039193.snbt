@@ -1,8 +1,8 @@
 {
-	title: "&c&l击败&4&l凋灵",
+	title: "&c&lDefeat The &4&lWither",
 	x: -7.5d,
 	y: -5.0d,
-	description: "让我们为你祈祷它不会是个冠军生物！&0这是有可能的",
+	description: "Let's hope it doesn't spawn as a Champion! &0It will",
 	dependencies: [
 		"d22a6b71"
 	],

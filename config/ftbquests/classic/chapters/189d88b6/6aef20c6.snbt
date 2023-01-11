@@ -1,9 +1,9 @@
 {
-	title: "口袋空间",
+	title: "Pocket Dimension",
 	x: -2.5d,
 	y: -11.5d,
 	shape: "diamond",
-	description: "&o一个便携的口袋空间？",
+	description: "&oPortable pocket dimension localized entirely within your pocket?",
 	dependencies: [
 		"3b41a4ca"
 	],

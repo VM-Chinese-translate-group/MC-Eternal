@@ -1,8 +1,8 @@
 {
-	title: "辐射清理人！",
+	title: "The Cleanup Crew!",
 	x: -17.0d,
 	y: 2.0d,
-	description: "合成并使用辐射洗涤器以清理放射性物质",
+	description: "Create and use radiation scrubbers to clean up radioactivity",
 	dependencies: [
 		"b5df1c84"
 	],

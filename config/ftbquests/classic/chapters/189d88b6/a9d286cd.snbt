@@ -1,8 +1,8 @@
 {
-	title: "&1水&f和&4熔岩&f之歌",
+	title: "A Song of &1Water &fand &4Lava",
 	x: -13.0d,
 	y: -7.5d,
-	description: "这本书能帮助你记录并保存你所发现的危险生物记录。不断完善它，这对你的冒险很有帮助！",
+	description: "This book holds and collects records of ellusive and potencially dangerous creatures you have uncovered",
 	min_required_dependencies: 1,
 	dependencies: [
 		"00fa1d66",

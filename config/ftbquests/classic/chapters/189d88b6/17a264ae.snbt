@@ -1,8 +1,8 @@
 {
-	title: "无需挖矿的下矿！",
+	title: "Mining without mining",
 	x: -4.5d,
 	y: 3.0d,
-	description: "&oBoom！Boom！Boom！我希望你能在我的矿井里？",
+	description: "&oBoom Boom Boom, I want you in my mineshaft?",
 	dependencies: [
 		"3b41a4ca"
 	],

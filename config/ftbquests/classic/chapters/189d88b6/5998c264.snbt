@@ -7,11 +7,11 @@
 	},
 	x: -12.5d,
 	y: -4.0d,
-	description: "发现一个村庄并接受赏金任务",
+	description: "&oDiscover a village and accept a bounty",
 	text: [
-		"村庄悬赏就像是可以提交以获取奖励的任务。这些悬赏板是特殊的，并且它只在村庄里生成，悬赏的奖励和目标是随机的。注意！每个悬赏都有限制时间！如果超时，悬赏将变为废纸！",
+		"Village bounties are quests that can be handed in for a reward. These Bounty Boards are special and only spawn in a Village, rewards and objectives are random but be careful, each bounty will eventually expire from the board!",
 		"&l--------------------------",
-		"当旧悬赏过期后，它将被替换成为其他新的悬赏。"
+		"When a Bounty expires it will be replaced with a new one"
 	],
 	dependencies: [
 		"87cb3976"
@@ -20,7 +20,7 @@
 	tasks: [{
 		uid: "f68e6349",
 		type: "item",
-		title: "&o寻找一个悬赏板！",
+		title: "&oLocate a Bounty Board",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

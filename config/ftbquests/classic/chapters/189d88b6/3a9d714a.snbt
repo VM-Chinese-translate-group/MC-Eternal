@@ -1,8 +1,8 @@
 {
-	title: "&l 装神弄鬼",
+	title: "&lPlaying God",
 	x: -3.5d,
 	y: -2.0d,
-	description: "对任意可在农场驯养的动物使用次药水。",
+	description: "Use the potion on any farm animal.",
 	dependencies: [
 		"2cf9d199"
 	],

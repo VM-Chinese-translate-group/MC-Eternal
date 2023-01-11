@@ -1,5 +1,5 @@
 {
-	title: "基础防御",
+	title: "Base defence",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -8,7 +8,7 @@
 	},
 	x: -20.0d,
 	y: -1.5d,
-	description: "保护你的领地，用这个船新的土豆加农炮塔驱逐那些生物！",
+	description: "Protecting the land and scaring away creatures with this new potato launching device!",
 	dependencies: [
 		"113c82cb"
 	],

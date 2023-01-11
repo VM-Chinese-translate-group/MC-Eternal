@@ -1,5 +1,5 @@
 {
-	title: "&3陛下！",
+	title: "&3Your Highness!",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {},
@@ -9,7 +9,7 @@
 	},
 	x: -9.0d,
 	y: -5.5d,
-	description: "&o让午夜维度中的每一种颜色的暗夜牡鹿都向你低头。",
+	description: "&oHave every colour of Nightstag in the Midnight dimension bow down to you",
 	dependencies: [
 		"d22a6b71"
 	],
@@ -18,7 +18,7 @@
 	tasks: [{
 		uid: "7b72a7ba",
 		type: "advancement",
-		title: "陛下！",
+		title: "Your Highness!",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

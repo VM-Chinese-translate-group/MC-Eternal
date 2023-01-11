@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: 3.0d,
-	description: "&6 \"我是一个矮人而且我正在挖洞\"",
+	description: "&6\"I am a dwarf and I'm digging a hole\"",
 	dependencies: [
 		"49dff6a0"
 	],

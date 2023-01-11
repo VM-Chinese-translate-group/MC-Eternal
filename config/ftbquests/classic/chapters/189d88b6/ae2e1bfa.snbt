@@ -1,8 +1,8 @@
 {
-	title: "挖矿使我激情！！",
+	title: "Mining is my passion!",
 	x: -11.5d,
 	y: 4.5d,
-	description: "让我们回到矿洞......",
+	description: "Way back in the mine... ",
 	dependencies: [
 		"cf376a10"
 	],

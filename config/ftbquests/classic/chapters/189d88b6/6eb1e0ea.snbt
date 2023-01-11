@@ -1,9 +1,9 @@
 {
-	title: "诡异的伙伴！",
+	title: "A Spooky Companion!",
 	x: -4.0d,
 	y: 0.5d,
 	shape: "heart",
-	description: " &o将一个稻草人头颅放在两个干草块的顶部，然后用不死之心在其中间右键，以召唤一个驯服的对应变种的稻草人。看看这个小家伙有多可爱，哦，等等，呃，还是算了吧",
+	description: " &oPut a Scarecrow Head on top of two Hay Bales and then right-click in the middle with a Undying Heart to summon a special pet.&c This Quest Chain can't be evil! Look how cute this little guy is, oh wait nevermind",
 	dependencies: [
 		"96a8691d"
 	],

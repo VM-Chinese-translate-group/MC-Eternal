@@ -1,8 +1,8 @@
 {
-	title: "&b&l钻石恒久远",
+	title: "&b&lDiamonds are Forever",
 	x: -10.5d,
 	y: -4.5d,
-	description: "收集 5x 钻石",
+	description: "Collect 5x Diamonds",
 	dependencies: [
 		"915cf001"
 	],

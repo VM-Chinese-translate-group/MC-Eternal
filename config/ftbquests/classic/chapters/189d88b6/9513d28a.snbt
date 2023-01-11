@@ -1,8 +1,8 @@
 {
-	title: "温牛奶口感很棒",
+	title: "Warm milk tastes good",
 	x: -2.5d,
 	y: 0.0d,
-	description: "对一只拥有&c*防火效果*&r的牛使用这个药水",
+	description: "Use the potion on a cow that has been splashed with a &c*potion of fire resistance*",
 	dependencies: [
 		"96a8691d"
 	],

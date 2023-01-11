@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -9.0d,
-	description: "可作为战利品挂在墙上",
+	description: "Can be mounted as trophies",
 	dependencies: [
 		"a9d286cd"
 	],

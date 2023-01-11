@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: 0.5d,
-	description: "&2处于你背上的便携式箱子",
+	description: "&2Portable chest that lives on your back",
 	dependencies: [
 		"a2b4f121"
 	],

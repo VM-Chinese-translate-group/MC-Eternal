@@ -1,8 +1,8 @@
 {
-	title: "不是太好，但也不算太差",
+	title: "Not great, not terrible",
 	x: -15.0d,
 	y: -0.5d,
-	description: "发现一个核泄漏之地！",
+	description: "Discover a radioactive wasteland",
 	dependencies: [
 		"87cb3976"
 	],

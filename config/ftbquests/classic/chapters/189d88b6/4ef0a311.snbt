@@ -1,7 +1,7 @@
 {
 	x: -14.5d,
 	y: 3.0d,
-	description: "右键一个实体（如牛、猪或羊），将其直接举在头上！",
+	description: "&oRight click on an entity (such as a cow, pig or sheep) to pick them up and bring them with you",
 	dependencies: [
 		"cc3f3c37"
 	],
