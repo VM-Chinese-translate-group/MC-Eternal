@@ -2,7 +2,7 @@
 	title: "&l口袋妖怪大师！",
 	x: 1.0d,
 	y: 2.0d,
-	description: "我想成为做到最好🎵达到无人企及的高度🎵得到他们是真正的考验🎵喂养它们是我的任务！（neta宝可梦主题曲“Pokemon Theme”）",
+	description: "我想成为做到最好🎵达到无人企及的高度🎵得到他们是真正的考验🎵喂养它们是我的任务！（neta宝可梦主题曲《Pokemon Theme》）",
 	tasks: [{
 		uid: "1f3d78b4",
 		type: "item",
