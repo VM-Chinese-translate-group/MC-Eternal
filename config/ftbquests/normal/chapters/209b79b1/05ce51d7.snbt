@@ -2,7 +2,7 @@
 	x: -3.5d,
 	y: -1.5d,
 	shape: "square",
-	description: "*邪猎者们经常和他的好朋友们住在平原生物群系周围的木屋里。*",
+	description: "*邪猎者们和他的好朋友们常住在平原生物群系周围的木屋里。*",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d8852201"

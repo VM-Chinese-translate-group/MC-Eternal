@@ -2,9 +2,9 @@
 	x: 1.5d,
 	y: -1.5d,
 	shape: "square",
-	description: "&o一个古老的故事告诉人们：当你凝视着稻草人空洞的眼睛时，你的灵魂就会被吸走。幸运的是，这只是一个故事。但是稻草人还是会用它的镰刀收割你的灵魂……",
+	description: "&o民间有一个古老的传说：如果看向稻草人的眼睛，人的灵魂就会被它吸走。但是传说嘛，是不是真的还两说。但我能确定的是，稻草人会用它锋利的镰刀收割你的灵魂",
 	text: [
-		"*只有勇敢的人才会在晚上挑战稻草人。*咳咳*，我开玩笑的。"
+		"*只有莽夫才会在晚上挑战稻草人。*咳咳*，我开玩笑的。*"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "fe0ed182",
 		type: "kill",
-		title: "Bounty: Scarecrow",
+		title: "悬赏：稻草人",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -51,7 +51,7 @@
 			id: "minecraft:tnt",
 			tag: {
 				display: {
-					Name: "这可能会在以后派上用场？"
+					Name: "留得炸弹在，不怕没柴烧"
 				}
 			}
 		}
