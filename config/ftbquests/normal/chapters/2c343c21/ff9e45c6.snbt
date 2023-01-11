@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "3d1b4547",
 		type: "kill",
-		title: "&6&l悬赏：&r&8不死猎血犬",
+		title: "&6&l悬赏：&r&8亡灵猎血犬",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
