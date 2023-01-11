@@ -1,8 +1,8 @@
 {
-	title: "电解!",
+	title: "电解！",
 	x: -5.0d,
 	y: 4.5d,
-	description: "从各种物品中产出液体和粉.",
+	description: "从各种物品中产出液体和粉",
 	dependencies: [
 		"06cc512e"
 	],

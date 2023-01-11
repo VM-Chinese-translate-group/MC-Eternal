@@ -3,7 +3,7 @@
 	x: 2.5d,
 	y: 4.5d,
 	shape: "gear",
-	description: "我滴轨轨!",
+	description: "我滴轨轨！",
 	text: [
 		"制作一个有无限可能的自定义矿车"
 	],

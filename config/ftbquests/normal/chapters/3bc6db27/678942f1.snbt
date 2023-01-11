@@ -1,7 +1,7 @@
 {
 	x: -18.5d,
 	y: 6.5d,
-	description: "&o简单小雕像由古人制得, 其中一种特殊的雕像令人不安...",
+	description: "&o简单小雕像由古人制得, 其中一种特殊的雕像令人不安……",
 	dependencies: [
 		"85acd8e6"
 	],

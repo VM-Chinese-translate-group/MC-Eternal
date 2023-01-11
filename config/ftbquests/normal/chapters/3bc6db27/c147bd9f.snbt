@@ -2,7 +2,7 @@
 	title: "最高级的板",
 	x: 0.0d,
 	y: 6.5d,
-	description: "用于制作最高级的机器和物品.",
+	description: "用于制作最高级的机器和物品",
 	dependencies: [
 		"06cc512e"
 	],

@@ -2,7 +2,7 @@
 	x: -6.0d,
 	y: -4.0d,
 	shape: "hexagon",
-	description: "谁在喷气推进实验室?",
+	description: "谁在喷气推进实验室？",
 	tasks: [{
 		uid: "17ba5fe7",
 		type: "item",

@@ -2,7 +2,7 @@
 	title: "超频",
 	x: -3.0d,
 	y: 3.0d,
-	description: "这个升级用更多的能量，但可以加速机器的处理速度.",
+	description: "这个升级用更多的能量，但可以加速机器的处理速度",
 	dependencies: [
 		"06cc512e"
 	],

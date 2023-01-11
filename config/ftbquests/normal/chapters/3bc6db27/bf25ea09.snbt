@@ -2,7 +2,7 @@
 	title: "因为今天是钻钻钻之夜",
 	x: -1.0d,
 	y: 2.5d,
-	description: "能升级到钻石钻, 挖矿良品",
+	description: "能升级到钻石钻， 挖矿良品",
 	dependencies: [
 		"06cc512e"
 	],

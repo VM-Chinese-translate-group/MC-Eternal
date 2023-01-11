@@ -1,14 +1,14 @@
 {
 	x: 3.0d,
 	y: 5.5d,
-	description: "挖出风格!",
+	description: "挖出风格！",
 	dependencies: [
 		"5111a663"
 	],
 	tasks: [{
 		uid: "3162083d",
 		type: "item",
-		title: "Drill",
+		title: "钻",
 		items: [{
 			id: "stevescarts:cartmodule",
 			tag: {

@@ -2,7 +2,7 @@
 	title: "最初的机器",
 	x: -3.0d,
 	y: 4.0d,
-	description: "两台机器生产的材料都是以后使用的.",
+	description: "两台机器生产的材料都是以后使用的",
 	dependencies: [
 		"06cc512e"
 	],

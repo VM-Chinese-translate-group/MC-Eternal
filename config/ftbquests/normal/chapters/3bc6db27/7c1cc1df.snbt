@@ -2,7 +2,7 @@
 	title: "卷板",
 	x: -2.5d,
 	y: 7.5d,
-	description: "用于制作许多合成都需要的各种板.",
+	description: "用于制作许多合成都需要的各种板",
 	dependencies: [
 		"06cc512e"
 	],
