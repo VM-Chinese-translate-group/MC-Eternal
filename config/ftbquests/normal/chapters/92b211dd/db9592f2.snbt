@@ -16,7 +16,7 @@
 	rewards: [{
 		uid: "710a5909",
 		type: "command",
-		title: "§7§l点击我获取链接!",
+		title: "§7§l点我获取链接！",
 		command: "/tellraw @p {\"text\":\"§9§l点击打开网页，它会有你所寻找的指南。\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gist.github.com/anabsolutesloth/adb7b8a1f081f0f961bff3c25eab755e\"}}"
 	}]
 }
