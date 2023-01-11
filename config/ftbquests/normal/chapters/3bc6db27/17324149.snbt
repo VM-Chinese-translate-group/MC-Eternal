@@ -1,15 +1,15 @@
 {
-	title: "Prehistoric Playtime!",
+	title: "史前玩乐时间！",
 	x: -20.0d,
 	y: 5.0d,
-	description: "All kinds of creatures need something to do, even those from Prehistory are no exception!",
+	description: "所有的生物都需要有事做，即使是史前的生物也不例外！",
 	dependencies: [
 		"044435a4"
 	],
 	tasks: [{
 		uid: "84f7317c",
 		type: "item",
-		title: "Any Color of Toy Ball",
+		title: "任何颜色玩具球",
 		items: [{
 			item: "fossil:toyball"
 		},

@@ -1,8 +1,8 @@
 {
-	title: "Major components",
+	title: "主要组件",
 	x: -1.5d,
 	y: 7.5d,
-	description: "Common materials used to make advance machines and items",
+	description: "用于制作的高级机器和物品的常用材料",
 	dependencies: [
 		"06cc512e"
 	],

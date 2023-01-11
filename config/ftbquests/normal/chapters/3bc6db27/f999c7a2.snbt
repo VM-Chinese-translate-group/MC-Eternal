@@ -1,10 +1,10 @@
 {
-	title: "Water Grinding",
+	title: "水磨",
 	x: -5.0d,
 	y: 6.5d,
-	description: "*Click to read description*",
+	description: "*点击阅读描述*",
 	text: [
-		"Note this is a 3x3 multi-block structure using 9 standard machine casing for both bottom and top layer, while 8 reinforced machine casing is used in the middle layer along with a water source in the center."
+		"注意这个是个底层和顶层都是9个3x3的基础机械外壳，中间层有8个进阶机械外壳中间是个水源的方块结构"
 	],
 	dependencies: [
 		"06cc512e"
