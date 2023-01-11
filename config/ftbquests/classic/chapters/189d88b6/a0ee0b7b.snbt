@@ -1,7 +1,7 @@
 {
 	x: -16.0d,
 	y: -5.5d,
-	description: "Building has never been this easy!",
+	description: "建筑从未如此简单！！",
 	dependencies: [
 		"915cf001"
 	],

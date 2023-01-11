@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: 4.0d,
-	description: "&oShield me from the pain!",
+	description: "&o庇佑我远离皮肉之苦！",
 	dependencies: [
 		"1d38ece5"
 	],

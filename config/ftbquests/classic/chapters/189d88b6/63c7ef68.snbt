@@ -1,7 +1,7 @@
 {
 	x: -14.0d,
 	y: 0.0d,
-	description: "The time in a bottle will collect real world time you've spent in game and give it back to you in the form of speeding certain tasks up, using it on a furnace will cause the furnace to cook much faster. It can be used on most TileEntities.",
+	description: "时间之瓶会收集你在游戏中所经过的的现实世界的时间，通过加快某些流程将时间反还给你，比如对着熔炉使用它可以使燃烧速度加快，当然你的燃料的消耗速度也会加快。它可以用在大多数方块实体上。",
 	dependencies: [
 		"a2b4f121"
 	],

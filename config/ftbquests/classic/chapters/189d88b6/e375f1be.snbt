@@ -1,15 +1,15 @@
 {
-	title: "Mother of Dragons",
+	title: "巨龙之母",
 	x: -12.0d,
 	y: -10.0d,
-	description: "Dracarys? ",
+	description: "Dracarys?  瓦雷利亚语言：龙焰 ",
 	dependencies: [
 		"a9d286cd"
 	],
 	tasks: [{
 		uid: "8a414f9d",
 		type: "item",
-		title: "Collect a dragon egg",
+		title: "收集一颗龙蛋",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

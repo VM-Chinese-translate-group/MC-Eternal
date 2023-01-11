@@ -1,15 +1,15 @@
 {
-	title: "So pretty...",
+	title: "太美了......",
 	x: -11.0d,
 	y: 1.0d,
-	description: "*Right click on two blocks to place a hanging fairy light",
+	description: "*手持挂灯分别右键两个方块，以悬挂彩灯！",
 	dependencies: [
 		"14b54c00"
 	],
 	tasks: [{
 		uid: "e2337ad5",
 		type: "item",
-		title: "5x Hanging Light",
+		title: "5x 挂灯",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -12.5d,
 	shape: "octagon",
-	description: "Grows better on End Stone",
+	description: "在末地石上种植长得更好",
 	dependencies: [
 		"0739b5ef"
 	],

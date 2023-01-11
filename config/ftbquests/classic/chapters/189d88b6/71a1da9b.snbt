@@ -1,7 +1,7 @@
 {
 	x: -18.5d,
 	y: 2.0d,
-	description: "&oImagine if you could locate any biome? Well now with four little saplings and a couple of logs attached to a compass you can!",
+	description: "&o想象一下，如果你能找到任何生物群系的位置？现在有方法了，将四棵小树苗和几根木头连接在指南针上，你就拥有环游世界的能力了！\"。",
 	dependencies: [
 		"51b6044a"
 	],

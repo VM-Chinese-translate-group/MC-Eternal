@@ -1,8 +1,8 @@
 {
-	title: "Joining the &cFour Horsemen",
+	title: "加入&c四骑士",
 	x: -3.0d,
 	y: -1.0d,
-	description: "&oI'm not really evil, I just like to cosplay",
+	description: "&o我不是真邪恶，我只是喜欢cosplay而已",
 	dependencies: [
 		"9513d28a"
 	],

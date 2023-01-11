@@ -1,7 +1,7 @@
 {
 	x: -9.5d,
 	y: -0.5d,
-	description: "Create custom doors out of any block and combine any animation you want to create the perfect personalised door!",
+	description: "用任意方块定制你所想要的门，并选择你想要的动画效果，以制作一个属于你的独特的个性化门！",
 	dependencies: [
 		"14b54c00"
 	],

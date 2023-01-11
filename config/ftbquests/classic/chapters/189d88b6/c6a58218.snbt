@@ -1,7 +1,7 @@
 {
 	x: -11.5d,
 	y: -3.0d,
-	description: "*Right click with an empty hand to teleport to the top or bottom of a ladder*",
+	description: "*用空手右键梯子可传送到它的顶部或底部*",
 	dependencies: [
 		"7fb182cd"
 	],
