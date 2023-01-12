@@ -1,13 +1,13 @@
 {
 	x: 0.0d,
 	y: -2.0d,
-	description: "*Read Description for usage Info*",
+	description: "*阅读描述了解使用信息*",
 	text: [
-		"Sneak+Right-click to open GUI, hold Left-click and move cursor upwards to scroll Down for more machines, select a machine to Project with Left-Click.",
+		"潜行右击可打开GUI，按住左键并上下移动光标查看更多机器，用右键选择一台机器进行投影。当选择了所需的投影的机器后，退出GUI右键单击以放置投影。",
 		"",
-		"Right-click while holding the Holo-Projector to place the selected Projection.",
+		"手持全息投影器的同时，右键单击以放置选定的投影。",
 		"",
-		"Sneak and Scroll to change the Layer projected."
+		"潜行滚动中键来改变机械不同层的预测。"
 	],
 	dependencies: [
 		"7a35fec9",
@@ -17,10 +17,7 @@
 		uid: "d35da0f4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:holoprojector"
+			item: "libvulpes:holoprojector"
 		}],
 		ignore_nbt: 1b
 	}],

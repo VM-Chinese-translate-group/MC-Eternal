@@ -1,12 +1,11 @@
 {
-	title: "Blastoff!",
+	title: "升空！",
 	x: 0.0d,
 	y: -9.0d,
-	description: "Press SPACE while on your Rocket to start the Launch sequence, if you get stuck floating a void, log out and log back in. It's advised to have a way other than Rocket to get from Planet to Planet.",
+	description: "在火箭上按下空格键，开始发射程序，如果你被卡在虚空中，请退出并重新登录。建议使用火箭以外的方式从一个星球到另一个星球。",
 	dependencies: [
 		"74150491",
-		"bb9f8d30",
-		"39f14c3e"
+		"bb9f8d30"
 	],
 	tasks: [{
 		uid: "00e56e63",

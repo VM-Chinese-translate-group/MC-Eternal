@@ -1,8 +1,8 @@
 {
-	title: "Bare Minimum Rocket",
+	title: "最低限度的火箭",
 	x: -1.5d,
 	y: -4.5d,
-	description: "Everything you need to build the absolute cheapest rocket possible.",
+	description: "这是制造最便宜火箭所需要的一切。",
 	dependencies: [
 		"d78bfda8"
 	],
@@ -32,7 +32,7 @@
 	{
 		uid: "0ceb26ed",
 		type: "item",
-		title: "Rocket Engine",
+		title: "火箭发动机",
 		items: [{
 			item: "advancedrocketry:rocketmotor"
 		},

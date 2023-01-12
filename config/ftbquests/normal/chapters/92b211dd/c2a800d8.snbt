@@ -2,7 +2,7 @@
 	icon: "advancedrocketry:rollingmachine",
 	x: -2.0d,
 	y: -1.5d,
-	description: "Makes Plates, Sheets, and Pressure Tanks.",
+	description: "制作板材、薄板和压力罐。",
 	dependencies: [
 		"d5dbf68e"
 	],
@@ -34,7 +34,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockCoil"
+					Name: "任意线圈"
 				}
 			}
 		}],
@@ -53,7 +53,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockMotor"
+					Name: "任意马达"
 				}
 			}
 		}]

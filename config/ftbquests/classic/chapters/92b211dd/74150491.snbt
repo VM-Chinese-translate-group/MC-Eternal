@@ -1,8 +1,8 @@
 {
-	title: "All Charged up!",
+	title: "都充好气了！",
 	x: -0.5d,
 	y: -7.5d,
-	description: "Stand on a Gas Charge Pad with Oxygen to fill your Airtight chesplate up.",
+	description: "站在气体装填台上，让气体充满你的密封胸甲。",
 	dependencies: [
 		"a4168e42"
 	],
@@ -10,10 +10,7 @@
 		uid: "94e399d5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:oxygencharger"
+			item: "advancedrocketry:oxygencharger"
 		}]
 	}],
 	rewards: [{

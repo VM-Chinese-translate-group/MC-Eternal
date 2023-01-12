@@ -1,9 +1,9 @@
 {
-	title: "Electrolyser",
+	title: "电解机",
 	icon: "advancedrocketry:electrolyser",
 	x: -1.5d,
 	y: -3.0d,
-	description: "Splits Water into Hydrogen and Oxygen, required to produce Rocket Fuel and fill your Airtight armor with Oxygen.",
+	description: "将水分解成氢气和氧气，这是生产火箭燃料和填充你的密封的盔甲所需要的。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d5dbf68e"
@@ -36,7 +36,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockCoil"
+					Name: "任意线圈"
 				}
 			}
 		}]

@@ -1,8 +1,8 @@
 {
-	title: "Bare Minimum Rocket",
+	title: "最低限度的火箭",
 	x: -1.5d,
 	y: -4.5d,
-	description: "Everything you need to build the absolute cheapest rocket possible.",
+	description: "这是制造最便宜火箭所需要的一切。",
 	dependencies: [
 		"d78bfda8"
 	],
@@ -11,48 +11,33 @@
 		uid: "28fcebfc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:guidancecomputer"
+			item: "advancedrocketry:guidancecomputer"
 		}]
 	},
 	{
 		uid: "5ecab1e6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:seat"
+			item: "advancedrocketry:seat"
 		}]
 	},
 	{
 		uid: "7801d662",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:fueltank"
+			item: "advancedrocketry:fueltank"
 		}],
 		count: 6L
 	},
 	{
 		uid: "0ceb26ed",
 		type: "item",
-		title: "Rocket Engine",
+		title: "火箭发动机",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:rocketmotor"
+			item: "advancedrocketry:rocketmotor"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:advrocketmotor"
+			item: "advancedrocketry:advrocketmotor"
 		}],
 		count: 2L
 	}]

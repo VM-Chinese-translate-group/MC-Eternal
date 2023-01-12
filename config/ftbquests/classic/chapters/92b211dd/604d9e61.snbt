@@ -1,14 +1,9 @@
 {
-	title: "Electrolyser",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "advancedrocketry:electrolyser"
-	},
+	title: "电解机",
+	icon: "advancedrocketry:electrolyser",
 	x: -1.5d,
 	y: -3.0d,
-	description: "Splits Water into Hydrogen and Oxygen, required to produce Rocket Fuel and fill your Airtight armor with Oxygen.",
+	description: "将水分解成氢气和氧气，这是生产火箭燃料和填充你的密封的盔甲所需要的。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d5dbf68e"
@@ -17,20 +12,14 @@
 		uid: "0ac3f1ea",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:electrolyser"
+			item: "advancedrocketry:electrolyser"
 		}]
 	},
 	{
 		uid: "8975b18a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:structuremachine"
+			item: "libvulpes:structuremachine"
 		}],
 		count: 2L
 	},
@@ -39,7 +28,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockCoil",
 					id: "ore"
@@ -48,7 +36,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockCoil"
+					Name: "任意线圈"
 				}
 			}
 		}]
@@ -57,22 +45,14 @@
 		uid: "b19559ec",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:hatch",
-			Damage: 2s
+			item: "libvulpes:hatch 1 2"
 		}]
 	},
 	{
 		uid: "e5e87048",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:hatch",
-			Damage: 3s
+			item: "libvulpes:hatch 1 3"
 		}],
 		count: 2L,
 		consume_items: false
@@ -81,10 +61,7 @@
 		uid: "f81cd3c5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:forgepowerinput"
+			item: "libvulpes:forgepowerinput"
 		}],
 		count: 2L
 	}],

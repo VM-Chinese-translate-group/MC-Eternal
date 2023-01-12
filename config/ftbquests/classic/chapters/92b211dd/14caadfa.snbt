@@ -1,16 +1,16 @@
 {
 	x: 0.0d,
 	y: -10.5d,
-	description: "&oI'll be seeing you again real soon",
+	description: "&o我很快就会再见到你",
 	text: [
-		"&6&lGETTING TO THE MOON FOR DUMMIES&r &o(Incase you ignored all the quest text earlier >:C)",
-		"1. Build a Rocket",
-		"2. Include a guidance computer and a seat.",
-		"3. Fuel the Rocket",
-		"4. Put on oxygen-filled Spacesuit ",
-		"5. Enter the Rocket, hit 'C' for rocket menu (check keybindings)",
-		"6. Select Moon from Destinations",
-		"7. Hit 'Spacebar' to BLAST OFF!!"
+		"&6&l登上月球的傻瓜式服务&r &o(如果你忽略了前面所有的任务文本 >:C)",
+		"1. 建造一个火箭",
+		"2. 包括一台导航电脑和一个座位。",
+		"3. 为火箭提供燃料",
+		"4. 穿上充满氧气的太空服",
+		"5. 进入火箭，按'C'进入火箭设置菜单（自行查看按键绑定）",
+		"6. 目的地选择月亮",
+		"7. 敲击“空格键”升空！"
 	],
 	dependencies: [
 		"091e6c54"
@@ -18,13 +18,8 @@
 	tasks: [{
 		uid: "4c5e4add",
 		type: "checkmark",
-		title: "Lesson over, for now...",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:cheese_cannonball"
-		}
+		title: "课程暂时结束了……",
+		icon: "rats:cheese_cannonball"
 	}],
 	rewards: [{
 		uid: "f2a80411",
@@ -35,14 +30,11 @@
 		uid: "4ba6e9df",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}
@@ -52,15 +44,14 @@
 		uid: "d2102483",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "forestry:apiarist_chest",
 			tag: {
 				display: {
-					Name: "I went to the moon and all I got was this stupid shirt"
+					Name: "我去了月球，得到的却是这件愚蠢的衬衫"
 				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	}]

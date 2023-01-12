@@ -1,8 +1,8 @@
 {
-	title: "Sealing your Armor",
+	title: "密封你的盔甲",
 	x: -1.5d,
 	y: -6.5d,
-	description: "To Airtight Seal your armor, stick it into the Chemical Reactor with a Diamond. Chestplate pieces also require a Super High Pressure Tank.",
+	description: "要想把你的盔甲密封起来，就要把盔甲和钻石一起塞进化学反应器。胸甲碎片还需要一个超高压罐。",
 	dependencies: [
 		"d78bfda8"
 	],
@@ -10,11 +10,7 @@
 		uid: "958fe9fb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"treasure2:pouchable": {}
-			},
-			id: "minecraft:diamond"
+			item: "minecraft:diamond"
 		}],
 		count: 4L
 	},
@@ -23,7 +19,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "advancedrocketry:pressuretank",

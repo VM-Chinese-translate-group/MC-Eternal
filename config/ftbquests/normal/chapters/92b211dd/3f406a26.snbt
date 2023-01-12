@@ -2,7 +2,7 @@
 	icon: "advancedrocketry:precisionassemblingmachine",
 	x: 0.0d,
 	y: -3.0d,
-	description: "Makes Circuit Wafers and certain Chips.",
+	description: "制作电路板和某些芯片。",
 	dependencies: [
 		"d5dbf68e"
 	],
@@ -34,7 +34,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockCoil"
+					Name: "任意线圈"
 				}
 			}
 		}],
@@ -53,7 +53,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockMotor"
+					Name: "任意马达"
 				}
 			}
 		}],
