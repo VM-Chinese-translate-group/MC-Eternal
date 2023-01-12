@@ -2,7 +2,7 @@
 	title: "泥土工厂",
 	x: 2.0d,
 	y: -3.0d,
-	description: "&o赚大钱，泡好妞，享极乐",
+	description: "&o赚大钱，迎娶白富美，走上人生巅峰",
 	tasks: [{
 		uid: "7c9d3ac1",
 		type: "item",
