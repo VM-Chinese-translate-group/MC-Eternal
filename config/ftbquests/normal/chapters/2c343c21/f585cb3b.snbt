@@ -2,12 +2,12 @@
 	x: -4.25d,
 	y: 0.0d,
 	shape: "square",
-	description: "&oThe Feral Ratlantean is a monstrous giant rodent that can only be assumed to be the direct ancestor of the once civilized Ratlanteans.",
+	description: "&o野蛮的鼠西族是一种畸形的巨型啮齿动物，被认为是旧文明鼠西族的直接祖先。",
 	size: 0.5d,
 	tasks: [{
 		uid: "28117dd7",
 		type: "kill",
-		title: "&6&lBounty: &eFeral Ratlantean",
+		title: "&6&l悬赏：&e野蛮鼠西族",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -86,7 +86,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

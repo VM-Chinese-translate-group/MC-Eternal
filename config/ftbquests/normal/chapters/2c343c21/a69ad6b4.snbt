@@ -1,14 +1,14 @@
 {
-	title: "&6&lBounty: &c&lWretched Abomination",
+	title: "&6&l悬赏：&c&l可悲的憎恶",
 	x: -5.0d,
 	y: -0.75d,
 	shape: "square",
-	description: "&r&c&kwiwjiwsiswi&rDo not&k1237e8qde8iuywu8eyww88&rengage&kreure8f7f7fe88rer8r8ef8&r&cdeath&kajidsi8du8w9ur9wuiwauaoruw9iruwuf9e89r&r&cfollows&k89578788",
+	description: "&r&c&kwiwjiwsiswi&r不要&k1237e8qde8iuywu8eyww88&rengage&kreure8f7f7fe88rer8r8ef8&r&c从事&kajidsi8du8w9ur9wuiwauaoruw9iruwuf9e89r&r&c死亡工作&k89578788",
 	size: 0.5d,
 	tasks: [{
 		uid: "7a7054c0",
 		type: "kill",
-		title: "&6&lBounty: &c&lWretched Abomination",
+		title: "&6&l悬赏：&c&l可悲的憎恶",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -26,7 +26,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

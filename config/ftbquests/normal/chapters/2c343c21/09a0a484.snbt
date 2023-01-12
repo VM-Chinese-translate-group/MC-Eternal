@@ -2,7 +2,7 @@
 	x: 0.5d,
 	y: -1.0d,
 	shape: "hexagon",
-	description: "These strange but powerful crystals hold the key to interplanet travel and the path that opens up the universe for further exploration!",
+	description: "这些奇怪但强大的晶体蕴藏着星际航行的秘密，也是打开宇宙，进一步探索的路径！",
 	dependencies: [
 		"2b45993e"
 	],
@@ -27,7 +27,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

@@ -1,9 +1,9 @@
 {
-	title: "&e&lRare Moon Artifacts",
+	title: "&e&l稀有月球装备",
 	x: 3.2d,
 	y: -0.4d,
 	shape: "octagon",
-	description: "&oMoonlight drowns out all but the brightest stars",
+	description: "&o月光覆盖了所有的东西，除了最亮的星星。",
 	size: 0.8d,
 	tasks: [{
 		uid: "d5752780",
@@ -29,10 +29,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�8�k232!�r�l�8It yearns to be returned to its home planet�8�k3242",
-						"�l�e(Rare Moon Artifact)"
+						"§8§k232!§r§l§8它渴望被送回它的母星§8§k3242",
+						"§l§e（稀有月球装备）"
 					],
-					Name: "�9Frozen Blade �rof the �4Unholy Prince"
+					Name: "§4邪恶王子§r的§9冰霜剑§r"
 				}
 			}
 		}],
@@ -63,10 +63,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�8�r�lAncient Tarnished Blade",
-						"�l�e(Rare Moon Artifact)"
+						"§8§r§l远古污浊之剑",
+						"§l§e（稀有月球装备）"
 					],
-					Name: "�3Giant's Bane"
+					Name: "§3巨人杀手"
 				}
 			}
 		}],
@@ -97,10 +97,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�8�r�rTriple Compressed Cheese",
-						"�l�e(Rare Moon Artifact)"
+						"§8§r§r三重压缩奶酪",
+						"§l§e（稀有月球装备）"
 					],
-					Name: "�6�lMoon King"
+					Name: "§6§l月球之王"
 				}
 			}
 		}],
@@ -123,10 +123,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�aThree things are certain in life: death, taxes and opening a bad chancecube",
-						"�e(�R�eRare Moon Artifact)"
+						"§a人生有三件事是不可避免的：死亡、税收和打开一个糟糕的机会方块",
+						"§e(§R§e稀有月球装备)"
 					],
-					Name: "�9God-King's Grace, Breath of Life"
+					Name: "§9神王的恩典，生命之息"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -149,7 +149,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

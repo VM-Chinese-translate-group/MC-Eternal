@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -0.5d,
 	shape: "hexagon",
-	description: "&oThere are many unique structures and rare items to find on the Moon. Item sets can be found with different degrees of rarity and power",
+	description: "&o在月球上可以找到许多独特的结构和稀有的物品。可以找到不同稀有度和强度的物品套装",
 	dependencies: [
 		"2b45993e"
 	],
@@ -10,13 +10,13 @@
 	tasks: [{
 		uid: "94620ae4",
 		type: "checkmark",
-		title: "Exploration",
+		title: "探险",
 		icon: "rats:string_cheese"
 	},
 	{
 		uid: "78ccca2c",
 		type: "item",
-		title: "Moon Weapon ",
+		title: "月球武器",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -26,10 +26,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8Rusted and uncomfortable to hold, unlikely to last very long",
-						"�e(Part of the Moon set)"
+						"§8生锈了导致拿着不舒服，不太可能持续很长时间",
+						"§e（月球套装的一部分）"
 					],
-					Name: "�7Ratlantean Dagger"
+					Name: "§7鼠西族匕首"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -50,10 +50,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)",
-						"�e(Part of the Moon set)"
+						"§8§8充满了锈斑使得握在手中有些不适，不可能持续使用",
+						"§e（月球套装的一部分）"
 					],
-					Name: "�7Pirat Hook"
+					Name: "§7鼠盗钩"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -74,10 +74,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8Made completely out of 100% cheese sourced locally from the Moon.",
-						"�e(Part of the Moon set)"
+						"§8完全由奶酪制成，这些奶酪来自月球。",
+						"§e（月球套装的一部分）"
 					],
-					Name: "�7Cheese Blade"
+					Name: "§7奶酪剑"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -100,7 +100,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}
