@@ -1,8 +1,8 @@
 {
-	title: "找到了！！是传送！",
+	title: "EUREKA!! TELEPORTATION!",
 	x: 18.0d,
 	y: 4.5d,
-	description: "使用坐标选择仪选择一个坐标，然后将其放置在中间的传送平板/拨号设备(放置在正中间的传送平台方块上)",
+	description: "Use the Coordinate selector to select a coordinate then place it inside the telepad/dialing device (placed on top of the middle telepad block)",
 	dependencies: [
 		"4faafd29"
 	],

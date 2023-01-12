@@ -1,7 +1,7 @@
 {
 	x: 18.0d,
 	y: 7.5d,
-	description: "用于制作强化机械框架",
+	description: "Used to craft enhanced chassis",
 	dependencies: [
 		"63c1390f"
 	],

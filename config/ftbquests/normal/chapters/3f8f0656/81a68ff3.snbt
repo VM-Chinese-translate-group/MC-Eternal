@@ -1,7 +1,7 @@
 {
 	x: 1.5d,
 	y: 10.5d,
-	description: "组合扳手和卡片存储！右键单击ME网络的任一部分来查看连接的设备和能量使用情况！潜行+右键单击是扳手模式。",
+	description: "Combination Wrench and Card Storage! Right-click part of an ME Network to see connected devices and Power usage! Sneak+Right-click for Wrenching.",
 	dependencies: [
 		"8e9ea584"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -4.0d,
 	y: 8.0d,
-	description: "使用来自线缆或连接的ME网络的能量将赛特斯石英通电成为充能赛特斯石英！同时充能一些可以容纳能量的物品。",
+	description: "Energizes Certus Quartz into Charged Certus Quartz using Energy from Cables or an attached ME Network! Also charges some items that can hold Energy.",
 	dependencies: [
 		"8d3f6395"
 	],

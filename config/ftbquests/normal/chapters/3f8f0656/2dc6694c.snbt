@@ -1,7 +1,7 @@
 {
 	x: 12.0d,
 	y: 6.0d,
-	description: "从中创建一个任意非Boss生物的刷怪箱",
+	description: "Create a spawner out of any non-boss mob ",
 	dependencies: [
 		"7b601388"
 	],

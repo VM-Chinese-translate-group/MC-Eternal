@@ -1,8 +1,8 @@
 {
-	title: "ME线缆",
+	title: "ME Cables",
 	x: -3.0d,
 	y: 9.0d,
-	description: "最重要的是！许多更为轻巧的设备必须连接到这些线缆上才能工作！",
+	description: "The most important thing of all! Many thinner devices must be attached to these to work!",
 	dependencies: [
 		"8e9ea584"
 	],

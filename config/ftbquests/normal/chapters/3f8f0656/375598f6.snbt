@@ -1,8 +1,8 @@
 {
-	title: "裂缝人......走开！",
+	title: "Rifter... Begone!",
 	x: -2.5d,
 	y: 6.5d,
-	description: "炮塔可以成为一种为玩家提供自动化有效防御的有趣的方法",
+	description: "Turrets can be a fun way of providing effective automated defense to a players home",
 	dependencies: [
 		"58207da4"
 	],

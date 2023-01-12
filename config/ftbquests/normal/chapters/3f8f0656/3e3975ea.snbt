@@ -1,7 +1,7 @@
 {
 	x: -8.5d,
 	y: 10.5d,
-	description: "只能在深渊世界中找到！",
+	description: "Only found in the Beneath dimension!",
 	dependencies: [
 		"d013cbea",
 		"9a541046"

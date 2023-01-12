@@ -1,7 +1,7 @@
 {
 	x: -1.0d,
 	y: -2.0d,
-	description: "未来科技的命脉。",
+	description: "The lifeblood of futuristic technology.",
 	dependencies: [
 		"aa690e30"
 	],

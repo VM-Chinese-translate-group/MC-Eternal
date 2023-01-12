@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: 12.0d,
-	description: "与大众的看法相反，运行ME网络并不需要ME控制器！但如果一个都没有，将受到严重限制。尝试使用能量载体进行早期游戏的设置！",
+	description: "Contrary to popular belief, ME Controllers are not required to run an ME Network! But will be limited severely without one. Try an Energy Acceptor for earlygame setups!",
 	dependencies: [
 		"3e3975ea"
 	],

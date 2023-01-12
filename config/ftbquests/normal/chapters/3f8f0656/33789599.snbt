@@ -1,7 +1,7 @@
 {
 	x: 19.5d,
 	y: 9.0d,
-	description: "能够跨维度无线传输物品/流体/能量",
+	description: "Able to transfer item/fluid/power wirelessly and across dimensions",
 	dependencies: [
 		"b7053578"
 	],
