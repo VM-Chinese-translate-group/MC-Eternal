@@ -2,7 +2,7 @@
 	title: "&l 装神弄鬼",
 	x: -3.5d,
 	y: -2.0d,
-	description: "对任意可在农场驯养的动物使用次药水。",
+	description: "对任意可在农场驯养的动物使用此药水。",
 	dependencies: [
 		"2cf9d199"
 	],
