@@ -1,13 +1,13 @@
 {
-	title: "Stargate",
+	title: "星门",
 	x: 5.0d,
 	y: -15.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThis device requires a &6&oMultiblock construct&7&o to function, but when there are multiple of them present in the world, you can freely warp between them, simply aim at the star of the one you wish to warp to, and &d&oSneak&7&o for a little... ",
-		"The Gateways can be renamed and will display that name above their Star shown in other Gateways...",
+		"&7&o这是一种&6&o多方块结构&7&o传送石碑，当世界上存在多个这样的结构时，它们之间会产生一股扭曲的星能，这个时候，走近天体星门，然后对着那颗闪耀着的星星&d&oshift&7&o一下",
+		"这种星门可以在铁砧中改名，这样你就可以在其他结构中看到这颗星星的名字。",
 		"",
-		"Ensure the Gateway itself can see the sky, else it will not function..."
+		"天体星门需要露天放置，不然无法察觉其他星门的存在。"
 	],
 	dependencies: [
 		"a8afcede"

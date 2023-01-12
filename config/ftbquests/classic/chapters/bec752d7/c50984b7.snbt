@@ -1,8 +1,11 @@
 {
-	title: "Automation is Key!",
+	title: "自动化！自动化就对了！",
 	x: 15.0d,
 	y: -2.0d,
-	description: "Botania is a mod all about Automation, if you don't end up automating any of the Generating Flowers, even making one semi-automated, you're gonna have a pretty bad time.",
+	description: "众所周知，植物魔法是个科技模组，科技模组的精髓是啥？是自动化！如果你在把这条任务线做完都没有做出一个“产能花”自动化，那么我不得不狠狠的嘲笑你一波了",
+	text: [
+		""
+	],
 	dependencies: [
 		"09df9bd7",
 		"cce52b0e",

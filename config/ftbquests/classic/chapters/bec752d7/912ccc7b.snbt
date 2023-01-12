@@ -1,13 +1,13 @@
 {
-	title: "Irradiance",
+	title: "辐辉",
 	x: -0.5d,
 	y: -19.5d,
 	shape: "octagon",
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oAn &9&oIrradiant Star&7&o is similar in function to a &9&oShifting Star&7&o, only that it will shift the user's Attunement to the constellation of the Star and preserve their &6&oStarlight Experience&7&o... ",
+		"&9&o辐射之星&7&o是加强版的&9&o更替之星&7&o，它会将使用者的星座强行扭转到另一个星座上，同时保留&6&o星能力等级和技能点数&7&o。",
 		"",
-		"One is also able to use a Star attuned to the same constellation as them, allowing them to shift their power in another direction..."
+		"如果使用者的星座与辐射之星的星座相同，那么他也可以使用，只不过这次的作用是返还所有技能点数。"
 	],
 	dependencies: [
 		"d6707898",
@@ -16,7 +16,7 @@
 	tasks: [{
 		uid: "c7862e2f",
 		type: "item",
-		title: "Any &9Irradiant Star",
+		title: "随便一个&9辐射之星",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

@@ -1,13 +1,13 @@
 {
-	title: "Celestial Perfection",
+	title: "超凡的完美",
 	x: 6.0d,
 	y: -18.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&9&oRock Crystals&7&o will only get you so far, especially in the case of &9&oCrystal Tools&7&o...",
-		"Using &9&oCelestial Crystals&7&o in place of the Rock Crystals when creating Crystal tools will allow for a significantly boosted Size limit...",
+		"&9&o水晶石&7&o的力量终究有限，尤其是&9&o水晶石工具&7&o。",
+		"使用&9&o天体水晶石&7&o制作的工具将会比普通水晶石制成的更加强大，拥有更快的挖掘速度，更好的性能，更高的尺寸极限。",
 		"",
-		"You can also use Celestial Crystals in a few other creations that require Crystals to allow for greater potential..."
+		"你也可以在一些别的水晶石造物上使用天体水晶代替，这将会赋予它们更为强大的力量。"
 	],
 	dependencies: [
 		"8af12156"

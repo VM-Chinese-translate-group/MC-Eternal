@@ -1,9 +1,12 @@
 {
-	title: "Astral Knowledge",
+	title: "仰望星空",
 	x: 8.0d,
 	y: -6.5d,
 	shape: "gear",
-	description: "More of a Visual learner? check out these Astral Sorcery Tutorials! *Repeatable Quest*",
+	description: "看了书还是不知道怎么玩？好吧，那你看看这个 *此任务可重复*",
+	text: [
+		""
+	],
 	can_repeat: true,
 	optional: true,
 	tasks: [{
@@ -13,7 +16,7 @@
 	rewards: [{
 		uid: "d2e8c9e7",
 		type: "choice",
-		title: "Astral Sorcery Tutorial Links",
+		title: "星辉魔法教程的视频链接",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

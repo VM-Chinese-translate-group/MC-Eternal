@@ -1,15 +1,15 @@
 {
-	title: "&4Coalescent Souls",
+	title: "&4归一凝元",
 	x: -4.0d,
 	y: 20.0d,
-	description: "&oWill Will Smith?",
+	description: "&o“意志”坚定",
 	text: [
-		"&7The &4Demon Crucible&7 and &4Demon Crystallizer&7 are your first steps into unlocking the true potential of &bDemonic Will&7... The four &bAspected Wills&7.",
+		"&4恶魔坩埚&7与&4恶魔结晶坛&是你深入研究&b恶魔意志&7的第一步……四个&b异构的意志&7。",
 		"",
-		"The &4Demon Crucible&7 will extract &bDemonic Will&7 from &bTartaric Gems&7 placed within it, and disperse it into the &bAura&7 (Chunk it's placed in).",
+		"&4恶魔坩埚&7会将&b恶魔意志&7从&b地狱魂石&7中释放， 并形成&b恶魔灵域&7 (恶魔坩埚所在区块)。",
 		"",
-		"The &4Demon Crystallizer&7 will \"Crystallize\" &bDemonic Will&7 from the Aura, once it has gathered enough, it will create a Will Crystal atop it, and can use considerably less Will to grow that Crystal further",
-		"&cRight-click&7 a &bDemon Will Crystal Cluster&7 while carrying sufficient &bWill&7 on you to \"Chip Off\" the most recent Growth, instead of Breaking it entirely."
+		"&4恶魔结晶坛&7会让&b恶魔意志&7结晶化（废话），此过程需要消耗大量在恶魔灵域中的意志，同时会在有结晶意志的时候，消耗少量意志使其增殖。",
+		"&c右击&7一个&恶魔意志结晶&7可以消耗一定&b意志&7使其倒退一个生长阶段，并获得一份结晶，这样可以在不破坏结晶簇的情况下获得结晶。（简单来说就是右键收田）"
 	],
 	dependencies: [
 		"393c6058"

@@ -1,10 +1,10 @@
 {
-	title: "&4Assembly of the High Altar",
+	title: "&4祭坛集结号",
 	x: 15.0d,
 	y: 24.0d,
-	description: "&oRitual of the Lazy Blood Mage",
+	description: "&o懒惰的血法师才会用这玩意",
 	text: [
-		"&7The &4Assembly of the High Altar&7 Automatically builds the structure for a &4Blood Altar&7 using items in a Container ontop of the Master Stone."
+		"&4祭坛集结号&7可以自动建造&4血之祭坛&7，消耗的材料需要放置在主仪式石上方的箱子里。"
 	],
 	dependencies: [
 		"324d9485",

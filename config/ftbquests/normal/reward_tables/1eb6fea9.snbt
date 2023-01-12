@@ -1,5 +1,5 @@
 {
-	title: "Signing Bonus",
+	title: "赞助补贴",
 	loot_size: 3,
 	rewards: [{
 		item: "minecraft:diamond",

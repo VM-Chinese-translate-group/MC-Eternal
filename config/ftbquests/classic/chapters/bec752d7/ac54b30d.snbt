@@ -1,5 +1,5 @@
 {
-	title: "Wondrous Wizard Power!",
+	title: "奇妙的术法",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -10,7 +10,10 @@
 	x: 1.0d,
 	y: -2.5d,
 	shape: "hexagon",
-	description: "You sense something for which you are certain... The primal energies that exist within my world have expanded twofold within the Twilight Forest... If I am to become the most powerful wizard I must venture forth and claim this unknown power!",
+	description: "你在暮色森林的经历告诉你，暮色森林中蕴藏着远超主世界的魔力，那些奇异而强大的怪物们就是最好的证明！这毫无疑问是你修行魔法之路上的一个宝贵机缘。",
+	text: [
+		""
+	],
 	dependencies: [
 		"ec0bd6f7"
 	],

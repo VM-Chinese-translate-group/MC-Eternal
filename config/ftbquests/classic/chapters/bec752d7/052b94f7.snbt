@@ -2,14 +2,17 @@
 	x: 3.0d,
 	y: 2.0d,
 	shape: "diamond",
-	description: "Discover every spell",
+	description: "学习所有法术",
+	text: [
+		""
+	],
 	dependencies: [
 		"56e86e9c"
 	],
 	tasks: [{
 		uid: "a139745f",
 		type: "advancement",
-		title: "Essence of Magic",
+		title: "学识渊博",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

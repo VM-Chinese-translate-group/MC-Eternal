@@ -1,9 +1,12 @@
 {
-	title: "Vampire Slayer",
+	title: "吸血鬼杀手",
 	x: 15.5d,
 	y: 10.5d,
 	shape: "square",
-	description: "I just really hate Vampires -You apparently",
+	description: "很显然，你对吸血鬼恨之入骨，恨不得把它们挫骨扬灰。",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "c3af825b",
 		type: "kill",
@@ -35,9 +38,9 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"Stabs Vampires for breakfast"
+						"把吸血鬼插起来当早餐吃"
 					],
-					Name: "Vampire Stabber 5000"
+					Name: "要鬼命5000"
 				},
 				Enchantments: [{
 					lvl: 3,

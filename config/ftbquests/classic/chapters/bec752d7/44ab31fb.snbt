@@ -1,11 +1,11 @@
 {
-	title: "&4Gathering of the Forsaken Souls",
+	title: "&4孤魂集会",
 	x: -5.5d,
 	y: 19.0d,
 	description: "&o",
 	text: [
-		"&7The &4Gathering of the Forsaken Souls&7 Damages nearby Mobs, and induces Growth boosts in nearby &bDemon Will Crystal Clusters&7.",
-		"These Growth Boosts are not free, Will is still required, but ultimately less will is used to create the Will Crystals than what they produce."
+		"&4孤魂集会&7会通过撕裂周围生物的灵魂来使得&b恶魔意志结晶生长&7。",
+		"当然，这并非免费使得水晶生长，只是加速生长过程罢了，水晶生长所需要的意志你仍然得一丝不差的供上。"
 	],
 	dependencies: [
 		"324d9485",

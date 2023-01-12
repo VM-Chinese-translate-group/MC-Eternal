@@ -1,13 +1,13 @@
 {
-	title: "&4Living Armour Training Bracelet",
+	title: "&4束灵盔甲训练手镯",
 	x: -1.5d,
 	y: 26.0d,
-	description: "&oTraining Montage",
+	description: "&o特训计划",
 	text: [
-		"&4Living Armour Training Bracelets&7 allow you to filter what &6Upgrades&7 your &4Living Armor&7 is allowed to Train.",
+		"&4束灵盔甲升级手镯&7可以在你升级盔甲的时候过滤你&4束灵盔甲&7上的&6升级，只对某个升级进行强化。",
 		"",
-		"To set the &6Upgrade&7 to Train, combine the Bracelet with an &4Upgrade Tome&7 of the desired Upgrade at an &cAnvil&7.",
-		"Afterwards, simply carry the Bracelet(s) with you, and only the &6Upgrade(s)&7 they have set will be Trained."
+		"为了使&6升级&7 被成功过滤，你需要将手镯和&4结合在一起&7，我想你可能会用到&c铁砧&7。",
+		"之后，只需要随身携带手镯（你可以多带几个），就只会升级被结合在手镯上的&6升级&7了。"
 	],
 	dependencies: [
 		"3736ae94",

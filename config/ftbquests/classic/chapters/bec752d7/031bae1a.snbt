@@ -1,15 +1,18 @@
 {
-	title: "Spectral Dust",
+	title: "别致的尘埃",
 	x: 5.5d,
 	y: -4.0d,
-	description: "Those pesky Remnants are always protecting the Obelisks! Maybe their dust can be turned into something useful...",
+	description: "那些令人生厌的小玩意总是成为我攫取先人遗宝的绊脚石，不过，它们消散后留下的这搓尘埃，倒是引起了我的兴趣",
+	text: [
+		""
+	],
 	dependencies: [
 		"10e24111"
 	],
 	tasks: [{
 		uid: "d1a9b60f",
 		type: "item",
-		title: "4x Spectral Dust",
+		title: "4x 灵尘",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

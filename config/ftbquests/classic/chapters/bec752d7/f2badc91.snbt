@@ -1,8 +1,11 @@
 {
-	title: "Bringing it Home",
+	title: "把它带回家！",
 	x: 3.0d,
 	y: -7.5d,
-	description: "Craft an Imbuement Altar!",
+	description: "合成注灵祭坛！",
+	text: [
+		""
+	],
 	dependencies: [
 		"d656e487"
 	],

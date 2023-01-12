@@ -1,5 +1,5 @@
 {
-	title: "Adventuring Master Cache 4000",
+	title: "大探险家秘匣",
 	icon: "treasure2:safe",
 	loot_size: 34,
 	rewards: [{
@@ -10,7 +10,7 @@
 			id: "thermalfoundation:tool.bow_copper",
 			tag: {
 				display: {
-					Name: "Adventurers Bow"
+					Name: "探险家之弓"
 				}
 			}
 		},
@@ -29,7 +29,7 @@
 			id: "thermalfoundation:tool.shield_copper",
 			tag: {
 				display: {
-					Name: "Adventurers Shield"
+					Name: "探险家方盾"
 				}
 			}
 		},
@@ -43,7 +43,7 @@
 			id: "thermalfoundation:armor.plate_copper",
 			tag: {
 				display: {
-					Name: "Adventurers Chestplate"
+					Name: "探险家胸甲"
 				}
 			}
 		},
@@ -57,7 +57,7 @@
 			id: "thermalfoundation:armor.legs_copper",
 			tag: {
 				display: {
-					Name: "Adventurers Leggings"
+					Name: "探险家护腿"
 				}
 			}
 		},
@@ -98,7 +98,7 @@
 			id: "bewitchment:cold_iron_sword",
 			tag: {
 				display: {
-					Name: "Blade Of The Avid Adventurer"
+					Name: "热血探索之刃"
 				}
 			}
 		},

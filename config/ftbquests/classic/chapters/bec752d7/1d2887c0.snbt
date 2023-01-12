@@ -1,18 +1,18 @@
 {
-	title: "&4Basic Runes",
+	title: "&4基础符文",
 	x: 8.0d,
 	y: 21.5d,
-	description: "&oRunes, basically.",
+	description: "&o符文，大概是吧",
 	text: [
-		"&7Different kinds of &4Runes&7 are able to replace the &cBlank Runes&7 in your altar, and will modify different stats the Altar provides.",
+		"&7不同种类的&4符文&7都是由&c空白符文&7升级而来的，它们对血之祭坛有着各自独特的加成。",
 		"",
-		"&4Speed&7 Runes will increase the rate at which LP is infused into Items in the Altar.",
+		"&4速度&7符文会加快血之祭坛的合成速度。（以及血液不够时合成的倒退速度）",
 		"",
-		"&4Self-Sacrifice&7 Runes will provide a stacking 10% Bonus to LP gain from Self-Sacrifice/Player-Health-draining methods.",
+		"&4牺牲&7符文会增加10%的玩家献血量，支持熏香祭坛和羽刀仪式。",
 		"",
-		"&4Sacrifice&7 Runes will provide a stacking 10% Bonus to LP Gain from Sacrifice/Mob-Health-draining methods.",
+		"&4献祭&7符文会增加10%的非玩家献血量，支持献祭刀和苦难之井。",
 		"",
-		"&c\"Stacking\"&7 in this case means that the Bonus affects previous Bonuses, so the second of a Rune with a Stacking effect provides 11%, instead of 10%."
+		"&c“叠加”&7会影响符文提供的属性加成，所以当第二个符文装到祭坛上时，如果这个符文提供的加成可以叠加，那么它将会提供11%的加成，以此类推。"
 	],
 	dependencies: [
 		"98b3e4fb"

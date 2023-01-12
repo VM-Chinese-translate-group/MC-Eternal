@@ -1,15 +1,18 @@
 {
-	title: "Discover a Wizard's Tower",
+	title: "寻访巫师塔",
 	x: 2.5d,
 	y: 0.0d,
-	description: "Wizard Towers can often be found while exploring, for more information refer to the Wizard's Handbook",
+	description: "巫师塔会在野外随机生成，里面通常住着一名古怪的巫师。他们大多友好，不过也有一些修炼巫术走火入魔的疯子。",
+	text: [
+		""
+	],
 	dependencies: [
 		"ec0bd6f7"
 	],
 	tasks: [{
 		uid: "8fe67898",
 		type: "advancement",
-		title: "Discover a Wizard's Tower",
+		title: "寻访巫师塔（别想着拆走里面的东西）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

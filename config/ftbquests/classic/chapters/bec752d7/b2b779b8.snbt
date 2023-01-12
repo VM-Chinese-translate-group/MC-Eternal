@@ -1,7 +1,10 @@
 {
 	x: 13.0d,
 	y: 10.5d,
-	description: "Uncover the ancient art of slaying unholy vampire scum!",
+	description: "论吸血鬼的100种死法。",
+	text: [
+		""
+	],
 	dependencies: [
 		"1ae749b8"
 	],

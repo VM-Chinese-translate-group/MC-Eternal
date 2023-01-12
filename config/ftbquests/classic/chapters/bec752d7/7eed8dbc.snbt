@@ -1,8 +1,11 @@
 {
-	title: "Resonance",
+	title: "共鸣",
 	x: 10.0d,
 	y: -9.0d,
-	description: "&oCreate this &9&oWand&7&o using the Table empowered with &r&oStarlight&7&o.... During the time of the Moon, you shall see pillars of light, descend to the bottom of the world from them and find your prize...",
+	description: "&o制作&9&o共鸣星杖&7&o以在合成时接引&r&o星光&7&o， 当夜幕降临时，共鸣星杖会和地下的某些东西取得联系，它们的力量会弥散到地表上，形成一股喷薄而出的白色光束。",
+	text: [
+		""
+	],
 	dependencies: [
 		"b400aa76"
 	],

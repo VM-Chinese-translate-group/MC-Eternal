@@ -1,5 +1,5 @@
 {
-	title: "Forgotten trash can",
+	title: "无人问津的垃圾桶",
 	icon: "extrautils2:trashcan",
 	empty_weight: 1,
 	loot_size: 34,
@@ -49,7 +49,7 @@
 			id: "minecraft:paper",
 			tag: {
 				display: {
-					Name: "Rent - a - rat       : RECEIPT"
+					Name: "出租-一只-老鼠       ：收据"
 				}
 			}
 		},

@@ -1,7 +1,10 @@
 {
 	x: 18.0d,
 	y: -3.5d,
-	description: "Mana = Vertical Motion!",
+	description: "魔力=和太阳肩并肩！",
+	text: [
+		""
+	],
 	dependencies: [
 		"4eb30150"
 	],

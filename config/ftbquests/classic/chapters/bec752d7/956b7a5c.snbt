@@ -1,13 +1,14 @@
 {
-	title: "&4Altarmaker's Manual",
+	title: "&4血之祭坛建筑师必备手册",
 	x: 9.5d,
 	y: 16.0d,
-	description: "&oHowe 2 build dis",
+	description: "&o我们咋造这玩意儿？看书呗！",
 	text: [
-		"&7The &4Inspectoris Scandalum&7 is a useful book for anyone unfamiliar with the Bloody arts. ",
-		"It allows previewing the structure for each Tier of the &4Blood Altar&7.",
+		"&4指示之书&7是血魔法中十分有用的一本书。（实际上血之祭坛就那样，你基本上可以不看书搭出来）",
 		"",
-		"Simply &cRight-click the Air&7 to change the target Tier, and &cSneak+Right-click a Blood Altar&7 to set the preview around it."
+		"它可以投影出&4血之祭坛&7各个层级的样子。",
+		"",
+		"手持时&c右击空气&7以改变投影层级，之后&cshift右击血之祭坛&7来确定投影。"
 	],
 	dependencies: [
 		"44e1406a"

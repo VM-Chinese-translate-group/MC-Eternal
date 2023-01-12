@@ -1,14 +1,17 @@
 {
 	x: -1.5d,
 	y: -21.0d,
-	description: "&oThese Constellations are far too Faint to channel enough &r&oStarlight&7&o to have their own effects, but they can atleast &d&oAugment the powers of other Constellations&7&o...",
+	description: "&o这些星座的星光距离我们实在过于遥远，导致其&r&o星能&7&o无法单独的影响某个物品，但是它们可以&d&o增强其他星座的力量&7&o。",
+	text: [
+		""
+	],
 	dependencies: [
 		"80ebadbc"
 	],
 	tasks: [{
 		uid: "a2fad5e2",
 		type: "advancement",
-		title: "Find a &5Faint Constellation",
+		title: "发现一个&5微弱的星座",
 		advancement: "astralsorcery:find_minor_constellation",
 		criterion: ""
 	}],

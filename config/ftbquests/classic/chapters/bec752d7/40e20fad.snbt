@@ -1,15 +1,18 @@
 {
-	title: "Wizard Trade",
+	title: "向死而生",
 	x: 6.0d,
 	y: 1.5d,
-	description: "Trade with a Wizard for a Master Spell Book",
+	description: "学会一种大师级法术",
+	text: [
+		""
+	],
 	dependencies: [
 		"56e86e9c"
 	],
 	tasks: [{
 		uid: "5069d352",
 		type: "advancement",
-		title: "Trade with a Wizard for a Master spell",
+		title: "学会一种大师级法术",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

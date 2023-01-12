@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "25c76bb8",
 		type: "advancement",
-		title: "Reach max level as a Vampire",
+		title: "成为终极吸血鬼（升到14级，别问我15级怎么升，我不告诉你略略略）",
 		advancement: "vampirism:vampire/max_level",
 		criterion: ""
 	}],

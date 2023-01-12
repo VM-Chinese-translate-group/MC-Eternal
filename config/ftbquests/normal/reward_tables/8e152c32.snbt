@@ -1,5 +1,5 @@
 {
-	title: "Unclaimed Blackmarket Cache",
+	title: "黑市盲盒",
 	icon: "treasure2:dread_pirate_chest",
 	loot_size: 1,
 	rewards: [{
@@ -436,7 +436,7 @@
 			id: "minecraft:dirt",
 			tag: {
 				display: {
-					Name: "SipsCo. Quality Dirt"
+					Name: "Sips公司优质泥土"
 				}
 			},
 			Damage: 1s
@@ -1700,7 +1700,7 @@
 			id: "chancecubes:compact_giant_chance_cube",
 			tag: {
 				display: {
-					Name: "So I heard you like RNG?"
+					Name: "我听说你喜欢炫彩的光？"
 				}
 			}
 		}
@@ -1794,7 +1794,7 @@
 					Defense: 37.4625f
 				},
 				display: {
-					Name: "Not so evil helmet that is totally safe and friendly"
+					Name: "这么邪恶的头盔完全是危险又充满恶意的"
 				},
 				Stats: {
 					Toughness: 0.0f,
@@ -2699,7 +2699,7 @@
 			id: "vampiresneedumbrellas:iron_umbrella",
 			tag: {
 				display: {
-					Name: "Sun Blocker 5000"
+					Name: "防晒霜5000"
 				}
 			},
 			Damage: 30s

@@ -1,5 +1,5 @@
 {
-	title: "Rare lootbox",
+	title: "稀有战利品箱",
 	icon: "treasure2:gold_strongbox",
 	loot_size: 1,
 	rewards: [{

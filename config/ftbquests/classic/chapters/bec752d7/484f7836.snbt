@@ -1,8 +1,11 @@
 {
-	title: "By the Nine Divines!",
+	title: "宴请诸神",
 	x: 27.5d,
 	y: 4.0d,
-	description: "Used to offer items to the Gods, and receive other, more powerful items in return. Requires a Multiblock structure, check the Book of Natural Aura for more info.",
+	description: "与诸神谈笔生意，我想祂们应该不会拒绝凡界的请求的（多方块结构请看书）",
+	text: [
+		""
+	],
 	dependencies: [
 		"f94b896a"
 	],

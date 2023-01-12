@@ -1,11 +1,12 @@
 {
-	title: "&4Mark of the Falling Tower",
+	title: "&4坠星位标",
 	x: 14.5d,
 	y: 28.0d,
-	description: "&oMeteor Strike!",
+	description: "&o陨石已落地（bushi）",
 	text: [
-		"&7The &4Mark of the Falling Tower&7 is a Ritual with a high price in LP, when activated and given a &cCatalyst&7, it will call down a Meteor of Ores (or other materials).",
-		"These Meteors cause an Explosion which obliterates the Ritual, unless..."
+		"&4坠星位标&7是一种需要巨量LP激活的仪式，进行仪式需要&c祭品&7，此仪式会召唤一颗陨石（或者其他什么东西）",
+		"从天空中坠下的陨石带有无与伦比的力量和怒火，可怜的仪式在这样猛烈的改变下肯定会被摧毁，除非……",
+		"（提示：要不要试试造一层黑曜石平台拦截陨石？）"
 	],
 	dependencies: [
 		"24209710",

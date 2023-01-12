@@ -1,10 +1,10 @@
 {
-	title: "&4Master Blood Orb",
+	title: "&4大师气血宝珠",
 	x: 0.0d,
 	y: 27.0d,
-	description: "&oBigger Blood Bank",
+	description: "&o更大的血之储罐",
 	text: [
-		"&7Even BIGGER Capacity, Even MORE Recipes."
+		"&7还是更大的容量，更多的配方。"
 	],
 	dependencies: [
 		"a2f883f9"
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "8c46b6db",
 		type: "item",
-		title: "&4Master Blood Orb&r (or Better)",
+		title: "&4大师气血宝珠&r （或者更好的）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

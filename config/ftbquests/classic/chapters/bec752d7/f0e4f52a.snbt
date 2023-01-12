@@ -1,7 +1,10 @@
 {
 	x: 14.5d,
 	y: 5.0d,
-	description: "Introduction to Magical Botany",
+	description: "植物魔法入门",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "19bce1d4",
 		type: "item",
