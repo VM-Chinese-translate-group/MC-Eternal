@@ -1,5 +1,5 @@
 {
-	title: "Basic",
+	title: "基础物资",
 	loot_size: 27,
 	rewards: [{
 		item: "minecraft:log",
