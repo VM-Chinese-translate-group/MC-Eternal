@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "§7§o用来飞往太空的一些机器比你可能知道的更加昂贵……",
+	description: "§7§o用来飞往太空的一些机器可能比你知道的更加昂贵……",
 	tasks: [{
 		uid: "aa953457",
 		type: "checkmark",
