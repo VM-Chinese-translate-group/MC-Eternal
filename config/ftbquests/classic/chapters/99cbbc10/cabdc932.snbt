@@ -1,8 +1,8 @@
 {
-	title: "Cooking Part 3.",
+	title: "烹饪的第三部分.",
 	x: 10.0d,
 	y: 2.0d,
-	description: "&oYou gotta do the cooking by the book!",
+	description: "&o你得按规定做饭!",
 	dependencies: [
 		"cb9faa4a"
 	],

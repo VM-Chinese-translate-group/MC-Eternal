@@ -1,9 +1,9 @@
 {
-	title: "Tofu Tofu Tofu!",
+	title: "豆腐 豆腐 豆腐!",
 	x: -2.0d,
 	y: -6.0d,
 	text: [
-		"What if I tofu you?"
+		"如果我吃你豆腐，你该怎么办?"
 	],
 	tasks: [{
 		uid: "c11bf97d",

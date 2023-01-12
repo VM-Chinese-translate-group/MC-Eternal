@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -6.0d,
 	text: [
-		"What do you mean it's not butter?"
+		"你说这不是黄油！？你是什么意思！"
 	],
 	tasks: [{
 		uid: "01836049",

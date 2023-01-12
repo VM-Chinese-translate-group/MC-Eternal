@@ -1,9 +1,9 @@
 {
-	title: "Top Tier Food: Corned Beef Breakfast",
+	title: "顶级食品：咸牛肉便餐",
 	x: 1.0d,
 	y: -6.5d,
 	text: [
-		"What about second breakfast?"
+		"那第二顿早餐呢?"
 	],
 	tasks: [{
 		uid: "699bc640",

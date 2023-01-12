@@ -1,9 +1,9 @@
 {
-	title: "Let's breed rats.",
+	title: "我们来养老鼠吧.",
 	x: 4.5d,
 	y: 1.0d,
 	text: [
-		"You can breed rats to create new colors."
+		"你可以培养老鼠来创造新的老鼠的颜色."
 	],
 	dependencies: [
 		"24c36876"

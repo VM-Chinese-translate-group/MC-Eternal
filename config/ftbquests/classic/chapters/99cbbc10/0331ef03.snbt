@@ -1,9 +1,9 @@
 {
-	title: "oooooh Crabs and Shells!",
+	title: "哦，螃蟹和贝壳!",
 	x: 7.0d,
 	y: 0.5d,
 	text: [
-		"Some fish its easier to obtain with a water trap"
+		"使用渔栅能够更轻易的捕获一些鱼"
 	],
 	dependencies: [
 		"b06519f8"

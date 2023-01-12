@@ -1,7 +1,7 @@
 {
 	x: 4.5d,
 	y: 2.0d,
-	description: "If you are what you eat, then I only want to eat the good stuff.",
+	description: "如果你是想吃东西，那么我只想吃好东西.",
 	dependencies: [
 		"7fe7ff02"
 	],
