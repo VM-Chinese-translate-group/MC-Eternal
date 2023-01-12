@@ -1,5 +1,5 @@
 {
-	title: "How to train your dragon kit",
+	title: "驯龙装备礼盒",
 	loot_size: 10,
 	rewards: [{
 		item: {

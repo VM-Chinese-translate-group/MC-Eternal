@@ -1,5 +1,5 @@
 {
-	title: "Magic Quest",
+	title: "魔法探索",
 	loot_size: 27,
 	rewards: [{
 		item: "ebwizardry:spell_book 1 5"
@@ -11,3 +11,4 @@
 		item: "ebwizardry:spell_book 1 10"
 	}]
 }
+

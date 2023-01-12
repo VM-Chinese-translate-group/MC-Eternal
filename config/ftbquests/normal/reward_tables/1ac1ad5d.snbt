@@ -1,23 +1,23 @@
 {
-	title: "Nuclearcraft Tutorials",
+	title: "核电工艺教程",
 	icon: "nuclearcraft:rtg_plutonium",
 	loot_size: 1,
 	rewards: [{
-		title: "&6NuclearCraft Youtube Channel",
+		title: "&6核电工艺Youtube频道",
 		icon: "nuclearcraft:rtg_plutonium",
-		command: "/tellraw @p {\"text\": \"§9§lClick here to open the Official §6NuclearCraft Youtube Channel!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/c/NuclearCraftMod/featured\"}}",
+		command: "/tellraw @p {\"text\": \"§9§l点击此处打开§6核电工艺的Youtube频道！\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/c/NuclearCraftMod/featured\"}}",
 		type: "command"
 	},
 	{
-		title: "&6NuclearCraft &2Fission Tutorial",
+		title: "&6核电工艺&2裂变教程",
 		icon: "nuclearcraft:fission_controller_new_fixed",
-		command: "/tellraw @p {\"text\": \"§9§lClick here to open the Official §6Nuclearcraft §2Fission Tutorial!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=IIZur0OrqGY&t\"}}",
+		command: "/tellraw @p {\"text\": \"§9§l点击此处打开§6核电工艺的官方§2裂变教程！\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=IIZur0OrqGY&t\"}}",
 		type: "command"
 	},
 	{
-		title: "&6Nuclearcraft &cFusion Tutorial",
+		title: "&6核电工艺&c聚变教程",
 		icon: "nuclearcraft:fusion_core",
-		command: "/tellraw @p {\"text\": \"§9§lClick here to open the Official §6Nuclearcraft §cFusion Tutorial!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=B9ctB28I3qI\"}}",
+		command: "/tellraw @p {\"text\": \"§9§l点击此处打开§6核电工艺的官方§c聚变教程！\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=B9ctB28I3qI\"}}",
 		type: "command"
 	}]
 }
