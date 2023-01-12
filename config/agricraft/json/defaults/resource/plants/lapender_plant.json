@@ -2,12 +2,12 @@
   "path": "resource/plants/lapender_plant.json",
   "enabled": false,
   "id": "resource:lapender_plant",
-  "plant_name": "Lapender",
-  "seed_name": "Lapender Seeds",
+  "plant_name": "蓝熏衣",
+  "seed_name": "蓝熏衣种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A regal plant."
+    "default": "王室专用。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

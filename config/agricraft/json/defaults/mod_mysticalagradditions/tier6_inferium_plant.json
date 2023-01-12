@@ -2,8 +2,8 @@
   "path": "mod_mysticalagradditions/tier6_inferium_plant.json",
   "enabled": true,
   "id": "mysticalagradditions:tier_six_inferium_plant",
-  "plant_name": "Tier Six Inferium Crop",
-  "seed_name": "Tier Six Inferium Seeds",
+  "plant_name": "究极精华株",
+  "seed_name": "究极精华种子",
   "seed_items": [
     {
       "item": "mysticalagradditions:tier6_inferium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tier Six Inferium Seeds. Much upgrade. Very wow."
+    "default": "究极精华种子。升级效果显著，非常棒！"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.02,

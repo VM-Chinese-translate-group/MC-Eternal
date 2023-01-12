@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/garlic_plant.json",
   "enabled": true,
   "id": "harvestcraft:garlic_plant",
-  "plant_name": "Garlic",
-  "seed_name": "Garlic Seeds",
+  "plant_name": "大蒜",
+  "seed_name": "大蒜种子",
   "seed_items": [
     {
       "item": "harvestcraft:garlicseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Garlic Seeds."
+    "default": "大蒜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

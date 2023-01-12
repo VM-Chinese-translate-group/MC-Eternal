@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/sulfur_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:sulfur_plant",
-  "plant_name": "Sulfur Crop",
-  "seed_name": "Sulfur Seeds",
+  "plant_name": "硫磺精华株",
+  "seed_name": "硫磺种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:sulfur_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sulfur Seeds."
+    "default": "硫磺种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

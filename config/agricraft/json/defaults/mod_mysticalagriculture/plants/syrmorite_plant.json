@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/syrmorite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:syrmorite_plant",
-  "plant_name": "Syrmorite Crop",
-  "seed_name": "Syrmorite Seeds",
+  "plant_name": "赛摩铜精华株",
+  "seed_name": "赛摩铜种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:syrmorite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Syrmorite Seeds."
+    "default": "赛摩铜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

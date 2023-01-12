@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_cyan_plant.json",
   "enabled": true,
   "id": "botania:cyan_flower_plant",
-  "plant_name": "Mystical Cyan Flower",
-  "seed_name": "Mystical Cyan Seeds",
+  "plant_name": "青色神秘花",
+  "seed_name": "青色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A beautiful flower of indeterminate color, being both green and blue."
+    "default": "花色不定，绿中带蓝。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

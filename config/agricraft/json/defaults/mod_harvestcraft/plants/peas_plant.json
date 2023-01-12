@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/peas_plant.json",
   "enabled": true,
   "id": "harvestcraft:peas_plant",
-  "plant_name": "Peas",
-  "seed_name": "Peas Seeds",
+  "plant_name": "豌豆",
+  "seed_name": "豌豆种子",
   "seed_items": [
     {
       "item": "harvestcraft:peasseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Peas Seeds."
+    "default": "豌豆种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

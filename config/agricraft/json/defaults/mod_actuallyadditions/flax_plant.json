@@ -2,8 +2,8 @@
   "path": "mod_actuallyadditions/flax_plant.json",
   "enabled": true,
   "id": "actuallyadditions:flax_plant",
-  "plant_name": "Flax",
-  "seed_name": "Flax Seeds",
+  "plant_name": "亚麻",
+  "seed_name": "亚麻种子",
   "seed_items": [
     {
       "item": "actuallyadditions:item_flax_seed",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "The source of Linseed oil, as that makes total sense."
+    "default": "毋庸置疑，它是亚麻籽油的来源。"
   },
   "growth_chance": 1.0,
   "growth_bonus": 0.025,

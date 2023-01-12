@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_green_plant.json",
   "enabled": true,
   "id": "botania:green_flower_plant",
-  "plant_name": "Mystical Green Flower",
-  "seed_name": "Mystical Green Seeds",
+  "plant_name": "绿色神秘花",
+  "seed_name": "绿色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "This flower seems to be envious of its other cousins with better descriptions."
+    "default": "这株花似乎对它兄弟姐妹更详尽生动的描述感到很嫉妒。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

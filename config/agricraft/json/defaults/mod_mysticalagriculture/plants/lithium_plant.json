@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/lithium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:lithium_plant",
-  "plant_name": "Lithium Crop",
-  "seed_name": "Lithium Seeds",
+  "plant_name": "锂精华株",
+  "seed_name": "锂种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:lithium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Lithium Seeds."
+    "default": "锂种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

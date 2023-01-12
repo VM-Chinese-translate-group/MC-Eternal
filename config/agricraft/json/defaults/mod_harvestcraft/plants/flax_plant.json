@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/flax_plant.json",
   "enabled": true,
   "id": "harvestcraft:flax_plant",
-  "plant_name": "Flax",
-  "seed_name": "Flax Seeds",
+  "plant_name": "亚麻",
+  "seed_name": "亚麻种子",
   "seed_items": [
     {
       "item": "harvestcraft:flaxseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Flax Seeds."
+    "default": "亚麻种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

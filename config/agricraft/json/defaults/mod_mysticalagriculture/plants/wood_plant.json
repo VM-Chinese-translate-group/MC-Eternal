@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/wood_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:wood_plant",
-  "plant_name": "Wood Crop",
-  "seed_name": "Wood Seeds",
+  "plant_name": "木精华株",
+  "seed_name": "木种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:wood_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Wood Seeds."
+    "default": "木种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

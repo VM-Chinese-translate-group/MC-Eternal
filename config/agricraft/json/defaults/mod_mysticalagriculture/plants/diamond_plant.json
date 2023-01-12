@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/diamond_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:diamond_plant",
-  "plant_name": "Diamond Crop",
-  "seed_name": "Diamond Seeds",
+  "plant_name": "钻石精华株",
+  "seed_name": "钻石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:diamond_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Diamond Seeds."
+    "default": "钻石种子"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

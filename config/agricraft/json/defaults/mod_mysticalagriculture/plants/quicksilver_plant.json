@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/quicksilver_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:quicksilver_plant",
-  "plant_name": "Quicksilver Crop",
-  "seed_name": "Quicksilver Seeds",
+  "plant_name": "水银精华株",
+  "seed_name": "水银种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:quicksilver_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Quicksilver Seeds."
+    "default": "水银种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

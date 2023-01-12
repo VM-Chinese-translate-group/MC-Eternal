@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/elementium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:elementium_plant",
-  "plant_name": "Elementium Crop",
-  "seed_name": "Elementium Seeds",
+  "plant_name": "源质钢精华株",
+  "seed_name": "源质钢种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:elementium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Elementium Seeds."
+    "default": "源质钢种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

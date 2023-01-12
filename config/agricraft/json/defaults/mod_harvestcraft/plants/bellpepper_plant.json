@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/bellpepper_plant.json",
   "enabled": true,
   "id": "harvestcraft:bellpepper_plant",
-  "plant_name": "Bellpepper",
-  "seed_name": "Bellpepper Seeds",
+  "plant_name": "甜椒",
+  "seed_name": "甜椒种子",
   "seed_items": [
     {
       "item": "harvestcraft:bellpepperseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Bellpepper Seeds."
+    "default": "甜椒种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

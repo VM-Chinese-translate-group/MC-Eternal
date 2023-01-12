@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/iridium_ore_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:iridium_ore_plant",
-  "plant_name": "Iridium Ore Crop",
-  "seed_name": "Iridium Ore Seeds",
+  "plant_name": "铱矿石精华株",
+  "seed_name": "铱矿石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:iridium_ore_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Iridium Ore Seeds."
+    "default": "铱矿石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/pineapple_plant.json",
   "enabled": true,
   "id": "harvestcraft:pineapple_plant",
-  "plant_name": "Pineapple",
-  "seed_name": "Pineapple Seeds",
+  "plant_name": "菠萝",
+  "seed_name": "菠萝种子",
   "seed_items": [
     {
       "item": "harvestcraft:pineappleseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Pineapple Seeds."
+    "default": "菠萝种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

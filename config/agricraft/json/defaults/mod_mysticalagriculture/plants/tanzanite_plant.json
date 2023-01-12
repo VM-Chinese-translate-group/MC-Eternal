@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/tanzanite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:tanzanite_plant",
-  "plant_name": "Tanzanite",
-  "seed_name": "Tanzanite Seeds",
+  "plant_name": "坦桑石",
+  "seed_name": "坦桑石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:tanzanite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tanzanite Seeds."
+    "default": "坦桑石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

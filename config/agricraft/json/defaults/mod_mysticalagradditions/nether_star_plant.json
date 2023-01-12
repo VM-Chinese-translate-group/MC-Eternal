@@ -2,8 +2,8 @@
   "path": "mod_mysticalagradditions/nether_star_plant.json",
   "enabled": true,
   "id": "mysticalagradditions:nether_star_plant",
-  "plant_name": "Nether Star Crop",
-  "seed_name": "Nether Star Seeds",
+  "plant_name": "下界之星株",
+  "seed_name": "下界之星种子",
   "seed_items": [
     {
       "item": "mysticalagradditions:nether_star_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Nether Star Seeds."
+    "default": "下界之星种子。"
   },
   "growth_chance": 0.85,
   "growth_bonus": 0.02,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/spider_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:spider_plant",
-  "plant_name": "Spider Crop",
-  "seed_name": "Spider Seeds",
+  "plant_name": "蜘蛛精华株",
+  "seed_name": "蜘蛛种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:spider_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Spider Seeds."
+    "default": "蜘蛛种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/tungsten_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:tungsten_plant",
-  "plant_name": "Tungsten Crop",
-  "seed_name": "Tungsten Seeds",
+  "plant_name": "三钛精华株",
+  "seed_name": "三钛种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:tungsten_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tungsten Seeds."
+    "default": "三钛种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

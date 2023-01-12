@@ -2,7 +2,7 @@
   "path": "vanilla/soils/mycelium_soil.json",
   "enabled": true,
   "id": "mycelium_soil",
-  "name": "Mycelium",
+  "name": "菌丝",
   "varients": [
     {
       "item": "minecraft:mycelium",

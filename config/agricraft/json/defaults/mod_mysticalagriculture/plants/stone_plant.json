@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/stone_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:stone_plant",
-  "plant_name": "Stone Crop",
-  "seed_name": "Stone Seeds",
+  "plant_name": "石精华株",
+  "seed_name": "石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:stone_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Stone Seeds."
+    "default": "石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_gray_plant.json",
   "enabled": true,
   "id": "botania:gray_flower_plant",
-  "plant_name": "Mystical Gray Flower",
-  "seed_name": "Mystical Gray Seeds",
+  "plant_name": "灰色神秘花",
+  "seed_name": "灰色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A beautiful flower, albiet rather non-descript."
+    "default": "即使颜色相当的普通，它也依然是一株美丽的花。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

@@ -2,12 +2,12 @@
   "path": "resource/plants/jaslumine_plant.json",
   "enabled": true,
   "id": "resource:jaslumine_plant",
-  "plant_name": "Jaslumine",
-  "seed_name": "Jaslumine Seeds",
+  "plant_name": "铝素馨",
+  "seed_name": "铝素馨种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "Jaslumine to some, Jaluminium to me. Shines like silver, but not all that valuable of a plant."
+    "default": "素馨翩跹，染出浮华耀银。铝花圆舞，泛出瑰丽绚烂。永恒的守望啊，岂允许缄默的复刻？消弭的芬芳啊，难承载物质的奥妙。（诗性大发"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,12 +2,12 @@
   "path": "resource/plants/osmonium_plant.json",
   "enabled": false,
   "id": "resource:osmonium_plant",
-  "plant_name": "Osmonium",
-  "seed_name": "Osmonium Seeds",
+  "plant_name": "锇蓝草",
+  "seed_name": "锇蓝草种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "An unusually rare plant, thought to originate from outer space."
+    "default": "一株极其稀有的植物，有人推测从外太空而来。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

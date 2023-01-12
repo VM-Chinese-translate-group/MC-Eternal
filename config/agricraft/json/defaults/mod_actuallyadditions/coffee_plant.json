@@ -2,8 +2,8 @@
   "path": "mod_actuallyadditions/coffee_plant.json",
   "enabled": true,
   "id": "actuallyadditions:coffee_plant",
-  "plant_name": "Coffee",
-  "seed_name": "Coffee Seeds",
+  "plant_name": "咖啡",
+  "seed_name": "咖啡种子",
   "seed_items": [
     {
       "item": "actuallyadditions:item_coffee_seed",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Do I really need to describe this one to you?"
+    "default": "我真的需要介绍咖啡吗？"
   },
   "growth_chance": 1.0,
   "growth_bonus": 0.025,

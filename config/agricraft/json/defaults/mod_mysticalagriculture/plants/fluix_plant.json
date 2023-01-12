@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/fluix_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:fluix_plant",
-  "plant_name": "Fluix",
-  "seed_name": "Fluix Seeds",
+  "plant_name": "福鲁伊克斯精华株",
+  "seed_name": "福鲁伊克斯水晶种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:fluix_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Fluix Seeds."
+    "default": "福鲁伊克斯水晶种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/sapphire_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:sapphire_plant",
-  "plant_name": "Sapphire",
-  "seed_name": "Sapphire Seeds",
+  "plant_name": "蓝宝石精华株",
+  "seed_name": "蓝宝石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:sapphire_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sapphire Seeds."
+    "default": "蓝宝石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

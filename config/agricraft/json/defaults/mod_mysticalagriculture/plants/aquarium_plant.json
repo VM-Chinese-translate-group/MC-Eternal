@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/aquarium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:aquarium_plant",
-  "plant_name": "Aquarium Crop",
-  "seed_name": "Aquarium Seeds",
+  "plant_name": "海洋合金精华株",
+  "seed_name": "海洋合金种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:aquarium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Aquarium Seeds."
+    "default": "海洋合金种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

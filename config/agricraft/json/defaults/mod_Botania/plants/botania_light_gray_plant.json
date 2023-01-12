@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_light_gray_plant.json",
   "enabled": true,
   "id": "botania:light_gray_flower_plant",
-  "plant_name": "Mystical Light Gray Flower",
-  "seed_name": "Mystical Light Gray Seeds",
+  "plant_name": "淡灰色神秘花",
+  "seed_name": "淡灰色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A beautiful flower, albiet even more non-descript than its cousin, the Mystical Gray Flower."
+    "default": "即使颜色比它的兄弟灰色神秘花更加的普通，它也依然是一株美丽的花。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/soybean_plant.json",
   "enabled": true,
   "id": "harvestcraft:soybean_plant",
-  "plant_name": "Soybean",
-  "seed_name": "Soybean Seeds",
+  "plant_name": "黄豆",
+  "seed_name": "黄豆种子",
   "seed_items": [
     {
       "item": "harvestcraft:soybeanseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Soybean Seeds."
+    "default": "黄豆种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

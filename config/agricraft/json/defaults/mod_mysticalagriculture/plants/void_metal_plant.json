@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/void_metal_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:void_metal_plant",
-  "plant_name": "Void Metal Crop",
-  "seed_name": "Void Metal Seeds",
+  "plant_name": "虚空金属精华株",
+  "seed_name": "虚空金属种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:void_metal_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Void Metal Seeds."
+    "default": "虚空金属种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

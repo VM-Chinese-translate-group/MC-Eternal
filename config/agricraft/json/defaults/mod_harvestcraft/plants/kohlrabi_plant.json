@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/kohlrabi_plant.json",
   "enabled": true,
   "id": "harvestcraft:kohlrabi_plant",
-  "plant_name": "Kohlrabi",
-  "seed_name": "Kohlrabi Seeds",
+  "plant_name": "甘蓝",
+  "seed_name": "甘蓝种子",
   "seed_items": [
     {
       "item": "harvestcraft:kohlrabiseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Kohlrabi Seeds."
+    "default": "甘蓝种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

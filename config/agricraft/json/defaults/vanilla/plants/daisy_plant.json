@@ -2,12 +2,12 @@
   "path": "vanilla/plants/daisy_plant.json",
   "enabled": true,
   "id": "vanilla:daisy_plant",
-  "plant_name": "Daisy",
-  "seed_name": "Daisy Seeds",
+  "plant_name": "法兰西菊",
+  "seed_name": "法兰西菊种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A rarity by any measure."
+    "default": "不论以哪种标准来看，法兰西菊都是珍贵的品种。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/redstone_alloy_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:redstone_alloy_plant",
-  "plant_name": "Redstone Alloy Crop",
-  "seed_name": "Redstone Alloy Seeds",
+  "plant_name": "红石合金精华株",
+  "seed_name": "红石合金种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:redstone_alloy_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Redstone Alloy Seeds."
+    "default": "红石合金种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

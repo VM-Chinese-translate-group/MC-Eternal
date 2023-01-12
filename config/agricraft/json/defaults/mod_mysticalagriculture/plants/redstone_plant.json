@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/redstone_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:redstone_plant",
-  "plant_name": "Redstone Crop",
-  "seed_name": "Redstone Seeds",
+  "plant_name": "红石精华株",
+  "seed_name": "红石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:redstone_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Redstone Seeds."
+    "default": "红石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

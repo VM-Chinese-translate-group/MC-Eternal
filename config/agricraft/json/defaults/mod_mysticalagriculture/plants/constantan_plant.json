@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/constantan_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:constantan_plant",
-  "plant_name": "Constantan Crop",
-  "seed_name": "Constantan Seeds",
+  "plant_name": "康铜精华株",
+  "seed_name": "康铜种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:constantan_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Constantan Seeds."
+    "default": "康铜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

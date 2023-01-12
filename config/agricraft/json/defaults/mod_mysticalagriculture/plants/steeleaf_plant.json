@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/steeleaf_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:steeleaf_plant",
-  "plant_name": "Steeleaf Crop",
-  "seed_name": "Steeleaf Seeds",
+  "plant_name": "钢叶精华株",
+  "seed_name": "钢叶种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:steeleaf_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Steeleaf Seeds."
+    "default": "钢叶种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

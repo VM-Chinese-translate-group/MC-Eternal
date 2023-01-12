@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/ender_amethyst_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:ender_amethyst_plant",
-  "plant_name": "Ender Amethyst",
-  "seed_name": "Ender Amethyst Seeds",
+  "plant_name": "末影紫晶",
+  "seed_name": "末影紫晶种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:ender_amethyst_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ender Amethyst Seeds."
+    "default": "末影紫晶种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

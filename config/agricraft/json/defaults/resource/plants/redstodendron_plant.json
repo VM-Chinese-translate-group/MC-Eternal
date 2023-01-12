@@ -2,12 +2,12 @@
   "path": "resource/plants/redstodendron_plant.json",
   "enabled": false,
   "id": "resource:redstodendron_plant",
-  "plant_name": "Redstodendron",
-  "seed_name": "Red Seeds",
+  "plant_name": "红灌木",
+  "seed_name": "红灌木种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "Much more complex than the average red algea."
+    "default": "红灌木比普通的红藻要复杂许多。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

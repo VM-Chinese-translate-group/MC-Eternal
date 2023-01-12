@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/apatite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:apatite_plant",
-  "plant_name": "Apatite Crop",
-  "seed_name": "Apatite Seeds",
+  "plant_name": "磷灰石精华株",
+  "seed_name": "磷灰石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:apatite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Apatite Seeds."
+    "default": "磷灰石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

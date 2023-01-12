@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/terrasteel_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:terrasteel_plant",
-  "plant_name": "Terrasteel",
-  "seed_name": "Terrasteel Seeds",
+  "plant_name": "泰拉钢",
+  "seed_name": "泰拉钢种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:terrasteel_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Terrasteel Seeds."
+    "default": "泰拉钢种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

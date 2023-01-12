@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/osmium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:osmium_plant",
-  "plant_name": "Osmium",
-  "seed_name": "Osmium Seeds",
+  "plant_name": "锇精华株",
+  "seed_name": "锇种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:osmium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Osmium Seeds."
+    "default": "锇种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

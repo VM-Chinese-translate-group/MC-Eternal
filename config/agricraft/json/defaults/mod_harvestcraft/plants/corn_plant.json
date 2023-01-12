@@ -1,12 +1,12 @@
 {
-  "path": "mod_harvestcraft/plants/corn_plant.json",
+  "path": "mod_harvestcraft/plants/玉米_plant.json",
   "enabled": true,
-  "id": "harvestcraft:corn_plant",
-  "plant_name": "Corn",
-  "seed_name": "Corn Seeds",
+  "id": "harvestcraft:玉米_plant",
+  "plant_name": "玉米",
+  "seed_name": "玉米种子",
   "seed_items": [
     {
-      "item": "harvestcraft:cornseeditem",
+      "item": "harvestcraft:玉米seeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Corn Seeds."
+    "default": "玉米种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:cornitem",
+        "item": "harvestcraft:玉米item",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -67,16 +67,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/cornseeditem",
+    "seed_texture": "harvestcraft:items/玉米seeditem",
     "plant_textures": [
-      "harvestcraft:blocks/crops/corn_stage_0",
-      "harvestcraft:blocks/crops/corn_stage_0",
-      "harvestcraft:blocks/crops/corn_stage_0",
-      "harvestcraft:blocks/crops/corn_stage_1",
-      "harvestcraft:blocks/crops/corn_stage_1",
-      "harvestcraft:blocks/crops/corn_stage_2",
-      "harvestcraft:blocks/crops/corn_stage_2",
-      "harvestcraft:blocks/crops/corn_stage_3"
+      "harvestcraft:blocks/crops/玉米_stage_0",
+      "harvestcraft:blocks/crops/玉米_stage_0",
+      "harvestcraft:blocks/crops/玉米_stage_0",
+      "harvestcraft:blocks/crops/玉米_stage_1",
+      "harvestcraft:blocks/crops/玉米_stage_1",
+      "harvestcraft:blocks/crops/玉米_stage_2",
+      "harvestcraft:blocks/crops/玉米_stage_2",
+      "harvestcraft:blocks/crops/玉米_stage_3"
     ]
   }
 }

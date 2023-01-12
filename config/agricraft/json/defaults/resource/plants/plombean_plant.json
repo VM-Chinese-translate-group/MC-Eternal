@@ -2,12 +2,12 @@
   "path": "resource/plants/plombean_plant.json",
   "enabled": true,
   "id": "resource:plombean_plant",
-  "plant_name": "Plombean",
-  "seed_name": "Plombean Seeds",
+  "plant_name": "铅豆荚",
+  "seed_name": "铅豆荚种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "In ancient times this plant was thought to bear a lifegiving fruit. Nowadays we know better."
+    "default": "古时候铅豆荚被认为能够结出让人长生不老的果实，现在我们对它的了解更加深入。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

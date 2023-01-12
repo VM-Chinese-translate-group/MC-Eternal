@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/cauliflower_plant.json",
   "enabled": true,
   "id": "harvestcraft:cauliflower_plant",
-  "plant_name": "Cauliflower",
-  "seed_name": "Cauliflower Seeds",
+  "plant_name": "木花菜",
+  "seed_name": "木花菜种子",
   "seed_items": [
     {
       "item": "harvestcraft:cauliflowerseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Cauliflower Seeds."
+    "default": "木花菜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

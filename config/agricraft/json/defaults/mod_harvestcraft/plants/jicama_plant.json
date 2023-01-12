@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/jicama_plant.json",
   "enabled": true,
   "id": "harvestcraft:jicama_plant",
-  "plant_name": "Jicama",
-  "seed_name": "Jicama Seeds",
+  "plant_name": "豆薯",
+  "seed_name": "豆薯种子",
   "seed_items": [
     {
       "item": "harvestcraft:jicamaseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Jicama Seeds."
+    "default": "豆薯种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

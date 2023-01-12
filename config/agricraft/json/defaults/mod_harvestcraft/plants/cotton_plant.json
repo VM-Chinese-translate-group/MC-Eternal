@@ -1,12 +1,12 @@
 {
-  "path": "mod_harvestcraft/plants/cotton_plant.json",
+  "path": "mod_harvestcraft/plants/棉花_plant.json",
   "enabled": true,
-  "id": "harvestcraft:cotton_plant",
-  "plant_name": "Cotton",
-  "seed_name": "Cotton Seeds",
+  "id": "harvestcraft:棉花_plant",
+  "plant_name": "棉花",
+  "seed_name": "棉花种子",
   "seed_items": [
     {
-      "item": "harvestcraft:cottonseeditem",
+      "item": "harvestcraft:棉花seeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Cotton Seeds."
+    "default": "棉花种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:cottonitem",
+        "item": "harvestcraft:棉花item",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -67,16 +67,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/cottonitem",
+    "seed_texture": "harvestcraft:items/棉花item",
     "plant_textures": [
-      "harvestcraft:blocks/crops/cotton_stage_0",
-      "harvestcraft:blocks/crops/cotton_stage_0",
-      "harvestcraft:blocks/crops/cotton_stage_0",
-      "harvestcraft:blocks/crops/cotton_stage_1",
-      "harvestcraft:blocks/crops/cotton_stage_1",
-      "harvestcraft:blocks/crops/cotton_stage_2",
-      "harvestcraft:blocks/crops/cotton_stage_2",
-      "harvestcraft:blocks/crops/cotton_stage_3"
+      "harvestcraft:blocks/crops/棉花_stage_0",
+      "harvestcraft:blocks/crops/棉花_stage_0",
+      "harvestcraft:blocks/crops/棉花_stage_0",
+      "harvestcraft:blocks/crops/棉花_stage_1",
+      "harvestcraft:blocks/crops/棉花_stage_1",
+      "harvestcraft:blocks/crops/棉花_stage_2",
+      "harvestcraft:blocks/crops/棉花_stage_2",
+      "harvestcraft:blocks/crops/棉花_stage_3"
     ]
   }
 }

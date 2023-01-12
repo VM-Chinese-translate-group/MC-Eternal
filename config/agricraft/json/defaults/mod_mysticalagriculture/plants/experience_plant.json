@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/experience_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:experience_plant",
-  "plant_name": "Experience Crop",
-  "seed_name": "Experience Seeds",
+  "plant_name": "经验精华株",
+  "seed_name": "经验种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:experience_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Experience Seeds."
+    "default": "经验种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

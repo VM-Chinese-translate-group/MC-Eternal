@@ -2,7 +2,7 @@
   "path": "mod_farmingforblockheads/soils/fertilized_farmland_healthy_stable_soil.json",
   "enabled": true,
   "id": "fertilized_farmland_healthy_stable_soil",
-  "name": "Fertilized Farmland (Healthy, Stable)",
+  "name": "Fertilized Farmland（加速生长、无视践踏）",
   "varients": [
     {
       "item": "farmingforblockheads:fertilized_farmland_healthy_stable",

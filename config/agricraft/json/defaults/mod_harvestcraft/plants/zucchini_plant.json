@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/zucchini_plant.json",
   "enabled": true,
   "id": "harvestcraft:zucchini_plant",
-  "plant_name": "Zucchini",
-  "seed_name": "Zucchini Seeds",
+  "plant_name": "西葫芦",
+  "seed_name": "西葫芦种子",
   "seed_items": [
     {
       "item": "harvestcraft:zucchiniseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Zucchini Seeds."
+    "default": "西葫芦种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

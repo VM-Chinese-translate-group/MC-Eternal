@@ -2,8 +2,8 @@
   "path": "vanilla/plants/beet_root_plant.json",
   "enabled": true,
   "id": "vanilla:beet_root_plant",
-  "plant_name": "Beets",
-  "seed_name": "Beet Seeds",
+  "plant_name": "甜菜根",
+  "seed_name": "甜菜种子",
   "seed_items": [
     {
       "item": "minecraft:beetroot_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Beet. It\u0027s what\u0027s for dinner."
+    "default": "甜菜是为晚饭而生的。"
   },
   "growth_chance": 1.0,
   "growth_bonus": 0.025,

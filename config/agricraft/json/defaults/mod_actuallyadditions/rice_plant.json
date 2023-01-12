@@ -2,8 +2,8 @@
   "path": "mod_actuallyadditions/rice_plant.json",
   "enabled": true,
   "id": "actuallyadditions:rice_plant",
-  "plant_name": "Rice",
-  "seed_name": "Rice Seeds",
+  "plant_name": "水稻",
+  "seed_name": "水稻种子",
   "seed_items": [
     {
       "item": "actuallyadditions:item_rice_seed",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Rice, a grain that is a staple for many. While commonly associated with flooded rice paddies, rice does not have to grow in flooded plains, but often is."
+    "default": "水稻, 许多人的基本食物。虽然人们经常认为水稻需要在漫水的稻田中生长，但事实并不如此，水稻无需这么多水。但这也不妨碍它经常在漫水的环境中生长。"
   },
   "growth_chance": 1.0,
   "growth_bonus": 0.025,

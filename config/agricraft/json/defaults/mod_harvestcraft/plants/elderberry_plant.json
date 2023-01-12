@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/elderberry_plant.json",
   "enabled": true,
   "id": "harvestcraft:elderberry_plant",
-  "plant_name": "Elderberry",
-  "seed_name": "Elderberry Seeds",
+  "plant_name": "接骨木",
+  "seed_name": "接骨木种子",
   "seed_items": [
     {
       "item": "harvestcraft:elderberryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Elderberry Seeds."
+    "default": "接骨木种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/spinach_plant.json",
   "enabled": true,
   "id": "harvestcraft:spinach_plant",
-  "plant_name": "Spinach",
-  "seed_name": "Spinach Seeds",
+  "plant_name": "菠菜",
+  "seed_name": "菠菜种子",
   "seed_items": [
     {
       "item": "harvestcraft:spinachseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Spinach Seeds."
+    "default": "菠菜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

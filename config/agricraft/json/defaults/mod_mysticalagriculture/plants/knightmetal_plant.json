@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/knightmetal_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:knightmetal_plant",
-  "plant_name": "Knightmetal Crop",
-  "seed_name": "Knightmetal Seeds",
+  "plant_name": "骑士金属精华株",
+  "seed_name": "骑士金属种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:knightmetal_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Knightmetal Seeds."
+    "default": "骑士金属种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

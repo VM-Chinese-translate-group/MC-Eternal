@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/leek_plant.json",
   "enabled": true,
   "id": "harvestcraft:leek_plant",
-  "plant_name": "Leek",
-  "seed_name": "Leek Seeds",
+  "plant_name": "韭菜",
+  "seed_name": "韭菜种子",
   "seed_items": [
     {
       "item": "harvestcraft:leekseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Leek Seeds."
+    "default": "韭菜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/chicken_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:chicken_plant",
-  "plant_name": "Chicken Crop",
-  "seed_name": "Chicken Seeds",
+  "plant_name": "鸡精华株",
+  "seed_name": "鸡种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:chicken_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Chicken Seeds."
+    "default": "鸡种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

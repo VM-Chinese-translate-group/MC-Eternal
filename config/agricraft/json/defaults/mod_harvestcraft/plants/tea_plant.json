@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/tea_plant.json",
   "enabled": true,
   "id": "harvestcraft:tea_plant",
-  "plant_name": "Tea",
-  "seed_name": "Tea Seeds",
+  "plant_name": "茶树",
+  "seed_name": "茶树种子",
   "seed_items": [
     {
       "item": "harvestcraft:teaseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tea Seeds."
+    "default": "茶树种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

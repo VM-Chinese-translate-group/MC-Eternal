@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/celery_plant.json",
   "enabled": true,
   "id": "harvestcraft:celery_plant",
-  "plant_name": "Celery",
-  "seed_name": "Celery Seeds",
+  "plant_name": "芹菜",
+  "seed_name": "芹菜种子",
   "seed_items": [
     {
       "item": "harvestcraft:celeryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Celery Seeds."
+    "default": "芹菜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

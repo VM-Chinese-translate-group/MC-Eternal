@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/signalum_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:signalum_plant",
-  "plant_name": "Signalum Crop",
-  "seed_name": "Signalum Seeds",
+  "plant_name": "信素精华株",
+  "seed_name": "信素种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:signalum_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Signalum Seeds."
+    "default": "信素种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

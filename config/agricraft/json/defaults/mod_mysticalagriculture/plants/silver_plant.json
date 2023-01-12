@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/silver_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:silver_plant",
-  "plant_name": "Silver Crop",
-  "seed_name": "Silver Seeds",
+  "plant_name": "银精华株",
+  "seed_name": "银种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:silver_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Silver Seeds."
+    "default": "银种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

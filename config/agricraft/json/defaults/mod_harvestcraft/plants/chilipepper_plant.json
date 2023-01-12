@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/chilipepper_plant.json",
   "enabled": true,
   "id": "harvestcraft:chilipepper_plant",
-  "plant_name": "Chili Pepper",
-  "seed_name": "Chili Pepper Seeds",
+  "plant_name": "辣椒",
+  "seed_name": "辣椒种子",
   "seed_items": [
     {
       "item": "harvestcraft:chilipepperseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Chili Pepper Seeds."
+    "default": "辣椒种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

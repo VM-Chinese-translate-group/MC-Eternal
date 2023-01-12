@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/seaweed_plant.json",
   "enabled": true,
   "id": "harvestcraft:seaweed_plant",
-  "plant_name": "Seaweed",
-  "seed_name": "Seaweed Seeds",
+  "plant_name": "海草",
+  "seed_name": "海草种子",
   "seed_items": [
     {
       "item": "harvestcraft:seaweedseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Seaweed Seeds."
+    "default": "海草种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

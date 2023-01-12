@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/kale_plant.json",
   "enabled": true,
   "id": "harvestcraft:kale_plant",
-  "plant_name": "Kale",
-  "seed_name": "Kale Seeds",
+  "plant_name": "甘蓝",
+  "seed_name": "甘蓝种子",
   "seed_items": [
     {
       "item": "harvestcraft:kaleseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Kale Seeds."
+    "default": "甘蓝种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

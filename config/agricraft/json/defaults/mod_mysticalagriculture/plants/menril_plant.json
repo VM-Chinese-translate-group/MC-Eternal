@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/menril_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:menril_plant",
-  "plant_name": "Menril Crop",
-  "seed_name": "Menril Seeds",
+  "plant_name": "门瑞欧精华株",
+  "seed_name": "门瑞欧种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:menril_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Menril Seeds."
+    "default": "门瑞欧种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

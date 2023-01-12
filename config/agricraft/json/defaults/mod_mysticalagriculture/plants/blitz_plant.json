@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/blitz_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:blitz_plant",
-  "plant_name": "Blitz Crop",
-  "seed_name": "Blitz Seeds",
+  "plant_name": "狂风精华株",
+  "seed_name": "狂风种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:blitz_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Blitz Seeds."
+    "default": "狂风种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

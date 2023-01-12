@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/energetic_alloy_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:energetic_alloy_plant",
-  "plant_name": "Energetic Alloy Crop",
-  "seed_name": "Energetic Alloy Seeds",
+  "plant_name": "充能合金精华株",
+  "seed_name": "充能合金种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:energetic_alloy_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Energetic Alloy Seeds."
+    "default": "充能合金种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
