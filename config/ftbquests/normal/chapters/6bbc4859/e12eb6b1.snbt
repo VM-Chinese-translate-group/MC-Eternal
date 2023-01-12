@@ -4,7 +4,7 @@
 	x: 2.0d,
 	y: 1.0d,
 	shape: "square",
-	description: "*解锁自完成秘密*",
+	description: "*完成秘密以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"09898bbf"
