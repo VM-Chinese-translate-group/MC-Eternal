@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "d21955fd",
 		type: "item",
-		title: "Death Worm Gauntlet",
+		title: "死亡蠕虫手甲",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: -2.0d,
-	description: "Baking `",
+	description: "烘焙",
 	can_repeat: true,
 	tasks: [{
 		uid: "dd46218b",

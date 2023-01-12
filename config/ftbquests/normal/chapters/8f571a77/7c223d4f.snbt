@@ -1,9 +1,9 @@
 {
-	title: "Rotten Flesh",
+	title: "腐肉",
 	icon: "charm:rotten_flesh_block",
 	x: 4.0d,
 	y: -6.0d,
-	description: "Drop `",
+	description: "掉落物",
 	can_repeat: true,
 	tasks: [{
 		uid: "a26c01c5",

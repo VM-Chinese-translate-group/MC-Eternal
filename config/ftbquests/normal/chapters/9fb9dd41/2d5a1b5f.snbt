@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: -4.0d,
-	description: "Minion, minion I summon thou minion!",
+	description: "仆从，仆从，吾召唤汝之仆从",
 	tasks: [{
 		uid: "e97232d9",
 		type: "item",
