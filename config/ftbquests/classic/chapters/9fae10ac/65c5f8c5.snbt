@@ -8,7 +8,7 @@
 	},
 	x: -1.0d,
 	y: 0.0d,
-	description: "The Black Death is a boss mob that summons many other mobs to defend it, to spread plague and wreak havoc on any mob in it's reach. Summoned by striking a plague doctor with lightning *BEWARE*",
+	description: "黑死神能召唤老鼠保护自己，它会在可接触范围内的任何生物身上传播瘟疫与制造混乱。瘟疫医生被闪电劈中后会变成黑死神 *当心*",
 	hide: true,
 	tasks: [{
 		uid: "d9004994",

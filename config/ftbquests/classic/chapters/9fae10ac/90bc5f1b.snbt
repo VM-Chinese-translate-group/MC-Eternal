@@ -7,7 +7,7 @@
 	},
 	x: -8.5d,
 	y: -2.0d,
-	description: "A wintry, amphibious cousin of the fire dragon that exudes an icy gale from its mouth.",
+	description: "一种在寒冷群系水陆两栖的龙，是火龙的远房亲戚。它能从嘴中吐出寒冰吐息。",
 	tasks: [{
 		uid: "5c1530c6",
 		type: "kill",

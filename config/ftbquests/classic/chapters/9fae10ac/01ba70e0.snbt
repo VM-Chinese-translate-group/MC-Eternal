@@ -1,7 +1,7 @@
 {
 	x: 0.5d,
 	y: -2.0d,
-	description: "A massive tentacle of decay that bursts from the pit of the Sludgeon.",
+	description: "一只巨型烂泥触手从污泥地牢的深坑中突现。",
 	tasks: [{
 		uid: "40166670",
 		type: "kill",

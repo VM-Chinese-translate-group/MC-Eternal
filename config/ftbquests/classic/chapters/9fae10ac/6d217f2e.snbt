@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: 2.0d,
 	shape: "diamond",
-	description: "Place a skull on the Guardian Alter, after a moment, the arena will be spawned, where you will fight the Tower Guardian *Deals additional magic damage at higher difficulties*",
+	description: "在守卫者方块上面放置一个头颅，过一会儿将生成一个竞技场，你将在那里与高塔守卫者战斗 *在较高的难度下它可以对玩家造成额外的魔法伤害*",
 	tasks: [{
 		uid: "2ada0cdf",
 		type: "kill",

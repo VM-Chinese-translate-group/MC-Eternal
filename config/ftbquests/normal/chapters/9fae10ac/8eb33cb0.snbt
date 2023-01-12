@@ -1,7 +1,7 @@
 {
 	x: -2.5d,
 	y: 2.0d,
-	description: "*Must be summoned*",
+	description: "*必须被召唤*",
 	tasks: [{
 		uid: "2971733c",
 		type: "kill",

@@ -7,7 +7,7 @@
 	},
 	x: -1.0d,
 	y: -2.0d,
-	description: "A sphere of malignant energy found atop the Wight Fortress",
+	description: "一种充满恶意能量的球体，你可以在鬼魂城堡的顶部找到它。",
 	tasks: [{
 		uid: "a61c634a",
 		type: "kill",

@@ -1,8 +1,8 @@
 {
-	title: "&c&lThe Undertaker",
+	title: "&c&l 送葬者",
 	x: 0.5d,
 	y: 2.0d,
-	description: "The Undertaker is a powerful hostile necromancer that has the ability to summon armies of Unburied and siege upon villages. Taking no prisoners and adding to his army of undead servants, this abomination must be stopped...",
+	description: "送葬者是一种强大的敌对亡灵法师，它有召唤活尸大军的能力并且会围攻村庄。 有的人没有被俘虏就自行加入它的亡灵仆从军队，这是可耻的行为，必须被阻止。",
 	tasks: [{
 		uid: "5feff271",
 		type: "kill",

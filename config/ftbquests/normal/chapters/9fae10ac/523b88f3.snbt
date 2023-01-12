@@ -1,7 +1,7 @@
 {
 	x: -12.5d,
 	y: -2.0d,
-	description: " A repulsive, twisted monstrosity that can turn any living thing to stone with her terrible gaze.",
+	description: "恶心扭曲的丑八怪，它可憎的目光可以将任何活物变为石头。",
 	tasks: [{
 		uid: "79fcc981",
 		type: "kill",
