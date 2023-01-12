@@ -1,0 +1,21 @@
+#English Lang File for Illagers+ Mod
+#Use this symbol for colored text:(§)
+
+#实体
+entity.furantur.name=药效窃贼
+entity.hoarder.name=拾荒者
+entity.necromancer.name=亡灵法师
+entity.illager_king.name=灾厄塔主
+entity.enchanter.name=附魔师
+entity.archer.name=弓箭手
+
+#配置
+config.illager_tower_freq.name=灾厄之塔生成频率
+config.illager_archer_tower_freq.name=灾厄箭塔生成频率
+config.illager_centre_freq.name=灾厄中心生成频率 
+
+#配置按钮
+gui.config.illagers_plus.title=更多灾厄村民配置
+gui.config.category.general.name=常规
+gui.config.category.general.name.tooltip=更多灾厄村民的常规配置
+gui.config.category.general.title=更多灾厄村民常规配置
