@@ -10,7 +10,7 @@ import mods.chisel.Carving;
 
 #MC Eternal Scripts
 
-print("--- 加载 MiscCrafting.zs ---");
+print("--- loading MiscCrafting.zs ---");
 
 #Yeet Things
 var itemsToNuke = [
@@ -25,7 +25,7 @@ var itemsToNuke = [
 
 for item in itemsToNuke {
 	recipes.remove(item);
-	item.addTooltip(format.red("已禁用"));
+	item.addTooltip(format.red("Disabled"));
 }
 
 #Homing Beecon
@@ -82,7 +82,7 @@ for entry in chiseling {
 #Danknull T6
 #stupidly op and too stupidly cheap, some spicy is nice yeah?
 recipes.remove(<danknull:dank_null_5>);
-recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lore:["空间压缩机械必须是新制作的","内容和设置将被保留！"]}}),
+recipes.addShaped("danknull_t6_mce", <danknull:dank_null_5>.withTag({display:{Lore:["Compact Machine must be freshly crafted","Contents and settings will be retained!"]}}),
 	[[<danknull:dank_null_panel_5>, <rats:idol_of_ratlantis>, <danknull:dank_null_panel_5>],
 	[<extracells:storage.component:2>, <danknull:dank_null_4>.marked("dank5"), <extracells:storage.component:2>],
 	[<danknull:dank_null_panel_5>, <compactmachines3:machine:5>.marked("cm"),<danknull:dank_null_panel_5>]],
@@ -105,7 +105,6 @@ val dankRecipes = [
 	"dank_null_5"
 ] as string[];
 for recipe in dankRecipes { 
-    #焊不得
 	recipes.removeByRecipeName("danknull:"+recipe);
 }
 
@@ -180,10 +179,10 @@ mods.botania.ElvenTrade.addRecipe([<vampirism:pure_blood:4>], [<vampirism:pure_b
 
 
 // RATIFICATION STONE
-mods.thaumcraft.Infusion.registerRecipe("mce_ratification_stone", "", <morphspellpack:charm_druid_stone>.withTag({Entity: "rats:rat", display:{Name:"认可之石",Lore:["我成了老鼠，奶酪的消费者。","变形为老鼠15秒。","使用时不消耗"]}}), 12, 
+mods.thaumcraft.Infusion.registerRecipe("mce_ratification_stone", "", <morphspellpack:charm_druid_stone>.withTag({Entity: "rats:rat", display:{Name:"Stone of Ratification",Lore:["I am become Rat, consumer of Cheese.","Transform into a Rat for 15 seconds.","Not consumed on use"]}}), 12, 
 	[<aspect:rattus> *150, <aspect:cognitio> *30, <aspect:praecantatio> *50, <aspect:alienis> *20], 
 	<bewitchment:waystone>, 
 	[<rats:ratlantean_flame>, <rats:rat_pelt>, <rats:ratlantean_flame>, <rats:raw_rat>, <rats:ratlantean_flame>, <rats:rat_pelt>, <rats:ratlantean_flame>, <rats:idol_of_ratlantis>]
 );
 
-print("--- MiscCrafting.zs 载入 ---");	
+print("--- MiscCrafting.zs initialized ---");	

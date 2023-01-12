@@ -1,9 +1,9 @@
 {
-	title: "&e&l超大的冒险！",
+	title: "&e&lWhat an adventure!",
 	x: 0.0d,
 	y: 5.0d,
 	shape: "diamond",
-	description: "&o发现星球上所有的生物群系",
+	description: "&oDiscover all of the biomes present on the planet",
 	hide_dependency_lines: true,
 	dependencies: [
 		"99a4bfed"
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "b31206cc",
 		type: "advancement",
-		title: "&l探索星球上的所有生物群系",
+		title: "&lExplore all biomes present on the Planet",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

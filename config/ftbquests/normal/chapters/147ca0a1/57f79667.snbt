@@ -1,8 +1,8 @@
 {
-	title: "&e驯服骆驼",
+	title: "&eTaming a camel",
 	x: -1.2d,
 	y: -0.4d,
-	description: "骆驼是极好的沙漠坐骑，应该试着驯服一只，以协助探险！",
+	description: "Camels make for excellent desert fairing mounts, I should try taming one to assist in my exploration!",
 	dependencies: [
 		"99a4bfed"
 	],

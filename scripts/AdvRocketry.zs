@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 #MC Eternal Scripts
 
-print("--- 加载 AdvRocketry.zs ---");
+print("--- loading AdvRocketry.zs ---");
 
 #Remove Recipes
 var removerecipes = [
@@ -36,14 +36,14 @@ recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<ore:ingotBrickNetherGlaze
 
 #Space Dimension Tooltips
 var ohnoeffort = {
-	<erebus:gaean_keystone> : "混沌之地",
-	<erebus:portal_activator> : "混沌之地",
-	<atum:scarab> : "阿图姆",
-	<theaurorian:aurorianportalframebricks> : "极光幽境"
+	<erebus:gaean_keystone> : "The Erebus",
+	<erebus:portal_activator> : "The Erebus",
+	<atum:scarab> : "The Atum",
+	<theaurorian:aurorianportalframebricks> : "The Aurorian"
 } as string[IItemStack];
 
 for usualobjects in ohnoeffort {
-	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" 无法正常前往。\n你需要使用高级火箭前往。"));
+	usualobjects.addTooltip(format.red(ohnoeffort[usualobjects]~" cannot be accessed normally.\nYou will need to use Advanced Rocketry."));
 }
 
-print("--- AdvRocketry.zs 载入 ---");	
+print("--- AdvRocketry.zs initialized ---");	

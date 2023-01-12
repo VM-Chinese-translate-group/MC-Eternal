@@ -1,15 +1,15 @@
 {
-	title: "&c法老杀手",
+	title: "&cPharaoh Slayer",
 	x: 0.0d,
 	y: 3.0d,
-	description: "&o取下15个法老的首级，并带走他们的宝藏",
+	description: "&oTake down 15 Pharaoh's and claim their treasure",
 	dependencies: [
 		"4deccbba"
 	],
 	tasks: [{
 		uid: "1cd73628",
 		type: "kill",
-		title: "法老杀手",
+		title: "Pharaoh Slayer",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

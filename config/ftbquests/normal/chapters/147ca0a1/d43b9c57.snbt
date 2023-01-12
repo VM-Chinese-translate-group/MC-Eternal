@@ -1,8 +1,8 @@
 {
-	title: "&6掘墓",
+	title: "&6Graverobbing",
 	x: -1.5d,
 	y: 0.3d,
-	description: "&o我没有偷！我刚借的！",
+	description: "&oI did not steal it! I just borrowed it! ",
 	dependencies: [
 		"93182620"
 	],

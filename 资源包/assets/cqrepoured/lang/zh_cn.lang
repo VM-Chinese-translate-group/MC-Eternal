@@ -226,8 +226,6 @@ item.structure_selector.name=选择器助手
 item.path_tool.name=路径工具
 item.cursed_bone.name=诅咒之骨
 item.dummy_shield.name=假人盾
-item.unprotected_positions_tool.name=无保护的位置选择器帮助程序
-item.magic_bell.name=魔法钟
 
 #Axes
 item.battle_axe_bull.name=公牛战斧
@@ -521,7 +519,6 @@ description.dagger.name=移动时按下鼠标右键以向前跳跃。
 description.ninja_dagger.name=移动时按下鼠标右键以向前跳跃。 据说使用这把匕首的人可以来无影去无踪。 你也许可以用潜行以及鼠标右键来模仿这种行为，但是注意，当你消失在别人的视野中时，你并没有移动多远。
 description.bull_battle_axe.name=右击地面制造地震
 description.walker_set.name=传说任何向深渊漫步者之王射箭的人都会突然发现在他们背后多了一把剑，而王就在他们背后。也许得到他的剑和他的盾可以让你拥有同样的能力？
-description.magic_bell.name=响铃你就会看到通往巫妖疗养院的路。打破钟声告诉你的障碍，地牢的城墙就会向你屈服。
 description.gun.name=右键发射，需要子弹。
 description.bullet_damage.name=子弹伤害
 description.bullet_fire.name=击中后点燃目标
@@ -556,10 +553,10 @@ description.sunshine.name=刀刃上的铭文写着“我的力量只能在阳光
 description.attack_damage_at_night.name=夜间攻击伤害
 description.attack_damage_at_day.name=白天攻击伤害
 description.staff_vampiric.name=当你握着这根棍子时，它会散发出暗能量。如果你把它移近耳朵，你就会听到它的要求。它的叫法很简单：“右击我”，当你这样做的时候，你会看到，它确实发射了一个抛射物。虽然伤害很小，但如果你把它放在正确的地方，它会在你被击中时治愈你。
-description.staff_wind.name=无论它曾经拥有什么不可思议的魔力，它目前都处于完全休眠状态。（无论这应该做什么，它都还不起作用。#TODO）
-description.staff_poison.name=毒液在尖端起泡，小心不要滴落，它会穿透皮肤、肉和骨头，最好小心它不是你自己的。射击要自担风险，小心不是所有人都会称之为公平的杀戮。。。
-description.staff.name=一根长而结实的棍子。也许有人知道如何在它上面运用魔法。
-description.staff_thunder.name=这根手杖上的宝石溅起火花，带着电荷。右键即可击中目标，只需重新定向弧即可。
+description.staff_wind.name=不管这是做什么的，现在还不起作用。 #TODO
+description.staff_poison.name=不管这是做什么的，现在还不起作用。 #TODO
+description.staff.name=丢失 #TODO
+description.staff_thunder.name=丢失 #TODO
 description.spiked_glove.name=利用熊的爪子和你手臂的力量,这个拳套应能让你远离伤害. 双拳在手， 遇墙拆墙，尽情享受。
 description.spear_diamond.name=做工很好的武器，攻击距离可比普通的剑更长。右击效果：蓄力延长穿刺距离。
 description.cursed_bone.name=召唤的暴徒:
@@ -592,9 +589,7 @@ description.gui_button_trade.out_of_stock.name=缺货！如果可能的话，再
 
 #Enchantments
 enchantment.lightning_protection=雷击保护
-enchantment.cqrepoured.lightning_protection.desc=当附魔于头盔时，可保护你免受雷击。每一级都会抵消10%的雷电伤害。
 enchantment.spectral=幽灵香脂
-enchantment.cqrepoured.spectral.desc=增加对末影人和深渊漫步者的伤害。强烈建议在与深渊王战斗时使用。
 
 #Mobs
 entity.cqr_dummy.name=木头人
@@ -638,7 +633,6 @@ entity.cqr_pirate_captain.name=海盗船长
 entity.cqr_giant_spider.name=巨蛛尸罗
 entity.cqr_ender_king.name=末影王
 entity.cqr_ender_calamity.name=ยง4末影之灾
-entity.cqr_exterminator.name=原型歼灭者
 
 #Misc Entities
 entity.cqr_summoning_circle.name=<TECHNICAL_ENTITY>五角星召唤物
@@ -684,12 +678,3 @@ advancements.cqrepoured.new_captain.title=现在谁是船长？
 advancements.cqrepoured.new_captain.description=获取海盗船长的武器
 advancements.cqrepoured.kill_giant_spider.title=唯一的好蜘蛛。。。
 advancements.cqrepoured.kill_giant_spider.description=。。。 死蜘蛛！打倒一只巨蛛
-
-advancements.cqrepoured.kill_ender_king.title=这就是一切吗？！
-advancements.cqrepoured.kill_ender_king.description=杀死令人畏惧的末影人首领，伟大的末影王！
-advancements.cqrepoured.kill_ender_calamity.title=是的，这就是一切！
-advancements.cqrepoured.kill_ender_calamity.description=赢得了一场英雄般的排球比赛，与召唤的邪恶对抗。
-advancements.cqrepoured.kill_exterminator.title=电气工程师
-advancements.cqrepoured.kill_exterminator.description=击败灾厄村民的科学怪物
-
-effect.cqrepoured.twohanded=双持
