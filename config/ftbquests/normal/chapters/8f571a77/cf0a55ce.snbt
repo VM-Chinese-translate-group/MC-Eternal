@@ -1,7 +1,7 @@
 {
 	x: 4.0d,
 	y: -1.5d,
-	description: "*不可自动*",
+	description: "*不可自动提交*",
 	can_repeat: true,
 	tasks: [{
 		uid: "705f7157",
