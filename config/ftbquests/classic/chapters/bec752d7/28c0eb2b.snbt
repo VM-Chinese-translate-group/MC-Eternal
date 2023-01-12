@@ -1,7 +1,7 @@
 {
 	x: 29.5d,
 	y: 5.0d,
-	description: "灵气换成PLUS版",
+	description: "灵气缓存PLUS版",
 	text: [
 		""
 	],
