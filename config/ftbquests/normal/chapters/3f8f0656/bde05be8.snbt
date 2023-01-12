@@ -1,7 +1,7 @@
 {
 	x: 13.5d,
 	y: 9.0d,
-	description: "Basic Energy Storage",
+	description: "基础能量存储",
 	dependencies: [
 		"77d70953"
 	],

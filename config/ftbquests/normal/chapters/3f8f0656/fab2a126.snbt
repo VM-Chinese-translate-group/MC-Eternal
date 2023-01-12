@@ -1,7 +1,7 @@
 {
 	x: -1.0d,
 	y: 13.5d,
-	description: "Provides 100 units of \"Infinity Energy\" to a Wireless Crafting Terminal, 15 units are used every 1/2 second to access your ME Network from ANYWHERE!",
+	description: "为无线制作终端提供100个单位的\"无限能量\"，每0.5秒使用15个单位能量来在任何地方访问您的ME网络！",
 	dependencies: [
 		"d7342694"
 	],

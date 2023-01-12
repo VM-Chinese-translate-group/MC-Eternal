@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: 10.0d,
-	description: "Can be bought from the Coin Shop!",
+	description: "可以在金币商店买到！",
 	dependencies: [
 		"464d17d4"
 	],

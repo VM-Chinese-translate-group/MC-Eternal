@@ -1,7 +1,7 @@
 {
 	x: -1.5d,
 	y: 12.5d,
-	description: "Network Access and Crafting on the go!",
+	description: "随时随地进行网络访问和制作！",
 	dependencies: [
 		"e2b78c00"
 	],

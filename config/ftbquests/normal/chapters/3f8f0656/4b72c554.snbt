@@ -1,7 +1,7 @@
 {
 	x: -4.5d,
 	y: 13.0d,
-	description: "Connects containers to an ME Network, allowing it to use the connected container as Storage for the Network!",
+	description: "将容器连接到ME网络中，可以用它从外部容器连接到ME网络系统中！",
 	dependencies: [
 		"8e9ea584"
 	],
