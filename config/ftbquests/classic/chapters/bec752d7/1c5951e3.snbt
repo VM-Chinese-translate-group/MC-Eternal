@@ -1,14 +1,14 @@
 {
-	title: "&4Resonance of the Faceted Crystal",
+	title: "&4结晶共鸣",
 	x: -3.0d,
 	y: 18.5d,
-	description: "&oRitual of Centrifuging",
+	description: "&o结晶共鸣？离心机！",
 	text: [
-		"&7About those &b\"Aspected\"&7 will types, they're called &aCorrosive&7, &eDestructive&7, &cVengeful&7, and &9Steadfast&7 Will, respectively.",
+		"&7那些&b“异构的”&7意志类型分别是&a腐蚀&7、&e破坏&7、&c复仇&7以及&9坚毅&7意志。",
 		"",
-		"These Will types can be used in place of the standard &b\"Raw\"&7 Will, the catch is that it can alter the properties of &bGear&7 and &cRituals&7, changing how they work, for the Better, or the Worse.",
+		"这些异构意志在作用上基本上都能代替&b“原生”&7意志，不同之处是它们会改变&b装备&7与&c仪式&7的属性和工作方式，可能会带来一些意想不到的收货……与灾难。",
 		"",
-		"the &4Resonance of the Faceted Crystal&7 will split a fully grown &b\"Raw\"&4 Demon Will Crystal Cluster&7 atop a &cDemon Crystallizer&7, and create or add to &bAspected&7 Will Clusters directly next to the Crystallizer."
+		"&4结晶共鸣&7会将一个完整（五个水晶）的&b“原生”&4恶魔意志结晶&7 拆成四种&b异构意志结晶簇&7，因此你需要多准备几个结晶坛来存放这些新的意志结晶。"
 	],
 	dependencies: [
 		"324d9485",

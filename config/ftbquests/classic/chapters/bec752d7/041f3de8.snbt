@@ -1,17 +1,18 @@
 {
-	title: "&4Tartaric Gems",
+	title: "&4地狱魂石",
 	x: 0.5d,
 	y: 16.5d,
-	description: "&oSoul Storage",
+	description: "&o灵魂存储",
 	text: [
-		"&4Tartaric Gems&7 are essentially a Battery for &bDemonic Will&7, any that would be dropped by Hostiles killed by a player will instead be absorbed directly into Gems they are carrying.",
+		"&4地狱魂石&7是用来存储&b恶魔意志&7的，从被击杀的生物身上掠夺来的意志会直接进入魂石里，不会以物品的形式存在于背包。",
 		"",
-		"If all Gems are full, excess Will drops on the floor and voids if picked up by someone with full Gems.",
+		"当然，如果魂石满了，多余的意志依然会将你的背包撑满，真糟糕。",
 		"",
-		"&cSneak+Right-click&7 with a Gem to drain Will from it and send it into other Gems you have.",
+		"手持魂石（或者意志）&cshift右键&7 可以将这个魂石里的意志转移到你背包里的其他魂石里。（如果你的背包里有的话）",
 		"",
-		"&cUpgrading Tartaric Gems that contain &bDemonic Will&c does not preserve the Will in this iteration of Blood Magic!",
-		"They also cannot use their own &bWill&c to upgrade themselves!"
+		"&c升级装有非原生意志的魂石并不会保留其中的&b恶魔意志种类！&c甚至里面的意志会清空！",
+		"它们同样不能用自己存储的&b意志l&c升级自己！",
+		"&7（PS：请至少制作三块地狱魂石哦~一块制作感知之剑，剩下两块互相升级对方）"
 	],
 	dependencies: [
 		"7e97f122"
@@ -19,7 +20,7 @@
 	tasks: [{
 		uid: "e3245702",
 		type: "item",
-		title: "Petty Tartaric Gem (or Better)",
+		title: "微小地狱魂石（或者更好的）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

@@ -1,7 +1,10 @@
 {
 	x: 12.5d,
 	y: -1.5d,
-	description: "An essential configuration tool for any Botanist, the main early uses are to bind Flowers to Mana Spreaders, and set a block where a Mana Spreader aims.",
+	description: "植物魔法里的扳手，用于将产能花绑定到发射器上，为发射器设定传输目标，改变方块模式等",
+	text: [
+		""
+	],
 	dependencies: [
 		"58996ce0"
 	],

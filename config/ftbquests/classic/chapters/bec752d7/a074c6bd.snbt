@@ -1,8 +1,11 @@
 {
-	title: "Ritual of the Forest",
+	title: "森林仪式",
 	x: 24.0d,
 	y: 7.5d,
-	description: "What you need to perform the Ritual of the Forest. Refer to the Book of Natural Aura for more info!",
+	description: "怎么搭建？你问我干嘛？你不会看书吗？",
+	text: [
+		""
+	],
 	dependencies: [
 		"c1f80434"
 	],

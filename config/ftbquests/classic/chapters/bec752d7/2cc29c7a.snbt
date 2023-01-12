@@ -1,9 +1,10 @@
 {
 	x: 4.0d,
 	y: -1.0d,
-	description: "*Using the Arcane Workbench you can apply spells to a wand, you level a wand by using it enough until the experience bar is full, only then can a tome of arcana be applied to upgrade a wand to its next power level*",
+	description: "*奥术工作台可以给你的魔杖添加法术，充入魔力，强化魔杖，也可以用来升级魔杖。注意，升级魔杖需要等你的魔杖熟练度满了才能升级！*",
 	text: [
-		"Arcane crystals can also be placed inside the crystal slot to recharge a wand with mana"
+		"奥术工作台可以为魔杖充入魔力。此操作需要消耗魔力水晶。",
+		"（别和神秘的弄混了！）"
 	],
 	dependencies: [
 		"ec0bd6f7"

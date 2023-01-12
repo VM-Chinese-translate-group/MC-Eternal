@@ -1,7 +1,10 @@
 {
 	x: 7.0d,
 	y: 2.0d,
-	description: "*Accepts any Advanced Wand*",
+	description: "*随便什么属性的进阶魔杖*",
+	text: [
+		""
+	],
 	min_required_dependencies: 1,
 	dependencies: [
 		"179af380"

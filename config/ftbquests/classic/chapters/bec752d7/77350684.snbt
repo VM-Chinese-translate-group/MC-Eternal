@@ -1,7 +1,10 @@
 {
 	x: 17.5d,
 	y: -4.5d,
-	description: "+1 Airjumps!",
+	description: "二段跳！",
+	text: [
+		""
+	],
 	dependencies: [
 		"4b6ff09a",
 		"4eb30150"

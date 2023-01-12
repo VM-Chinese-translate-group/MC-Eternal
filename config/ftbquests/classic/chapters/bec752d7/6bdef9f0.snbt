@@ -1,7 +1,10 @@
 {
 	x: 28.5d,
 	y: 7.0d,
-	description: "Stores Aura to be channeled by various Tools.",
+	description: "存储灵气，供给那些需要灵气使用的工具",
+	text: [
+		""
+	],
 	dependencies: [
 		"b12539ba"
 	],

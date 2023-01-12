@@ -1,15 +1,18 @@
 {
-	title: "The Prize of the Earth",
+	title: "天地匠心",
 	x: 9.0d,
 	y: -10.5d,
-	description: "&oUnearth the Prize, near the Bed that shields this world from below... Nearly all Technology will have a hard time safely extracting the Prize, they use far too much force for such a delicate form to tolerate...",
+	description: "&o在世界的最深处，沉淀了寰宇中星芒的至纯魔力，这种沉淀许久的魔力与矿物质结合，便成为了水晶石。几乎所有的挖矿机都无法安全的获得这种矿物，它们实在是有些脆弱过头了。（真的吗？）",
+	text: [
+		""
+	],
 	dependencies: [
 		"7eed8dbc"
 	],
 	tasks: [{
 		uid: "8de58352",
 		type: "observation",
-		title: "Discover &9Rock Crystal Ore",
+		title: "发现&9水晶石矿石",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

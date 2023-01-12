@@ -1,10 +1,10 @@
 {
-	title: "&4Lava Crystal",
+	title: "&4熔岩水晶",
 	x: 10.0d,
 	y: 18.5d,
-	description: "&oBurning Blood",
+	description: "&o燃烧之血",
 	text: [
-		"&7Can be burned as Fuel for &c200 Ticks&7 of Burntime, but is not consumed, instead drawing &c50LP&7 from the bound Soul Network."
+		"作为燃料时&7可以提供&c200t&7的燃烧时间，但是并不会消耗自身，它会消耗灵魂网络里的&c50LP&7来作为燃料。"
 	],
 	dependencies: [
 		"8dc4ca66"

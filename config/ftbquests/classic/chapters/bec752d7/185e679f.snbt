@@ -1,8 +1,11 @@
 {
-	title: "Tokens of Greater Emotion",
+	title: "更加强烈的情感",
 	x: 29.0d,
 	y: 1.5d,
-	description: "Important crafting ingredients for more powerful devices.",
+	description: "十分高级的合成材料",
+	text: [
+		""
+	],
 	dependencies: [
 		"484f7836"
 	],

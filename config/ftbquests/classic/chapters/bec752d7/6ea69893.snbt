@@ -1,7 +1,10 @@
 {
 	x: 13.0d,
 	y: 6.5d,
-	description: "Unlimited powwwaa",
+	description: "爱你的摸帕瓦！",
+	text: [
+		""
+	],
 	dependencies: [
 		"090666e8"
 	],

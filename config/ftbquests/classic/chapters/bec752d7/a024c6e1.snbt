@@ -1,13 +1,13 @@
 {
-	title: "Further Creation",
+	title: "进阶合成",
 	x: 6.0d,
 	y: -13.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oEnhance your Table with certain resources to allow it to create greater things, however, it will require a &6&oMultiblock construct&7&o to forge those greater things... ",
-		"Consider taking a step back and creating the &9&oSextant&7&o to guide your building of the construct... ",
+		"&7&o升级你的祭坛可以让你合成更多更强力的物品，当然，你还需要一个新的&6&o多方块结构&7&o。",
+		"往回看看，制造&9&o六分仪&7&o可以为你投射出多方块结构的虚影。",
 		"",
-		"Know that you can still make lesser creations, despite it now being different..."
+		"虽然升级祭坛所解锁的新合成对于浩瀚的星海来说也只不过是一点微光，但是那也是你的进步。"
 	],
 	dependencies: [
 		"f5fa1f8d"
@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "01ea9e8b",
 		type: "advancement",
-		title: "Create the &9Starlight Crafting Altar",
+		title: "制作&9星辉祭坛",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

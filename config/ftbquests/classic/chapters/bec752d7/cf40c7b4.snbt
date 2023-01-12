@@ -1,7 +1,10 @@
 {
 	x: 30.0d,
 	y: 2.5d,
-	description: "A Metal forged by the Gods, which has similar properties to Infused Iron, but more powerful.",
+	description: "赫菲斯托斯锻造的金属，具备着凡铁无法匹敌的神奇力量",
+	text: [
+		""
+	],
 	dependencies: [
 		"484f7836"
 	],

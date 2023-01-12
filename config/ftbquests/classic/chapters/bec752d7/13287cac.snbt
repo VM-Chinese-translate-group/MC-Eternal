@@ -1,7 +1,10 @@
 {
 	x: 21.0d,
 	y: 10.5d,
-	description: "Reading the Book is important! Refer to this guide for what various items in the mod do, and how to do things!",
+	description: "这本书十分重要，如果遇到了什么不会的地方就看它！",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "4fa4ab58",
 		type: "item",

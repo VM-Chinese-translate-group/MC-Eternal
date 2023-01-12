@@ -1,7 +1,10 @@
 {
 	x: 16.5d,
 	y: -4.0d,
-	description: "Ice-Spiked Snowballs!",
+	description: "淡白的步履！",
+	text: [
+		""
+	],
 	dependencies: [
 		"6c7750f3",
 		"80831a7a"

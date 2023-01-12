@@ -1,15 +1,15 @@
 {
-	title: "Refracting the Power",
+	title: "星光刻蚀",
 	x: 3.0d,
 	y: -18.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThe many &9&oConstellations&7&o all emit &r&oStarlight&7&o, each with their own unique effects on the world, gathering a good amount of this potential into one Object will allow for very unique things, such as &9&oUnique and Powerful potions&7&o, and &d&oEnchantments that are greater than usual&7&o...",
+		"&7&o每一种&9&o星座&7&o都拥有自己独特的&r&o星能&7&o，不过它们总是分散在世界中，如果把这股强大的力量注入到一个物品中，可能会创造出一种很恐怖的东西，像是&9&o起死回生的药水&7&o以及&d&o惊天动地的附魔&7&o什么的。",
 		"",
-		"To engrave the Constellations into the Glass, one will need to set some &9&oParchment&7&o below the glass, and it does not need to be set one at a time, multiple layers can be set in advance...",
+		"要使用这股被聚合的星能，需要&9&o群星映射台&7&o作为力量的载体，还需要羊皮纸作为星座刻蚀的材料",
 		"",
-		"Only Constellations present on a given Night can be used to Etch the glass for &r&oStarlight&7&o refraction...",
-		"One panel of Glass can also only take so much raw power from the Constellations, and it will simply shatter into nothingness after several uses to refract power into objects..."
+		"只有在星座出现的那个晚上，才可以用星座刻蚀羊皮纸，将&r&o星能&7&o铭刻在玻璃中。",
+		"当然，凡俗的玻璃所能承载的星能的量终究有限，在经历过超过它极限的星能聚集后，它将彻底粉碎，无影无踪。（也许耐久附魔可以让它的使用寿命更长？）"
 	],
 	dependencies: [
 		"80a5aa4a",

@@ -1,18 +1,19 @@
 {
-	title: "&4Sac-packs",
+	title: "&4献祭者的胸凯",
 	x: 11.0d,
 	y: 17.0d,
-	description: "&oSacrifice of Battle",
+	description: "&o血色远征",
 	text: [
-		"&7The &4Coat of Arms&7 and &4Blood Letter's Pack&7 are two &cChestplates&7 you can wear, which will gather &cLP&7 in Combat.",
+		"&4斗士凯衣&7和&4血液背包&7是两种&c胸甲&7，穿上后可以在战斗中收集&cLP&7。",
 		"",
-		"The &4Coat of Arms&7 will gather &cLP&7 when you deal Damage.",
+		"&4斗士铠衣&7会在你攻击生物时获取&cLP&7。",
 		"",
-		"The &4Blood Letter's Pack&7 will gather &cLP&7 when you take Damage.",
+		"&4血液背包&7会在你受伤时获得&cLP&7。（注意！血液背包会在你的生命值在一半以上时扣除你的生命值转化为LP，一次半颗心，获得100LP）",
 		"",
-		"Both can hold up to &c10000LP&7.",
+		"它们都能存储&c10000LP&7。",
 		"",
-		"&cThey are unaffected by Rune bonuses by nature."
+		"&c它们提供的LP不受符文加成，也不受熏香祭坛影响！",
+		"&7（我不觉得你会用到它们的，斗士铠衣不如献祭刀，血液背包我还不如自己剌手指）"
 	],
 	dependencies: [
 		"44e1406a"

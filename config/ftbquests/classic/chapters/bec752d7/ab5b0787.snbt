@@ -1,8 +1,11 @@
 {
-	title: "Tokens of Emotion",
+	title: "情绪徽章",
 	x: 23.5d,
 	y: 5.5d,
-	description: "Important crafting ingredients for various devices.",
+	description: "重要合成材料",
+	text: [
+		""
+	],
 	dependencies: [
 		"a074c6bd"
 	],

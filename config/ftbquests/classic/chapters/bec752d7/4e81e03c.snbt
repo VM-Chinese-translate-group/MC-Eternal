@@ -1,7 +1,10 @@
 {
 	x: 16.0d,
 	y: -9.0d,
-	description: "+2 Airjumps!",
+	description: "三段跳！",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"e4a4db69",

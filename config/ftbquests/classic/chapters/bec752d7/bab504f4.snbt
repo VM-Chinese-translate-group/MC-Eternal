@@ -1,7 +1,10 @@
 {
 	x: 16.5d,
 	y: 1.5d,
-	description: "Mana from Water! *Read the Lexica Botania for Info*",
+	description: "水力产魔机！ *详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"8cf046cd"
 	],

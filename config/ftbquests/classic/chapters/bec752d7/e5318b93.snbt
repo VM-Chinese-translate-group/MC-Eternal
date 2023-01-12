@@ -1,7 +1,10 @@
 {
 	x: 26.5d,
 	y: 2.0d,
-	description: "Displays larger amounts of Aura, and displays effects being induced by extreme Aura or lack of Aura.",
+	description: "强化版环境之眼，可以显示灵气过剩和灵气枯竭造成的正负面影响",
+	text: [
+		""
+	],
 	dependencies: [
 		"cf40c7b4",
 		"4a1cbb3d"
