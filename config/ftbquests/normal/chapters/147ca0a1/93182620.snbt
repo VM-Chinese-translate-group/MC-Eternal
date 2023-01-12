@@ -1,7 +1,7 @@
 {
 	x: -1.0d,
 	y: 1.0d,
-	description: "&oBe extra careful while exploring, last thing you'd want to do is upset some ancient angry undead ghost or something",
+	description: "&o探索时要格外小心，你应该不想激怒一些古老的亡灵或其他的东西",
 	dependencies: [
 		"99a4bfed"
 	],
@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "a6834200",
 		type: "advancement",
-		title: "Uncover an ancient Pyramid",
+		title: "揭开一座古老金字塔的面纱",
 		icon: "atum:khnumite_face",
 		advancement: "",
 		criterion: "atum:core/pyramidscheme"

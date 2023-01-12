@@ -8,7 +8,7 @@
 	x: 0.0d,
 	y: -2.0d,
 	shape: "diamond",
-	description: "&oCollect all of the powerful artifacts from Atum",
+	description: "&o从阿图姆收集所有神器",
 	hide_dependency_lines: true,
 	dependencies: [
 		"99a4bfed"
@@ -17,7 +17,7 @@
 	tasks: [{
 		uid: "f39ab103",
 		type: "advancement",
-		title: "&e&lThat belongs in a museum!",
+		title: "&e&l那是博物馆里的！",
 		advancement: "atum:core/thefullmuseum",
 		criterion: ""
 	}],
