@@ -3,9 +3,9 @@
 	x: -12.0d,
 	y: -3.0d,
 	shape: "diamond",
-	description: "Dimension of perpetual darkness; the only light comes from crystals and the various flora, fungi and fauna of the dimension. You may travel willingly to this dimension, though you may unwillingly be dragged by a rifter into this strange hostile world",
+	description: "一个永夜的维度, 为数不多的光线来自于这个维度中的水晶,各种动物,植物,以及真菌。如果你愿意,你可以自行前往这个维度, 但即使你不情愿,你依然有可能会被裂隙人拖入这个陌生且充满敌意的维度。",
 	text: [
-		"The Midnight"
+		"午夜时分"
 	],
 	tasks: [{
 		uid: "a706acdc",

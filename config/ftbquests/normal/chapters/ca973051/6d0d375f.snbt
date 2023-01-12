@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: -13.0d,
-	description: "&oMakes a great Doorway!",
+	description: "&o做一个花哨的门！",
 	dependencies: [
 		"7e91214b"
 	],

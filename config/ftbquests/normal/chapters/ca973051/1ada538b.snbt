@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -13.0d,
-	description: "&oThe one-hit Wonder!",
+	description: "&o仅需一击的奇迹！",
 	dependencies: [
 		"eaed8a89"
 	],

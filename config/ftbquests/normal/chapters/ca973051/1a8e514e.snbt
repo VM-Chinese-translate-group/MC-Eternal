@@ -2,7 +2,7 @@
 	x: -12.0d,
 	y: -17.0d,
 	shape: "octagon",
-	description: "&oPast the Thorns beyond the Highlands of the Twilight Forest lies a great castle... What unthinkable terrors lie beyond? We may never know...",
+	description: "&o在暮色森林高地的荆棘丛中有一座巨大的城堡。。。有什么难以想象的恐怖事物在等待着我们？我想我们可能永远也不会知道了。。。",
 	dependencies: [
 		"ddd3c587"
 	],
@@ -26,7 +26,7 @@
 	{
 		uid: "78b50a1a",
 		type: "item",
-		title: "Golden Lootbox",
+		title: "黄金战利品箱",
 		icon: "treasure2:gold_strongbox",
 		item: {
 			id: "ftbquests:lootcrate",

@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -11.0d,
-	description: "&oFoe's Armored? Not as much of a problem!",
+	description: "&o敌人穿了盔甲？不是问题！",
 	dependencies: [
 		"0f56d604"
 	],

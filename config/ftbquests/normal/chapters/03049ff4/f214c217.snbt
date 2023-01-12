@@ -1,8 +1,8 @@
 {
-	title: "&c&lRed Matter Explosives",
+	title: "&c&l红物质炸药",
 	x: -1.5d,
 	y: -4.5d,
-	description: "*I hear its excellent for mining copper*",
+	description: "*我听说它非常适合开采铜矿*",
 	tasks: [{
 		uid: "df0d5fff",
 		type: "item",

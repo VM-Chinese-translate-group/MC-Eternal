@@ -1,8 +1,8 @@
 {
-	title: "Jaffa Factory",
+	title: "伽法工厂",
 	x: 0.0d,
 	y: 0.0d,
-	description: "&oShould only take about 93 episodes or so",
+	description: "&o大概只会演个93集吧",
 	tasks: [{
 		uid: "b124de0c",
 		type: "item",
@@ -48,7 +48,7 @@
 					id: 19
 				}],
 				display: {
-					Name: "Compliance Stick"
+					Name: "戒棍"
 				}
 			}
 		}

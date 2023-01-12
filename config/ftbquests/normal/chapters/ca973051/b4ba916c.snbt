@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -14.0d,
-	description: "&o1000°C Knife",
+	description: "&o1000°C 的剑", 
 	dependencies: [
 		"d592428b",
 		"7e91214b"

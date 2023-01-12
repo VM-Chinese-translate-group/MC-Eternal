@@ -1,5 +1,5 @@
 {
-	title: "&1&lDragon Slayer",
+	title: "&1&l屠龙者",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -8,14 +8,14 @@
 	},
 	x: 2.0d,
 	y: 2.0d,
-	description: "Ice",
+	description: "冰",
 	text: [
-		"Slay x100 Dragons"
+		"击杀 龙 x100 "
 	],
 	tasks: [{
 		uid: "43666e43",
 		type: "kill",
-		title: "Dragon Slayer",
+		title: "屠龙者",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

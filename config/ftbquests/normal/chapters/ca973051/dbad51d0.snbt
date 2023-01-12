@@ -1,8 +1,8 @@
 {
-	title: "Go back to the Overworld",
+	title: "回到主世界",
 	x: -4.5d,
 	y: -5.0d,
-	description: "Home sweet home. Find Eternal Fabric to escape!",
+	description: "啊！温馨的家！找到永恒布料并逃离此处！",
 	dependencies: [
 		"c24f1670"
 	],

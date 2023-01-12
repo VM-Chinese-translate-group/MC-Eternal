@@ -1,7 +1,7 @@
 {
 	x: 2.0d,
 	y: 0.0d,
-	description: "Master all forms of magic!",
+	description: "掌握所有形式的魔法！",
 	tasks: [{
 		uid: "12423c09",
 		type: "item",

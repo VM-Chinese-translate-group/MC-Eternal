@@ -1,16 +1,16 @@
 {
-	title: "The Twilight Lich",
+	title: "暮色巫妖",
 	x: -12.0d,
 	y: -9.0d,
 	shape: "diamond",
-	description: "&oIn the depths of the Twilight Forest lay tall Towers, they almost seem like some sort of Fortress... Who is their master?",
+	description: "&o高大的塔楼，坐落在暮色森林的深处，他们看起来几乎就像是一种要塞。。。。 我想知道谁是塔楼的主人？",
 	dependencies: [
 		"29350f39"
 	],
 	tasks: [{
 		uid: "cba4d362",
 		type: "advancement",
-		title: "Advancement: &eBring Out Your Dead",
+		title: "进度: &e巫妖猎人",
 		icon: "twilightforest:miniature_structure 1 6",
 		advancement: "twilightforest:progress_lich",
 		criterion: ""
@@ -38,11 +38,11 @@
 			tag: {
 				display: {
 					Lore: [
-						"The Crown of the Twilight Lich, plus a Skull.",
-						"You probably shouldn't place this...",
-						"§dExclusive Twilight Relic"
+						"暮色巫妖的皇冠，外加一个骷髅头。",
+						"你可能不该把他放置出来。。。",
+						"§d暮色森林独家遗物"
 					],
-					Name: "§6§lLich's Skull-crown"
+					Name: "§6§l巫妖的骷髅头冠"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 439567,
@@ -51,7 +51,7 @@
 					Slot: "head",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Lich's Power"
+					Name: "巫妖之力！"
 				},
 				{
 					UUIDMost: 439567,
@@ -60,7 +60,7 @@
 					Slot: "head",
 					AttributeName: "potioncore.magicDamage",
 					Operation: 1,
-					Name: "Lich's Power"
+					Name: "巫妖之力！"
 				}]
 			},
 			Damage: 1s

@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: -14.0d,
-	description: "&oMystery... Meat? &7&l*Place 8 together and sprinkle on Redstone Dust for a self-regenerating \"Cake\"*",
+	description: "&o神秘的......肉？ &7&l*将8个放在一起（右键），并撒上红石粉（右键），即可获得能自动再生的蛋糕。*",
 	dependencies: [
 		"7e91214b"
 	],
