@@ -1,6 +1,6 @@
 #packmode normal
 
-print("--- loading Mekanism.zs ---");
+print("--- 加载 Mekanism.zs ---");
 
 #Remove Item(s)
 recipes.remove(<mekanism:salt>);
@@ -16,6 +16,6 @@ recipes.addShaped(<mekanismgenerators:reactor>, [[<mekanism:controlcircuit:3>, <
 recipes.addShaped(<mekanismgenerators:generator:3>, [[<mekanism:clump:2>, <mekanism:atomicalloy>, <mekanism:clump:2>], [<futuremc:netherite_block>, <mekanism:electrolyticcore>, <futuremc:netherite_block>], [<mekanism:clump:2>, <mekanism:atomicalloy>, <mekanism:clump:2>]]);
 
 #Info
-<mekanismgenerators:reactor>.addTooltip(format.gold("Only requires one Chemical Reactor for recipe"));
+<mekanismgenerators:reactor>.addTooltip(format.gold("配方只需要一个化学反应器"));
 
-print("--- Mekanism.zs initialized ---");	
+print("--- Mekanism.zs 载入 ---");	

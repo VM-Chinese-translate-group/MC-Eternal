@@ -1,8 +1,8 @@
 {
-	title: "&6Fishing, Fishing, Fishing!",
+	title: "&6鱼！钓鱼！钓鱼！",
 	x: 1.5d,
 	y: 0.3d,
-	description: "&oSuch strange creatures, the fish here appear to be inbetween life and death. I should collect samples.",
+	description: "&o如此奇怪的生物，这里的鱼似乎处于生死之间。我应该收集些样本带走。",
 	dependencies: [
 		"cac64582"
 	],

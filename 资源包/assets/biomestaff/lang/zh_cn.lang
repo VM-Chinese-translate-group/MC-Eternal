@@ -1,0 +1,6 @@
+item.biomestaff:biome_staff.name=群系权杖
+item.biomestaff:obsidian_shaft.name=黑曜石手柄
+item.biomestaff:top_plate.name=群系权杖顶板
+itemGroup.biomestaff=群系权杖
+
+jei.biomestaff:biome_staff.desc=蹲下右键方块设置生物群系。右键方块以设置生物群系。蹲下右键空气以重置staff.ian轴

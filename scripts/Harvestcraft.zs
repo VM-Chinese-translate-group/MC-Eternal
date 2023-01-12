@@ -1,6 +1,6 @@
 #MC Eternal Scripts
 
-print("--- loading Harvestcraft.zs ---");
+print("--- 加载 Harvestcraft.zs ---");
 
 var pamgarden = ["arid","frost","shaded","soggy","tropical","windy"] as string[];
 
@@ -8,7 +8,7 @@ var pamgarden = ["arid","frost","shaded","soggy","tropical","windy"] as string[]
 recipes.addShaped(<harvestcraft:toastitem>, [[<ore:cropCinnamon>, <dungeontactics:toast>]]);
 recipes.removeShapeless(<harvestcraft:plainyogurtitem> * 4, [<harvestcraft:plainyogurtitem>, <minecraft:leather>]);
 for gardens in pamgarden {
-	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("Disabled, purchase Harvestcraft seeds from the Farming for Blockheads Market"));
+	itemUtils.getItem("harvestcraft:"~gardens~"garden").addTooltip(format.red("已禁用，请从农场贸易的农贸市场中购买潘马斯农场中的种子"));
 }
 
 //Recipes for Uncraftable Pam's foods
@@ -47,4 +47,4 @@ recipes.addShapeless("schnitzel_mce", <harvestcraft:schnitzelitem>, [<ore:toolSk
 //Imitation Crab Sticks
 recipes.addShapeless("imitationcrabsticks_mce", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>.reuse(), <ore:cropWheat>, <ore:listAllfishcooked>, <ore:listAllegg>, <ore:dyeRed>]);
 
-print("--- Harvestcraft.zs initialized ---");	
+print("--- Harvestcraft.zs 载入 ---");	
