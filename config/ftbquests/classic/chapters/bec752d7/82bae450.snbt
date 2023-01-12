@@ -1,13 +1,14 @@
 {
-	title: "&4Penance of the Leadened Soul",
+	title: "&4沉重灵魂的忏悔",
 	x: -4.0d,
 	y: 26.5d,
-	description: "&oSteel Soul",
+	description: "&o钢魂",
 	text: [
-		"&7The &4Penance of the Leadened Soul&7 allows the creation of &4Downgrade Tomes&7, which will hamper your abilities, but add more &6Upgrade Points&7.",
+		"&4沉重灵魂的忏悔&7会给予你&4束灵盔甲降级手册&7，这种“强化”会削弱你的某些能力，但是会返还你一些&6升级点数&7。",
 		"",
-		"&cYou cannot simply stack a &6Downgrade&c and its &6Upgrade&c variant for free stats.",
-		"&7The cost of the Upgrade outweighs the Downgrade's Bonus, and the potency of a Downgrade is stronger than an Upgrade's."
+		"&c你不能通过加装一个&6降级&c再加另一个&升级&c来白嫖升级点数。（PS：白嫖达咩！）",
+		"&7升级带来的加成永远没有同等降级带来的减益猛，降级带来的额外点数永远没有一个同等升级消耗的多。",
+		"（病来如山倒，病走如抽丝）"
 	],
 	dependencies: [
 		"a146eff2",

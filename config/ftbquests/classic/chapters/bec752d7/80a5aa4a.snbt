@@ -1,12 +1,12 @@
 {
-	title: "Colors of Power",
+	title: "光谱之力",
 	x: 3.5d,
 	y: -17.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&oStarlight&7&o is a strange power indeed, and by infusing a regular &9&oGlass Lens&7&o with some reagents, you can alter the properties of a beam of Starlight emitted from a &9&oLens&7&o or &9&oPrism Lens&7&o...",
+		"&o星能&7&o中蕴含着强大的力量，使用不同颜色的&9&o彩色透镜&7&o可以激发这股力量中的部分。你可以为&9&o透镜&7&o或&9&o棱镜&7&o装上彩色透镜。",
 		"",
-		"Most of them are fairly self-explanatory by their reagents, but &5&oSpectral&7&o is less so, it will allow &r&oStarlight&7&o beams to be redirected through Walls, but at a cost to the potency of the beam..."
+		"大部分彩色透镜可以通过合成材料来推测出作用，但&5&o汇聚透镜l&7&o除外，它可以让&r&o星能&7&o虚化，获得穿过方块的能力，代价是会减弱这术星能的力量。"
 	],
 	dependencies: [
 		"d5074b4b"
@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "3209379f",
 		type: "item",
-		title: "Any &9Colored Lens",
+		title: "随便一个&9彩色透镜",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

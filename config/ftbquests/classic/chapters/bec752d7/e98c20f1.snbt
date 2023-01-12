@@ -1,14 +1,15 @@
 {
-	title: "&4Tome of Peritia",
+	title: "&4经验手册",
 	x: 5.0d,
 	y: 26.0d,
-	description: "&oBook of Experiences",
+	description: "&o对，就是经验书",
 	text: [
-		"&7The &4Tome of Peritia&7 is a Book which can store your &aExperience&7.",
+		"&4经验手册&7可以为你存储&a经验&7。",
 		"",
-		"&cSneak+Right-click&7 to store XP, &cRight-click&7 to withdraw XP.",
+		"&cshift右击&7以存储经验，&右击&7为取出经验。",
 		"",
-		"&cXP Orbs&7 you pick up will automatically be stored to the Tome if carried."
+		"&c经验球s&7会在被你拾取的一瞬间直接进入手册。",
+		"&7（PS：这本书存储经验的量是无上限的，可以无限存储，只要你想）"
 	],
 	dependencies: [
 		"382cc3a8"

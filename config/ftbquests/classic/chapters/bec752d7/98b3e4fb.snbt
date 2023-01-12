@@ -1,5 +1,5 @@
 {
-	title: "&4Blood Altar - Tier II",
+	title: "&4血之祭坛 2层",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -8,16 +8,17 @@
 	},
 	x: 5.0d,
 	y: 19.5d,
-	description: "&oBloodier Altar",
+	description: "&o更加鲜红的献祭",
 	text: [
-		"&7The first Upgrade to your &4Blood Altar&7, simply place the 8 Runes in a Ring below the Altar.",
+		"&7这将是你&4血之祭坛&7的第一次升级，只需要8个符文就够了。",
 		"",
-		"&cNot sure what that means? See the Quest &4\"Altarmaker's Manual\"&c.",
+		"&c不知道怎么搭建？请看任务&4“血之祭坛建筑师必备手册”&c。",
 		"",
-		"&4What you need:",
-		"&68x&c Blank Rune",
+		"&4那么，为了升级祭坛，你将需要：",
+		"&68个空白符文",
 		"",
-		"Effects of Runes placed at the &cCorners&7 of the Ring are ignored until the next Tier."
+		"&m组成二级祭坛的符文无论是什么符文，其效果都将被&c&m忽略&7。",
+		"（PS：这一段作者就在纯纯的扯淡，实际上组成第二层祭坛的符文也是会生效的！）"
 	],
 	dependencies: [
 		"8dc4ca66"

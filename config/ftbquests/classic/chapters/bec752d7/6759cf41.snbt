@@ -1,7 +1,10 @@
 {
 	x: 11.5d,
 	y: 9.5d,
-	description: "Tastes pretty good I suppose... Sorta miss being able to drink orange juice though.. *sad vampire noises*",
+	description: "尝起来挺好……但是我还是很还念和橙汁的日子…… *某悲伤的吸血鬼的骂骂咧咧*",
+	text: [
+		""
+	],
 	dependencies: [
 		"f09ba446"
 	],

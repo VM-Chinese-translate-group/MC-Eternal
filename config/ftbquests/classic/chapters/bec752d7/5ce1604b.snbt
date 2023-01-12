@@ -1,16 +1,16 @@
 {
-	title: "Empowered Crystalline Tools",
+	title: "充能水晶石工具",
 	x: 5.5d,
 	y: -19.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oVariants of the &9&oCrystal Tools&7&o with potent, unique powers...",
-		"These powers are very great, they need a bit of time to recharge...",
+		"&7&o这是&9&o水晶石工具&7&o的强化版本，有着独特的力量。",
+		"这种力量实在是太强大了，导致每次使用都有一段冷却时间，有的长有的短。",
 		"",
-		"The &9&oSword&7&o will cause a blast of Light on impact with a target, dealing great damage to the target...",
-		"The &9&oPickaxe&7&o can divinate for Ores with a &d&oRight-click&7&o...",
-		"The &9&oAxe&7&o will chop entire Trees with one slice at a block, and transfer the items which would be loose to the user...",
-		"The &9&oShovel&7&o will clear large masses of material with an exposed surface, and transfer the items which would be loose to the user..."
+		"&9&o充能水晶石剑&7&o可以用锋锐的星能撕裂一大片范围内的生物的躯体。",
+		"&9&o充能水晶石镐&7&d&o右击&7&o&o可以探寻周围的矿石。",
+		"&9&o充能水晶石斧&7&o可以砍伐整颗树木，并把掉落物传送到使用者的背包里。",
+		"&9&o充能水晶石锹&7&o可以粉碎一大片的方块，并把掉落物传送到使用者的背包里。"
 	],
 	dependencies: [
 		"495a6b68",
@@ -19,7 +19,7 @@
 	tasks: [{
 		uid: "4bca2a62",
 		type: "item",
-		title: "Any &9Infused Crystal Tool",
+		title: "任意&9充能水晶石工具",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

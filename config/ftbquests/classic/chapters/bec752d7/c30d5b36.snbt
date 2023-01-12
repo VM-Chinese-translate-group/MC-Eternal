@@ -1,7 +1,10 @@
 {
 	x: 28.0d,
 	y: 5.5d,
-	description: "Can capture and release Aura when running over a Activator Rail. The possibilities are endless...",
+	description: "经过被红石充能的激活铁轨后开始从区块吸收灵气，再次经过激活铁轨就会释放灵气",
+	text: [
+		""
+	],
 	dependencies: [
 		"04abbede"
 	],

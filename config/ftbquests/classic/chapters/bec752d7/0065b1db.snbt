@@ -1,11 +1,11 @@
 {
-	title: "&4Gathering Will",
+	title: "&4掠夺恶魔意志",
 	x: 5.0d,
 	y: 14.0d,
 	shape: "octagon",
-	description: "&oBeginning of Blood Magic",
+	description: "&o血色征途起航",
 	text: [
-		"&7Throw &4Rudimentary Snares&7 at a &cHostile mob&7 until it gets a particular Effect, then kill it, it should drop &bDemonic Will&7."
+		"&7投掷&4原始投网&7以束缚&c敌对生物&7的恶魔意志，在它们被投网束缚的时间里解决它们，以获得 &b恶魔意志&7。"
 	],
 	tasks: [{
 		uid: "9066b169",

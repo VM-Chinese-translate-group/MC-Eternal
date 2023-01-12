@@ -1,7 +1,10 @@
 {
 	x: 16.5d,
 	y: -6.0d,
-	description: "Mana to Crops! *Read the Lexica Botania for more Info*",
+	description: "魔力生长激素！*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"e28ecb15"
 	],

@@ -1,7 +1,10 @@
 {
 	x: 14.5d,
 	y: 6.5d,
-	description: "The blade itself hungers and thirsts for the blood of innocent creatures full of life and energy. Until you happen to stumble upon them... no life remains... only a drained husk....",
+	description: "这把刀渴求鲜血，渴求与心脏亲密交流……至于现在……额，好吧，只是一具干枯的外壳",
+	text: [
+		""
+	],
 	dependencies: [
 		"6ea69893"
 	],

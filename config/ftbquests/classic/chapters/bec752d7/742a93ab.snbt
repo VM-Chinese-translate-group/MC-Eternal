@@ -1,10 +1,11 @@
 {
-	title: "&4Reverence of the Condor",
+	title: "&4憧憬之鹰",
 	x: 13.0d,
 	y: 27.0d,
-	description: "&oTaking Flight! with limits",
+	description: "&o笼中鸟，但也足够了",
 	text: [
-		"&7The &4Reverence of the Condor&7 allows &cCreative Flight&7 in a large radius around it, for a steep Activation Cost of &c1,000,000LP&7, and a constant drain of &c10LP/s&7."
+		"&4憧憬之鹰&7可以为很大一片区域内的玩家提供&c创造飞行&7，但是你需要高达&c1,000,000LP&7,来激活它，并且它会以&c10LP/秒&7的速度消耗LP维持自身运作。",
+		"（评价：不如虚御座效应放大器，且不需要消耗LP维持自身运作，作者又开始扯淡了，相当于用100wLP换一个区域永久飞行）"
 	],
 	dependencies: [
 		"24209710",

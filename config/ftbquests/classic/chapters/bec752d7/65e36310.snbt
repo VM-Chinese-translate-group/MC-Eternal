@@ -1,7 +1,10 @@
 {
 	x: 26.0d,
 	y: 3.5d,
-	description: "A Mob Spawn-blocking device that runs on Aura!",
+	description: "巨型火把——自然灵气特供版",
+	text: [
+		""
+	],
 	dependencies: [
 		"d2482a49"
 	],

@@ -1,10 +1,11 @@
 {
-	title: "&4Dagger of Sacrifice",
+	title: "&4献祭刀",
 	x: 9.0d,
 	y: 20.0d,
-	description: "&oTaking Life",
+	description: "&o为了我的大业，去死",
 	text: [
-		"&7The &4Dagger of Sacrifice&7 is used to &cSacrifice&7 mobs near your &4Blood Altar&7, killing them and providing LP to the Altar, but it won't work on everything..."
+		"&4献祭刀&7用于&c献祭&你周围的生物，并它们的血液注入&4血之祭坛&7，但是，并不是所有的生物都能心甘情愿的被献祭……",
+		"（boss生物不行，玩家不行，其他的基本可以）"
 	],
 	dependencies: [
 		"98b3e4fb"

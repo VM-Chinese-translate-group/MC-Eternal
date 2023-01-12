@@ -1,22 +1,22 @@
 {
-	title: "&4Ritual Tinkerer",
+	title: "&4仪式调节钳",
 	x: 10.5d,
 	y: 21.0d,
 	shape: "octagon",
-	description: "&oArcanist's Construct",
+	description: "&o血法师的扳手",
 	text: [
-		"&7The &4Ritual Tinkerer&7 is a useful tool when working with &cRituals&7.",
+		"&4仪式调节钳&7是用来调整&c仪式&7的工具。",
 		"",
-		"It has three Modes, they are as follows:",
+		"它有三种模式，分别是：",
 		"",
-		"&4Set Will Consumed&7",
-		"Determines what types of &bDemonic Will&7 a Ritual is allowed to draw from the Aura, based on what Will Crystals are in your Hotbar.",
+		"&4调整意志消耗&7",
+		"根据你的物品栏里的意志晶体的（注意是晶体）&b恶魔意志&7类型，确定在仪式激活时，会从恶魔灵域里吸收什么种类的意志。",
 		"",
-		"&4Define Area&7",
-		"Allows setting the AoE of the Ritual to something offset, smaller, or sometimes larger.",
+		"&4定义区域&7",
+		"将仪式的作用范围移位，变大，或者变小。",
 		"",
-		"&4Information&7",
-		"Provides Information about the Effects of different &bWill&7 types on the active Ritual."
+		"&4信息&7",
+		"告诉你被不同&b意志&7强化后的仪式会有什么效果。"
 	],
 	dependencies: [
 		"40cdcd64"

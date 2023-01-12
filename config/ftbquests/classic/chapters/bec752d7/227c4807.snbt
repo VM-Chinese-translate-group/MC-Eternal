@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "10dd817d",
 		type: "advancement",
-		title: "Slay a Vampire Baron",
+		title: "解决掉一只吸血鬼伯爵，王侯将相宁有种乎？",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

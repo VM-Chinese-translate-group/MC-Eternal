@@ -1,5 +1,5 @@
 {
-	title: "&4Blood Altar",
+	title: "&4血之祭坛",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -8,15 +8,15 @@
 	},
 	x: 7.0d,
 	y: 16.5d,
-	description: "&oThe Great Sacrifice",
+	description: "&o伟大的献祭",
 	text: [
-		"&7The &4Blood Altar&7 is the core of &cBlood Magic&7.",
+		"&4血之祭坛&7是&c血魔法&7的核心物品。",
 		"",
-		"Accumulate LP inside of it by &cSacrifing your own Health&7, or later, &cthe Health of Mobs&7, and use that LP to Infuse various items and transform them into others.",
+		"通过&c小刀剌手指&7或者别的什么，又或者&c献上无辜者的鲜血&7，总之用随便什么方法为祭坛充入LP，并使用LP转化物品。",
 		"",
-		"&cUpgrade the Altar&7 as you progress to unlock more potential, in the form of new Recipes, and more space for &4Runes&7.",
+		"随着你对鲜血的崇敬愈发深刻，&c升级祭坛&7是必然的，这将会解锁新的合成配方，以及可以装上更多的&4符文&7。",
 		"",
-		"&cRight-click&7 with the &4Sacrifical Dagger&7 while standing near your &4Blood Altar&7 to add LP from your Health."
+		"站在你的&4血之祭坛&7附近手持&4牺牲匕首&c右击&7，就会让你的鲜血流入祭坛。"
 	],
 	dependencies: [
 		"0065b1db"

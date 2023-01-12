@@ -1,9 +1,12 @@
 {
-	title: "Localized Nocturne",
+	title: "至纯的黑暗",
 	x: 4.0d,
 	y: -11.5d,
 	shape: "octagon",
-	description: "&oThrow this powder with &d&oRight-click&7&o to create a temporary area of Darkness... Foes will appear rapidly in this area, this can be used to your benefit in several ways...",
+	description: "&o按下&d&o鼠标右键&7&o扔出后就可以创造一片纯净的黑暗，这会导致敌对生物们大量滋生（会根据当前生物群系能生成的敌对生物来生成）。不过这种黑暗难以久存。（可以用来获得某些珍贵生物的掉落物）",
+	text: [
+		""
+	],
 	dependencies: [
 		"d1926643"
 	],

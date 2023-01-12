@@ -1,17 +1,17 @@
 {
-	title: "&4Bound Arsenal",
+	title: "&4束缚工具",
 	x: -2.5d,
 	y: 21.0d,
-	description: "&oDestruction Unbound!",
+	description: "&o不守承诺者终将灭亡！",
 	text: [
-		"&4Bound Tools&7 are capable of clearing large swaths of land in moments using their Drawback ability, simply hold &cRight-click&7, and release when desired.",
+		"&4束缚工具&7拥有者足以在顷刻间摧毁铲除整片大地的力量，这仅仅只需要轻轻的&c右击&7，然后松开你的手……",
 		"",
-		"When releasing, a Radius centered on you will be cleared of Blocks the Tool is effective on, with the Size depending on how charged the Tool was.",
-		"&cThis power consumes a LOT of LP&7"
+		"释放这股力量后，世界留下的记忆将会改变，正如我们每一个人在世事的某一刻永久的改变了回忆，虽然当时我们可能不自知，就如同这片被我们改变的土地一样。",
+		"&c释放这股力量需要巨大的LP！（因此如果你没有足够的LP支撑，这股足以荡平一切的力量的矛头会转向你……）&7"
 	],
 	dependencies: [
-		"00db699e",
-		"5ac9b4a2"
+		"393c6058",
+		"00db699e"
 	],
 	tasks: [{
 		uid: "53b3e70c",

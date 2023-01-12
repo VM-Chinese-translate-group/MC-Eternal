@@ -1,9 +1,12 @@
 {
-	title: "Seeking Wisdom",
+	title: "侍奉知识",
 	x: 2.5d,
 	y: -5.0d,
 	shape: "hexagon",
-	description: "*Accepts any full set of Sage Armor*",
+	description: "*制作全套贤者盔甲*",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"9ca732bb"
@@ -12,7 +15,7 @@
 	tasks: [{
 		uid: "08148836",
 		type: "item",
-		title: "Sage Hat",
+		title: "贤者帽",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
@@ -75,7 +78,7 @@
 	{
 		uid: "b21202d5",
 		type: "item",
-		title: "Sage Robes",
+		title: "贤者长袍",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
@@ -138,7 +141,7 @@
 	{
 		uid: "621dcece",
 		type: "item",
-		title: "Sage Leggings",
+		title: "贤者护腿",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
@@ -201,7 +204,7 @@
 	{
 		uid: "21bc7d64",
 		type: "item",
-		title: "Sage Boots",
+		title: "贤者靴子",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

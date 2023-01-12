@@ -9,11 +9,14 @@
 	x: -1.0d,
 	y: -3.5d,
 	shape: "diamond",
-	description: "Murder 100 Wizards",
+	description: "杀死100位无辜的巫师（你指定有点毛病）",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "61a7c096",
 		type: "kill",
-		title: "Mage Hunter",
+		title: "狩巫人",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

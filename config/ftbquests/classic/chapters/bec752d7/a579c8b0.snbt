@@ -1,8 +1,11 @@
 {
-	title: "Mmmh Tasty!",
+	title: "emmm……还不错？",
 	x: 15.0d,
 	y: 8.0d,
-	description: "Fast food but for Vampires",
+	description: "吸血鬼的华莱士（不会窜的放心）",
+	text: [
+		""
+	],
 	dependencies: [
 		"b2809ac9"
 	],

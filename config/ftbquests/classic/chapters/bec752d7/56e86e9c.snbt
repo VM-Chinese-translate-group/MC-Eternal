@@ -1,8 +1,11 @@
 {
-	title: "Master Wand",
+	title: "大师魔杖",
 	x: 5.0d,
 	y: 2.0d,
-	description: "*Accepts any Master Wand*",
+	description: "*随便什么属性的大师魔杖*",
+	text: [
+		""
+	],
 	dependencies: [
 		"1aa705b9"
 	],
