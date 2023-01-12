@@ -12,7 +12,7 @@
 	x: -2.5d,
 	y: 0.5d,
 	shape: "diamond",
-	description: "终于！我可以把我数十亿计的RF用掉了。。。",
+	description: "终于！我可以把我数以十亿计的RF用掉了……",
 	can_repeat: true,
 	dependencies: [
 		"fa85c35a"
