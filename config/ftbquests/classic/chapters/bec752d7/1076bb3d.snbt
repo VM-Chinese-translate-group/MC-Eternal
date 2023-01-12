@@ -1,7 +1,10 @@
 {
 	x: 2.0d,
 	y: -3.5d,
-	description: "You've discovered some ancient scrolls... ",
+	description: "你找到了一些暮色独有的法术……",
+	text: [
+		""
+	],
 	dependencies: [
 		"ac54b30d"
 	],
@@ -18,7 +21,7 @@
 	rewards: [{
 		uid: "8a8df4fa",
 		type: "item",
-		title: "Ancient Scroll",
+		title: "暮色法术卷轴",
 		item: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -30,7 +33,7 @@
 	{
 		uid: "2abb7683",
 		type: "item",
-		title: "Ancient Scroll",
+		title: "暮色法术卷轴",
 		item: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -42,7 +45,7 @@
 	{
 		uid: "2b3f0e34",
 		type: "item",
-		title: "Ancient Scroll",
+		title: "暮色法术卷轴",
 		item: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

@@ -1,5 +1,5 @@
 {
-	title: "The Portal to Alfheim",
+	title: "艾尔夫海姆的传送门",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -9,11 +9,11 @@
 	},
 	x: 15.0d,
 	y: -7.5d,
-	description: "Used to trade Overworldly Botanical resources with the Elves of Alfheim, in order to acquire Elven resources. *Read the Lexica Botania for more Info, including how to build*",
+	description: "与上古之时遁入艾尔夫海姆避难的精灵们交换知识，交换资源*详见植物魔法辞典，包括如何建造它*",
 	text: [
-		"Unfortunately, you can't go through it :(",
+		"很不幸的告诉你，身为主世界的生灵，你不能穿过这扇门去艾尔夫海姆度假 :(",
 		"",
-		"I wonder if they like Bread?"
+		"我猜精灵们应该和我们一样喜欢吃面包，要不送他们点？"
 	],
 	dependencies: [
 		"59dd41e8"

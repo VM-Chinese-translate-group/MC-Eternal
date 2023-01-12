@@ -1,18 +1,18 @@
 {
-	title: "&4Ritual Time!",
+	title: "&4仪式时间",
 	x: 11.0d,
 	y: 23.5d,
 	shape: "octagon",
-	description: "&oREAL Blood Magic",
+	description: "&o这才是血魔法的精髓所在",
 	text: [
-		"&4Rituals&7 are Constructs which can have various, potentially potent effects on Mobs, Players, and the World.",
+		"&4仪式&7是一种可以对改变周围事物的多方块结构。",
 		"",
-		"There are &cmany different Rituals&7, some may not be useful to all Players, some may replace Machines, and some act as an equivalent other things.",
+		"&c有很多很多很多不同的仪式&7，有些可能没什么用，有些可以取代部分机器，有一些则是可以作为某种东西的替代品。",
 		"",
-		"A few Quests after this one will go over some potentially very useful Rituals.",
+		"任务里介绍了一些仪式，它们是作者觉得还算有用的。",
 		"",
-		"&cQuests for Rituals that require an &4Awakened Activation Crystal&c to Activate or &4Dusk Runes&c to Build will be locked unless you complete the respective Quests!",
-		"This applies to Ritual quests elsewhere in the Questline!"
+		"&c需要&4觉醒激活水晶&c激活与&4薄暮仪式推测杖&c 搭建的仪式将被隐藏，除非你完成对应任务",
+		"这条信息对其他的仪式介绍任务同样有效。"
 	],
 	dependencies: [
 		"b61df414",

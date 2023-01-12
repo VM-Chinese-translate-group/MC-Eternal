@@ -1,10 +1,10 @@
 {
-	title: "Empowered Enchantments",
+	title: "升级附魔",
 	x: 1.0d,
 	y: -17.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThe &9&oResplendent Prism&7&o is an Amulet which can &d&oEmpower the strength of Enchantments on Held and Worn items&7&o, but only for as long as it is equipped, or the items are..."
+		"&9&o璀璨棱镜&7&o是一种可以提升&d&o身上装备和物品的附魔等级&7&o的饰品，但是想要刷出全属性或者你喜欢属性的棱镜，可能需要巨大的物力和财力……还有时间……"
 	],
 	dependencies: [
 		"d5074b4b"

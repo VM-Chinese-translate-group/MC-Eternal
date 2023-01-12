@@ -1,10 +1,11 @@
 {
-	title: "&4Well of Suffering",
+	title: "&4苦难之井",
 	x: 10.0d,
 	y: 25.0d,
-	description: "&oYou will Suffer...",
+	description: "&o在痛苦中诞生……",
 	text: [
-		"&7The &4Well of Suffering&7 is a Ritual which slowly &cSacrifices&7 Creatures in its AoE, &cdealing Damage and depositing LP into the nearest &4Blood Altar&7."
+		"&4苦难之井&7是一个大范围&c献祭&7的仪式， &c它会缓慢撕裂周围生物的肉体，并将其转化为LP存入&4血之祭坛&7。",
+		"（血魔法必备仪式之一，你可以配合匠魂黄泉土之类的东西制造一个无限血液来源）"
 	],
 	dependencies: [
 		"24209710",

@@ -1,8 +1,11 @@
 {
-	title: "Blossoming with Potential!",
+	title: "没有你做不到，只有你想不到！",
 	x: 15.0d,
 	y: -12.5d,
-	description: "Botania has a lot more features to it than what this questline explores, and a ton of potential for Automation, especially after you've built the Portal to Alfheim, explore it! And read the Lexica Botania, it's an amazing guide!",
+	description: "再次重申一遍，植物魔法是个科技模组，如果你觉得你击败了盖亚2就已经屹立在植物魔法之巅，那你可大错特错了。自动化才是这个模组的精髓，只要你的思维足够灵活，意志足够坚定，你将用手中的花朵打造一个属于你的“工业”帝国，那么，深呼吸。再一次翻开《植物魔法辞典》吧，如今的你应该知道，这是一本好书，永远都是。",
+	text: [
+		""
+	],
 	dependencies: [
 		"58da21b0"
 	],

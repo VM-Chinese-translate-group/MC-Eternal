@@ -1,10 +1,10 @@
 {
-	title: "&4Divination Sigil",
+	title: "&4占卜印记",
 	x: 3.5d,
 	y: 18.5d,
-	description: "&oSee into your Soul... Network",
+	description: "&o窥视你的灵魂……网络（）",
 	text: [
-		"&7The &4Divination Sigil&7 allows the user to see the amount of &cLP&7 stored in their &cSoul Network&7 or a &4Blood Altar&7 with a &cRight-click&7."
+		"&4占卜印记&7可以让使用者看见他们&c灵魂网络&7里的&cLP&7和&4血之祭坛&7的具体信息，查看灵魂网络请&c右击&7。"
 	],
 	dependencies: [
 		"5ac9b4a2",

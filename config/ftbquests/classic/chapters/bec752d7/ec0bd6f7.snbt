@@ -1,8 +1,11 @@
 {
-	title: "Magic Wand",
+	title: "魔杖",
 	x: 2.0d,
 	y: -1.0d,
-	description: "*Accepts any form of Novice wand*",
+	description: "*随便一个什么属性的魔杖，你喜欢就好*",
+	text: [
+		""
+	],
 	min_required_dependencies: 1,
 	dependencies: [
 		"99f28356"

@@ -1,14 +1,14 @@
 {
-	title: "Shove Starlight in it",
+	title: "汇聚群星之力",
 	x: 2.0d,
 	y: -19.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThis device will infuse objects with raw &r&oLiquid Starlight&7&o placed in the &6&oMultiblock construct&7&o it requires...",
-		"Set the object to Infuse on the Infuser with &d&oRight-click&7&o, then begin the infusing process by &d&oRight-clicking&7&o with a &9&oResonating Wand&7&o...",
-		"You you can take objects off by &d&oSneak+Right-clicking&7&o the Infuser with nothing your hand...",
+		"&7&o这是一种将&r&o星能液&7&o中的星能注入物品的&6&o多方块结构&7&o。",
+		"手持物品&d&o右击&7&o将其放上去，之后手持&9&o共鸣星杖&7&o&d&o右击&7&o开始合成。",
+		"使用&d&oshift右击&7&o可以简单单击星能聚合器，而不与物品交互。",
 		"",
-		"Perhaps there is a way to cause it to draw from another source of &r&oLiquid Starlight&7&o..."
+		"应该有什么方法可以遏制&r&o星能液&7&o的消耗……"
 	],
 	dependencies: [
 		"d5074b4b"

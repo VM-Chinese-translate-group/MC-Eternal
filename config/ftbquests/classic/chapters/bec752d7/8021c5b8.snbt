@@ -1,8 +1,11 @@
 {
-	title: "Reach max level as a vampire hunter",
+	title: "成为终极猎人（升到14级，别问我15级怎么升，我不告诉你略略略）",
 	x: 18.0d,
 	y: 12.5d,
 	shape: "octagon",
+	text: [
+		""
+	],
 	dependencies: [
 		"6931cfe5"
 	],

@@ -8,7 +8,7 @@
 	tasks: [{
 		uid: "362a17a5",
 		type: "advancement",
-		title: "&6Reach Starlight Level 30",
+		title: "&6将星能力修炼到30级",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

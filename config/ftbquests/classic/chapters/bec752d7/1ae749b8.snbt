@@ -1,5 +1,5 @@
 {
-	title: "Become a Vampire Hunter",
+	title: "成为吸血鬼猎人",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -8,6 +8,9 @@
 	},
 	x: 12.5d,
 	y: 12.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"fee8fa16"
 	],

@@ -1,13 +1,14 @@
 {
-	title: "Starlight Conflicts",
+	title: "星能干扰",
 	x: 3.75d,
 	y: -13.125d,
 	shape: "pentagon",
-	description: "&l*Read Description!*",
+	description: "&l*阅读须知!*",
 	text: [
-		"&7&oMultiple sources of &r&oStarlight&7&o in close proximity will not utilize the full potential, and will infact harm the maximum potential of each &r&oStarlight&7&o source...",
-		"This force is called &d&oStarlight Cannibalization&7&o, and it is a gradual force based on the distance between the &r&oStarlight&7&o sources, not an All-or-Nothing one...",
-		"The distance at which &r&oStarlight&7&o sources will not conflict at all is around &6&o16 Meters (blocks)&7&o..."
+		"&7&o多个&r&o星能&7&o源头在一起的时候会互相干扰，导致无法发挥最强的&r&o星能&7&o聚集作用……",
+		"这种现象被称之为&d&o星能衰减&7&o，是由&r&o星能&7&o这一粒子之间相互作用的力导致的，这种力不同于常规的作用力。但是，这并不会导致星能完全消失，只是减弱而已。",
+		"这种现象发生在两个&r&o星能&7&o源头之间的距离少于&6&o16个方块&7&o导致的。",
+		"（PS：光波增幅器不受此影响，因此你随便怎么叠光波增幅器都没事，这种现象只会在聚能水晶或天体聚能水晶之间才会产生）"
 	],
 	dependencies: [
 		"ac1e0498"

@@ -1,7 +1,10 @@
 {
 	x: 2.5d,
 	y: -13.5d,
-	description: "&oYou must be Attuned and using atleast a &9&oTelescope&7&o to see the Dim lights these constellations give off...",
+	description: "&o你必须使用&9&o天文望远镜&7&o才能观测到这些暗淡的星座",
+	text: [
+		""
+	],
 	dependencies: [
 		"cab48015",
 		"d1889e3a"
@@ -9,7 +12,7 @@
 	tasks: [{
 		uid: "1d0dbae2",
 		type: "advancement",
-		title: "Discover a &dDim Constellation",
+		title: "发现一个&d暗淡的星座",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

@@ -1,7 +1,10 @@
 {
 	x: 7.0d,
 	y: 0.0d,
-	description: "*Accepts any Apprentice wand*",
+	description: "*随便什么属性的学徒魔杖*",
+	text: [
+		""
+	],
 	min_required_dependencies: 1,
 	dependencies: [
 		"66a69ac3"
@@ -9,7 +12,7 @@
 	tasks: [{
 		uid: "f3ba1426",
 		type: "item",
-		title: "Apprentice Wand",
+		title: "学徒魔杖",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

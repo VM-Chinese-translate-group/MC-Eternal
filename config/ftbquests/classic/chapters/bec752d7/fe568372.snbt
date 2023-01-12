@@ -1,14 +1,14 @@
 {
-	title: "&4Alchemy Table",
+	title: "&4炼金术桌",
 	x: 3.0d,
 	y: 16.0d,
-	description: "&oHuman? Transmutation",
+	description: "&o人体？炼成！",
 	text: [
-		"&7The &4Alchemy Table&7 uses LP from the &cSoul Network&7 a &4Blood Orb&7 socketed into it is bound to.",
+		"&4炼金术桌&7可以通过&4气血宝珠&7使用&c灵魂网络&7里的LP炼制物品。",
 		"",
-		"The &4Blood Orb&7 socketed determines what Recipes can be done.",
+		"有些特殊的合成需要更高的&4气血宝珠&7等级。（具体见JEI炼金术桌）",
 		"",
-		"&cCan be Automated."
+		"&c可以自动化，只要你想，或者你有那个闲工夫。"
 	],
 	dependencies: [
 		"8dc4ca66"
