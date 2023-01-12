@@ -20,8 +20,8 @@ for theseeds in removedSeeds {
 		mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds"));
 		mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_crop"));
 		mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_essence"));
-		itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds").addTooltip(format.red("你处于普通模式，因此此物品被禁用且无用。"));
-		itemUtils.getItem("mysticalagriculture:"~theseeds~"_essence").addTooltip(format.red("你处于普通模式，因此此物品被禁用且无用。"));
+		itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds").addTooltip(format.red("你处于 Normal 模式，因此此物品被禁用且无用。"));
+		itemUtils.getItem("mysticalagriculture:"~theseeds~"_essence").addTooltip(format.red("你处于 Normal 模式，因此此物品被禁用且无用。"));
 	}
 }
 for essenceRecipes in essenceRecipeNames {	

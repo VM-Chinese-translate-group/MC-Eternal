@@ -17,7 +17,7 @@ print("--- 加载 Tooltip.zs ---");
 <ftbquests:lootcrate>.withTag({type: "cultist"}).addTooltip(format.darkRed("第一步……穿得让人印象深刻！"));
 <ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}).addTooltip(format.gold("眼望星空，脚踏实地。——西奥多·罗斯福"));
 <mysticalagriculture:diamond_seeds>.addTooltip(format.darkPurple("完成所有神秘农业任务以解锁"));
-<mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple("完成所有 Farming 和 Agriculture 任务以解锁"));
+<mysticalagriculture:gold_seeds>.addTooltip(format.darkPurple("完成 Farming 和 Agriculture 章节全部任务以解锁"));
 <minecolonies:blockhuttownhall>.addTooltip(format.darkPurple("通过补给船或补给营地获取"));
 <ftbquests:lootcrate>.withTag({type: "cheesy_cache"}).addTooltip(format.gold("嗯，我想知道它是什么味道？……我真的是这么想的吗？你是这么想的"));
 <ftbquests:lootcrate>.withTag({type: "common_lootbox"}).addTooltip(format.gold("完成任务的随机战利品奖励"));
@@ -39,7 +39,7 @@ print("--- 加载 Tooltip.zs ---");
 <extrautils2:teleporter:1>.addTooltip(format.red("已禁用，如果你尝试使用它，将导致崩溃！请改用深渊世界和深渊世界传送门。"));
 <thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("用源质滤管右键以清洗！"));
 <thaumcraft:filter>.addTooltip(format.aqua("右键堵塞的咒波凝结器格栅以清洗！"));
-<nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4 倍总发电量！（免责声明：显示在燃料工具提示中）"));
+<nuclearcraft:fission_controller_new_fixed>.addTooltip(format.lightPurple("4 倍总发电量！（免责声明：在燃料工具提示中显示）"));
 <randomthings:spectreanchor>.addTooltip(format.red("改用墓碑绑定"));
 
 <necromancersdelight:charm_bone_bag>.addTooltip(format.red("暂时禁用，此物品将在（希望不久）将来的 MCE 版本中再次启用。"));
@@ -79,7 +79,7 @@ val thaumcuriosities = {
 for metas in thaumcuriosities {
 	itemUtils.getItem("thaumcraft:curio",metas).addTooltip(format.lightPurple("更有可能获得 "~thaumcuriosities[metas]~" 研究"));
 }
-<thaumcraft:curio:3>.addTooltip(format.darkPurple("使用时会获得一些扭曲效果！"));
+<thaumcraft:curio:3>.addTooltip(format.darkPurple("使用时会有一些扭曲效果！"));
 
 var aePresses = [
 	<appliedenergistics2:material:13>,
@@ -121,7 +121,7 @@ var candleData = {
 } as IEnchantmentDefinition[][int];
 
 for meta in candleData {
-	itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.gold("提高矩阵附魔的概率："), format.gold("按住 SHIFT 查看受影响的附魔"));
+	itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.gold("提高矩阵中部分附魔的概率："), format.gold("按住 SHIFT 查看受影响的附魔"));
 	for enchant in candleData[meta] {
 		itemUtils.getItem("quark:candle", meta).addShiftTooltip(format.aqua("- "~game.localize(enchant.name)));
 	}
