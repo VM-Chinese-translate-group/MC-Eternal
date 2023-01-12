@@ -2,7 +2,7 @@
 	x: 11.0d,
 	y: -3.0d,
 	text: [
-		"Nom Nom 饼干! Nom"
+		"Nom Nom! 美味的饼干!"
 	],
 	dependencies: [
 		"17f50c84"
