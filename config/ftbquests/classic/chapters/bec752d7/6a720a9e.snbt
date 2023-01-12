@@ -1,14 +1,14 @@
 {
-	title: "&4Imbued Runes",
+	title: "&4灌注符文",
 	x: 6.0d,
 	y: 24.5d,
-	description: "&oRunes, but more.",
+	description: "&o更多的符文",
 	text: [
-		"&4Displacement&7 Runes increase the amount of LP transferred between the hidden \"Input\" and \"Output\" Tanks of the Blood Altar.",
-		"These Tanks exist to throttle external Transfer, such as Pipes, as to not make Capacity runes totally useless if you have a large Tank.",
-		"These hidden tanks have 10% of the Main Tank's Capacity.",
+		"&4转位符文&7可以加快血之祭坛的LP转移速度。（与管道交互的速度，刚接上管道时，由于被限制的进血速度和血之祭坛的额外存储消耗速度一致，所以看起来可能没反应，等一会就好了，大概……等一分钟？）",
+		"额外存量是为了限制管道输入的，因为如果你有一个足够大的储罐，就不需要容量类型的符文了。（血魔法作者用心险恶）",
+		"额外存量是祭坛存量的百分之10.",
 		"",
-		"&4Capacity&7 Runes add a flat 2000LP Capacity bonus to the &4Blood Altar's&7 Main Tank."
+		"&4增容&7符文可以为&4血之祭坛&7提供2000LP的容量。"
 	],
 	dependencies: [
 		"1ce0126f"

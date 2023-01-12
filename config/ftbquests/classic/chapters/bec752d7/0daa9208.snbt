@@ -1,11 +1,11 @@
 {
 	x: 15.5d,
 	y: 5.0d,
-	description: "Botania's Guidebook is practially the Gold Standard of Ingame documentation for Minecraft mods! *Read description*",
+	description: "植物魔法辞典是Minecraft mod界中最标准的手册之一 *阅读说明*",
 	text: [
-		"As said above, Botania's Guidebook is incredible, and there's a TON of details that won't be gone over in this guide, if you want to learn more about Botania, explore the Lexica Botania!",
+		"如你所见，植物魔法的指导手册真的已经非常详细了，但是尽管如此，它终究只是一本薄薄的书，所记载的知识仍然有限。因此，如果你想知道一些细节，请自己区去看wiki，谢谢。",
 		"",
-		"This Questline will also tell you to check the Lexica at certain points for certain things, it's very important you do, as the Lexica has essential information for the related item."
+		"这条任务线的大部分内容是从wiki上抄下来的（作者真的懒），这些内容非常重要，对于一个植物魔法的新手来说，可以起到很好的指引作用。"
 	],
 	dependencies: [
 		"f0e4f52a"
@@ -13,7 +13,7 @@
 	tasks: [{
 		uid: "168e577d",
 		type: "checkmark",
-		title: "Read the freakin Manual!"
+		title: "我求求你去看看那本破书行不行？"
 	}],
 	rewards: [{
 		uid: "f958858d",

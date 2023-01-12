@@ -1,7 +1,10 @@
 {
 	x: 14.0d,
 	y: -7.0d,
-	description: "A Powerful Mass-mining tool that gains more AoE based on how much Mana it's been charged with! *Read the Lexica Botania for more Info*",
+	description: "蕴含着粉碎大地的恐怖力量，为其充能以获得更大的挖掘范围（评价：不如束缚之镐好用）*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"59dd41e8"
 	],

@@ -1,5 +1,5 @@
 {
-	title: "&4Blood Altar - Tier III",
+	title: "&4血之祭坛 3层",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -8,18 +8,18 @@
 	},
 	x: 4.0d,
 	y: 21.0d,
-	description: "&oEven Bloodier Altar",
+	description: "&o鲜红欲滴的祭坛",
 	text: [
-		"&7The second Upgrade to your &4Blood Altar&7.",
+		"&7这是你第二次对&4血之祭坛&7进行升级了。",
 		"",
-		"Create a larger Ring with no Corners, go &c1 Block up&7 from those Corners and place &c2 of ANY \"Solid\" block&7 ontop of eachother, placed the &4Glowstone/Sea Lanterns&7 ontop of those \"Pillars\".",
+		"用随便什么符文搭建一个没有角的环，往&c上&7垫一格之后&c2随便找一些完整方块&7搭建4根柱子，之后在其顶端放置一个&4荧石块/海晶灯&7作为“镶嵌”。",
 		"",
-		"&4What you need:",
-		"&620x&c Runes",
-		"&64x&c Glowstone or Sea Lantern",
-		"Glowstone variants&7 from &cChisel&7 are valid aswell!",
+		"&4那么，为了升级祭坛，你将需要：",
+		"&620个&c随便什么符文",
+		"&64个&c荧石或者海晶灯",
+		"&7被&c凿子&7雕凿过的荧石也是可以用于搭建的，如果你觉得这样做更好看的话。",
 		"",
-		"&cWhat in the world does that mean? See the Quest &4\"Altarmaker's Manual\"&c."
+		"&c不知道怎么搭建？请看任务&4“血之祭坛建筑师必备手册”&c。"
 	],
 	dependencies: [
 		"98b3e4fb"

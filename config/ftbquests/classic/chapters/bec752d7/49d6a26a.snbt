@@ -1,10 +1,10 @@
 {
-	title: "&4Grand Tartaric Gem",
+	title: "&4精致地狱魂石",
 	x: -4.5d,
 	y: 24.0d,
-	description: "&o&lALL OF THE SOULS IN THE WORLD!!!",
+	description: "&o&l世界上所有的灵魂尽在我手中！！！！",
 	text: [
-		"&7Tartaric Gem with &b16384 Will&7 Capacity!"
+		"&7精致地狱魂石可以存储&b16384点意志&7。"
 	],
 	dependencies: [
 		"df5db36d"

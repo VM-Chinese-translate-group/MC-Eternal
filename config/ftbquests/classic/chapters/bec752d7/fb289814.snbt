@@ -1,11 +1,11 @@
 {
-	title: "&dElementium Caster's Gauntlet",
+	title: "&d源质钢法师护手",
 	x: 18.5d,
 	y: -7.5d,
-	description: "&oForces Collide&7 *Read Description*",
+	description: "&o植魔神秘不分家&7 *阅读须知*",
 	text: [
-		"&7An &dElementium Caster's Gauntlet&7 uses &bMana&7 instead of &dVis&7 to cast spells using Foci.",
-		"It is identical to a standard Caster's Gauntlet in all other ways."
+		"&d源质钢法师护手&7可以使用&b魔力&7代替施法时消耗的&d灵气&7。",
+		"其余方面，它和一般的法师护手一般无二，包括不能加装调整器和元动能量电池这两点。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

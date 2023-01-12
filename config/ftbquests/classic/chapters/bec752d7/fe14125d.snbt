@@ -2,14 +2,17 @@
 	x: 3.0d,
 	y: 1.0d,
 	shape: "diamond",
-	description: "Collect every magical artefact",
+	description: "发现所有奥术饰品",
+	text: [
+		""
+	],
 	dependencies: [
 		"56e86e9c"
 	],
 	tasks: [{
 		uid: "8c3cfe79",
 		type: "advancement",
-		title: "Power Incarnate",
+		title: "无穷的力量",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

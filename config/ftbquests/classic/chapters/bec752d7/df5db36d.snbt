@@ -1,10 +1,10 @@
 {
-	title: "&4Greater Tartaric Gem",
+	title: "&4较大地狱魂石",
 	x: -3.5d,
 	y: 22.5d,
-	description: "&o&lMORE SOULS!!",
+	description: "&o&l更多的灵魂！！！",
 	text: [
-		"&7Tartaric Gem with &b4096 Will&7 Capacity."
+		"&7较大地狱魂石可以存储&b4096点意志&7。"
 	],
 	dependencies: [
 		"3ed6ba2b"
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "d889b44a",
 		type: "item",
-		title: "Greater Tartaric Gem (or Better)",
+		title: "较大地狱魂石（或者更好的）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

@@ -1,15 +1,15 @@
 {
-	title: "Astral Sorcertree",
+	title: "星辉树场",
 	x: 7.0d,
 	y: -14.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThe &9&oTree Beacon&7&o is a device which will create the produce the products of Trees grown near it after it is set into the world...",
+		"&9&o烽火树&7&o是一种功能性方块，作用是生产在它附近生长的树的掉落物。",
 		"",
-		"Trees grown near it will become Starlit and unbreakable, and slowly vanish over time as the Beacon produces what they would drop...",
-		"Removing the Beacon will return affected Trees to normal...",
+		"在烽火树附近生长的树木会变的坚不可摧，而且会发出明亮的光芒，随着时间的推移，会产生这种树木的掉落物。",
+		"拆除烽火树或者移除星能液供给会让那些树变回原样。",
 		"",
-		"It can be accelerated by feeding a Beam of &r&oStarlight&7&o into it..."
+		"为其充入一束&r&o星能&7&o可以加速生产速度……"
 	],
 	dependencies: [
 		"a024c6e1"

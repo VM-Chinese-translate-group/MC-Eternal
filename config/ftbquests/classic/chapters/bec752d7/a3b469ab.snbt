@@ -1,10 +1,10 @@
 {
-	title: "An Archmage needs an Archive",
+	title: "巫师的书柜",
 	x: 8.0d,
 	y: -1.0d,
-	description: "Searching for your stashed Spells",
+	description: "阅读比实践来的安全的多",
 	text: [
-		"Bookshelves can be placed down and have Spell Books stored in them, those Spell Books can then be easily accessed via an Arcane Workbench or Lectern."
+		"书柜可以用来存放法术书，在其旁边放上览术台直接查看法术内容。"
 	],
 	dependencies: [
 		"66a69ac3"

@@ -1,23 +1,25 @@
 {
-	title: "&4Incense Altar",
+	title: "&4熏香祭坛",
 	x: 8.5d,
 	y: 17.5d,
-	description: "&oSelf-Sacrifice, En Masse",
+	description: "&o高质量剌手指",
 	text: [
-		"&7The &4Incense Altar&7 fundamentally changes the way that &4Sacrificial Daggers&7 carried by nearby players behave.",
+		"&4熏香祭坛&7是玩家使用&4献祭匕首&7的另一种选择。",
 		"",
-		"Instead of draining &c1 Heart&7 of Health, they drain &c90%&7 of the user's Health, outputting all LP that would be gained into the &4Blood Altar&7 at once.",
+		"它使得献祭匕首不在按照&c1颗&7消耗血量，它会直接消耗使用者最大生命值的&c90%&7（一刀砍在大动脉上了），一次性为&4血之祭坛&7提供大量LP。",
 		"",
-		"But that's not all.",
-		"The purpose of the &4Incense Altar&7 is to add an &4LP Bonus&7 to Self-Sacrifice done with Daggers it affects, this bonus starts at &420%&7, and can reach up to &4450%&7, but it is far from a quick and simple process to do so.",
+		"但是，熏香祭坛并非只有这点力量。",
+		"&4熏香祭坛&7可以为使用者剌手指提供的LP进行&4额外加成&7，最少加成为&420%&7最大为&4450%&7，但是想要获得如此大的加成，并非是一个容易的过程。",
 		"",
-		"The Incense Altar requires &4Path&7 blocks from &cBlood Magic&7 to define the area it searches for Tranqulility-affecting Blocks, each type of Path made with a different Blood Orb allows new area.",
-		"The &cArea between the Pathways&7 (in a Square shape) is where Tranquility-affecting Blocks are checked for.",
+		"熏香祭坛需要使用&c血魔法&7的&4路径&7方块来增加可静谧值获取的范围（就是需要用路面方块来给祭坛扩地，升级的祭坛可以获得更大区域的静谧方块提供的静谧值）。这就需要更高等级的气血宝珠了。",
+		"&c路径方块之间的区域&7（呈方形）即是可以检测到的范围。",
 		"",
-		"Pathways can move Up or Down 1 Block from the previous Path and still be valid.",
+		"路径方块没必要放在同一平面，往上或者往下一格都是可以的。",
 		"",
-		"There is a select list of Blocks which contribute to the &cTranquility&7 value.",
-		"&cDiminishing Returns apply&7, overuse of one kind of Tranquility-affecting Block will lead to minimal bonus."
+		"提供&c静谧值&7的方块有专门的一个列表，不知道的自己去查。",
+		"&c注意，相同的提供静谧值的方块会导致得到的静谧值增加衰减&7，因此使用大量相同静谧值来源会导致加成大幅度降低！",
+		"（PS：同种静谧方块造成的衰减是平方关系，比如一个树叶提供100%的加成，想要获得200%的加成，就需要4个树叶，以此类推）",
+		"（PS2：我真的已经竭尽所能的描述了熏香祭坛的搭建方式和运作方式了，还是看不懂我是真的没办法了）"
 	],
 	dependencies: [
 		"8dc4ca66"

@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "58e74235",
 		type: "advancement",
-		title: "Discover the Vampire Forest",
+		title: "寻找吸血鬼森林，和你的同类交流一下感情",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

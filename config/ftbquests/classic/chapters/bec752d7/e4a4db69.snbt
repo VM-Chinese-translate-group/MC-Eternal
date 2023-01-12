@@ -1,8 +1,11 @@
 {
-	title: "Ritual of Gaia",
+	title: "盖亚仪式",
 	x: 15.0d,
 	y: -9.5d,
-	description: "Activate the Beacon and assemble these items into a ritual to summon the Guardian of Gaia, a powerful foe. *Read the Lexica Botania for more Info*",
+	description: "激活信标，搭建盖亚仪式，这会招来植物魔法中的boss，盖亚守护者*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"8d59e084"
 	],

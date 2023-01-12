@@ -2,7 +2,10 @@
 	x: 24.5d,
 	y: 3.0d,
 	shape: "circle",
-	description: "Displays the local Aura level as a HUD element",
+	description: "让你可以看见区块灵气的情况（左上角的绿色条）",
+	text: [
+		""
+	],
 	dependencies: [
 		"a074c6bd"
 	],

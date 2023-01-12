@@ -1,7 +1,10 @@
 {
 	x: 15.0d,
 	y: -3.0d,
-	description: "Used to craft various Runes, essential to create all sorts of Botania items! *Read the Lexica Botania for more Info, including how to operate*",
+	description: "用于制作各种符文，或者合成植物魔法的物品 *详见植物魔法辞典，包括如何使用*",
+	text: [
+		""
+	],
 	dependencies: [
 		"c50984b7"
 	],

@@ -1,11 +1,14 @@
 {
 	x: 6.5d,
 	y: -7.0d,
-	description: "&oThe beginning of a Stellar Journey...",
+	description: "&o以星光铺就前进的道路",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "62637476",
 		type: "observation",
-		title: "Look upon a &9Collector Crystal",
+		title: "找到一颗&9浮动水晶",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

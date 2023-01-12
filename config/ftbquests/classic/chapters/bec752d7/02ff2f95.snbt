@@ -1,9 +1,12 @@
 {
-	title: "Vampire Fangs",
+	title: "吸血鬼之牙",
 	x: 11.0d,
 	y: 7.0d,
 	shape: "octagon",
-	description: "Infect yourself with Sanguinus Vampiris",
+	description: "扎一下自己，主动感染吸血之疾",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "1b20051d",
 		type: "item",

@@ -1,15 +1,18 @@
 {
-	title: "Personal Mana Storage",
+	title: "便携式魔力池",
 	x: 16.0d,
 	y: -3.0d,
-	description: "A lot of Tools and Baubles in Botania require Mana to do their job. *Read \"Mana Tablet\" in Lexica Botania for more Info*",
+	description: "有很多工具和饰品都可以用来存储魔力*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"c50984b7"
 	],
 	tasks: [{
 		uid: "dec77ad3",
 		type: "item",
-		title: "Mana Tablet or Standard/Greater Band of Mana",
+		title: "随便一个什么魔力存储设备",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

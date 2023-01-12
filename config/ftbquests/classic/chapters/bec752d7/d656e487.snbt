@@ -1,11 +1,13 @@
 {
-	title: "Charged Astral Diamond",
+	title: "充能星芒宝钻",
 	x: 4.5d,
 	y: -6.5d,
-	description: "*Click for more Info*",
+	description: "*点击查看更多*",
 	text: [
-		"To obtain a Charged Astral Diamond, you will first need to discover the Ancient Spell 'Essence Extraction'.",
-		"Holding an Astral Diamond in your off-hand while casting the spell on an Imbuement Altar will permanently break the Altar, but the Astral Diamond will be Charged with its power!"
+		"想要得到这样一颗无比稀有的宝物，你首先得习得一种远古法术——精华汲取。",
+		"接着，你要去寻找一处野外的注灵祭坛。找到后，把星芒宝钻拿在副手，把法术切换到精华汲取，开始施法。",
+		"法术蓄力完成后不要停止施法，等待大概10秒左右，注灵祭坛就会因为无法承受如此强烈的法力而碎裂，副手的星芒宝钻也会变为充能星芒宝钻。",
+		"充能星芒宝钻可以用来制作注灵祭坛。"
 	],
 	dependencies: [
 		"c6521d93",

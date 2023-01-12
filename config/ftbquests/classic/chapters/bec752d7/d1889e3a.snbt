@@ -1,5 +1,5 @@
 {
-	title: "Cosmic Power",
+	title: "星寰之光",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -9,12 +9,12 @@
 	x: 1.5d,
 	y: -14.0d,
 	shape: "octagon",
-	description: "*Read Description*",
+	description: "*阅读说明*",
 	text: [
-		"&7&oBy creating an &9&oAttunement Altar&7&o and setting the pattern for a constellation on it, you can attune certain things to the Constellations in the sky, &d&oincluding your very own self&7&o... ",
-		"To see the pattern for a Constellation, hold the Papers for it your hand, the clusters of purple sparkles are where &9&oSpectral Relays&7&o should be set... ",
+		"&7&o制作并搭建一个&9&o共鸣祭坛&7&o然后用光波增幅器摆出对应星座的图案，就可以将星光的魔力注入到物品之中，这可能让某些东西对某一星座的力量更加亲和。当然，星光的力量还可以&d&o增强你的力量&7……. ",
+		"观测并发现一个星座，然后副手拿着星图，等到晚上时，共鸣祭坛的熏黑大理石上会出现&9&o奇异的蓝光&7&o，把光波增幅器放到那些蓝光的位置……",
 		"",
-		"There is much potential from this capability, it is very much worth trying, especially on yourself..."
+		"这种力量强大到恐怖，尤其是对你而言，这种来自寰宇的力量等到你自己变得愈发强大，你越是能发现这种力量的恐怖。"
 	],
 	dependencies: [
 		"a8afcede",

@@ -1,10 +1,10 @@
 {
-	title: "&4Ward of Sancrosity",
+	title: "&4神圣守护",
 	x: 16.5d,
 	y: 25.0d,
-	description: "&oNNOOO!",
+	description: "&o你不要过来啊啊啊啊啊啊！",
 	text: [
-		"&7The &4Ward of Sancrosity&7 blocks Mob spawns in a large radius around the Master Stone."
+		"&4神圣守护&7可以在很大一片范围（3*3区块，刷怪笼之类的强制刷怪并不算在其内，诅咒之土也会被阻止）内阻止敌对生物刷新。（此仪式每秒消耗2LP）"
 	],
 	dependencies: [
 		"324d9485",

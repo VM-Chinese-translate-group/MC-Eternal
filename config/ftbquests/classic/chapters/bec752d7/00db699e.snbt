@@ -1,10 +1,10 @@
 {
-	title: "&4Binding Reagent",
+	title: "&4束缚试剂",
 	x: -1.0d,
 	y: 22.0d,
-	description: "&oA Matter of Binding",
+	description: "&o一种束缚着的物质",
 	text: [
-		"&4Binding Reagent&7 is used on &cAlchemy Arrays&7 to create &4Binding Arrays&7, a form of Alchemy Array with a fancy look, and some particularly important things it can create..."
+		"&4束缚试剂&7用于在&c奥术法阵&7中制造&4束缚装备&7，使用它作为试剂的法阵在外观上会比其他法阵更复杂，更炫酷，同时动画也比其他法阵更加高端。（指合成的时候批雷导致起火把合成产物烧了，是的，你没有听错）"
 	],
 	dependencies: [
 		"393c6058"

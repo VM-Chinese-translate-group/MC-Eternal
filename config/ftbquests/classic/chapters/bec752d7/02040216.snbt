@@ -1,7 +1,10 @@
 {
 	x: 18.5d,
 	y: -4.5d,
-	description: "Mana = Dirt!",
+	description: "魔力=土",
+	text: [
+		""
+	],
 	dependencies: [
 		"10a2bedf"
 	],

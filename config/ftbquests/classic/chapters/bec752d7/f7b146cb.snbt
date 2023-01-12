@@ -1,13 +1,13 @@
 {
-	title: "Advanced Starlight Collection",
+	title: "人造聚能水晶",
 	x: 1.0d,
 	y: -19.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&9Collector Crystals&7&o are an advanced form of &r&oStarlight&7&o collection, they concentrate &r&oStarlight&7&o into Beams, just like the Crystals found in ancient Shrines.",
-		"They are far more effective than simply letting your Altar itself collect &r&oStarlight&7&o, or using &6&oRelay Collectors&7&o...",
+		"&7&9聚能水晶&7&o是一种&r&o星能&7&o收集工具，它们从对应星座中收集&r&o星能&7&o，和那些古代神殿里飘着的差不多。",
+		"使用这些水晶比起你让你的祭坛自己收集&r&o星能&7&o和使用少量的&6&o光波增幅器&7&o要好得多。（但是光波增幅器可以叠量啊，造价不贵）",
 		"",
-		"&9&oCelestial Collector Crystals&7&o collect even more &r&oStarlight&7&o than their mundane cousins, and can collect even more if a particular &d&oMultiblock&7&o is built for them..."
+		"&9&o天体聚能水晶&7&o可以收集更多的&r&o星能&7&o，但是它们需要一个&d&o多方块结构&7&o来支撑它们工作。."
 	],
 	dependencies: [
 		"d5074b4b"
@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "e9c77c6c",
 		type: "item",
-		title: "Any &9Collector Crystal",
+		title: "随便一个&9聚能水晶",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

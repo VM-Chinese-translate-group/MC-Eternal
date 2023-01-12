@@ -1,16 +1,18 @@
 {
-	title: "Far from the Start",
+	title: "我们的目标，是星辰大海！",
 	x: 1.0d,
 	y: -23.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7You may have reached the end of line for Progression with Astral Sorcery, but there is still much you can do with it!",
+		"&7恭喜你走到了星辉魔法的终点，但是，星辉魔法的力量远不止如此。",
 		"",
-		"&dRituals&7 are capable of causing some frankly crazy effects!",
-		"&dAttunement&7 is able to power you up a ton!",
-		"And some Crafting mechanics can create some rarer items out of more common ones!",
+		"&d效应放大器&7如果合理（或不合理）运用，将会产生惊人甚至疯狂的效果。（某生存可造的创造模式能量源）",
+		"&d星能力&7会让你变得无可匹敌！",
+		"顶尖的玩家可以创造出比星辰更加闪耀的宝物！",
 		"",
-		"But there's quite a bit untouched on in this Questline, so explore the &6Astral Tome&7!"
+		"但是这条任务线到这里就结束了，更多的请移步至&6星芒宝典&7！",
+		"（PS：万向泉表示很受伤，整条任务线都没有提到它）",
+		"（PS2：注意天空中划过的流星，那里面可能蕴藏着一些星芒宝典中被雪藏的知识，当你有能力了，就去尝试追一追吧！）"
 	],
 	dependencies: [
 		"d6707898"

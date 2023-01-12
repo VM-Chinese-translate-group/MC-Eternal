@@ -2,14 +2,17 @@
 	x: 12.5d,
 	y: 7.5d,
 	shape: "heart",
-	description: "I am the Count. They call me the Count because I love to count things",
+	description: "我是个伯爵，至少它们是这么叫我的，至于为什么，因为我喜欢数东西。（这是个英语双关笑话，伯爵和数数是一个单词）",
+	text: [
+		""
+	],
 	dependencies: [
 		"02ff2f95"
 	],
 	tasks: [{
 		uid: "8c46c50f",
 		type: "advancement",
-		title: "Become a Vampire",
+		title: "成为吸血鬼",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

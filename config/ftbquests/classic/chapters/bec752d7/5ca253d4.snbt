@@ -1,7 +1,10 @@
 {
 	x: 13.5d,
 	y: 1.5d,
-	description: "Mana to Mobfarm! *Read the Lexica Botania for Info*",
+	description: "魔力刷怪塔！*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"8cf046cd"
 	],
