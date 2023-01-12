@@ -2,7 +2,7 @@
 	x: -4.5d,
 	y: -7.5d,
 	shape: "square",
-	description: "A hostile mob that spawns only in coniferous forests. It will hit and knock players back with strong force.",
+	description: "只在针叶林中生成的敌对生物。它会以强大的力量攻击玩家。",
 	dependencies: [
 		"92efe452"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "8ce8942a",
 		type: "kill",
-		title: "Bounty: Undead Swine",
+		title: "悬赏：疫猪",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

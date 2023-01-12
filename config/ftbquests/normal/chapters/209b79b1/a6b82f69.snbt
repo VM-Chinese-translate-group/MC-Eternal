@@ -2,7 +2,7 @@
 	x: 0.5d,
 	y: -7.0d,
 	shape: "square",
-	description: "Unholy abomination sent to our world with one purpose... To wreak unrelenting havoc, unequivocal to anything you've ever seen. Desolate winter, sorrow and hopelessness is all you see when you look into the fiends undead eyes",
+	description: "悚怖尸骑被派往我们的世界，目的只有一个——对目光所到之处进行无情的破坏。凛冬将至，当你看向恶魔亡灵深邃的眼眸时，你只能感到悲戚和无望。",
 	dependencies: [
 		"3b74e727"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "e030061e",
 		type: "kill",
-		title: "Bounty: Dread Knight",
+		title: "悬赏：悚怖尸骑",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

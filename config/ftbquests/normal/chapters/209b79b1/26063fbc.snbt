@@ -2,7 +2,7 @@
 	x: -1.0d,
 	y: -1.5d,
 	shape: "square",
-	description: "Wait why did we add Seagulls to Minecraft again? Spawns at the Beach, kill them all",
+	description: "等等，为什么我们又把海鸥加到了Minecraft？海鸥是一种在海滩附近生成的鸟类，杀光它们！",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d8852201"
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "1c78efd9",
 		type: "kill",
-		title: "Bounty: Seagull",
+		title: "悬赏：海鸥",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

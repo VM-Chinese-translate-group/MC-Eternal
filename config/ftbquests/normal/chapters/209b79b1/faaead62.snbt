@@ -2,7 +2,7 @@
 	x: -5.5d,
 	y: -6.0d,
 	shape: "square",
-	description: "Giant Taintacle... How horrific, how unnatural, hmmm. Stop thinking about that!",
+	description: "巨型腐化触手……多么可怕，多么不自然。额……别再想那个了！",
 	dependencies: [
 		"c16f14e3"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "ea57158a",
 		type: "kill",
-		title: "Bounty: Giant Taintacle",
+		title: "悬赏：巨型腐化触手",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

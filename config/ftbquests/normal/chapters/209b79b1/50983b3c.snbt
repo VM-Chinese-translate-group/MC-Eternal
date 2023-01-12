@@ -2,7 +2,7 @@
 	x: -6.5d,
 	y: -4.0d,
 	shape: "square",
-	description: "&cDemons are mobs summoned from a ritual that requires spilling the blood of a villager to start. Enterprising witches may trade with demons for a variety of items including Demonic Contracts and Boxes of Sealed Evil",
+	description: "&c巴弗灭是通过巴弗灭之祭仪式召唤而来的生物，需要在仪式中洒下村民的血才能开始。另外一提，你可以与恶魔交易交换各种物品，包括恶魔契约和封魔盒。",
 	dependencies: [
 		"19a1105b"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "5fbf3376",
 		type: "kill",
-		title: "Bounty: Baphomet",
+		title: "悬赏：巴弗灭",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

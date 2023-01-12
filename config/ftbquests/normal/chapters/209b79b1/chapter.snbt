@@ -1,5 +1,5 @@
 {
-	title: "Exploration",
+	title: "探险",
 	icon: {
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
@@ -226,7 +226,7 @@
 		rotation: 0.0d,
 		image: "assets:quest.png",
 		hover: [
-			"Quest Chain Available!"
+			"任务线可完成！"
 		],
 		click: "",
 		dev: false

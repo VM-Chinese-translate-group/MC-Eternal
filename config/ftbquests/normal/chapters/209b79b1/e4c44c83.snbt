@@ -1,9 +1,9 @@
 {
-	title: "Bounty: Dread Lich",
+	title: "悬赏：悚怖尸巫",
 	x: -2.5d,
 	y: -7.0d,
 	shape: "square",
-	description: "Powerful undead necromancer, only spotted in the coldest reaches of the world...",
+	description: "强大的亡灵巫师，只出现在世界上最寒冷的地方……",
 	dependencies: [
 		"92efe452"
 	],

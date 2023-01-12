@@ -2,7 +2,7 @@
 	x: 2.5d,
 	y: -5.0d,
 	shape: "square",
-	description: "*Dimensional: Betweenlands* A common undead creature that stalks the swamps and caverns of the Betweenlands.",
+	description: "*维度：交错次元*一种常见的怪物，可在交错次元中的沼泽和洞穴中生成。",
 	dependencies: [
 		"7780b056"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "a07d760b",
 		type: "kill",
-		title: "Bounty: Swamp Hag",
+		title: "悬赏：沼泽怪",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

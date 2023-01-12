@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: -5.0d,
 	shape: "square",
-	description: "&oLives in the &lTwilight Forest&7&o where it gathers strength and studies forbidden ancient magic",
+	description: "&o德鲁伊法师可以在&l暮色森林&7&o中生成。他常常研究被禁止的古代法术，并用他的研究成果攻击玩家。",
 	dependencies: [
 		"7780b056"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "338a2e0c",
 		type: "kill",
-		title: "Bounty: Druid Mage",
+		title: "悬赏：德鲁伊法师",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

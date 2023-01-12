@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: -5.5d,
 	shape: "square",
-	description: "A humanoid creature who has mastered the arcane art of spellcasting and necromancy, driven mad by its limitless potencial, these powerful wizards will strike down anyone or anything that comes in its path just for fun",
+	description: "一种掌握了魔法和死灵术的类人生物。这种强大的巫师会攻击任何挡在它面前的玩家和生物。",
 	dependencies: [
 		"37a80b0e"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "feaa4c1e",
 		type: "kill",
-		title: "Bounty: Evil Wizard",
+		title: "悬赏：巫师",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

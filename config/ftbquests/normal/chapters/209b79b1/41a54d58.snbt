@@ -2,7 +2,7 @@
 	x: -4.5d,
 	y: -2.5d,
 	shape: "square",
-	description: "An evoker is a spell-casting illager found in woodland mansions and are the only source of the totem of undying.",
+	description: "唤魔者是一种生成在林地府邸中的敌对生物，是获得不死图腾的唯一来源。",
 	dependencies: [
 		"05ce51d7"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "8e4bbfb8",
 		type: "kill",
-		title: "Bounty: Evoker",
+		title: "悬赏：唤魔者",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

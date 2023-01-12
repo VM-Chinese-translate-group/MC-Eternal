@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -5.0d,
 	shape: "square",
-	description: " A shambling monstrosity that can use its long tongue to snatch the player.",
+	description: "众所周知，蹒跚者一种蹒跚的怪物。  它为了抓住玩家甚至长出了能穿墙攻击的长舌头。从某种意义上来说，它还挺厉害的。",
 	dependencies: [
 		"df7e56b2"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "6a836f79",
 		type: "kill",
-		title: "Bounty: Shambler",
+		title: "悬赏：蹒跚者",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

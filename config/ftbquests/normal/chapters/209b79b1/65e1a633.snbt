@@ -2,7 +2,7 @@
 	x: 3.5d,
 	y: 0.5d,
 	shape: "square",
-	description: "A hulk beast endemic to swampland. It has the ability to summon minions and spill out sludge to cripple it's prey.",
+	description: "沼泽群系特有的庞然大物。它可以召唤小树软泥并射出污泥来使目标获得虚弱和失明效果。",
 	dependencies: [
 		"bcaf3639"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "ab334a13",
 		type: "kill",
-		title: "Bounty: Sludge Lord",
+		title: "悬赏：古树软泥",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
