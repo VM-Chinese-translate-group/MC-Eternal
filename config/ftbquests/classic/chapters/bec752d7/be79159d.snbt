@@ -1,16 +1,16 @@
 {
-	title: "&5Robes of the Adept",
+	title: "&5求知者的衣柜",
 	x: 27.5d,
 	y: -5.0d,
-	description: "&oRobes for a Caster&7 *Read Description*",
+	description: "&o魔术师（左转隔壁fate锡类，谢谢）的长袍&7 *阅读以获得更多信息*",
 	text: [
-		"&5Robes of the Adept&7 a set of special Robes which give good &dVis Discount&7, and &6decent protection&7.",
+		"&5秘术师套装&7是一套&d灵气亲和性&7很强的盔甲,当然了，还有&6不错的防御性&7。",
 		"",
-		"If &5Thaumium Fortress Armor's &6Faceplates&7 have been unlocked, they can also be applied to the Hood.",
-		"Additionally, the Hood already has &5Goggles of Revealing&7 built in, so you don't need to add them like with the Fortress armor.",
+		"如果你&5神秘要塞甲胄&6面具&7尚未解锁, 它们也能成为你头盔的选择之一。",
+		"同时，秘术师兜帽已经集成了&5揭示之护目镜&7的力量, 所以你不需要在饰品栏再戴一个了。",
 		"",
-		"The Hood also has two Visual styles, &dTransparent&7 and &0Obscured&7, these styles change the appearance of the Hood's front.",
-		"No other data should be lost when switching style."
+		"秘术师兜帽还有两种视觉样式，&d透明&7和&0模糊&7, 两者的区别在于你那张清秀的脸是否能被其他人看见。",
+		"切换兜帽的视觉样式并不会使得兜帽失去其上的附魔或者其他强化。"
 	],
 	dependencies: [
 		"e15321df",
@@ -22,8 +22,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:thaumium_robes_hood",
 			tag: {
@@ -38,8 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:thaumium_robes_chestplate",
 			tag: {
@@ -54,8 +52,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:thaumium_robes_leggings",
 			tag: {

@@ -1,12 +1,12 @@
 {
-	title: "&5Arcane Workbench",
+	title: "&5奥术工作台",
 	x: 22.0d,
 	y: 1.0d,
-	description: "&oI have no &9&oMana&7&o and I must &2&oArtifice&7 *Read Description*",
+	description: "&o我没有&9&o魔力&7，&o所以来&2&o造&7一些吧 *阅读描述以了解更多信息*",
 	text: [
-		"&7Dash &dSalis Mundus&7 onto a &5Crafting Table&7 to create an &5Arcane Workbench&7.",
-		"The &5Arcane Workbench&7 requires &dVis&7 and &dVis Crystals&7 to craft magical items.",
-		"&dVis&7 is drawn from the Aura upon crafting, while the Crystals are inserted into 6 outer slots, one for each &dPrimal Aspect&7, and will sit until spent."
+		"&7将&d世界盐&7洒在一个&5工作台&7上来制作&5奥术工作台&7。",
+		"&5奥术工作台&7需要&d灵气&7和&d魔力水晶碎片&7来制造魔法物品。",
+		"&d灵气&7会在合成物品时从灵气场吸收，而魔力水晶碎片则放在6个额外的槽位上。每种&d原始要素&7都会对应一个槽位。"
 	],
 	dependencies: [
 		"5ff4f44c"
@@ -14,10 +14,10 @@
 	tasks: [{
 		uid: "661564e3",
 		type: "observation",
-		title: "Look at an &5Arcane Workbench",
+		title: "观测&5奥术工作台",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:arcane_workbench"
 		},

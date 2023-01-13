@@ -1,12 +1,12 @@
 {
-	title: "&5Worldly Augmentation",
+	title: "&5塑造世界",
 	x: 30.5d,
 	y: -20.5d,
-	description: "&oPort to Magic pls.&7 *Read Description*",
+	description: "&o魔法改造，小子。&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Arcane Terraformer&7 can be used to change the Biomes in the world, however, it takes a large amount of Essentia, &dVis&7, and &0Impetus&7 to do so.",
+		"&5奥术群系转换仪&7可被用于改变生物群系，但会消耗大量源质&d魔力&7，以及&0元动能量&7作为代价。",
 		"",
-		"The &dVis Capacity&7 of the Aura is affected when the Terraformer changes the Biome, so this device has some Thaumic applications, even when other fields of Magic offer their own options..."
+		"在奥术群系转换仪转换群系时，此地形的&d灵气容量&7将会随之改变。因此，尽管其他魔法提供相似的功能，但奥术群系转换仪还是有其不可替代的功能。"
 	],
 	dependencies: [
 		"82dc35de"
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:arcane_terraformer"
 		}]

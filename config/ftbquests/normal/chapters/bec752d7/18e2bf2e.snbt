@@ -1,8 +1,8 @@
 {
-	title: "&5AND a Battery?",
+	title: "&5以及一块……电池？",
 	x: 22.5d,
 	y: -7.5d,
-	description: "A &5Vis Phylactery&7 is similar to a an &5Amulet of Vis&7, only that it has a 300 &dVis&7 internal storage to distribute.",
+	description: "&5升级版的魔力护身符&7与&5普通的魔力护身符&7相似，只不过它能储存300点&d灵气&7以备不时之需。",
 	dependencies: [
 		"103a1044"
 	],
@@ -11,8 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicperiphery:vis_phylactery"
 		}],

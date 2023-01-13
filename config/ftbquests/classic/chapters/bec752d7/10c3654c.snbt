@@ -1,11 +1,11 @@
 {
-	title: "&5Manipulating Impetus",
+	title: "&5操纵“元”力",
 	x: 33.0d,
 	y: -21.0d,
 	shape: "octagon",
-	description: "&oControl the Uncontrollable&7 *Read Description*",
+	description: "&o掌控不可控之力&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A Specialized Jewel that can channel &0Impetus&7, a useful component for any future endeavours with &0Impetus&7."
+		"&7一种可以引导&0元动能量&7的特制宝石。对未来任何关于&0元动能量&7的尝试都是必不可少的组成部分。"
 	],
 	dependencies: [
 		"b4f9ea5d"
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:material",
 			Damage: 5s

@@ -1,12 +1,12 @@
 {
-	title: "&5Thaumostatic Harness",
+	title: "&5奥法背带",
 	x: 27.0d,
 	y: -7.0d,
-	description: "&oHitching a ride on the Aura&7 *Read Description*",
+	description: "&o斗气化马，恐怖如斯&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Thaumostatic Harness&7 can use &dVis&7 to allow the wearer to fly through the Air! It burns through &dVis&7 quite quickly, and can't be recharged when in Flight.",
+		"&5奥法背带&7可以让佩戴者使用&d灵气&7飞上天空！其消耗&d灵气&7速度极快，且飞行时不能被重新充能！。",
 		"",
-		"&6You'll need to visit &8The End&6 to complete the Research."
+		"&6拜访&8末地&6来完成研究吧。"
 	],
 	dependencies: [
 		"2030380f"
@@ -16,11 +16,10 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 1
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness"
 		}],

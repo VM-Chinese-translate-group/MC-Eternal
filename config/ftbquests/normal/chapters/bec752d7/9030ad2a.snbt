@@ -1,17 +1,17 @@
 {
-	title: "&5Accursed Stick",
+	title: "&5诅咒之棍",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumcraft:pech_wand"
 	},
 	x: 27.0d,
 	y: 0.0d,
-	description: "&oJust gimme the thing already!&7 *Read Description*",
+	description: "&7*阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Pech Wand&7 is a rare drop from &dPech Mages&7, which can be scanned to unlock a certain piece of Research...",
-		"Unfortunately, Pech are rather rare to find, so if you want to 100% research, it's a real bother, so here's a One-Time deal for one!"
+		"&5岩精法杖&7是&d岩精法师&7的稀有掉落物。可以通过扫描来解锁特定的研究。",
+		"不幸的是，岩精法师很少刷新。如果你想达成百分百研究进度的话还是很麻烦的。所以作者为你提供了这个划算的任务。快说：谢谢作者！"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -29,7 +29,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:pech_wand",
 			tag: {

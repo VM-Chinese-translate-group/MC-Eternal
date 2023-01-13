@@ -1,5 +1,5 @@
 {
-	title: "&5&lThe Flux of Magic",
+	title: "&5&l魔能暗流",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -7,20 +7,21 @@
 		id: "thermalexpansion:florb",
 		tag: {
 			Fluid: "flux_goo"
-		}
+		},
+		Count: 1b
 	},
 	x: 20.5d,
 	y: -0.5d,
 	shape: "octagon",
-	description: "&dAll actions have consequences...&c&l *READ DESCRIPTION*",
+	description: "&d凡事都有代价……&c&l *请务必阅读描述*",
 	text: [
-		"&5Flux&7 is a nasty byproduct of many Thaumic devices, if the amount in a single given chunk gets too high, a &5Flux Rift&7 will form and inevitably cause bad things.",
+		"&5咒波&7是许多神秘设备都会产生的讨人厌的副产物。如果某区块咒波含量过高，将会形成&5咒波裂隙&7，并不可避免地造成不好的事情。",
 		"",
-		"There are many ways to avoid creating &5Flux&7, &dbut the main one is being careful with what you do,&7 &cdon't try to make too much stuff in a &dCrucible&c at once, do it a bit at a time, otherwise you'll get a lot of Essentia spilling out of the Crucible and into &5Flux&7.",
-		"It's usually a good idea to &dtry and find the purest source of the Essentia that you need&7, or &dwhatever's Essentia content is close to what you want to make&7.",
-		"Ultimately, &dtake caution with a Crucible&7.",
+		"有许多方式可以避免产生&5咒波&7，&d但最主要的是要注意自己的行为，&7&c不要一次向&d坩埚&c放入过多的物品，一点一点放入它们，否则大量的源质将会疯狂的溢出并转化为&5咒波&7。",
+		"通常来说，&d试着找到你所需要的最纯净的源质的来源&7，或&d无论如何偶要让你溶解掉的要素都和你需要的要素量接近&7。",
+		"归根结底，&d进行坩埚操作的时候一定要小心&7。",
 		"",
-		"there are other things farther down the line that will produce &5Flux&7, so make sure to be careful, or use some of the &dFlux Removal&7 methods available to compensate."
+		"随着你发展的深入，你会发现还有一些其他的设备会产生&5咒波&7，所以一定要小心，或使用一些可行的手段&d清除咒波&7。"
 	],
 	dependencies: [
 		"39614ba8"
@@ -28,6 +29,6 @@
 	tasks: [{
 		uid: "c0653af8",
 		type: "checkmark",
-		title: "&lRead the text! It's pretty important!"
+		title: "&l请阅读以下文本！这非常重要！"
 	}]
 }

@@ -1,12 +1,12 @@
 {
-	title: "&5Adaminite Robes",
+	title: "&5精金神秘使法袍",
 	x: 29.5d,
 	y: -16.5d,
-	description: "&oAdam!&7 *Read Description*",
+	description: "&o是精金！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Adaminite Robes&7 are a powerful set of armor, boasting &6Excellent protection&7, high &dVis Discount&7, and are &6completely Unbreakable&7.",
+		"&5精金神秘使法袍&7是一件强力装备，有着让穿戴者自豪的&6极强防御力&7与&d魔力减免&7，并且是完全&6不可摧毁&7的。",
 		"",
-		"However, it lacks any real special abilities. Perhaps it still has room for improvement..."
+		"然而,它缺少一项真正特殊的能力.或许其仍具提升的空间..."
 	],
 	dependencies: [
 		"a34ee50d"
@@ -16,8 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:adaminite_hood"
 		}],
@@ -29,8 +28,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:adaminite_robe"
 		}],
@@ -42,8 +40,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:adaminite_belt"
 		}],
@@ -55,8 +52,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:adaminite_boots"
 		}],

@@ -1,16 +1,16 @@
 {
-	title: "&5(Some of) The Best Defense",
+	title: "最强防御",
 	x: 31.0d,
 	y: -17.0d,
-	description: "&oNot as great of an Offense&7 *Read Description*",
+	description: "&o不如其武器的锋锐7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The strongest armor any Thaumaturge can forge in this age, granting &6Incredible protection&7, a &dVery high Vis Discount&7, and being &6Unbreakable&7.",
+		"&7是这个时代神秘使可以铸造的最强盔甲，可以给予极强的&6保护&7和&d魔力减免&7。同时具有&6不毁&7的特性。",
 		"",
-		"Additionally, it has many Abilities, spread across each piece of the armor.",
-		"The &dHood&7 offers &6Water Breathing&7, &6Night Vision in Dark places&7, a &6Sanity Checker as a Potion effect&7, and the effects of the &6Fragrant Pendant&7.",
-		"The &dRobe&7 offers &6Creative Flight&7, &6+10 Hearts&7, and &6Immunity to Fire damage&7.",
-		"The &dBelt&7 offers a &6Speed boost&7, to both Ground and Flight travel.",
-		"The &dBoots&7 offer &6Immunity to Fall Damage&7, and what the &5Boots of the Traveller&7 do, but at no &dVis&7 cost."
+		"此外,，盔甲每一部分都能给予你特殊能力。",
+		"&d兜帽&7可以给予&6水下呼吸&7，并在暗处提供&6夜视&7。还有&6神智检测仪&7和&6芬芳吊坠的效果&7。",
+		"&d法袍&7可以给予你&6创造飞行&7能力和&6额外10颗心&7以及&6免疫火焰伤害的效果&7。",
+		"&d腰带&7可以提供&6速度提升效果&7。",
+		"&d靴子&7可以使你&6无视摔落伤害&7。并提供&5旅行者之靴&7的所有效果，且无需&d灵气&7。"
 	],
 	dependencies: [
 		"7206c686",
@@ -21,8 +21,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:mithminite_hood"
 		}],
@@ -34,8 +33,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:mithminite_robe"
 		}],
@@ -47,8 +45,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:mithminite_belt"
 		}],
@@ -60,8 +57,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:mithminite_boots"
 		}],
@@ -78,7 +74,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "ftbquests:lootcrate",
 			tag: {

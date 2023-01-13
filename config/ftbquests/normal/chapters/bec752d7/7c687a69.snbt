@@ -1,12 +1,12 @@
 {
-	title: "&5Thaumic Pavements",
+	title: "&5神秘街区",
 	x: 23.5d,
 	y: 1.0d,
-	description: "&oPaving the Way&7 *Read Description*",
+	description: "&o这是一些铺路石&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Paving Stones of Travel&7 will apply &6Speed II&7 and &6Jump Boost II&7 to Living beings standing on it, great for roads!",
+		"&5旅行者铺路石&7将会给予站在上面的生物&6速度II&7和&6跳跃提升II&7效果。很适合用来铺路！",
 		"",
-		"&5Barrier Stones&7 will prevent any Living beings besides Players from passing over it, useful for keeping creatures in and out of certain spaces."
+		"&5屏障石&7将会阻止任何非玩家的生物通过它，很适合用来将生物困在某些地方！"
 	],
 	dependencies: [
 		"3c6d03b6"
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:paving_stone_travel"
 		}]
@@ -26,7 +26,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:paving_stone_barrier"
 		}]

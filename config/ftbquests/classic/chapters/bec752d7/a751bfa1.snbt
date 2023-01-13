@@ -1,12 +1,12 @@
 {
-	title: "&5Research by Experience",
+	title: "&5熟能生巧",
 	x: 28.5d,
 	y: -5.5d,
-	description: "&oMind Over Matter&7 *Read Description*",
+	description: "&o心胜于物&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Headband of Curiosity&7 will grant a little bit of progress towards &dTheories and Observations in random Research Categories&7 whenever you pick up XP Orbs.",
+		"&5求知发带&7将会在你每次获得经验的同时提供少量&d随机领域的观测和理论研究点数&7。",
 		"",
-		"There may be ways to abuse this ability..."
+		"或许有支配这种能力的方法……"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,8 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curiosity_band"
 		}],

@@ -1,12 +1,12 @@
 {
-	title: "&5Void Jar",
+	title: "&5虚空罐子",
 	x: 26.5d,
 	y: -4.5d,
-	description: "&oI don't need this!&7 *Read Description*",
+	description: "&o我不需要这些东西！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Void Jars&7 will delete excess Essentia that attempts to enter them by Tubes or Transfusers.",
-		"They are identical to Warded Jars in all other ways.",
-		"&lDoes not produce as much Flux as dumping a Jar's contents."
+		"&5虚空罐子&7将会清除掉管道或析出装置运送到其内的多余源质。",
+		"它的其余属性均与源质罐子相同。",
+		"&l抹去多余源质时其产生的咒波污染比普通源质罐子要少很多。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,7 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:jar_void"
 		}]

@@ -1,11 +1,11 @@
 {
-	title: "&5&lA Word of Warning",
+	title: "&5&l一句警告",
 	x: 24.0d,
 	y: 2.0d,
 	shape: "hexagon",
-	description: "&oCalling all Novice Thaumaturges!&7 *READ DESCRIPTION, please*",
+	description: "&o这是一句送给所有新人神秘使的话！&7*&l阅读描述以了解更多信息*",
 	text: [
-		"&7If you are new to the art of &5Thaumaturgy&7, consider doing it &daway from your main base&7, as if you are not cautious, you are likely to cause undesired Damage to your base, and nobody really wants that..."
+		"&7如果你是一个&5新人神秘使&7，你必须考虑&d在你的基地外发展神秘时代&7。因为如果你不小心，你可能会毁掉你的家。"
 	],
 	dependencies: [
 		"5ff4f44c"
@@ -19,16 +19,16 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "minecraft:paper",
 			tag: {
 				display: {
 					Lore: [
-						"You did, right?",
-						"Please do if you didn't, you're only harming yourself..."
+						"你做到了，不是吗？",
+						"如果你没有这么做, 请这样做，不然你只会伤害你自己……"
 					],
-					Name: "§6Certifice of \"§5I Read the Warning§6\""
+					Name: "§5“我阅读了警告”§6证书"
 				}
 			}
 		}

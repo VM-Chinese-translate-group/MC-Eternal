@@ -1,20 +1,20 @@
 {
-	title: "&5Impetus Matrix",
+	title: "&5元动矩阵",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumicaugmentation:impetus_matrix"
 	},
 	x: 28.5d,
 	y: -22.5d,
-	description: "&oStores 200MFE (No like really)&7 *Read Description",
+	description: "&o储存200MFE （开玩笑的）&7 *阅读描述以了解更多信息",
 	text: [
-		"&5Impetus Matrices&7 store &0Impetus&7 to be used later, becoming more Unstable based on how much &0Impetus&7 is stored, out of the maximum capacity.",
-		"It can be stabilized the same ways a normal &dInfusion Altar&7 can, but in a much smaller area, only &62 Blocks&7 out in every direction from the core.",
-		"&0Impetus Capacity&7 is determined by the number of &5Impetus Cells&7 in the Matrix bases, up to &d8 Cells&7 can be added.",
+		"&5元动矩阵&7储存&0元动能量&7以保证后续的使用，会随着&0元动能量&7的存储数量数量增加变得越来越不稳定（取决于其最大容量）。",
+		"其与&d注魔祭坛&7的稳定方式相同，但是区域更小。只有以核心为圆心半径&62格&7的大小。",
+		"&0其最大元动能量容量&7由矩阵基座内的&5元动能量单元&7数量决定，最多可以添加八个。",
 		"",
-		"The subtitle isn't a joke for once, with the buffed &5Impetus Generator&7 values, it really does."
+		"副标题并不只是个玩笑，被&5元动发电机&7buff后真的可以。"
 	],
 	dependencies: [
 		"82dc35de"
@@ -24,7 +24,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:infusion_matrix"
 		}]
@@ -34,7 +34,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:pedestal_eldritch"
 		}],
@@ -45,7 +45,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:material",
 			Damage: 3s
@@ -57,7 +57,7 @@
 		title: "Gaze at an activated &5Impetus Matrix",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_matrix"
 		},

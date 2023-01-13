@@ -1,5 +1,5 @@
 {
-	title: "&5Banish an Eldritch Warden",
+	title: "&5斩杀一位邪术典狱长",
 	x: 24.5d,
 	y: -12.5d,
 	dependencies: [

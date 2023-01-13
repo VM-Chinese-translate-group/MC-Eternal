@@ -1,11 +1,11 @@
 {
-	title: "&5Lenses of Truth",
+	title: "&5真理之镜",
 	x: 25.0d,
 	y: -1.0d,
 	shape: "octagon",
-	description: "&oAll-Seeing Eyes&7 *Read Description*",
+	description: "&o一双善于观察的眼睛&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Goggles of Revealing&7 will show certain useful bits of information for any Thaumaturge, mainly Essentia contents, and how much Essentia an Infusion still needs to absorb."
+		"&5揭示之护目镜&7将会显示那些对神秘使有用的信息。主要是源质领域，以及注魔祭坛还需要吸收多少要素。"
 	],
 	dependencies: [
 		"b6d6a588"
@@ -15,8 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:goggles"
 		}],

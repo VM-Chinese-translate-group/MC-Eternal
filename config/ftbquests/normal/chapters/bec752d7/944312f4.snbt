@@ -1,15 +1,15 @@
 {
-	title: "&5Research by Discovery",
+	title: "&5R观测研究",
 	x: 19.5d,
 	y: 2.0d,
 	shape: "hexagon",
-	description: "&oHow Curious...&7 *Read Description*",
+	description: "&o怎么发生的啊这都……&7 *阅读以获取更多信息*",
 	text: [
-		"&7The various &5Curiosities&7 from Thaumcraft can be consumed to grant &dResearch progress&7 to the user, in both &dObservations and Theories&7.",
+		"&7各种来源独特的&5珍品&7可以为你提供一些&d研究进展&7，包括&d理论和观测&7.",
 		"",
-		"Additionally, each type of Curiosity is more weighted towards a different &5Research Category&7 from base &5Thaumcraft&7, and there's some handy-dandy &dTooltips in MC Eternal&7 that give you this info!",
+		"此外，不同的珍品给予的知识并不是相同的，它们每个都偏向一种&5神秘时代&7的基础&5研究类型&7， 一些有用的&d物品提示（仅限永恒MC中提供）&7可以给你一些帮助。",
 		"",
-		"As stated in the description of \"&5Researching for answers...&7\", &6these curiosities can be purchased from the Coin Shop in &dMC Eternal&7."
+		"通过\"&5别的任务的描述&7\", &6你可以在&d永恒MC&7的商店里用你的钱来购买珍品（珍品自动化很难吗？）"
 	],
 	dependencies: [
 		"48e5b50e"
@@ -21,41 +21,41 @@
 		title: "4x Any &5Curiosity",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio",
 			Damage: 1s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio",
 			Damage: 5s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio",
 			Damage: 4s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio",
 			Damage: 2s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio",
 			Damage: 3s

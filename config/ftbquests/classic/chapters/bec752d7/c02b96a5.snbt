@@ -1,16 +1,16 @@
 {
-	title: "&5Verdant Heart Charm",
+	title: "&5翠心护符",
 	x: 21.5d,
 	y: -5.5d,
-	description: "&oThaumic Restoration&7 *Read Description*",
+	description: "&o神秘复辟&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Verdant Heart Charm&7 will Cure certain negative effects from the wearer using &dVis&7. the catch is that it has two Upgraded variants with extra useful powers!",
+		"&7A &5翠心护符&7会消耗内部储存的&d灵气&7来祛除佩戴者的负面效果。它有两种更加强力的升级可供选择！",
 		"",
-		"The &6Lifegiver&7 upgrade will consume &dVis&7 from the Charm to restore Health to the wearer at a fast pace.",
+		"&6再生&7升级会使这个护符会额外消耗内部储存的&d灵气&7来使佩戴者的生命快速恢复。",
 		"",
-		"The &6Sustainer&7 upgrade will consume &dVis&7 from the Charm to restore Hunger to the wearer at a fast pace.",
+		"&6续航&7升级会使这个护符会额外消耗内部储存的&d灵气&7来使佩戴者的饱食度速恢复。",
 		"",
-		"Neither upgrade will waste &dVis&7, only consuming it when actually doing their action."
+		"两种升级都不会白白浪费&d灵气&7，而是仅仅在其生效时消耗灵气。"
 	],
 	dependencies: [
 		"2030380f"
@@ -20,8 +20,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:verdant_charm"
 		}],

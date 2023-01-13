@@ -1,16 +1,16 @@
 {
-	title: "&5An Essential Reflection",
+	title: "&5源质的镜面反射",
 	x: 24.5d,
 	y: -7.5d,
 	shape: "octagon",
-	description: "&oPeer-to-Peer&7 *Read Description*",
+	description: "&o对等网络&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Essentia Mirrors&7 are the only normal way of Long-Distance Essentia transmission, to bind them, you simply &dRight-click&7 one placed in the world with another in your hand.",
-		"&5Transfusers&7 and &5Infusion Altars&7 will be able to access Jars or other Essentia holders on the other side as if they were nearby!",
+		"&5源质镜子&7是源质长途传输的唯一正常方式。想绑定两面镜子的话，只需&d右击&7将一面镜子放于地面的同时手持另一面！",
+		"&5源质注入/析出装置&7和&5注魔祭坛&7都会与源质罐子进行交互，前提是得在它们的检测范围内。",
 		"",
-		"&7They will also produce a small amount of &5Flux&7 after transferring a lot of Essentia.",
+		"&7如果传输的源质量过大，不稳定的空间中可能会泄漏一点点&5咒波&7进入灵气厂。",
 		"",
-		"Sometimes these things also just refuse to work for some reason :/, I don't make the bugs."
+		"有些时候，这种镜子可能因为某种我也搞不明白的原因而罢工了:/, 但是这种bug和作者没关系捏~"
 	],
 	dependencies: [
 		"2030380f"
@@ -20,7 +20,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:mirror_essentia"
 		}],

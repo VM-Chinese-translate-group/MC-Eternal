@@ -1,13 +1,13 @@
 {
-	title: "&5Apertis Oculis",
+	title: "&5开启瞳中之扉",
 	x: 35.0d,
 	y: -17.5d,
 	shape: "octagon",
-	description: "&o\"Opening The Eye\"&7 *Read Description*",
+	description: "&o睁开双眼&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7&oThe top of the Spire, the last Chamber, an altar waits before me, beckoning to be activated with my &5&oGauntlet&7&o, i should collect myself before activating it, from what i have seen in the chambers below, nothing good can happen with this altar.",
+		"&7&o尖塔之顶，最终之间。有一座祭坛正等候着我，引诱着我用&5&o手套&7&o激活。我应当在激活它前先冷静冷静，毕竟从下面的房间看来，激活它不会有什么好事的。",
 		"",
-		"&cBEWARE! The opponents that will emerge from this altar are much stronger in &dMC Eternal&c, be prepared before you activate it."
+		"&c注意！于此祭坛中浮现之物强于&d永恒的MC&c中大部分生物，请在激活之前三思而后行。"
 	],
 	dependencies: [
 		"9877bbee"
@@ -16,10 +16,10 @@
 	tasks: [{
 		uid: "1b6fcb8e",
 		type: "observation",
-		title: "Look at &5The Altar with Eyes",
+		title: "凝视&5开眼祭坛",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:capstone",
 			Damage: 2s

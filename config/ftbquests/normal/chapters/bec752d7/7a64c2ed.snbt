@@ -1,8 +1,8 @@
 {
-	title: "&5Impulse Cannon: Railgun Conversion",
+	title: "&5元动加农炮：轨道炮模式组件 ",
 	x: 30.5d,
 	y: -25.0d,
-	description: "Changes the Impulse Cannon to fire a single, powerful blast of Charged Impetus, it is Long-range and can pass through multiple targets.",
+	description: "将元动加农炮的射击模式改为一条由充能元动能量所构成的强力爆破。其射程远，且能穿透多个敌人并造成伤害。",
 	dependencies: [
 		"a22fa00e"
 	],
@@ -11,9 +11,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impulse_cannon_augment"
 		}],

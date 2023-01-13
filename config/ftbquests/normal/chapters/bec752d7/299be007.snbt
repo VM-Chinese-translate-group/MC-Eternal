@@ -1,12 +1,12 @@
 {
-	title: "&5Automated Crossbow",
+	title: "&5自动十字弩",
 	x: 29.0d,
 	y: -4.5d,
-	description: "&oIt cost 400,000 Arrows...&7 *Read Description*",
+	description: "&o至少要400000支箭才够……&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Automated Crossbow&7 is a stationary Crossbow armed with a Mechanical mind, it will automatically fire Arrows at Hostile creatures nearby, it can draw Arrows from a Dispenser placed below.",
+		"&5自动十字弩&7是由机器控制的十字弩炮塔。会自动向周围的敌对生物倾泻火力，可以从下方的发射器汲取弹药。",
 		"",
-		"It can also be mounted into a &6Minecart&7, and can be enabled or disabled with an &dArcane Activator Rail&7."
+		"也可以被安装到&6矿车上&7。可以用&d奥术激活轨道&7来开启或关闭。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,7 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:turret"
 		}]

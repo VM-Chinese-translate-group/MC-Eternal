@@ -1,11 +1,11 @@
 {
-	title: "&5Thaumic Efficiency",
+	title: "&5神秘增效",
 	x: 21.0d,
 	y: -3.0d,
 	shape: "octagon",
-	description: "&5Thaumium Essentia Smelteries&7 are both more efficient and faster than standard ones, a flat upgrade!",
+	description: "&5神秘源质冶炼厂&7比普通冶炼厂速度更快，效率更高，是一个划得来的升级！",
 	text: [
-		"&7&lA Thaumium Essentia Smeltery has 10% Flux Loss!"
+		"&7&l神秘源质冶炼厂仍会有10％源质转化为咒波消散到灵气场中！"
 	],
 	dependencies: [
 		"8f60234e"
@@ -15,7 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:smelter_thaumium"
 		}]

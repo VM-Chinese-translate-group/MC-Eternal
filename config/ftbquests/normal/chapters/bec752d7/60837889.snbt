@@ -1,37 +1,37 @@
 {
-	title: "&5Golemancer's \"Wrench\"",
+	title: "&傀儡使的“扳手”",
 	x: 21.5d,
 	y: -9.5d,
-	description: "&oI Command you!&7 *Read Description*",
+	description: "&o我命令你&7 *请阅读描述*",
 	text: [
-		"&7&lThis Description is packed with a TON of Information! Gotta scroll down to see it all!",
-		"&7A &5Golemancer's Bell&7 is used to See and configure Control Seals, Pick up Golems safely, and a few other things.",
-		"&dSneak+Right-click&7 a Golem to pick it up safely.",
-		"Golems that die will drop some of the components used to make them.",
+		"&7&l这段描述里涵盖了大量信息，请务必仔细阅读！",
+		"&7A &5傀儡使铃铛&7可以用于查看印记，安全的收起傀儡，以及一些其他的事情。",
+		"使用它&d潜行+右击&7一只傀儡来安全的收起它。",
+		"傀儡在死亡时会掉落组成它们的部分原件。",
 		"",
-		"For Seal configuration, &dRight-click&7 a Control Seal to open the UI, from there, there are &dIcons on the Left side of the UI&7 which open different Tabs.",
+		"印记控制部分：使用傀儡使铃铛&d右键&7一个印记来打开它的操作界面，在这个界面的左侧有一些选项，点击可以打开不同的页面。",
 		"",
-		"&dArea&7, the default tab, is where you can set the Area that Golems listening to the Seal will operate in, relative to the Seal's position, you can see the corners of this area when holding a the Bell.",
+		"&d区域&7页面，默认页面，你可以在这里配置傀儡受印记控制的范围，其中心位置为印记的所在位置。",
 		"",
-		"&dFilter&7 allows you to add (a) specific Item(s) to a Blacklist or Whitelist that Golems performing the Task will use.",
+		"&d过滤器&7页面允许你为傀儡添加一个或多个物品作为傀儡检测的黑/白名单。",
 		"",
-		"&dOptions&7 allows you to control if the Golems should Respect or Ignore specific properties of the items listed in the Filter.",
+		"&d选项&7页面允许你控制傀儡遵循或忽略&d过滤器&7页面物品的特定属性。",
 		"",
-		"&dPriority/Locking&7 allows you to set the Priority of a Task, if only Golems owned by the seal's Placer will do the task, and what Color Channel of Golems will perform it, you can set a Golem's channel by clicking it with a piece of the appropriate Dye, uncolored golems will perform all Tasks in their range by default.",
-		"&cGolem Coloration is erased on pickup!&7",
+		"&d优先级/锁定&7页面允许你设置任务的优先级，只允许印记所有者的傀儡工作，以及何种颜色的傀儡受印记影响，你可以用染料右键傀儡来改变它的颜色，没有颜色的傀儡默认执行其所在范围内的所有任务。",
+		"&c傀儡的颜色在其收起时会被重置！&7",
 		"",
-		"&dRequirements&7 is a listing of what capabilities Golems must have or not have to perform the Seal's task.",
+		"&d需求&7页面列出了其所控制的傀儡所必须具备的属性。",
 		"",
-		"Clicking the &cRedstone Torch&7 Icon at the bottom will toggle if the Seal will be deactivated when there is an active Redstone signal in a blockspace adjacent to it.",
-		"When deactivated, a Seal will &8visually Darken&7, occasionally flash, and emit red zaps.",
+		"点亮&c红石火把&7图标后，印记在受到红石信号时会停止工作。",
+		"当印记停止工作时，其将会&8肉眼可见的变暗&7，并且偶尔会发出像红色闪电一样的光。",
 		"",
-		"With proper research, one can &dRight-click&7 a Golem they own with the Bell to make it follow them, and protect them if it has Combat capabilities.",
-		"When clicking again, the Golem will stop following you and set its &dHome Position&7 to where it was told to stop.",
+		"通过完成对应的研究，你可以用铃铛&d右击&7一个傀儡来让它们跟随你，有战斗能力的傀儡还会在战斗中保护你。（译者注：傀儡很脆弱，并不适合战斗）",
+		"当再次右击它时，傀儡会停止跟随并将其目前所在位置设置成&d默认位置&7。",
 		"",
-		"With other proper research, one can also &dRight-click&7 on a Block, Container, or the Air to see a list of all items in containers within &632 Meters&7 which have &5Provider&7 Control Seals attached, any Golems capable of being instructed by the Provider Seal will deliver the Items.",
-		"If a &dBlock&7 was clicked, the item will be Dropped on the side of the block that was clicked.",
-		"If a &dContainer&7 was clicked, the Golem will attempt to insert the item from that side.",
-		"If the &dAir&7 was clicked, the Golem will deposit the item directly into the requester's Inventory."
+		"通过完成另一个对应的研究，你还可以用铃铛&d右击&7方块，容器或空气来查看&632格&7范围内贴着&5供给印记&7容器内的所有物品，任何允许被供给印记控制的傀儡都能将物品交付。",
+		"如果右击&d方块&7，傀儡将会把物品被丢到方块被右击的一面。",
+		"如果右击&d容器&7，傀儡将会尝试把物品塞进去。",
+		"如果右击&d空气&7，傀儡将会把物品直接丢给铃铛的使用者。"
 	],
 	dependencies: [
 		"376c2522"
@@ -41,8 +41,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:golem_bell"
 		}],

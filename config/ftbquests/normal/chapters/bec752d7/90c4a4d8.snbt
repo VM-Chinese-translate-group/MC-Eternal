@@ -1,15 +1,15 @@
 {
-	title: "&5Primal Power!",
+	title: "&5元始之力!",
 	x: 25.5d,
 	y: -14.5d,
 	shape: "octagon",
-	description: "&oAlmost an Infinity Stone&7 *Read Description*",
+	description: "&o一块满脸无敌的石头&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Primordial Pearls&d, Powerful coalesences of some of the Primal energies that formed reality aeons ago.",
-		"&dNow, to harness the marvelous power to create works unlike any other!",
+		"&5元始珍珠&d，一种千万年前如煤的形成般产生的元始力量集合体。",
+		"&d现在，掌控它的力量并做出史无前例的惊人物品吧！",
 		"",
-		"&6&lImportant!",
-		"&5Primordial Pearls&7 can be used more than once in various forms of crafting, infact, they can be used up to &d8&7 times if fully charged!"
+		"&6&l重要",
+		"&5元始珍珠&7可以在多种不同的合成方式中使用不止一次，事实上, 在其完全充能状况下最多可以用&d8&7次！"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -20,8 +20,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:primordial_pearl"
 		}],
@@ -38,7 +37,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "ftbquests:lootcrate",
 			tag: {

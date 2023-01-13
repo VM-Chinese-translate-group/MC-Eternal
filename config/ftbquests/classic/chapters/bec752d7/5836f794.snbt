@@ -1,9 +1,8 @@
 {
-	title: "&5Ultimate Knowledge",
+	title: "&5终极知识",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
-			"astralsorcery:cap_item_amulet_holder": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumcraft:thaumonomicon",
 		Damage: 1s
@@ -11,7 +10,7 @@
 	x: 25.5d,
 	y: -17.5d,
 	shape: "diamond",
-	description: "&oThe Ultimate Price...&7",
+	description: "&o这是我所追求的世界真理吗……？不是！绝对不是！我的路啊，还长的很呐哈哈哈哈哈哈……&7",
 	hide_dependency_lines: true,
 	dependencies: [
 		"2fd692d6",
@@ -98,7 +97,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -117,7 +116,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -136,7 +135,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -155,7 +154,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -174,7 +173,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -193,7 +192,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -212,7 +211,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -231,7 +230,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -250,7 +249,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -269,8 +268,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:primordial_pearl"
 		}],
@@ -283,8 +281,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:thaumonomicon",
 			tag: {
@@ -303,8 +300,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:creative_flux_sponge"
 		}
@@ -315,8 +311,7 @@
 		title: "&5Cleanse Permanent Warp. &cDo after acquiring Ultimate Knowledge!",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:sanity_checker"
 		},

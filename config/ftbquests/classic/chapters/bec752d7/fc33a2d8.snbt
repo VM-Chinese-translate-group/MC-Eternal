@@ -1,15 +1,15 @@
 {
-	title: "&5Rift Monitor",
+	title: "&5裂隙检测仪",
 	x: 31.0d,
 	y: -19.5d,
-	description: "&oVault Overseer&7 *Read Description*",
+	description: "&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Rift Monitors&7 monitor the state of the nearest &5Flux Rift&7, by default, they will observe the &9Rift's Size&7, &cRedstone Comparators&7 can read their information and output a signal, larger Rifts will equal a higher Signal Strength.",
-		"With a simple &dRight-click&7, they can be swapped to monitor the &aStability&7 of a Rift, the more Unstable the Rift is, the lower the Signal strength.",
-		"Another &dRight-click&7 will swap it back to monitoring &9Size&7.",
+		"&5裂隙检测仪&7 可以检测最近的&5咒波裂隙&7的状态。默认情况下，它们会监测&9裂隙大小&7。&c红石比较器&7可以读取检测仪的信息并输出信号, 裂隙越大，产生的信号越强。",
+		"通过一个简单的&d右击&7,可以将其监测对象改为裂隙的&a稳定性&7。裂隙越不稳定，产生的信号越弱。",
+		"再次&d右击&7以调回监测&9裂隙大小&7。",
 		"",
-		"This could probably be used in tandem with a device that can &dInduce a burst of Stability in Flux Rifts&7 to make sure that one is returned to pristine stability when it becomes too unstable.",
-		"It could also likely be used in tandem with a device that &dForcibly grows Flux Rifts&7 as a safety system, to prevent Rifts from growing too Large or Unstable."
+		"最优用法是将裂隙检测仪与某种可以&d引发咒波裂隙稳定性爆破&7的仪器相结合，以保证对裂隙回归原始稳定程度时的监测。",
+		"当然也可将裂隙检测仪与某种可以引发&d强制裂隙扩张的&7仪器相结合。使它成为一种安全系统以避免裂隙扩张的过大或过不稳定。"
 	],
 	dependencies: [
 		"8dafcaf0"
@@ -19,7 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:rift_monitor"
 		}]

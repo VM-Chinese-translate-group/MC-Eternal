@@ -1,10 +1,10 @@
 {
-	title: "&5Beyond Comprehension",
+	title: "&5超出理解",
 	x: 23.5d,
 	y: -15.0d,
-	description: "&oOnly a 1/25000 chance of an Eternal Voidseer's Pearl&7 *Read Description*",
+	description: "&o只有二万五千分之一的几率掉落的虚空预言者珍珠&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Voidseer's Pearl&7 grants a Vis Discount based on your level of &5Permanent Warp&7, granting 1% per 4 points, up to 25%."
+		"&5虚空预言者珍珠&7基于你的&5永久扭曲&7等级提供灵气减免。每四点提供1％减免，25％封顶。"
 	],
 	dependencies: [
 		"90c4a4d8"
@@ -14,8 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:voidseer_charm"
 		}],

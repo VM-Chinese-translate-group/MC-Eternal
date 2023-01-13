@@ -1,15 +1,15 @@
 {
-	title: "&5Alchemical Automation",
+	title: "&5炼金自动化",
 	x: 23.0d,
 	y: -4.0d,
 	shape: "hexagon",
-	description: "&oConstructive Criticism&7 *Read Description*",
+	description: "&o建设性的批评&7 *请阅读描述*",
 	text: [
-		"&7With 2 &5Alchemical Constructs&7, you can build a &5Thaumtorium&7, it can draw Essentia from Warded Jars through &dTubes or Transfusers&7, no more tossing things in! Just melt them down with an Essentia Smeltery and save it for later!",
+		"&7使用两个炼金构材和和坩埚&7，你就可以建造一座&5神秘炼金塔&7，它可以通过&d管道或源质注入装置&7来吸取源质罐子内的要素，再也不用翻箱倒柜了！只要把物品扔在冶炼厂里然后将其要素留作备用就好！",
 		"",
-		"&dCrafts with high Essentia Prices are now MUCH easier to do without causing problems&7, start going ham!",
+		"&d用它来做那些高源质消耗的炼金是更不容易出问题&7，所以赶紧搭一个吧！",
 		"",
-		"Note that a &5Thaumatorium&7 does not require &1Water&7, but still requires a &6Heat Source&7."
+		"备注：&5神秘炼金塔&7不需要&1水&7，但是仍然需要一个&6热源&7。"
 	],
 	dependencies: [
 		"d8a0931d"
@@ -19,7 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:metal_alchemical"
 		}],

@@ -1,11 +1,11 @@
 {
-	title: "&5Closed Thaumic Turrets",
+	title: "&5短程神秘炮塔",
 	x: 30.0d,
 	y: -5.0d,
-	description: "&o...To fire this Weapon, for Twelve seconds.&7 *Read Description*",
+	description: "&o12秒针男弩？&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Advanced Automated Crossbow&7 is similar to the regular Automated Crossbow, but better.",
-		"It &6fires slightly faster&7, &6has a 10 more Health&7, &6does not take Knockback&7, and &6you can select what types of creatures it will attack&7."
+		"&5高级自动弩&7和常规自动弩相仿，但是更好。",
+		"它额的&6射速略微加快&7，&6有额外十点血量&7，&6不吃击退&7，且&6可以选择其攻击生物的种类&7。"
 	],
 	dependencies: [
 		"299be007"
@@ -15,7 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:turret",
 			Damage: 1s

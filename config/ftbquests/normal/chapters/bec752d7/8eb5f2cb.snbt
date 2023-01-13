@@ -1,23 +1,23 @@
 {
-	title: "&5The Space-Time Noodle",
+	title: "&5寰宇面条",
 	x: 19.5d,
 	y: 0.0d,
-	description: "&oCongrats, you Fluxed up! *Read Description*",
+	description: "&o恭喜你，咒波爆表啦！*阅读描述以了解更多信息*",
 	text: [
-		"&5Flux Rifts&7 are... bad, to say the least...",
+		"大白话说，&5咒波裂隙&7就是一种坏东西。",
 		"",
-		"&7They form when the level of Flux in a Chunk is greater than 75% of the chunk's maximum &dVis&7 capacity.",
-		"No other Rifts can exist in a large radius around one (64 Blocks out).",
+		"&7当一个区块内的咒波含量大于该区块&d灵气阈值&7的75％时，它们就会形成。",
+		"在该裂隙64个方块以内，不能有其他裂隙存在。",
 		"",
-		"&7A Rift will consume Flux from the chunk it's in over time and grow larger.",
-		"When it has no Flux to feed it, it will slowly become unstable.",
-		"Larger Rifts become more unstable faster.",
+		"&7随着时间的推移，裂隙会从它所在的区块内吸收咒波并逐渐长大。",
+		"当该区块没有咒波能供其吸收时，它就会慢慢的变得不稳定。",
+		"裂隙越大，不稳定值就越高。",
 		"",
-		"&7Most likely, a Rift will eventually burst into a &5Taint Seed&7 due to instability, a nasty entity that will corrupt the land around it with &dTaint&7, causing a lot of ruin to the landscape, it can be stopped simply by slaying the seed.",
-		"&7If you run into a &5Taint Seed&7, scan it with a &5Thaumometer&7! it will be hugely useful to have done so when you need a &5Primordial Pearl&7.",
-		"&7You need to scan a Rift aswell for some research.",
+		"&7最常见的是，裂隙最终会因为不稳定而爆裂形成&5腐化孢子巢穴&7。这个讨厌的实体会用&d腐化&7侵染周围的土地，给地形带来很大的破坏，只要将其击杀就可以阻止它。",
+		"&7如果你遇到了&5腐化孢子&7，请用&5魔导透镜&7扫描它！这将会对你获取&5元始珍珠&7有着很大的帮助。",
+		"&7你需要扫描一个裂隙来解锁对应的研究。",
 		"",
-		"&7Rifts aren't all bad though, they can be shut using a &5Causality Collapser&7, and will provide some &5Void Seeds&7 in the process, you'll need to shut atleast one to get into Lategame Thaumcraft content."
+		"&7不过，裂隙并不完全是坏东西，它们可以用&5悖论物质&7来关闭，关闭后的裂隙会掉落一些&5虚空种子&7，这是进入神秘学后期的“钥匙”。"
 	],
 	dependencies: [
 		"98bea19e"
@@ -25,11 +25,10 @@
 	tasks: [{
 		uid: "49f5089a",
 		type: "observation",
-		title: "See a &5Giant Taint Seed",
+		title: "看向一个&5腐化孢子巢穴",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:rift_seed",
 			tag: {
@@ -45,7 +44,7 @@
 	rewards: [{
 		uid: "71e218c2",
 		type: "command",
-		title: "HEY, read the text!",
+		title: "嘿，读读下面这段文字吧!",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -53,8 +52,9 @@
 			id: "lodsofemone:coin_big",
 			tag: {
 				value: 100L
-			}
+			},
+			Count: 1b
 		},
-		command: "/tellraw @p {\"text\":\"§5§lBet you didn't read the description before clicking that! Go and read it dammit!\"}"
+		command: "/tellraw @p {\"text\":\"§5§l我打赌你在点这个之前没有阅读描述! 赶紧去读它！\"}"
 	}]
 }

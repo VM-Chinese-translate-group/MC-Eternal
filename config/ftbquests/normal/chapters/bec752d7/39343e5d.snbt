@@ -1,10 +1,10 @@
 {
-	title: "&5Essentia Resonator",
+	title: "&5源质谐振器",
 	x: 26.5d,
 	y: -2.0d,
-	description: "&oNOT Resonating Wand&7 *Read Description*",
+	description: "&o才不是法杖呢&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Essentia Resonator&7 is an essential tool for any Thaumaturge working with Essentia Tubes, click a Tube or other Essentia container to see how much Essentia it has, and what the Suction levels passing through it are."
+		"&5源质谐振器&7是为源质管道系统排障的方便工具。右击管道或者其他使用源质的设备，能够显示目标位置的源质吸力。如果含有源质，还会显示含有哪种源质以及数量。
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -15,8 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:resonator"
 		}],

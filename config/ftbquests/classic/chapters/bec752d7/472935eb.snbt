@@ -1,14 +1,14 @@
 {
-	title: "&5Puzzling Projectiles",
+	title: "&5抛射物的难题",
 	x: 26.0d,
 	y: 0.5d,
-	description: "&oThe numbers Mason, what do they mean?&7 *Read Description*",
+	description: "&o所以呢，你这话什么意思？&7 *阅读以了解更多内容*",
 	text: [
-		"&7You may find the Research Tasks in &dFocus Medium: Projectile&7 quite puzzling, so here's the solutions!",
+		"&7你或许已经发现了，&d施术核心：抛射&7这个研究中描述你每个字都认识，但是拼在一起就不知道啥意思了。所以这里提供了解决方案！",
 		"",
-		"&6This quest is repeatable, so you can refer to it for the information if you forget!",
+		"&6这是个可重复任务，如果你忘了就再点一次，我希望他能刻在你的DNA里，一辈子别忘。",
 		"",
-		"Complete &5Focusing your Energy&6 (&dFocal Manipulator&6) to unlock this quest."
+		"完成&5其他任务&6 (&d提示：核心镶饰台&6)来解锁这个任务"
 	],
 	can_repeat: true,
 	hide_dependency_lines: true,

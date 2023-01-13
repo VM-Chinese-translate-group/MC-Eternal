@@ -1,11 +1,11 @@
 {
-	title: "&5Workbench Charger",
+	title: "&5奥术工作台充器",
 	x: 24.5d,
 	y: 1.0d,
 	shape: "octagon",
-	description: "&oE X P A N D&7 *Read Description*",
+	description: "&o领 域 展 开&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Workbench Charger&7, when placed ontop of an &5Arcane Workbench&7 or &5Focal Manipulator&7, will allow it to access the Vis of all chunks around the one it's in, getting you effectively 9x as much &dVis&7 available at once!"
+		"&7当你把&5奥术工作台充器&7放在&5奥术工作台&7或&5核心镶饰台&7的上面时，将会允许该设备吸收以该设备所在区块为中心3x3区块内的灵气。让你可用的&d灵气&7轻松翻9倍！"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:arcane_workbench_charger"
 		}]

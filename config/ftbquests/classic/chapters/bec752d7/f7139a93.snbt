@@ -1,14 +1,14 @@
 {
-	title: "&5Control Seals",
+	title: "&5傀儡操控印记",
 	x: 22.5d,
 	y: -10.0d,
-	description: "&oUnsealing the Power&7 *Read Description*",
+	description: "&o释放禁忌之力&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Control Seals&7 tell Golems in the area what to do, they need to be infused with Essentia, and sometimes Items, in order to give them the right properties.",
+		"&5傀儡操控印记&7可以指挥一定区域内的傀儡办事。该印记需要被注入源质（有时是物品）才能给与傀儡正确的行为模式。",
 		"",
-		"&5Golems&7 may need specific capabilities to perform some tasks Control Seals can instruct.",
-		"These can usually be acquired by using different parts for the Golem. ",
-		"&cSome downsides from other parts may also prevent them from doing certain tasks!"
+		"有些操纵印记发出的指令需要具有特殊能力的&5傀儡&7才能执行。",
+		"使用不同种类的傀儡来完成不同指令。",
+		"&c一些其他方面的缺点也可以被用来避免傀儡完成你不想让它做的工作！"
 	],
 	dependencies: [
 		"376c2522"
@@ -18,7 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:seal"
 		}]

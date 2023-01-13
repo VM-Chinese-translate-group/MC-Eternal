@@ -1,8 +1,8 @@
 {
-	title: "&5Magical Metallurgy",
+	title: "&5魔力冶金",
 	x: 21.5d,
 	y: -2.0d,
-	description: "&5(Alchemical) Brass&7 and &5Thaumium&7 are useful materials for any Thaumaturge, experienced or novice, they have many applications...",
+	description: "&5（炼金）黄铜锭&7和&5神秘锭&7对于任何神秘使来说，都是有用的材料，它们有着很多的应用……",
 	dependencies: [
 		"af231639"
 	],
@@ -11,18 +11,18 @@
 		type: "item",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:ingot",
 			Damage: 2s
 		},
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "ingotBrass",
 					id: "ore"
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "itemfilters:filter",
 			tag: {
@@ -37,7 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:ingot"
 		}]

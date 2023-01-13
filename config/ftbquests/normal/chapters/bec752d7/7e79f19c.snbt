@@ -1,10 +1,10 @@
 {
-	title: "&5Puriflower",
+	title: "&5纯净之花",
 	x: 29.0d,
 	y: -6.5d,
-	description: "&oFlux this!&7 *Read Description*",
+	description: "&o咒波，咬他！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Puriflowers&7 will slowly absorb &5Flux&7 in the Aura of the Chunk they are in, it's slow, but has no maintenance cost."
+		"&5纯净之花&7可以缓慢吸收其所处区块灵气厂内的&5咒波&7。虽然特别慢，但是不用管它。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -15,7 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:puriflower"
 		}]

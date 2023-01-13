@@ -1,10 +1,10 @@
 {
-	title: "&5Impetus Relay",
+	title: "&5元动中继器",
 	x: 28.0d,
 	y: -21.5d,
-	description: "&oChaotic Energy Relay&7 *Read Description*",
+	description: "&o混沌能量中继器&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Impetus Relays&7 are used to relay &0Impetus&7 between devices and route your &0Impetus&7 network properly, they can be bound to 2 &0Impetus Sources&7, and act as a source for 2 other devices, including other Relays!"
+		"&5元动中继器&7是不同仪器间&0元动能量&7传输的中继处。并且能使元动能量以你想要得正确方式传输。它可以被同时绑定于&0两个产生元动能量的仪器上&7，并且为其他两个仪器提供元动能量，包括其他中继器。"
 	],
 	dependencies: [
 		"82dc35de"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_relay"
 		}]

@@ -1,8 +1,8 @@
 {
-	title: "&5Impulse Cannon: Burst Conversion",
+	title: "&5元动加农炮：迸射模式组件",
 	x: 29.5d,
 	y: -25.0d,
-	description: "Changes the Impulse Cannon to fire a Three-round burst, each shot in the burst ignores the target's Immunity frames.",
+	description: "将元动加农炮的发射方式改为三联爆破模式，每次爆破均可无视目标的无敌帧。",
 	dependencies: [
 		"a22fa00e"
 	],
@@ -11,9 +11,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impulse_cannon_augment",
 			Damage: 1s

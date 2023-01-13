@@ -1,11 +1,11 @@
 {
-	title: "&5Lamp of Growth",
+	title: "&5催生灯",
 	x: 28.0d,
 	y: -3.0d,
-	description: "&oHaha Wheat go brrrr&7 *Read Description*",
+	description: "&o芜湖！小麦长疯啦！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Lamp of Growth&7 uses a bit of &2Herba&7 Essentia to quite significantly accelerate the growth of nearby Plants, Crops, Trees, you name it, it should work!",
-		"Plus, you can stack the effect!"
+		"&5催生灯&7使用&2Herba&7源素显著地加速其周围植物的生长速度。不管是作物、树，凡是你说得出的名字的都奏效！（包括神秘农业哦）",
+		"对了，这个效果可以堆叠哦！"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:lamp_growth"
 		}]

@@ -1,10 +1,10 @@
 {
-	title: "&5Buggy Smelteries",
+	title: "&5熔炼炉的BUG",
 	x: 29.5d,
 	y: -12.0d,
-	description: "&oI am Inevitable.&7 *Read Description*",
+	description: "&o每个模组都有的通病。&7 *阅读描述以了解更多信息",
 	text: [
-		"&5Auxiliary Venting Ports&7 and &5Pumps&7 will refuse to be placed against &dThaumic Additions'&7 Essentia Smelteries, however, if the TAdditions Smeltery is placed after the Ports and Pumps, they will happily work with it."
+		"&5辅助排放口&7和&5泵&7无法被放在&d神秘领域的&7源质冶炼炉旁。不过先放冶炼炉的话，泵和辅助排放口就可以正常运作了。"
 	],
 	dependencies: [
 		"9b53b86e"

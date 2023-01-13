@@ -1,13 +1,13 @@
 {
-	title: "&5Impulse of Force",
+	title: "&5元动之力",
 	x: 30.0d,
 	y: -19.0d,
-	description: "&oFireworks? Where we're going we don't need Fireworks.&7 *Read Description*",
+	description: "&o烟花？接下来可再也不用烟花了。&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Impetus Thruster Upgrade&7 is an Augment for the &5Elytra Harness&7, when attached, it allows the wearer to slowly eject &0Charged Impetus&7 from the &dImpetus Cell&7 on the Augment, kicking them up to a high velocity, this allows the wearer to travel whatever way they are tilted at high speed, as long as they have &0Impetus&7 stored in the Cell.",
-		"Using the Boost mechanism after turning also allows the wearer to make incredibly sharp turns that would otherwise be impossible with Elytra.",
+		"&5元动助推器&7是&5奥法鞘翅&7的升级组件。组合后，可通过充能元动能量一飞冲天，穿戴者将被允许在有储备能源的情况下高速随意飞行。",
+		"转向时激活助推器可以完成一个没有元动完全不敢想象的急转。",
 		"",
-		"Use your &dJump&7 keybind to Boost, or set &6EnableImpetusThrusterKeybind&7 to true in &dThaumic Augmentation's&7 config and use the rebindable key."
+		"使用&d跳跃&7键激活，或在&配置文件里将&6EnableImpetusThrusterKeybind&7设置为打开来	绑定新键。"
 	],
 	dependencies: [
 		"82dc35de"
@@ -17,13 +17,12 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					energy: {
 						energy: 0L
 					}
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:elytra_harness_augment"
 		}],

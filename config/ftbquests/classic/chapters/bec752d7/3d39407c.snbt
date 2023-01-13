@@ -1,10 +1,10 @@
 {
-	title: "&5Gated Transmission",
+	title: "&5门控传输",
 	x: 26.5d,
 	y: -21.5d,
-	description: "&oSorry, this Cable requires a &kBullshitium&7&o Singularity to craft&7 *Read Description*",
+	description: "&o对不起嗷，要想合成这东西可需要一堆乱七八糟的&k破玩意&7。&o&7， *阅读描述以了解更多信息*",
 	text: [
-		"&5Impetus Gates&7 are similar to &5Impetus Relays&7, only that the flow of Impetus through them can be stopped by powering the Gate with &cRedstone&7!"
+		"&5元动阀门&7与&5元动中继器&7功能相似。但如果给元动阀门提供&c红石信号&7的话可以停止元动能量的传输哦！"
 	],
 	dependencies: [
 		"cf87ffd4"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_gate"
 		}]

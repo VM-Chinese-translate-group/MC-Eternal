@@ -1,8 +1,8 @@
 {
-	title: "&5Solar Panel?",
+	title: "&5太阳能板？",
 	x: 22.0d,
 	y: -6.5d,
-	description: "An &5Amulet of Vis&7 will pull &dVis&7 from the aura around you to recharge your Thaumic trinkets on the go. &oWho needed that stinky Pedestal anyway?",
+	description: "&5魔力护身符&7将会吸收你周围的&d灵气&7来为你穿戴的需要充能的物品充能。 &o有了这个，谁还会需要那个鸡肋的充能台呢？",
 	dependencies: [
 		"2030380f"
 	],
@@ -11,8 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:amulet_vis",
 			Damage: 1s

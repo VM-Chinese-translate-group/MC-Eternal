@@ -1,13 +1,13 @@
 {
-	title: "&5Travelling the Tower",
+	title: "&5探索旋塔",
 	x: 34.5d,
 	y: -15.5d,
 	shape: "octagon",
-	description: "&oKeys to the Kindgom&7 *Read Description*",
+	description: "&o王国大门的钥匙7 *阅读描述以了解更多信息",
 	text: [
-		"&7Four Chambers, &6Four Keys&7, travel each section of the Spire and reach the top!",
+		"&7四个房间，&6四把钥匙&7。探索尖塔的每一层并触及塔顶。",
 		"",
-		"&6Don't forget to scan any oddities or things you have not seen before! You may be able to replicate some of them!"
+		"&6不要忘了调查一下任何你没见过的东西或奇怪的现象！你或许可以仿制哦！"
 	],
 	dependencies: [
 		"c2cba266"
@@ -18,8 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key"
 		}],
@@ -30,8 +29,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key",
 			Damage: 1s
@@ -43,8 +41,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key",
 			Damage: 2s
@@ -56,8 +53,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key",
 			Damage: 3s

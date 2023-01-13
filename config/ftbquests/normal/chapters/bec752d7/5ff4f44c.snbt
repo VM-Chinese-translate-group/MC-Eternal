@@ -1,9 +1,9 @@
 {
-	title: "&5Thaumonomicon",
+	title: "&5魔导手册",
 	x: 21.5d,
 	y: 2.0d,
 	shape: "pentagon",
-	description: "Dash some &dSalis Mundus&7 on a &5Bookshelf&7 to begin your journey. &lReading the Thaumonomicon is essential for further steps!",
+	description: "在&5书架&7上撒一些&d世界盐&7来开始你的神秘之旅。 &l想要前程无忧，请阅读描述魔导手册！",
 	dependencies: [
 		"5edf15e4"
 	],
@@ -12,8 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:thaumonomicon"
 		}],
@@ -35,13 +34,13 @@
 		title: "&5&lSpecial Surprise",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:warded_chest"
 		},
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "minecraft:paper",
 			tag: {
@@ -51,10 +50,10 @@
 				}],
 				display: {
 					Lore: [
-						"§5§§§5§oTo any §d§oNovice Thaumaturge§5 §owho may receive this, If you're not ready to read a bunch, you probably shouldn't be looking here.",
-						"§d§lIf you want some help with Thaumcraft, come stop by the MC Eternal Discord and ask me!"
+						"§5§§§5§o这是一句送给§d§o神秘使§5的话§o如果看到这句话没有准备好阅读大量的内容，那么你可能不应该来这里。",
+						"§d§l如果你需要一些神秘时代模组相关的帮助，请到永恒MC的Discord群组来问我吧！"
 					],
-					Name: "§7A Letter from: §5Expert Thaumaturge \"Emperdog\""
+					Name: "§7一封来自§5资深神秘使Emperdog§7的信§5"
 				}
 			}
 		}
@@ -62,7 +61,7 @@
 	{
 		uid: "241ad313",
 		type: "command",
-		title: "&dThis Reward fixes a weird bug (Conflict?) with &5Lost Magic",
+		title: "&d修复&5失落魔法&d研究的一个漏洞&5",
 		auto: "enabled",
 		command: "/tc research @p LOSTMAGIC"
 	}]

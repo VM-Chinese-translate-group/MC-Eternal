@@ -1,15 +1,15 @@
 {
-	title: "&5Rilocation",
+	title: "&5给它换个地儿",
 	x: 32.0d,
 	y: -23.0d,
-	description: "&oCasually steals crack in Space-Time&7 *Read Description*",
+	description: "&o于诸史中窃取裂隙&7 *阅读以获得更多信息*",
 	text: [
-		"&7This duo of &5Metaspatial devices&7 can be used to move around &5Flux Rifts&7 to and from &5Reinforced Jars&7, the &5Accumulator&7 will capture them, while the &5Extruder&7 will release them.",
+		"&7这对&5元动机械&7可以用来转运&5咒波裂隙&7，这一操作需要用到&5奥术强化罐子&7, &5裂隙封装仪&7是用来将裂隙封存的，&5裂隙释放仪&7是用来释放裂隙的。",
 		"",
-		"&oThe &5&oExtruder&7&o contains a safety mechanism which does not allow Rifts to be unjarred in the natural proximity to others that has been observed, if a Rift cannot form within close proximity to another, it is likely a safety mechanism of whatever force creates Rifts, and is a risk i should not take.",
+		"&5&o裂隙释放仪&7&o有一个自带的保护措施，它会让裂隙在释放时不会被任何外力所干扰和破坏。同时，不能在已有裂隙的区块内放置裂隙。我也不应该去尝试这种事，这可能会导致一些我无法控制的事情发生。",
 		"",
-		"&7&oThis does pose an interesting question, however, Rifts attempt to absorb whatever touches them into the Void between dimensions, so what if one were to, by some miracle, collide with another? From what i have observed, it is impossible to do, though maybe &d&osomething closely related to the Metaspatial devices&7&o holds the secret...",
-		"The results would likely be volatile, but may be of interest..."
+		"&7&o不过，这一点确实启发了我，以我在神秘学摸爬挨打了这么久的经验来看，咒波裂隙会将任何它触碰到的物质尽数归于虚空中，成为那里的一部分，但是如果是两个咒波裂隙相互触碰，会碰撞出怎样的火花呢？在没有阅读那篇古代邪术使留下的手稿前，我认为提出这种问题的人简直就是个疯子。但是我现在已经离疯不远了（或者走到这一步时我早就疯了，只是我不这么想而已）使用&d&o元动能量机械&7&o 应该可以让我做到这一点，这个曾经被公认为不可能的，疯狂的想法……",
+		"这件事情的后果可能会超出我的控制，但是管他呢，不试试怎么知道？（尝试把一个罐中裂隙丢进一个普通的裂隙里，或者把罐中裂隙扔进另一个罐中裂隙里）"
 	],
 	dependencies: [
 		"8dafcaf0"
@@ -19,8 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:rift_jar"
 		}],
@@ -31,7 +30,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:rift_mover_input"
 		}]
@@ -41,7 +40,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:rift_mover_output"
 		}]

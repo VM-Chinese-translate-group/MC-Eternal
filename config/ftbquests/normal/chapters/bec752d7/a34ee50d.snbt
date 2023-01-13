@@ -1,10 +1,10 @@
 {
-	title: "&5Adaminite",
+	title: "&5精金",
 	x: 28.0d,
 	y: -16.0d,
-	description: "&oAdam Moment™&7 *Read Description*",
+	description: "&o精金时间到&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An even more powerful alloy, infused with potent materials of Arcane origin, can be used to forge marvelous objects."
+		"&7一种甚至更强大的合金，由强劲的奥术原料灌注而成，可用于制造极其强大的物品。"
 	],
 	dependencies: [
 		"b00081a8",
@@ -15,7 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:adaminite_ingot"
 		}]

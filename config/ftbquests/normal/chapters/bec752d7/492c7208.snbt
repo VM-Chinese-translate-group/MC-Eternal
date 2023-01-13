@@ -1,10 +1,10 @@
 {
-	title: "&5Shadow Enchanter",
+	title: "&5暗影附魔台",
 	x: 29.5d,
 	y: -9.5d,
-	description: "&oEnchanting in a new Dark!&7 *Read Description*",
+	description: "&o在新的黑暗中附魔&7*阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Shadow Enchanter&7 is a device which conjures &dEnchantments&7 directly onto tools and other objects that accept them, using Essentia that relates to the properties of the selected &dEnchantments&7 to make sure the job is done properly."
+		"&5暗影附魔台&7可以直接对物品施加&d附魔&7或其他兼容的东西。使用所选&d附魔&7所需要的源素来完成附魔。"
 	],
 	dependencies: [
 		"b00081a8"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:shadow_enchanter"
 		}]

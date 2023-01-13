@@ -1,29 +1,29 @@
 {
-	title: "&5Thaumic Foliage",
+	title: "&5神秘植物学",
 	x: 21.5d,
 	y: 4.0d,
-	description: "&oMagical Crops&7 *Read Description*",
+	description: "&o魔法作物&7*请阅读描述*",
 	text: [
-		"&5Mystical Plants&7 of many types inhabit this world, but these are most closely linked to the art of &dThaumaturgy&7!",
-		"Any Thaumaturge will be needing atleast some of these!",
+		"在这世界上有许许多多的&5魔法植物&7，它们大多与&d神秘学&7的研究紧密相连！",
+		"任何神秘使都会需要它们！",
 		"",
-		"&5Greatwood&7 and &5Silverwood&7 Trees are prized for their magical properties, which have many applications in Thaumaturgy!",
-		"They can be found more often in &dMagical&7 types of biomes.",
+		"&5宏伟之木&7和&5银树&7这些珍贵的树富含魔力，它们在神秘学领域中有很多用途！",
+		"它们通常可以在&d魔法&7群系中被发现。",
 		"",
-		"&5Cinderpearls&7 are a fairly common flower that spawn in patches around Desert-like biomes, they are sought after for their &dBlazing&7 buds, which contain a substance identical to &dBlaze Powder&7.",
+		"&5烈焰草&7通常生成在沙漠类生物群系，它们因可以制成&d烈焰粉&7而备受关注。",
 		"",
-		"&5Shimmerleaves&7 are found only around &dSilverwood Trees&7 in the wild, and have some applications in Thaumaturgy directly, but their shiny leaves contain a substance identical to &dQuicksilver&7.",
+		"&5水银花&7可以在野生的&d银树&7周围被发现，它们既可以直接参与神秘学的某些合成，也可以分解成&d水银&7。",
 		"",
-		"&6&lImportant!",
-		"&5Vishrooms&7 cannot be found naturally in &dMC Eternal&7, as &dMagical Forests&7 have been disabled, due to a rare, but catastrophic Crash.",
-		"You can still create them with &dThaumic Additions'&7 &5Flux Concentrator&7."
+		"&6&l注意事项!",
+		"&5纤毛菇&7无法在&d永恒的MC&7中自然生成，因为&d魔法森林&7因一次罕见但灾难性的崩溃而被我们禁止生成了。",
+		"当然，你依然可以通过&d神秘领域&7的&5咒波集中器&7来制作它。"
 	],
 	tasks: [{
 		uid: "1a244a34",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:sapling_greatwood"
 		}]
@@ -33,7 +33,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:sapling_silverwood"
 		}]
@@ -43,7 +43,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cinderpearl"
 		}]
@@ -53,7 +53,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:shimmerleaf"
 		}]

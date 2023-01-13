@@ -1,8 +1,8 @@
 {
-	title: "&5And I Would Walk 500 Miles...",
+	title: "&5我得走500公里……",
 	x: 21.5d,
 	y: -4.5d,
-	description: "&5Boots of the Traveller&7 Enhance your agility significantly when worn and charged with &dVis&r.",
+	description: "穿戴充能&dVis&r后的&5旅行者之靴&7可以显著的提升你的步行速度。",
 	dependencies: [
 		"2030380f"
 	],
@@ -11,8 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:traveller_boots"
 		}],

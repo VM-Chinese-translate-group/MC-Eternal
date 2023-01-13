@@ -1,22 +1,22 @@
 {
-	title: "&5Stabilizer",
+	title: "&5稳定器",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumcraft:stabilizer"
 	},
 	x: 23.0d,
 	y: -6.5d,
-	description: "&oNOOO my expensive components :C&7 *Read Description*",
+	description: "&o哦，我珍贵的材料&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Stabilizers&7 can be used to protect the items on your Pedestals for Infusion from &dInstability Effects&7 from Infusion, simply connect the Pedestals to the Stabilizers with &5Redstone Inlays&7, and it will be ready to defend.",
-		"The Inlays, being made of Redstone, have a limited distance they can transmit the Stabilizer's charge before it dissipates fully, so a single Stabilizer only protects pedestals so far away.",
-		"&dPedestals&7 will also pass the Inlay signal along.",
+		"&5稳定器&7可以用来保护奥术基座上的物品免受注魔的&d不稳定效果&7的影响，只需要把基座和稳定器用&5红石镶嵌&7连起来，就能使它严阵以待。",
+		"红石镶嵌保护奥术基座的范围是有限的，所以一个稳定器可以保护的范围并不是很远。",
+		"&d基座&7红石镶嵌的信号。",
 		"",
-		"Stabilizers will produce a good amount of &dFlux&7 when protecting an item, and may also be a bit fiddly and just passively produce large amounts of Flux. I don't make the bugs :/",
+		"稳定器在保护物品时会产生相当多的&d咒波&7，在不保护物品时也会产出……",
 		"",
-		"If they decide to make lots of Flux, atleast there's the normal Stabilization method, that usually does the trick."
+		"这使得稳定器可以稳定的产出大量咒波。"
 	],
 	dependencies: [
 		"2030380f"
@@ -26,7 +26,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:stabilizer"
 		}]
@@ -36,7 +36,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:inlay"
 		}]

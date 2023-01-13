@@ -1,10 +1,10 @@
 {
-	title: "&5Wormhole Mirror",
+	title: "&5虫洞手镜",
 	x: 26.5d,
 	y: -9.0d,
-	description: "&oNow you see me. Now you don't&7 *Read Description*",
+	description: "&o看到这么大一个我了吗？啪！没了！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Wormhole Mirror&7 can be used to &dtransport oneself through the Space between Magic Mirrors safely&7, simply &dRight-click&7 a paired Magic Mirror to warp."
+		"&5虫洞手镜&7可被用于&d在魔法镜子之间安全的传送&7，只需&右击&7一对魔法镜子即可开始传送。"
 	],
 	dependencies: [
 		"65600fe3"
@@ -14,8 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:wormhole_mirror"
 		}],

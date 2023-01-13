@@ -1,9 +1,9 @@
 {
-	title: "&5Abyssal Efficiency",
+	title: "&5深渊效率",
 	x: 23.0d,
 	y: -16.0d,
 	shape: "octagon",
-	description: "&5Void Metal Essentia Smelteries&7 are slightly slower than their &5Thaumium&7 cousins, but make up for it by only having &l5% Flux Loss&7!",
+	description: "&5虚空金属源质冶炼厂&7没有他们的&5神秘&7表亲快。作为补偿，只有&l5％的咒波流失&7！",
 	dependencies: [
 		"90c4a4d8"
 	],
@@ -12,7 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:smelter_void"
 		}]

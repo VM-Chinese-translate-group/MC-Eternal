@@ -1,19 +1,19 @@
 {
-	title: "&5Researching for answers...",
+	title: "&5在研究中寻找答案……",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumcraft:research_table"
 	},
 	x: 20.5d,
 	y: 2.5d,
 	shape: "heart",
-	description: "&oThe path forward is not always clear, and is sometimes flawed....&7 *READ DESCRIPTION*",
+	description: "&o路漫漫其修远兮，吾将上下而求索&7 *阅读描述以了解更多信息*",
 	text: [
-		"&c&lThaumcraft 6's Research Minigame&7, a much-hated system, so we've provided an alternative solution! &dYou can purchase the various &5Curiosities&d from the Coin shop&7, so you don't have to play the dreaded Research Minigame!",
+		"&c&l神秘6的研究小游戏&7玩起来很让人反感。因此我们提供了一个备选方案！&d你可以在玩家商店中购买多种多样的&5珍品&d&7，这样你就可以不用去玩这该死的小游戏啦！",
 		"",
-		"To create a &5Research Table&7, right-click a &5Table&7 from &dThaumcraft&7 with &5Scribing Tools&7."
+		"想要制作&5研究台&7，清使用&5笔与墨&7右击&d神秘时代&7的&5木桌&7。"
 	],
 	dependencies: [
 		"5ff4f44c"
@@ -21,10 +21,10 @@
 	tasks: [{
 		uid: "0a2af8cf",
 		type: "observation",
-		title: "Gaze at a &5Research Table",
+		title: "观测&5研究台",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:research_table"
 		},
@@ -37,8 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:scribing_tools"
 		}],
@@ -50,7 +49,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "minecraft:paper"
 		}],

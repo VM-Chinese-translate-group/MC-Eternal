@@ -1,8 +1,8 @@
 {
-	title: "&5Mystical Fire!",
+	title: "&5神秘烈焰！",
 	x: 20.0d,
 	y: -3.0d,
-	description: "&5Nitor&7 is an everburning flame which does no harm to the world, can heat a Crucible, and comes in 16 different colors!",
+	description: "&5闪耀之光&7是一种永燃的无害之火，它可以用来加热坩埚，并有16种不同的颜色可供选择！",
 	dependencies: [
 		"af231639"
 	],
@@ -11,7 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:nitor_yellow"
 		}]

@@ -1,13 +1,13 @@
 {
-	title: "&5Essential Upgrades",
+	title: "&5冶炼厂升级装置",
 	x: 20.5d,
 	y: -4.0d,
 	shape: "hexagon",
-	description: "&oEssentia Extraction improved!&7 *Read Description*",
+	description: "&o源质提取效率得到提升！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Venting Ports&7 provide a chance for Flux produced from Essentia loss to be converted into harmless Steam, up to a 66% chance with 3 Ports!",
+		"&5辅助排放口&7有几率让冶炼厂排出的咒波转换为无害的蒸汽，当同时安放三个时转换几率为66%",
 		"",
-		"&5Slurry Pumps&7 help you pull Essentia out of a Smeltery faster by depositing into &5Arcane Alembics&7 ontop of them!"
+		"&5附属黏浆泵&7，可以在其上方放置&5奥术蒸馏器&7来加快冶炼厂内源质的排出！"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -19,13 +19,13 @@
 		title: "&5Auxiliary Venting Port&7 or &5Slurry Pump",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:smelter_vent"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:smelter_aux"
 		}]

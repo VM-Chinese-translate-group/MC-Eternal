@@ -1,10 +1,10 @@
 {
-	title: "&5Void Siphon",
+	title: "&5虚空吸管",
 	x: 24.0d,
 	y: -10.5d,
-	description: "&oCollect the Infinite&7 *Read Description",
+	description: "*阅读描述以了解更多信息",
 	text: [
-		"&7The &5Void Siphon&7 will draw energy from nearby &5Flux Rifts&7 and coalesce it into usable &dVoid Seeds&7, it can be deactivated with a Redstone signal."
+		"&5虚空吸管&7可以从附近&5咒波裂隙&7中汲取能量并转化为不稳定的&d虚空种子&7。对了，它可以用红石信号关闭。"
 	],
 	dependencies: [
 		"65600fe3"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:void_siphon"
 		}]

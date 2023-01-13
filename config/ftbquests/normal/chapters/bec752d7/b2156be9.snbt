@@ -1,11 +1,11 @@
 {
-	title: "&5Enhanced Storaurage",
+	title: "&5强化存储",
 	x: 26.5d,
 	y: -6.0d,
-	description: "&oNo Acids involved!&7 *Read Description*",
+	description: "&o酸性电池？去你的吧！&7 *阅读以获得更多信息*",
 	text: [
-		"&5Vis Batteries&7 will store 10 &dVis&7 from the Aura inside them, and will discharge when the Aura is at 75% of max Capacity or lower, helping the Aura stay topped up.",
-		"A &cRedstone Signal&7 can be applied to force the Battery to discharge into the Aura immediately."
+		"&5灵气电池&7可以存储10点&dVis&7，是的,它们会从灵气厂里直接抽。 当灵气厂的灵气容量低于灵气阈值的75%，它们便会释放其存储的灵气。灵气电池越量，存储的灵气越多。",
+		"&c红石信号&7可以让电池立刻排空自身灵气存储。"
 	],
 	dependencies: [
 		"794429c7"
@@ -15,7 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:vis_battery"
 		}]

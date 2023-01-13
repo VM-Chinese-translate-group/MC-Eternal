@@ -1,19 +1,19 @@
 {
-	title: "&5Alchemy",
+	title: "&5炼金术",
 	x: 21.5d,
 	y: 0.0d,
-	description: "&oFull Metal&7 &l*Read Description*",
+	description: "&o全金全意&7 &l*阅读描述以了解更多信息*",
 	text: [
-		"&7Dash some &dSalis Mundus&7 onto &5Cauldron&7 to transform it into a &5Crucible&7, an essential device to transform many items into other, more magical items.",
+		"&7将一些&d世界盐&7洒在&5炼药锅&7上来将其转化成&5坩埚&7，一种将许多物品转化为其他蕴魔物品的基本装置。",
 		"",
-		"Any items added in by &dDropping&7 or &dRight-clicking the Top&7 will be melted into the Essentia that composes them.",
-		"If an item has a recipe in the Crucible and the &drequired Essentia is present&7, the Essentia will be consumed, and the item will be converted instead of melting into Essentia!",
-		"Note that each individual item converted will consume Essentia, so don't expect to get 5 Nitor for the price of 10 &cIgnis&7, &bPotentia&7, and &eLux&7.",
+		"任何被&d丢入&7或&d右键其顶部&7的物品都会被溶解成构成它们的要素。",
+		"如果某物品在坩埚中有配方且&d源质充足&7，那么源质将会被消耗，物品则会被转化，而不是溶解成源质！",
+		"需要注意的是每个物品合成消耗的源质都是独立计算的，所以不要期待10点&cIgnis&7，&bPotentia&7和&eLux&7可以合成5个闪耀之光。",
 		"",
-		"Lastly, &dcrafting high Essentia Cost items in the Crucible is not exactly advised&7, it's fairly likely that it will overflow and spill Essentia fairly quickly, likely melting the Catalyst item if you try.",
-		"&dPerhaps you will discover a way to manipulate Essentia, and do Alchemy with that manipulated form...&7",
+		"最后，&d不建议在坩埚中制作高源质消耗的物品&7，因为那很可能会使源质快速溢出，从而导致您将催化剂（输入物品）也溶解成要素。",
+		"&d也许你会发现一种操控源质的方法，并以这种操控形式来进行炼金术&7。",
 		"",
-		"&c&lAvoid holding valued items in your hand when working with one of these, you don't want to turn your precious Weapon into Essentia, do you?"
+		"&c&l不要在你手持珍贵物品时进行炼金，没人希望自己的神剑变成一锅源质，不是吗？"
 	],
 	dependencies: [
 		"b6d6a588"
@@ -21,10 +21,10 @@
 	tasks: [{
 		uid: "bc75f347",
 		type: "observation",
-		title: "Gaze at a &5Crucible",
+		title: "Gaze at a &5Crucible ",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crucible"
 		},

@@ -1,12 +1,12 @@
 {
-	title: "&5Thaumostatic Harness Upgrades",
+	title: "&5奥法背带升级",
 	x: 27.5d,
 	y: -8.5d,
-	description: "&oThaumostatic Augmentation&7 *Read Description*",
+	description: "&o奥法增强7 *阅读描述以了解更多信息",
 	text: [
-		"&7The &5Gyroscope Upgrade&7 will make flight with the Harness slower, but reduce &dVis Cost&7, and &6remove Air Drift&7!",
+		"&5回转仪升级组件&7会使飞行速度略微降低，不过会减少&d灵气消耗&7。同时移除了&6飞行惯性&7。",
 		"",
-		"The &5Girdle Upgrade&7 will make flight with the Harness faster, increase &dVis Capacity&7 and &dCost&7, but also &6make Air Drift more intense&7!"
+		"安装腰带升级组件&7的奥法背带可以进行冲刺，但会同时增加&d最大灵气储量&7和&d灵气损失速度&7。&6惯性也会更大哦&7？"
 	],
 	dependencies: [
 		"756c49c3"
@@ -17,17 +17,15 @@
 		title: "&5Gyroscope&r or &5Girdle&r Upgrade",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness_augment"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness_augment",
 			Damage: 1s

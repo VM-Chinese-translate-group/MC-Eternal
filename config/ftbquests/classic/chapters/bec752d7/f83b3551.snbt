@@ -1,18 +1,18 @@
 {
-	title: "&5Stabilization Field Generator",
+	title: "&5裂隙稳定器",
 	x: 32.0d,
 	y: -20.0d,
-	description: "&oWeird FE integration&7 *Read Description*",
+	description: "&o与FE的奇怪结合&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Stability Field Generators&7 will use a good chunk of &4Forge Energy (FE, sometimes known as RF, other times CF, IF, or μI)&7 to stabilize a &5Flux Rift&7 it is aimed at.",
+		"&5裂隙稳定器&7将会使用相当多的&4电量&7作为燃料来稳定其所瞄准的&5咒波裂隙&7。",
 		"",
-		"The device's activity can be controlled with &cRedstone&7, if powered by &cRedstone&7, it will be paused, if not, it will be active.",
+		"此仪器可被&c红石&7控制。&c红石&7激活时，它会暂停运转；红石熄灭时它会继续运转。",
 		"",
-		"While the device can be left always running, funneling so much raw electricity into a device made of Arcane materials is generally not very functional, so &6the impact of stability recovery is minimal if it is left on&7, and also incredibly energy-inefficient, a clever Thaumaturge without any Technological prowess should only enable it when needed, to allow the internal mechanisms to cool down from the electricity.",
+		"但是，长时间将凡俗的能源注入这些由奥术材料制成的精密机械中，对于它们来说也是一种负担，因此&6如果长时间的开启这台机器&7,对于裂隙稳定性的正面影响微乎其微。 一个精明的神秘使只有在需要的时候才会打开这台机器，这样效率高，而且耗能低，且对机器的保养也有好处。（机器真的有耐久这种东西吗）",
 		"",
-		"While a &dTimer&7 of some kind to control it is a good idea on paper, some cases such as the Rift simply being too large, or the Stabilizer it firing shortly before a &dRift's size is increased a large amount by some artifical means that would cause instability&7 may lead to the Rift being allowed to become too big and unstable too quickly, allowing it to collapse, likely into &5Taint&7.",
+		"虽然给它配置一个&d计时器&7在理论上是一个不错的选择，但这毕竟是纸上谈兵。裂隙可不和你谈理论，它想长多大得问它自己，因此如果裂隙太大，或者&d裂隙被人工喂养了&7可能会导致机器来不及反应裂隙的稳定性变化，让你精心培育的裂隙变为&5一堆腐化物&7.",
 		"",
-		"This could probably be used in tandem with a device that can &dMonitor the state of Flux Rifts&7 to make sure that one is returned to pristine stability when it becomes too unstable."
+		"这台机器也许可以和另外一台机器搭配使用，那台机器有着实时监控裂隙的能力，可以在发现不对劲之前，就把隐患扼杀在摇篮中。"
 	],
 	dependencies: [
 		"8dafcaf0"
@@ -22,7 +22,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:stability_field_generator"
 		}]

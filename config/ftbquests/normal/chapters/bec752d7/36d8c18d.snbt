@@ -1,11 +1,11 @@
 {
-	title: "&5Arcane Grappler",
+	title: "&5奥术机动装置",
 	x: 27.5d,
 	y: -2.0d,
-	description: "&oI have the High Ground!&7 *Read Description*",
+	description: "&o占领高地。&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Arcane Grappler&7 is a grappling hook that uses &dVis&7 as energy.",
-		"&dRight-click&7 to fire it, it will drag you towards the impact point and hold you near it, it will only detach if you &dSneak or fire again&7."
+		"&5奥术机动装置&7实际上是使用&d灵气&7作为燃料的抓钩。",
+		"&d右击&7发射，你将会被拉至抓钩落点。中途&d潜行并重新发射&7可以断开抓钩。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -16,8 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:grapple_gun"
 		}],

@@ -1,15 +1,15 @@
 {
-	title: "&5Sanitizing Soap",
+	title: "&584消毒皂",
 	x: 18.5d,
 	y: 0.5d,
-	description: "&o...Body Aching&7 *Read Description*",
+	description: "&o仿佛身体被掏空&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Sanitizing Soap&7 can be scrubbed all over yourself by holding &dRight-click&7 for a little while, when it finishes, it will remove &d1 point&7 of &5\"Sticky\" Warp&7 from you, and also remove all &dTemporary Warp&7 you have at the time!",
-		"No need to release! The Soap will be automatically used up after a while and perform its effect.",
+		"&5祛邪肥皂&7可以通过长按&d右键&7来擦洗全身。当擦洗完毕后，它将会祛除你的&d1&7点&5“黏性”扭曲&7，以及一次性祛除你的全部&d临时扭曲&7！",
+		"不需要松手！这块肥皂在用右键一段时间后会自动发挥作用。",
 		"",
-		"Sanitizing Soap is also more effective if you have &dWarp Ward&7, and are standing in &dPurifying Fluid&7, both bonuses apply separately, each knocking an extra point of &5\"Sticky\" Warp&7 off of you when using the Soap in the proper conditions.",
+		"如果你有&d扭曲守护&7效果或当你站在&d净化之水&7中时，祛邪肥皂将会效率更高，这两个条件是单独计算的，当你在适当的条件下使用肥皂时，每层效果都会额外去除祛除你1点的&5“黏性”扭曲&7。",
 		"",
-		"When delving into &5Eldritch research&7, it is advised to be ready to make many of these."
+		"当你开始接触&5邪术学&7领域时，推荐你多准备一些这东西。"
 	],
 	dependencies: [
 		"53c7a7f8"
@@ -19,7 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:sanity_soap"
 		}]

@@ -1,22 +1,22 @@
 {
-	title: "&5Totally Tubular!",
+	title: "&5管线森林",
 	x: 23.0d,
 	y: -3.0d,
-	description: "&oRadical!&7 *Read Description*",
+	description: "&o交错相通&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Essentia Tubes&7 are a way to get your essentia around, they can be a bit tricky to understand, but are pretty simple ultimately.",
-		"You'll need to use multiple of the different types available to make a proper Tube network!",
+		"&5源质管道&7可以用于运输你的源质，虽然它们的工作原理有点难以理解，但是想要理解还是很简单的。",
+		"你需要使用多种多样的管道来组建你的管道网络！",
 		"",
-		"Essentia that is passing through Tubes prioritizes the route with the highest Suction.",
-		"Additionally, a &5Caster's Gauntlet&7 can be used as a Wrench of sorts for Essentia Tubes to forcibly disconnect them from others.",
+		"通过管道的源质会朝着最高吸力的方向流去。",
+		"另外，&5法师护手&7可以作为使管道与其他管道断开连接的扳手。",
 		"",
-		"&5Essentia Valves&7 are Manually or Redstone-controlled Gates for a Tube network, preventing Suction from passing through while shut.",
-		"&5Restricted Tubes&7 will cut the value of any Suction passing through to half of what it was.",
-		"&5Directional Tubes&7 will only allow Suction to enter the Tube through the side with the Blue band.",
-		"&5Filtered Tubes&7 will convert the Suction passing through to the type of Essentia they're set to, you can set it to an Essentia with a Jar, Phial, or Jar Label.",
+		"&5源质阀门&7是一个可以手动/红石控制的闸门，在关闭时会阻止源质通过。",
+		"&5限定源质管道&7会将通过的它的源质的吸力减半，就和它的名字一样。",
+		"&5定向源质管道&7仅允许源质从没有蓝圈的一端向有蓝圈的一端运输。",
+		"&5过滤源质管道&7可以使用要素安瓿，要素标签或含有源质的罐子进行标记，使其只能通过其指定要素的源质。",
 		"",
-		"&5Essentia Buffers&7 are practically a necessity for more complex Tube networks, they buffer up to 8 Essentia at once, and that Essentia can be any combination of different kinds, and also do not allow Suction to pass through them, while producing very little suction themselves.",
-		"One can also \"Choke\" the Suction level emitted by a particular side of a Buffer by &dSneak+Right-clicking&7 the connection to that side, a &1Blue&7 connection will emit 1 Suction, and a &4Red&7 connection will emit 0 Suction."
+		"&5源质缓存器&7 是一个管道系统中十分重要的存在，它可以存储10点源质, 源质种类不受限制,吸力会被缓存在源质缓存器内，这一操作会使得源质缓存器的吸力增强。源质缓存器自身的吸力很小，只有1点",
+		"你还可以通过“shift右击”一个源质缓存器的一侧来抑制它的吸力，蓝色面有1点吸力，红色面有0点吸力。"
 	],
 	dependencies: [
 		"8f60234e"
@@ -26,7 +26,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:tube"
 		}]
@@ -36,7 +36,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:tube_valve"
 		}]
@@ -46,7 +46,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:tube_restrict"
 		}]
@@ -56,7 +56,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:tube_oneway"
 		}]
@@ -66,7 +66,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:tube_filter"
 		}]
@@ -76,7 +76,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:tube_buffer"
 		}]

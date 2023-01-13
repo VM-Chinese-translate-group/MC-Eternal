@@ -1,8 +1,8 @@
 {
-	title: "&5Magic is Everywhere!",
+	title: "&5魔力无处不在！",
 	x: 23.5d,
 	y: 0.0d,
-	description: "The &5Thaumometer&7 is an enchanted Lens used to observe the mystical energies inherent in many things in the world. &lTry scanning every new item and being you come across, especially those of Thaumic origin!",
+	description: "&5魔导透镜&7是一面被施了魔法的镜子，它可以用来观察世界中许多事物中含有的神秘能量。&l尝试扫描你身边的每一件物品，尤其是那些属于神秘时代的物品！",
 	dependencies: [
 		"3c6d03b6"
 	],
@@ -11,8 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:thaumometer"
 		}],

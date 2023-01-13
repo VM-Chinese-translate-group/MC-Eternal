@@ -1,10 +1,10 @@
 {
-	title: "&5Arcane Spa",
+	title: "&5奥术浴场",
 	x: 18.5d,
 	y: 1.5d,
-	description: "&oInstant Dissolution&7 *Read Description*",
+	description: "&o瞬间融化&7 *请阅读描述*",
 	text: [
-		"&7An &5Arcane Spa&7 is a device that will place Fluids it is filled with into a 5x5 area above it, one special property it has is the ability to &dInstantly dissolve Purifying Bath Salts in Water it places&7!"
+		"&7&5奥术浴场&7是一台可以在5X5范围内防止水源的机器，它还有一个特殊的功能：&d它可以立刻将净化浴盐和水混在一起&7！"
 	],
 	dependencies: [
 		"53c7a7f8"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:spa"
 		}]

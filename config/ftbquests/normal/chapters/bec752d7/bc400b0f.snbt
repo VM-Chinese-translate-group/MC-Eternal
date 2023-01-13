@@ -1,20 +1,20 @@
 {
-	title: "&5Altarnatives",
+	title: "&5封印褪去",
 	x: 33.5d,
 	y: -18.5d,
 	shape: "hexagon",
-	description: "&oAlternates for your Altar&7 *Read Description*",
+	description: "&o现在，这座塔归我了！&7 *阅读以获得更多信息*",
 	text: [
-		"&7Now that the &5Eye has been Opened and the great one felled&7, the Warding magic protecting the Spire has faded, allowing you to harvest it for your own benefit, the primary stones of the Spire include materials which seem to be viable substitutes for the &5Arcane Stone&7 you've been using in your &5Infusion Altar&7 up to this point.",
+		"&7现在，&5虚空中的强大生灵已然逝去&7, 守护奥术也失去了力量来源，纷纷褪去了。你现在是这座万古之前的神秘堡垒的新主人了。这座高塔的组成部分主要是那些&5诡术石材&7，你可以用它们来制造&5注魔基座&7的替代品，或者说升级版。",
 		"",
-		"The &0Eldritch Infusion Altar&7 is &6significantly more stable than the normal one&7, and &6absorbs Essentia far quicker&7, but Infusions done with it have a &cslightly higher Essentia Cost&7.",
-		"&dPedestals&7 made from &0Eldritch Stone&7 also provide the same benefits and downsides as the Altar, but much weaker, they will also cause &cMassive instability&7 if not set in a proper Stabilizing configuration.",
+		"&0邪术祭坛&7比正常注魔祭坛&6稳定的多&7, 而且因为其独特的性质，&6吸收源质要来的更快&7，但与其速度快，相对的，&c注魔的源质消耗也更高&7。",
+		"&d邪术基座&7是用&0邪术石&7制成的。它在各种方面都可以代替正常的注魔基座。但更加脆弱, 如果它们处于不对称状态，同样会导致&c稳定性降低&7。",
 		"",
-		"The &8Ancient Infusion Altar&7 is &cnoticeably less stable than the normal one&7, but makes up for that by &6absorbing Essentia slightly quicker&7, and &6reducing Essentia Cost significantly&7.",
-		"&dPedestals&7 made from &8Ancient Stone&7 also provide a slight reduction to &dEssentia Cost&7, but nowhere near as large as the benefit the Altar itself provides.",
+		"&8荒古祭坛&7比正常注魔祭坛&c更加不稳定&7，但也比正常注魔祭坛&6吸收源质更快&7, 同时&6源质消耗更少&7。",
+		"&d荒古基座&7是用&8荒古石&7制作，且在对称放置时可以降低注魔的&d源质消耗&7，但是相比于祭坛本身，它们的加成就有些微不足道了（还是很猛的）",
 		"",
-		"&5Infusion Stones&7 are fully compatible with these two Altars, so you can boost their positives further, or improve their weaker aspects.",
-		"Note that you can Mix and Match Pedestals and Altars!"
+		"&5注魔加速/效能石&7同样适用于这两种注魔祭坛，因此你可以进一步加强祭坛，或者弥补一下它们的弱点。",
+		"注意一下，祭坛和基座并不一定要是同种材质的（但是搭建祭坛结构里的那个基座要和祭坛材质一致）"
 	],
 	dependencies: [
 		"b4f9ea5d"
@@ -25,7 +25,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:stone_eldritch_tile"
 		}]
@@ -35,7 +35,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:stone_ancient"
 		}]

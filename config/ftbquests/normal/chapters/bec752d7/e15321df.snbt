@@ -1,8 +1,8 @@
 {
-	title: "&5Slightly Cheaper",
+	title: "&5稍微便宜一点",
 	x: 25.0d,
 	y: 0.0d,
-	description: "&dVis&7 Cost too high? Toss on your robes!",
+	description: "&d灵气&7消耗过高？穿上你的法袍！",
 	hide_dependency_lines: true,
 	dependencies: [
 		"3c6d03b6"
@@ -12,8 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cloth_chest"
 		}],
@@ -25,8 +24,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cloth_legs"
 		}],
@@ -38,8 +36,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cloth_boots"
 		}],

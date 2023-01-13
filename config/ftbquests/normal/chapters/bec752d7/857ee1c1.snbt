@@ -1,14 +1,14 @@
 {
-	title: "&5Impetus: Charged",
+	title: "&5元动能量：充能",
 	x: 28.5d,
 	y: -20.5d,
-	description: "&oIV Battery Charger&7 *Read Description*",
+	description: "&o四级电池充电器&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Void Recharge Pedestals&7 charge objects that can store &0Impetus&7 using &0Impetus&7 from linked Sources.",
+		"&5元动充能基座&7从已连接的来源为可以存储&0元动能量&7的物品充能。",
 		"",
-		"You'll need one of these if you wish to use the &5Impulse Cannon&7 or &5Impetus Thruster Upgrade&7 for the &5Elytra Harness&7.",
+		"想用&5元动加农炮&7或&5奥法鞘翅&7的&5元动助推器升级组件&7的话可少不了这玩意。",
 		"",
-		"It's also more efficient to charge &5Impetus Conductors&7 with this, as the process the Impetus Drainer performs is more efficient due to your greater understanding of &0Impetus&7."
+		"用这个为&5元动能量电池&7充电也更有效率。多亏了你对&0元动能量&7更深层次的理解及元动汲取仪的研发成功。"
 	],
 	dependencies: [
 		"82dc35de"
@@ -18,7 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:void_recharge_pedestal"
 		}]

@@ -1,14 +1,14 @@
 {
-	title: "&5Arcane Bore",
+	title: "&5奥术钻探机",
 	x: 29.5d,
 	y: -3.5d,
-	description: "&oThe Boring Company&7 *Read Description*",
+	description: "&o专业级开洞&7 *阅读以获得更多信息*",
 	text: [
-		"&7An &5Arcane Bore&7 is an automatic digging device that will dig a long Tunnel in the direction it is facing, it requires a Pickaxe of some kind to operate, the more &dEnchantable&7 the Pickaxe is, the wider of an area the Bore can dig.",
+		"&5奥术钻探机&7是一种专业的挖掘设备。它会在它所朝向的岩壁上凿除一个深不见底的大洞，为你搜刮其中的矿石与其他石料。要让它工作，你需要给它安排一把镐子（匠魂的不行，请回吧）&d附魔性&7越高的镐子能挖掘的最大宽度就越宽。",
 		"",
-		"Tools used in the Bore also use &dDurability&7 much slower than normal, around &d50 Times slower&7!",
-		"Most &dEnchantments&7 or other effects the Pickaxe has will also take effect in the Bore.",
-		"It can also be mounted in a &6Minecart&7 and toggled with an &dArcane Activator Rail&7, just like the Automated Crossbows."
+		"奥术钻探机中的工具消耗&d耐久&7的速度要比一般使用慢的多！大概慢&d50倍&7!",
+		"绝大多数&d附魔&7或者其他对于镐子的强化基本上都会生效。（但是部分镐子的特殊效果可能无法生效，比如源质钢镐的自动销毁圆石的能力）",
+		"你也可以把它安装在&6矿车&7里，并使用&d奥术激活铁轨&7来控制它, 就和自动十字弩一样。"
 	],
 	dependencies: [
 		"299be007"
@@ -18,7 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:turret",
 			Damage: 2s

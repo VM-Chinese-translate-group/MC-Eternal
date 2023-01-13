@@ -1,24 +1,24 @@
 {
-	title: "&5Molten Magic",
+	title: "&5熔融魔力",
 	x: 22.5d,
 	y: -2.0d,
-	description: "&oCook up some Primordial Soup&7 *Read Description*",
+	description: "&o熬一锅元始汤&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Essentia Smelteries&7 break items down into Essentia, similarly to how a &5Crucible&7 does, only that Essentia from a Smeltery is much more useful. ",
-		"However, it is not a perfect process, sometimes a bit of Essentia is lost and converted into &5Flux&7, which leaks into the Aura.",
+		"&5源质冶炼厂&7能够将物品分解成源质，与&5坩埚&7的作用相似，只不过从冶炼厂产出的源质有着更广泛的用途。",
+		"然而，源质冶炼并不是一个完美无缺的过程，有时一些源质会损失掉并转化为&5咒波&7，而&5咒波&7则会消散在灵气场中。",
 		"",
-		"&lA standard Essentia Smeltery has 20% Flux Loss!",
+		"&l一台基础的源质冶炼厂会有20％源质转化为咒波消散到灵气场中！",
 		"",
-		"&7There are 5 important positions in the Essentia Smeltery's GUI, the &dFuel Meter&7 in the center, the &dFuel Slot&7 below that, and &dInput Slot&7 above that, the &dProgress Meter&7 on the right, and the &dEssentia Capacity&7 bar on the left.",
-		"If the Essentia Capacity of the Smeltery is too full to fit all the Essentia from the item in the Input Slot, it will simply not operate until there is sufficient space.",
+		"&7在源质冶炼厂的GUI中，有5个槽位，中间是&d剩余燃烧时间&7，下面是&d燃料槽&7，上面是&d物品输入槽&7，右边是&d冶炼进度条&7，左边则是&d源质容量槽&7。",
+		"如果冶炼厂的源质容量太满，无法将当前被熔炼的物品的所含源质全部装入源质容量槽，它将停止工作，直到源质容量槽有足够的空间。",
 		"",
-		"An Essentia Smeltery &ddoesn't have any special fuel requirements&7, it uses any fuel a Furnace can.",
-		"Lastly, the more Essentia there is in an item, the longer it takes to break down!",
-		"&dPerhaps there is an alchemical fuel that could help break things down faster...&7",
+		"源质冶炼厂&d对燃料没有任何特殊要求&7，它可以使用支持熔炉的任何燃料。",
+		"最后，物品所含的要素越多，其分解的时间就越长！",
+		"&d也许某种炼金燃料能增加它的分解速率？&7",
 		"",
-		"The &5Arcane Alembic&7 is placed ontop of the Essentia Smeltery, and is needed to extract the Essentia from the Smeltery.",
-		"Additionally, &dmultiple Arcane Alembics can be stacked ontop of a Smeltery&7, and when the Smeltery runs out of Essentia to transfer to one or it gets full, it will begin sending Essentia to the next Alembic in the stack.",
-		"Each Alembic will only hold one kind of Essentia at a time, and the Smeltery can only send Essentia into one Alembic at a time."
+		"&5奥术蒸馏器&7需要摆放在源质冶炼厂的上面，用于导出储存在源质冶炼厂的源质。",
+		"另外，&d一个冶炼厂上可以叠很多个奥术蒸馏器&7，当下面的蒸馏器满了或冶炼厂的源质无法运出的时候，它就会开始向上面的蒸馏器运输源质。",
+		"每个蒸馏器只能储存1种源质，而冶炼厂一次只能向一个蒸馏器运输源质。"
 	],
 	dependencies: [
 		"9cec7878"
@@ -28,7 +28,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:smelter_basic"
 		}]
@@ -38,7 +38,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:alembic"
 		}]

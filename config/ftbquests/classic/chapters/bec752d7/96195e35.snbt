@@ -1,16 +1,16 @@
 {
-	title: "&5A Dream of Magic...",
+	title: "&5晚安，做个魔法的梦",
 	x: 19.0d,
 	y: 4.5d,
 	shape: "octagon",
-	description: "Gather any of the Thaumcraft crystals you might find while mining and then sleep after. Who knows what one's subconscious mind may conjure...",
+	description: "在采矿时收集任何你可能找到的神秘时代水晶，然后睡一觉。谁知道会梦到些什么呢？",
 	tasks: [{
 		uid: "3a25c820",
 		type: "item",
 		title: "Any Vis Crystal",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -22,7 +22,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -34,7 +34,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -46,7 +46,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -58,7 +58,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -70,7 +70,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {

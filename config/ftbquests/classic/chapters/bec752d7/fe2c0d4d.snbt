@@ -1,22 +1,22 @@
 {
-	title: "&5Auromechanical",
+	title: "&灵气厂机制详解",
 	x: 25.5d,
 	y: 1.5d,
-	description: "&oOn the Dynamics of Thaumic Aura&7 *Click Checkmark for detailed info on Aura mechanics* &l*Absolutely spoilery and meta-ey, only do if you really want to!*",
+	description: "&o灵气厂学说讲解&7 *阅读描述以了解更多信息*",
 	text: [
-		"&dVis&7 and &5Flux&7, the primary forces in the &dAura&7, the ambient energy all around the world.",
-		"How do they work? Let's talk about that.",
+		"灵气与咒波都是存在于灵气厂中的能量。",
+		"它们都有什么用？别急，且听我慢慢道来。",
 		"",
-		"&dAura&7 is a Chunk-based system, so &dVis&7 and &5Flux&7 levels are attached to the Chunk.",
+		"灵气厂是一个区块的灵气存储, 咒波与灵气都存在于灵气厂中。",
 		"",
-		"&dVis&7 and &5Flux&7 will spread a portion of their amount into nearby Chunks if they are significantly higher than the levels in those Chunks.",
+		"如果一个区块的灵气或者咒波超出了灵气厂的阈值,它们就会蔓延到其他区块。",
 		"",
-		"The &dmaximum level of Vis&7 in an area is determined by the &dBiomes&7 of that area when it was created, &da certain Thaumaturgical device&7 can alter this, but that is very far down the line.",
+		"灵气阈值是由区块的生物群系决定的,一些神秘时代的特殊机器可以修改生物群系，以达到提升灵气阈值的效果。",
 		"",
-		"The &5Thaumometer&7 has some golden ticks on the side of it, those tell you the maximum &dVis&7 capacity of the chunk you're standing in.",
+		"手持魔导透镜，左上角有一个玻璃管，玻璃管上有一个金色的刻度，那就是灵气阈值。",
 		"",
-		"&5Flux&7 can get in the way of &dVis&7 and prevent it from refilling completely.",
-		"Say your Chunk's &dVis Capacity&7 was &d150&7, there was &520 Flux&7 in it, and you ate up &d30 Vis&7, the Chunk would only recover to &d130 Vis&7."
+		"咒波会阻碍灵气的自然恢复.",
+		"假设你的区块灵气厂内有150的灵气,同时还有20的咒波,你使用了30点灵气,那么，你的灵气厂自然恢复只能恢复到130点灵气。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

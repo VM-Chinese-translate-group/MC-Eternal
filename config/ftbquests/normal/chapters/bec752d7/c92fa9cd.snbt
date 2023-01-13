@@ -1,13 +1,13 @@
 {
-	title: "&5Tome of Sharing",
+	title: "&5知识共享之书",
 	x: 22.0d,
 	y: 3.0d,
-	description: "&oGiving Notes&7 *Read Description*",
+	description: "&o将你的知识分享给他人&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Tome of Sharing&7 can be used to share your Research with others, &dSneak+Right-click&7 with it to write a copy of your Research to it, others can then &dRight-click&7 with it to gain the Research stored inside the tome.",
-		"If needed, it can be cleared by simply crafting with it alone.",
+		"&7A &5知识共享之书&7可以将你获得到的知识分享给其他人。&d潜行+右击&7将你的研究存入。其他人可以 &d直接右击&7来获取储存在其中的知识。",
+		"如果需要的话，它可以放在合成台里合成一下来清空研究。",
 		"",
-		"&6Don't eat up your Thaumonomicon when doing the Research! And really don't eat up your Akashic Tome with your Thaumonomicon!"
+		"&6解锁这个研究的时候会消耗掉魔导手册，小心不要让它吞掉你的阿卡什宝典！"
 	],
 	dependencies: [
 		"5ff4f44c"
@@ -18,8 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:knowledge_tome"
 		}],

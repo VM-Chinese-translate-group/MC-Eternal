@@ -1,16 +1,16 @@
 {
-	title: "&5Am i still Sane?",
+	title: "&5我还理智吗？",
 	x: 21.0d,
 	y: 1.0d,
-	description: "&oHe Screams, for he does not know.&7 *Read Description*",
+	description: "&o我不知道啊啊啊啊啊啊啊啊&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Sanity Checker&7 is a useful tool for any Thaumaturge wishing to delve deep into the arts, it will allow you to see your Warp level while held, the Warp bar displays up to 100 points of Warp, and is (rather infuriatingly) 48 pixels tall.",
+		"&7&5神智检测仪&7对任何希望深入研究神秘学的神秘使来说都是一个有用的东西。你可以手持它来查看你的扭曲，它最多可以显示100点扭曲，但是它只有48像素高。",
 		"",
-		"&5Dark Purple&7 is Permanent Warp, you can't get rid of it normally, but it only comes from Forbidden Research.",
+		"&5深紫色&7代表永久扭曲，你无法通过正常方法去除它，它只会在你完成禁忌研究的时候得到。",
 		"",
-		"&5Regular &dPurple&7 is normal \"Sticky\" Warp, it can be removed using &dSanity Soap&7.",
+		"&5标准&d紫色&7代表“黏性”扭曲，它可以被&d祛邪肥皂&7去除。",
 		"",
-		"&dLight Purple&7 is Temporary Warp, it will go away over time, and all of it on you can be instantly removed with &dSanity Soap&7."
+		"&d浅紫色&7代表临时扭曲，它会随着时间的流逝而自动消失，当你使用&d祛邪肥皂&7时则会被全部清除。"
 	],
 	dependencies: [
 		"3c6d03b6"
@@ -20,8 +20,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:sanity_checker"
 		}],

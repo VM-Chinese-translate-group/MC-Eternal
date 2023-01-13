@@ -1,12 +1,12 @@
 {
-	title: "&5Crystal Bag",
+	title: "&5水晶提包",
 	x: 27.5d,
 	y: -6.0d,
-	description: "&oBag of Holding&7 *Read Description*",
+	description: "&o装东西的包包&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Crystal Bag&7 is a pouch that will accept a practically Infinite number of &dVis Crystals&7, it's the perfect form of storage for them!",
+		"&5水晶提包&7可以近乎无限的储存任意源素的&d魔力水晶碎片&7。是水晶的完美容器！",
 		"",
-		"I hope you didn't consume your pouch with Foci in it for the research :("
+		"我希望你没有为了研究而在包包里装满各种核心 :("
 	],
 	dependencies: [
 		"794429c7"
@@ -16,8 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:crystal_bag"
 		}],

@@ -1,13 +1,13 @@
 {
-	title: "&5Impetus Resonator",
+	title: "&5元动谐振器",
 	x: 31.5d,
 	y: -21.5d,
 	shape: "octagon",
-	description: "&oUse the Force&7 *Read Description*",
+	description: "&o释放“元”力吧！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7Configures transmission of &0Impetus&7 between devices.",
+		"&7配置仪器间的&0元动能量&7传输。",
 		"",
-		"&dSneak+Right-click&7 on a device to select it as the current &0Impetus Source&7, devices &dRight-clicked&7 afterwards will be bound to the &0Impetus Source&7 with the source transmitting to the clicked device."
+		"&d潜行+右击&7一件仪器，将其设为当前的&0元动能量来源&7。第二个被&d右击&7选中的仪器将会与&0前一个&7绑定并从中获取元动能量。"
 	],
 	dependencies: [
 		"10c3654c"
@@ -18,8 +18,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				Parent: {}
+				Parent: {},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_linker"
 		}]

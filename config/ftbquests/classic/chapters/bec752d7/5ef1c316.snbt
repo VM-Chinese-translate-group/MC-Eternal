@@ -1,8 +1,8 @@
 {
-	title: "&5I Cast Thaumaturgy!",
+	title: "&5神秘施法者",
 	x: 25.5d,
 	y: -2.5d,
-	description: "A &5Caster's Gauntlet&7 is used to channel the power of Foci and activate an Infusion Altar, along with some other uses.",
+	description: "&5法师护手&7可以配合核心施法，激活注魔祭坛等。",
 	dependencies: [
 		"b6d6a588"
 	],
@@ -11,8 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:caster_basic"
 		}],

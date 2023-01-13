@@ -1,15 +1,15 @@
 {
-	title: "&5Thaumic Dissuasion",
+	title: "&5\"神秘的\"威胁",
 	x: 23.0d,
 	y: 3.0d,
 	shape: "gear",
-	description: "&7&oERROR: Unable to start \"Thaumcraft\"&7 *Read Description*",
+	description: "&7&o错误：无法启动神秘时代&7*阅读描述以了解更多信息*",
 	text: [
-		"&7It's unfortunate, but &5Thaumcraft&7 has some bugs that are pretty visible when they occur, and unfortunately, one of these is related to the very first piece of &5Research&7 in the &dThaumonomicon&7, it just doesn't unlock, no matter how hard you try to drop and pick up the &dThaumonomicon&7, it doesn't change.",
+		"&7很不幸，&5神秘时代&7 有一些肉眼可见的漏洞。更不幸的是，其中一个与&d魔导手册&7的第一步&5研究&7 有关，就是研究不会自动完成。无论你多少次扔出再捡起&d魔导手册&7，它也不会改变。",
 		"",
-		"Normally, that very first Research is simply &dunlocked by picking up the Thaumonomicon&7, in the case that attempts to &ddrop and pick it up to unlock the Research&7 fail, submit the required stuff to this Quest and it will run a &dCommand&7 to forcibly unlock that first Research.",
+		"通常情况下，第一个研究会在&d魔导手册会被捡起来时解锁&7，一旦试图&d丢掉再捡起魔导手册&7解锁研究失败，请提交这个任务需要的材料，一个&d指令&7会强制解锁第一项研究。",
 		"",
-		"&cYou should ONLY use this Quest if ABSOLUTELY necessary&7, you will entirely miss some text, and skip that very beginning part of discovery."
+		"&c你应该只在绝对必要的时候才要使用这个任务&7，否则你将会失去完整的游玩体验。"
 	],
 	dependencies: [
 		"5ff4f44c"
@@ -22,13 +22,13 @@
 	{
 		uid: "29f48156",
 		type: "ftbmoney:money",
-		title: "Misfortune Tax",
+		title: "一些抚慰金",
 		value: 2500L
 	}],
 	rewards: [{
 		uid: "78573ecf",
 		type: "command",
-		title: "&dGrants &5\"First Steps\"&d research. Please only use if necessary!",
+		title: "&d奖励&5\"最初的摸索\"&d研究，请只在最必要的情况下使用它！",
 		command: "/tc research @p FIRSTSTEPS"
 	}]
 }

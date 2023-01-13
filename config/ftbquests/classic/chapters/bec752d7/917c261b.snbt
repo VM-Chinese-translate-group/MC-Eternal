@@ -1,13 +1,13 @@
 {
-	title: "&5Thaumium Fortress Armor",
+	title: "&5神秘要塞甲胄",
 	x: 21.0d,
 	y: -6.5d,
-	description: "&oBattlemage&7 *Read Description*",
+	description: "&o战斗法师&7 *阅读描述以了解更多信息",
 	text: [
-		"&5Thaumium Fortress Armor&7 is a somewhat unique set of armor, it provides &6good protection&7, some &6Magic Resistance&7, and a unique ability to have specal &6Faceplates&7 attached to the Helm, these Faceplates provide specific special abilities.",
-		"&5Goggles of Revealing&7 can also be attached to the Helm with a particular Infusion.",
+		"&5神秘要塞甲胄&7是套有几分特殊的盔甲。提供&6较强的保护&7和少量&6魔法抵抗&7，以及一项&6神秘甲胄面具&7带来的特殊能力。",
+		"&5揭示之护目镜&7可以通过灌输被加装在头盔上。",
 		"",
-		"Additionally, the Appearance and Protection the armor offers changes based on how many pieces of it you are wearing."
+		"另外,这套盔甲的外貌与防御取决于你穿上的数量。"
 	],
 	dependencies: [
 		"2030380f"
@@ -17,8 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:fortress_helm"
 		}],
@@ -30,8 +29,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:fortress_chest"
 		}],
@@ -43,8 +41,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:fortress_legs"
 		}],

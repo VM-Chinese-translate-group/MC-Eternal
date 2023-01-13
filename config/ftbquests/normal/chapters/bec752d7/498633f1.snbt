@@ -1,10 +1,10 @@
 {
-	title: "&5Un-Harvesting Impetus",
+	title: "&5弥散元动",
 	x: 30.5d,
 	y: -22.5d,
-	description: "&oRF to Lava&7 *Read Description*",
+	description: "&o从RF到熔岩&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Impetus Diffuser&7 can revert the &0Charged Impetus&7 that the &5Impetus Drainer&7 refines from &0Impetus&7 drawn from Rifts back into &0Raw Impetus&7, which will be absorbed by the nearest Rift."
+		"&5元动弥散仪&7吸收&0充能元质能量&7并将其转换为普通的元动能量。因此可以驱动一些使用正常元动能量的机器，"
 	],
 	dependencies: [
 		"82dc35de"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_diffuser"
 		}]

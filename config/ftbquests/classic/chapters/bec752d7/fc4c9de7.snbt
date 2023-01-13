@@ -1,13 +1,13 @@
 {
-	title: "&5Forging Energy",
+	title: "&5锻造能量",
 	x: 29.0d,
 	y: -19.5d,
-	description: "&o&l10RF&7 *Read Description*",
+	description: "&o&l10RF&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Impetus Generators&7 create the commonly usable &4Forge Energy&7 using &0Impetus&7.",
+		"&5元动发电机&7使用&0元动能量&7创造出一般机器可用的&4FE能量&7。",
 		"",
-		"&6&lImportant!",
-		"&7Values have been tweaked, provides &450kFE&7 per unit of &0Impetus&7 at &4400FE/t&7, instead of &41500FE&7 per unit of Impetus at &450FE/t&7."
+		"&6&l重要！",
+		"&7数值已被调整，一单位元动能量将提供&450kFE&7/&4400FE/t&7。而不是之前的&41500FE&7/&450FE/t&7。"
 	],
 	dependencies: [
 		"82dc35de"
@@ -17,7 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_generator"
 		}]

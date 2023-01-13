@@ -1,24 +1,24 @@
-{
-	title: "&5Augmentation",
+	{
+	title: "&5进阶",
 	x: 27.5d,
 	y: -12.0d,
 	shape: "octagon",
-	description: "&o:O That's the name of the Mod!&7 *Read Description*",
+	description: "&o:O是模组的名字耶!&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The two Caster's Gauntlets from &dThaumic Augmentation&7 are able to accept special upgrades, aptly named &5Augments&7, these Augments will enhance your gauntlet in one way or another, there's not really any \"Best\" combination, it comes down to what you like!",
+		"&7来自&d神秘进阶模组&7的两种法师护手能够进行特殊升级，也可被称为&5进阶&7。进阶将会从多方面增强您的护手，没有所谓的“最佳”搭配, 只有最符合您喜好的搭配！",
 		"",
-		"&7Both Gauntlets also have a little &dVis Discount&7 in them, the &5Thaumium&7 with 10%, and the &5Voidseer&7 with 30%.",
-		"&7They also have additional minor advantages, The &5Voidseer Gauntlet&7 can draw &dVis&7 from the aura in a 3x3 Chunk radius around the user, while the &5Thaumium Gauntlet&7 has slightly shorter spell cooldowns.",
+		"&7两种护手同样都有&d灵气减免&7的功效，&5神秘锭&7制成的护手可减免10%魔力消耗，&5虚空预言者护手&7则可减免30%。",
+		"&7除此之外，它们还有其他的次要功效，&5虚空预言者护手&7可以生成光环，从使用者周围3x3半径区块内的灵气厂汲取&d魔力&7，而&5神秘锭护手&7则可略微缩短法术的冷却时间。",
 		"",
-		"&5Augments&7 are composed of a &dModifier&7 and &dEffect Crystal&7, the Modifier will determine the &6Effect Power&7 and &6Condition&7, while the Effect Crystal determines &6the Effect that is granted&7 when the Augment's condition is met.",
+		"&5进阶&7仪式由&d谐振器&7和&d增效水晶&7共同构成，当满足进阶条件时，谐振器将决定&6属性加强&7以及＆6相应条件&7，而增效水晶则决定其&6授予的效果&7&5元素谐振器&7将根据提供进阶所使用的&6增效水晶&5为施法者提供相应加成，&7但对其带来的负面效果则不予加成&7",
 		"",
-		"The &5Elemental Modifier&7 provides a bonus to Foci with &5Effects&7 that use the &6Aspect of the Crystal installed in it, but a debuff to Foci that don't&7.",
-		"The &dVis Crystal&7 used in the Elemental Modifer can also be swapped out at will by crafting it with the Vis Crystal you want to swap it for.",
+		"&5元素谐振器&7将根据提供进阶所使用的&6增效水晶&5为施法者提供相应加成，&7但对其带来的负面效果则不予加成&7。",
+		"如有需要，该元素谐振器所对应的&d增效水晶&7也可通过将护手与您所需要的魔力水晶共同合成进行替换。",
 		"",
-		"&dAugments&7 can be removed by crafting with the Gauntlet with them attached alone, pulling off the most recently added Augment.",
+		"&d进阶&7也可被消除。通过单独将护手在工作台上进行合成的方式，可以消除最近的一次进阶效果。",
 		"",
-		"&6&lImportant!",
-		"&7The &5Dimensional Modifiers&7 have had a bit of tweaking done in &dMC Eternal&7, most of the Dimensions in the pack have one of them take effect, and the &dEnd and Emptiness&7 modifiers have had their power boosted a bit!"
+		"&6&l重要!",
+		"&5维度调整器&7在&d永恒的MC&7整合包中进行了一些调整，该整合包中的绝大多数维度都有其独占的谐振器。而&d终结与虚空&7的相应谐振器则均稍微进行了加强！"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -27,14 +27,13 @@
 	tasks: [{
 		uid: "166dd47c",
 		type: "item",
-		title: "&5Thaumium&7 or &5Voidseer&7 Caster's Gauntlet",
+		title: "&5Thaumium&7 or &5Voidseer&7 Caster's Gauntlet没翻译",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:gauntlet",
 			tag: {
@@ -43,11 +42,10 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:gauntlet",
 			tag: {
@@ -63,7 +61,7 @@
 		title: "Any &5Modifier",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:augment_builder_power",
 			tag: {
@@ -78,7 +76,7 @@
 		title: "Any &5Effect Crystal",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:augment_builder_effect",
 			tag: {

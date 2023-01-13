@@ -1,15 +1,15 @@
 {
-	title: "&5Additional Jars",
+	title: "&5额外的源质罐子",
 	x: 27.0d,
 	y: -3.0d,
-	description: "&oTheir Capacity level is over 1000!!&7 *Read Description*",
+	description: "&o它们的容量可以突破1000点！！！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&dThaumic Additions' &5Jars&7 hold extra Essentia, but unfortunately have a couple downsides due to technical reasons, namely you cannot put &5Brass Lid Braces&7 onto them.",
+		"&d神秘领域的&5源质罐子&7能够储存更多的源质，但是很不幸的由于技术原因，它们不能被盖上&5黄铜盖箍&7。",
 		"",
-		"Unfortunately, &dwhen crafting these various Jars&7, &cthe contents and Label of the Jar used in the recipe are lost&7, so it's advised to empty them and take off the Label before upgrading them.",
+		"更不幸的是，&d在制作这些源质罐子时&7，&c配方中罐子内的源质和贴在罐子上的标签也会丢失&7，所以推荐你在升级它们之前清空罐子并摘下标签。",
 		"",
-		"Lastly, one variant, the &4Adaminite Jar&7, &cshould not be filled to 90% or greater capacity with &5Vitium&c Essentia&7, Adaminite cannot quite take the sheer pressure caused by the extreme density of what is effectively &5Flux&7.",
-		"&cIf this condition is not respected, the Jar will likely burst after a while and release all the &5Vitium&c into the Aura as &5Flux&7."
+		"最后，其中一个名为&4精金罐子&7的变种，&c不应该让&5Vitium&c源质占据其内容量的90%或以上&7，精金罐子并不能完全承受大量腐化源质造成的高压。",
+		"&c如果不遵守这一条件，罐子很有可能在一段时间后爆炸并释放其中的&5Vitium&c源质&7，将其以&5咒波&7的形式排入灵气场内。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -21,37 +21,37 @@
 		title: "Any &dThaumic Additions Jar",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:jar_brass"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:jar_thaumium"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:jar_eldritch"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:jar_mithrillium"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:jar_adaminite"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:jar_mithminite"
 		}],

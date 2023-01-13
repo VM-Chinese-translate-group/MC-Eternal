@@ -1,11 +1,11 @@
 {
-	title: "&5Starfield Glass",
+	title: "&5星域玻璃",
 	x: 29.0d,
 	y: -8.5d,
-	description: "&oVisions of the Void&7 *Read Description*",
+	description: "&o虚空视野&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Starfield Glass&7 is Fortified Glass with a crack in dimensions inside, it allows view into the voids of certain spaces, such as the void between &dMagic Mirrors&7.",
-		"This crack is volatile and unsafe, but is perfectly contained in the Glass, it cannot be used for transport or anything of the like, but why would you want to do that in the first place?"
+		"&5星域玻璃&7是一块内含多维度裂隙的加固玻璃，能允许你看到虚空中的特定位置，例如&d魔镜&7们之间的虚空。",
+		"这道裂隙极不稳定且危险，但却完美地被收容在了玻璃之内，它并不能被用于传送之类……你为什么会想这样用啊喂！"
 	],
 	dependencies: [
 		"3176999a"
@@ -13,23 +13,23 @@
 	tasks: [{
 		uid: "033e899f",
 		type: "item",
-		title: "Any &5Starfield Glass",
+		title: "随便一块&5星域玻璃",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:starfield_glass"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:starfield_glass",
 			Damage: 2s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:starfield_glass",
 			Damage: 1s

@@ -1,16 +1,16 @@
 {
-	title: "&5Destruction on Impulse",
+	title: "&5毁灭镭射！",
 	x: 30.0d,
 	y: -24.0d,
 	shape: "octagon",
-	description: "&oEmpergun™&7 *Read Description*",
+	description: "&o奥术枪械™&7 *阅读以获得更多信息*",
 	text: [
-		"&7The &5Impulse Cannon&7 is a powerful weapon that fires concentrated beams of &0Impetus&7 energy, it has two alternative modes activated with special &5Augments&7.",
+		"&5元动加农炮&7是一种使用&0元动&7能量为弹药,威力巨大的武器。它有着两种&5升级组件&7。",
 		"",
-		"By default, it will fire a constant stream of &0Impetus&7, dealing damage whenever possible.",
+		"注意一下，默认情况下，你只要一直按住鼠标右键不放，它就会一直发射&0元动能量束&7, 对周围的一切生灵造成毁灭性打击。",
 		"",
-		"&6&lImportant!",
-		"&7The &5Impulse Cannon's damage&7 has been &cMASSIVELY&7 buffed in &dMC Eternal&7 to make it more worth your time."
+		"&6&l重要提示！",
+		"&5元动加农炮的伤害&7在&d永恒MC&7中被&c巨大的提升&7了。因此，你应该会有兴趣去制作一把，作为你的副武器，或者主武器。（友情提示：元动能量束造成的伤害无视无敌帧哦）"
 	],
 	dependencies: [
 		"82dc35de"
@@ -20,7 +20,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					augments: {
 						slots: 1
@@ -29,7 +28,7 @@
 						energy: 0L
 					}
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impulse_cannon"
 		}],
@@ -45,7 +44,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "ftbquests:lootcrate",
 			tag: {

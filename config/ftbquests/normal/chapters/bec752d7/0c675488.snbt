@@ -1,8 +1,8 @@
 {
-	title: "&5Adamant Potential!",
+	title: "&5潜在的精金！",
 	x: 31.5d,
 	y: -11.5d,
-	description: "&5Adaminite&7 Essentia Smelteries are yet faster than &5Mithrillium&7 ones, and get &d20% MORE&7 essentia from items!",
+	description: "&5精金&7源质冶炼场比&5秘银源质冶炼厂&7更要快上不少。并且能从物品中得到&d额外20％&7的源质！",
 	dependencies: [
 		"9b53b86e",
 		"6af35fa2"
@@ -12,7 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:adaminite_smelter"
 		}]

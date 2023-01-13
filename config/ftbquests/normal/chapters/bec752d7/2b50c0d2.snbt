@@ -1,8 +1,8 @@
 {
-	title: "&5Elements of the Void",
+	title: "&5虚空元素",
 	x: 27.5d,
 	y: -18.0d,
-	description: "&5Elemental Tools&7 with &6Automatic Repair",
+	description: "&5元素工具&7，但会&6自我修复",
 	dependencies: [
 		"90c4a4d8",
 		"376bb264"
@@ -10,11 +10,10 @@
 	tasks: [{
 		uid: "35894ff3",
 		type: "item",
-		title: "Any &5Void Elemental Tool",
+		title: "随便一把&5虚空元素工具",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:void_elemental_pickaxe",
 			tag: {
@@ -30,8 +29,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:void_elemental_axe",
 			tag: {
@@ -47,8 +45,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:void_elemental_shovel",
 			tag: {
@@ -60,8 +57,7 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:void_elemental_hoe"
 		}],

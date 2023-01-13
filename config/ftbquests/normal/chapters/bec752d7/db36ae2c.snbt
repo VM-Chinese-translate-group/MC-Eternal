@@ -1,8 +1,8 @@
 {
-	title: "&5Mithical Power!",
+	title: "&5犹如神助",
 	x: 33.0d,
 	y: -12.0d,
-	description: "&5Mithminite's&7 godlike power means Essentia Smelteries made from it are yet again faster, and get &d50% More&7 essentia!",
+	description: "&7那犹如神一般的&5秘金&7源质冶炼厂冶炼的更快并具有&d50％的&7源质加成。",
 	dependencies: [
 		"ba005f5e",
 		"0c675488"
@@ -12,7 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:mithminite_smelter"
 		}]
@@ -27,7 +27,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "ftbquests:lootcrate",
 			tag: {

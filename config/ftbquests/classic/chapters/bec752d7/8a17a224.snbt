@@ -1,13 +1,13 @@
 {
-	title: "&5Solid Vis",
+	title: "&5固态要素",
 	x: 19.5d,
 	y: -1.0d,
 	shape: "hexagon",
-	description: "&oNot Sieverts&7 *Read Description*",
+	description: "&o不可食用&7 *请阅读描述*",
 	text: [
-		"&5Quartz Slivers&7 can be dunked into a Crucible &dwith atleast 2 points of an Essentia&7 to create a &5Vis Crystal&7 of that aspect!",
+		"&5石英碎片&7可投入&d含有至少两点相同要素的&7坩埚中来制作相应要素的&5魔力水晶碎片&7！",
 		"",
-		"&6Extremely useful for cleaning up after a craft&7, so that you don't release a ton of &5Flux&7!"
+		"&6这在合成后清洁坩埚非常有效&7，这样你就不会释放大量的&5咒波&7！"
 	],
 	dependencies: [
 		"98bea19e"
@@ -17,7 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:nugget",
 			Damage: 9s

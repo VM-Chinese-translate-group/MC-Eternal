@@ -1,13 +1,13 @@
 {
-	title: "&5Infusion Stones",
+	title: "&5神秘注魔石",
 	x: 25.0d,
 	y: -6.5d,
 	shape: "octagon",
-	description: "&oLimited Power&7 *Read Description*",
+	description: "&o能力有限&7 *请阅读描述*",
 	text: [
-		"&5Infusion Stones&7, a way to enhance your Infusions. ",
-		"&5Speed&7 will make your Infusions go by faster, but very slightly increase the Essentia cost by about 1%",
-		"&5Cost&7 does the opposite, reducing Essentia cost, but slightly slowing Infusions down."
+		"&5注魔石&7是一种可以增强注魔效果的方块。",
+		"&5加速石&7将会让你注魔进行的速度更快，但是会略微得提高注魔源质消耗（1%）。",
+		"&5效能石&7得作用正相反，它将会减少源质消耗，但是会让注魔速度略微下降。"
 	],
 	dependencies: [
 		"2030380f"
@@ -15,16 +15,16 @@
 	tasks: [{
 		uid: "264bdf43",
 		type: "item",
-		title: "Either Infusion Stone",
+		title: "Either Infusion Stone没翻译",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:matrix_speed"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:matrix_cost"
 		}]

@@ -1,8 +1,8 @@
 {
-	title: "&5Bzzrrrt... Ding!",
+	title: "&5HIU～～嘣！",
 	x: 23.5d,
 	y: -1.0d,
-	description: "A &5Recharge Pedestal&7 will recharge Thaumic trinkets that need &dVis&7 to operate, drawing the &dVis&7 required from the Aura.",
+	description: "&5充能基座&7可以给神秘时代的一些小玩意注入&d灵气&7。其所需的&d灵气&7会从灵气场中抽取。",
 	dependencies: [
 		"e08b88d7"
 	],
@@ -11,7 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:recharge_pedestal"
 		}]

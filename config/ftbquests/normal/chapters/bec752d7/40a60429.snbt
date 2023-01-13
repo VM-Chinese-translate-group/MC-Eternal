@@ -1,19 +1,19 @@
 {
-	title: "&5&lRead the Book, or you'll be Cooked!",
+	title: "&5&l书读百遍，其意自现",
 	x: 22.5d,
 	y: 2.0d,
 	shape: "diamond",
-	description: "&7&oPay Attention!&7 *READ DESCRIPTION*",
+	description: "&7&o注意！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&dSome details will be skipped over in these quests, simply because there's so much, and the Thaumonomicon already does a good job of explaining most things.",
+		"&d在这系列的任务中，一些细节可能会被跳过，仅仅是因为它们太多了，而魔导手册已经讲的很清楚了！",
 		"",
-		"&6Be observant when reading the requirements for each Stage of Research! You might miss an important &dConsume&6 type task's existence and &close something valuable to you!&6 Those types of tasks are few and far between, but it still stands!",
+		"&6看清你要解锁的研究需要什么东西！你可能无意中因为选择完成了一个&d消耗物品&6类型的研究而&C丢掉某些珍贵的东西&6虽然这种任务少之又少，但这不代表它不存在！",
 		"",
-		"&dBut enough about the &5Thaumonomicon&d, for now, specific Shapes on quests in this Questline indicate some different things, so here's a map:",
+		"&d关于&5魔导手册&d的事情就讲到这里，目前，本任务线中任务的特定图标会表示一些不同的内容，所以这里会有一张图标",
 		"",
-		"&5Hexagon&d - &6Near-Essential",
-		"&5Octagon&d - &6Very Useful",
-		"&5Gear&d - &6Known Technical Problems (& Fixes!)"
+		"&5六角形&d - &6至关重要的",
+		"&5八角形&d - &6很有帮助的",
+		"&5齿轮&d - &6已知/已修复的漏洞"
 	],
 	dependencies: [
 		"5ff4f44c"
@@ -25,7 +25,7 @@
 	rewards: [{
 		uid: "d5587244",
 		type: "command",
-		title: "&dYou did read below, right?",
+		title: "&d你确实读了下面的内容，对吗？",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -33,7 +33,8 @@
 			id: "lodsofemone:coin_big",
 			tag: {
 				value: 100L
-			}
+			},
+			Count: 1b
 		},
 		auto: "enabled",
 		command: "/tellraw @p {\"text\":\"§dYou did read the description of §5\\\"§lRead the Book, or you'll be Cooked!\\\"§d, right §5Thaumaturge§d?\"}"

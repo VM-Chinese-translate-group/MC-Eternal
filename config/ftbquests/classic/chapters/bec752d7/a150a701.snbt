@@ -1,14 +1,14 @@
 {
-	title: "&5Vis Salt",
+	title: "&5魔力盐",
 	x: 30.0d,
 	y: -8.0d,
-	description: "&oMaCl&7 *Read Description*",
+	description: "&oMaCl&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Vis Salt&7 can be created by falling onto atleast &d2 Vis Crystals&7 from &d15 or more Blocks high&7.",
-		"It would probably be wise to make a lot of this stuff at once, since &deach Crystal only has a slim chance to coalesce into Salt&7.",
+		"&5魔力盐&7可以由玩家从至少十五格的高处落到&d两个魔力水晶碎片&7产生&7。",
+		"最好一次性做出多个魔力盐，因为&死亡水晶变为魔力盐的概率极低&7。",
 		"",
-		"It can be applied to Food or stacked into one item by Crafting.",
-		"It has various effects when applied to Food, depending on the nature of the Aspect."
+		"其可通过合成被应用于食物或其他物品上。",
+		"附着于食物上时提供多种效果,取决于其源素种类。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -20,7 +20,7 @@
 		title: "Any &5Vis Salt",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:salt_essence",
 			tag: {

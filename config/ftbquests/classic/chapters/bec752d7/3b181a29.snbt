@@ -1,14 +1,14 @@
 {
-	title: "&5Impetus Conductor",
+	title: "&5元动能量电池",
 	x: 27.5d,
 	y: -15.0d,
 	shape: "octagon",
-	description: "&oChaos Control!&7 *Read Description*",
+	description: "&o混沌控制器！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Impetus Conductor&7 can be attached to a &5Thaumium or Voidseer Caster's Gauntlet&7 by crafting, it will allow your Gauntlet to gather and harness raw, untamed Flux Rift energy, called &0Impetus&7.",
-		"To gather &0Impetus&7 with a Gauntlet directly, simply stand near a &5Flux Rift&7 with it in hand.",
+		"&5元动能量电池&7可以通过合成与&5神秘/虚空预言者法师护手&7结合。合成后你的手套将被允许收获并利用充满野性的咒波裂隙，并将其重命名为&0元动能量&7。",
+		"如果你想直接用手套收集&0元动能量&7，只需简单地手持手套并站在&5咒波裂隙&7旁即可。",
 		"",
-		"Merely having an &5Impetus Conductor&7 with any amount of charge attached to your Gauntlet will improve the Focus Power of Foci cast through it slightly, not as strong as other Augments, but it has no condition besides having a bit of &0Impetus&7."
+		"仅仅持有含有任意数量充能且与手套绑定地的&5元动能量电池&7将会轻微提升身上武器的核心效能。尽管提升量并没有其他升级大，但除了一点&元动能量&7以外并无需他物。"
 	],
 	dependencies: [
 		"90c4a4d8",
@@ -19,14 +19,13 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					augment: {},
 					energy: {
 						energy: 0L
 					}
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
 		}],

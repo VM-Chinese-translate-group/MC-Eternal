@@ -1,10 +1,10 @@
 {
-	title: "&5Aura Disperser",
+	title: "&5灵气扩散装置",
 	x: 31.0d,
 	y: -7.0d,
-	description: "&oSalt Sprayer&7 *Read Description*",
+	description: "&o喷盐器&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Aura Disperer&7 will apply the effects of &dVis Salt&7 that it is given to a small area infront of where it faces."
+		"&5灵气扩散装置&7会向其面朝的方向提供装置内含的&d魔力盐&7所对应的效果。"
 	],
 	dependencies: [
 		"a150a701"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:aura_disperser"
 		}]

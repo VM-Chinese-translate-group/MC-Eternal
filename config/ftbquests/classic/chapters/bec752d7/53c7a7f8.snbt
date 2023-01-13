@@ -1,13 +1,13 @@
 {
-	title: "&5Purifying Bath Salts",
+	title: "&5净化浴盐",
 	x: 19.5d,
 	y: 1.0d,
 	shape: "octagon",
-	description: "&oNo Sanity...&7 *Read Description*",
+	description: "&o人急则无智……&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Sanitizing Bath Salts&7 will convert &1Water&7 they are dropped into to &dPurifying Fluid&7, which will apply the &dWarp Ward&7 effect for an amount of time based on your level of Warp. More Warp = Less time.",
+		"&7把&5净化浴盐&7丢到&1水&7里可以将其转化为&d净化之水&7，他将会根据你的扭曲程度给予你响应时长的&d扭曲守护&7效果。扭曲越高，时间越短。",
 		"",
-		"&cBe Careful&7! If you miss the Water and forget, the Salts will likely be gone, as they have a very short Despawn time! I wonder if there's a way around that problem, and the time it takes to convert the Water..."
+		"&c小心&7！如果你丢歪了，没丢进水里，那么作为掉落物净化浴盐也会很快的消失！我希望可以解决这个问题，以及将水转换所需的时间。"
 	],
 	dependencies: [
 		"a560f714",
@@ -18,7 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:bath_salts"
 		}]

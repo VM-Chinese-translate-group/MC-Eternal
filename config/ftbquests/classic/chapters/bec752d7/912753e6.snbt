@@ -1,12 +1,12 @@
 {
-	title: "&5Flux Inducer",
+	title: "&5裂隙注能",
 	x: 31.0d,
 	y: -23.5d,
-	description: "&oV=RM^2&7 *Read Description*",
+	description: "&oV=RM^2&7 *阅读以获得更多信息*",
 	text: [
-		"&7A &5Flux Inducer&7 will use &5Vitium&7 Essentia to generate &5Flux&7 on the spot, however, it contains the Flux and transmits it directly to a &5Flux Rift&7 infront of it. Rifts do not like this process of being Force-Fed, so &cwhen a Rift is fed by this device, will become more Unstable&7, opposite to what normally occurs.",
+		"&5咒波引流器&7可以使用&5污染&7要素来生产最为纯净的&5咒波&7，这种机器可以将自身生产的咒波注入到&5咒波裂隙&7中。咒波裂隙并不喜欢这种填鸭式喂养，因此，在被咒波引流器注能时，咒波裂隙会变得更加不稳定&7, 这与其自然吸收区块咒波增长己身完全相反",
 		"",
-		"This could probably be used in tandem with a device that &dMonitors the state of Flux Rifts&7 to prevent the Inducer from causing a Rift to become too Large, or too Unstable too quickly."
+		"正因为如此，咒波引流器需要搭配一些别的元动机械来使用，比如那种可以检测咒波情况并发出红石信号的，这可以让咒波在濒临溃灭时停下，留下挽回的余力。"
 	],
 	dependencies: [
 		"8dafcaf0"
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:rift_feeder"
 		}]

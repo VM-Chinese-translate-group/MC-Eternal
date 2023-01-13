@@ -1,25 +1,25 @@
 {
-	title: "&5Runic Matrix",
+	title: "&5符文矩阵",
 	x: 23.5d,
 	y: -5.0d,
 	shape: "octagon",
-	description: "&oCoalescence&7 *Read Description*",
+	description: "&o物品聚合&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Runic Matrix&7 is the Core of an &5Infusion Altar&7, an important contraption in Thaumcraft which infuses Items with Essentia and other Items to create brand new ones!",
+		"&7&5符文矩阵&7是&5注魔祭坛&7的核心。这是神秘时代中的一个重要设备，它可以让物品与源质和其他物品融合，从而创造出全新的物品。",
 		"",
-		"Every Infusion Recipe also has an &4Instability&7 value, only rough estimates are shown to players, but each is about 0.2-0.4 Instability value above the previous level.",
-		"You can make Infusions more stable by &dplacing certain items in symmetry around the Altar&7, &5Tallow Candles and Mob Heads&7 are both good examples!",
-		"Note that Heads don't need to face opposite directions to count!",
+		"每个注魔配方有一个特定的&4不稳定&7值，而配方只会向玩家显示粗略的信息，但可以得知的是，每一级都比前一级高出约0.2-0.4的不稳定值。",
+		"你可以通过在注魔祭坛周围&d对称地摆放某些物品来使&7注魔过程更加稳定，&5油脂蜡烛和怪物头颅&7都是很好的选择。",
+		"请注意，摆放头颅时不必要让它们朝向相反！",
 		"",
-		"If you place something at the &dNorthwest&7 area of the Altar, you need to place something in the same position around the &dSoutheast&7 area.",
-		"&dSymmetry is only checked at the same Height&7, something below the altar won't count as a Symmetrical partner for something above!",
+		"如果你在祭坛&西北方向&7的某个位置放置了某件物品，则你需要放一件相同的物品在祭坛的&d东南方向&7的相同位置。（使物品保持中心对成）",
+		"&d稳定性的检查只会发生在相同高度&7，放在祭坛下面的物品不会和放在祭坛上面的东西被判定为一对！",
 		"",
-		"&dThaumic Augmentation&7 adds a tooltip to all items which affect Infusion Stability (and should follow the Symmetry rules!) once you have the Infusion research!",
+		"&d神秘进阶&7模组为那些能够作为注魔稳定物的物品添加了一个提示信息，当你解锁注魔研究后便可以看到。",
 		"",
-		"&dArcane Pedestals&7 set around the Altar, and Items placed atop them should also obey these rules of Symmetry!",
-		"The Pedestals can also be up to &d1 Block&7 above or below the central one!",
+		"&d奥术基座&7围绕着祭坛摆放，在它们上面摆放的物品也要中心对称来维持祭坛的稳定性。",
+		"祭坛也可以高于或低于中心祭坛&d1格&7！",
 		"",
-		"Required &dEssentia&7 is drawn from nearby Jars."
+		"注魔祭坛所需的&d源质&7来自其周围的源质罐子。"
 	],
 	dependencies: [
 		"13eda125",
@@ -31,7 +31,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:infusion_matrix"
 		}]

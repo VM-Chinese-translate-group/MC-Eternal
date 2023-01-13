@@ -1,13 +1,13 @@
 {
-	title: "&5Thaumic Dioptra",
+	title: "&5神秘屈光仪",
 	x: 30.5d,
 	y: -4.0d,
-	description: "&oOverviewing the Aura&7 *Read Description*",
+	description: "&o灵气厂可视化&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Thaumic Dioptra&7 will display a &d13x13 Map of Vis levels&7 when placed down.",
-		"It can be &dRight-clicked&7 to make it show &5Flux&7 instead of Vis",
+		"当&5神秘屈光仪&7被放置时会显示&d13×13区块内的灵气含量。",
+		"你可以通过&d右键它&7来切换显示为&5咒波含量&7。",
 		"",
-		"A &cRedstone Comparator&7 can also be placed next to the Dioptra to output a signal based on the level of &dVis&7 or &5Flux&7 in the chunk it is placed."
+		"也可以在他旁边放下&c红石比较器&7来输出基于&d灵气&7或&5咒波&大小的红石信号。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -18,7 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:dioptra"
 		}]

@@ -1,11 +1,11 @@
 {
-	title: "&5Mnemonic Matrix",
+	title: "&5记忆矩阵",
 	x: 29.0d,
 	y: -1.5d,
 	shape: "octagon",
-	description: "&7&oMemories Broken, the Truth goes Unspoken...&7 *Read Description*",
+	description: "&7&oMemories Broken, the Truth goes Unspoken……来源于合金装备崛起复仇激流山姆的BGM&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Mnemonic Matrices&7 can be attached to a &5Thaumatorium&7 structure to increase the number of different Alchemy recipes it can store by &62 per Matrix&7."
+		"&5记忆矩阵&7可以被附着于&5神秘炼金塔&7。并以此提供炼金配方的数量&6。每个记忆矩阵将提供2个配方&7。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:brain_box"
 		}]

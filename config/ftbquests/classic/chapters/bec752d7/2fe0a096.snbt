@@ -1,8 +1,8 @@
 {
-	title: "&5Close a Greater Crimson Portal",
+	title: "&5关闭一道巨型血腥转送门",
 	x: 25.5d,
 	y: -13.0d,
-	description: "&oWith your Weapon? Don't ask how that works.",
+	description: "&o使用你手中最好的武器关闭它！别问为什么。",
 	dependencies: [
 		"66e5f078"
 	],

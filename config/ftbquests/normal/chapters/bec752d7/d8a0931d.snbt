@@ -1,13 +1,13 @@
 {
-	title: "&5Alchemist's Jug",
+	title: "&5炼金术师的水壶",
 	x: 24.0d,
 	y: -3.5d,
-	description: "&o&lUnlimited Mayonnaise&7 *Read Description*",
+	description: "&o&l近乎无穷的蛋黄酱&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Warded Jars&7 are your Essentia batteries, they store up to 250 of one kind of Essentia, and can have a &dJar Label&7 stuck on to Lock them to that Essentia, aswell as increasing and typing their Suction on Tube networks.",
+		"&5源质罐子&7相当于你的源质电池，它可以储存250点相同要素。还可以贴上&d要素标签&7来限定其储存源质的种类，这样也可以提升它们在管道网络中的吸力。",
 		"",
-		"&d&lSneak+Right-clicking&7 on a side of a Jar without a Label using your Hand will instantly dump the Jar's contents as &5Flux&7 into the Aura.",
-		"Clicking a side with a Jar Label will remove the Label"
+		"&d空手&l潜行+右击&7罐子没有标签的一面将会立刻将罐子里的源质转化为&5咒波&7并排入灵气场中。",
+		"右击罐子有标签的一面来摘下标签。"
 	],
 	dependencies: [
 		"8f60234e"
@@ -17,7 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:jar_normal"
 		}]

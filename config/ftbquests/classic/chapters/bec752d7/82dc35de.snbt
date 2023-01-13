@@ -1,15 +1,15 @@
 {
-	title: "&5Harvesting Impetus",
+	title: "&5收获元动",
 	x: 29.5d,
 	y: -21.5d,
 	shape: "octagon",
-	description: "&oRiftstone Flux&7 *Read Description*",
+	description: "&o石缝中窥取能量&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Impetus Drainer&7 will drain &0Impetus&7 from nearby &5Flux Rifts&7 into valid acceptors on an &dImpetus Transfer Network&7.",
+		"5元动汲取仪&7可以从周围的&5咒波裂隙&7中提取&0元动能量&7并将其输入正常运转的&d元动传输网络&7。",
 		"",
-		"The larger a &5Flux Rift&7, the more &0Impetus&7 it will yield per harvest, so sapping large Rifts is ideal, but risky without proper setup.",
+		"&5咒波裂隙&7越大，就可以从中提取越多的&0元动能量&7。所以故意培养出一个大的裂隙可以有效提高产能。不过，越高的收益也对应着越高的风险，咒波裂隙在没有合适的装置管控下是极其危险的。",
 		"",
-		"It can be deactived with a &cRedstone Signal&7."
+		"可以被&c红石信号&7关闭。"
 	],
 	dependencies: [
 		"8dafcaf0"
@@ -20,7 +20,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_drainer"
 		}]

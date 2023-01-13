@@ -1,12 +1,12 @@
 {
-	title: "&5Essentia Pistol",
+	title: "&5源质喷枪",
 	x: 30.0d,
 	y: -6.0d,
-	description: "&oMortuus Gun&7 *Read Description*",
+	description: "&o是把可怕的枪&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7An &5Essentia Pistol&7 will fire Essentia from a Jar socketed into it, and apply the &dVis Salt effect&7 of the Essentia to entities the shots collide with.",
+		"&5源质喷枪&7将会从嵌入其中的罐中发射源质，并对其射中的实体添加其罐中源质所对应的&d魔力盐效果&7。",
 		"",
-		"&dSneak+Right-click&7 to open the UI, where you can socket a Jar to draw from, and adjust the amount of Essentia fired at once."
+		"&d潜行+右击&7以打开其UI界面,，在此界面你可以调整其嵌入的源质罐子以及一次性发射源质的数量。"
 	],
 	dependencies: [
 		"8b1c89c2"
@@ -16,8 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:essentia_pistol"
 		}],

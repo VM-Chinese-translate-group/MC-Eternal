@@ -1,8 +1,8 @@
 {
-	title: "&5...and I would walk 500 More...",
+	title: "&5我还得再走500公里……",
 	x: 20.5d,
 	y: -5.0d,
-	description: "Exactly like &5Boots of the Traveller&7, only as a &6Belt Bauble&7!",
+	description: "除了它是一个&6腰带饰品&7，其他的与&5旅行者之靴&7并没有两样。",
 	dependencies: [
 		"55384356"
 	],
@@ -11,8 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:traveller_belt"
 		}],

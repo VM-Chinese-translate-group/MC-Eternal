@@ -1,14 +1,14 @@
 {
-	title: "&5Phial Storage",
+	title: "&5安瓿存储",
 	x: 26.0d,
 	y: -3.5d,
-	description: "&oSusceptible to Ransomware&7 *Read Description*",
+	description: "&o小心电脑病毒！&7*阅读描述以了解更多，*",
 	text: [
-		"&5Glass Phials&7 can be filled with Essentia from &5Jars or Alembics&7, quite good for compact Overflow or Backup storage of Essentia.",
-		"&dPhials hold 10 units of Essentia&7, no more, no less, you'll need atleast 10 units in an Alembic or Jar to fill it with.",
-		"Phials can also be dropped into a &5Crucible&7 to add the Essentia from the Phial to the &5Crucible&7.",
+		"&5玻璃安瓿&7可以从&5源质罐子或蒸馏器&7中取出源质，可以用于储存过多的源质。",
+		"&d安瓿可以存储10点源质&7，不能多也不能少。所以想要填装它，你需要确保蒸馏器或罐子里至少有10点源质。",
+		"也可以要素安瓿扔进&5坩埚&7中，来把它内含的要素倒入&5坩埚&7。",
 		"",
-		"&kAbout as big as a Floppy Disk"
+		"&k和你的电脑软盘一样大"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -19,7 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial"
 		}]

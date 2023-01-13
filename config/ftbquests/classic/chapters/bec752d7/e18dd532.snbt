@@ -1,16 +1,16 @@
 {
-	title: "&5Basic Clean Solutions",
+	title: "&5基础清洁方案",
 	x: 19.5d,
 	y: -2.0d,
-	description: "&oKeep it Clean!&7 *Read Description*",
+	description: "&o保持整洁！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7Generally it's a good idea to investigate different sources of Essentia when trying to make things in a Crucible, so that you don't have tons of excess Essentia in the Crucible, it can be a bit tough at times, so here's some fairly clean solutions for basic items!",
+		"&7一般来说，当你试图在坩埚中制造东西时，调查不同来源的要素是一个好主意。这样你就不会在坩埚中出现大量的杂余要素。这有时可能会有点困难，所以这里有一些基本物品的清洁制造方案！",
 		"",
-		"&5Nitor&7 - 2 Torches, 1 Coal (2 Bestia excess)",
+		"&5闪耀之光&7 - 2根火把，1个煤炭（多出2点Bestia要素）",
 		"",
-		"&5Alchemical Brass&7 - 1 Flint (5 Terra excess)",
+		"&5炼金黄铜锭&7 - 1个燧石（多出5点Terra要素）",
 		"",
-		"&5Thaumium&7 - 1 Arcane Pedestal (1 Terra 3 Aer excess)"
+		"&5神秘锭&7 - 1个奥术基座（多出5点Terra，3点Aer要素）"
 	],
 	dependencies: [
 		"af231639"

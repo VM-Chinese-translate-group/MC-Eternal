@@ -1,17 +1,17 @@
 {
-	title: "&5Essentia Centrifuge",
+	title: "&5源质离心机",
 	x: 28.0d,
 	y: -4.0d,
 	shape: "hexagon",
-	description: "&oMake use of the Unused&7 *Read Description*",
+	description: "&o变废为宝&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Essentia Centrifuge&7 allows you to break down nearly any type of Essentia, it will accept Essentia from the Bottom side, and output it to the Top.",
+		"&7&5源质离心机&7允许你分解几乎任何种类的源质，它会从底部抽取源质,并且从顶部输出。",
 		"",
-		"It will break Essentia down into the other Essentia that composes that type, so &dAuram&7 will break down into &5Praecantatio&7 and &eAer&7.",
+		"它会将复合源质分解为组成该复合源质的基础源质,例如&dAuram&7会被分解成&5Praecantatio&7和&eAer&7。",
 		"",
-		"It only extracts one of the &dIngredient Essentia&7 per operation, it's a 50/50 Chance for either one.",
+		"每一种源素只能分解出一种&前置源素&7，是两种前置源素中的任意一种，概率为50％。",
 		"",
-		"Best used with an &5Essentia Buffer&7 directly ontop."
+		"最好与&5源质缓存器&7搭配使用，放在它上面即可"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -22,7 +22,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:centrifuge"
 		}]

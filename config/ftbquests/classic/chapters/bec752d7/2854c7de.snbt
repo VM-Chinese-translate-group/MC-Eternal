@@ -1,15 +1,15 @@
 {
-	title: "&5Challenge: Impetus Automation",
+	title: "&5挑战：元动能量自动化",
 	x: 26.0d,
 	y: -23.0d,
 	shape: "octagon",
-	description: "&oThe Exam&7 *Read Description*",
+	description: "&o考试时间到！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7Using &dall the pieces you have collected&7, it will be possible to automate the creation of &0Impetus&7 energy. &dIt is up to you to complete the Puzzle&7.",
+		"&7用好&d你学的知识&7，将自动化&0元动能量&7的产出变为可能。&d是否继续完善，取决于你&7。",
 		"",
-		"Bonus points if only &dMinecraft&7, &dThaumcraft&7, and &dThaumic Augmentation&7 blocks are used for the functional parts of the setup.",
+		"如果只用&d原版&7，&d神秘时代&7，&d神秘进阶&7的方块来搭建就更好了，",
 		"",
-		"&6Use this Quest as a marker of your sucess, or don't, whatever."
+		"&6把这个任务当成你的胜利勋章，或者不，随便你。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

@@ -1,14 +1,14 @@
 {
-	title: "&5Fracture Locator",
+	title: "&5裂缝定位器",
 	x: 29.0d,
 	y: -14.0d,
 	shape: "octagon",
-	description: "&oWhere's the Leak!?&7 *Read Description*",
+	description: "&o我裂缝呢？？&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Fracture Locator&7 is practically a necessity for any Thaumaturge desiring to reach the space between, &0The Emptiness&7.",
+		"&5裂缝定位器&7为任何想抵达维度裂隙的神秘使之必备物品&0虚域&7。",
 		"",
-		"When the holder is looking in the direction of a &5Dimensional Fracture&7, the Locator will light up, it's a gradual effect, lighting up more the closer the holder's look is to the Fracture's location.",
-		"It has a limited range, and that range is within Loaded Chunks around the holder."
+		"当持有者面朝&5维度裂缝&7的方向时,定位器中的水晶将会发光。此效果是循序渐进的。光的亮度越高，就说明越接近正确的方向。",
+		"裂缝定位器有其范围限制，范围大小为持有者可见的区块。"
 	],
 	dependencies: [
 		"3b181a29"
@@ -18,7 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:fracture_locator"
 		}]

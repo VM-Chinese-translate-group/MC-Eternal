@@ -1,10 +1,10 @@
 {
-	title: "&5Adaminite Sword",
+	title: "&5精金剑",
 	x: 29.5d,
 	y: -15.5d,
-	description: "&oYour Blade, it did not cut deep enough.&7 *Read Description*",
+	description: "&o一把好剑，但还少点什么？&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A powerful, but rather mundane sword, other than the fact that it's &6Unbreakable&7 and &6strikes with great power&7, it's not very special."
+		"&7一把强大却又平庸的剑。除去&6不毁&7和&6威力大&7之外就没有其他特殊之处了。"
 	],
 	dependencies: [
 		"a34ee50d"
@@ -14,8 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:adaminite_sword"
 		}],

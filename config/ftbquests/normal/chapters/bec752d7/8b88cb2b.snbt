@@ -1,17 +1,17 @@
 {
-	title: "&5Arcane Bellows",
+	title: "&5奥术风箱",
 	x: 28.0d,
 	y: -1.0d,
 	shape: "octagon",
-	description: "&7&oInto the Bellowing Wilds&7 *Read Description*",
+	description: "&7比我国西北风还大！&o&7*阅读描述以了解更多信息*",
 	text: [
-		"&5Arcane Bellows&7 can be attached to several Thaumic constructs to improve them in various ways.",
-		"Multiple bellows can be attached to increase the effect.",
+		"&5奥术风箱&7 可以被安置在一些其他的结构或方块上来增强他们。",
+		"多个风箱的效果可以叠加",
 		"",
-		"&5Crucibles&7 will &6reach Boiling temperature faster&7.",
-		"&5Essentia Smelteries&7 of all kinds will &6break items down quicker&7.",
-		"&5Infernal Furnaces&7 will &6run faster and have improved chances of Bonus Products&7.",
-		"&5Essentia Buffers&7 will &6emit 32 more Suction on unchoked sides&7."
+		"&5在坩埚上安置&7来&6缩短煮沸的时间&7。",
+		"&5在各类源质冶炼厂上安置&7来&6加快源质黏浆的分解速度&7。",
+		"&5在炼狱熔炉上安置&7来&6加快冶炼速度,和获得奖励材料的几率&7。",
+		"&5在源质缓存器安置&7可&6在未阻塞的一面提供32点吸力&7……"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -22,7 +22,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:bellows"
 		}]

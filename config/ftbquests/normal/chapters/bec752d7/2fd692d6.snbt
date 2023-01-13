@@ -1,16 +1,16 @@
 {
-	title: "&5Tubeless Transmission",
+	title: "&5无线传输",
 	x: 22.0d,
 	y: -3.5d,
 	shape: "octagon",
-	description: "&oThe Colors, Duke!&7 *Read Description*",
+	description: "&oWIFI！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Essentia Transfusers&7 are a novice Thaumaturge's most comfortable way of moving Essentia, they will transfer Essentia from/to containers infront of them to the attached acceptor or Tube network remotely, no hassle, no spaghetti.",
+		"&5源质析出/注入装置&7对于新人神秘使来说是运输源质的最佳手段,它们能够将将源质运出/输入其所连接的容器或管线，再也没有没有布线困难啦！",
 		"",
-		"&5Filling Transfusers&7 will drain Essentia from the attached device and send it to Jars in range.",
-		"&5Emptying Transfusers&7 will drain Essentia from Jars in range, and insert it into the attached acceptor or Tube network.",
+		"&5源质析出装置&7会从其连接的设备上抽出源质到其范围内的罐子里。",
+		"&5源质注入装置&7会从其工作范围内抽取源质到其连接的管线/设备中。",
 		"",
-		"&5Transfusers&7 work exceptionally well with &dEssentia Smelteries&7 and &dThaumatoriums&7"
+		"&5源质析出/注入装置&7与&d源质冶炼厂&7和&d神秘炼金塔&7相性极佳!"
 	],
 	dependencies: [
 		"7b590d59",
@@ -21,7 +21,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:essentia_input"
 		}]
@@ -31,7 +31,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:essentia_output"
 		}]

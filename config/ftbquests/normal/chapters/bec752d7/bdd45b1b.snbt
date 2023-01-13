@@ -1,13 +1,13 @@
 {
-	title: "&5Focus Issues",
+	title: "&5聚焦问题",
 	x: 26.0d,
 	y: -0.5d,
 	shape: "gear",
-	description: "&oUnfortunate, Better luck next time&7 *Read Description*",
+	description: "&o一个莫名其妙的bug，希望在未来能解决吧&7 *阅读以获得更多信息*",
 	text: [
-		"&7Unfortunately, there's some minor bugs associated with certain bits of Research, notably the &dExamine fire very closely&7 task in &5Basic Auromancy&7, it won't register if you're a &dVampirism Vampire&7, there's not really any way around it besides reverting to being a normal Human or using &dCommands&7, so here's a command to fix it if you need!",
+		"&7因为一些非常诡异的bug，某些研究可能会出些问题。尤其是&d感受火焰的威力&7，对，就是&5基础元素&7的那个,如果你是个&d吸血鬼&7,你可能永远无法完成这个研究了，除非你放弃你如今的所有力量，成为普通的人类。除非使用&d指令&7, 所以，在这里我为你贴心的准备了一个解决这个问题的指令。",
 		"",
-		"&6Complete &5Focusing your Energy&6 (&dFocal Manipulator&6) to unlock this Quest."
+		"&6完成&5其他任务&6 (&d提示：核心镶饰台&6)来解锁这个任务。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

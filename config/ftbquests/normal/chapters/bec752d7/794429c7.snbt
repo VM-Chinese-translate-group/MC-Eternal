@@ -1,13 +1,13 @@
 {
-	title: "&5Crystal Farmer&7",
+	title: "&5水晶农场&7",
 	x: 25.5d,
 	y: -4.5d,
-	description: "&oGood harvest of Aer this season.&7 *Read Description*",
+	description: "&o现在是Aer季。&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7Exactly like the Crystals you find in caves, only you can craft them!",
-		"They'll naturally spread if there's enough &dVis&7 in the Aura, and destroy themselves to replenish &dVis&7 in the Aura, always leaving one crystal.",
+		"&7除了你可以制作它们之外，它们与你在洞穴里发现的那些水晶别无二致！",
+		"如果灵气场中有充足的&d灵气&7，它就会吸收其而生长；相反的，破坏它们会释放&d灵气&7，并且留下一些水晶碎片",
 		"",
-		"&6Scan one of the &5Elemental Crystals&6 you find in caves to unlock &dCrystal Farmer&6 research."
+		"&6扫描一个在洞穴中发现的&5元素水晶&6来解锁&d结晶农场&6研究。"
 	],
 	dependencies: [
 		"2030380f"
@@ -18,43 +18,43 @@
 		title: "Any Crystal",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_aer"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_ignis"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_aqua"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_terra"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_ordo"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_perditio"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:crystal_vitium"
 		}]

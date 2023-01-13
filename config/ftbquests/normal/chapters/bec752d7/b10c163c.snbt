@@ -1,8 +1,8 @@
 {
-	title: "&5High Energy Density",
+	title: "&5前方高能！",
 	x: 21.5d,
 	y: -1.0d,
-	description: "&5Alumentum&7 is a powerful fuel, when used in an &5Essentia Smeltery&7, it improves the speed which Essentia is distilled into attached &5Arcane Alembics&7 for as long as it burns.",
+	description: "&5源动之焰&7是一种强劲的燃料，当它作为&5源质冶炼厂&7的燃料时，它在燃烧时会加快源质从冶炼厂运输到&5蒸馏器&7的速度。",
 	dependencies: [
 		"af231639"
 	],
@@ -11,7 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:alumentum"
 		}]

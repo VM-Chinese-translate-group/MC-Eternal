@@ -1,15 +1,15 @@
 {
-	title: "&5Golem Press",
+	title: "&5傀儡工坊",
 	x: 23.0d,
 	y: -9.0d,
-	description: "&oBuild-A-Servant Workshop&7 *Read Description*",
+	description: "&o制造车间，大概&7 *阅读以了解更多信息*",
 	text: [
-		"&7Creates modular &5Golems&7 using various resources and &8Machina&7 Essentia",
+		"&7制作那些模块化&5傀儡&7需要用到各种材料和&8机械&7源质。",
 		"",
-		"Different parts will provide different Statistics and Abilities to the Golem.",
-		"The Frame material defines most of the Stats.",
+		"不同的部件可以为傀儡提供不同的能力。",
+		"傀儡的组成材料是最重要的属性提供来源，注意搭配。",
 		"",
-		"&cYou need to look at the part of the Press with the Essentia Tube ports to complete the Quest!"
+		"&c你或许得去源质管道任务看看才能完成这个任务。"
 	],
 	dependencies: [
 		"0647c8fc"
@@ -20,7 +20,7 @@
 		title: "Gaze at a &5Golem Press",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:golem_builder"
 		},

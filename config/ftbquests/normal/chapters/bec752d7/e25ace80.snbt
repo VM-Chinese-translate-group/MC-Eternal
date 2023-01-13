@@ -1,18 +1,18 @@
 {
-	title: "&5Crack in the Fabric",
+	title: "&5维度上的裂纹",
 	x: 31.0d,
 	y: -13.5d,
 	shape: "octagon",
-	description: "&oVoid of Life&7 *Read Description*",
+	description: "&o虚空生命&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Dimensional Fracture&7 can be activated using either Augmentable &5Caster's Gaunlet&7 with sufficient &0Impetus&7 charge in an attached &5Impetus Conductor&7.",
+		"&5维度裂缝&7可被内含装有足够元动能量充能的元动电池的&5法师护手&7激活。",
 		"",
-		"A world devoid of usual life, only that of unnatural magic origin exists here, the &8Eldritch&7, and &5Taint&7.",
-		"It may be possible to find &da larger specimen of the horrid &5Taintacle&7 among the Taint here, i wonder what sort of power it wields...",
+		"这个世界的不寻常，就是因为不自然原初魔法的存在！因为这些&8邪术&7、这些&5腐化&7。",
+		"或许只要提取一点腐化&5触手&7样本，我就可以了解到其背后隐藏的力量。",
 		"",
-		"&5Large Buildings&7 seem to fill the land, but they are nothing like the terrain around, who built them?",
+		"这片土地上似乎到处都是&5大型建筑物&,不过他们看起来可和周围的地形毫不相关...究竟是谁建造的?",
 		"",
-		"The &dSpace&7 is this dimension is also compressed, even moreso than &dThe Nether&7, you can travel &616 Meters&7 in most other Dimensions by travelling &61 Meter&7 in &0The Emptiness&7."
+		"这个维度的&d空间&7是被压缩过的。而在&d下界&7则更甚，在绝大多数次元中行走&616米&7只对应着在虚域中行走&61米&7。"
 	],
 	dependencies: [
 		"42cc3923"
@@ -24,10 +24,10 @@
 		title: "Enter &5The Emptiness",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					biome: "dimdoors:black_void"
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:biome_selector"
 		},

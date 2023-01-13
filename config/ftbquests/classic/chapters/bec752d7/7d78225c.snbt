@@ -1,25 +1,25 @@
 {
-	title: "&6The Wonders of Thaumaturgy",
+	title: "&6神秘使的奇迹",
 	x: 25.5d,
 	y: -19.5d,
 	shape: "heart",
-	description: "&7&oUnending Potential&7 *Read Description*",
+	description: "&7&o无限的可能！*",
 	text: [
-		"&7You may have finished the core progression of &dThaumcraft&7 and &dThaumic Augmentation&7, but there is still much you can with the power of Thaumaturgy.",
+		"&7恭喜你，你已经彻底完成了&d神秘时代&7与&d神秘进阶&7的大部分内容了, 但是作为一个神秘使，你不止要做一名学习者，更要作为一名开拓者！",
 		"",
-		"&dThaumcraft&7 itself offers much room for Automation, especially through &5Golemancy&7, and &dThaumic Augmentation&7 extends that potential a little bit.",
-		"&dAutomating Essentia&7 (without those silly plants :v) is a fun challenge you can try, that's one thing!",
-		"The &dSpellcasting system&7 with Foci can do certain things which other mods simply cannot, and incredibly well at that, but that's for you to experiment with and Discover!",
+		"&d神秘时代&7为自动化开启了一扇新世界的大门，尤其是&5傀儡学&7, 而&d神秘进阶&7则是给神秘时代的大门镀了一层金。",
+		"&d源质自动化生产&7 (不通过隔壁神秘领域的源质种子 :v) 是一种有趣而困难的尝试，我确定，如果你是一名有野心的神秘使，你不会错过这个的！",
+		"&d神秘学&7那独树一帜的法术系统可以完成其他模组无法完成的事情，搭配你认为最为强大的法术与那些异域的生灵和神话怪兽好好干上一架吧！",
 		"",
-		"There are quite a number of things this questline does not explore, so why not explore them?",
+		"以及这条任务线，那么长的任务，你真的每个都深入研究了吗？如果没有，作为一名求知者，为什么不去探索一下呢？",
 		"",
-		"Perhaps you even &dmissed some powerful tools&7 or &duseful notes about tweaks that have been made&7, go back and give them a check!",
+		"你甚至可能会&d错过许多强大的武器&7和&d好用的工具和机器&7, 回头看看，好好检测检查！",
 		"",
-		"&5&o&lIf one is to master the art of Thaumaturgy, the reward of Ultimate Knowledge may greet them...",
+		"&5&o&l如果一位神秘使走到了世界真相的大门前，终极的知识将会在门口等待。我想，如果你真的走到了那一步，你也不会因为终极知识而满足！",
 		"",
 		"",
-		"&6&oI hope this questline has been a fun little(?) journey, and a good guide for less experienced Thaumaturges, perhaps even one that has brought those previously dissuaded from Thaumaturgy to have a good time, that's really all i'd hope for :D",
-		"~Sincerely, &5&o&lEmperdog"
+		"&6&o我希望这条任务线对你而言是一段愉快（？）的旅程，对于那些初探神秘之奥妙的神秘使而言，这会是一个极好的教程。也可以让不太喜欢神秘学的人玩的开心。这就是我所希望的:D",
+		"你最好的朋友——&5&o&lEmperdog"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -40,7 +40,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "ftbquests:lootcrate",
 			tag: {

@@ -1,15 +1,15 @@
 {
-	title: "&5Ancient Awakening",
+	title: "&5远古之觉醒",
 	x: 25.5d,
 	y: -11.5d,
 	shape: "hexagon",
-	description: "&oNo Dragons Here&7 *Read Description*",
+	description: "&o龙不在此&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7If you did some of the stuff mentioned in &5The Space-Time Noodle&7, and have scanned an &5Ancient Altar&7 found in the world, you should now be able to access the research required to activate those &5Ancient Altars&7, placing a &dVoid Seed&7 atop one will summon one of the Thaumcraft bosses* after a short while.",
-		"&cBEWARE! These bosses are quite a bit stronger than usual!",
-		"&7Why would you want to do this, you ask? The bosses drop &5Primordial Pearls&7, and they're pristine, &68 full uses&7, this is the ideal way to get your first few.",
+		"&7如果你已经完成了在&5寰宇面条&7中提到的东西，并且扫描了在主世界找到的&5远古祭坛&7，你应当已经可以展开有关&5远古祭坛&7的研究了。在祭坛顶上放置&d虚空种子&7将会在短时间后召唤神秘时代的boss之一。",
+		"&c小心！这些boss可比原版的要强上不少！",
+		"&7你想知道为什么要打？那是因为这些boss会掉落&5元始珍珠&7作为战利品。而这种珍珠是翻开新一章魔法的&6必要物品&7，打败这些boss会是新手最理想的获得方式。",
 		"",
-		"&7*Except the Giant Taintacle, for technical reasons."
+		"&7*出于某种科学原因，巨型腐化触手不算。"
 	],
 	dependencies: [
 		"65600fe3"
@@ -22,7 +22,8 @@
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "crimsonwarfare:boss_activator"
+			id: "crimsonwarfare:boss_activator",
+			Count: 1b
 		},
 		match_type: "block_id",
 		match: "crimsonwarfare:boss_activator",

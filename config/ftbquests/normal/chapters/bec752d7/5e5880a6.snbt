@@ -1,12 +1,12 @@
 {
-	title: "&5Reflections of Impetus",
+	title: "&5元动映像",
 	x: 29.0d,
 	y: -23.5d,
-	description: "&oLimewired&7 *Read Description*",
+	description: "&o建网配电&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Impetus Mirrors&7 can be used for Wireless &0Impetus&7 transfer, However, they have a rather low Transfer limit, ",
+		"&5元动之镜&7可别用于无线的&0元动能量&7传输, 只不过效率会有点低。",
 		"",
-		"The Linking process and Drawbacks of other Thaumic mirrors apply to them."
+		"其他神秘镜子的缺点和传输过程与其一致。"
 	],
 	dependencies: [
 		"82dc35de"
@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:impetus_mirror"
 		}],

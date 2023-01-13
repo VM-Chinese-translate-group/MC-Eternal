@@ -1,11 +1,11 @@
 {
-	title: "&5Seal Copier",
+	title: "&5复制印记",
 	x: 22.0d,
 	y: -11.0d,
-	description: "&oCTRL+C CTRL+V&7 *Read Description*",
+	description: "&oCTRL+C CTRL+V&7 *阅读以获得更多信息*",
 	text: [
-		"&5Seal Copiers&7 can read and store a copy of a Control Seal's information into themselves, and write it to another Control Seal of the same type.",
-		"Simply &dRight-click&7 when it's empty to Copy the information, and &dRight-click&7 another seal to write it, &dSneak+Right-click&7 will reset the Copier back to an Empty state."
+		"&5印记拓印器&7可以存储一个控制印记的所有配置，并把它转移到另一个印记上。",
+		"&d右击&7一个放在地上的，配置好的印记以存储设置，再&d右击&7另一个印记就可以把刚刚的设置移上去了, &dshift右击&7可以清空存储的设置。"
 	],
 	dependencies: [
 		"f7139a93",
@@ -16,8 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:seal_copier"
 		}],

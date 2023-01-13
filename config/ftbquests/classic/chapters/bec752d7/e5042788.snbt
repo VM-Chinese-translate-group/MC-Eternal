@@ -1,21 +1,21 @@
 {
-	title: "&5Flux Condenser",
+	title: "&5咒波凝结器",
 	x: 26.5d,
 	y: -8.0d,
-	description: "&oCatch that Fluxing Criminal!&7 *Read Description*",
+	description: "&o把越狱的咒波给我抓回来！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Flux Condenser&7 will use Essentia piped in through the Sides as a Catalyst to attract Flux from the Aura, the Flux will then bind to the Essentia, creating &5Vitium&7 Essentia, this will be ejected from the Bottom of the device.",
-		"Of course, it needs a place to hold the Essentia to attract the Flux, and that's what &5Flux Condenser Lattices&7 are for.",
+		"&5咒波凝结器&7会被从其侧面运送进的源质所驱动，被驱动后，它会从灵气厂里吸取咒波，然后把它们和源质糅合在一起，产生&5污染&7要素, 这些要素会从其底部被排出。",
+		"当然，要让它工作还需要一个能让它扩散源质，吸引咒波的东西，那就是&5咒波凝结器格栅&7。",
 		"",
-		"&cUnder no circumstances should &5Vitium&c Essentia be fed into the Condenser!",
+		"&c无论因为什么原因，都不可以把&5污染&c要素注入咒波凝结器！！这将导致毁灭性的后果！！！",
 		"",
-		"&7Lattices can be placed atop the Condenser, and will be connected up to &d8 Blocks&7 away from the source. ",
-		"The more Exposed Faces the Lattices have (though the specifics are fiddly), the more Flux the process attracts, allowing it to go faster, this also does make it cost more Essentia to trap the Flux though, as it's spread out through the Lattices.",
-		"Any Lattices outside the area that Condenser can use them from will pop right off of where they were supposed to be.",
+		"&7咒波凝结器格栅可以被放置在凝结器的顶部（和顶部格栅的周围），最长可以连接&d8个方块&7的长度。",
+		"格栅暴露的面越多（细节比较复杂，不太好在这里讲）, 咒波消失的就越快，相对的，源质消耗的也越快。因为格栅是散播源质的工具。",
+		"任何处于咒波凝结器工作范围之外的格栅都不会生效，甚至不会连接。",
 		"",
-		"But the Lattices can be &5Clogged&7 during the process, if one is Clogged, &dit and any connected through it won't be able to help the process, but still make it cost more Essentia&7!",
-		"So in short, if it's too tall and thin, it risks being Clogged and getting a severe reduction to speed, but expanding it is costly on &dVis&7!",
-		"Additionally, you don't need to create new Lattices to replace Clogged ones, the &dEssentia Filter&7 contained in the Lattices can be swapped for a fresh one with &dRight-click&7."
+		"注意，如果一个格栅被&5堵塞了&7，它便不会继续工作了，但是它依然会被算作咒波凝结器的一部分，且会继续消耗源质&7！",
+		"总而言之，如果你用格栅造了根柱子，那么它会很容易的被堵塞，而且在&dVis&7的消耗方面会很恐怖！",
+		"而且，你并不需要通过放置新格栅来代替那些被堵塞的格栅， &d源质滤管&7可以清理那些被堵塞的格栅，只需要轻轻&d右击&7。"
 	],
 	dependencies: [
 		"b2156be9"
@@ -25,7 +25,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:condenser"
 		}]

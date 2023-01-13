@@ -1,8 +1,8 @@
 {
-	title: "&5Focus on the Problem",
+	title: "&5核心问题",
 	x: 24.5d,
 	y: -2.5d,
-	description: "Thaumcraft 6's &5Foci&7 are customizable spells based on modular components, there's so much potential with them! Each tier of Focus has more Complexity than the last, allowing for more insane spells!",
+	description: "神秘时代6的&5核心&7可以自定义其所施放的法术。每级核心都比上一级核心拥有更多的复杂度上限，允许你组建更多更疯狂的法术！",
 	dependencies: [
 		"5ef1c316"
 	],
@@ -11,8 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:focus_1"
 		}],

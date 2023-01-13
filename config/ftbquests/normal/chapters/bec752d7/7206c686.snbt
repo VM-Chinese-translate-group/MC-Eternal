@@ -1,10 +1,10 @@
 {
-	title: "&5Mithminite",
+	title: "&5这是秘金吗",
 	x: 30.5d,
 	y: -16.0d,
-	description: "&oMithical Metal&7 *Read Description*",
+	description: "&o秘金&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The most powerful Arcane alloy known to man, made simply by fusion of weaker alloys."
+		"&7最强大的神秘合金往往只需要简单的下级金属。"
 	],
 	dependencies: [
 		"a34ee50d"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:mithminite_ingot"
 		}]

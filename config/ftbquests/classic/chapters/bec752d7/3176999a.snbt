@@ -1,12 +1,12 @@
 {
-	title: "&5Warded Arcana",
+	title: "&5守护奥术",
 	x: 28.5d,
 	y: -7.5d,
-	description: "&oAnd stay OUT&7 *Read Description*",
+	description: "&o离我远点！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Warding Sigils&7 are a key component to crafting various &dWarded&7 blocks, anything Warded normally cannot be interacted with by anyone but the placer.",
+		"&5守护印记&7 是制作其他种类的&d守护&7方块的关键, 守护方块与大多数玩家都无法交互，放置者除外。",
 		"",
-		"Access to Warded objects can be controlled using the different kinds of &5Keys&7 Thaumic Augmentation offers."
+		"可以使用不同的神秘进阶&5钥匙&7与守护方块绑定。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,7 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:material",
 			Damage: 1s

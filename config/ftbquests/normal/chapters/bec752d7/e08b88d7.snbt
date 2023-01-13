@@ -1,13 +1,13 @@
 {
-	title: "&5Focusing your Energy",
+	title: "&5集中精力",
 	x: 23.5d,
 	y: -2.0d,
 	shape: "octagon",
-	description: "&oHAAAAAAAAA&7 *Read Description*",
+	description: "&o龟派气功波！哼哼啊啊啊啊啊&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5Focal Manipulator&7 is used to weave &dVis&7 from the Aura into Foci, infusing them with a custom Spell.",
+		"&7&5核心镶饰台&7用来消耗灵气场中的&d灵气&7来修饰核心，为它们注入你定义的法术！",
 		"",
-		"&dNote: Takes more &aXP Levels&d than it says."
+		"&d注意：你花费的&a经验等级&d往往比它提示的要多！"
 	],
 	dependencies: [
 		"c6678a36"
@@ -17,7 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:wand_workbench"
 		}]

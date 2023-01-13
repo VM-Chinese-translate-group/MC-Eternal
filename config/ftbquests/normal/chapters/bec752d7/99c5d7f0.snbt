@@ -1,11 +1,11 @@
 {
-	title: "&5Elytra Harness",
+	title: "&5奥法鞘翅",
 	x: 27.5d,
 	y: -9.5d,
-	description: "&oHarness the Power&7 *Read Description*",
+	description: "&o掌控鞘翅之力&7 *阅读描述以了解更多信息",
 	text: [
-		"&7An &5Elytra Harness&7 is like Elytra, but it can go on your &6Body&7 Bauble slot, &6automatically repair&7, and use &dVis&7 as a Shield for the Durability to let you fly much longer!",
-		"The Harness also &6never truly Breaks&7, just like regular Elytra."
+		"&5奥法鞘翅&7与鞘翅功能相似，但可以被装备在身体饰品栏上，且具有&6自我修复&7能力。可以使用&d灵气&7防护来提高其持久力。因此，飞行高度远比普通鞘翅高！",
+		"奥法鞘翅也像普通鞘翅一样&6不会真正的损坏&7。"
 	],
 	dependencies: [
 		"65600fe3"
@@ -15,11 +15,10 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 2
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:elytra_harness"
 		}],

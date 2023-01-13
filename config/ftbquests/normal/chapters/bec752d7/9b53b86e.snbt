@@ -1,8 +1,8 @@
 {
-	title: "&5Power of Mithril!",
+	title: "&5秘银之力！",
 	x: 30.0d,
 	y: -11.0d,
-	description: "Faster than &5Thaumium&7 and &5Void Metal&7 Smelteries, and has &l0% Flux Loss&7!",
+	description: "比&5神秘冶炼炉&7和&5虚空金属冶炼炉更快&7，并且减少&l0％的咒波丧失&7！",
 	dependencies: [
 		"b00081a8",
 		"2e658755"
@@ -12,7 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumadditions:mithrillium_smelter"
 		}]

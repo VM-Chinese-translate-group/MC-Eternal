@@ -1,12 +1,10 @@
 {
-	title: "&5Voidweaver",
+	title: "&5虚空编织的绸缎",
 	x: 24.0d,
 	y: -9.5d,
-	description: "&oPerfect for Summoning an Old One&7 *Read Description*",
+	description: "&o召唤古神的最佳选择&7 *阅读描述以了解更多信息*",
 	text: [
-		"&5Void Thaumaturge Armor&7 is quite a wonderful set, it boasts excellent &dVis Discount&7, &6Automatic Repair&7, a good chunk of &6Magic Damage Resistance&7, and built-in &5Goggles of Revealing&7!",
-		"",
-		"&7Plus it looks hella cool."
+		"&5虚空神秘使套装&7是一套强大的装备，其将提供大额的&d魔力减免&7且具有&6自我修复7能力。以及相当程度的的&6魔法伤害抗性&&7。别忘了它还自带&5揭示之护目镜&7的效果！"
 	],
 	dependencies: [
 		"65600fe3"
@@ -16,8 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:void_robe_helm"
 		}],
@@ -29,8 +26,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:void_robe_chest"
 		}],
@@ -42,8 +38,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:void_robe_legs"
 		}],

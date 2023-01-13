@@ -1,8 +1,8 @@
 {
-	title: "&5Thaumaturge's Salt",
+	title: "&5神秘使の椒盐",
 	x: 20.5d,
 	y: 3.5d,
-	description: "Sprinkle a little here... Sprinkle a little over a crafting table... Oh how I love sparkles... &lHow to craft? Sleep and read the book! Or check JEI.",
+	description: "在这里洒一点，工作台上洒一点…… 哦，我的灵感在发光！&l你问我怎么做？睡一觉，看看你得到的书! 或者查看JEI。",
 	dependencies: [
 		"96195e35"
 	],
@@ -11,7 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:salis_mundus"
 		}]

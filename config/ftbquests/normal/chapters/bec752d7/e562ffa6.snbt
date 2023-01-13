@@ -1,8 +1,8 @@
 {
-	title: "&5An Annoying Bit",
+	title: "&5好烦人",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumcraft:curio",
 		Damage: 6s
@@ -10,11 +10,11 @@
 	x: 26.5d,
 	y: -11.0d,
 	shape: "hexagon",
-	description: "&oSuch a Slog&7 *Read Description*",
+	description: "&o这也太慢了&7 *阅读描述以了解更多信息",
 	text: [
-		"&7It can be rather annoying to need to go find a &5Crimson Portal&7 in order to progress to the cool stuff, so here's a one-time Deal for a Morb for one, and a complimentary &5Crimson Rites&7 book!",
+		"&7必须找到&5绯红传送门&7才能解锁后面的内容真的很烦人。所以我和你用一个生物来做一次交易，奖励是一本免费的&5猩红仪式&7之书！",
 		"",
-		"Make sure you &6scan the Cultists with your Thaumometer&7!"
+		"记住要用&6魔导透镜来扫描血腥信徒&7！"
 	],
 	dependencies: [
 		"65600fe3"
@@ -36,7 +36,8 @@
 			tag: {
 				Generic: 1b,
 				id: "thaumcraft:cultistportallesser"
-			}
+			},
+			Count: 1b
 		}
 	},
 	{
@@ -44,7 +45,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio",
 			tag: {

@@ -1,9 +1,9 @@
 {
-	title: "&5The Seed of Insanity",
+	title: "&5疯狂之种",
 	x: 25.0d,
 	y: -10.0d,
 	shape: "octagon",
-	description: "An important ingredient for any Thaumturge desiring greater power, used to make &5Void Metal&7 and many other useful parts.",
+	description: "所有渴望力量的神秘使（走到这一步，你的称号已经变成邪术使了）不可或缺之物。用于锻造&5虚空金属&7和其他物品。",
 	dependencies: [
 		"b75b2696"
 	],
@@ -12,7 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:void_seed"
 		}]

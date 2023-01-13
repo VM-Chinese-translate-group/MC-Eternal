@@ -1,15 +1,15 @@
 {
-	title: "&5The Primordial Butterknife",
+	title: "&5元始黄油刀",
 	x: 27.0d,
 	y: -14.0d,
 	shape: "octagon",
-	description: "&oIncomprehensible! It is not Butter!&7 *Read Description*",
+	description: "&o离谱！居然不是黄油！&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7The &5Primal Cutter&7 is a relative to the &5Primal Crusher&7, being a &dSword and Axe&7 in one, it boasts the &6Arcing&7 and &6Burrowing&7 abilities of the &5Sword of the Zephyr&7 and &5Axe of the Stream&7, while also &6Weakening those struck by it&7, and having the ability to draw Items and Creatures to a focal point while holding down &dRight-click&7.",
+		"&5元始刃&7是&5元始杵&7的亲戚。它&刀斧合一&7，具有&6弧光&7和&6连锁采集&7的能力。&5风雷剑&7与&5奔流斧&7的力量被元始珍珠强行结合在了一起, 同时在攻击时可以让敌人陷入&6虚弱&7, 并且按住&d鼠标右键&7可以制造一个能吸引周围掉落物和生物的虚空旋涡。",
 		"",
-		"&6&lImportant!",
-		"&7You can deactivate the Drawing ability of the Cutter entirely by crafting with it alone.",
-		"&7Additionally, the Damage of the &5Primal Cutter&7 has been significantly boosted in &dMC Eternal&7 to make it more worth your time."
+		"&6&l重要提示！",
+		"&7你可以把元始刃放到合成栏里再合成一次以禁用它右键吸引生物的能力。",
+		"&7此外，&5元始刃&7的伤害在&d永恒的MC&7中被大大提高了，这或许可以让原本轻视它的神秘使花上些时间去制造这把剑。"
 	],
 	dependencies: [
 		"90c4a4d8"
@@ -19,8 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumicaugmentation:primal_cutter",
 			tag: {

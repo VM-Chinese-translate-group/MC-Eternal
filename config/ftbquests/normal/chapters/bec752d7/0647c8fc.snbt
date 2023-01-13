@@ -1,10 +1,10 @@
 {
-	title: "&5Out of the Oven",
+	title: "&5热身完毕",
 	x: 23.5d,
 	y: -8.0d,
-	description: "&dIf you did every quest before this point, you're all warmed up, Thaumaturge! &l*READ, DESCRIPTION*",
+	description: "&d如果你已完成了这个任务的所有前置，说明你已经热身好了！&l*阅读描述以了解更多信息*",
 	text: [
-		"&d&lAny thaumaturge with a care would read the information their Thaumonomicon has provided alongside what most of these quests provide."
+		"&d&l每个有脑子的神秘使都应该已经把魔导手册的内容和一路上的任务简介读完了。"
 	],
 	dependencies: [
 		"2030380f"
