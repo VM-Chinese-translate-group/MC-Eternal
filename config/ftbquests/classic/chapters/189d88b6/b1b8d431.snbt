@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -1.5d,
-	description: "&o合成模具是制造工具的第一步。首先得制造模具，然后是获得真正的力量！",
+	description: "&o制作模具是制造强大工具的第一步！",
 	dependencies: [
 		"7eee0151"
 	],

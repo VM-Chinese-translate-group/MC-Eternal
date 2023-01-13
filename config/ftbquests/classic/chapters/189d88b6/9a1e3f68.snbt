@@ -2,7 +2,7 @@
 	title: "太美了......",
 	x: -11.0d,
 	y: 1.0d,
-	description: "*手持挂灯分别右键两个方块，以悬挂彩灯！",
+	description: "*手持挂灯分别右键两个方块以悬挂彩灯！",
 	dependencies: [
 		"14b54c00"
 	],

@@ -2,7 +2,7 @@
 	title: "Zzzzz",
 	x: -14.5d,
 	y: -1.5d,
-	description: "/sethome指令可以允许你使用其他指令快速回到家!",
+	description: "/sethome指令允许你使用其他指令快速回到家!",
 	text: [
 		"/home以回到家"
 	],
