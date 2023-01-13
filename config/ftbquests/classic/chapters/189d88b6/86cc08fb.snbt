@@ -10,7 +10,7 @@
 	x: -16.1d,
 	y: -4.55d,
 	shape: "circle",
-	description: ".右键&l小狗魔法牌&7来召唤你的狗。对你的狗身使用 &lTraining Stick&7 以训练它！",
+	description: ".右键&l小狗魔法牌&7来召唤你的狗。对你的狗使用 &lTraining Stick&7 以训练它！",
 	dependencies: [
 		"87cb3976"
 	],
