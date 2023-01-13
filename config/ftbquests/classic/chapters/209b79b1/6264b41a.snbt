@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: 0.5d,
 	shape: "square",
-	description: "I am going far away to the land of robbers and ghosts. You must not go further, the werewolf haunts the woods. My dreams are heavy in this desolate castle, but do not fear.",
+	description: "我要去很远的地方——去充满强盗和幽灵的地方……你不能再往前走了，狼人在树林里出没……在这荒凉的城堡里，我的梦很沉重，但请不要害怕……",
 	dependencies: [
 		"e9efff3e"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "348f8f58",
 		type: "kill",
-		title: "Bounty: Advanced Vampire",
+		title: "悬赏：高阶吸血鬼",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -25,9 +24,6 @@
 		uid: "e0ff2c8a",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -37,13 +33,7 @@
 	{
 		uid: "8ca63462",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "vampirism:pure_blood",
-			Damage: 2s
-		}
+		item: "vampirism:pure_blood 1 2"
 	},
 	{
 		uid: "ae9a02cd",
@@ -55,7 +45,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:vampire_cloak",
@@ -65,11 +54,6 @@
 	{
 		uid: "a3b13bc2",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:diamond_block"
-		}
+		item: "minecraft:diamond_block"
 	}]
 }

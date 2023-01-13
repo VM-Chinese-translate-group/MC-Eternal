@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: 9.0d,
-	description: "Applies Color to ME Cables and certain other blocks using Dye or Paint Balls, can clear color with Snowballs.",
+	description: "使用染料或染色球将颜色应用于ME电缆和某些其他的块，可以使用雪球清除颜色。",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -11,7 +11,6 @@
 		title: "Color Applicator",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:color_applicator",

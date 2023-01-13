@@ -8,9 +8,6 @@
 		uid: "4379697f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "immersiveengineering:conveyor",
 			tag: {
 				conveyorType: "immersiveengineering:conveyor"

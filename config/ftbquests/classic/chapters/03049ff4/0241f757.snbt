@@ -1,8 +1,8 @@
 {
-	title: "Quack",
+	title: "嘎嘎嘎",
 	x: 3.5d,
 	y: -4.5d,
-	description: "Why would anyone want to complete this quest?",
+	description: "为什么大家都不想完成这个任务？",
 	text: [
 		""
 	],
@@ -11,7 +11,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "stupidthings:rubber_chicken"
@@ -24,13 +23,7 @@
 	rewards: [{
 		uid: "12838b5b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "1a7c9c74",
@@ -42,7 +35,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "stupidthings:rubber_chicken",
@@ -52,7 +44,7 @@
 					id: 15
 				}],
 				display: {
-					Name: "Legendary Rubber Chicken"
+					Name: "传说级尖叫鸡"
 				}
 			}
 		}

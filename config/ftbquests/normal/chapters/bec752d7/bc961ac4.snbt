@@ -1,11 +1,16 @@
 {
-	title: "Simple Endoflame Autofeeding",
-	icon: "botania:opencrate",
+	title: "基础火红莲自动化",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "botania:opencrate"
+	},
 	x: 13.0d,
 	y: -2.5d,
-	description: "*Read Description*",
+	description: "*阅读说明*",
 	text: [
-		"Place the Open Crate ontop of the Pressure Plate, then place the Hopper on the side of the Open Crate, and run Redstone from the Pressure Plate to ontop of the Hopper."
+		"花格箱、漏斗、压力板、红石火把，懂？再不懂我只能说你没有自主自考能力了。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,30 +22,37 @@
 		uid: "4d51a061",
 		type: "item",
 		items: [{
-			item: "botania:opencrate"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:opencrate"
 		}]
 	},
 	{
 		uid: "b2940b2d",
 		type: "item",
 		items: [{
-			item: "minecraft:hopper"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:hopper"
 		}]
 	},
 	{
 		uid: "3d93ce25",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				Parent: {
+					data: "pressurePlateWood",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any pressurePlateWood"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "pressurePlateWood"
 				}
 			}
 		}]
@@ -49,7 +61,10 @@
 		uid: "b2126fa6",
 		type: "item",
 		items: [{
-			item: "minecraft:redstone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:redstone"
 		}],
 		count: 3L
 	}]

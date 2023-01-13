@@ -1,11 +1,6 @@
 {
-	title: "Advanced Science",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "buildcraftcore:gear_diamond"
-	},
+	title: "进阶科技",
+	icon: "buildcraftcore:gear_diamond",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

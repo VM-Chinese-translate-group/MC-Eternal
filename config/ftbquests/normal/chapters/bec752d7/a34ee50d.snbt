@@ -14,7 +14,10 @@
 		uid: "6af35fa2",
 		type: "item",
 		items: [{
-			item: "thaumadditions:adaminite_ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:adaminite_ingot"
 		}]
 	}],
 	rewards: [{

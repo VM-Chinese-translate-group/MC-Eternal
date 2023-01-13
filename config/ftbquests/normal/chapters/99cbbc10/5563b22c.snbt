@@ -5,7 +5,10 @@
 		uid: "68bb5b13",
 		type: "item",
 		items: [{
-			item: "harvestcraft:sisalseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:sisalseeditem"
 		}]
 	}],
 	rewards: [{

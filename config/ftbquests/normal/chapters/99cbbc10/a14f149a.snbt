@@ -5,7 +5,10 @@
 		uid: "71a86c50",
 		type: "item",
 		items: [{
-			item: "harvestcraft:agaveseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:agaveseeditem"
 		}]
 	}],
 	rewards: [{

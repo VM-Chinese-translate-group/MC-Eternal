@@ -5,7 +5,10 @@
 		uid: "6579a884",
 		type: "item",
 		items: [{
-			item: "minecraft:wheat_seeds"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:wheat_seeds"
 		}],
 		count: 8L
 	}],
@@ -14,6 +17,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:mattock",

@@ -2,7 +2,10 @@
 	x: 24.5d,
 	y: 3.0d,
 	shape: "circle",
-	description: "Displays the local Aura level as a HUD element",
+	description: "让你可以看见区块灵气的情况（左上角的绿色条）",
+	text: [
+		""
+	],
 	dependencies: [
 		"a074c6bd"
 	],
@@ -10,10 +13,11 @@
 		uid: "f0135e30",
 		type: "item",
 		items: [{
-			id: "naturesaura:eye",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "naturesaura:eye"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

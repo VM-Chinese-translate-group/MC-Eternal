@@ -8,10 +8,7 @@
 		uid: "f92d5d42",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "industrialforegoing:animal_byproduct_recolector"
+			item: "industrialforegoing:animal_byproduct_recolector"
 		}]
 	}],
 	rewards: [{

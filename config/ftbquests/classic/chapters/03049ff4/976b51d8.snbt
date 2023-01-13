@@ -6,7 +6,6 @@
 		type: "stat",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:troll_skull"
@@ -17,13 +16,7 @@
 	rewards: [{
 		uid: "2f596318",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "56a6f2db",
@@ -34,13 +27,10 @@
 		uid: "db603cb4",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Unclaimed Black Market Container "
+					Name: "无主的的黑市货柜"
 				},
 				type: "unclaimed_black_market_container"
 			}

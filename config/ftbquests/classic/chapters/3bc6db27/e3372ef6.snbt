@@ -8,10 +8,7 @@
 		uid: "98a4fd8a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "forestry:sturdy_machine"
+			item: "forestry:sturdy_machine"
 		}],
 		count: 4L
 	}],

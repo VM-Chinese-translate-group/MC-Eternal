@@ -13,7 +13,10 @@
 		uid: "3268452c",
 		type: "item",
 		items: [{
-			item: "thaumadditions:crystal_crusher"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:crystal_crusher"
 		}]
 	}],
 	rewards: [{

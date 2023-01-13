@@ -8,30 +8,21 @@
 		uid: "0ae30363",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:blockcargomanager"
+			item: "stevescarts:blockcargomanager"
 		}]
 	},
 	{
 		uid: "adc4e195",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:blockliquidmanager"
+			item: "stevescarts:blockliquidmanager"
 		}]
 	},
 	{
 		uid: "1a2d24e1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:blockdistributor"
+			item: "stevescarts:blockdistributor"
 		}]
 	}],
 	rewards: [{

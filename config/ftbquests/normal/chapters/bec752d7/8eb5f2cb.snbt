@@ -28,6 +28,7 @@
 		title: "See a &5Giant Taint Seed",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:rift_seed",
@@ -46,6 +47,9 @@
 		type: "command",
 		title: "HEY, read the text!",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "lodsofemone:coin_big",
 			tag: {
 				value: 100L

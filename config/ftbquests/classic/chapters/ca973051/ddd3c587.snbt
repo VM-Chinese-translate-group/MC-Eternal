@@ -1,8 +1,8 @@
 {
-	title: "Into the Highlands",
+	title: "步入高地",
 	x: -12.0d,
 	y: -15.5d,
-	description: "&oTales say that below the Highlands of the Twilight Forest, there lie Caverns containing a mythical Artifact, but it is shielded well... Some say the Clouds above hold the key, and that the Caverns also hold the way to the Clouds...",
+	description: "&o传说在暮色森林的高地下方，有一个洞穴，据传洞穴之中有一件神器，它被很好的保护了起来。。。有人说上方的云层持有着钥匙，而洞穴里才有通往云层的路。。。",
 	dependencies: [
 		"eaed8a89",
 		"d592428b",
@@ -11,7 +11,8 @@
 	tasks: [{
 		uid: "7485143d",
 		type: "advancement",
-		title: "Advancement: &eUltimate Showdown",
+		title: "进度: &e最终对决",
+		icon: "twilightforest:uberous_soil",
 		advancement: "twilightforest:progress_merge",
 		criterion: ""
 	},
@@ -19,10 +20,7 @@
 		uid: "571a950b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "twilightforest:magic_beans"
+			item: "twilightforest:magic_beans"
 		}]
 	},
 	{
@@ -30,7 +28,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:giant_pickaxe"

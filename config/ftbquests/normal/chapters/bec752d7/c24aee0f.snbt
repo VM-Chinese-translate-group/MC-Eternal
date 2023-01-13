@@ -1,8 +1,11 @@
 {
-	title: "More room for Growth!",
+	title: "石绿之恩",
 	x: 30.5d,
 	y: 1.0d,
-	description: "This was just a quick rundown of Nature's Aura, there's so much more you can do with it! Check out the Book of Natural Aura for everything!",
+	description: "甘美多汁，缠绕裹覆，焕发新生，繁荣升级，我们永不逝去，我们被绿色所振兴，漫步林地，我们终将归于此！",
+	text: [
+		""
+	],
 	dependencies: [
 		"cf40c7b4",
 		"185e679f"
@@ -20,6 +23,9 @@
 		uid: "97d67990",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

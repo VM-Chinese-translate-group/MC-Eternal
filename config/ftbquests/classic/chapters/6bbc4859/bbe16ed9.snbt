@@ -1,14 +1,9 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "doggytalents:creative_collar"
-	},
+	icon: "doggytalents:creative_collar",
 	x: -2.0d,
 	y: 1.0d,
 	shape: "square",
-	description: "*Unlocked from completing the Mayor Position Available chapter*",
+	description: "*完成模拟殖民地章节以解锁*",
 	dependencies: [
 		"28bd7aff"
 	],
@@ -20,11 +15,6 @@
 	rewards: [{
 		uid: "23126386",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "doggytalents:creative_collar"
-		}
+		item: "doggytalents:creative_collar"
 	}]
 }

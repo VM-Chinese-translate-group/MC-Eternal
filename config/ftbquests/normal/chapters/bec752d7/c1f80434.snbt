@@ -1,7 +1,10 @@
 {
 	x: 23.0d,
 	y: 8.5d,
-	description: "''Botania by Ellpeck''",
+	description: "迈达斯的植物魔法",
+	text: [
+		""
+	],
 	dependencies: [
 		"009f8f45"
 	],
@@ -9,7 +12,10 @@
 		uid: "9dd289f3",
 		type: "item",
 		items: [{
-			item: "naturesaura:gold_leaf"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:gold_leaf"
 		}]
 	}],
 	rewards: [{

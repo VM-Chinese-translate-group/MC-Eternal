@@ -1,8 +1,8 @@
 {
-	title: "&a&lDraeton Aircraft",
+	title: "&a&l德雷顿飞艇",
 	x: -6.5d,
 	y: -3.5d,
-	description: "An aircraft used to soar the skies of the Betweenlands",
+	description: "一架用于在交错次元的天空翱翔的飞行器",
 	dependencies: [
 		"b86b7a71"
 	],
@@ -10,20 +10,14 @@
 		uid: "f4661de9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thebetweenlands:draeton_balloon"
+			item: "thebetweenlands:draeton_balloon"
 		}]
 	},
 	{
 		uid: "c7eac718",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thebetweenlands:draeton_burner"
+			item: "thebetweenlands:draeton_burner"
 		}]
 	},
 	{
@@ -31,7 +25,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:draeton_upgrade_crafting"
@@ -44,7 +37,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:draeton_upgrade_furnace"
@@ -57,7 +49,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:draeton_upgrade_anchor"
@@ -74,9 +65,6 @@
 		uid: "41ecc6d9",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

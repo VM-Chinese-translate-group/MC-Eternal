@@ -1,8 +1,8 @@
 {
-	title: "Energized Crystals",
+	title: "充能水晶",
 	x: 0.0d,
 	y: 3.0d,
-	description: "Used to craft advance items and machines.",
+	description: "用于制作高级物品和机器",
 	dependencies: [
 		"06cc512e"
 	],
@@ -11,7 +11,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "techreborn:lapotroncrystal",

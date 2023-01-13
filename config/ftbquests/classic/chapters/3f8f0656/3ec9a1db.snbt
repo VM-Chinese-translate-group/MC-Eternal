@@ -8,20 +8,14 @@
 		uid: "048e171d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "buildcraftbuilders:quarry"
+			item: "buildcraftbuilders:quarry"
 		}]
 	},
 	{
 		uid: "ebbe5e6a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "energyconverters:energy_producer_mj"
+			item: "energyconverters:energy_producer_mj"
 		}]
 	}],
 	rewards: [{
@@ -37,11 +31,6 @@
 	{
 		uid: "71210ad9",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "energyconverters:energy_bridge"
-		}
+		item: "energyconverters:energy_bridge"
 	}]
 }

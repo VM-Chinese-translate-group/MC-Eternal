@@ -2,7 +2,7 @@
 	x: -1.0d,
 	y: 1.5d,
 	shape: "square",
-	description: "An unfortunate zombie infected with dreadful cordyceps. It emits poisonous gas and will poison creatures all around them.",
+	description: "一个不幸的僵尸感染了可怕的真菌。它会散发出有毒的气体，使周围的生物中毒。",
 	dependencies: [
 		"703e6bc2"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "47185ba9",
 		type: "kill",
-		title: "Bounty: Ciuperca",
+		title: "悬赏：菌尸",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -29,12 +28,7 @@
 	{
 		uid: "760bd244",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:mushroom_stew"
-		}
+		item: "minecraft:mushroom_stew"
 	},
 	{
 		uid: "fa6da100",
@@ -44,12 +38,7 @@
 	{
 		uid: "8cb0a91b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_ingot"
-		},
+		item: "minecraft:gold_ingot",
 		count: 6
 	},
 	{
@@ -57,7 +46,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "stupidthings:paper_bag_hat",

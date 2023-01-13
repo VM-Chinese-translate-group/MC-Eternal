@@ -1,7 +1,10 @@
 {
 	x: 16.5d,
 	y: 1.5d,
-	description: "Mana from Water! *Read the Lexica Botania for Info*",
+	description: "水力产魔机！ *详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"8cf046cd"
 	],
@@ -9,6 +12,9 @@
 		uid: "2f07add2",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "botania:specialflower",
 			tag: {
 				type: "hydroangeas"

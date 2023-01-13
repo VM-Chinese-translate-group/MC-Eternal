@@ -8,10 +8,7 @@
 		uid: "ca0cfcff",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "industrialforegoing:plastic"
+			item: "industrialforegoing:plastic"
 		}],
 		count: 32L
 	}],

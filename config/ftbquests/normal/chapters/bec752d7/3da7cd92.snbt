@@ -17,7 +17,10 @@
 		uid: "f04f6b5d",
 		type: "item",
 		items: [{
-			item: "thaumcraft:dioptra"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:dioptra"
 		}]
 	}],
 	rewards: [{

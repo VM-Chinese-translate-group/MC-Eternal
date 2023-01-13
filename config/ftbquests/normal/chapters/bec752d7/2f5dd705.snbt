@@ -1,7 +1,10 @@
 {
 	x: 18.0d,
 	y: -3.5d,
-	description: "Mana = Vertical Motion!",
+	description: "魔力=和太阳肩并肩！",
+	text: [
+		""
+	],
 	dependencies: [
 		"4eb30150"
 	],
@@ -9,11 +12,12 @@
 		uid: "c8c834e9",
 		type: "item",
 		items: [{
-			id: "botania:tornadorod",
-			tag: {},
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:tornadorod",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

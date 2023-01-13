@@ -1,5 +1,5 @@
 {
-	title: "Futuristic developments",
+	title: "前瞻性发展",
 	x: 0.0d,
 	y: -4.0d,
 	shape: "gear",
@@ -15,7 +15,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mekanism:machineblock",

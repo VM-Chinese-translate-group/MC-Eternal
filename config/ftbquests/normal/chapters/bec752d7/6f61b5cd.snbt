@@ -8,7 +8,10 @@
 		uid: "e63858ef",
 		type: "item",
 		items: [{
-			item: "bewitchment:crystal_ball"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bewitchment:crystal_ball"
 		}]
 	}],
 	rewards: [{

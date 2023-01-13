@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: 2.5d,
-	description: "*Holding right click while in a cave will teleport the player back to the surface*",
+	description: "*在山洞中按住右键会将玩家传送回到洞口*",
 	dependencies: [
 		"49dff6a0"
 	],
@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -24,6 +25,9 @@
 		uid: "ffb3b1da",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:splash_potion",
 			tag: {
 				Potion: "minecraft:long_night_vision"
@@ -33,7 +37,12 @@
 	{
 		uid: "c2f489e4",
 		type: "item",
-		item: "minecraft:iron_ore",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_ore"
+		},
 		count: 16
 	},
 	{

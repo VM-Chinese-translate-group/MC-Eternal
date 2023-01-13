@@ -8,10 +8,7 @@
 		uid: "8d6753bb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:dark_pearl"
+			item: "midnight:dark_pearl"
 		}]
 	}],
 	rewards: [{

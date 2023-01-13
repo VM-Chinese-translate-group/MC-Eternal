@@ -8,7 +8,10 @@
 		uid: "64c1b6dd",
 		type: "item",
 		items: [{
-			item: "botania:livingrock"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:livingrock"
 		}]
 	}],
 	rewards: [{

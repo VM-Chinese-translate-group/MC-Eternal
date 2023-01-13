@@ -2,7 +2,7 @@
 	x: -4.0d,
 	y: -0.5d,
 	shape: "octagon",
-	description: "&oIt refuses to die, this heart is beating slowly, even after being removed from its body. I wonder what sort of unholy magical items could be created with such an oddity?",
+	description: "&o它从不惧怕死亡，它的心脏永恒而缓慢地跳动，纵使从它的躯壳中取出。我很想知道用这样的奇异的材料能创造出什么怪异的物品？",
 	dependencies: [
 		"3a9d714a"
 	],
@@ -10,7 +10,10 @@
 		uid: "f2f22e3e",
 		type: "item",
 		items: [{
-			item: "mod_lavacow:undyingheart"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:undyingheart"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

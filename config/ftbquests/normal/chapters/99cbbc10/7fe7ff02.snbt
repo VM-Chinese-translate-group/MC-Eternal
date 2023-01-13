@@ -1,9 +1,9 @@
 {
-	title: "Let's breed rats.",
+	title: "我们来养老鼠吧.",
 	x: 4.5d,
 	y: 1.0d,
 	text: [
-		"You can breed rats to create new colors."
+		"你可以培养老鼠来创造新的老鼠的颜色."
 	],
 	dependencies: [
 		"24c36876"
@@ -12,7 +12,10 @@
 		uid: "355cc68f",
 		type: "item",
 		items: [{
-			item: "rats:rat_cage"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_cage"
 		}],
 		count: 4L
 	},
@@ -22,6 +25,7 @@
 		title: "Any ratTube",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "ratTube",
 					id: "ore"
@@ -37,6 +41,7 @@
 		title: "Any ratHammock",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "ratHammock",
 					id: "ore"
@@ -49,21 +54,30 @@
 		uid: "c896c72c",
 		type: "item",
 		items: [{
-			item: "rats:rat_water_bottle"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_water_bottle"
 		}]
 	},
 	{
 		uid: "829631e3",
 		type: "item",
 		items: [{
-			item: "rats:rat_seed_bowl"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_seed_bowl"
 		}]
 	},
 	{
 		uid: "983d099d",
 		type: "item",
 		items: [{
-			item: "rats:rat_breeding_lantern"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_breeding_lantern"
 		}]
 	}],
 	rewards: [{
@@ -74,17 +88,30 @@
 	{
 		uid: "60685a11",
 		type: "item",
-		item: "rats:rat_capture_net"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_capture_net"
+		}
 	},
 	{
 		uid: "70643e2d",
 		type: "item",
-		item: "rats:plague_doctorate"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:plague_doctorate"
+		}
 	},
 	{
 		uid: "b1e99446",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "cheesy_cache"

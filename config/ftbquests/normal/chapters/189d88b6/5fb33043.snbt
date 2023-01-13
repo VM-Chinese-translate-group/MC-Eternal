@@ -1,8 +1,8 @@
 {
-	title: "The Cleanup Crew!",
+	title: "辐射清理人！",
 	x: -17.0d,
 	y: 2.0d,
-	description: "Create and use radiation scrubbers to clean up radioactivity",
+	description: "合成并使用辐射洗涤器以清理放射性物质",
 	dependencies: [
 		"b5df1c84"
 	],
@@ -10,7 +10,10 @@
 		uid: "5bfbf09b",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:radiation_scrubber"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:radiation_scrubber"
 		}],
 		count: 8L
 	}],

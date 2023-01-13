@@ -8,10 +8,7 @@
 		uid: "ae327ded",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:electrolyser_idle"
+			item: "nuclearcraft:electrolyser_idle"
 		}]
 	}],
 	rewards: [{

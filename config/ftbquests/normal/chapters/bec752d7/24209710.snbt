@@ -1,11 +1,11 @@
 {
-	title: "&4Dusk Rituals",
+	title: "&4薄暮仪式",
 	x: 7.5d,
 	y: 25.5d,
 	shape: "octagon",
-	description: "&oMagic of the Twili",
+	description: "&o暮色临空",
 	text: [
-		"&7Craft &4Dusk Inscription Tools&7 and/or enhance your &4Ritual Diviner&7 with the power of &cDusk Runes&7, unlocking a myriad of new &cRituals&7."
+		"&7制作&4仪式推测杖[薄暮]&7可以让你的&4仪式推测杖&7拥有放置&c薄暮仪式石&7的力量，可以解锁一些新的&c仪式&7。"
 	],
 	dependencies: [
 		"a2f883f9",
@@ -17,6 +17,7 @@
 		title: "&4Ritual Diviner [Dusk]&7 or &4Inscription Tool: Dusk",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:ritual_diviner",
@@ -24,6 +25,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:inscription_tool",
@@ -47,7 +49,12 @@
 	{
 		uid: "07c85579",
 		type: "item",
-		item: "bloodmagic:ritual_stone",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_stone"
+		},
 		count: 16
 	}]
 }

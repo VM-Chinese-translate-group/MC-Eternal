@@ -11,7 +11,10 @@
 		uid: "2e658755",
 		type: "item",
 		items: [{
-			item: "thaumcraft:smelter_void"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:smelter_void"
 		}]
 	}],
 	rewards: [{

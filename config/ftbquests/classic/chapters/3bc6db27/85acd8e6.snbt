@@ -1,11 +1,11 @@
 {
-	title: "Ancient Assembly",
+	title: "考古组装",
 	x: -16.5d,
 	y: 5.5d,
-	description: "Rebuilding what was Lost *Read Description*",
+	description: "重建失落之物*阅读描述*",
 	text: [
-		"The Archeology Workbench is used to repair Ancient items, such as Figurines and Ancient Swords.",
-		"Make sure it doesn't run out of Relic Scraps while repairing something!"
+		"考古工作台用于修复古代物品, 例如雕像和古代剑.",
+		"请确保在修复时不要耗尽遗迹碎片！"
 	],
 	dependencies: [
 		"7f9d5c9b",
@@ -16,10 +16,7 @@
 		uid: "ac13a72d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "fossil:worktable"
+			item: "fossil:worktable"
 		}]
 	}],
 	rewards: [{

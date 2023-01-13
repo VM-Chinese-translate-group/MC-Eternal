@@ -1,8 +1,8 @@
 {
-	title: "Ball-sy Grindr",
+	title: "磨珠",
 	x: 15.0d,
 	y: 6.0d,
-	description: "Reduces power consumption and increases chances of bonus output of certain grindable items.",
+	description: "降低功耗并增加某些可研磨物品的产物输出概率。",
 	dependencies: [
 		"20e40ad0"
 	],
@@ -10,11 +10,7 @@
 		uid: "56644c9d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_alloy_ball",
-			Damage: 6s
+			item: "enderio:item_alloy_ball 1 6"
 		}],
 		count: 24L
 	}],

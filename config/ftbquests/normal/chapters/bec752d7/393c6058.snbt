@@ -1,10 +1,10 @@
 {
-	title: "&4Common Tartaric Gem",
+	title: "&4普通地狱魂石",
 	x: -1.5d,
 	y: 19.5d,
-	description: "&o&lMore Souls!",
+	description: "&o&l更多的灵魂！!",
 	text: [
-		"&7Tartaric Gem with &b1024 Will&7 Capacity."
+		"&7普通地狱魂石可以存储&b1024点意志&7。"
 	],
 	dependencies: [
 		"959c9446",
@@ -13,9 +13,10 @@
 	tasks: [{
 		uid: "43be54e5",
 		type: "item",
-		title: "Common Tartaric Gem (or Better)",
+		title: "普通地狱魂石（或者更好的）",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -24,6 +25,7 @@
 		},
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -32,6 +34,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -40,6 +43,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",

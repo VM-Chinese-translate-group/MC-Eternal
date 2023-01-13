@@ -15,7 +15,10 @@
 		uid: "00b03a95",
 		type: "item",
 		items: [{
-			item: "thaumcraft:brain_box"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:brain_box"
 		}]
 	}],
 	rewards: [{

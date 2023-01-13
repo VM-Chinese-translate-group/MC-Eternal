@@ -1,16 +1,16 @@
 {
-	title: "Star Rites",
+	title: "星之效应",
 	x: 1.0d,
 	y: -15.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&9&oRitual Pedestals&7&o are able to gather &r&oStarlight&7&o using the Marble in their &6&oMultiblock construct&7&o, and channel the power into an &9&oAttuned Crystal&7&o ontop of them...",
+		"&9&o仪式基座&7&o是一种可以汇聚&r&o星能&7&o并产生范围效果的&6&o多方块结构&7&o，它的力量来源于放置在其顶端的&9&o共鸣水晶石&7&o。",
 		"",
-		"They do not gather very much &r&oStarlight&7&o alone, but feeding it a beam of &r&oStarlight&7&o can boost the power...",
-		"Some &r&oStarlight&7&o will also leak out of the Crystal if it is being fed a beam of &r&oStarlight&7&o, you can reflect this back at the Ritual Pedestal using &9&oLenses&7&o to recover the seeping power...",
+		"单独一个仪式基座并不会收集太多的&r&o星能&7&o，你要不要试试给它一束对应星座的聚能水晶的&r&o星能&7&o试试？",
+		"一部分被注入的&r&o星能&7&o会从水晶石中泄漏出来， 你可以试试用&9&o透镜&7&o把这些逃跑的星能弄回来。",
 		"",
-		"It also seems that more than one beam of &r&oStarlight&7&o can be fed in, but it is usually too much for the Crystal to handle, so it will slowly grow &9&oFractures&7&o, you can repair the Fractures by growing the Crystal in &r&oLiquid Starlight&7&o...",
-		"The mending of these Fractures may also lead to further perfections in the Crystal..."
+		"长时间的汇聚&r&o星能&7&o对于水晶石本身来说也是一种负担，因此，水晶石可能会逐渐的&9&o磨损&7&o，你可以把水晶石扔回&r&o星能液&7&o里修复那些破损的部分。",
+		"使水晶石经历一次次的破损修复，也是让水晶石属性进步的一种方式。"
 	],
 	dependencies: [
 		"d1889e3a"
@@ -19,7 +19,10 @@
 		uid: "baef7d16",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockritualpedestal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockritualpedestal"
 		}]
 	}],
 	rewards: [{

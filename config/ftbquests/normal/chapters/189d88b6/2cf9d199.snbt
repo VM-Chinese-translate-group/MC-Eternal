@@ -1,7 +1,7 @@
 {
 	x: -1.5d,
 	y: -3.5d,
-	description: "&o\"Giants are not what we think they are. The same qualities that appear to give them strength are often the sources of great weakness.\" -David and Goliath",
+	description: "&o“巨人们并不像我们想象的那样。他们身上那些看似为优势的东西经常会变成劣势。” -大卫与歌利亚 《圣经》",
 	hide_dependency_lines: true,
 	dependencies: [
 		"87cb3976"
@@ -12,6 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:bonesword"

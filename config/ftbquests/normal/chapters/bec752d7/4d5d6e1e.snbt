@@ -8,7 +8,10 @@
 		uid: "0003e7ce",
 		type: "item",
 		items: [{
-			item: "vampirism:blood_potion_table"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:blood_potion_table"
 		}]
 	}],
 	rewards: [{

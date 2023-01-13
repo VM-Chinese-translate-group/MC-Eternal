@@ -8,10 +8,7 @@
 		uid: "6a55c3a6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "openmodularturrets:laser_turret"
+			item: "openmodularturrets:laser_turret"
 		}]
 	}],
 	rewards: [{

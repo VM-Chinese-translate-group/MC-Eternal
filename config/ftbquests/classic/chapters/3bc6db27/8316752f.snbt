@@ -8,10 +8,7 @@
 		uid: "7449df59",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "forestry:fermenter"
+			item: "forestry:fermenter"
 		}]
 	}],
 	rewards: [{

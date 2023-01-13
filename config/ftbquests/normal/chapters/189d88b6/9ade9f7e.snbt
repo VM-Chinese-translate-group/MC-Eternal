@@ -1,10 +1,15 @@
 {
-	title: "Basic Automated Mob Farm",
-	icon: "iceandfire:dread_key",
+	title: "基础的自动化怪物农场",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "iceandfire:dread_key"
+	},
 	x: -9.45d,
 	y: -9.45d,
 	shape: "hexagon",
-	description: "&cIt was a graveyard smash!",
+	description: "这可真是一场大屠杀!",
 	dependencies: [
 		"3b41a4ca"
 	],
@@ -13,7 +18,10 @@
 		uid: "edf10fd6",
 		type: "item",
 		items: [{
-			item: "minecraft:rotten_flesh"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:rotten_flesh"
 		}],
 		count: 8L
 	},
@@ -23,6 +31,7 @@
 		title: "Any boneWithered",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "boneWithered",
 					id: "ore"
@@ -35,21 +44,30 @@
 		uid: "70a0f7b6",
 		type: "item",
 		items: [{
-			item: "thaumcraft:brain"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:brain"
 		}]
 	},
 	{
 		uid: "d59abaf4",
 		type: "item",
 		items: [{
-			item: "rats:raw_rat"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:raw_rat"
 		}]
 	},
 	{
 		uid: "ecdef806",
 		type: "item",
 		items: [{
-			item: "minecraft:string"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:string"
 		}],
 		count: 16L
 	}],

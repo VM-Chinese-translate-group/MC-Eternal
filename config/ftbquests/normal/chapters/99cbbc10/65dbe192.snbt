@@ -5,7 +5,10 @@
 		uid: "bfa7e5d4",
 		type: "item",
 		items: [{
-			item: "openblocks:tank"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:tank"
 		}]
 	}],
 	rewards: [{

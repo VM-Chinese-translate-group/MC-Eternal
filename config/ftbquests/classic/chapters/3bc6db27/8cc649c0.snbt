@@ -8,11 +8,7 @@
 		uid: "8e86bcad",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "immersiveengineering:connector",
-			Damage: 5s
+			item: "immersiveengineering:connector 1 5"
 		}]
 	}],
 	rewards: [{

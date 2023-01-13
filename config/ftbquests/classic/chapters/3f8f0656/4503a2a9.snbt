@@ -8,21 +8,14 @@
 		uid: "c0812ca7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "openmodularturrets:turret_base",
-			Damage: 2s
+			item: "openmodularturrets:turret_base 1 2"
 		}]
 	},
 	{
 		uid: "728a5038",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "openmodularturrets:grenade_turret"
+			item: "openmodularturrets:grenade_turret"
 		}]
 	}],
 	rewards: [{

@@ -10,7 +10,10 @@
 		uid: "c36ec607",
 		type: "item",
 		items: [{
-			item: "thaumcraft:salis_mundus"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:salis_mundus"
 		}]
 	}],
 	rewards: [{

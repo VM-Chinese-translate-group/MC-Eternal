@@ -1,21 +1,21 @@
 {
-	title: "&4Imbued Sigils",
+	title: "&4灌注印记",
 	x: 3.0d,
 	y: 22.5d,
-	description: "&oA Light of Elemental Affinity and Magnetism, Holding Claws",
+	description: "&o点燃血液为你照明驱暗，血祭世界以保全自身，亦或者将指甲嵌入坚硬的石壁中",
 	text: [
-		"&7See &4\"Reinforced Sigils\"&7 for basic information on &c\"Ability Sigils\"&7.",
+		"&7如果你想知道&4“能力印记”&7是怎么使用的，请左转到&c“更为强劲的印记”&7。",
 		"",
-		"The &4Sigil of the Blood Lamp&7 can place and fire &4Blood Lights&7,the Projectile it fires can also deal weak Damage, and start Fires nearby if it deals damage.",
+		"&4血光印记&7可以发射&4血之光源&7，这种弹射物可以造成小的可怜的伤害，并点燃你的敌人，当血之光源落地后，会在原地生成一个血之光源，照亮周围。",
 		"",
-		"The &4Sigil of Elemental Affinity&7 grants the user &cWater Breathing&7, &cFire Resistance&7, and &cImmunity to Fall Damage&7 when &cActivated&7.",
+		"&4元素印记&7在&c激活时&7可以为使用者提供&c水下呼吸&7， &c抗火&7，&c免疫摔落伤害&7等能力",
 		"",
-		"The &4Sigil of Magnetism&7 increases your &cItem Grab Range&7 when &cActivated&7.",
+		"&4磁引印记&7在&c激活时&7可以扩大你的&物品拾取范围&7。",
+		" ",
+		"&4集持印记&7可以存储5个&c印记&，并且可以&c激活&7多个印记。（注意，只对那种需要激活的印记生效，右击触发的印记无效，存进去也没用，而且部分印记不能再集持印记里直接激活，需要你先激活在塞进去）",
+		"&cshift+鼠标滚轮l&7可以切换里面的印记，使用“打开集持印记”的快捷键来调整内部印记。（默认为H，和其他键位冲突了，自己改）",
 		"",
-		"The &4Sigil of Holding&7 holds up to 5 other &cSigils&7 inside of it, and can &cActivate&7 them or use their powers.",
-		"&cSneak+Scroll&7 to change selected Sigil, use Keybind \"Open Sigil of Holding\" to open Sigil Storage.",
-		"",
-		"The &4Sigil of the Claw&7 grants the user &cClinging&7 when &cActivated&7, allowing them to Cling to walls as if they were Sneaking on a Ladder."
+		"&4爪之印记&7在&c激活时&7可以给予使用者&c攀爬&7效果（buff没翻译，自己看的懂就行），可以让使用者按住shift的时候停留在方块的侧面。（但是不能跳跃，只能横向移动，很吃操作）"
 	],
 	dependencies: [
 		"5ac9b4a2",
@@ -26,6 +26,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_blood_light",
@@ -39,6 +40,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_elemental_affinity",
@@ -52,6 +54,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_magnetism",
@@ -65,6 +68,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_holding"
@@ -77,6 +81,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_claw",

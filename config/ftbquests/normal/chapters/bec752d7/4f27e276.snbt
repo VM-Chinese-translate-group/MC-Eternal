@@ -1,7 +1,10 @@
 {
 	x: 15.0d,
 	y: 1.0d,
-	description: "Purifies certain resources, including Wood and Stone.",
+	description: "为一些方块赋能，比如原木和石头",
+	text: [
+		""
+	],
 	dependencies: [
 		"8cf046cd"
 	],
@@ -9,6 +12,9 @@
 		uid: "29efad67",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "botania:specialflower",
 			tag: {
 				type: "puredaisy"

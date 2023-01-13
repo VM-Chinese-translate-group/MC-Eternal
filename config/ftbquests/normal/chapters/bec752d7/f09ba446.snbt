@@ -1,7 +1,10 @@
 {
 	x: 12.5d,
 	y: 8.5d,
-	description: "Even vampires need their beauty sleep!",
+	description: "为吸血鬼提供婴儿般的睡眠。（大概）",
+	text: [
+		""
+	],
 	dependencies: [
 		"02ff2f95"
 	],
@@ -9,7 +12,10 @@
 		uid: "3cded4d0",
 		type: "item",
 		items: [{
-			item: "vampirism:item_coffin"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:item_coffin"
 		}]
 	}],
 	rewards: [{

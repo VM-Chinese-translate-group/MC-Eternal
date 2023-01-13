@@ -1,10 +1,15 @@
 {
-	title: "&3&lA gift?",
-	icon: "actuallyadditions:block_smiley_cloud",
+	title: "&3&l一份礼物？",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "actuallyadditions:block_smiley_cloud"
+	},
 	x: -16.0d,
 	y: -3.0d,
 	shape: "heart",
-	description: "Thank you for downloading my pack! Lots of work went into making this hopefully a fun experience for everyone. Enjoy! -Adam",
+	description: "感谢你下载我的整合包! 为了它我们花费了大量的时间，希望它能带给大家一个有趣的体验。祝您游玩愉快!  -Adam",
 	hide_dependency_lines: true,
 	dependencies: [
 		"5eed1197"
@@ -22,8 +27,16 @@
 	{
 		uid: "3ecc1351",
 		type: "item",
-		icon: "extrautils2:trashcan",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:trashcan"
+		},
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {

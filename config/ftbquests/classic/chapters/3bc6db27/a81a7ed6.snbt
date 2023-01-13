@@ -1,8 +1,8 @@
 {
-	title: "Major components",
+	title: "主要组件",
 	x: -1.5d,
 	y: 7.5d,
-	description: "Common materials used to make advance machines and items",
+	description: "用于制作的高级机器和物品的常用材料",
 	dependencies: [
 		"06cc512e"
 	],
@@ -10,11 +10,7 @@
 		uid: "751a7037",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:plates",
-			Damage: 2s
+			item: "techreborn:plates 1 2"
 		}],
 		count: 32L
 	},
@@ -22,11 +18,7 @@
 		uid: "5ceab3f7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:plates",
-			Damage: 36s
+			item: "techreborn:plates 1 36"
 		}],
 		count: 32L
 	}],

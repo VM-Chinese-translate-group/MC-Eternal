@@ -1,7 +1,7 @@
 {
 	x: -8.5d,
 	y: 13.5d,
-	description: "Carries 32 Channels instead of 8! What's a Channel? Go check out a Tutorial!",
+	description: "可以承载32个通道而不是8个！什么是频道？去看看教程吧！",
 	dependencies: [
 		"df01785d"
 	],
@@ -10,18 +10,10 @@
 		type: "item",
 		title: "ME Dense Cable",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:part",
-			Damage: 516s
+			item: "appliedenergistics2:part 1 516"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:part",
-			Damage: 76s
+			item: "appliedenergistics2:part 1 76"
 		}]
 	}]
 }

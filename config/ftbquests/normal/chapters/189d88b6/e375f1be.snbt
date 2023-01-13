@@ -1,47 +1,53 @@
 {
-	title: "Mother of Dragons",
+	title: "巨龙之母",
 	x: -12.0d,
 	y: -10.0d,
-	description: "Dracarys? ",
+	description: "Dracarys?  瓦雷利亚语言：龙焰 ",
 	dependencies: [
 		"a9d286cd"
 	],
 	tasks: [{
 		uid: "8a414f9d",
 		type: "item",
-		title: "Collect a dragon egg",
+		title: "收集一颗龙蛋",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonegg_red"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonegg_blue"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonegg_white"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonegg_green"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonegg_gray"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonegg_bronze"
@@ -62,12 +68,22 @@
 	{
 		uid: "70c468ee",
 		type: "item",
-		item: "minecraft:diamond_block"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
+		}
 	},
 	{
 		uid: "99ab80b3",
 		type: "item",
-		item: "iceandfire:goldpile",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:goldpile"
+		},
 		count: 32
 	}]
 }

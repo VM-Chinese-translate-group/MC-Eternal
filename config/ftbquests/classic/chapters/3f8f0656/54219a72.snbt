@@ -8,10 +8,7 @@
 		uid: "d80b458b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "buildcraftfactory:distiller"
+			item: "buildcraftfactory:distiller"
 		}]
 	}],
 	rewards: [{

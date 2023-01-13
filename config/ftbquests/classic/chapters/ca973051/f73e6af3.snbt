@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: -11.0d,
-	description: "&oGive your opponents Frostbite! By being warm?",
+	description: "&o通过给你保暖，对你的对手造成冻伤？",
 	dependencies: [
 		"d233564c"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:yeti_helmet",

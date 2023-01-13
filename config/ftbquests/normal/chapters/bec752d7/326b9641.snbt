@@ -18,7 +18,10 @@
 		uid: "7b8886c6",
 		type: "item",
 		items: [{
-			item: "thaumcraft:phial"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:phial"
 		}]
 	}],
 	rewards: [{

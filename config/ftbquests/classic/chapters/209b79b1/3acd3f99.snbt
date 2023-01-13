@@ -2,7 +2,7 @@
 	x: -3.5d,
 	y: -4.0d,
 	shape: "square",
-	description: "A seaside fiend that seduces sailors with charming songs before revealing its horrifying true form.",
+	description: "一个海上礁石的恶魔，用迷人的歌声吸引水手，然后暴露出其可怕的嘴脸。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d8852201"
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "5883eb93",
 		type: "kill",
-		title: "Bounty: Siren",
+		title: "悬赏：塞壬",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -34,22 +33,12 @@
 	{
 		uid: "cccf02d6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "iceandfire:siren_tear"
-		}
+		item: "iceandfire:siren_tear"
 	},
 	{
 		uid: "3736ed2b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_ingot"
-		},
+		item: "minecraft:gold_ingot",
 		count: 8
 	}]
 }

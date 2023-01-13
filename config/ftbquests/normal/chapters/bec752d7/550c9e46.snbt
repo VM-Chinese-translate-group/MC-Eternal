@@ -1,8 +1,11 @@
 {
-	title: "Luminous Caverns",
+	title: "洞穴照明器",
 	x: 5.0d,
 	y: -12.0d,
-	description: "&9&oCave Illuminators&7&o will slowly place Light Flares within dark spaces in a massive area below them...",
+	description: "&9&o洞穴照明器&7&o会缓慢的点亮它下方很大一片范围的黑暗空间",
+	text: [
+		""
+	],
 	dependencies: [
 		"d1926643"
 	],
@@ -10,7 +13,10 @@
 		uid: "13394d1f",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockworldilluminator"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockworldilluminator"
 		}]
 	}],
 	rewards: [{

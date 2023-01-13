@@ -1,12 +1,18 @@
 {
 	x: 0.0d,
 	y: 4.5d,
-	description: "An Introduction to Witchcraft",
+	description: "巫术模组的拙劣模仿罢了",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "0b3fe3fa",
 		type: "item",
 		items: [{
-			item: "bewitchment:opal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bewitchment:opal"
 		}]
 	}],
 	rewards: [{

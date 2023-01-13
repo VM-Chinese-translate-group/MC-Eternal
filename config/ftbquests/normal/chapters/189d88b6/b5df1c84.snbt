@@ -1,8 +1,8 @@
 {
-	title: "Not great, not terrible",
+	title: "不是太好，但也不算太差",
 	x: -15.0d,
 	y: -0.5d,
-	description: "Discover a radioactive wasteland",
+	description: "发现一个核泄漏之地！",
 	dependencies: [
 		"87cb3976"
 	],
@@ -10,7 +10,10 @@
 		uid: "029828b1",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:glowing_mushroom"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:glowing_mushroom"
 		}],
 		count: 6L
 	}],
@@ -18,6 +21,9 @@
 		uid: "6512b477",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {

@@ -1,12 +1,18 @@
 {
 	x: -1.0d,
 	y: 0.0d,
-	description: "Defensive spells, Healing spells, Offensive spells... even Utility spells. We have it all!",
+	description: "防御，进攻，牵制，治疗……是的，作为一个合格的巫师，你将有机会学习所有的法术！",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "63d42894",
 		type: "item",
 		items: [{
-			item: "ebwizardry:crystal_flower"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:crystal_flower"
 		}]
 	}],
 	rewards: [{
@@ -19,6 +25,9 @@
 		type: "loot",
 		title: "Novice Wizard Cache",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "spell_book"

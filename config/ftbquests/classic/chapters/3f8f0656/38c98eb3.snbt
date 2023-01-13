@@ -1,7 +1,7 @@
 {
 	x: 13.5d,
 	y: 10.5d,
-	description: "Basic Solar Generator",
+	description: "基础太阳能发电机",
 	dependencies: [
 		"043d0a65"
 	],
@@ -9,10 +9,7 @@
 		uid: "e897eeb2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_solar_panel"
+			item: "enderio:block_solar_panel"
 		}]
 	}],
 	rewards: [{

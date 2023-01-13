@@ -1,8 +1,11 @@
 {
-	title: "Runes of Season",
+	title: "季节符文！",
 	x: 16.5d,
 	y: -5.0d,
-	description: "Quests around will unlock as you acquire each Rune!",
+	description: "解锁需要这些符文作为合成材料的任务",
+	text: [
+		""
+	],
 	dependencies: [
 		"2d45e4da"
 	],
@@ -10,28 +13,44 @@
 		uid: "e28ecb15",
 		type: "item",
 		items: [{
-			item: "botania:rune 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 4s
 		}]
 	},
 	{
 		uid: "c9593cc2",
 		type: "item",
 		items: [{
-			item: "botania:rune 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 5s
 		}]
 	},
 	{
 		uid: "4b6ff09a",
 		type: "item",
 		items: [{
-			item: "botania:rune 1 6"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 6s
 		}]
 	},
 	{
 		uid: "6c7750f3",
 		type: "item",
 		items: [{
-			item: "botania:rune 1 7"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:rune",
+			Damage: 7s
 		}]
 	}],
 	rewards: [{

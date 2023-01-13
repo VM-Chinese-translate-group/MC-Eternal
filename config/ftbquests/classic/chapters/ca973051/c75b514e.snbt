@@ -8,10 +8,7 @@
 		uid: "30f7f032",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:stinger_egg"
+			item: "midnight:stinger_egg"
 		}]
 	}],
 	rewards: [{

@@ -13,7 +13,10 @@
 		uid: "7079fe5f",
 		type: "item",
 		items: [{
-			item: "thaumcraft:void_siphon"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:void_siphon"
 		}]
 	}],
 	rewards: [{

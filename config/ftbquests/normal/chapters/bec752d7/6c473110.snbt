@@ -1,16 +1,19 @@
 {
-	title: "It Still Works!",
+	title: "还能用？",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "ancientspellcraft:imbuement_altar_ruined"
 	},
 	x: 5.0d,
 	y: -5.5d,
-	description: "Power an Imbuement Altar by attaching a Receptable on every side of the Altar. *Read Description*",
+	description: "修复好注灵祭坛*阅读须知*",
 	text: [
-		"The Imbuement Altar can infuse certain items with the elemental power in Spectral Dust, transforming them!",
-		"Magical Crystals and Wizard Armors can be elementalized, and Ruined Spell Books can be restored!",
+		"注灵祭坛可以为物品注入来自灵尘的元素能量，以重塑这一物品。",
+		"同时它还可以使得那些破损的文稿焕然一新，让巫师盔甲被赋灵。",
 		"",
-		"The Spectral Dusts used in restoring Ruined Spell Books determines what Element the resulting Spell is more likely to be from!"
+		"使用灵尘的元素类型决定了被创造的法术书的法术类型。"
 	],
 	dependencies: [
 		"10e24111"
@@ -18,8 +21,11 @@
 	tasks: [{
 		uid: "8bcc8709",
 		type: "advancement",
-		title: "Advancement: &eGood as New",
+		title: "完成成就：&e焕然如新",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ancientspellcraft:imbuement_altar_ruined"
 		},
 		advancement: "ebwizardry:restore_imbuement_altar",

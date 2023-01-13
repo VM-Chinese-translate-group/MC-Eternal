@@ -1,7 +1,7 @@
 {
 	x: 13.5d,
 	y: 9.0d,
-	description: "Basic Energy Storage",
+	description: "基础能量存储",
 	dependencies: [
 		"77d70953"
 	],
@@ -9,11 +9,7 @@
 		uid: "b5d7230d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_cap_bank",
-			Damage: 1s
+			item: "enderio:block_cap_bank 1 1"
 		}],
 		ignore_nbt: 1b
 	}],

@@ -1,5 +1,11 @@
 {
-	icon: "vampirism:pure_blood 1 4",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:pure_blood",
+		Damage: 4s
+	},
 	x: 16.0d,
 	y: 9.0d,
 	shape: "octagon",
@@ -9,14 +15,19 @@
 	tasks: [{
 		uid: "25c76bb8",
 		type: "advancement",
-		title: "Reach max level as a Vampire",
+		title: "成为终极吸血鬼（升到14级，别问我15级怎么升，我不告诉你略略略）",
 		advancement: "vampirism:vampire/max_level",
 		criterion: ""
 	}],
 	rewards: [{
 		uid: "75ced9cd",
 		type: "item",
-		item: "vampirism:sunscreen_beacon"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:sunscreen_beacon"
+		}
 	},
 	{
 		uid: "2ab6a0c7",
@@ -27,6 +38,9 @@
 		uid: "8b4a77ae",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

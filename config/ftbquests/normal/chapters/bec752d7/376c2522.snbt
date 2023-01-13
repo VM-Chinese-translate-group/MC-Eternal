@@ -18,7 +18,12 @@
 		uid: "970f3e20",
 		type: "observation",
 		title: "Gaze at a &5Golem Press",
-		icon: "thaumcraft:golem_builder",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:golem_builder"
+		},
 		match_type: "block_id",
 		match: "thaumcraft:golem_builder",
 		timer: 0L

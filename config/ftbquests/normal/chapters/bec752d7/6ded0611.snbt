@@ -1,12 +1,12 @@
 {
-	title: "Containing the Cosmos",
+	title: "指尖宇宙",
 	x: 3.5d,
 	y: -20.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&9&oContainment Chalices&7&o are a rather unique form of storing liquid, they can automatically draw liquids from nearby &9&oLightwells&7&o, and a &9&oStarlight Infuser&7&o can also draw &r&oLiquid Starlight&7&o contained within them instead of the &r&oLiquid Starlight&7&o set in the world for the construct...",
+		"&9&o遏制圣杯&7&o可以存储流体，它可以从附近的&9&o聚星缸&7&o中提取流体，以及&9&o星能聚合器&7&o可以直接访问其&r&o流体存储&7&o内存储的&r&o星能液&7&o，这将避免消耗掉组成星能聚合器这一结构的星能液。",
 		"",
-		"Chalices can be interacted with by other methods of transport from the Bottom side exclusively..."
+		"遏制圣杯的交互口在其底部，使用管道等物品可以从这里交互。（友情提示，聚星缸的也在底部）"
 	],
 	dependencies: [
 		"d6707898"
@@ -15,7 +15,10 @@
 		uid: "cc2f9f52",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockchalice"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockchalice"
 		}]
 	}],
 	rewards: [{

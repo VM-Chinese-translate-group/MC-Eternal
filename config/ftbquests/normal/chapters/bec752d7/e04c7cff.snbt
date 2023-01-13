@@ -17,7 +17,13 @@
 		uid: "1b6fcb8e",
 		type: "observation",
 		title: "Look at &5The Altar with Eyes",
-		icon: "thaumicaugmentation:capstone 1 2",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:capstone",
+			Damage: 2s
+		},
 		match_type: "block_id",
 		match: "thaumicaugmentation:capstone",
 		properties: {

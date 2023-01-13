@@ -1,16 +1,15 @@
 {
-	title: "&oOh so pretty!",
+	title: "&o天呐，真可爱！",
 	x: 1.05d,
 	y: 4.8999999999999995d,
 	shape: "diamond",
-	description: "Craft every wing varient",
+	description: "造出每一种不同的翅膀",
 	size: 0.7d,
 	tasks: [{
 		uid: "907dc09b",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:angel_wings"
@@ -23,7 +22,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:slime_wings"
@@ -36,7 +34,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:blue_butterfly_wings"
@@ -49,7 +46,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:monarch_butterfly_wings"
@@ -62,7 +58,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:fire_wings"
@@ -75,7 +70,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:bat_wings"
@@ -88,7 +82,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:fairy_wings"
@@ -101,7 +94,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:evil_wings"
@@ -114,7 +106,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wings:dragon_wings"
@@ -130,21 +121,12 @@
 	{
 		uid: "3b9b1eae",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "a18fbe56",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -156,7 +138,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -8940463668607302781L,
 					AS_Amulet_HolderMost: -5272402051974608774L
@@ -177,9 +158,9 @@
 				HideFlags: 2,
 				display: {
 					Lore: [
-						"§eForged in the foulest depths of Hell, infused with magical properties to artificially increase the blades sharpness"
+						"§e在最最肮脏的地狱深处打造成型，通过注入魔法属性来认为的增加剑刃的锋利度。"
 					],
-					Name: "§cWrath"
+					Name: "§c愤怒"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 51365,

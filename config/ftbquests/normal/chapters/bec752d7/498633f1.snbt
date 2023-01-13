@@ -13,7 +13,10 @@
 		uid: "a9c4eb65",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:impetus_diffuser"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:impetus_diffuser"
 		}]
 	}],
 	rewards: [{

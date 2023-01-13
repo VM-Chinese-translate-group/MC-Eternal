@@ -8,33 +8,21 @@
 		uid: "8bebde4c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:upgrade",
-			Damage: 8s
+			item: "stevescarts:upgrade 1 8"
 		}]
 	},
 	{
 		uid: "6b32ca51",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:cartmodule",
-			Damage: 44s
+			item: "stevescarts:cartmodule 1 44"
 		}]
 	},
 	{
 		uid: "feceb9c4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:cartmodule",
-			Damage: 25s
+			item: "stevescarts:cartmodule 1 25"
 		}]
 	}],
 	rewards: [{

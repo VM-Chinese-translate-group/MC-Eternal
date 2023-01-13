@@ -8,10 +8,7 @@
 		uid: "b92aaaac",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:cheese_cannonball"
+			item: "rats:cheese_cannonball"
 		}]
 	}],
 	rewards: [{

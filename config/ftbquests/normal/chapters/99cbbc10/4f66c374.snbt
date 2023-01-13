@@ -5,7 +5,10 @@
 		uid: "4444ad8e",
 		type: "item",
 		items: [{
-			item: "agricraft:seed_analyzer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "agricraft:seed_analyzer"
 		}]
 	}],
 	rewards: [{

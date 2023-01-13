@@ -8,10 +8,7 @@
 		uid: "d9d816c7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:psionic_rat_brain"
+			item: "rats:psionic_rat_brain"
 		}]
 	}],
 	rewards: [{

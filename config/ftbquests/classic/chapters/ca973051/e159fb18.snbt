@@ -8,10 +8,7 @@
 		uid: "e8e71d53",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thebetweenlands:animator"
+			item: "thebetweenlands:animator"
 		}]
 	}],
 	rewards: [{

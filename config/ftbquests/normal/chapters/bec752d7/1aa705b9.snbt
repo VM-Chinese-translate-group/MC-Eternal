@@ -1,7 +1,10 @@
 {
 	x: 7.0d,
 	y: 2.0d,
-	description: "*Accepts any Advanced Wand*",
+	description: "*随便什么属性的进阶魔杖*",
+	text: [
+		""
+	],
 	min_required_dependencies: 1,
 	dependencies: [
 		"179af380"
@@ -12,48 +15,56 @@
 		title: "Advanced Wand",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_fire_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_ice_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_lightning_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_necromancy_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_sorcery_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_earth_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:advanced_healing_wand"
@@ -65,13 +76,24 @@
 		uid: "315a49c7",
 		type: "loot",
 		title: "Advanced Spell Book",
-		icon: "ebwizardry:spell_book 1 109",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 109s
+		},
 		table: 5
 	},
 	{
 		uid: "834dbeea",
 		type: "item",
-		item: "ebwizardry:grand_crystal",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:grand_crystal"
+		},
 		random_bonus: 3
 	},
 	{

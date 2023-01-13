@@ -12,7 +12,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thermalcultivation:watering_can",
@@ -26,21 +25,12 @@
 	{
 		uid: "85992833",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "7db39945",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

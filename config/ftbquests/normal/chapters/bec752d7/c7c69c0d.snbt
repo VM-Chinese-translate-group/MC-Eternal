@@ -30,6 +30,7 @@
 		title: "&5Thaumium&7 or &5Voidseer&7 Caster's Gauntlet",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
@@ -42,6 +43,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
@@ -60,6 +62,9 @@
 		type: "item",
 		title: "Any &5Modifier",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thaumicaugmentation:augment_builder_power",
 			tag: {
 				id: "thaumicaugmentation:strength_elemental"
@@ -72,6 +77,9 @@
 		type: "item",
 		title: "Any &5Effect Crystal",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thaumicaugmentation:augment_builder_effect",
 			tag: {
 				id: "thaumicaugmentation:effect_power"

@@ -6,10 +6,7 @@
 		uid: "4544d4e5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "buildcraftlib:guide"
+			item: "buildcraftlib:guide"
 		}]
 	}],
 	rewards: [{

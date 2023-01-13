@@ -1,9 +1,9 @@
 {
 	x: -6.5d,
 	y: -5.0d,
-	description: "Mining `",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing the Introduction chapter*"
+		"*完成介绍章节后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -14,10 +14,7 @@
 		type: "item",
 		disable_toast: true,
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:diamond_block"
+			item: "minecraft:diamond_block"
 		}],
 		count: 32L
 	}],

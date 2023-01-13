@@ -5,7 +5,10 @@
 		uid: "c5fbb490",
 		type: "item",
 		items: [{
-			item: "minecraft:beetroot_seeds"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:beetroot_seeds"
 		}]
 	}],
 	rewards: [{

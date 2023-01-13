@@ -8,9 +8,6 @@
 		uid: "06fd6425",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "mekanism:transmitter",
 			tag: {
 				tier: 0

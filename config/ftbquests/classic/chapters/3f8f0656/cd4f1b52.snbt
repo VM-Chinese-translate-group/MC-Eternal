@@ -8,10 +8,7 @@
 		uid: "a72d22c9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "buildcraftcore:marker_volume"
+			item: "buildcraftcore:marker_volume"
 		}]
 	}],
 	rewards: [{

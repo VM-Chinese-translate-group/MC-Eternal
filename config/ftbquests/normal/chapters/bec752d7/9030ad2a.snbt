@@ -1,6 +1,11 @@
 {
 	title: "&5Accursed Stick",
-	icon: "thaumcraft:pech_wand",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thaumcraft:pech_wand"
+	},
 	x: 27.0d,
 	y: 0.0d,
 	description: "&oJust gimme the thing already!&7 *Read Description*",
@@ -23,6 +28,9 @@
 		uid: "69d72314",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thaumcraft:pech_wand",
 			tag: {
 				display: {

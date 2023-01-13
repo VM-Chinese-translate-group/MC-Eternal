@@ -21,7 +21,10 @@
 		uid: "63bc6b52",
 		type: "item",
 		items: [{
-			item: "thaumcraft:centrifuge"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:centrifuge"
 		}]
 	}],
 	rewards: [{

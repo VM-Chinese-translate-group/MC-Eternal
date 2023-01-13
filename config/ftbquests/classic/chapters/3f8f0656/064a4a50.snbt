@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: -5.0d,
-	description: "If I can't scuba, then what's this all been about?",
+	description: "如果我不能潜水的话，那么这些东西是怎么回事？",
 	dependencies: [
 		"567a3a9f"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mekanism:scubatank"
@@ -23,7 +22,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mekanism:gasmask"

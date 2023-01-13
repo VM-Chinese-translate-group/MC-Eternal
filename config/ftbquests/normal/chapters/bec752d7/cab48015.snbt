@@ -1,12 +1,12 @@
 {
-	title: "Stellar Perception",
+	title: "观星PLUS",
 	x: 3.0d,
 	y: -12.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		" &7&oThe &9&oTelescope&7&o is both simpler to use and more capable of finding Stars than the &9&oLooking Glass&7&o... ",
-		"Use the &d&oArrows at the side of the window&7&o to cycle through the space in the sky it is gazing at... ",
-		"You will also not need to hold &d&oSneak&7&o to freeze it so you can connect Constellations..."
+		"&9&o天文望远镜&7&o相比&9&o普通我已经&7&o而言可以观测到更多的星座。",
+		"将其&d&o置于夜幕之下&7&o并旋转它，以观测不同角度的天空。",
+		"你还是需要按下&d&oshift&7&o来进行连接。"
 	],
 	dependencies: [
 		"a024c6e1",
@@ -16,7 +16,10 @@
 		uid: "db46070a",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockmachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockmachine"
 		}]
 	}],
 	rewards: [{

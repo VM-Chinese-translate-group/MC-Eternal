@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -14.0d,
-	description: "&oThree for the price of one!",
+	description: "&o三个愿望，一次满足！",
 	dependencies: [
 		"eaed8a89"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:triple_bow"

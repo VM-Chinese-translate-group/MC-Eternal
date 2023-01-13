@@ -1,8 +1,8 @@
 {
-	title: "Cooking Part 2.",
+	title: "烹饪的第二部分.",
 	x: 10.0d,
 	y: 0.5d,
-	description: "&oIf the way is hazy",
+	description: "&o如果路是朦胧的",
 	dependencies: [
 		"0a5005e1"
 	],
@@ -10,14 +10,20 @@
 		uid: "ac950b1d",
 		type: "item",
 		items: [{
-			item: "cookingforblockheads:counter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cookingforblockheads:counter"
 		}]
 	},
 	{
 		uid: "4677202c",
 		type: "item",
 		items: [{
-			item: "cookingforblockheads:cabinet"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cookingforblockheads:cabinet"
 		}]
 	}],
 	rewards: [{
@@ -33,7 +39,12 @@
 	{
 		uid: "175fc72e",
 		type: "item",
-		item: "minecraft:sugar",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:sugar"
+		},
 		count: 2
 	}]
 }

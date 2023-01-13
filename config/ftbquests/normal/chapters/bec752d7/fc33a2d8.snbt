@@ -18,7 +18,10 @@
 		uid: "e69d62e2",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:rift_monitor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:rift_monitor"
 		}]
 	}],
 	rewards: [{

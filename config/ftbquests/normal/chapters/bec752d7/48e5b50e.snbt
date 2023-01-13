@@ -1,6 +1,11 @@
 {
 	title: "&5Researching for answers...",
-	icon: "thaumcraft:research_table",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thaumcraft:research_table"
+	},
 	x: 20.5d,
 	y: 2.5d,
 	shape: "heart",
@@ -17,7 +22,12 @@
 		uid: "0a2af8cf",
 		type: "observation",
 		title: "Gaze at a &5Research Table",
-		icon: "thaumcraft:research_table",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:research_table"
+		},
 		match_type: "block_id",
 		match: "thaumcraft:research_table",
 		timer: 0L
@@ -27,6 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:scribing_tools"
@@ -38,7 +49,10 @@
 		uid: "bbfca723",
 		type: "item",
 		items: [{
-			item: "minecraft:paper"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:paper"
 		}],
 		count: 16L
 	}],

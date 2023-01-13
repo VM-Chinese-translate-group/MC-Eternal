@@ -1,10 +1,15 @@
 {
-	title: "&c&l&nStarting Quest",
-	icon: "extrautils2:contract",
+	title: "&c&l&n开始你的冒险！",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "extrautils2:contract"
+	},
 	x: -18.0d,
 	y: -3.0d,
 	shape: "hexagon",
-	description: "Before you can begin your new adventure! you have to sign a contract which essentially says your soul belongs to me for all eternity blah blah everything you ever create is proprietary property of me &o*The writing becomes so small its unreadable*",
+	description: "在开始你的新的伟大冒险之前！你必须和我签署一份契约，就是说你的灵魂永远属于我之类的，你在这里所创造的一切都是属于我的私有财产 &o*后面的文字越写越小完全无法阅读。",
 	hide_dependency_lines: true,
 	size: 1.4d,
 	tasks: [{
@@ -21,6 +26,11 @@
 	{
 		uid: "0a5e7bf2",
 		type: "item",
-		item: "harvestcraft:fairybreaditem"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:fairybreaditem"
+		}
 	}]
 }

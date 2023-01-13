@@ -2,7 +2,7 @@
 	x: -6.5d,
 	y: -4.0d,
 	shape: "square",
-	description: "&cDemons are mobs summoned from a ritual that requires spilling the blood of a villager to start. Enterprising witches may trade with demons for a variety of items including Demonic Contracts and Boxes of Sealed Evil",
+	description: "&c巴弗灭是通过巴弗灭之祭仪式召唤而来的生物，需要在仪式中洒下村民的血才能开始。另外一提，你可以与恶魔交易交换各种物品，包括恶魔契约和封魔盒。",
 	dependencies: [
 		"19a1105b"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "5fbf3376",
 		type: "kill",
-		title: "Bounty: Baphomet",
+		title: "悬赏：巴弗灭",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -29,20 +28,12 @@
 	{
 		uid: "9c5f31dd",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "bewitchment:gold_baphomet_statue"
-		}
+		item: "bewitchment:gold_baphomet_statue"
 	},
 	{
 		uid: "6af1c1d1",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -53,23 +44,13 @@
 	{
 		uid: "f770db84",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:emerald_block"
-		},
+		item: "minecraft:emerald_block",
 		count: 6
 	},
 	{
 		uid: "0cd37bea",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "bewitchment:box_of_sealed_evil"
-		},
+		item: "bewitchment:box_of_sealed_evil",
 		count: 7
 	}]
 }

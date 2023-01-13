@@ -8,10 +8,7 @@
 		uid: "f8d73b09",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "industrialforegoing:lava_fabricator"
+			item: "industrialforegoing:lava_fabricator"
 		}]
 	}],
 	rewards: [{

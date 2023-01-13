@@ -1,7 +1,7 @@
 {
 	x: 10.5d,
 	y: 10.5d,
-	description: "Large transfer capacity and faster rate of transfer",
+	description: "更大的容量，更快的速度",
 	dependencies: [
 		"0108d5cd"
 	],
@@ -9,22 +9,14 @@
 		uid: "a8f19303",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_power_conduit",
-			Damage: 2s
+			item: "enderio:item_power_conduit 1 2"
 		}]
 	},
 	{
 		uid: "ffa69750",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_liquid_conduit",
-			Damage: 2s
+			item: "enderio:item_liquid_conduit 1 2"
 		}]
 	}],
 	rewards: [{

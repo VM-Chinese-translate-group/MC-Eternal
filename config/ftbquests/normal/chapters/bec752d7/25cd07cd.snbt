@@ -1,16 +1,20 @@
 {
 	x: 0.5d,
 	y: -4.0d,
-	description: "It appears if I craft these items together to create the magic map.. I can begin my hunt for the legendary creatures that reside within this dimension.. *Refer to Twilight Forest under the dimensions questing tab*",
+	description: "如果我使用这些东西来绘制地图会发生什么呢……*左转到维度章节的暮色任务线*",
+	text: [
+		""
+	],
 	dependencies: [
 		"ac54b30d"
 	],
 	tasks: [{
 		uid: "0a15b410",
 		type: "item",
-		title: "Raven Feather",
+		title: "乌鸦羽毛",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "RavenFeather",
 					id: "ore"
@@ -28,6 +32,9 @@
 		uid: "c39690cd",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "twilightforest:torchberries"
 		}]
 	},
@@ -35,6 +42,9 @@
 		uid: "d4096d2b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:glowstone_dust"
 		}]
 	}],
@@ -42,6 +52,9 @@
 		uid: "ba4c60fb",
 		type: "choice",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "twilightforest:huge_waterlily"
 		},
 		table: 18
@@ -50,6 +63,10 @@
 		uid: "40e985fe",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tfspellpack:amulet_steeleaf"
 		}
 	}]

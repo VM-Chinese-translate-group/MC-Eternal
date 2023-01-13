@@ -6,11 +6,7 @@
 		uid: "ea7d2f0a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "bibliocraft:swordpedestal",
-			Damage: 15s
+			item: "bibliocraft:swordpedestal 1 15"
 		}]
 	}],
 	rewards: [{

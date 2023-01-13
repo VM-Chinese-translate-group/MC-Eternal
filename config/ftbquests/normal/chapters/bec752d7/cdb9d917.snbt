@@ -1,14 +1,14 @@
 {
-	title: "&4Sentient Arsenal",
+	title: "&4感知系列工具",
 	x: 0.0d,
 	y: 14.0d,
-	description: "&oSmartTools™",
+	description: "&o智能工具™",
 	text: [
-		"&7Powers up based on the amount of &bWill&7 carried in Gems, (Up to just under a full &bGreater&7 Gem).",
+		"&7这些工具可以使用&b意志（特指存在魂石里的那些）&7强化自身。（最多不超过一个&b完整的宝石&7，所以单个宝石容量越大，工具受到的加成越强。）",
 		"",
-		"&4Sentient Tools&7 dropped while you have more than &b1024 Will&7 will &cAnimate&7 and act as an Ally in Combat to their summoner.",
+		"&4感知工具&7 在你的地狱魂石拥有至少&b1024点意志&7后，如果你将它们扔了出来，&c工具们&7 将会成为活物，帮助其主人战斗。（道理我都懂，但是为什么镐子和铲子也要参与战斗啊，你为什么不去挖矿和铲沙子啊）",
 		"",
-		"&cFurther progression into the Bloody arts may reveal new powers these \"Spectres\" can possess..."
+		"&c进一步研究血魔法，你也许能发掘这些“幽灵工具”身上蕴含的真正秘密……谁知道呢。"
 	],
 	dependencies: [
 		"041f3de8"
@@ -18,6 +18,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sentient_bow",
@@ -31,6 +32,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sentient_pickaxe",
@@ -44,6 +46,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sentient_axe",
@@ -57,6 +60,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sentient_shovel",

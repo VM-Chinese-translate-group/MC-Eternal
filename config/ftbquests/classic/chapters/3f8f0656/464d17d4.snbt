@@ -1,5 +1,5 @@
 {
-	title: "An Introduction to Applied Energistics",
+	title: "AE学导论",
 	x: -6.5d,
 	y: 9.5d,
 	shape: "diamond",
@@ -8,11 +8,7 @@
 		uid: "3bf6b9e3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 1s
+			item: "appliedenergistics2:material 1 1"
 		}],
 		count: 4L
 	}],

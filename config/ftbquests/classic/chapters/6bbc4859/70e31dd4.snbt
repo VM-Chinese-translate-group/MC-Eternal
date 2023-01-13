@@ -1,13 +1,8 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "minecraft:bedrock"
-	},
+	icon: "minecraft:bedrock",
 	x: 0.0d,
 	y: 1.0d,
-	description: "*Unlocked from completing the Advanced Science chapter*",
+	description: "*完成进阶科技章节以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"3f8f0656"
@@ -21,11 +16,6 @@
 		uid: "d3f811a7",
 		type: "item",
 		title: "Bedrock",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:bedrock"
-		}
+		item: "minecraft:bedrock"
 	}]
 }

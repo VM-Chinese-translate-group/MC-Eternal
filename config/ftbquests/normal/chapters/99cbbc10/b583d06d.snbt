@@ -5,7 +5,10 @@
 		uid: "db35b3ca",
 		type: "item",
 		items: [{
-			item: "agricraft:crop_sticks"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "agricraft:crop_sticks"
 		}]
 	}],
 	rewards: [{

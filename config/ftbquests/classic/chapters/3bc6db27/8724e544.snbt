@@ -8,11 +8,7 @@
 		uid: "07f6df08",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thermaldynamics:duct_0",
-			Damage: 1s
+			item: "thermaldynamics:duct_0 1 1"
 		}],
 		count: 6L
 	}],

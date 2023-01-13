@@ -2,7 +2,7 @@
 	x: -5.5d,
 	y: 0.5d,
 	shape: "square",
-	description: "&cA cursed being that thrives in the coniferous forest. Players should prepare themselves when they hear the wendigo's horrifying howls.",
+	description: "&c生存在针叶林中的诅咒生物。 当你听到温迪戈的可怕嚎叫时，建议你最好做好准备。",
 	dependencies: [
 		"8ff7c901"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "758e5121",
 		type: "kill",
-		title: "Bounty: Ithaqua",
+		title: "悬赏：伊萨库亚",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -30,9 +29,6 @@
 		uid: "288088b9",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -45,7 +41,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cyclicmagic:ender_lightning",
@@ -55,33 +50,18 @@
 	{
 		uid: "89b07a89",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:emerald_block"
-		},
+		item: "minecraft:emerald_block",
 		count: 8
 	},
 	{
 		uid: "45270171",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:nether_star"
-		}
+		item: "minecraft:nether_star"
 	},
 	{
 		uid: "804934de",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:diamond_block"
-		},
+		item: "minecraft:diamond_block",
 		count: 3
 	}]
 }

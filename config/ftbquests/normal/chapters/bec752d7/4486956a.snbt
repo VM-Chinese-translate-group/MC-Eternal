@@ -8,7 +8,10 @@
 		uid: "c5aa0bce",
 		type: "item",
 		items: [{
-			item: "totemic:eagle_drops"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "totemic:eagle_drops"
 		}]
 	}],
 	rewards: [{

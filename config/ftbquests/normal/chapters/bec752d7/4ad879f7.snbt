@@ -8,7 +8,10 @@
 		uid: "4d2fec2c",
 		type: "item",
 		items: [{
-			item: "bewitchment:diabolical_vein"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bewitchment:diabolical_vein"
 		}],
 		count: 32L
 	}],

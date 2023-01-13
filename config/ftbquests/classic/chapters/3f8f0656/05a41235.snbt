@@ -1,8 +1,8 @@
 {
-	title: "Special Blends",
+	title: "特殊混合物",
 	x: 12.0d,
 	y: 7.5d,
-	description: "Used to upgrade Machine Chassis",
+	description: "用于升级机械框架",
 	dependencies: [
 		"3fd484fc"
 	],
@@ -10,11 +10,7 @@
 		uid: "4c3b2077",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_material",
-			Damage: 51s
+			item: "enderio:item_material 1 51"
 		}],
 		count: 6L
 	},
@@ -22,11 +18,7 @@
 		uid: "2cd9f453",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_material",
-			Damage: 52s
+			item: "enderio:item_material 1 52"
 		}],
 		count: 6L
 	}],

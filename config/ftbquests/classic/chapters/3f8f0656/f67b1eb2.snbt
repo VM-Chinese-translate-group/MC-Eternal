@@ -8,11 +8,7 @@
 		uid: "23c58673",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mekanism:basicblock",
-			Damage: 7s
+			item: "mekanism:basicblock 1 7"
 		}],
 		count: 18L
 	}],

@@ -10,7 +10,10 @@
 		uid: "2b65149b",
 		type: "item",
 		items: [{
-			item: "thaumcraft:recharge_pedestal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:recharge_pedestal"
 		}]
 	}],
 	rewards: [{

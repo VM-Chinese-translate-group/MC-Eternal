@@ -2,7 +2,7 @@
 	x: 13.0d,
 	y: -4.0d,
 	text: [
-		"Nom Nom Nom!"
+		"Nom Nom Nom 好吃!"
 	],
 	dependencies: [
 		"17f50c84"
@@ -11,7 +11,10 @@
 		uid: "c72975c8",
 		type: "item",
 		items: [{
-			item: "harvestcraft:peanutbuttercookiesitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:peanutbuttercookiesitem"
 		}],
 		count: 16L
 	}],

@@ -9,7 +9,11 @@
 		uid: "84251756",
 		type: "item",
 		items: [{
-			item: "ebwizardry:spell_book 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

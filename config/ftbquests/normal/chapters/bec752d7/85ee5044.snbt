@@ -13,7 +13,10 @@
 		uid: "2aa13b9d",
 		type: "item",
 		items: [{
-			item: "thaumadditions:aura_charger"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:aura_charger"
 		}]
 	}],
 	rewards: [{

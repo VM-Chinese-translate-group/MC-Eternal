@@ -1,36 +1,48 @@
 {
-	title: "It feels so slimy...",
+	title: "感觉好黏...",
 	x: 6.0d,
 	y: 0.0d,
 	text: [
-		"You can turn jellyfish in to slime balls!"
+		"你可以把水母变成粘液球!"
 	],
 	tasks: [{
 		uid: "0e9ec042",
 		type: "item",
 		items: [{
-			item: "harvestcraft:frograwitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:frograwitem"
 		}]
 	},
 	{
 		uid: "eda3f218",
 		type: "item",
 		items: [{
-			item: "harvestcraft:eelrawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:eelrawitem"
 		}]
 	},
 	{
 		uid: "ac8f81e9",
 		type: "item",
 		items: [{
-			item: "harvestcraft:jellyfishrawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:jellyfishrawitem"
 		}]
 	},
 	{
 		uid: "9c88088e",
 		type: "item",
 		items: [{
-			item: "harvestcraft:snailrawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:snailrawitem"
 		}]
 	}],
 	rewards: [{

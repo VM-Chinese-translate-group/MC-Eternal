@@ -15,7 +15,12 @@
 		uid: "440ca6ce",
 		type: "observation",
 		title: "Gaze upon an &5Eldritch Lock&r breakable with &0Impetus",
-		icon: "thaumicaugmentation:eldritch_lock_impetus",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:eldritch_lock_impetus"
+		},
 		match_type: "block_id",
 		match: "thaumicaugmentation:eldritch_lock_impetus",
 		timer: 0L

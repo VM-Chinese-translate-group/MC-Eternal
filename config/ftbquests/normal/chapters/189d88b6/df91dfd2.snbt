@@ -1,7 +1,8 @@
 {
-	title: "&c&lNether Bounty: &4Netherhound",
+	title: "&c&l地狱悬赏：&4地狱猎犬",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "witherskelefix:blade"
@@ -20,6 +21,7 @@
 		type: "kill",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:broadsword",
@@ -95,6 +97,10 @@
 		uid: "bfe5a478",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mod_lavacow:felarmor_chestplate"
 		}
 	}]

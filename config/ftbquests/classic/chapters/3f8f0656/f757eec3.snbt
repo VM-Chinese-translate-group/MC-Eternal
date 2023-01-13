@@ -8,10 +8,7 @@
 		uid: "ddf46336",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:isotope_separator_idle"
+			item: "nuclearcraft:isotope_separator_idle"
 		}]
 	}],
 	rewards: [{

@@ -11,7 +11,10 @@
 		uid: "de58b7e0",
 		type: "item",
 		items: [{
-			item: "thaumadditions:mithminite_smelter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:mithminite_smelter"
 		}]
 	}],
 	rewards: [{
@@ -23,6 +26,9 @@
 		uid: "82474387",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

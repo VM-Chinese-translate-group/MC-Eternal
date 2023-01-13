@@ -8,9 +8,6 @@
 		uid: "35c8e272",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "stevescarts:cartmodule",
 			tag: {
 				Data: 100b

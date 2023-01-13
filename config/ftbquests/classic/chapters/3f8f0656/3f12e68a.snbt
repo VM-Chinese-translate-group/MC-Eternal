@@ -9,10 +9,7 @@
 		uid: "1924eac8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "buildcraftfactory:tank"
+			item: "buildcraftfactory:tank"
 		}]
 	}],
 	rewards: [{

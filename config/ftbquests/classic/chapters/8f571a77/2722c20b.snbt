@@ -1,9 +1,9 @@
 {
 	x: -2.0d,
 	y: -7.0d,
-	description: "Mining",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing Bosses*"
+		"*完成Boss后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -12,19 +12,9 @@
 	tasks: [{
 		uid: "e4cec100",
 		type: "item",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:nuggets",
-			Damage: 2s
-		},
+		icon: "tconstruct:nuggets 1 2",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:ingots",
-			Damage: 2s
+			item: "tconstruct:ingots 1 2"
 		}]
 	}],
 	rewards: [{
@@ -33,9 +23,6 @@
 		title: "10 Currency",
 		auto: "no_toast",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 10L

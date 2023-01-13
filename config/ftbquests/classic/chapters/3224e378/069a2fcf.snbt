@@ -2,14 +2,13 @@
 	x: 6.5d,
 	y: 0.5d,
 	shape: "pentagon",
-	description: "&oThe Crushroom is a dangerous hostile boss mob that spawns in Fungal Forests. The Crushroom is a force to be reckoned with. Don't mess with these guys if you see them early in your journey through the Erebus",
+	description: "&o粉碎蘑菇精是一种危险的敌对boss级生物，在真菌森林中生成。粉碎蘑菇精是一股不可忽视的力量。如果你在您的混沌之地的旅途中看到它们，最好不要惹它们。",
 	tasks: [{
 		uid: "0fbaa4ba",
 		type: "kill",
-		title: "&c&lBoss: Crushroom",
+		title: "&c&lBoss：粉碎蘑菇精",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:mushroom_helmet"
@@ -31,9 +30,6 @@
 		uid: "5eb82ff1",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

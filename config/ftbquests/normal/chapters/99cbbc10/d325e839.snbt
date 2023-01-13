@@ -5,7 +5,10 @@
 		uid: "93d75928",
 		type: "item",
 		items: [{
-			item: "harvestcraft:limejuiceitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:limejuiceitem"
 		}]
 	}],
 	rewards: [{

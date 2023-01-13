@@ -13,7 +13,10 @@
 		uid: "72ade2dd",
 		type: "item",
 		items: [{
-			item: "thaumcraft:spa"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:spa"
 		}]
 	}],
 	rewards: [{

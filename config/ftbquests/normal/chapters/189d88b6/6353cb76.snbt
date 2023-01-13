@@ -1,7 +1,7 @@
 {
 	x: -15.0d,
 	y: -10.5d,
-	description: "Dragons... they grow up so fast",
+	description: "这些龙......他们长的可真快！",
 	dependencies: [
 		"add3b7b4"
 	],
@@ -9,7 +9,10 @@
 		uid: "fcaba873",
 		type: "item",
 		items: [{
-			item: "iceandfire:dragon_meal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragon_meal"
 		}],
 		count: 16L
 	}],

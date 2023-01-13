@@ -1,6 +1,7 @@
 {
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "witherskelefix:blade"
@@ -17,9 +18,10 @@
 	tasks: [{
 		uid: "8ff9899e",
 		type: "kill",
-		title: "&c&lNether Bounty: &4Wither Skeleton",
+		title: "&c&l地狱悬赏：&4凋灵骷髅",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:broadsword",
@@ -89,7 +91,12 @@
 	{
 		uid: "131fdb99",
 		type: "item",
-		item: "witherskelefix:fragment",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "witherskelefix:fragment"
+		},
 		count: 7
 	},
 	{

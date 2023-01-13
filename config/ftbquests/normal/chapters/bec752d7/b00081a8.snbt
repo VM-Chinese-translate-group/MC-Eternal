@@ -13,7 +13,10 @@
 		uid: "d4bf59f3",
 		type: "item",
 		items: [{
-			item: "thaumadditions:mithrillium_ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:mithrillium_ingot"
 		}]
 	}],
 	rewards: [{

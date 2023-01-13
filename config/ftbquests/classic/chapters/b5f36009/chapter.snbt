@@ -1,8 +1,7 @@
 {
-	title: "&9Aurorian",
+	title: "&9极光幽境",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "theaurorian:livingdiviningrod"

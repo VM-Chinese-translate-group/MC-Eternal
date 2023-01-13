@@ -1,14 +1,13 @@
 {
-	title: "&b&lAngel Ring",
+	title: "&b&l天使指环",
 	x: 1.0d,
 	y: 1.0d,
-	description: "What? You have to work for creative flight? *Surprised Pikachu face*",
+	description: "什么？为了创造模式的飞行你还得干活？*皮卡丘惊讶.jpg*",
 	tasks: [{
 		uid: "a9d001c9",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "extrautils2:angelring"
@@ -28,20 +27,12 @@
 	{
 		uid: "461d8d3c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mod_lavacow:undyingheart"
-		}
+		item: "mod_lavacow:undyingheart"
 	},
 	{
 		uid: "525cd9fd",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

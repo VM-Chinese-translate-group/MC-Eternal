@@ -24,7 +24,10 @@
 		uid: "b62d720f",
 		type: "item",
 		items: [{
-			item: "thaumcraft:condenser"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:condenser"
 		}]
 	}],
 	rewards: [{

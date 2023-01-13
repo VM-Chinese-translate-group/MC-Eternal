@@ -4,10 +4,9 @@
 	tasks: [{
 		uid: "180da69c",
 		type: "kill",
-		title: "&6&lBounty: Bombardier Beetle",
+		title: "&6&l悬赏：射炮步甲",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:wasp_sword"
@@ -19,9 +18,6 @@
 		uid: "c6d6989f",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

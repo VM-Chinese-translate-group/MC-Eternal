@@ -1,5 +1,5 @@
 {
-	title: "Starting Chassis",
+	title: "起始框架",
 	x: 9.0d,
 	y: 7.5d,
 	description: "Base crafting component of all EnderIO machinery",
@@ -10,10 +10,7 @@
 		uid: "1e13f7d3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_material"
+			item: "enderio:item_material"
 		}],
 		count: 3L
 	}],

@@ -8,10 +8,7 @@
 		uid: "11586699",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "immersiveengineering:metal_device0"
+			item: "immersiveengineering:metal_device0"
 		}]
 	}],
 	rewards: [{

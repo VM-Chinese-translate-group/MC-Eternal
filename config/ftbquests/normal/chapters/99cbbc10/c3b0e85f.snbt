@@ -5,7 +5,10 @@
 		uid: "34283b84",
 		type: "item",
 		items: [{
-			item: "harvestcraft:cactusfruitseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:cactusfruitseeditem"
 		}]
 	}],
 	rewards: [{

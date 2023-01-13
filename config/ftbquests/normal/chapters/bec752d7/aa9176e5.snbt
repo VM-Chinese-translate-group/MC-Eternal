@@ -7,9 +7,10 @@
 	tasks: [{
 		uid: "4bd45a1f",
 		type: "item",
-		title: "§bHunter Axe - Special",
+		title: "§b猎人战斧 特殊",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:hunter_axe",

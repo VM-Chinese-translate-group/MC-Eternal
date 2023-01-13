@@ -2,7 +2,6 @@
 	title: "Bane of Pigs",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "tconstruct:frypan",
@@ -85,7 +84,7 @@
 	x: 0.0d,
 	y: -3.0d,
 	shape: "hexagon",
-	description: "*Unlocked from completing the Challenge chapter*",
+	description: "*完成挑战章节以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"03049ff4"
@@ -96,7 +95,6 @@
 		type: "checkmark",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:frypan",
@@ -187,7 +185,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:frypan",

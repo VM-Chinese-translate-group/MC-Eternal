@@ -1,7 +1,10 @@
 {
 	x: 12.5d,
 	y: -5.5d,
-	description: "The Long Arm of the Law *Increases Reach Distance*",
+	description: "带戒指就是开了？*增加你的触及距离和攻击距离*",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"cf9ac603",
@@ -11,10 +14,11 @@
 		uid: "9f418e21",
 		type: "item",
 		items: [{
-			id: "botania:reachring",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:reachring"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,9 +1,9 @@
 {
-	title: "Ingots, Ingots, Ingots!",
+	title: "锭！锭！锭！锭！锭！锭！锭！锭！锭！",
 	x: -3.5d,
 	y: 4.5d,
 	shape: "circle",
-	description: "Part Tres",
+	description: "阶段三！",
 	dependencies: [
 		"e479f7e1"
 	],
@@ -11,7 +11,11 @@
 		uid: "ae318d2d",
 		type: "item",
 		items: [{
-			item: "extrautils2:ingredients 1 17"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 17s
 		}],
 		count: 32L
 	},
@@ -19,7 +23,11 @@
 		uid: "be6f53d4",
 		type: "item",
 		items: [{
-			item: "extrautils2:ingredients 1 11"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 11s
 		}],
 		count: 32L
 	},
@@ -27,7 +35,11 @@
 		uid: "7619703c",
 		type: "item",
 		items: [{
-			item: "extrautils2:ingredients 1 12"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 12s
 		}],
 		count: 32L
 	}],
@@ -45,6 +57,9 @@
 		uid: "72f946c6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {

@@ -1,7 +1,10 @@
 {
 	x: 12.0d,
 	y: -2.5d,
-	description: "Doesn't seem like much on the surface, but try it! You'll be surprised at how nourishing it is!",
+	description: "看起来似乎有些难以下咽，但是尝一下吧！美味又营养！",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"c50984b7"
@@ -10,7 +13,10 @@
 		uid: "c98df7d1",
 		type: "item",
 		items: [{
-			item: "botania:manacookie"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:manacookie"
 		}]
 	}],
 	rewards: [{

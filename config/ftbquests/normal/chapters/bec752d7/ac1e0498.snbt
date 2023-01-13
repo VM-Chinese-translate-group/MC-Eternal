@@ -1,13 +1,13 @@
 {
-	title: "Starlink",
+	title: "星之连接",
 	x: 4.5d,
 	y: -14.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		" &7&oThis tool will allow you to set where a &9&oCollector Crystal&7&o should focus the &r&oStarlight&7&o it channels... ",
-		"To push further, you will need to find to one of the Crystals, and instruct the Crystal to channel &r&oStarlight&7&o into &9&oIron Ore&7&o... ",
+		" &7&o这个小玩意可以让方块与&9&o聚能水晶&7&o建立连接，让&r&o星光&7&o照射到方块上。 ",
+		"为了在星海中更进一步，你需要制作或者找一个聚能水晶，并将它的&r&o星光&7&o与&9&o铁矿石&7&o建立连接。",
 		"",
-		"Do not forget to give the Crystal an unobstructed view of the Stars..."
+		"别忘了，聚能水晶并不会自己产生星能，而是接引天空中的星能，因此你要给它提供一个露天的环境。"
 	],
 	dependencies: [
 		"a024c6e1"
@@ -17,6 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemlinkingtool"

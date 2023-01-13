@@ -1,12 +1,12 @@
 {
-	title: "Remote Rituals",
+	title: "转移仪式效果",
 	x: 0.5d,
 	y: -16.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&9&oRitual Anchors&7&o can be used to warp a Ritual's effect to anywhere else in the same Dimension...",
-		"Place one exactly &6&o5 Meters (blocks)&7&o above the &9&oRitual Pedestal&7&o, so &6&o4 Meters (blocks)&7&o of space between them, no more, no less...",
-		"Use a &9&oLinking Tool&7&o to bind them, select the Anchor at the Pedestal, and click the one you at the position you wish to warp the effect to..."
+		"&9&o效应连接通道&7&o可以在同一纬度内无限距离的传输仪式的作用范围。",
+		"把效应连接通道放在效应放大器正上方&6&o5个方块&7&o处，因为&9&o仪式基座&7&o高出地板一格，所以效应连接通道和仪式基座的距离是&6&o4个方块&7&o，不多也不少。",
+		"使用&9&o连接器&7&o分别点击两个效应连接通道，就可以让它们之间建立连接。"
 	],
 	dependencies: [
 		"ef71e8f4"
@@ -15,7 +15,10 @@
 		uid: "1c01388f",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockrituallink"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockrituallink"
 		}]
 	}],
 	rewards: [{

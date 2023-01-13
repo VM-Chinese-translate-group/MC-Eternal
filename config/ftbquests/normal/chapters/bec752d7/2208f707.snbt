@@ -1,7 +1,10 @@
 {
 	x: 13.5d,
 	y: -6.0d,
-	description: "Doesn't require a Broken Hero Sword.",
+	description: "断裂英雄剑？那是啥？",
+	text: [
+		""
+	],
 	dependencies: [
 		"59dd41e8"
 	],
@@ -9,10 +12,11 @@
 		uid: "8b0c55fd",
 		type: "item",
 		items: [{
-			id: "botania:terrasword",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:terrasword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

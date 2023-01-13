@@ -1,7 +1,7 @@
 {
 	x: 19.5d,
 	y: 9.0d,
-	description: "Able to transfer item/fluid/power wirelessly and across dimensions",
+	description: "能够跨维度无线传输物品/流体/能量",
 	dependencies: [
 		"b7053578"
 	],
@@ -9,10 +9,7 @@
 		uid: "4c96eb4d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_transceiver"
+			item: "enderio:block_transceiver"
 		}],
 		count: 2L,
 		ignore_nbt: 1b

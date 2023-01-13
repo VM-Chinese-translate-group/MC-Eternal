@@ -6,7 +6,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -15,21 +14,21 @@
 			id: "dungeontactics:dungeonpedia_volume_8",
 			tag: {
 				pages: [
-					"{\"text\":\"\\n\\n�l   Dungeonpedia\\n\\n�l     Volume 8\"}",
-					"{\"text\":\"\\nThis volume contains information on structures and other dangers of the world.\\n\\nSection 1 contains structures.\\nSection 2 contains flowers.\"}",
-					"{\"text\":\"\\n\\n�l     Section 1\\n\\n�l    Structures\"}",
-					"{\"text\":\"�l    Structures\\n\\nAbandoned and swarming with creatures that want to kill you. These are good places to find forgotten loot, but they are likely trapped.\"}",
-					"{\"text\":\"�l      Towers\\n\\nBuilt high into the sky, these monuments are so run down that the windows are stained to the point where they block light from entering.\"}",
+					"{\"text\":\"\\n\\n§l   地牢战术\\n\\n§l     地牢百科卷八《世界》\"}",
+					"{\"text\":\"\\n这卷包含关于世界的结构和其他危险的信息。\\n\\n第一部分包含结构。\\n第二部分包含花朵。\"}",
+					"{\"text\":\"\\n\\n§l     第一部分\\n\\n§l    结构\"}",
+					"{\"text\":\"§l    结构\n\\nAbandoned and swarming with creatures that want to kill you. These are good places to find forgotten loot, but they are likely trapped.\"}",
+					"{\"text\":\"§l      高塔\\n\\nBuilt high into the sky, these monuments are so run down that the windows are stained to the point where they block light from entering.\"}",
 					"{\"text\":\"\\nPlacing a skull on the alter found atop these towers will summon an ancient guardian who can be challenged to a fight to the death for a chance at his prize.\"}",
-					"{\"text\":\"�l     Dungeons\\n\\nSubmerged under the soil and rock, some of the dungeons can run long and deep beneath the surface. Before being abandoned, the original inhabitants left a golem to prevent monsters from overrunning the land.\"}",
-					"{\"text\":\"\\n*Dev note: dungeons are not finished, but are fully functional*\"}",
-					"{\"text\":\"�l   Pirate Ships\\n\\nThe undead crews of these drifting vessels are doomed to protect the ships ill gotten goods until the end of their unnatural life. The captain may be long dead, but his plunder may still be hidden on board.\"}",
-					"{\"text\":\"\\n\\n�l     Section 2\\n\\n�l      Flowers\"}",
-					"{\"text\":\"�l      Flowers\\n\\nThroughout the land, nature fights back against the spread of man and monster kind alike. Some flowers have evolved their own defences, some aiding creatures, in hope of protection, others harming any who come to close.\"}",
-					"{\"text\":\"\\nThese flowers seem to spread like fungus when rooted in fertile soil, such as farmland.\\n\\nThe unique properties of the Elder Flower are not immediately evident on contact, but the sap like dew can be collected in a bottle.\"}"
+					"{\"text\":\"§l     地牢\\n\\n埋藏于泥土和岩石之下。一些地牢在地表下规模庞大，四通八达，交错纵横。在被遗弃之前，原住民们留下了一个傀儡，以防止怪物们霸占这片土地。\"}",
+					"{\"text\":\"\\n*开发者的话：地牢还没有做完，但是功能能用。*\"}",
+					"{\"text\":\"§l  海盗船\\n\\nThe undead crews of these drifting vessels are doomed to protect the ships ill gotten goods until the end of their unnatural life. The captain may be long dead, but his plunder may still be hidden on board.\"}",
+					"{\"text\":\"\\n\\n§l     第二部分\\n\\n§l     花朵\"}",
+					"{\"text\":\"§l      花朵\\n\\n在这片土地上，大自然对人类和怪物的过度入侵进行了反击：有些花已经进化出自己的防御系统；有些花开始帮助生物，希望得到保护；有些花则开始伤害任何接近的生物。\"}",
+					"{\"text\":\"\\n这些花如果种在耕地里，就会像蘑菇一样四散生长开来。\\n\\n长者之花的独特特性在接触时不会立即显现出来，但过一会儿，接触它的生物都会被它吞噬掉经验。\"}"
 				],
-				author: "Some probably-dead guy",
-				title: "World",
+				author: "某个可能已经死了的人",
+				title: "世界",
 				resolved: 1b
 			}
 		}],

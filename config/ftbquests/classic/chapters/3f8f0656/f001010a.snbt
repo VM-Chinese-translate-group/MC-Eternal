@@ -1,8 +1,8 @@
 {
-	title: "ME Cables",
+	title: "ME线缆",
 	x: -3.0d,
 	y: 9.0d,
-	description: "The most important thing of all! Many thinner devices must be attached to these to work!",
+	description: "最重要的是！许多更为轻巧的设备必须连接到这些线缆上才能工作！",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -11,25 +11,13 @@
 		type: "item",
 		title: "Any &6ME Cable",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:part",
-			Damage: 16s
+			item: "appliedenergistics2:part 1 16"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:part",
-			Damage: 36s
+			item: "appliedenergistics2:part 1 36"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:part",
-			Damage: 56s
+			item: "appliedenergistics2:part 1 56"
 		}]
 	}],
 	rewards: [{

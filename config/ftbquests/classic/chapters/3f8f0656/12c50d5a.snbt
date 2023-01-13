@@ -1,7 +1,7 @@
 {
 	x: 5.0d,
 	y: 1.0d,
-	description: "Placed in the wall of a Fission Reactor, acts as a remote Access to the Reactor's controller.",
+	description: "把它放置在裂变反应堆的外壁上，作为反应堆控制器的远程访问接口。",
 	dependencies: [
 		"d256da0e"
 	],
@@ -9,10 +9,7 @@
 		uid: "142e1eb9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:fission_port"
+			item: "nuclearcraft:fission_port"
 		}]
 	}],
 	rewards: [{

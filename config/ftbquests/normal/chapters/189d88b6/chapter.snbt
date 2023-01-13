@@ -1,6 +1,11 @@
 {
 	title: "Introduction",
-	icon: "minecraft:sapling",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:sapling"
+	},
 	disable_toast: true,
 	always_invisible: false,
 	group: 0,

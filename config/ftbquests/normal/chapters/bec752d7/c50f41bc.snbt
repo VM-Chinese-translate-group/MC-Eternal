@@ -1,12 +1,12 @@
 {
-	title: "&4Sound of the Cleansing Soul",
+	title: "&4净灵之音",
 	x: -2.5d,
 	y: 27.5d,
-	description: "&oSong of Healing",
+	description: "&o治愈之歌",
 	text: [
-		"&7The &4Sound of the Cleansing Soul&7 is a Ritual used to &cCleanse&7 &6Upgrades&7 from your &4Living Armor&7, granting &4Upgrade Tomes&7 with the Cleansed upgrades.",
+		"&4净灵之音&7是一个用来&c清理&7你&4束灵盔甲&7上的&6升级&7的仪式， 会将清理掉的升级变为&4升级手册&7。",
 		"",
-		"&4Upgrade Tomes&7 can be &cRight-clicked&7 while wearing &4Living Armor&7 to apply the stored &6Upgrade&7, if enough &6Upgrade Points&7 are available."
+		"&4升级手册&7&c右击&7即可获得 &4束灵盔甲&7的&6对应升级&7，前提是你得&6升级点数&7充足。"
 	],
 	dependencies: [
 		"a146eff2",
@@ -23,7 +23,10 @@
 		uid: "428f2086",
 		type: "item",
 		items: [{
-			item: "bloodmagic:ritual_stone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_stone"
 		}],
 		count: 48L
 	}]

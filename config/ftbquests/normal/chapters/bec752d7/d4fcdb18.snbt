@@ -7,8 +7,13 @@
 	tasks: [{
 		uid: "0ddf3354",
 		type: "advancement",
-		title: "&6Reach Starlight Level 20",
-		icon: "astralsorcery:blockattunementrelay",
+		title: "&6将星能力修炼到20级",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockattunementrelay"
+		},
 		advancement: "astralsorcery:perk_level_medium",
 		criterion: ""
 	}],

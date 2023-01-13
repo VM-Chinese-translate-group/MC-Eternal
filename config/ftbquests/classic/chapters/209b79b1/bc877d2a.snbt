@@ -2,9 +2,9 @@
 	x: -5.5d,
 	y: -8.5d,
 	shape: "square",
-	description: "&cAn irritable giant that tends to a flock of sheep in a stony, treasure-filled seaside cove.",
+	description: "&c一个易怒的巨人有时在一个多石、充满宝藏的独眼巨人海湾放羊。",
 	text: [
-		"Cyclopes can be located in Cyclops Coves, large, round, stony coves with sheep pens which spawn randomly in Beach biomes. They have a 50% chance to drop the eye of the cyclops"
+		"独眼巨人生活在独眼巨人海湾中，这是一个大而圆的石质洞穴，洞中有羊圈。独眼巨人海湾一般会在海湾附近出现。杀死独眼巨人有50%概率掉落巨人魔眼。"
 	],
 	dependencies: [
 		"5bd86940"
@@ -13,10 +13,9 @@
 	tasks: [{
 		uid: "22896a55",
 		type: "kill",
-		title: "Bounty: Cyclops",
+		title: "悬赏：独眼巨人",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,9 +32,6 @@
 		uid: "2e32e84b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -47,9 +43,6 @@
 		uid: "b91c1430",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "thermalexpansion:morb",
 			tag: {
 				Generic: 1b,
@@ -60,32 +53,17 @@
 	{
 		uid: "e07ccac8",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "bewitchment:gold_leonard_statue"
-		}
+		item: "bewitchment:gold_leonard_statue"
 	},
 	{
 		uid: "73f1f4db",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:emerald_block"
-		},
+		item: "minecraft:emerald_block",
 		count: 3
 	},
 	{
 		uid: "9709ab02",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_block"
-		}
+		item: "minecraft:gold_block"
 	}]
 }

@@ -1,8 +1,11 @@
 {
-	title: "Good Reception",
+	title: "一个好的开始",
 	x: 4.0d,
 	y: -3.5d,
-	description: "Craft Receptacles to recept Elemental Energies.",
+	description: "制造几个可以盛放元素尘埃的容器来修复祭坛",
+	text: [
+		""
+	],
 	dependencies: [
 		"a26f4705"
 	],
@@ -10,6 +13,9 @@
 		uid: "3e1b6744",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:receptacle"
 		}],
 		count: 4L

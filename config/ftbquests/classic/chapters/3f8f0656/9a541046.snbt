@@ -1,7 +1,7 @@
 {
 	x: -7.5d,
 	y: 9.0d,
-	description: "You'll want this if you want to find AE Meteors in MC Eternal!",
+	description: "如果你想在永恒的MC中找到AE的陨石，你需要这个！",
 	dependencies: [
 		"464d17d4"
 	],
@@ -9,10 +9,7 @@
 		uid: "381aeb4b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:sky_compass"
+			item: "appliedenergistics2:sky_compass"
 		}]
 	}],
 	rewards: [{

@@ -2,9 +2,9 @@
 	title: "Zzzzz",
 	x: -14.5d,
 	y: -1.5d,
-	description: "/sethome allows for fast travel back to your cozy home!",
+	description: "/sethome指令允许你使用其他指令快速回到家!",
 	text: [
-		"/home to warp home"
+		"/home以回到家"
 	],
 	min_required_dependencies: 1,
 	dependencies: [
@@ -14,7 +14,10 @@
 		uid: "00fa1d66",
 		type: "item",
 		items: [{
-			item: "minecraft:bed"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bed"
 		}],
 		consume_items: false,
 		ignore_damage: true,
@@ -28,7 +31,13 @@
 	{
 		uid: "cf191dde",
 		type: "choice",
-		icon: "stupidthings:balloon 1 6",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stupidthings:balloon",
+			Damage: 6s
+		},
 		table: 9
 	}]
 }

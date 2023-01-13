@@ -5,7 +5,10 @@
 		uid: "5957589d",
 		type: "item",
 		items: [{
-			item: "harvestcraft:juniperberryseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:juniperberryseeditem"
 		}]
 	}],
 	rewards: [{

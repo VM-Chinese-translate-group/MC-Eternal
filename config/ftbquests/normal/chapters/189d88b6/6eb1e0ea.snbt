@@ -1,9 +1,9 @@
 {
-	title: "A Spooky Companion!",
+	title: "诡异的伙伴！",
 	x: -4.0d,
 	y: 0.5d,
 	shape: "heart",
-	description: " &oPut a Scarecrow Head on top of two Hay Bales and then right-click in the middle with a Undying Heart to summon a special pet.&c This Quest Chain can't be evil! Look how cute this little guy is, oh wait nevermind",
+	description: " &o将一个稻草人头颅放在两个干草块的顶部，然后用不死之心在其中间右键，以召唤一个驯服的对应变种的稻草人。看看这个小家伙有多可爱，哦，等等，呃，还是算了吧",
 	dependencies: [
 		"96a8691d"
 	],
@@ -12,32 +12,54 @@
 		uid: "c1bc9dc0",
 		type: "item",
 		items: [{
-			item: "mod_lavacow:scarecrowhead_common"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:scarecrowhead_common"
 		},
 		{
-			item: "mod_lavacow:scarecrowhead_straw"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:scarecrowhead_straw"
 		},
 		{
-			item: "mod_lavacow:scarecrowhead_plague"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:scarecrowhead_plague"
 		}]
 	},
 	{
 		uid: "f30585ac",
 		type: "item",
 		items: [{
-			item: "minecraft:hay_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:hay_block"
 		}],
 		count: 2L
 	}],
 	rewards: [{
 		uid: "320ce60d",
 		type: "item",
-		item: "mod_lavacow:cursed_bandage",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:cursed_bandage"
+		},
 		count: 8
 	},
 	{
 		uid: "60e75499",
 		type: "item",
-		item: "harvestcraft:maplesyruppancakesitem"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:maplesyruppancakesitem"
+		}
 	}]
 }

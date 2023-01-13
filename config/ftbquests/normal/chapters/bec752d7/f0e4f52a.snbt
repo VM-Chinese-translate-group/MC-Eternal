@@ -1,16 +1,20 @@
 {
 	x: 14.5d,
 	y: 5.0d,
-	description: "Introduction to Magical Botany",
+	description: "植物魔法入门",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "19bce1d4",
 		type: "item",
 		items: [{
-			id: "botania:lexicon",
-			tag: {},
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:lexicon",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

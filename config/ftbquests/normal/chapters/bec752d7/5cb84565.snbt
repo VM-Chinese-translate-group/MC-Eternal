@@ -8,7 +8,10 @@
 		uid: "d91c832b",
 		type: "item",
 		items: [{
-			item: "vampirism:item_alchemical_fire"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:item_alchemical_fire"
 		}],
 		count: 8L
 	}],

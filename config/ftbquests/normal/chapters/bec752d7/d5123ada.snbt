@@ -18,7 +18,10 @@
 		uid: "543befdc",
 		type: "item",
 		items: [{
-			item: "thaumcraft:sanity_soap"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:sanity_soap"
 		}]
 	}],
 	rewards: [{

@@ -1,16 +1,24 @@
 {
-	title: "Discover a Wizard's Tower",
+	title: "寻访巫师塔",
 	x: 2.5d,
 	y: 0.0d,
-	description: "Wizard Towers can often be found while exploring, for more information refer to the Wizard's Handbook",
+	description: "巫师塔会在野外随机生成，里面通常住着一名古怪的巫师。他们大多友好，不过也有一些修炼巫术走火入魔的疯子。",
+	text: [
+		""
+	],
 	dependencies: [
 		"ec0bd6f7"
 	],
 	tasks: [{
 		uid: "8fe67898",
 		type: "advancement",
-		title: "Discover a Wizard's Tower",
-		icon: "ebwizardry:astral_diamond",
+		title: "寻访巫师塔（别想着拆走里面的东西）",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:astral_diamond"
+		},
 		advancement: "ebwizardry:wizard_tower",
 		criterion: ""
 	}],
@@ -22,13 +30,24 @@
 	{
 		uid: "153a6c86",
 		type: "item",
-		item: "minecraft:emerald",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"treasure2:pouchable": {}
+			},
+			id: "minecraft:emerald"
+		},
 		count: 3
 	},
 	{
 		uid: "7b0b0c6b",
 		type: "item",
-		item: "minecraft:gold_ingot",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
 		count: 5
 	}]
 }

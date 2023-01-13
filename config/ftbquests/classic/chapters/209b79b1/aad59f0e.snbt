@@ -2,7 +2,7 @@
 	x: -2.5d,
 	y: -0.5d,
 	shape: "square",
-	description: "An illusioner is a illager that casts spells and is armed with a bow. The spell is used on itself for defense or on a player while it is attacking.",
+	description:"幻术师是一种可以使用咒语和弓来攻击的灾厄村民。它的咒语可用于自身防御，制造分身或释放烟雾。也可用于进攻，方式多样，招式众多。",
 	dependencies: [
 		"05ce51d7"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "6ab3b372",
 		type: "kill",
-		title: "Bounty: Illusioner",
+		title: "悬赏：幻术师",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -36,7 +35,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "charm:cake_invisibility"
@@ -47,7 +45,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:predator_bow"

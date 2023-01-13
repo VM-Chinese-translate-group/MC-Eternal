@@ -2,7 +2,7 @@
 	x: 12.0d,
 	y: -3.0d,
 	text: [
-		"Cookie!"
+		"饼干!"
 	],
 	dependencies: [
 		"17f50c84"
@@ -11,7 +11,10 @@
 		uid: "1699002c",
 		type: "item",
 		items: [{
-			item: "harvestcraft:raisincookiesitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:raisincookiesitem"
 		}],
 		count: 16L
 	}],

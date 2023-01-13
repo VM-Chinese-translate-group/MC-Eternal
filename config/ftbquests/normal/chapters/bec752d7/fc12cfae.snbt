@@ -1,7 +1,10 @@
 {
 	x: 17.5d,
 	y: -5.5d,
-	description: "Mana from Munchies! *Read the Lexica Botania for more Info*",
+	description: "干饭产魔！*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"c9593cc2"
 	],
@@ -9,6 +12,9 @@
 		uid: "1eaf57ec",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "botania:specialflower",
 			tag: {
 				type: "gourmaryllis"

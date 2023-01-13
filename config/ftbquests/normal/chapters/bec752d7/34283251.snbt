@@ -1,10 +1,10 @@
 {
-	title: "&4Awakened Activation Crystal",
+	title: "&4觉醒激活水晶",
 	x: 4.0d,
 	y: 27.5d,
-	description: "&oThe Awakened One",
+	description: "&o丑的人还在沉睡，帅的人已经醒来",
 	text: [
-		"&7Enables activation of more Complex and Powerful &cRituals&7."
+		"&7可以激活更为强大的&c仪式&7。"
 	],
 	dependencies: [
 		"e6c8737c"
@@ -14,6 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:activation_crystal",

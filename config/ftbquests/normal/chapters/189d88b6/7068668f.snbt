@@ -1,7 +1,7 @@
 {
 	x: -17.0d,
 	y: -10.5d,
-	description: "I command thee to make me some lunch!",
+	description: "乃令尔为我炊！",
 	dependencies: [
 		"6353cb76"
 	],
@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragon_stick"

@@ -8,10 +8,7 @@
 		uid: "cd1ff338",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:gem_of_ratlantis"
+			item: "rats:gem_of_ratlantis"
 		}]
 	}],
 	rewards: [{

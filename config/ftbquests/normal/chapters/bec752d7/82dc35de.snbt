@@ -19,7 +19,10 @@
 		uid: "4f07ec3c",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:impetus_drainer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:impetus_drainer"
 		}]
 	}],
 	rewards: [{

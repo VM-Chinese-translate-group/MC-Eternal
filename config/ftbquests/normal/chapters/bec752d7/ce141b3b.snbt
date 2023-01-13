@@ -1,11 +1,11 @@
 {
-	title: "Shift your Stars",
+	title: "切换星座",
 	x: -1.0d,
 	y: -17.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oOne who is Attuned to the stars can use a &9&oShifting Star&7&o to shift their Attunement back to none...",
-		"&c&oThis will cause them to lose any Starlight Experience that they may have gained..."
+		"&7&o如果你想切换你共鸣的星座，就去做一个&9&o更替之星&7&o吧，它可以祛除你身上的星之烙印。",
+		"&c&o这将把你的星之力清零，重回肉体凡胎。"
 	],
 	dependencies: [
 		"94fe6f69"
@@ -15,6 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemshiftingstar",

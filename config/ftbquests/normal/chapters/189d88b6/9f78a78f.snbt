@@ -1,8 +1,8 @@
 {
-	title: "&l&cRegicide",
+	title: "&l&c弑君者",
 	x: -12.0d,
 	y: -6.0d,
-	description: "&oFind and slay the King and his knights",
+	description: "&o找到并击杀国王和他的骑士",
 	dependencies: [
 		"92ca1bd3"
 	],
@@ -14,6 +14,7 @@
 		title: "Locate and Kill the King",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ancientspellcraft:head_curse"
@@ -31,6 +32,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ancientspellcraft:charm_gold_bag"
@@ -40,6 +42,9 @@
 		uid: "3075eb94",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

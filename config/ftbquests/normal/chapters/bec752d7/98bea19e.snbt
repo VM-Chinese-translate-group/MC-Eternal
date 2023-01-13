@@ -1,6 +1,9 @@
 {
 	title: "&5&lThe Flux of Magic",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "thermalexpansion:florb",
 		tag: {
 			Fluid: "flux_goo"

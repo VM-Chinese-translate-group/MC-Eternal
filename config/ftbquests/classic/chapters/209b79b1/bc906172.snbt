@@ -2,7 +2,7 @@
 	x: 2.5d,
 	y: -3.0d,
 	shape: "square",
-	description: "*Dimensional: Twilight Forest* The Minotaur is 50% man, 50% bull, and 100% deadly. As if their full speed charges weren't enough to deal with, they also use Gold Axes. Found only in the underground Labyrinths.",
+	description: "*维度：暮色森林*米诺陶50％是人，50％是牛。它们使用金斧作战，还能对你来个猝不及防的全速冲锋。它只能在暮色沼泽的牛头人迷宫内生成。",
 	dependencies: [
 		"7780b056"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "c0ee7357",
 		type: "kill",
-		title: "Bounty: Minotaur",
+		title: "悬赏：米诺陶",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -36,7 +35,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:minotaur_axe_gold"

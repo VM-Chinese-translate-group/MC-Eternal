@@ -9,7 +9,10 @@
 		uid: "37f5af09",
 		type: "item",
 		items: [{
-			item: "bewitchment:witches_oven"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bewitchment:witches_oven"
 		}]
 	}],
 	rewards: [{

@@ -1,8 +1,8 @@
 {
-	title: "Electrifying!",
+	title: "电解！",
 	x: -5.0d,
 	y: 4.5d,
-	description: "Produces Fluids and Dusts from different items.",
+	description: "从各种物品中产出液体和粉",
 	dependencies: [
 		"06cc512e"
 	],
@@ -10,12 +10,8 @@
 		uid: "da1be5e0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:industrial_electrolyzer"
-		}],
-		ignore_nbt: 1b
+			item: "techreborn:industrial_electrolyzer"
+		}]
 	}],
 	rewards: [{
 		uid: "7b1f4794",

@@ -1,16 +1,13 @@
 {
 	x: 4.0d,
 	y: -3.5d,
-	description: "*Can not be automated*",
+	description: "*不可自动提交*",
 	can_repeat: true,
 	tasks: [{
 		uid: "aa104f94",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gunpowder"
+			item: "minecraft:gunpowder"
 		}],
 		count: 16L,
 		consume_items: true

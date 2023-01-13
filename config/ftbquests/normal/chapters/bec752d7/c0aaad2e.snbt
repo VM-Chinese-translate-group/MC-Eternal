@@ -1,11 +1,17 @@
 {
-	title: "&4Bloody Destiny",
+	title: "&4赤红的干渴",
 	x: -3.0d,
 	y: 31.5d,
 	shape: "gear",
-	description: "&oSave me from that...",
+	description: "&o改变我！用力改变我啊！现在……轮到你了！",
 	text: [
-		"&4You want endless power? Pay an endless price..."
+		"&4在我最为赤红的梦中，我梦到了那座鲜红色的教堂和那些骨肉铸成的长椅，那无休止跳动的宛如心脏一般的金色祭坛，那里的每一块深红色的彩绘琉璃上刻画着凡世的一种独特的食欲，所展示的情形都来自于现实。",
+		"",
+		"我听到了欢愉者举行筵宴的声音，我闻到了空气的甘甜，在抓挠和抚摸中，我惊醒了。",
+		"",
+		"我离那里已经很近了，我知道的……我肯定……只需要在走几步就可以……",
+		"",
+		"我需要满足赤红的干渴，不惜一切。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -50,7 +56,11 @@
 		uid: "97ebbf9b",
 		type: "item",
 		items: [{
-			item: "bloodmagic:blood_tank 1 15"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:blood_tank",
+			Damage: 15s
 		}],
 		ignore_nbt: 1b
 	}],
@@ -59,6 +69,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sacrificial_dagger",

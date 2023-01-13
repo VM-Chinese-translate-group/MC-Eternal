@@ -8,7 +8,10 @@
 		uid: "bc4f1bfb",
 		type: "item",
 		items: [{
-			item: "iceandfire:sea_serpent_arrow"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:sea_serpent_arrow"
 		}],
 		count: 16L
 	}],

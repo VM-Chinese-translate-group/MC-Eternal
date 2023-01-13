@@ -6,7 +6,6 @@
 		type: "stat",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:bl_bucket",
@@ -29,12 +28,6 @@
 	{
 		uid: "4d13a67d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	}]
 }

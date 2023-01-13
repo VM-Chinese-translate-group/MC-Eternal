@@ -19,6 +19,9 @@
 		type: "item",
 		title: "Any &5Vis Salt",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thaumadditions:salt_essence",
 			tag: {
 				Aspects: [{

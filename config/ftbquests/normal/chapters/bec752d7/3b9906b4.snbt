@@ -15,13 +15,24 @@
 		type: "item",
 		title: "Any &5Starfield Glass",
 		items: [{
-			item: "thaumicaugmentation:starfield_glass"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:starfield_glass"
 		},
 		{
-			item: "thaumicaugmentation:starfield_glass 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:starfield_glass",
+			Damage: 2s
 		},
 		{
-			item: "thaumicaugmentation:starfield_glass 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:starfield_glass",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

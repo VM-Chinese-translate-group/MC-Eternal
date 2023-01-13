@@ -8,30 +8,21 @@
 		uid: "c178283e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:shadowroot_log"
+			item: "midnight:shadowroot_log"
 		}]
 	},
 	{
 		uid: "0e9f2c2a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:dark_willow_log"
+			item: "midnight:dark_willow_log"
 		}]
 	},
 	{
 		uid: "759dc923",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:dead_wood_log"
+			item: "midnight:dead_wood_log"
 		}]
 	}],
 	rewards: [{

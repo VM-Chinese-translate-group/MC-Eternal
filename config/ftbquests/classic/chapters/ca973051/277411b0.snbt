@@ -9,7 +9,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "rats:feral_bagh_nakhs"
@@ -30,11 +29,6 @@
 	{
 		uid: "2a96267b",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:rat_upgrade_aquatic"
-		}
+		item: "rats:rat_upgrade_aquatic"
 	}]
 }

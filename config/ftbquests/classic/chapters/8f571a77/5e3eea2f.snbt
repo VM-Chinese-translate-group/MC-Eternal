@@ -2,9 +2,9 @@
 	disable_toast: true,
 	x: -3.5d,
 	y: -5.0d,
-	description: "Mining `",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing the Introduction chapter*"
+		"*完成介绍章节后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -14,10 +14,7 @@
 		uid: "6a422262",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:iron_block"
+			item: "minecraft:iron_block"
 		}],
 		count: 32L
 	}],

@@ -1,15 +1,18 @@
 {
-	title: "How to become a cookie monster!",
+	title: "如何成为饼干怪兽!",
 	x: 10.5d,
 	y: -5.5d,
 	text: [
-		"Cookie!"
+		"曲奇饼干!"
 	],
 	tasks: [{
 		uid: "55357cf4",
 		type: "item",
 		items: [{
-			item: "minecraft:cookie"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:cookie"
 		}],
 		count: 16L
 	},
@@ -17,7 +20,10 @@
 		uid: "c240be49",
 		type: "item",
 		items: [{
-			item: "bibliocraft:cookiejar"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bibliocraft:cookiejar"
 		}]
 	}],
 	rewards: [{
@@ -29,6 +35,9 @@
 		uid: "26dc97b0",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "common_lootbox"

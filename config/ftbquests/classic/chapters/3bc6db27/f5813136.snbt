@@ -8,11 +8,7 @@
 		uid: "e6f26d77",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "immersiveengineering:wooden_device0",
-			Damage: 2s
+			item: "immersiveengineering:wooden_device0 1 2"
 		}]
 	}],
 	rewards: [{
@@ -29,9 +25,6 @@
 		uid: "4a2ac294",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "immersiveengineering:material",
 			tag: {
 				perks: {

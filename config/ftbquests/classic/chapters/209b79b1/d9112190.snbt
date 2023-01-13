@@ -1,8 +1,7 @@
 {
-	title: "Bounty: Naga",
+	title: "悬赏：飞蛇",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "twilightforest:knightmetal_sword"
@@ -10,9 +9,9 @@
 	x: -1.0d,
 	y: -8.0d,
 	shape: "square",
-	description: "Coastal cliffs are dangerous places. Adventurers tell of winged serpents called nagas with impressive speed and menacing acid venom. Though these drakes are powerful, a well-placed arrow can knock a naga right out of the sky",
+	description: "山地是危险的地方。冒险家们发现了一种被称为飞蛇的生物：它们有着惊人的速度和剧毒的毒液。虽然飞蛇非常强大，但它们有时不会躲避箭。因此，一支发射得当的箭对战斗有很大帮助。",
 	text: [
-		"Naga acid is deadly, but can actually be used to neutralize other poisons. The fangs they drop upon death can be used to brew poison antidotes and preventatives."
+		"飞蛇喷的毒液是致命的，但实际上它可以中和其他毒药。飞蛇死后掉落的飞蛇毒牙可以制作抗毒药水。"
 	],
 	dependencies: [
 		"37a80b0e"
@@ -23,7 +22,6 @@
 		type: "kill",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -40,9 +38,6 @@
 		uid: "68f5c87d",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -52,23 +47,13 @@
 	{
 		uid: "5790d84d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:emerald_block"
-		},
+		item: "minecraft:emerald_block",
 		count: 2
 	},
 	{
 		uid: "6439ebd7",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mowziesmobs:naga_fang"
-		},
+		item: "mowziesmobs:naga_fang",
 		count: 3
 	}]
 }

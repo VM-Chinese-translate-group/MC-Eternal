@@ -2,7 +2,7 @@
 	x: -13.5d,
 	y: -4.5d,
 	shape: "octagon",
-	description: "This book can be placed in your crafting window with any guide book you may have to create a personal library on the go. *Right click to change guides. left click to revert back* &l&o*Don't look at a block while clicking*",
+	description: "这本书可以和你的任何其他模组的宝典一起放在合成栏中并合成，合成后那些宝典将变成它的一部分，这能使你在冒险之路上拥有一个私人图书馆。*右击宝典打开菜单选择变化。左击恢复为默认形态* &l&o*切忌看书时shift右键方块*。",
 	min_required_dependencies: 1,
 	dependencies: [
 		"87cb3976"
@@ -13,6 +13,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "akashictome:tome"
@@ -34,6 +35,9 @@
 		uid: "9ca046ca",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ancientspellcraft:ancient_spellcraft_scroll",
 			tag: {
 				display: {

@@ -1,7 +1,7 @@
 {
 	x: 18.0d,
 	y: 6.0d,
-	description: "Pick whatever enchant your heart desires!",
+	description: "选择你心中想要的任何附魔！",
 	dependencies: [
 		"60c1184c"
 	],
@@ -9,10 +9,7 @@
 		uid: "00b599e9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_enchanter"
+			item: "enderio:block_enchanter"
 		}]
 	}],
 	rewards: [{

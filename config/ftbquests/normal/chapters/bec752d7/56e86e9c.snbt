@@ -1,8 +1,11 @@
 {
-	title: "Master Wand",
+	title: "大师魔杖",
 	x: 5.0d,
 	y: 2.0d,
-	description: "*Accepts any Master Wand*",
+	description: "*随便什么属性的大师魔杖*",
+	text: [
+		""
+	],
 	dependencies: [
 		"1aa705b9"
 	],
@@ -11,48 +14,56 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_fire_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_ice_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_lightning_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_necromancy_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_earth_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_sorcery_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:master_healing_wand"
@@ -64,7 +75,13 @@
 		uid: "7fdc4a89",
 		type: "loot",
 		title: "Master Spell Book",
-		icon: "ebwizardry:spell_book 1 140",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 140s
+		},
 		table: 7
 	},
 	{

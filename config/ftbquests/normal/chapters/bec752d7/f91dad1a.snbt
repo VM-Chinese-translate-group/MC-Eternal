@@ -1,7 +1,10 @@
 {
 	x: 16.0d,
 	y: -10.0d,
-	description: "Significantly increased Agility, just add Mana!",
+	description: "魔力裹挟者你的双足，使你平步青云",
+	text: [
+		""
+	],
 	dependencies: [
 		"e4a4db69"
 	],
@@ -9,10 +12,11 @@
 		uid: "38df6f59",
 		type: "item",
 		items: [{
-			id: "botania:supertravelbelt",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:supertravelbelt"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

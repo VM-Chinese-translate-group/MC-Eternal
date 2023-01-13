@@ -1,15 +1,10 @@
 {
-	title: "Blaze Seeds",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "mysticalagriculture:blaze_seeds"
-	},
+	title: "烈焰人种子",
+	icon: "mysticalagriculture:blaze_seeds",
 	x: -1.5d,
 	y: -0.5d,
 	shape: "diamond",
-	description: "*Unlocked from completing the Exploration chapter*",
+	description: "*完成探索章节以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"209b79b1"
@@ -23,11 +18,6 @@
 		uid: "ee5f359a",
 		type: "item",
 		title: "Blaze Seeds",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:blaze_seeds"
-		}
+		item: "mysticalagriculture:blaze_seeds"
 	}]
 }

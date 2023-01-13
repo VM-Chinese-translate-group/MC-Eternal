@@ -8,7 +8,10 @@
 		uid: "c50070dd",
 		type: "item",
 		items: [{
-			item: "botania:livingwood"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:livingwood"
 		}]
 	}],
 	rewards: [{

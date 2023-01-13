@@ -1,7 +1,7 @@
 {
 	x: 11.5d,
 	y: -0.5d,
-	description: "&oMoo?",
+	description: "&oMoo（牛的拟声词）?",
 	dependencies: [
 		"0a5005e1"
 	],
@@ -9,7 +9,10 @@
 		uid: "20c81d46",
 		type: "item",
 		items: [{
-			item: "cookingforblockheads:cow_jar"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cookingforblockheads:cow_jar"
 		}]
 	}],
 	rewards: [{

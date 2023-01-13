@@ -1,11 +1,9 @@
 {
-	title: "Resonation with Conflicts",
+	title: "共鸣的矛盾",
 	icon: {
 		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {
-				AS_Amulet_HolderLeast: -8851329178942211897L,
-				AS_Amulet_HolderMost: 867781763579201090L
-			}
+			"wizardryutils:summoneditemdata": {},
+			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "astralsorcery:itemskyresonator",
 		tag: {
@@ -22,9 +20,9 @@
 	},
 	x: 0.5d,
 	y: -18.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oA &9&oFosic Resonator&7&o enhanced with certain reagents unlocks the power to shift into a &9&oDomic Resonator&7&o, a diagnostics tool that, on &d&oRight-click&7&o of an appropriate block, will visually display &d&oStarlight Cannibalization&7&o and &d&oRitual Radius&7&o to the holder..."
+		"&9&o汇星共振器&7&o可以通过某些手段升级为&9&o汇星共振器 穹域&7&o，这种升级后的共振器可以通过&d&o右击&7&o方块来显示当前的&d&o星能厂&7&o和&d&o效应放大器的工作范围&7&o。"
 	],
 	dependencies: [
 		"d5074b4b"

@@ -8,7 +8,10 @@
 		uid: "67ad245b",
 		type: "item",
 		items: [{
-			item: "ebwizardry:attunement_upgrade"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:attunement_upgrade"
 		}]
 	}],
 	rewards: [{

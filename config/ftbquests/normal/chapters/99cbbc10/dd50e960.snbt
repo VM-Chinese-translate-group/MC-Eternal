@@ -1,15 +1,18 @@
 {
-	title: "Top Tier Food: Corned Beef Breakfast",
+	title: "顶级食品：咸牛肉便餐",
 	x: 1.0d,
 	y: -6.5d,
 	text: [
-		"What about second breakfast?"
+		"那第二顿早餐呢?"
 	],
 	tasks: [{
 		uid: "699bc640",
 		type: "item",
 		items: [{
-			item: "harvestcraft:cornedbeefbreakfastitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:cornedbeefbreakfastitem"
 		}]
 	}],
 	rewards: [{
@@ -20,6 +23,12 @@
 	{
 		uid: "68e26f0b",
 		type: "item",
-		item: "minecraft:diamond"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"treasure2:pouchable": {}
+			},
+			id: "minecraft:diamond"
+		}
 	}]
 }

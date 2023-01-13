@@ -1,16 +1,20 @@
 {
 	x: 1.5d,
 	y: -11.5d,
-	description: "&oAny kind of Star-Seeing device will perceive these Constellations if you know where to look...",
+	description: "&o如果你在正确的时间仰望天空，任何观星设备都可以发现这些星座",
+	text: [
+		""
+	],
 	dependencies: [
 		"9b00c6ef"
 	],
 	tasks: [{
 		uid: "90a7feaf",
 		type: "advancement",
-		title: "Discover a &9Bright Constellation",
+		title: "发现一个&9明亮星座",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemhandtelescope"

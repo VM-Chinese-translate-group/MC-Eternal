@@ -21,6 +21,9 @@
 		uid: "c72b9cbc",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thaumicaugmentation:stability_field_generator"
 		}]
 	}],

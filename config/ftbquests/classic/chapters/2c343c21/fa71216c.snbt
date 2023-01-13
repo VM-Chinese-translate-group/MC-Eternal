@@ -1,32 +1,26 @@
 {
-	title: "&3&lRat Upgrade: Creative",
+	title: "&3&l老鼠升级：创造",
 	x: 3.2d,
 	y: 2.0d,
 	shape: "octagon",
-	description: "&oThe immortal rat... I've only heard tales of such power...",
+	description: "&o不死的老鼠……我只听说过关于这种力量的传说……",
 	size: 0.8d,
 	tasks: [{
 		uid: "fe8478d9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:rat_upgrade_creative"
+			item: "rats:rat_upgrade_creative"
 		}]
 	}],
 	rewards: [{
 		uid: "82838911",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

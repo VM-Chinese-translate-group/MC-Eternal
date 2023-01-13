@@ -1,8 +1,8 @@
 {
-	title: "&c&lDefeat The &4&lWither",
+	title: "&c&l击败&4&l凋灵",
 	x: -7.5d,
 	y: -5.0d,
-	description: "Let's hope it doesn't spawn as a Champion! &0It will",
+	description: "让我们为你祈祷它不会是个冠军生物！&0这是有可能的",
 	dependencies: [
 		"d22a6b71"
 	],
@@ -10,7 +10,11 @@
 		uid: "04d57182",
 		type: "item",
 		items: [{
-			item: "minecraft:skull 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 1s
 		}],
 		count: 3L
 	}],

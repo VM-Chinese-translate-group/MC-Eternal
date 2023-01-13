@@ -8,7 +8,10 @@
 		uid: "046d2179",
 		type: "item",
 		items: [{
-			item: "fairylights:ladder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fairylights:ladder"
 		}]
 	}],
 	rewards: [{

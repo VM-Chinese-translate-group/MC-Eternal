@@ -1,7 +1,7 @@
 {
 	x: -14.5d,
 	y: 3.0d,
-	description: "&oRight click on an entity (such as a cow, pig or sheep) to pick them up and bring them with you",
+	description: "右键一个实体（如牛、猪或羊），将其直接举在头上！",
 	dependencies: [
 		"cc3f3c37"
 	],
@@ -9,7 +9,10 @@
 		uid: "742efa7b",
 		type: "item",
 		items: [{
-			item: "tconstruct:piggybackpack"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:piggybackpack"
 		}]
 	}],
 	rewards: [{
@@ -25,6 +28,11 @@
 	{
 		uid: "80d31bf7",
 		type: "item",
-		item: "chancecubes:chance_cube"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chancecubes:chance_cube"
+		}
 	}]
 }

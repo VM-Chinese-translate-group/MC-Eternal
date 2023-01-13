@@ -1,7 +1,10 @@
 {
 	x: 16.0d,
 	y: -7.0d,
-	description: "\"Reflects\" the contents of a Mana Pool. *Read Lexica Botania for more Info*",
+	description: "“绑定”魔力池到你的手中*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"59dd41e8"
 	],
@@ -9,11 +12,12 @@
 		uid: "72539099",
 		type: "item",
 		items: [{
-			id: "botania:manamirror",
-			tag: {},
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:manamirror",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -14,7 +14,10 @@
 		uid: "372eec8e",
 		type: "item",
 		items: [{
-			item: "thaumadditions:puriflower"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:puriflower"
 		}]
 	}],
 	rewards: [{

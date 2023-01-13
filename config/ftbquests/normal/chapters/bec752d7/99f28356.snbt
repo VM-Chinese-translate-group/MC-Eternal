@@ -9,7 +9,10 @@
 		uid: "362b5672",
 		type: "item",
 		items: [{
-			item: "ebwizardry:crystal_shard"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:crystal_shard"
 		}]
 	}],
 	rewards: [{

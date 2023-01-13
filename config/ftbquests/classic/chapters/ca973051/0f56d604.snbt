@@ -1,23 +1,17 @@
 {
-	title: "The Knight Phantoms",
+	title: "幻影骑士",
 	x: -12.0d,
 	y: -11.5d,
 	shape: "diamond",
-	description: "&oIn the Darkest sectors of the Twilight Forest lie ancient Strongholds... What could they possibly contain?",
+	description: "&o在暮色森林最黑暗的角落里，有着十分古老的要塞。。。令我不禁好奇，要塞里边有什么？",
 	dependencies: [
 		"0647fe18"
 	],
 	tasks: [{
 		uid: "410a5816",
 		type: "advancement",
-		title: "Advancement: &eCarminite Acclimation",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "twilightforest:trophy",
-			Damage: 4s
-		},
+		title: "进度: &e号令砷铅铁机关",
+		icon: "twilightforest:trophy 1 4",
 		advancement: "twilightforest:progress_knights",
 		criterion: ""
 	}],
@@ -30,9 +24,6 @@
 		uid: "b454a205",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -44,7 +35,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -8851329178942211897L,
 					AS_Amulet_HolderMost: 867781763579201090L
@@ -58,11 +48,11 @@
 				}],
 				display: {
 					Lore: [
-						"Given to a secret order of Knights...",
-						"Not so secret anymore, is it?",
-						"§dExclusive Twilight Relic"
+						"有着神秘背景的骑士团。。",
+						"不再那么神秘了，不是吗？",
+						"§d暮色森林独家遗物"
 					],
-					Name: "§8§lForgotten Knight's Helm"
+					Name: "§8§l幻影骑士头盔"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 348345,
@@ -71,7 +61,7 @@
 					Slot: "head",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Revenant Rage"
+					Name: "亡灵之怒"
 				},
 				{
 					UUIDMost: 348355,
@@ -80,7 +70,7 @@
 					Slot: "head",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Revenant Rage"
+					Name: "亡灵之怒"
 				},
 				{
 					UUIDMost: 3568345,
@@ -89,7 +79,7 @@
 					Slot: "head",
 					AttributeName: "generic.attackDamage",
 					Operation: 0,
-					Name: "Revenant Rage"
+					Name: "亡灵之怒"
 				}]
 			}
 		}

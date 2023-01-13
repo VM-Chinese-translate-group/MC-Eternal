@@ -8,10 +8,7 @@
 		uid: "9e7b9b65",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thebetweenlands:green_middle_gem"
+			item: "thebetweenlands:green_middle_gem"
 		}],
 		count: 4L
 	}],

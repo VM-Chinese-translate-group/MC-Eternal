@@ -9,7 +9,10 @@
 		uid: "220e74a5",
 		type: "item",
 		items: [{
-			item: "naturesaura:infused_iron"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:infused_iron"
 		}]
 	}],
 	rewards: [{

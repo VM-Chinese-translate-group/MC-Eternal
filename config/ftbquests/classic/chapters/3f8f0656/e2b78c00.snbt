@@ -1,7 +1,7 @@
 {
 	x: -2.5d,
 	y: 11.5d,
-	description: "ME Terminal, but Wireless! Wireless Access Points determine the range, more than one Access Point is allowed!",
+	description: "ME终端，但无线！ME无线访问点决定范围，允许多个访问点！",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:wireless_terminal",
@@ -23,10 +22,7 @@
 		uid: "e81734ce",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:wireless_access_point"
+			item: "appliedenergistics2:wireless_access_point"
 		}]
 	}],
 	rewards: [{

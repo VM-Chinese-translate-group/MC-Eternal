@@ -14,7 +14,10 @@
 		uid: "e7aae5c2",
 		type: "item",
 		items: [{
-			item: "thaumcraft:vis_battery"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:vis_battery"
 		}]
 	}],
 	rewards: [{

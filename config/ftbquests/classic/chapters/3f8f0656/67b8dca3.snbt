@@ -8,11 +8,7 @@
 		uid: "28f4cdd2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:compound",
-			Damage: 1s
+			item: "nuclearcraft:compound 1 1"
 		}],
 		count: 4L
 	}],

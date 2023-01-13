@@ -1,23 +1,13 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "rats:creative_cheese"
-	},
+	icon: "rats:creative_cheese",
 	x: -17.5d,
 	y: -3.5d,
 	shape: "diamond",
-	description: "Rumor tells of a far off land, Ratlantis. This hostile land full of legendary, dangerous creatures can supposedly be accessed by gaining a magical token, an extremely rare drop from a rat. Those who tell tales of Ratlantis return with unrivaled power",
+	description: "传说有一个遥远的国度——鼠西洲，在这个敌对土地上充满着传奇且危险生物，据说可以通过一个令牌（在一种极其罕见的老鼠身上掉落）来进入。那些讲述着鼠西洲故事的人无一例外的都会带着无与伦比的力量回归。",
 	tasks: [{
 		uid: "289290f7",
 		type: "dimension",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:idol_of_ratlantis"
-		},
+		icon: "rats:idol_of_ratlantis",
 		dim: -8
 	}],
 	rewards: [{
@@ -25,7 +15,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:scythe",
@@ -85,7 +74,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "rats:rat_arrow"
@@ -94,20 +82,12 @@
 	{
 		uid: "b5c620fa",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:rat_upgrade_feral_bite"
-		}
+		item: "rats:rat_upgrade_feral_bite"
 	},
 	{
 		uid: "efac0e08",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "cheesy_cache"

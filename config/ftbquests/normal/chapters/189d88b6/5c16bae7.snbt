@@ -10,7 +10,10 @@
 		uid: "e5f0e08e",
 		type: "item",
 		items: [{
-			item: "mod_lavacow:moltenbeef"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:moltenbeef"
 		}],
 		count: 16L
 	}],
@@ -29,6 +32,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:vespa_dagger"

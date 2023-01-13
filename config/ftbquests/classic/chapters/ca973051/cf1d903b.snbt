@@ -8,30 +8,21 @@
 		uid: "03dc326f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:bloomcrystal"
+			item: "midnight:bloomcrystal"
 		}]
 	},
 	{
 		uid: "9d6c88fc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:rouxe"
+			item: "midnight:rouxe"
 		}]
 	},
 	{
 		uid: "57b4c6d6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:geode"
+			item: "midnight:geode"
 		}]
 	}],
 	rewards: [{

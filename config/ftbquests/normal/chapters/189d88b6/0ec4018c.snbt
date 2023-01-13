@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -6.5d,
-	description: "&oWell, I'll eat it,' said Alice, `and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door so either way I'll get into the garden, and I don't care which happens!",
+	description: "&o“好吧，我要吃了它”，爱丽丝说，“如果它让我变大，我就能拿到那把钥匙；如果它让我变小，我就能从这道门缝里爬出来，所以无论哪种方式，我都能进入花园，我可不在乎会是哪种情况！”",
 	hide_dependency_lines: true,
 	dependencies: [
 		"36443d40"
@@ -11,7 +11,10 @@
 		uid: "357f4ddc",
 		type: "item",
 		items: [{
-			item: "mod_lavacow:netherstew"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:netherstew"
 		}],
 		count: 8L
 	}],
@@ -30,6 +33,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "dungeontactics:wooden_battleaxe",

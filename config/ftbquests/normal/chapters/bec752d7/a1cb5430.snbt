@@ -8,7 +8,10 @@
 		uid: "4524fc79",
 		type: "item",
 		items: [{
-			item: "totemic:buffalo_items"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "totemic:buffalo_items"
 		}]
 	}],
 	rewards: [{

@@ -1,7 +1,7 @@
 {
 	x: -1.5d,
 	y: 11.5d,
-	description: "Secures your ME Network from others. Required to link and use any form of Wireless Terminal.",
+	description: "保护您的ME网络免受他人入侵。需要连接并使用任何形式的无线终端。",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -9,10 +9,7 @@
 		uid: "8323e3ac",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:security_station"
+			item: "appliedenergistics2:security_station"
 		}]
 	}],
 	rewards: [{

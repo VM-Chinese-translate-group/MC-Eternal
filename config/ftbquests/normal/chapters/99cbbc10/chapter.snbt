@@ -1,6 +1,11 @@
 {
-	title: "Farming and Agriculture",
-	icon: "harvestcraft:seedsoupitem",
+	title: "农业",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "harvestcraft:seedsoupitem"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

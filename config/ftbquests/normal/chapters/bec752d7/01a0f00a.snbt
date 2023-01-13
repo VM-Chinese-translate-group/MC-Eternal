@@ -14,7 +14,11 @@
 		uid: "100705f4",
 		type: "item",
 		items: [{
-			item: "thaumcraft:turret 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:turret",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

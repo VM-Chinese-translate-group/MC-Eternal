@@ -15,7 +15,10 @@
 		uid: "d2f7720b",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:rift_feeder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:rift_feeder"
 		}]
 	}],
 	rewards: [{

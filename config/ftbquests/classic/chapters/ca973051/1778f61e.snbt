@@ -8,10 +8,7 @@
 		uid: "fe371002",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:arcane_technology"
+			item: "rats:arcane_technology"
 		}]
 	}],
 	rewards: [{
@@ -27,11 +24,6 @@
 	{
 		uid: "6508241c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:rat_upgrade_tnt"
-		}
+		item: "rats:rat_upgrade_tnt"
 	}]
 }

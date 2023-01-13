@@ -20,22 +20,40 @@
 		type: "item",
 		title: "Any &dThaumic Additions Jar",
 		items: [{
-			item: "thaumadditions:jar_brass"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:jar_brass"
 		},
 		{
-			item: "thaumadditions:jar_thaumium"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:jar_thaumium"
 		},
 		{
-			item: "thaumadditions:jar_eldritch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:jar_eldritch"
 		},
 		{
-			item: "thaumadditions:jar_mithrillium"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:jar_mithrillium"
 		},
 		{
-			item: "thaumadditions:jar_adaminite"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:jar_adaminite"
 		},
 		{
-			item: "thaumadditions:jar_mithminite"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:jar_mithminite"
 		}],
 		ignore_nbt: 1b
 	}],

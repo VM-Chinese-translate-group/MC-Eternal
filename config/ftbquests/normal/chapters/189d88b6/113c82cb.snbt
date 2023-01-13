@@ -1,9 +1,14 @@
 {
-	title: "He protec, he attac and most importantly he got your back",
-	icon: "stupidthings:mine_turtle",
+	title: "他保护你，他攻击你，但最重要的是，他支持你。",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "stupidthings:mine_turtle"
+	},
 	x: -18.0d,
 	y: -1.0d,
-	description: "Lil turtle buddy &o*He explodes stop acting all surprised, have you seen how much he looks like a landmine??*",
+	description: "小乌龟伙伴&o*他爆炸了，别整出一副很惊讶的样子，你看到他有多像一个地雷吗？",
 	dependencies: [
 		"87cb3976"
 	],
@@ -11,7 +16,10 @@
 		uid: "9f1682e1",
 		type: "item",
 		items: [{
-			item: "minecraft:gunpowder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gunpowder"
 		}],
 		count: 3L
 	}],
@@ -19,6 +27,9 @@
 		uid: "186c02f2",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "stupidthings:mine_turtle",
 			tag: {
 				display: {

@@ -1,7 +1,8 @@
 {
-	title: "&c&lNether Bounty: &4Salamander",
+	title: "&c&l地狱悬赏：&4炎熔螈",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "witherskelefix:blade"
@@ -20,6 +21,7 @@
 		type: "kill",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:broadsword",
@@ -89,7 +91,12 @@
 	{
 		uid: "fa4bf99a",
 		type: "item",
-		item: "mod_lavacow:burntovipositor"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:burntovipositor"
+		}
 	},
 	{
 		uid: "34f74849",

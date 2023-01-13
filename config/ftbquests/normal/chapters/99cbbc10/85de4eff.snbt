@@ -5,7 +5,10 @@
 		uid: "04ab5b91",
 		type: "item",
 		items: [{
-			item: "harvestcraft:blackberryseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:blackberryseeditem"
 		}]
 	}],
 	rewards: [{

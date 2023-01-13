@@ -1,7 +1,7 @@
 {
 	x: -15.5d,
 	y: 2.5d,
-	description: "&oLarge portable storage",
+	description: "&o大容量，超便携的存储袋！",
 	dependencies: [
 		"cc3f3c37"
 	],
@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cyclicmagic:storage_bag",

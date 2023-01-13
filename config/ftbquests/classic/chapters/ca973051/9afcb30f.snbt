@@ -1,7 +1,7 @@
 {
 	x: -11.0d,
 	y: -8.0d,
-	description: "&oDrain the Life from your Foes! &7&l*Recharge with a Fermented Spider Eye*",
+	description: "&o吸干敌人的生命 &7&l*用发酵蛛眼进行充能*",
 	dependencies: [
 		"0647fe18"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:lifedrain_scepter"

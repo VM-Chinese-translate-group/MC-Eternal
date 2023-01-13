@@ -1,16 +1,15 @@
 {
-	title: "&c&lCorruption Set",
+	title: "&c&l腐化套装",
 	x: 3.2d,
 	y: -1.2d,
 	shape: "octagon",
-	description: "&oIt is not power that corrupts but fear. Fear of losing power corrupts those who wield it and fear of the scourge of power corrupts those who are subject to it.",
+	description: "&o腐化的不是权力，而是恐惧。对失去权力的恐惧腐化了掌握权力的人，被权力掌控的恐惧腐化了受制于它的人。",
 	size: 0.8d,
 	tasks: [{
 		uid: "75430e96",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:void_robe_chest",
@@ -23,10 +22,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"�8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"�c(Part of the Corruption set)"
+						"§8延长人的寿命的手段是腐败的，反自然的，更不是没有代价的……",
+						"§c（腐化套装的一部分）"
 					],
-					Name: "�4�lGrasp of Death"
+					Name: "§4§l死亡之握"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -56,7 +55,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:void_robe_legs",
@@ -69,10 +67,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"�8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"�c(Part of the Corruption set)"
+						"§8延长人的寿命的手段是腐败的，反自然的，更不是没有代价的……",
+						"§c（腐化套装的一部分）"
 					],
-					Name: "�4�lGrasp of Suffering"
+					Name: "§4§l苦难之握"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -102,7 +100,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:void_sword",
@@ -123,11 +120,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8All that's left is a Nightmare...",
-						"�c(Part of the Corruption Set)",
-						"�e(Rare Moon Artifact)"
+						"§8留下的只是一个噩梦……",
+						"§c（腐化套装的一部分）",
+						"§e（稀有月球装备）"
 					],
-					Name: "�7Dream Eater"
+					Name: "§7食梦者"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -155,7 +152,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:crimson_blade",
@@ -176,11 +172,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8\"But what we call our despair is often only the painful eagerness of unfed hope.\"",
-						"�c(Part of the Corruption Set)",
-						"�e(Rare Moon Artifact)"
+						"§8\"但我们所谓的绝望，往往只是对未被满足的希望的痛苦渴望。\"",
+						"§c（腐化套装的一部分）",
+						"§e（稀有月球装备）"
 					],
-					Name: "�5Despair"
+					Name: "§5绝望"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -200,7 +196,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:crimson_boots",
@@ -208,10 +203,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"�8You have plenty of courage, I am sure",
-						"�c(Part of the Corruption Set)"
+						"§8你有足够的勇气，我确信",
+						"§c（腐化套装的一部分）"
 					],
-					Name: "�7Ruby Slippers"
+					Name: "§7红宝石鞋"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -240,14 +235,11 @@
 		uid: "d50e3853",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

@@ -4,10 +4,9 @@
 	tasks: [{
 		uid: "48a519c7",
 		type: "kill",
-		title: "&6&lBounty: Scorpion",
+		title: "&6&l悬赏：蝎",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:wasp_sword"
@@ -19,9 +18,6 @@
 		uid: "e715cb28",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

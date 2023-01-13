@@ -4,44 +4,24 @@
 	tasks: [{
 		uid: "5c9486d8",
 		type: "stat",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "treasure2:emerald_lock"
-		},
+		icon: "treasure2:emerald_lock",
 		stat: "stat.tradedWithVillager",
 		value: 500
 	}],
 	rewards: [{
 		uid: "dcfa2705",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "82935050",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "randomthings:ingredient",
-			Damage: 9s
-		}
+		item: "randomthings:ingredient 1 9"
 	},
 	{
 		uid: "48567c23",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

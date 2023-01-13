@@ -17,6 +17,7 @@
 		title: "&5Gyroscope&r or &5Girdle&r Upgrade",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
@@ -24,6 +25,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},

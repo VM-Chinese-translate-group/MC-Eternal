@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: 0.5d,
-	description: "&2Portable chest that lives on your back",
+	description: "&2处于你背上的便携式箱子",
 	dependencies: [
 		"a2b4f121"
 	],
@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "improvedbackpacks:backpack"
@@ -25,6 +26,11 @@
 	{
 		uid: "ce762e38",
 		type: "item",
-		item: "harvestcraft:apple_sapling"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:apple_sapling"
+		}
 	}]
 }

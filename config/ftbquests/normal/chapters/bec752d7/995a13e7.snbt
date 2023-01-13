@@ -15,7 +15,10 @@
 		uid: "0f69c623",
 		type: "item",
 		items: [{
-			item: "thaumcraft:arcane_workbench_charger"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:arcane_workbench_charger"
 		}]
 	}],
 	rewards: [{

@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: -1.5d,
 	shape: "octagon",
-	description: "&oIt's just as amazing as you pictured in that little brain of yours",
+	description: "&o它就像你小脑瓜所想象的那样神奇",
 	dependencies: [
 		"b102924c"
 	],
@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:piranhalauncher"

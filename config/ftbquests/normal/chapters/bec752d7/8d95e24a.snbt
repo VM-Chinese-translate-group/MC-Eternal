@@ -1,29 +1,35 @@
 {
-	title: "Cosmic Creation",
+	title: "基础合成",
 	x: 7.0d,
 	y: -10.0d,
-	description: "&oAssemble this Table at the one empowered with &r&oStarlight&7&o, it shall be your way of further creations... Once your materials are set for a creation, &d&oRight-click&7&o upon it with the &9&oWand&7&o you must create to build it... Ensure this Table has an unobstructed view of the Stars...",
+	description: "&o星辉合成台是你拥有的第一个使用&r&o星能&7&o合成物品的祭坛，当然，你的路还很长，后面有更加强大的祭坛。手持&9&o共鸣星杖&7&o&d&o右击&7&o装有合成物品的祭坛，开始合成。",
+	text: [
+		""
+	],
 	dependencies: [
 		"b400aa76"
 	],
 	tasks: [{
 		uid: "614ff9fa",
 		type: "item",
-		title: "Luminous Crafting Table (or any AS Altar)",
+		title: "星辉合成台（或者更好的）",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:blockaltar"
 		},
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:blockaltar"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:blockaltar",
@@ -31,6 +37,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:blockaltar",
@@ -38,6 +45,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:blockaltar",

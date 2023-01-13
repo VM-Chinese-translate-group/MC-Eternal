@@ -13,7 +13,10 @@
 		uid: "f8f4e4d1",
 		type: "item",
 		items: [{
-			item: "thaumadditions:shadow_enchanter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:shadow_enchanter"
 		}]
 	}],
 	rewards: [{

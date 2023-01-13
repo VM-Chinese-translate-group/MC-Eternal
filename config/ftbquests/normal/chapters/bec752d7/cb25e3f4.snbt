@@ -1,9 +1,9 @@
 {
 	x: 11.5d,
 	y: -4.5d,
-	description: "Mana = Block Swap!",
+	description: "魔力=移山填海！",
 	text: [
-		"E=MineCraft^2"
+		"E=MineCraft^2（笑）"
 	],
 	dependencies: [
 		"d157bad6"
@@ -12,11 +12,12 @@
 		uid: "c23437c8",
 		type: "item",
 		items: [{
-			id: "botania:exchangerod",
-			tag: {},
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:exchangerod",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

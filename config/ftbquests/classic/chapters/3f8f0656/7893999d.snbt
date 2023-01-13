@@ -1,8 +1,8 @@
 {
-	title: "Energy Cells",
+	title: "能源元件",
 	x: -1.0d,
 	y: 9.0d,
-	description: "Holds extra power for the attached ME Network. Will be required on more energy-intensive setups, as Networks only accept power every so often!",
+	description: "为连接的ME网络提供额外能量。在更耗能的设置中将需要这个，因为ME网络每隔一段时间才接受一次能量！",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -10,16 +10,10 @@
 		uid: "6217a2a3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "appliedenergistics2:energy_cell",
 			tag: {}
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "appliedenergistics2:dense_energy_cell",
 			tag: {}
 		}],

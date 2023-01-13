@@ -1,18 +1,17 @@
 {
-	title: "&cPharaoh Slayer",
+	title: "&c法老杀手",
 	x: 0.0d,
 	y: 3.0d,
-	description: "&oTake down 15 Pharaoh's and claim their treasure",
+	description: "&o取下15个法老的首级，并带走他们的宝藏",
 	dependencies: [
 		"4deccbba"
 	],
 	tasks: [{
 		uid: "1cd73628",
 		type: "kill",
-		title: "Pharaoh Slayer",
+		title: "法老杀手",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "atum:body_of_atum"
@@ -29,9 +28,6 @@
 		uid: "38a18c93",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

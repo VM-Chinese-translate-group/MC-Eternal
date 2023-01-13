@@ -13,7 +13,10 @@
 		uid: "be128c72",
 		type: "item",
 		items: [{
-			item: "thaumadditions:aura_disperser"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:aura_disperser"
 		}]
 	}],
 	rewards: [{

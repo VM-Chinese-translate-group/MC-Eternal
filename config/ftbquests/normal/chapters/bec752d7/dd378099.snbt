@@ -1,6 +1,11 @@
 {
 	title: "&5Impetus Matrix",
-	icon: "thaumicaugmentation:impetus_matrix",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thaumicaugmentation:impetus_matrix"
+	},
 	x: 28.5d,
 	y: -22.5d,
 	description: "&oStores 200MFE (No like really)&7 *Read Description",
@@ -18,14 +23,20 @@
 		uid: "3db90215",
 		type: "item",
 		items: [{
-			item: "thaumcraft:infusion_matrix"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:infusion_matrix"
 		}]
 	},
 	{
 		uid: "a9ceac92",
 		type: "item",
 		items: [{
-			item: "thaumcraft:pedestal_eldritch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:pedestal_eldritch"
 		}],
 		count: 2L
 	},
@@ -33,14 +44,23 @@
 		uid: "38628b08",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:material 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:material",
+			Damage: 3s
 		}]
 	},
 	{
 		uid: "b9d40cb0",
 		type: "observation",
 		title: "Gaze at an activated &5Impetus Matrix",
-		icon: "thaumicaugmentation:impetus_matrix",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:impetus_matrix"
+		},
 		match_type: "block_id",
 		match: "thaumicaugmentation:impetus_matrix",
 		timer: 0L

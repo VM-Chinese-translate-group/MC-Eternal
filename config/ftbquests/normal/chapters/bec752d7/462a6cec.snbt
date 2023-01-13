@@ -8,7 +8,10 @@
 		uid: "e4811f24",
 		type: "item",
 		items: [{
-			item: "totemic:wind_chime"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "totemic:wind_chime"
 		}]
 	}],
 	rewards: [{

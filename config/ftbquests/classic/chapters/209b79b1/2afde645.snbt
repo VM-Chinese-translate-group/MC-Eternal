@@ -2,9 +2,9 @@
 	x: 1.5d,
 	y: -1.5d,
 	shape: "square",
-	description: "&oAn ancient story told that: when you gaze into the Scarcrow's hollow eye, your soul will be taken. Luckily, that's just a story. The Scarecrow takes your soul using its scythe instead...",
+	description: "&o民间有一个古老的传说：如果看向稻草人的眼睛，人的灵魂就会被它吸走。但是传说嘛，是不是真的还两说。但我能确定的是，稻草人会用它锋利的镰刀收割你的灵魂",
 	text: [
-		"*Only a brave soul would challenge a scarecrow at night, *cough* I mean a fool*"
+		"*只有莽夫才会在晚上挑战稻草人。*咳咳*，我开玩笑的。*"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -14,10 +14,9 @@
 	tasks: [{
 		uid: "fe0ed182",
 		type: "kill",
-		title: "Bounty: Scarecrow",
+		title: "悬赏：稻草人",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -39,9 +38,6 @@
 		uid: "f60daef4",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -52,13 +48,10 @@
 		uid: "2a2f645f",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:tnt",
 			tag: {
 				display: {
-					Name: "This might come in handy later?"
+					Name: "留得炸弹在，不怕没柴烧"
 				}
 			}
 		}

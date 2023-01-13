@@ -1,8 +1,8 @@
 {
-	title: "Advanced Energy Storage",
+	title: "进阶能源存储",
 	x: 15.0d,
 	y: 9.0d,
-	description: "Craft a Capacitor Bank",
+	description: "制造电容组",
 	dependencies: [
 		"bde05be8",
 		"65ea1d0d"
@@ -12,11 +12,7 @@
 		uid: "20da1f91",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_cap_bank",
-			Damage: 2s
+			item: "enderio:block_cap_bank 1 2"
 		}],
 		ignore_nbt: 1b
 	}],

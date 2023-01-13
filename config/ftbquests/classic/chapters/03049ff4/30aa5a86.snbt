@@ -1,8 +1,7 @@
 {
-	title: "&d&lPowering the entire planet ",
+	title: "&d&l我的能量，能驱动地球！",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "techreborn:lithiumbattery",
@@ -13,7 +12,7 @@
 	x: -2.5d,
 	y: 0.5d,
 	shape: "diamond",
-	description: "Finally! Something to spend my billions of RF on...",
+	description: "终于！我可以把我数十亿计的RF用掉了。。。",
 	can_repeat: true,
 	dependencies: [
 		"fa85c35a"
@@ -30,7 +29,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "conarm:chestplate",
@@ -77,9 +75,6 @@
 		uid: "82890cac",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -91,9 +86,6 @@
 		uid: "5c4d1108",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "heavenly_box"
@@ -103,12 +95,6 @@
 	{
 		uid: "237d8913",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "buildcraftcore:engine",
-			Damage: 3s
-		}
+		item: "buildcraftcore:engine 1 3"
 	}]
 }

@@ -1,7 +1,10 @@
 {
 	x: 13.0d,
 	y: 6.5d,
-	description: "Unlimited powwwaa",
+	description: "爱你的摸帕瓦！",
+	text: [
+		""
+	],
 	dependencies: [
 		"090666e8"
 	],
@@ -9,7 +12,10 @@
 		uid: "b6582ce3",
 		type: "item",
 		items: [{
-			item: "vampirism:altar_inspiration"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:altar_inspiration"
 		}]
 	}],
 	rewards: [{
@@ -27,6 +33,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:blood_bottle",

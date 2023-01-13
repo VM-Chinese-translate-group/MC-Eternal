@@ -1,8 +1,8 @@
 {
-	title: "Mining without mining",
+	title: "无需挖矿的下矿！",
 	x: -4.5d,
 	y: 3.0d,
-	description: "&oBoom Boom Boom, I want you in my mineshaft?",
+	description: "&oBoom！Boom！Boom！我希望你能在我的矿井里？",
 	dependencies: [
 		"3b41a4ca"
 	],
@@ -10,7 +10,11 @@
 		uid: "d4822dbe",
 		type: "item",
 		items: [{
-			item: "tconstruct:throwball 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:throwball",
+			Damage: 1s
 		}],
 		count: 8L
 	}],

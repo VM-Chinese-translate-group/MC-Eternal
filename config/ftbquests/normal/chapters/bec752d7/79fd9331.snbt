@@ -19,7 +19,10 @@
 		uid: "956ea1ac",
 		type: "item",
 		items: [{
-			item: "thaumcraft:mirror_essentia"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:mirror_essentia"
 		}],
 		count: 2L
 	}],

@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: -6.5d,
-	description: "Dynamic tanks are an excellent method of storing large amounts of a liquid in style!",
+	description: "动态储罐是存储大量流体的绝佳方法！",
 	dependencies: [
 		"567a3a9f"
 	],
@@ -9,11 +9,7 @@
 		uid: "bd65eeaa",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mekanism:basicblock",
-			Damage: 9s
+			item: "mekanism:basicblock 1 9"
 		}]
 	}],
 	rewards: [{

@@ -1,8 +1,8 @@
 {
-	title: "Impending darkness",
+	title: "黑暗即将来临",
 	x: -13.0d,
 	y: -1.5d,
-	description: "When night comes you will soon notice hope, light and everything holy has forsaken you.",
+	description: "黑夜降落，很快你就会发现一切希望、光明和神圣的东西都抛弃了你。",
 	dependencies: [
 		"a2b4f121"
 	],
@@ -10,7 +10,10 @@
 		uid: "d42716e4",
 		type: "item",
 		items: [{
-			item: "tconstruct:stone_torch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:stone_torch"
 		}],
 		count: 8L
 	},
@@ -18,7 +21,10 @@
 		uid: "c3987b24",
 		type: "item",
 		items: [{
-			item: "futuremc:lantern"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "futuremc:lantern"
 		}],
 		count: 3L
 	}],
@@ -31,6 +37,9 @@
 		uid: "cba4526f",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "cheesy_cache"

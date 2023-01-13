@@ -2,15 +2,12 @@
 	x: 3.0d,
 	y: 7.0d,
 	shape: "octagon",
-	description: "Arcane Technology required for the recipe is dropped by the &6Ratlantean Automaton&7, check &d&lDimensions&7 for more info.",
+	description: "奥术科技需要的配方通过&6鼠西族战机&7掉落，请检查&d&l维度&7的更多信息。",
 	tasks: [{
 		uid: "f4d97b9a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "powersuits:tinkertable"
+			item: "powersuits:tinkertable"
 		}]
 	}],
 	rewards: [{
@@ -22,9 +19,6 @@
 		uid: "cfe0ac9c",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

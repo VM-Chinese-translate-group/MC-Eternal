@@ -1,16 +1,16 @@
 {
-	title: "&4Weak Blood Orb",
+	title: "&4虚弱气血宝珠",
 	x: 6.0d,
 	y: 18.0d,
-	description: "&oSoul Link",
+	description: "&o灵魂链接",
 	text: [
-		"&cRight-click&7 with a &4Blood Orb&7 to Bind it to yourself and take Life Essence directly from your HP.",
+		"&c右击&7&4气血宝珠&7可以让它吮吸你的鲜血，并将其转换成LP存储起来，吮吸了你的鲜血，它就会记住你的味道。",
 		"",
-		"Bound &4Blood Orbs&7 can be placed into a &4Blood Altar&7 to absorb &4Life Essence&7 into your &cSoul Network&7.",
+		"已绑定的&4气血宝珠s&7可以放置在&4血之祭坛&7上吸取&4生命源质&7以填充你的&c灵魂网络&7。",
 		"",
-		"Some things will consume &cLife Essence (LP)&7 from your &cSoul Network&7, if there isn't enough available, &4it will take it directly from you&7, harming you in the process.",
+		"某些东西会在使用时消耗你&c灵魂网络&7里的&c生命源质（LP）&7，如果灵魂网络不足以满足那些东西的干渴，&4它们就会把那如狼似虎的食欲转向你&7，你的身体可能会因此受损。",
 		"",
-		"Every Tier of &cBlood Orb&7 has a higher limit to how much &4Life Essence&7 it allows into your &cSoul Network&7."
+		"每个等级的&c气血宝珠&7 都有着自己的存储极限，即最多可以让多少&4生命源质&7 进入你的&c灵魂网络&7."
 	],
 	dependencies: [
 		"44e1406a"
@@ -18,9 +18,10 @@
 	tasks: [{
 		uid: "f098576d",
 		type: "item",
-		title: "&4Weak Blood Orb&r (or Better)",
+		title: "&4虚弱气血宝珠&r（或者更好的）",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:blood_orb",
@@ -30,6 +31,7 @@
 		},
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:blood_orb",
@@ -39,6 +41,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:blood_orb",
@@ -48,6 +51,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:blood_orb",
@@ -57,6 +61,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:blood_orb",
@@ -66,6 +71,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:blood_orb",
@@ -83,7 +89,12 @@
 	{
 		uid: "e69ada24",
 		type: "item",
-		item: "bloodmagic:slate",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:slate"
+		},
 		count: 4
 	}]
 }

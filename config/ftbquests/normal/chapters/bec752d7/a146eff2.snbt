@@ -1,17 +1,17 @@
 {
-	title: "&4Living Armor",
+	title: "&4束灵盔甲",
 	x: -2.0d,
 	y: 23.5d,
-	description: "&oIt's ALIVE!!",
+	description: "&o它……它是活的！",
 	text: [
-		"&4Living Armor&7 is a rather Unique armor which adapts to your Actions, &6Upgrading&7 your abilities depending on what actions you perform.",
+		"&4束灵盔甲&7 是一套特殊的盔甲，它们会随着你的成长而成长，穿上它们后，根据你做出的事情，它们会获得对应的&6升级&7。",
+		" ",
+		"它拥有一定的&6升级点数&7，每一次升级都会消耗一些。",
+		"一种&6升级&7升级的次数越多，提供的能力便越强，但是下次升级消耗的&6升级点数&7会更多。",
 		"",
-		"It has limited &6Upgrade Points&7, every Upgrade consumes some Points.",
-		"The more a single &6Upgrade&7 is Leveled up, the more intense its effect becomes, but &6Upgrade Point&7 cost grows increasingly aswell.",
+		"&c激活束灵盔甲的能力需要穿上全套盔甲",
 		"",
-		"&cA full set MUST be worn for Abilities to be active.",
-		"",
-		"&4Living Armor&7 is not really about being a &c\"Jack of All Trades\"&7, it's about being master of a few aspects."
+		"&4束灵盔甲&7并不是一种&c“全能盔甲”\"&7，它们只是在某一方面或者某几方面有着更强的力量。"
 	],
 	dependencies: [
 		"00db699e"
@@ -21,6 +21,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:living_armour_helmet"
@@ -33,6 +34,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:living_armour_chest",
@@ -46,6 +48,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:living_armour_leggings"
@@ -58,6 +61,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:living_armour_boots"

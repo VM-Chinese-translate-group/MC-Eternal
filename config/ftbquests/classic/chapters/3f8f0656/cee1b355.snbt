@@ -8,10 +8,7 @@
 		uid: "8fd39fda",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:crystallizer_idle"
+			item: "nuclearcraft:crystallizer_idle"
 		}]
 	}],
 	rewards: [{

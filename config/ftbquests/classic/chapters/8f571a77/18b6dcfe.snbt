@@ -1,9 +1,9 @@
 {
 	x: -2.0d,
 	y: -5.0d,
-	description: "Mining `",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing Bosses*"
+		"*完成Boss解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -13,11 +13,7 @@
 		uid: "f0802649",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:metal",
-			Damage: 2s
+			item: "tconstruct:metal 1 2"
 		}],
 		count: 32L
 	}],

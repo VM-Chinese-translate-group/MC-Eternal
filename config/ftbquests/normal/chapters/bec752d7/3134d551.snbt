@@ -1,8 +1,11 @@
 {
-	title: "Starlight Reflection",
+	title: "星光反射",
 	x: 5.5d,
 	y: -14.5d,
-	description: "&9&oLenses&7&o can be used to redirect &r&oStarlight&7&o they are receiving to different locations, this can be used to relay &r&oStarlight&7&o longer distances, connect multiple sources to one Network, or turn it around Corners...",
+	description: "&9&o透镜&7&o可以让&r&o星能&7&o转向，射向不同的地方。这可以让&r&o星能&7&o的传输路线边长，形成星能网络（你真的要这么做？）",
+	text: [
+		""
+	],
 	dependencies: [
 		"ac1e0498"
 	],
@@ -10,6 +13,9 @@
 		uid: "33094667",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "astralsorcery:blocklens",
 			tag: {
 				astralsorcery: {

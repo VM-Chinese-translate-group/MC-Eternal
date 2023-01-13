@@ -24,6 +24,7 @@
 		title: "Enter &5The Emptiness",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					biome: "dimdoors:black_void"
 				}

@@ -8,9 +8,6 @@
 		uid: "b9ab7e31",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "thermalexpansion:machine",
 			tag: {
 				RSControl: 0b,

@@ -1,8 +1,11 @@
 {
-	title: "Mmmh Tasty!",
+	title: "emmm……还不错？",
 	x: 15.0d,
 	y: 8.0d,
-	description: "Fast food but for Vampires",
+	description: "吸血鬼的华莱士（不会窜的放心）",
+	text: [
+		""
+	],
 	dependencies: [
 		"b2809ac9"
 	],
@@ -10,14 +13,20 @@
 		uid: "8c86fa4f",
 		type: "item",
 		items: [{
-			item: "vampirism:blood_grinder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:blood_grinder"
 		}]
 	},
 	{
 		uid: "5465dde9",
 		type: "item",
 		items: [{
-			item: "vampirism:blood_sieve"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:blood_sieve"
 		}]
 	},
 	{
@@ -25,6 +34,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:blood_container"

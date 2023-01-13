@@ -3,7 +3,7 @@
 	y: 6.5d,
 	description: "*点击阅读描述*",
 	text: [
-		"Vacuum freezer is required to cool hot tungstensteel ingots. It requires 9 reinforced machine casing in a 3x3 pattern below it, with the main machine at the top of the center casing."
+		"真空冷凝器用于冷却热钨钢锭。 结构需要 9 个进阶机械外壳在机器下面摆成 3x3 ， 机器位于外壳的顶上中间部位"
 	],
 	dependencies: [
 		"06cc512e"
@@ -12,21 +12,14 @@
 		uid: "fc432572",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:implosion_compressor"
+			item: "techreborn:implosion_compressor"
 		}]
 	},
 	{
 		uid: "5c06238e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:machine_casing",
-			Damage: 1s
+			item: "techreborn:machine_casing 1 1"
 		}],
 		count: 9L
 	}],

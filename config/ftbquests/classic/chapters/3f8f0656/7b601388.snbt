@@ -1,7 +1,7 @@
 {
 	x: 13.5d,
 	y: 6.0d,
-	description: "Machines that crafts items using mob drops/souls",
+	description: "使用生物掉落物/灵魂制作物品的机器",
 	dependencies: [
 		"05a41235"
 	],
@@ -9,10 +9,7 @@
 		uid: "5e8fbe8e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_soul_binder"
+			item: "enderio:block_soul_binder"
 		}],
 		ignore_nbt: 1b
 	},
@@ -20,10 +17,7 @@
 		uid: "c9998f87",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_slice_and_splice"
+			item: "enderio:block_slice_and_splice"
 		}],
 		ignore_nbt: 1b
 	}],

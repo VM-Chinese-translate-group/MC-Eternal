@@ -15,7 +15,11 @@
 		uid: "9bfd135b",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:material 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:material",
+			Damage: 5s
 		}]
 	}],
 	rewards: [{

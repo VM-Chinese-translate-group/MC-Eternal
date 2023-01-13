@@ -1,18 +1,15 @@
 {
 	x: 3.0d,
 	y: 5.5d,
-	description: "Mining with style!",
+	description: "挖出风格！",
 	dependencies: [
 		"5111a663"
 	],
 	tasks: [{
 		uid: "3162083d",
 		type: "item",
-		title: "Drill",
+		title: "钻",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "stevescarts:cartmodule",
 			tag: {
 				Data: 100b
@@ -20,9 +17,6 @@
 			Damage: 42s
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "stevescarts:cartmodule",
 			tag: {
 				Data: 100b
@@ -30,9 +24,6 @@
 			Damage: 8s
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "stevescarts:cartmodule",
 			tag: {
 				Data: 100b
@@ -45,11 +36,7 @@
 		uid: "4cb17ee1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:cartmodule",
-			Damage: 10s
+			item: "stevescarts:cartmodule 1 10"
 		}]
 	}],
 	rewards: [{

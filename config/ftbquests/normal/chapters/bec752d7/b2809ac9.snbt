@@ -8,7 +8,10 @@
 		uid: "14fd0d73",
 		type: "item",
 		items: [{
-			item: "vampirism:altar_infusion"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:altar_infusion"
 		}]
 	}],
 	rewards: [{

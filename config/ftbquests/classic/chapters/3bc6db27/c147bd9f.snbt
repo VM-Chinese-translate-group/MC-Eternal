@@ -1,8 +1,8 @@
 {
-	title: "Most advanced plate",
+	title: "最高级的板",
 	x: 0.0d,
 	y: 6.5d,
-	description: "Used to create the most advanced machines and items.",
+	description: "用于制作最高级的机器和物品",
 	dependencies: [
 		"06cc512e"
 	],
@@ -10,11 +10,7 @@
 		uid: "e673fee9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:plates",
-			Damage: 38s
+			item: "techreborn:plates 1 38"
 		}],
 		count: 4L
 	}],

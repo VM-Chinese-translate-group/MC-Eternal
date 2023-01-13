@@ -16,7 +16,10 @@
 		uid: "aecf01aa",
 		type: "item",
 		items: [{
-			item: "thaumcraft:jar_void"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:jar_void"
 		}]
 	}],
 	rewards: [{

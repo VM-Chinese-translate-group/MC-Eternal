@@ -1,13 +1,13 @@
 {
-	title: "Don the Stars",
+	title: "披“星”戴月",
 	x: 2.5d,
 	y: -22.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThe &9&oMantle of Stars&7&o is a Cloak which can be attuned to one of the &9&oConstellations&7&o you have discovered.",
-		"When attuning it, &d&oEnchantments&7&o and such are preserved.",
+		"&9&o星斗披风&7&o是一种可以接引&9&o星座&7&o的星能强化穿戴者的盔甲",
+		"当改变其星座调谐时，&d&o附魔&7&o等其他强化会被保留。",
 		"",
-		"Each attunement grants different special powers..."
+		"不同的调谐赋予你的力量也不同。"
 	],
 	dependencies: [
 		"d6707898"
@@ -17,6 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemcape",

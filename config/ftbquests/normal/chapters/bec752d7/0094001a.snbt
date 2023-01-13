@@ -8,7 +8,10 @@
 		uid: "475d54c4",
 		type: "item",
 		items: [{
-			item: "vampirism:alchemical_cauldron"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:alchemical_cauldron"
 		}]
 	}],
 	rewards: [{

@@ -2,9 +2,9 @@
 	x: -11.0d,
 	y: -9.0d,
 	shape: "octagon",
-	description: "Befriended pixies provide certain positive status to the player, depending on their color.",
+	description: "小精灵会对它们的人类朋友施法，使之加持与精灵颜色相对应的状态。",
 	text: [
-		"Pixies can be befriended with cake. In order to befriend a pixie, all one has to do is drop a cake near it, and it will eat the treat and become your friend."
+		"你可以用蛋糕驯服小精灵。如果你想获得小精灵的信任，你需要做的是将蛋糕丢向它们（丢准），然后它就会吃下蛋糕并与你建立友谊。"
 	],
 	dependencies: [
 		"a9d286cd"
@@ -12,15 +12,17 @@
 	tasks: [{
 		uid: "0491c7d9",
 		type: "item",
-		title: "Tame a Pixie using a Cake",
+		title: "用蛋糕驯服一只小精灵",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:pixie_wand"
 		},
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "minecraft:cake"
@@ -38,6 +40,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:ambrosia"

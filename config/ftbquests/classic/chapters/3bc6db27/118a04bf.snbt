@@ -8,21 +8,14 @@
 		uid: "8f802546",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "immersiveengineering:metal_device1",
-			Damage: 1s
+			item: "immersiveengineering:metal_device1 1 1"
 		}]
 	},
 	{
 		uid: "d442be22",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:furnace"
+			item: "minecraft:furnace"
 		}]
 	}],
 	rewards: [{

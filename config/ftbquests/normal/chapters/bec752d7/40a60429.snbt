@@ -27,6 +27,9 @@
 		type: "command",
 		title: "&dYou did read below, right?",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "lodsofemone:coin_big",
 			tag: {
 				value: 100L

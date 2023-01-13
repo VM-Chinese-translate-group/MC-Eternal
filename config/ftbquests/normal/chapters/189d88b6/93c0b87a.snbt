@@ -1,7 +1,7 @@
 {
 	x: -16.0d,
 	y: -1.0d,
-	description: "Clipboards can be used to store ideas/personal goals ingame. *Very handy for the \"I don't know what to do\" type of player*",
+	description: "写字板可以用来储存你在游戏中的想法/目标。*它对于那些“我是谁，我在哪，我要干什么”的玩家来说非常方便*。",
 	min_required_dependencies: 1,
 	dependencies: [
 		"87cb3976"
@@ -12,6 +12,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bibliocraft:biblioclipboard"
@@ -22,7 +23,12 @@
 	rewards: [{
 		uid: "1cf12aa3",
 		type: "item",
-		item: "harvestcraft:steakandchipsitem",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:steakandchipsitem"
+		},
 		count: 5
 	},
 	{

@@ -13,7 +13,10 @@
 		uid: "029b8e39",
 		type: "item",
 		items: [{
-			item: "thaumadditions:cake"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:cake"
 		}]
 	}],
 	rewards: [{

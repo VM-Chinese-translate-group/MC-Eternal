@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: -4.0d,
 	shape: "square",
-	description: "The spooktacular Vessel haunts a long-abandoned Carnival site in Roofed Forests. They only wake during the Night.",
+	description: "这种幽灵般的人偶出没在一个废弃已久的马戏团遗迹中。它们只会在晚上醒来攻击玩家，而白天则像木偶一样一动不动。",
 	dependencies: [
 		"7780b056"
 	],
@@ -10,12 +10,8 @@
 	tasks: [{
 		uid: "da227dfd",
 		type: "kill",
-		title: "Bounty: Vessel",
+		title: "悬赏：剧场人偶",
 		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "twilightforest:knightmetal_sword"
 		},
 		entity: "ancientbeasts:vessel",
@@ -35,9 +31,6 @@
 		uid: "22bf9c6e",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "mod_lavacow:zombiepiranha_item"
 		},
 		count: 3

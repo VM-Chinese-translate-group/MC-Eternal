@@ -30,7 +30,10 @@
 		uid: "ef527c40",
 		type: "item",
 		items: [{
-			item: "thaumcraft:infusion_matrix"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:infusion_matrix"
 		}]
 	}],
 	rewards: [{

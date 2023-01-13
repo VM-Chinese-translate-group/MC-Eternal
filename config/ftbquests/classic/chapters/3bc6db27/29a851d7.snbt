@@ -1,12 +1,12 @@
 {
-	title: "Heating the IBF further",
+	title: "让工业高炉烧起来",
 	x: -6.0d,
 	y: 5.5d,
-	description: "+1500K *Read Description*",
+	description: "+1500K *阅读描述*",
 	text: [
-		"Place 2 Source Blocks of Lava inside the structure to add 500 more Heat.",
-		"Right-click the Industrial Blast Furnace block with 4 Kanthal Coils to add 500 more Heat, you can do the same with Nichrome Coils for another 500 Heat.",
-		"You can also replace the Standard Machine Casing with Reinforced or Advanced Machine Casing to add more Heat, if needed."
+		"在结构中放置2 个熔岩源可以增加500热量",
+		"用坎塔尔合金线圈右键点击工业高炉方块可以增加500热量, 用镍铬合金线圈方块同样也能增加另外的500热量",
+		"如果想要更高温度，也能用进阶或高级机械外壳基础替换机械外壳"
 	],
 	dependencies: [
 		"1d44d4e3"
@@ -16,7 +16,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "minecraft:lava_bucket"
@@ -29,11 +28,7 @@
 		uid: "6ef4217a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:part",
-			Damage: 15s
+			item: "techreborn:part 1 15"
 		}],
 		count: 4L
 	},
@@ -41,11 +36,7 @@
 		uid: "16605b15",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:part",
-			Damage: 14s
+			item: "techreborn:part 1 14"
 		}],
 		count: 4L
 	}],

@@ -1,18 +1,17 @@
 {
-	title: "&4&lDragon Slayer",
+	title: "&4&l屠龙者",
 	x: 0.0d,
 	y: 2.0d,
-	description: "Fire",
+	description: "火",
 	text: [
-		"Slay x100 Dragons"
+		"杀死 龙 x100"
 	],
 	tasks: [{
 		uid: "41ac67f4",
 		type: "kill",
-		title: "Slay 100 Dragons",
+		title: "杀死100只龙",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonbone_sword_fire"
@@ -28,21 +27,13 @@
 	{
 		uid: "78859ba6",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "iceandfire:dragonsteel_fire_ingot"
-		},
+		item: "iceandfire:dragonsteel_fire_ingot",
 		count: 64
 	},
 	{
 		uid: "7fec26d6",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

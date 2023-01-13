@@ -8,26 +8,17 @@
 		uid: "fb5bdf4c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:fission_controller_new_fixed"
+			item: "nuclearcraft:fission_controller_new_fixed"
 		}]
 	},
 	{
 		uid: "f0496036",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:fission_block"
+			item: "nuclearcraft:fission_block"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:reactor_casing_transparent"
+			item: "nuclearcraft:reactor_casing_transparent"
 		}],
 		count: 54L
 	}],

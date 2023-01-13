@@ -1,15 +1,18 @@
 {
-	title: "Top Tier Food: Korean Dinner",
+	title: "顶级食品：韩式便餐",
 	x: 0.0d,
 	y: -5.5d,
 	text: [
-		"Don�t eat to much!"
+		"别吃太多!"
 	],
 	tasks: [{
 		uid: "3469e676",
 		type: "item",
 		items: [{
-			item: "harvestcraft:koreandinneritem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:koreandinneritem"
 		}]
 	}],
 	rewards: [{

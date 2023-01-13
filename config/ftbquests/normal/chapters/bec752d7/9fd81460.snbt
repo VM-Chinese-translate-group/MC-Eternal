@@ -8,7 +8,10 @@
 		uid: "6104d3fe",
 		type: "item",
 		items: [{
-			item: "ebwizardry:storage_upgrade"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:storage_upgrade"
 		}]
 	}],
 	rewards: [{

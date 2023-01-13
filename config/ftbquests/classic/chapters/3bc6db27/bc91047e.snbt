@@ -8,10 +8,7 @@
 		uid: "b7930532",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:alarm"
+			item: "techreborn:alarm"
 		}]
 	}],
 	rewards: [{

@@ -1,12 +1,16 @@
 {
 	x: 2.5d,
 	y: 9.0d,
-	description: "An Introduction to Musical Magic and Ancient Rituals",
+	description: "传承自上古的音乐魔法和祭祀仪式",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "7a08553b",
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "totemic:totempedia"

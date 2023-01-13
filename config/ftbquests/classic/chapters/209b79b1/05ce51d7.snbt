@@ -2,7 +2,7 @@
 	x: -3.5d,
 	y: -1.5d,
 	shape: "square",
-	description: "*Often can be found living in little huts around a Plains biome, lives together with his best friend*",
+	description: "*邪猎者们和他的好朋友们常住在平原生物群系周围的木屋里。*",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d8852201"
@@ -11,10 +11,9 @@
 	tasks: [{
 		uid: "1c97d1aa",
 		type: "kill",
-		title: "Bounty: Hunter Illager",
+		title: "悬赏：邪猎者",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -37,7 +36,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:frozenthigh"

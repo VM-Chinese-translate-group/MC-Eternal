@@ -1,9 +1,6 @@
 {
-	title: "Netherstar Sandwich",
+	title: "下界之星三明治",
 	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
 		id: "culinaryconstruct:sandwich",
 		tag: {
 			Size: 5,
@@ -53,7 +50,7 @@
 	},
 	x: 1.0d,
 	y: -2.0d,
-	description: "*Unlocked from completing Secret*",
+	description: "*完成秘密以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"ca973051"
@@ -71,9 +68,6 @@
 		uid: "223b6f64",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "culinaryconstruct:sandwich",
 			tag: {
 				Size: 5,

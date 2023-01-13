@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -8.0d,
-	description: "&oSummon Minions to do your bidding! &7&l*Recharge with Rotten Flesh and a Strength Potion*",
+	description: "&o召唤爪牙为您效劳！ &7&l*用腐肉和力量药水进行充能*",
 	dependencies: [
 		"0647fe18"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:zombie_scepter"

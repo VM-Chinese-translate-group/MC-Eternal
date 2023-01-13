@@ -7,8 +7,13 @@
 	tasks: [{
 		uid: "10dd817d",
 		type: "advancement",
-		title: "Slay a Vampire Baron",
-		icon: "vampirism:pure_blood",
+		title: "解决掉一只吸血鬼伯爵，王侯将相宁有种乎？",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:pure_blood"
+		},
 		advancement: "vampirism:main/regicide",
 		criterion: ""
 	}],
@@ -21,6 +26,9 @@
 		uid: "30ddd965",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

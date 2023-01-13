@@ -16,7 +16,10 @@
 		uid: "9eba956f",
 		type: "item",
 		items: [{
-			item: "thaumcraft:wand_workbench"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:wand_workbench"
 		}]
 	}],
 	rewards: [{

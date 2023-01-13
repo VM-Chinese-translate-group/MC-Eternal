@@ -8,14 +8,20 @@
 		uid: "b1cd810e",
 		type: "item",
 		items: [{
-			item: "vampirism:vampire_blood_bottle"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_blood_bottle"
 		}]
 	},
 	{
 		uid: "a64868f4",
 		type: "item",
 		items: [{
-			item: "vampirism:soul_orb_vampire"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:soul_orb_vampire"
 		}]
 	}],
 	rewards: [{

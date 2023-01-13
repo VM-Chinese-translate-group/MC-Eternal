@@ -11,7 +11,10 @@
 		uid: "ef7b60af",
 		type: "item",
 		items: [{
-			item: "thaumadditions:adaminite_smelter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:adaminite_smelter"
 		}]
 	}],
 	rewards: [{

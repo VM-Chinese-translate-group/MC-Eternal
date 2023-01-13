@@ -1,8 +1,11 @@
 {
-	title: "Ritual of Gaia II",
+	title: "盖亚仪式Ⅱ",
 	x: 15.0d,
 	y: -11.0d,
-	description: "Guardian of Gaia: ReGaia'd *Read Lexica Botania for more Info*",
+	description: "就你叫盖亚守护者是吧？李宁都给你踹开线！*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"e4a4db69"
 	],
@@ -10,7 +13,11 @@
 		uid: "48b12187",
 		type: "item",
 		items: [{
-			item: "botania:manaresource 1 14"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 14s
 		}]
 	}],
 	rewards: [{
@@ -22,6 +29,9 @@
 		uid: "a93ead65",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

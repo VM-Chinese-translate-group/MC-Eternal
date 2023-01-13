@@ -1,7 +1,10 @@
 {
 	x: 27.5d,
 	y: 8.0d,
-	description: "Allows the Natural Altar to transmute some items into others using Aura.",
+	description: "解锁自然祭坛的某些特殊合成",
+	text: [
+		""
+	],
 	dependencies: [
 		"b12539ba"
 	],
@@ -9,7 +12,10 @@
 		uid: "663e86c3",
 		type: "item",
 		items: [{
-			item: "naturesaura:conversion_catalyst"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:conversion_catalyst"
 		}]
 	}],
 	rewards: [{

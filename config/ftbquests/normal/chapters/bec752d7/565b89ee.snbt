@@ -1,10 +1,12 @@
 {
-	title: "&4Ritual of the Satiated Stomach",
+	title: "&4盛宴之歌",
 	x: 13.5d,
 	y: 23.0d,
-	description: "&o*Kirby Noises*",
+	description: "&o*星之卡比骂骂咧咧的走了*",
 	text: [
-		"&7The &4Ritual of the Satiated Stomach&7 takes &cFood&7 from a Container set atop it, and feeds nearby Players when needed."
+		"&4盛宴之歌&7可以自动&c喂食&7其作用范围里的玩家，玩家需要把箱子放在主仪式石上，并在里面塞点吃的。",
+		"一些有buff的食物被盛宴之歌喂食后并不会提供对应buff，也就是说吃腐肉不会有饥饿，吃金苹果也不会回血。",
+		"（你知道吗：盛宴之歌在过去的版本里叫祭胃安魂曲）"
 	],
 	dependencies: [
 		"40cdcd64"
@@ -18,7 +20,10 @@
 		uid: "4e78b15e",
 		type: "item",
 		items: [{
-			item: "bloodmagic:ritual_stone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_stone"
 		}],
 		count: 28L
 	}]

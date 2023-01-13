@@ -5,7 +5,10 @@
 		uid: "2e2318c3",
 		type: "item",
 		items: [{
-			item: "harvestcraft:strawberryrhubarbpieitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:strawberryrhubarbpieitem"
 		}]
 	}],
 	rewards: [{

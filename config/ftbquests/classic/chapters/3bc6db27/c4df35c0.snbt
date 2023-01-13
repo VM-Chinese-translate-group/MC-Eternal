@@ -8,10 +8,7 @@
 		uid: "35f33d4b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "forestry:engine_peat"
+			item: "forestry:engine_peat"
 		}]
 	}],
 	rewards: [{

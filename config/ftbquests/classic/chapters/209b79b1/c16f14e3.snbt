@@ -2,7 +2,7 @@
 	x: -4.5d,
 	y: -5.0d,
 	shape: "square",
-	description: "Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as \"Apertis Oculis\" Opening the Eye. What it does is unclear, but you doubt it is anything good. Only a madman would persue this line of study",
+	description: "他们来自一个神秘的组织，但是看上去它们在致力完善一个名叫“开眼仪式”的神秘仪式。虽然你不知道他们的目的，但是你隐约觉得这不是什么好事。",
 	dependencies: [
 		"19a1105b"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "dc29405d",
 		type: "kill",
-		title: "Bounty: Crimson Knight",
+		title: "悬赏：血腥骑士",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -34,19 +33,13 @@
 	{
 		uid: "36325599",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_block"
-		}
+		item: "minecraft:gold_block"
 	},
 	{
 		uid: "72462cad",
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"thaumicaugmentation:elytra_harness_augment": {}
 			},
 			id: "thaumcraft:banner_crimson_cult"

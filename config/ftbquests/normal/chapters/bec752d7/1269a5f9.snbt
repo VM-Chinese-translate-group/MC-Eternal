@@ -1,9 +1,9 @@
 {
 	x: 14.0d,
 	y: -9.0d,
-	description: "No Flames may touch me!",
+	description: "焚烧不焚者无疑是愚蠢至极的",
 	text: [
-		"... But Exploits can still touch you :)"
+		"... 但是爆炸依然能把你送去见上帝 :)"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -16,6 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "botania:superlavapendant"

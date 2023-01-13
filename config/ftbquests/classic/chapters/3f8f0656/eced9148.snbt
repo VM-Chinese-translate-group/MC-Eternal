@@ -1,8 +1,8 @@
 {
-	title: "SOLAAAR",
+	title: "太阳————!!!",
 	x: 15.0d,
 	y: 10.5d,
-	description: "Craft an Advanced Photovoltaic Cell",
+	description: "打造更高阶的光伏电池",
 	dependencies: [
 		"38c98eb3"
 	],
@@ -10,11 +10,7 @@
 		uid: "f64b9444",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_solar_panel",
-			Damage: 2s
+			item: "enderio:block_solar_panel 1 2"
 		}]
 	}],
 	rewards: [{

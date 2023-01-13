@@ -1,7 +1,7 @@
 {
 	x: -5.0d,
 	y: 10.0d,
-	description: "Can be bought from the Coin Shop!",
+	description: "可以在金币商店买到！",
 	dependencies: [
 		"464d17d4"
 	],
@@ -9,44 +9,28 @@
 		uid: "21f9438c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 13s
+			item: "appliedenergistics2:material 1 13"
 		}]
 	},
 	{
 		uid: "70c083a2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 14s
+			item: "appliedenergistics2:material 1 14"
 		}]
 	},
 	{
 		uid: "7b96128b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 15s
+			item: "appliedenergistics2:material 1 15"
 		}]
 	},
 	{
 		uid: "95fc0bd2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 19s
+			item: "appliedenergistics2:material 1 19"
 		}]
 	}],
 	rewards: [{

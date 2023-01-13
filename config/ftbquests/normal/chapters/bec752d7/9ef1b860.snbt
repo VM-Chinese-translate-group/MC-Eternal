@@ -1,10 +1,11 @@
 {
-	title: "Stone Tablet",
+	title: "石板",
 	x: 7.5d,
 	y: -3.5d,
-	description: "*Accepts any Stone Tablet*",
+	description: "*随便一种石板*",
 	text: [
-		"Hmm, a Stone Tablet inscribed with Ancient Runes. Perhaps I can use my Sphere of Cognizance to find out what they mean..."
+		"嗯……这种古代石板上篆刻着奇异的文字，这种字体不属于已知的任何一种文字，但是凭借石板的尺寸，我还是能判断出来，它们拥有无比强大的力量……",
+		"凭借我的阅历，想要弄明白这些石板简直是痴人说梦。也许我该去问问神奇的水晶球。"
 	],
 	dependencies: [
 		"20813292"
@@ -13,17 +14,33 @@
 	tasks: [{
 		uid: "a2708911",
 		type: "item",
-		title: "Stone Tablet",
+		title: "石板",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "ancientspellcraft:stone_tablet_small"
 		},
 		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "ancientspellcraft:stone_tablet"
 		},
 		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "ancientspellcraft:stone_tablet_large"
 		},
 		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "ancientspellcraft:stone_tablet_grand"
 		}],
 		ignore_damage: true,

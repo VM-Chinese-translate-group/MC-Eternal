@@ -1,8 +1,8 @@
 {
-	title: "They see me Rollin'",
+	title: "They see me Rollin'（歌词）",
 	x: -4.0d,
 	y: 6.0d,
-	description: "This machine is used to make plates/rings for later use.",
+	description: "这个机器用于后面的板/环制作",
 	dependencies: [
 		"06cc512e"
 	],
@@ -10,10 +10,7 @@
 		uid: "44790813",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:rolling_machine"
+			item: "techreborn:rolling_machine"
 		}]
 	}],
 	rewards: [{

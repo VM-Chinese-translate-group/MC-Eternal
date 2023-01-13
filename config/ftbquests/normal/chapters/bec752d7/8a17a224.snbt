@@ -16,7 +16,11 @@
 		uid: "ff0d4b2c",
 		type: "item",
 		items: [{
-			item: "thaumcraft:nugget 1 9"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:nugget",
+			Damage: 9s
 		}]
 	}],
 	rewards: [{

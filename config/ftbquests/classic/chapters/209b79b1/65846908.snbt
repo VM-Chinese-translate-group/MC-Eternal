@@ -2,7 +2,7 @@
 	x: 7.0d,
 	y: -5.0d,
 	shape: "square",
-	description: "&cA terrifying mechanical abomination that disguises as a door in the Sludgeon.",
+	description: "&c一种可怕的机械魔兽，生成于污泥地牢第四层中。",
 	dependencies: [
 		"e28e2a4a"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "391b98b3",
 		type: "kill",
-		title: "Bounty: Barrishee",
+		title: "悬赏：喷火魔兽",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -34,21 +33,13 @@
 	{
 		uid: "36b4b533",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:emerald_block"
-		},
+		item: "minecraft:emerald_block",
 		count: 3
 	},
 	{
 		uid: "56bc214b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

@@ -1,9 +1,9 @@
 {
 	x: -12.5d,
 	y: -3.0d,
-	description: "&oThe reward collector can be used with the task screen to complete the automation process. Simply select the quest and the coins will output into your shop balance",
+	description: "&o奖励收集器可与任务显示器一起使用，可以实现自动化提交物品。只需选择任务，金币就会到你的商店余额中。",
 	text: [
-		"Note: Only quests that have the ` symbol in the title can be automated !"
+		"注意：任务类型为提交物品会消耗物品。"
 	],
 	dependencies: [
 		"1367cd5d"
@@ -12,10 +12,7 @@
 		uid: "182a0cb0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ftbquests:reward_collector"
+			item: "ftbquests:reward_collector"
 		}]
 	}],
 	rewards: [{

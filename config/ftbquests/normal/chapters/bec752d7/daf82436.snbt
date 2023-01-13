@@ -17,10 +17,16 @@
 		type: "item",
 		title: "Either Infusion Stone",
 		items: [{
-			item: "thaumcraft:matrix_speed"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:matrix_speed"
 		},
 		{
-			item: "thaumcraft:matrix_cost"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:matrix_cost"
 		}]
 	}],
 	rewards: [{

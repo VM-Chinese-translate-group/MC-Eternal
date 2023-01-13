@@ -1,9 +1,10 @@
 {
 	x: 26.0d,
 	y: 8.0d,
-	description: "Starter Aura Generation, there's so much more than this!",
+	description: "灵气补充器MK1，当然，还有更强的",
 	text: [
-		"Ancient Trees will passively generate Aura, but are incredibly slow, and will decay over time, ideally you want to set up automated Aura generation from some other Aura generator."
+		"荒古树苗生长之后，会开始补充灵气厂里的灵气，这将是一个极其缓慢且低效的过程，补充灵气会使得荒古树叶逐渐枯萎。",
+		"注意！荒古树只能将灵气恢复至平衡状态（一半），不能将区块灵气饱和，且不能被创造催化剂增幅！"
 	],
 	dependencies: [
 		"a074c6bd"
@@ -12,7 +13,10 @@
 		uid: "2e8c6e0c",
 		type: "item",
 		items: [{
-			item: "naturesaura:ancient_sapling"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:ancient_sapling"
 		}]
 	}],
 	rewards: [{

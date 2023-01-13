@@ -18,6 +18,9 @@
 		uid: "e0251def",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:paper",
 			tag: {
 				display: {

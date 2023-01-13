@@ -1,12 +1,12 @@
 {
-	title: "&6Terra Shatterer - SS Rank",
+	title: "&6泰拉粉碎者—SS级",
 	x: 15.0d,
 	y: -14.0d,
 	shape: "gear",
-	description: "Shatter the Earth, To the Core! *Takes 1000 Mana Pools, good luck*",
+	description: "现在，让我们凿穿地心！*这需要1000个满魔力的魔力池，祝你好运*",
 	text: [
-		"If you're feeling spicy, try doing full Automation of all Generating Flowers with just Botania and Vanilla mechanics and blocks.",
-		"It can be done, it's just hard, very hard."
+		"如果这还不够刺激，你可以试试只用植物魔法和原版的方块完成植物魔法辞典挑战栏目中的所有自动化。",
+		"这毫无疑问是个艰难的挑战，但是迎难而上后才能获得最大的满足。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -21,6 +21,7 @@
 		title: "Advancement: &eA Tale of Six Trillion Years and a Night",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "botania:terrapick",
@@ -41,6 +42,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "botania:manatablet",

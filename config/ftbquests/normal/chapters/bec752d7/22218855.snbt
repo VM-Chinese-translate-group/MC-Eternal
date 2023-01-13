@@ -1,17 +1,22 @@
 {
-	title: "&4Blood Altar - Tier V",
-	icon: "minecraft:beacon",
+	title: "&4血之祭坛 5层",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:beacon"
+	},
 	x: 1.5d,
 	y: 28.0d,
-	description: "&oBloodiest Altar",
+	description: "&o血铸圣坛",
 	text: [
-		"&7The &c\"Final\"&7 Upgrade to your &4Blood Altar&7...",
+		"&7这将是你&c“最后一次”7升级你的&4血之祭坛&7了……大概吧。",
 		"",
-		"If you haven't already, for some reason, go see the Quest &4\"Altarmaker's Manual\"&7.",
+		"如果宁还是不知道这东西怎么搭建，我真的很想隔着屏幕给你一拳，请左转到&4“血之祭坛建筑师必备手册”&7。",
 		"",
-		"&4What you need:",
-		"&652x&c Runes",
-		"&64x&c Beacon"
+		"&4那么，为了升级祭坛，你将需要：",
+		"&652个&c随便什么符文",
+		"&64个&c信标"
 	],
 	dependencies: [
 		"a2f883f9"
@@ -20,7 +25,11 @@
 		uid: "0f5e32ee",
 		type: "item",
 		items: [{
-			item: "bloodmagic:slate 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:slate",
+			Damage: 4s
 		}]
 	}],
 	rewards: [{

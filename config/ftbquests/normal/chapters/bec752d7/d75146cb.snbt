@@ -1,17 +1,17 @@
 {
-	title: "&4Will Collector",
+	title: "&4收集意志",
 	x: -4.5d,
 	y: 17.5d,
-	description: "&oCrystallized Angy >:(",
+	description: "&o愤怒的结晶 >:(",
 	text: [
-		"&bAspected Demonic Will&7, the key to &cAltering&7 your &cSentient Equipment&7 and &cAugmenting Rituals&7.",
+		"&b使用意志的类型&7是&c改变&7你&c感知装备效能&7和&c仪式结果&7的关键。",
 		"",
-		"To Alter your &bEquipment&7, simply carry a &bTartaric Gem&7 with the &bAspected Will&7 on you, and your Equipment will alter when it updates.",
-		"You can force an update with a &cRight-click&7.",
-		"Each Aspect has different stat benefits, but lacks in others.",
+		"若要改变&b装备意志&7，只需要带上一颗装有&b异构意志&7的&b地狱魂石&7 ，在下次装备更新时，你的装备属性就会修改。",
+		"你可以通过手持装备&c右击&7进行更新。",
+		"每种意志都会在某一方面上有着额外优势，但是相对的，会在另一方面欠缺一些。",
 		"",
-		"To Augment &cRituals&7, use a &bDemon Crucible&7 to disperse either the Will Crystals or from &bTartaric Gems&7, and use the &cRitual Tinkerer&7 to set Augmentations.",
-		"Wills can completely change the Effect of some &cRituals&7, or simply Empower others."
+		"若要改变&c仪式结构&7,，就使用&b恶魔坩埚&7将存储在&b地狱魂石&7内的意志释放出去，并使用&c仪式调节钳r&7进行设置。",
+		"不同的意志可以彻底改变某些&c仪式&7的运行方式，当然，也可能只是改变一下作用对象之类的……"
 	],
 	dependencies: [
 		"1c5951e3"
@@ -20,28 +20,44 @@
 		uid: "a41c74ee",
 		type: "item",
 		items: [{
-			item: "bloodmagic:item_demon_crystal 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:item_demon_crystal",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "32f4b63f",
 		type: "item",
 		items: [{
-			item: "bloodmagic:item_demon_crystal 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:item_demon_crystal",
+			Damage: 2s
 		}]
 	},
 	{
 		uid: "2d489455",
 		type: "item",
 		items: [{
-			item: "bloodmagic:item_demon_crystal 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:item_demon_crystal",
+			Damage: 3s
 		}]
 	},
 	{
 		uid: "5025fca2",
 		type: "item",
 		items: [{
-			item: "bloodmagic:item_demon_crystal 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:item_demon_crystal",
+			Damage: 4s
 		}]
 	}],
 	rewards: [{

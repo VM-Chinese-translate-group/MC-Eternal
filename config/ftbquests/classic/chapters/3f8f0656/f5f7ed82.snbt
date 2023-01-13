@@ -1,8 +1,8 @@
 {
-	title: "Speedy Extract",
+	title: "快速提取",
 	x: 12.0d,
 	y: 10.5d,
-	description: "Increases extraction speed of item/fluid conduits",
+	description: "提高物品/流体导管的提取速度",
 	dependencies: [
 		"0108d5cd"
 	],
@@ -10,10 +10,7 @@
 		uid: "7fa02aca",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_extract_speed_upgrade"
+			item: "enderio:item_extract_speed_upgrade"
 		}],
 		count: 4L
 	}],

@@ -1,22 +1,14 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "minecraft:gold_nugget"
-	},
+	icon: "minecraft:gold_nugget",
 	x: -5.0d,
 	y: -7.0d,
-	description: "Mining",
+	description: "挖矿",
 	can_repeat: true,
 	tasks: [{
 		uid: "84750764",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_ingot"
+			item: "minecraft:gold_ingot"
 		}]
 	}],
 	rewards: [{
@@ -25,9 +17,6 @@
 		title: "10 Currency",
 		auto: "no_toast",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 10L

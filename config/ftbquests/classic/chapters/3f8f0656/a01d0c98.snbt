@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: 12.5d,
-	description: "Used in a Security Terminal to allow access to others. Sneak+Right-click to tune it to yourself. Set permissions with the bottom slot, activate by adding to the upper Terminal section.",
+	description: "在安全终端中使用以允许其他人访问。潜行+右键单击以自行调整。使用底部插槽设置权限，通过添加到终端上部分来激活。",
 	dependencies: [
 		"5c4df8f1"
 	],
@@ -11,7 +11,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:biometric_card",

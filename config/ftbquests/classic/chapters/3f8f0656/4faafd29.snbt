@@ -1,8 +1,8 @@
 {
-	title: "Walking Restricted Base",
+	title: "步行限制了基础",
 	x: 16.5d,
 	y: 4.5d,
-	description: "Craft 2 Travel Anchors",
+	description: "制作2个旅行锚",
 	dependencies: [
 		"f55d3032"
 	],
@@ -10,10 +10,7 @@
 		uid: "7affb74e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_travel_anchor"
+			item: "enderio:block_travel_anchor"
 		}],
 		count: 2L,
 		ignore_nbt: 1b

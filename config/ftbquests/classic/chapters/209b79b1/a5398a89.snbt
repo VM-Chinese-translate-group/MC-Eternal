@@ -1,7 +1,6 @@
 {
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "twilightforest:knightmetal_sword"
@@ -9,7 +8,7 @@
 	x: 7.0d,
 	y: -3.0d,
 	shape: "square",
-	description: "King Spiders can only be found in the Dark Forest and the first sign of them is usually their red eyes glowing in the darkness. They are found with a Skeleton Druid riding on their back, making them a formidable foe to deal with.",
+	description: "国王蜘蛛只能在黑暗森林地表上生成，它们的标志是有一双能在黑暗中发光的红眼睛。国王蜘蛛通常背着一只骷髅德鲁伊，这使它们成为一个强劲的敌人。",
 	dependencies: [
 		"7675bc69"
 	],
@@ -17,10 +16,9 @@
 	tasks: [{
 		uid: "db7ad5e4",
 		type: "kill",
-		title: "Bounty: King Spider",
+		title: "悬赏：国王蜘蛛",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -41,12 +39,7 @@
 	{
 		uid: "ea9a3219",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_ingot"
-		},
+		item: "minecraft:gold_ingot",
 		count: 8
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	title: "Hot and Cold!",
+	title: "冷和热!",
 	x: 8.5d,
 	y: -0.5d,
 	dependencies: [
@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cookingforblockheads:heating_unit"
@@ -22,6 +23,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cookingforblockheads:ice_unit"
@@ -34,6 +36,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cookingforblockheads:preservation_chamber"

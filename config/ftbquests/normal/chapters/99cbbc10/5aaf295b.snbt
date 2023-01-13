@@ -1,8 +1,8 @@
 {
-	title: "Machines in Harvestcraft",
+	title: "潘马斯农场中的机器",
 	x: 0.0d,
 	y: -3.5d,
-	description: "They don�t need energy!",
+	description: "他们不需要能量!",
 	text: [
 		""
 	],
@@ -10,35 +10,50 @@
 		uid: "9dce4f0f",
 		type: "item",
 		items: [{
-			item: "harvestcraft:apiary"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:apiary"
 		}]
 	},
 	{
 		uid: "9ce5c9c0",
 		type: "item",
 		items: [{
-			item: "harvestcraft:grinder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:grinder"
 		}]
 	},
 	{
 		uid: "18ae5e76",
 		type: "item",
 		items: [{
-			item: "harvestcraft:presser"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:presser"
 		}]
 	},
 	{
 		uid: "b04cfd80",
 		type: "item",
 		items: [{
-			item: "harvestcraft:waterfilter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:waterfilter"
 		}]
 	},
 	{
 		uid: "f67da2e3",
 		type: "item",
 		items: [{
-			item: "harvestcraft:well"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:well"
 		}]
 	}],
 	rewards: [{

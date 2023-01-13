@@ -2,9 +2,9 @@
 	x: 2.5d,
 	y: -7.5d,
 	shape: "square",
-	description: "It is always too late when humanity finally realises they should just leave the jungle in its primitive state. Full-grown jungle Parasites become the Vespa, airborne hostile mobs with velocity, ferocity, and a poison stinger.",
+	description: "我们要坚持节约资源和保护环境的基本国策，坚持绿色发展理念。如果生态遭到破坏，成年的尸蛆就会变成巨蜂。它们是集速度、凶猛和剧毒三位一体的空中敌对生物。",
 	text: [
-		" The Parasites in the jungle are actually more than some nasty bloodsuckers, when they feed, they also morph."
+		"丛林尸蛆实际上不仅仅是吸食血液的恶心玩意。如果它们因没有攻击目标而死亡，就有几率最终变形为巨蜂。"
 	],
 	dependencies: [
 		"3b74e727"
@@ -13,10 +13,9 @@
 	tasks: [{
 		uid: "edf23ef1",
 		type: "kill",
-		title: "Bounty: Vespa",
+		title: "悬赏：巨蜂",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -34,7 +33,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:potion_of_mooten_lava"
@@ -44,9 +42,6 @@
 		uid: "e0c3e084",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -56,12 +51,7 @@
 	{
 		uid: "983ef712",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:emerald_block"
-		},
+		item: "minecraft:emerald_block",
 		count: 2
 	}]
 }

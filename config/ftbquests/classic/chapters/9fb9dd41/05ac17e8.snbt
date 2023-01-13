@@ -2,13 +2,12 @@
 	x: -3.0d,
 	y: 6.5d,
 	shape: "square",
-	description: "&oMidnight Mourne is a melee weapon that dropped as a rare loot from Undertaker. Player wielding Midnight Mourne will be able to summon an army of 4 Unburied.",
+	description: "&o夜叹，一种近战武器，是送葬者的稀有掉落物。玩家挥舞夜叹能够召唤一个由4个活尸组成的活尸军团。",
 	tasks: [{
 		uid: "24052d3d",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -28,9 +27,6 @@
 		uid: "48acca97",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

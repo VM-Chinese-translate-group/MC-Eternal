@@ -8,10 +8,7 @@
 		uid: "54393b6b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "forestry:engine_clockwork"
+			item: "forestry:engine_clockwork"
 		}]
 	}],
 	rewards: [{

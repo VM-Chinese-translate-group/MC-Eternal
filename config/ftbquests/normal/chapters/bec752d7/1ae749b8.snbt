@@ -1,8 +1,16 @@
 {
-	title: "Become a Vampire Hunter",
-	icon: "vampirism:garlic_bread",
+	title: "成为吸血鬼猎人",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:garlic_bread"
+	},
 	x: 12.5d,
 	y: 12.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"fee8fa16"
 	],
@@ -17,6 +25,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:holy_water_splash_bottle",
@@ -28,13 +37,21 @@
 	{
 		uid: "90773ab8",
 		type: "item",
-		item: "vampirism:item_garlic",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:item_garlic"
+		},
 		count: 8
 	},
 	{
 		uid: "bc4fe0bf",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "vampirism:crossbow_arrow",
 			tag: {
 				type: "vampire_killer"

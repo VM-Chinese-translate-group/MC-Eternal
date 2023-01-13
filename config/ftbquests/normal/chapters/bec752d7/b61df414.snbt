@@ -1,16 +1,17 @@
 {
-	title: "&4Ritual Writing",
+	title: "&4符文撰写",
 	x: 7.0d,
 	y: 23.0d,
-	description: "&oInscryption",
+	description: "&o邪恶铭刻（一款游戏，作者大概是忠实玩家，steam本体售价88元）",
 	text: [
-		"&4Inscription Tools&7 are used to Inscribe &4Ritual Stones&7 with different Elemental Runes.",
+		"&4铭文工具&7是用来为&4仪式石&7书写不同元素铭文的工具。",
 		"",
-		"Rituals require various assemblies of Inscribed Ritual Stones.",
+		"一场仪式需要用到各种属性的仪式石。（也有一些只要一种）",
 		"",
-		"The &4Ritual Diviner&7 will do the work of building Rituals for you, because looking up something and finding outdated information sucks.",
-		"&4Sneak+Right-click&7 and &4Sneak+Left-click&7 to Scroll through available Rituals.",
-		"&4Right-click&7 a &cMaster Ritual Stone&7 with a Diviner to automatically place &cRitual Stones&7 for the selected Ritual, centered on the Master Stone."
+		"&4仪式推测杖&7可以帮助你搭建仪式。",
+		"&4shift右击&7与&4shift左击&7以切换要搭建的仪式。",
+		"&4不断右击&7一个&c主仪式石&7将会开始搭建仪式，记得携带足够的&c仪式石&7。",
+		"仪式推测杖搭建仪式不需要元素铭文工具，可以直接把仪式石转化为对应的元素仪式石。"
 	],
 	dependencies: [
 		"1ce0126f"
@@ -21,12 +22,14 @@
 		title: "&4Ritual Diviner&7 or Any &4Inscription Tool",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:ritual_diviner"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:inscription_tool",
@@ -37,6 +40,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:inscription_tool",
@@ -47,6 +51,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:inscription_tool",
@@ -57,6 +62,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:inscription_tool",

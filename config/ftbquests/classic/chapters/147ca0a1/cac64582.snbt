@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: 1.0d,
-	description: "&oTime to fish!",
+	description: "&o钓鱼时刻！",
 	dependencies: [
 		"99a4bfed"
 	],
@@ -9,10 +9,9 @@
 	tasks: [{
 		uid: "c4e39e0b",
 		type: "advancement",
-		title: "Catch a fish on Atum",
+		title: "在阿图姆上钓起一条鱼",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "atum:atums_bounty"
@@ -29,9 +28,6 @@
 		uid: "48a1c878",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

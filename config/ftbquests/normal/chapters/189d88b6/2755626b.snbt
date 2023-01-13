@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: -7.5d,
-	description: "Nether Resource",
+	description: "地狱资源",
 	dependencies: [
 		"36443d40"
 	],
@@ -10,7 +10,10 @@
 		uid: "ed0551d4",
 		type: "item",
 		items: [{
-			item: "minecraft:blaze_rod"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:blaze_rod"
 		}],
 		count: 16L
 	}],

@@ -21,7 +21,10 @@
 		uid: "bf1e6e2f",
 		type: "item",
 		items: [{
-			item: "thaumcraft:bellows"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:bellows"
 		}]
 	}],
 	rewards: [{

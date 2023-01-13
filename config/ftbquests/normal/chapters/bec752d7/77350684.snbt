@@ -1,7 +1,10 @@
 {
 	x: 17.5d,
 	y: -4.5d,
-	description: "+1 Airjumps!",
+	description: "二段跳！",
+	text: [
+		""
+	],
 	dependencies: [
 		"4b6ff09a",
 		"4eb30150"
@@ -10,10 +13,11 @@
 		uid: "fdc729bb",
 		type: "item",
 		items: [{
-			id: "botania:cloudpendant",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:cloudpendant"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

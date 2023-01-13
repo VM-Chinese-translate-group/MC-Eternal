@@ -1,15 +1,9 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "mysticalagriculture:crafting",
-		Damage: 29s
-	},
+	icon: "mysticalagriculture:crafting 1 29",
 	x: -4.5d,
 	y: -3.0d,
 	shape: "hexagon",
-	description: "'Deep sorrow crushed my heart when I heard him, / Because both men and women of great worth / I knew to be suspended here in limbo'' (IV.43-45).",
+	description: "“听闻他的话语之时，深沉的哀思席卷了我的心头 / 由于无论男女的崇高之人 / 我知道我会在这炼狱之中长久徘徊” ——《神曲》(IV.43-45).",
 	tasks: [{
 		uid: "e23c91f6",
 		type: "dimension",
@@ -20,7 +14,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "dimdoors:record_creepy"

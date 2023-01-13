@@ -1,19 +1,20 @@
 {
-	title: "&4Sentient Armory",
+	title: "&4感知铠甲",
 	x: -2.0d,
 	y: 17.0d,
-	description: "&oMind of its Own",
+	description: "&o我的盔甲都在想些啥",
 	text: [
-		"&7The &4Sentient Armour Gem&7 can be used to equip &bSentient Armor&7 to yourself.",
+		"&4感知盔甲宝石&7可以一键为你装备&b感知盔甲&7。",
 		"",
-		"On activation, your Equipped armor will transform into &bSentient Armor&7, passing over Enchantments.",
-		"Deactivating the Armour Gem will revert your Armor back to exactly how it was before transformation.",
+		"激活宝石后，你身上的盔甲将会被替换为&b感知盔甲&7（如果没有盔甲则会自动装备上），感知盔甲会继承原盔甲的附魔。",
 		"",
-		"&bWill&7 is consumed every time the Armor takes Damage, should you run out, it will automatically revert.",
+		"停用盔甲后，你的盔甲会变成之前的样子。（没有盔甲则是直接消失）",
 		"",
-		"Akin to &bSentient Tools&7, it empowers based on how much &bDemonic Will&7 you have on you.",
+		"&b恶魔意志&7是感知盔甲的力量来源，如果你的恶魔意志消耗殆尽，那么盔甲会自动停用。",
 		"",
-		"&cFurther progression into the Bloody arts may allow for &4Alterations&c to the powers of this Armor..."
+		"与其他感知工具一样，它们也可以通过使用者魂石里的&b恶魔意志&7强化自身。",
+		"",
+		"&c随着你对鲜血的追奉愈加深刻，你将习得如何&4改变&c感知盔甲的力量……"
 	],
 	dependencies: [
 		"959c9446"
@@ -23,6 +24,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sentient_armour_gem"

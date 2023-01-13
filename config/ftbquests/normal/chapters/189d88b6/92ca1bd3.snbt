@@ -1,8 +1,8 @@
 {
-	title: "Meet the Traveler",
+	title: "遇见旅行者",
 	x: -11.0d,
 	y: -5.5d,
-	description: "The Traveler can be summoned by lighting a &9Block of Coal&r &7on &cfire§r&7, they sell maps to various Bosses from Dungeons Mod.",
+	description: "你可以用&c火§r&7点燃&9煤炭块&r &7来召唤旅行者，他们会出售各种有关地牢boss位置的地图。",
 	dependencies: [
 		"d22a6b71"
 	],
@@ -10,7 +10,12 @@
 		uid: "4cba2945",
 		type: "advancement",
 		title: "Trade Sugar to the Traveler",
-		icon: "dungeonsmod:back_pergamine",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeonsmod:back_pergamine"
+		},
 		advancement: "dungeonsmod:dungeons/root",
 		criterion: ""
 	}],

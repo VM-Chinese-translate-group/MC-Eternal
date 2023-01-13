@@ -8,10 +8,7 @@
 		uid: "de57f8c5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thebetweenlands:log_weedwood"
+			item: "thebetweenlands:log_weedwood"
 		}]
 	}],
 	rewards: [{

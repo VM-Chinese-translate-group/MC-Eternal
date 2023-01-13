@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:basic_crossbow"
@@ -20,6 +21,9 @@
 		uid: "1c603cd5",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "vampirism:crossbow_arrow",
 			tag: {
 				type: "normal"

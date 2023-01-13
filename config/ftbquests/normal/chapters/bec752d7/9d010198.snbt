@@ -8,7 +8,11 @@
 		uid: "78deb766",
 		type: "item",
 		items: [{
-			item: "totemic:buffalo_items 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "totemic:buffalo_items",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

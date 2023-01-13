@@ -1,21 +1,21 @@
 {
-	title: "Starchild",
+	title: "群星的宠儿",
 	x: 0.0d,
 	y: -14.5d,
 	shape: "octagon",
-	description: "*Read Description*",
+	description: "*阅读说明*",
 	text: [
-		"&7&oAttuning oneself to the Stars is a rather simple process, lay out the pattern of the desired Constellation on the Altar with &9&oSpectral Relays&7&o, wait until the Constellation is out, make sure you have Discovered it, and if so, step onto the Attunement Altar...",
-		"Holding a &9&oConstellation Paper&7&o of the appropriate Constellation one's hand at night will create &1&oBlue&7&o sparkles on active Attunement Altars where the Stars of the given Constellation are.",
+		"&7&o将自己与一个明亮星座进行共鸣并不是一件很难的事情，首先用&9&o光波增幅器&7&o摆出对应明亮星座的样子，其次，等到夜幕落下，星座出现的时候，站上共鸣祭坛，接收星光的洗礼",
+		"副手持握一张已发现的&9&o星图&7&o站在共鸣祭坛附近时会在熏黑大理石上出现&1&o奇异的蓝光&7&o，把光波增幅器摆在那些地方就行。（之前已经告诉你了）",
 		"",
-		"Every Attunement will gain &9&oExperience&7&o with their starlight powers through different means...",
-		"Ones attuned to &a&oAevitas&7&o must add things to the world...",
-		"Ones attuned to &4&oDiscida&7&o must strike living beings...",
-		"Ones attuned to &8&oArmara&7&o must to be struck...",
-		"Ones attuned to &c&oEvorsio&7&o must cause destruction to the world...",
-		"Ones attuned to &3&oVicio&7&o must travel...",
+		"每一种星座都有着自己独特的获得&9&o经验&7&o升级自身的方法。",
+		"共鸣&a&o生息座&7&o，需要放置方块。",
+		"共鸣&4&o非攻座&7&o，需要屠杀生灵。",
+		"共鸣&8&o遁甲座&7&o，需要淬炼肉身。",
+		"共鸣&c&o虚御座&7&o，需要环游四方。",
+		"共鸣&3&o解离座&7&o，需要粉碎大地。",
 		"",
-		"The amount of power which one accumulates is directly tied to how much the action required is done by the usual person, with more difficult acts giving greater benefit..."
+		"星能力的经验获取与玩家的行动息息相关，待到身处更高处，进步也会变得更加困难。当然，你也会变得更加强大。"
 	],
 	dependencies: [
 		"d1889e3a"
@@ -23,9 +23,10 @@
 	tasks: [{
 		uid: "00f45c51",
 		type: "advancement",
-		title: "Attune yourself to one of the &9Bright Constellations",
+		title: "给你自己共鸣一个&9明亮的星座",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemjournal"

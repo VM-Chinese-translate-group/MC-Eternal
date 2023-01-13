@@ -1,8 +1,8 @@
 {
-	title: "Joining the &cFour Horsemen",
+	title: "加入&c四骑士",
 	x: -3.0d,
 	y: -1.0d,
-	description: "&oI'm not really evil, I just like to cosplay",
+	description: "&o我不是真邪恶，我只是喜欢cosplay而已",
 	dependencies: [
 		"9513d28a"
 	],
@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:faminearmor_helmet"
@@ -23,6 +24,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:faminearmor_chestplate"
@@ -35,6 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:faminearmor_leggings"
@@ -47,6 +50,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:faminearmor_boots"
@@ -58,6 +62,9 @@
 		uid: "ef774ef1",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -74,6 +81,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:famine"

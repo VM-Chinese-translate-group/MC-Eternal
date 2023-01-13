@@ -1,9 +1,9 @@
 {
-	title: "oooooh Crabs and Shells!",
+	title: "哦，螃蟹和贝壳!",
 	x: 7.0d,
 	y: 0.5d,
 	text: [
-		"Some fish its easier to obtain with a water trap"
+		"使用渔栅能够更轻易的捕获一些鱼"
 	],
 	dependencies: [
 		"b06519f8"
@@ -12,42 +12,60 @@
 		uid: "e50743b8",
 		type: "item",
 		items: [{
-			item: "harvestcraft:clamrawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:clamrawitem"
 		}]
 	},
 	{
 		uid: "0cea2172",
 		type: "item",
 		items: [{
-			item: "harvestcraft:crabrawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:crabrawitem"
 		}]
 	},
 	{
 		uid: "765919b9",
 		type: "item",
 		items: [{
-			item: "harvestcraft:crayfishrawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:crayfishrawitem"
 		}]
 	},
 	{
 		uid: "8fa6ec83",
 		type: "item",
 		items: [{
-			item: "harvestcraft:scalloprawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:scalloprawitem"
 		}]
 	},
 	{
 		uid: "ce62e596",
 		type: "item",
 		items: [{
-			item: "harvestcraft:shrimprawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:shrimprawitem"
 		}]
 	},
 	{
 		uid: "250211a9",
 		type: "item",
 		items: [{
-			item: "harvestcraft:turtlerawitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:turtlerawitem"
 		}]
 	}],
 	rewards: [{

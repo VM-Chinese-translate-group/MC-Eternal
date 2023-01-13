@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: -1.5d,
-	description: "Efficient Steel production",
+	description: "高效产钢",
 	dependencies: [
 		"0c2973bb"
 	],
@@ -9,10 +9,7 @@
 		uid: "92c86373",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "immersiveengineering:stone_decoration"
+			item: "immersiveengineering:stone_decoration"
 		}],
 		count: 27L
 	}],

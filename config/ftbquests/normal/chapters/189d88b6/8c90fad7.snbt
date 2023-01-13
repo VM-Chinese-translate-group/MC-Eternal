@@ -1,5 +1,8 @@
 {
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "minecraft:enchanted_book",
 		tag: {
 			StoredEnchantments: [{
@@ -17,7 +20,11 @@
 		uid: "ae5ff32f",
 		type: "item",
 		items: [{
-			item: "extrautils2:decorativesolidwood 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:decorativesolidwood",
+			Damage: 1s
 		}],
 		count: 32L
 	}],
@@ -27,6 +34,9 @@
 		title: "Kaboomerang II",
 		auto: "no_toast",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{

@@ -7,13 +7,8 @@
 	tasks: [{
 		uid: "3787c47a",
 		type: "advancement",
-		title: "Advancement: &e... Figures",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "fossil:figurine"
-		},
+		title: "进度: &e... 画出图案",
+		icon: "fossil:figurine",
 		advancement: "fossil:fossil/figurine",
 		criterion: ""
 	}],

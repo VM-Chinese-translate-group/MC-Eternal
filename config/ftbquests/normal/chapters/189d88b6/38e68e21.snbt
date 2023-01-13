@@ -1,21 +1,23 @@
 {
-	title: "&6&lThe Betweenlands",
+	title: "&6&l交错次元",
 	x: -5.5d,
 	y: -4.5d,
 	shape: "hexagon",
-	description: "Located between Hell and the Overworld, this dimension is not for the faint of heart. Dangerous energies reside along with treacherous extraterrestrial life-forms awaiting for foolish adventurers to enter!",
+	description: "这个维度处在地狱和主世界之间，这里并不欢迎胆怯之人。未知的恐怖力量与凶狠邪恶的生物等待着愚蠢的冒险家到来！",
 	text: [
-		"*Right click a sapling with the Swamp Talisman, make sure it has plenty of space*"
+		"*手持沼泽护身符，右键任意树苗，请确保有足够的空间以生成传送门*"
 	],
 	dependencies: [
 		"ed655c77"
 	],
+	dependency_requirement: "one_completed",
 	size: 1.3d,
 	tasks: [{
 		uid: "9c34fd46",
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:swamp_talisman"
@@ -31,6 +33,9 @@
 		uid: "b96287f8",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

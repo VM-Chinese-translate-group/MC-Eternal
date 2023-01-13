@@ -1,16 +1,13 @@
 {
 	x: 3.0d,
 	y: -5.0d,
-	description: "*Can not be automated*",
+	description: "*不可自动提交*",
 	can_repeat: true,
 	tasks: [{
 		uid: "7bcec48b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:ender_pearl"
+			item: "minecraft:ender_pearl"
 		}]
 	}],
 	rewards: [{

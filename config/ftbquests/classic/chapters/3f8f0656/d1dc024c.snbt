@@ -1,8 +1,8 @@
 {
-	title: "Commonly-used Alloys",
+	title: "常用合金",
 	x: 10.5d,
 	y: 6.0d,
-	description: "Most used alloys of EnderIO",
+	description: "最常用的末影接口合金",
 	dependencies: [
 		"3fd484fc"
 	],
@@ -10,10 +10,7 @@
 		uid: "043d0a65",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_alloy_ingot"
+			item: "enderio:item_alloy_ingot"
 		}],
 		count: 16L
 	},
@@ -21,11 +18,7 @@
 		uid: "e109b18b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_alloy_ingot",
-			Damage: 1s
+			item: "enderio:item_alloy_ingot 1 1"
 		}],
 		count: 8L
 	},
@@ -33,11 +26,7 @@
 		uid: "6e7548d0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_alloy_ingot",
-			Damage: 2s
+			item: "enderio:item_alloy_ingot 1 2"
 		}],
 		count: 4L
 	}],

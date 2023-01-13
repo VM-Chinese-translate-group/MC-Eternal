@@ -10,21 +10,30 @@
 		uid: "8ee46e3f",
 		type: "item",
 		items: [{
-			item: "openblocks:xp_drain"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:xp_drain"
 		}]
 	},
 	{
 		uid: "6ea90ad5",
 		type: "item",
 		items: [{
-			item: "openblocks:xp_shower"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:xp_shower"
 		}]
 	},
 	{
 		uid: "1631946d",
 		type: "item",
 		items: [{
-			item: "openblocks:tank"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:tank"
 		}]
 	}],
 	rewards: [{
@@ -35,7 +44,13 @@
 	{
 		uid: "b322e4a6",
 		type: "item",
-		item: "extrautils2:ineffableglass 1 3",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ineffableglass",
+			Damage: 3s
+		},
 		count: 16
 	}]
 }

@@ -1,7 +1,10 @@
 {
 	x: 7.0d,
 	y: 0.0d,
-	description: "*Accepts any Apprentice wand*",
+	description: "*随便什么属性的学徒魔杖*",
+	text: [
+		""
+	],
 	min_required_dependencies: 1,
 	dependencies: [
 		"66a69ac3"
@@ -9,51 +12,59 @@
 	tasks: [{
 		uid: "f3ba1426",
 		type: "item",
-		title: "Apprentice Wand",
+		title: "学徒魔杖",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_fire_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_ice_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_lightning_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_necromancy_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_earth_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_sorcery_wand"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:apprentice_healing_wand"
@@ -65,7 +76,13 @@
 		uid: "553ebe99",
 		type: "loot",
 		title: "Apprentice Wizard Cache",
-		icon: "tfspellpack:twilight_spell_book 1 182",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:twilight_spell_book",
+			Damage: 182s
+		},
 		table: 5
 	},
 	{
@@ -76,6 +93,12 @@
 	{
 		uid: "c398c5d5",
 		type: "item",
-		item: "ebwizardry:spell_book 1 147"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 147s
+		}
 	}]
 }

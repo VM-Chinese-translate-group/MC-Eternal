@@ -1,12 +1,12 @@
 {
-	title: "Seeing Stars",
+	title: "观星",
 	x: 2.0d,
 	y: -9.0d,
-	description: "*Read Description*",
+	description: "*阅读说明*",
 	text: [
-		"&7&oCreate a &9&oLooking Glass&7&o to see the Constellations in the sky, &d&oRight-click&7&o to activate it, and hold &d&oSneak&7&o to freeze it in place so you can connect the Stars of the Constellations to discover them properly...",
+		"&7&o制作一个&9&o望远镜&7&o以观察那昏沉沉的天空，&d&o右击&7&o使用它，然后按住&d&oshift&7&o并左击选择那些闪闪的大星星，把它们按照星图的样子连起来。（别连歪了）",
 		"",
-		"It would be wise to have records of the Constellations you have not discovered quickly accessible when trying to discover them..."
+		"想要寻找星座，就必须先获得那个星座的星图，否则就算找到了也是白搭。"
 	],
 	dependencies: [
 		"19ff9bc2",
@@ -17,6 +17,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemhandtelescope"

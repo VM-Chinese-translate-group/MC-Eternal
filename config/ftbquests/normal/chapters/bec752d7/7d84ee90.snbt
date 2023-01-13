@@ -22,28 +22,40 @@
 		uid: "1a244a34",
 		type: "item",
 		items: [{
-			item: "thaumcraft:sapling_greatwood"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:sapling_greatwood"
 		}]
 	},
 	{
 		uid: "4bdb0fdf",
 		type: "item",
 		items: [{
-			item: "thaumcraft:sapling_silverwood"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:sapling_silverwood"
 		}]
 	},
 	{
 		uid: "f5a7d9e3",
 		type: "item",
 		items: [{
-			item: "thaumcraft:cinderpearl"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cinderpearl"
 		}]
 	},
 	{
 		uid: "2878a99d",
 		type: "item",
 		items: [{
-			item: "thaumcraft:shimmerleaf"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:shimmerleaf"
 		}]
 	}],
 	rewards: [{

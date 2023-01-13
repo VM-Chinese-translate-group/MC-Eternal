@@ -8,10 +8,7 @@
 		uid: "f6d3d6b1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "immersiveengineering:treated_wood"
+			item: "immersiveengineering:treated_wood"
 		}],
 		count: 16L
 	}],

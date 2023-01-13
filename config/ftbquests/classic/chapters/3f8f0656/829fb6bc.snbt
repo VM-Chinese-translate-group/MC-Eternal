@@ -1,7 +1,7 @@
 {
 	x: 13.5d,
 	y: 4.5d,
-	description: "I shall return",
+	description: "我一定会回来的！",
 	dependencies: [
 		"60355bd7"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "enderio:item_rod_of_return"

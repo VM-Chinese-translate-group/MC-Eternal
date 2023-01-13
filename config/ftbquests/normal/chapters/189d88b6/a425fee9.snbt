@@ -1,7 +1,7 @@
 {
 	x: -9.45d,
 	y: -11.549999999999999d,
-	description: "*Right click an enclosed dirt area with the Drop of Evil to create a rudimentary method of spawning evil creatures*",
+	description: "*用 \"邪恶点滴 \"右键泥土或草地可将其转换为诅咒之土以生成大量的怪物*",
 	dependencies: [
 		"bc9c4ee1"
 	],
@@ -10,14 +10,20 @@
 		uid: "ee32dab8",
 		type: "item",
 		items: [{
-			item: "mob_grinding_utils:saw"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mob_grinding_utils:saw"
 		}]
 	},
 	{
 		uid: "edb2c72c",
 		type: "item",
 		items: [{
-			item: "mob_grinding_utils:absorption_upgrade"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mob_grinding_utils:absorption_upgrade"
 		}]
 	}],
 	rewards: [{
@@ -28,12 +34,21 @@
 	{
 		uid: "9921ccff",
 		type: "item",
-		item: "extrautils2:ingredients 1 10"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 10s
+		}
 	},
 	{
 		uid: "ad95decc",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

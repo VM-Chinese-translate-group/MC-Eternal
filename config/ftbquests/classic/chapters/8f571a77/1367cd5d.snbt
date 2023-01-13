@@ -2,9 +2,9 @@
 	x: -12.5d,
 	y: -4.5d,
 	shape: "rsquare",
-	description: "*Read Description*",
+	description: "*阅读描述*",
 	text: [
-		"The task screen will become your best friend, to begin automating simply open the gui and pick a task. Pipe the items into the task screen and watch the coins flow!"
+		"任务显示器将成为你最好的朋友，要开始自动化，只需打开gui并选择一个任务。将物品放入任务显示器中，然后你就可以看到金币在流动了。"
 	],
 	dependencies: [
 		"cb3bf98e"
@@ -13,42 +13,21 @@
 		uid: "04c84cf4",
 		type: "checkmark",
 		title: "Task Screen",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ftbquests:screen"
-		}
+		icon: "ftbquests:screen"
 	}],
 	rewards: [{
 		uid: "8e36a700",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ftbquests:screen"
-		}
+		item: "ftbquests:screen"
 	},
 	{
 		uid: "8e88bc09",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thermaldynamics:duct_32"
-		}
+		item: "thermaldynamics:duct_32"
 	},
 	{
 		uid: "a7209431",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thermaldynamics:servo",
-			Damage: 1s
-		}
+		item: "thermaldynamics:servo 1 1"
 	}]
 }

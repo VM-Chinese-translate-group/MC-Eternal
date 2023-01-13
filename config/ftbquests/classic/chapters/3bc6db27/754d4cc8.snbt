@@ -1,15 +1,12 @@
 {
 	x: -15.5d,
 	y: -3.5d,
-	description: "Upgrading Thermal Machines",
+	description: "升级热力机器",
 	tasks: [{
 		uid: "070859c2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thermalfoundation:upgrade"
+			item: "thermalfoundation:upgrade"
 		}]
 	}],
 	rewards: [{

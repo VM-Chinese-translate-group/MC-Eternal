@@ -8,10 +8,7 @@
 		uid: "dece4bf5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:chemical_reactor_idle"
+			item: "nuclearcraft:chemical_reactor_idle"
 		}]
 	}],
 	rewards: [{

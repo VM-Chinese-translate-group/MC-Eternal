@@ -1,7 +1,7 @@
 {
 	x: -5.5d,
 	y: 11.0d,
-	description: "Holds ME Storage Cells, AE's native form of Item Storage",
+	description: "掌握ME存储元件，AE的原生物品存储形式",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -9,10 +9,7 @@
 		uid: "703a5dcd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:drive"
+			item: "appliedenergistics2:drive"
 		}]
 	},
 	{
@@ -21,7 +18,6 @@
 		title: "Any &6ME Storage Cell",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_1k",
@@ -29,7 +25,6 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_4k",
@@ -37,7 +32,6 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_16k",
@@ -45,7 +39,6 @@
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_64k",

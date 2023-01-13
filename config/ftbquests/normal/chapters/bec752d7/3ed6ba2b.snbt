@@ -1,15 +1,15 @@
 {
-	title: "&4Bound Blade",
+	title: "&4束缚之剑",
 	x: 0.5d,
 	y: 23.0d,
-	description: "&oSlaughter Unbound!",
+	description: "&o斩去身上的束缚，蒙住自己的双眼，在皮肤上刻下伤疤……",
 	text: [
-		"&4Bound Tools&7 are just like normal Tools, except they are &cUnbreakable&7, instead &cslowly siphoning LP&7 from the Bindee's Soul Network &cwhile Activated&7.",
+		"&4束缚工具&7看起来和普通工具没什么不同，不过它们是&c无法破坏&7的, ，&c激活后&7，它们会&c缓慢消耗LP（5秒扣20LP）&7，LP会从使用者的灵魂网络中扣除&7。",
 		"",
-		"&cSneak+Right-click&7 to toggle between &cActivated&7 and &cDeactivated&7.",
-		"&cInformation Above applies to other Bound Tools.",
+		"&cshift+右击&7以切换&c激活&7与&c禁用&7。",
+		"&c其他的束缚工具也是这么操作的。",
 		"",
-		"&7The &4Bound Blade&7 also has one other property, collecting &cWeak Blood Shards&7 from &cslain Hostile Mobs&7, these Shards are essential to further progression."
+		" &4束缚之剑&7有着一个特殊能力，从杀死的生物身上取得&c虚弱气血碎片&7——由那些被屠戮者被粉碎的灵魂网络的残余凝结而成。"
 	],
 	dependencies: [
 		"00db699e",
@@ -20,6 +20,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:bound_sword",
@@ -35,7 +36,10 @@
 		uid: "6475b7f8",
 		type: "item",
 		items: [{
-			item: "bloodmagic:blood_shard"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:blood_shard"
 		}]
 	}],
 	rewards: [{
@@ -46,7 +50,12 @@
 	{
 		uid: "4ef3ce85",
 		type: "item",
-		item: "bloodmagic:blood_shard",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:blood_shard"
+		},
 		count: 3
 	}]
 }

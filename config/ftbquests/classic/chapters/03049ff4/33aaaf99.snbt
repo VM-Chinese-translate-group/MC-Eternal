@@ -4,10 +4,9 @@
 	tasks: [{
 		uid: "4b2b221f",
 		type: "item",
-		title: "Catch 1500x Fish",
+		title: "抓住 鱼 x1500 ",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "listAllfishraw",
 					id: "ore"
@@ -21,26 +20,19 @@
 	rewards: [{
 		uid: "891da324",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "6a0eb912",
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mysticalagriculture:supremium_fishing_rod",
 			tag: {
 				display: {
-					Name: "Nat Pagle's Extreme Angler FC-5000"
+					Name: "奈特-帕格的极限垂钓FC-5000型"
 				}
 			}
 		}
@@ -49,9 +41,6 @@
 		uid: "67f74a89",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

@@ -1,11 +1,11 @@
 {
-	title: "&4Activation Crystal",
+	title: "&4激活水晶",
 	x: 9.5d,
 	y: 22.5d,
-	description: "&oArcane &kBullshit&r&7&o Go!",
+	description: "&o奥术&kBullshit&r&7&o冲冲冲！",
 	text: [
-		"&4Activation Crystals&7 are a Tool used to activate Rituals.",
-		"They are not consumed to activate a Ritual, so you will only ever need a single one."
+		"&4激活水晶&7用于激活仪式。",
+		"它们并不是消耗品，也没用耐久这一说，所以一个就够了。"
 	],
 	dependencies: [
 		"1ce0126f",
@@ -17,6 +17,7 @@
 		title: "&4Weak&r or &4Awakened&r Activation Crystal",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:activation_crystal"

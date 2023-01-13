@@ -5,7 +5,10 @@
 		uid: "5f59b7b7",
 		type: "item",
 		items: [{
-			item: "harvestcraft:cornseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:cornseeditem"
 		}]
 	}],
 	rewards: [{

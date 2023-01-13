@@ -1,7 +1,8 @@
 {
 	x: 13.5d,
 	y: 7.5d,
-	description: "Requires capacitor to operate *Upgraded*",
+	description: "需要电容才能工作
+	*升级*",
 	dependencies: [
 		"77d70953",
 		"05a41235"
@@ -10,10 +11,7 @@
 		uid: "0d31dcd6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_alloy_smelter"
+			item: "enderio:block_alloy_smelter"
 		}],
 		ignore_nbt: 1b
 	},
@@ -21,10 +19,7 @@
 		uid: "d1022ceb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_sag_mill"
+			item: "enderio:block_sag_mill"
 		}],
 		ignore_nbt: 1b
 	}],

@@ -1,7 +1,10 @@
 {
 	x: 22.0d,
 	y: 9.5d,
-	description: "Apply to Leaves and wait",
+	description: "右击树叶，然后等一会",
+	text: [
+		""
+	],
 	dependencies: [
 		"13287cac"
 	],
@@ -9,7 +12,10 @@
 		uid: "35cc1ef3",
 		type: "item",
 		items: [{
-			item: "naturesaura:gold_fiber"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:gold_fiber"
 		}]
 	}],
 	rewards: [{

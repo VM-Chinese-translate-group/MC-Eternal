@@ -1,8 +1,8 @@
 {
-	title: "Inventory full of junk? I gotchu",
+	title: "箱子里充满了垃圾？我给你个好东西！",
 	x: -14.0d,
 	y: -2.5d,
-	description: "Storage crates are like chests but better",
+	description: "板条箱就像箱子一样，但比它更好！",
 	dependencies: [
 		"31b29c7d"
 	],
@@ -10,7 +10,10 @@
 		uid: "e0bba99a",
 		type: "item",
 		items: [{
-			item: "actuallyadditions:block_giant_chest"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:block_giant_chest"
 		}]
 	}],
 	rewards: [{
@@ -23,6 +26,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "actuallyadditions:item_crate_keeper"

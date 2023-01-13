@@ -1,7 +1,7 @@
 {
 	x: 18.0d,
 	y: 9.0d,
-	description: "Most advanced alloy of EnderIO",
+	description: "最先进的末影接口合金",
 	dependencies: [
 		"63c1390f"
 	],
@@ -9,11 +9,7 @@
 		uid: "d1181f61",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_alloy_ingot",
-			Damage: 8s
+			item: "enderio:item_alloy_ingot 1 8"
 		}],
 		count: 8L
 	}],

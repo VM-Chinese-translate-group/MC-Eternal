@@ -8,7 +8,10 @@
 		uid: "18cc3f8a",
 		type: "item",
 		items: [{
-			item: "bewitchment:witches_cauldron"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bewitchment:witches_cauldron"
 		}]
 	}],
 	rewards: [{

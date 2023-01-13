@@ -22,7 +22,12 @@
 		uid: "bc75f347",
 		type: "observation",
 		title: "Gaze at a &5Crucible",
-		icon: "thaumcraft:crucible",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crucible"
+		},
 		match_type: "block_id",
 		match: "thaumcraft:crucible",
 		timer: 0L

@@ -6,10 +6,7 @@
 		uid: "ebb64e64",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "industrialforegoing:book_manual"
+			item: "industrialforegoing:book_manual"
 		}]
 	}],
 	rewards: [{

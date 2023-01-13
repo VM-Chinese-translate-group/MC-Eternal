@@ -1,64 +1,88 @@
 {
-	title: "Condiments",
+	title: "调味品",
 	x: -1.0d,
 	y: -6.5d,
 	text: [
-		"Let's add some flavors!"
+		"让我们添加一点味道吧!"
 	],
 	tasks: [{
 		uid: "689eb539",
 		type: "item",
 		items: [{
-			item: "harvestcraft:cranberrysauceitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:cranberrysauceitem"
 		}]
 	},
 	{
 		uid: "435e903b",
 		type: "item",
 		items: [{
-			item: "harvestcraft:guacamoleitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:guacamoleitem"
 		}]
 	},
 	{
 		uid: "f8f7c780",
 		type: "item",
 		items: [{
-			item: "harvestcraft:hoisinsauceitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:hoisinsauceitem"
 		}]
 	},
 	{
 		uid: "ed80503a",
 		type: "item",
 		items: [{
-			item: "harvestcraft:ketchupitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:ketchupitem"
 		}]
 	},
 	{
 		uid: "a769bfb8",
 		type: "item",
 		items: [{
-			item: "harvestcraft:mayoitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:mayoitem"
 		}]
 	},
 	{
 		uid: "98202ee0",
 		type: "item",
 		items: [{
-			item: "harvestcraft:mustarditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:mustarditem"
 		}]
 	},
 	{
 		uid: "f6972232",
 		type: "item",
 		items: [{
-			item: "harvestcraft:sweetandsoursauceitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:sweetandsoursauceitem"
 		}]
 	},
 	{
 		uid: "c2d3acf1",
 		type: "item",
 		items: [{
-			item: "harvestcraft:vegemiteitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:vegemiteitem"
 		}]
 	}],
 	rewards: [{

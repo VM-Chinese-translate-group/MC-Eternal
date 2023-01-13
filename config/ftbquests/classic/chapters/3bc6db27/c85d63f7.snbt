@@ -8,11 +8,7 @@
 		uid: "e7754035",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "thermalfoundation:material",
-			Damage: 160s
+			item: "thermalfoundation:material 1 160"
 		}],
 		count: 32L
 	}],

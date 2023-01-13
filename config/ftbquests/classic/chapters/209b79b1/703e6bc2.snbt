@@ -1,7 +1,6 @@
 {
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "twilightforest:knightmetal_sword"
@@ -9,7 +8,7 @@
 	x: -1.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "A frivolous forest sprite that enjoys stealing items from unsuspecting explorers.",
+	description: "一种神秘的魔法生灵，喜欢从毫无防备的探险者那里偷东西。",
 	dependencies: [
 		"26063fbc"
 	],
@@ -17,10 +16,9 @@
 	tasks: [{
 		uid: "b2203bbd",
 		type: "kill",
-		title: "Bounty: Pixie",
+		title: "悬赏：小精灵",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -41,12 +39,7 @@
 	{
 		uid: "c313c053",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "iceandfire:pixie_dust"
-		},
+		item: "iceandfire:pixie_dust",
 		count: 3
 	},
 	{
@@ -54,7 +47,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:ambrosia"

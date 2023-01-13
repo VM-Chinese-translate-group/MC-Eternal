@@ -1,10 +1,11 @@
 {
-	title: "&4Seer's Sigil",
+	title: "&4见解印记",
 	x: 2.0d,
 	y: 17.5d,
-	description: "&oInformal Information",
+	description: "&o犄角旮旯的信息",
 	text: [
-		"&7The &4Seer's Sigil&7 works identically to the &4Divination Sigil&7, only that it provides extra information when looking at or &cRight-clicking&7 a &4Blood Altar&7."
+		"&4见解印记&7是&4占卜印记&7的上位，不过在&c右击&7时可以看到&4血之祭坛&7的更多信息了。",
+		"（PS：见解印记提供的额外信息将会显示在左上角，可能会被walia的信息给挡住，这里推荐你按下小键盘0键来把walia的信息换个位置，我个人推荐将X调轴到50）"
 	],
 	dependencies: [
 		"98b3e4fb",
@@ -15,6 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_seer"

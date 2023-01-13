@@ -1,8 +1,8 @@
 {
-	title: "Initial Machines",
+	title: "最初的机器",
 	x: -3.0d,
 	y: 4.0d,
-	description: "Both machines make materials that are later used.",
+	description: "两台机器生产的材料都是后面需要使用的",
 	dependencies: [
 		"06cc512e"
 	],
@@ -10,20 +10,14 @@
 		uid: "f1a26f6c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:extractor"
+			item: "techreborn:extractor"
 		}]
 	},
 	{
 		uid: "8bb3e9bb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "techreborn:compressor"
+			item: "techreborn:compressor"
 		}]
 	}],
 	rewards: [{

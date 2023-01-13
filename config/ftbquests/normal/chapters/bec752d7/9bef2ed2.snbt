@@ -1,7 +1,10 @@
 {
 	x: 12.0d,
 	y: 14.0d,
-	description: "Something smells like garlic..",
+	description: "一股子蒜味儿……",
+	text: [
+		""
+	],
 	dependencies: [
 		"0094001a"
 	],
@@ -9,7 +12,10 @@
 		uid: "62bd2e53",
 		type: "item",
 		items: [{
-			item: "vampirism:garlic_beacon"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:garlic_beacon"
 		}]
 	}],
 	rewards: [{

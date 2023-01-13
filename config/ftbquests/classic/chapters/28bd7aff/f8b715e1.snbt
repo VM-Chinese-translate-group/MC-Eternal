@@ -1,5 +1,5 @@
 {
-	title: "Genocide",
+	title: "大屠杀",
 	x: -6.0d,
 	y: -1.0d,
 	dependencies: [
@@ -9,10 +9,9 @@
 	tasks: [{
 		uid: "14f6f0ac",
 		type: "kill",
-		title: "Murder 50 Innocent Citizens",
+		title: "杀害50名无辜的市民",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thermalfoundation:diagram_redprint"
@@ -29,9 +28,6 @@
 		uid: "ec3ce099",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

@@ -2,7 +2,7 @@
 	x: 13.0d,
 	y: -5.0d,
 	text: [
-		"Me want COOKIES!"
+		"我想要饼!干!"
 	],
 	dependencies: [
 		"17f50c84"
@@ -11,7 +11,10 @@
 		uid: "130179c2",
 		type: "item",
 		items: [{
-			item: "harvestcraft:buttercookieitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:buttercookieitem"
 		}],
 		count: 16L
 	}],

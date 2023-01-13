@@ -2,7 +2,7 @@
 	x: 11.0d,
 	y: -3.0d,
 	text: [
-		"Nom Nom COOKIE! Nom"
+		"Nom Nom! 美味的饼干!"
 	],
 	dependencies: [
 		"17f50c84"
@@ -11,7 +11,10 @@
 		uid: "0a2f16f0",
 		type: "item",
 		items: [{
-			item: "harvestcraft:sugarcookieitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:sugarcookieitem"
 		}],
 		count: 16L
 	}],

@@ -15,7 +15,10 @@
 		uid: "ed62113c",
 		type: "item",
 		items: [{
-			item: "thaumcraft:lamp_growth"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:lamp_growth"
 		}]
 	}],
 	rewards: [{

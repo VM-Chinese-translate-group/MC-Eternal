@@ -1,16 +1,13 @@
 {
 	x: -6.0d,
 	y: -3.0d,
-	description: "`",
+	description: "耕作",
 	can_repeat: true,
 	tasks: [{
 		uid: "89b9a3c2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:beetroot"
+			item: "minecraft:beetroot"
 		}],
 		count: 16L
 	}],

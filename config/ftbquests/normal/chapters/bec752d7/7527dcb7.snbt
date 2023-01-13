@@ -1,8 +1,11 @@
 {
-	title: "Passive Personal Mana",
+	title: "微缩形被动产能",
 	x: 14.0d,
 	y: -3.0d,
-	description: "A Band of Aura will fill Mana-holding items in your inventory passively when worn, it's not much, so it can't keep up with items that use a lot.",
+	description: "光环之戒可以缓慢的自动生产魔力进入你身上的魔力存储，这并不高效，但是啥都不消耗",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"7b154e41",
@@ -11,18 +14,20 @@
 	tasks: [{
 		uid: "1b7c4317",
 		type: "item",
-		title: "Regular or Greater Band of Aura",
+		title: "随便一个什么光环之戒",
 		items: [{
-			id: "botania:auraring",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:auraring"
 		},
 		{
-			id: "botania:auraringgreater",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:auraringgreater"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

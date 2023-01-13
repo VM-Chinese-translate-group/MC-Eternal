@@ -8,10 +8,7 @@
 		uid: "4adc7baf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "forestry:fabricator"
+			item: "forestry:fabricator"
 		}]
 	}],
 	rewards: [{

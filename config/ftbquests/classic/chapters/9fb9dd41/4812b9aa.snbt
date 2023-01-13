@@ -4,24 +4,21 @@
 	tasks: [{
 		uid: "d21955fd",
 		type: "item",
-		title: "Death Worm Gauntlet",
+		title: "死亡蠕虫手甲",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:deathworm_gauntlet_yellow"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:deathworm_gauntlet_red"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:deathworm_gauntlet_white"

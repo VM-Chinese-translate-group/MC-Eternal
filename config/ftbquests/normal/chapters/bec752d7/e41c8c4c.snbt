@@ -1,7 +1,10 @@
 {
 	x: 18.0d,
 	y: -2.5d,
-	description: "Pocket Mana Spreader! *Read the Lexica Botania for more Info*",
+	description: "存储魔力，然后……发射！ *详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"5b6ca5ea"
 	],
@@ -9,11 +12,12 @@
 		uid: "5f1fab09",
 		type: "item",
 		items: [{
-			id: "botania:managun",
-			tag: {},
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:managun",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

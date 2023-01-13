@@ -10,7 +10,10 @@
 		uid: "b7bce708",
 		type: "item",
 		items: [{
-			item: "thaumcraft:nitor_yellow"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:nitor_yellow"
 		}]
 	}],
 	rewards: [{

@@ -1,15 +1,14 @@
 {
-	title: "Dirt Factory",
+	title: "泥土工厂",
 	x: 2.0d,
 	y: -3.0d,
-	description: "&oBig money, big women, big fun",
+	description: "&o赚大钱，迎娶白富美，走上人生巅峰",
 	tasks: [{
 		uid: "7c9d3ac1",
 		type: "item",
 		title: "Any compressed4xDirt",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "compressed4xDirt",
 					id: "ore"
@@ -47,17 +46,9 @@
 	{
 		uid: "6583c282",
 		type: "item",
-		title: "Golden Lootbox",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "treasure2:gold_strongbox"
-		},
+		title: "黄金战利品箱",
+		icon: "treasure2:gold_strongbox",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "rare_lootbox"
@@ -68,13 +59,10 @@
 		uid: "1f637b9f",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:dirt",
 			tag: {
 				display: {
-					Name: "Triple enriched diamond filtered quality dirt"
+					Name: "三重富集钻石过滤精选优质土"
 				}
 			}
 		}
@@ -82,21 +70,12 @@
 	{
 		uid: "aabd8882",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "67c9068f",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

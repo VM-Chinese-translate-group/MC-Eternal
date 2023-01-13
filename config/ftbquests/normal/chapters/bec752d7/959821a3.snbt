@@ -13,7 +13,10 @@
 		uid: "3318cc0e",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:celestial_observer_placer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:celestial_observer_placer"
 		}]
 	}],
 	rewards: [{

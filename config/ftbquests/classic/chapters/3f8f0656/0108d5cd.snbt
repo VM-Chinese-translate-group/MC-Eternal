@@ -1,7 +1,7 @@
 {
 	x: 9.0d,
 	y: 10.5d,
-	description: "Conduits are used to transfer items/fluid/power to selected destinations. Note: Use color coding to sort input/output",
+	description: "导管用于将物品/流体/能量输送到选定的目标。注意：可以使用颜色编码对输入/输出进行排序",
 	dependencies: [
 		"cb777ab6"
 	],
@@ -9,10 +9,7 @@
 		uid: "04f5ed5d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_item_conduit"
+			item: "enderio:item_item_conduit"
 		}],
 		count: 16L
 	},
@@ -20,11 +17,7 @@
 		uid: "dd8ef7d2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_liquid_conduit",
-			Damage: 1s
+			item: "enderio:item_liquid_conduit 1 1"
 		}],
 		count: 8L
 	}],

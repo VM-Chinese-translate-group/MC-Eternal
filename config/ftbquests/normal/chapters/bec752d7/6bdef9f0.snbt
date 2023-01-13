@@ -1,7 +1,10 @@
 {
 	x: 28.5d,
 	y: 7.0d,
-	description: "Stores Aura to be channeled by various Tools.",
+	description: "存储灵气，供给那些需要灵气使用的工具",
+	text: [
+		""
+	],
 	dependencies: [
 		"b12539ba"
 	],
@@ -9,10 +12,11 @@
 		uid: "7c117937",
 		type: "item",
 		items: [{
-			id: "naturesaura:aura_cache",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "naturesaura:aura_cache"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

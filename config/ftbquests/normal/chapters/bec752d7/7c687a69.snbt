@@ -15,14 +15,20 @@
 		uid: "e3fe01d5",
 		type: "item",
 		items: [{
-			item: "thaumcraft:paving_stone_travel"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:paving_stone_travel"
 		}]
 	},
 	{
 		uid: "3d2248c9",
 		type: "item",
 		items: [{
-			item: "thaumcraft:paving_stone_barrier"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:paving_stone_barrier"
 		}]
 	}],
 	rewards: [{

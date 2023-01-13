@@ -1,8 +1,11 @@
 {
-	title: "Liquid Light",
+	title: "液态星能",
 	x: 7.5d,
 	y: -12.0d,
-	description: "&oCreate this container and set an &9&oAquamarine or Rock Crystal&7&o upon it, the Starlight passing through should coalesce and seep into the Well... The Starlight may coalesce into a different form if you use other objects...",
+	description: "&o制作并放置一个聚星缸，然后放一个&9&o海蓝宝石或者水晶石&7&o在上面，蕴含在宝石里的星能会逐渐沉入缸中，形成流体。当宝石里的星能流逝的七七八八后，由至纯的星光构成的身体也无法继续维持下去了，随着啪的一声脆响，宝石会碎裂。",
+	text: [
+		""
+	],
 	dependencies: [
 		"a0c270d5",
 		"8d95e24a"
@@ -11,7 +14,10 @@
 		uid: "cd06f0b2",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockwell"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockwell"
 		}]
 	}],
 	rewards: [{
@@ -22,7 +28,12 @@
 	{
 		uid: "1fd555b8",
 		type: "item",
-		item: "astralsorcery:itemcraftingcomponent",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:itemcraftingcomponent"
+		},
 		count: 8
 	}]
 }

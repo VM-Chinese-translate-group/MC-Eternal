@@ -1,17 +1,14 @@
 {
-	title: "Cable Facades",
+	title: "线缆伪装板",
 	x: -5.0d,
 	y: 14.5d,
-	description: "Used to hide your ME Cables in your walls nicely! Craft with 4 Cable Anchors cardinally around the block you want to make a Facade of!",
+	description: "用于将您的ME线缆很好地隐藏在墙上！在您想要制作建筑的方块周围用4个伪装板进行制作！",
 	optional: true,
 	tasks: [{
 		uid: "0067bcb1",
 		type: "item",
 		title: "&6Any Cable Facade",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "appliedenergistics2:facade",
 			tag: {
 				damage: 0,

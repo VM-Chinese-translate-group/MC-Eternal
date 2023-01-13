@@ -1,7 +1,10 @@
 {
 	x: 2.0d,
 	y: -3.5d,
-	description: "You've discovered some ancient scrolls... ",
+	description: "你找到了一些暮色独有的法术……",
+	text: [
+		""
+	],
 	dependencies: [
 		"ac54b30d"
 	],
@@ -9,14 +12,20 @@
 		uid: "0f396eb6",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "twilightforest:trophy"
 		}]
 	}],
 	rewards: [{
 		uid: "8a8df4fa",
 		type: "item",
-		title: "Ancient Scroll",
+		title: "暮色法术卷轴",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "tfspellpack:twilight_scroll",
 			Damage: 198s
 		}
@@ -24,8 +33,11 @@
 	{
 		uid: "2abb7683",
 		type: "item",
-		title: "Ancient Scroll",
+		title: "暮色法术卷轴",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "tfspellpack:twilight_scroll",
 			Damage: 196s
 		}
@@ -33,8 +45,11 @@
 	{
 		uid: "2b3f0e34",
 		type: "item",
-		title: "Ancient Scroll",
+		title: "暮色法术卷轴",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "tfspellpack:twilight_scroll",
 			Damage: 197s
 		}
@@ -43,6 +58,9 @@
 		uid: "24226853",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "twilightforest:transformation_powder"
 		}
 	}]

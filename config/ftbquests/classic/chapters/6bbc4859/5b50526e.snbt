@@ -1,15 +1,10 @@
 {
-	title: "Gold Seeds",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "mysticalagriculture:gold_seeds"
-	},
+	title: "黄金种子",
+	icon: "mysticalagriculture:gold_seeds",
 	x: 0.0d,
 	y: -0.5d,
 	shape: "diamond",
-	description: "*Unlocked from completing the Farming chapter*",
+	description: "*完成农业章节以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"99cbbc10"
@@ -22,11 +17,6 @@
 	rewards: [{
 		uid: "f527e159",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mysticalagriculture:gold_seeds"
-		}
+		item: "mysticalagriculture:gold_seeds"
 	}]
 }

@@ -8,7 +8,10 @@
 		uid: "4206ceed",
 		type: "item",
 		items: [{
-			item: "vampirism:weapon_table"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:weapon_table"
 		}]
 	}],
 	rewards: [{

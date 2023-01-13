@@ -1,7 +1,10 @@
 {
 	x: 11.0d,
 	y: -5.5d,
-	description: "Mana = Land Flattening!",
+	description: "用魔力填平一切！",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"7b06de0e",
@@ -11,10 +14,11 @@
 		uid: "6426ebe5",
 		type: "item",
 		items: [{
-			id: "botania:terraformrod",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:terraformrod"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

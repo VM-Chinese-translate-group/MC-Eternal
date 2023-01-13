@@ -1,8 +1,11 @@
 {
-	title: "Ancient Knowledge",
+	title: "上古秘闻",
 	x: 6.0d,
 	y: -6.0d,
-	description: "Obtain an Ancient Spell Book",
+	description: "复原一本古代法术书",
+	text: [
+		""
+	],
 	dependencies: [
 		"fe399292"
 	],
@@ -11,6 +14,9 @@
 		type: "advancement",
 		title: "Advancement: &eLost Knowledge",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ancientspellcraft:ancient_spell_book",
 			Damage: 1s
 		},
@@ -26,6 +32,10 @@
 		uid: "d0a73e51",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "ancientspellcraft:stone_tablet"
 		}
 	}]

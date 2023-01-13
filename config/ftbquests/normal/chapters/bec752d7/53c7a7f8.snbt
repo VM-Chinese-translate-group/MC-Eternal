@@ -17,7 +17,10 @@
 		uid: "f04f9e4d",
 		type: "item",
 		items: [{
-			item: "thaumcraft:bath_salts"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:bath_salts"
 		}]
 	}],
 	rewards: [{

@@ -15,7 +15,10 @@
 		uid: "0f64cc40",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:arcane_terraformer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:arcane_terraformer"
 		}]
 	}],
 	rewards: [{

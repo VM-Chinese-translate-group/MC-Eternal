@@ -1,9 +1,12 @@
 {
-	title: "Structural Divination",
+	title: "结构投影",
 	x: 5.0d,
 	y: -11.0d,
 	shape: "octagon",
-	description: "&oThis tool will help you find ancient Structures, and can show you how to assemble structures that some devices require, simply &d&oSneak+Right-click&7&o on the heart of a structure to see how it should be assembled...",
+	description: "&o这个小玩意可以投射多方块结构的虚像，只需要简单的&d&oshift右击&7&o一个多方块结构的核心方块就行",
+	text: [
+		""
+	],
 	dependencies: [
 		"8d95e24a"
 	],
@@ -12,6 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemsextant",

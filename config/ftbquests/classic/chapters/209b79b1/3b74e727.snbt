@@ -1,11 +1,11 @@
 {
-	title: "Bounty: Stymphalian Bird",
+	title: "悬赏：铜羽泽鹗",
 	x: 1.5d,
 	y: -6.5d,
 	shape: "square",
-	description: "A fierce raptor that descends upon prey with a bronze beak and sharp, metallic pinions.",
+	description: "一种凶猛的猛禽，用青铜羽毛和锋利的金属喙啄食猎物。",
 	text: [
-		"Stymphalian Birds are bloodthirsty carnivorous birds that fly above swampy environments and fire metallic feathers at their prey."
+		"铜羽泽鹗是一种嗜血的食肉鸟，会在沼泽生物群系中生成。它会从空中冲向猎物，并发射金属羽毛。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -15,10 +15,9 @@
 	tasks: [{
 		uid: "8f27dd96",
 		type: "kill",
-		title: "Stymphalian Bird",
+		title: "铜羽泽鹗",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -41,7 +40,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:moltenpan"
@@ -50,12 +48,7 @@
 	{
 		uid: "713f66d5",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_ingot"
-		},
+		item: "minecraft:gold_ingot",
 		count: 8
 	}]
 }

@@ -17,7 +17,10 @@
 		uid: "74897b04",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:fracture_locator"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:fracture_locator"
 		}]
 	}],
 	rewards: [{

@@ -1,11 +1,11 @@
 {
-	title: "Crystalline Tools",
+	title: "水晶石工具",
 	x: 7.5d,
 	y: -18.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oYou can create tools out of &9&oRock Crystal&7&o, however, they do not use up Durability like many other tools do, instead, they sacrifice their &9&oCutting&7&o level, which can always be resharpened at the cost of &9&oSize&7&o level, and that can always be regrown in &r&oLiquid Starlight&7&o...",
-		"There are limits to the power of these tools, but perhaps &9&oa more Potent form of Crystal&7&o would be a greater catalyst for further power..."
+		"&7&o你可以使用&9&o水晶石&7&o制作工具，它们的耐久和效力机制不同于其他的工具，&9&o抛光度&7&o决定了工具的性能，可以在砂轮上提升。&9&o尺寸&7&o决定了工具的耐久，可以丢进&r&o星能液&7&o提升。",
+		"这些工具的力量终究是有限的，也许问题出在它的组成材料上，&9&o更加强力的水晶&7&o应该可以提升工具的力量。"
 	],
 	dependencies: [
 		"85ccecbd"
@@ -13,9 +13,10 @@
 	tasks: [{
 		uid: "17087e31",
 		type: "item",
-		title: "Any &9Crystal Tool",
+		title: "任意&9水晶石工具",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemcrystalsword",
@@ -31,6 +32,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemcrystalpickaxe",
@@ -46,6 +48,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemcrystalaxe",
@@ -61,6 +64,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemcrystalshovel",

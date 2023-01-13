@@ -1,7 +1,7 @@
 {
 	x: 19.5d,
 	y: 7.5d,
-	description: "Enhanced Machinery",
+	description: "强化机械",
 	dependencies: [
 		"be9cdc44",
 		"1bfccc16"
@@ -10,10 +10,7 @@
 		uid: "f5659714",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_enhanced_alloy_smelter"
+			item: "enderio:block_enhanced_alloy_smelter"
 		}],
 		ignore_nbt: 1b
 	},
@@ -21,10 +18,7 @@
 		uid: "ba176e36",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_enhanced_sag_mill"
+			item: "enderio:block_enhanced_sag_mill"
 		}],
 		ignore_nbt: 1b
 	},
@@ -32,10 +26,7 @@
 		uid: "cd214df2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_enhanced_vat"
+			item: "enderio:block_enhanced_vat"
 		}],
 		ignore_nbt: 1b
 	}],

@@ -8,10 +8,7 @@
 		uid: "ba43208b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "forestry:impregnated_casing"
+			item: "forestry:impregnated_casing"
 		}]
 	}],
 	rewards: [{

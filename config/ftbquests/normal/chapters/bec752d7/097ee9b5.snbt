@@ -1,9 +1,10 @@
 {
 	x: 5.0d,
 	y: -2.0d,
-	description: "Useful for Adventuring!",
+	description: "喜欢冒险的巫师必备物品",
 	text: [
-		"Mana flasks can be used as a method of recharging wands with mana on the go, different size flask results in different amounts of mana"
+		"魔力瓶可以为魔杖充入魔力，并且不需要奥术工作台的辅助。",
+		"不同大小的魔力瓶提供的魔力不同，注意不要浪费。"
 	],
 	dependencies: [
 		"2cc29c7a"
@@ -12,6 +13,9 @@
 		uid: "4e8bf224",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:medium_mana_flask"
 		}]
 	}],
@@ -24,6 +28,9 @@
 		uid: "53947d61",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:identification_scroll"
 		}
 	},

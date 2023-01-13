@@ -2,7 +2,7 @@
 	title: "Simple Machines",
 	x: 10.5d,
 	y: 7.5d,
-	description: "Basic machines of EnderIO. Requires to craft other materials",
+	description: "末影接口的基础机器。需要去制作其它的材料",
 	dependencies: [
 		"d3804759"
 	],
@@ -10,10 +10,7 @@
 		uid: "fa846be7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_simple_furnace"
+			item: "enderio:block_simple_furnace"
 		}],
 		ignore_nbt: 1b
 	},
@@ -21,10 +18,7 @@
 		uid: "1285ef25",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_simple_alloy_smelter"
+			item: "enderio:block_simple_alloy_smelter"
 		}],
 		ignore_nbt: 1b
 	},
@@ -32,10 +26,7 @@
 		uid: "357ea426",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_simple_sag_mill"
+			item: "enderio:block_simple_sag_mill"
 		}],
 		ignore_nbt: 1b
 	}],

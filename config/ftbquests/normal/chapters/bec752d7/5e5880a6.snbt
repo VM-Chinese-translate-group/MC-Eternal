@@ -15,7 +15,10 @@
 		uid: "8f72fa6d",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:impetus_mirror"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:impetus_mirror"
 		}],
 		count: 2L
 	}],

@@ -1,15 +1,16 @@
 {
-	title: "The cake isn't a lie!",
+	title: "蛋糕不是谎言!",
 	x: 3.0d,
 	y: -6.5d,
 	text: [
-		"What kind of cake do you like?"
+		"你喜欢哪种蛋糕?"
 	],
 	tasks: [{
 		uid: "f5ac5685",
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "minecraft:cake"
@@ -21,35 +22,50 @@
 		uid: "54d41db7",
 		type: "item",
 		items: [{
-			item: "harvestcraft:cheesecakeitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:cheesecakeitem"
 		}]
 	},
 	{
 		uid: "8e07c7d8",
 		type: "item",
 		items: [{
-			item: "harvestcraft:holidaycakeitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:holidaycakeitem"
 		}]
 	},
 	{
 		uid: "f7c6f196",
 		type: "item",
 		items: [{
-			item: "harvestcraft:lamingtonitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:lamingtonitem"
 		}]
 	},
 	{
 		uid: "23b8ce86",
 		type: "item",
 		items: [{
-			item: "harvestcraft:pumpkincheesecakeitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:pumpkincheesecakeitem"
 		}]
 	},
 	{
 		uid: "9c9529e5",
 		type: "item",
 		items: [{
-			item: "harvestcraft:redvelvetcakeitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:redvelvetcakeitem"
 		}]
 	}],
 	rewards: [{

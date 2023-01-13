@@ -5,7 +5,10 @@
 		uid: "1a1d77b7",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:mystical_fertilizer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:mystical_fertilizer"
 		}],
 		count: 16L
 	}],

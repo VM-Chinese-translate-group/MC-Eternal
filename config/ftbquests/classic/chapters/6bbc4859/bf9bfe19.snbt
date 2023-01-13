@@ -1,7 +1,6 @@
 {
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "wct:wct_creative"
@@ -9,7 +8,7 @@
 	x: 0.0d,
 	y: 2.5d,
 	shape: "square",
-	description: "*Unlocked from completing the Introduction chapter*",
+	description: "*完成介绍章节以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"189d88b6"
@@ -24,7 +23,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wct:wct_creative"

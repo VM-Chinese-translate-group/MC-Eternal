@@ -1,10 +1,19 @@
 {
-	title: "&4&lThe Nether",
-	icon: "bewitchment:nether_brick_baphomet_statue",
+	title: "&4&l地狱",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "bewitchment:nether_brick_baphomet_statue"
+	},
 	x: -7.0d,
 	y: -9.0d,
 	shape: "octagon",
 	description: "Nobody's gonna mess me around - Hey Satan, paid my dues - Playing in a rocking band - Hey mama, look at me I'm on my way to the promised land, whoo!",
+	text: [
+		"歌词大意：没有人能混淆我的视线  -嗨撒旦，给我会费  -在人群中摇滚狂欢  -嗨妈妈，看着我吧，我在去往天堂的路上，whoo！！",
+		"歌名：《Highway To Hell》"
+	],
 	dependencies: [
 		"69d2c7f8"
 	],
@@ -23,6 +32,9 @@
 		uid: "fa6a7cd4",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -34,6 +46,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -8940463668607302781L,
 					AS_Amulet_HolderMost: -5272402051974608774L

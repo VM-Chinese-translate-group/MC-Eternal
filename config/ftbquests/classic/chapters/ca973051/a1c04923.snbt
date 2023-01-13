@@ -1,7 +1,7 @@
 {
 	x: -13.0d,
 	y: -12.0d,
-	description: "&oFoe's Armored? Not as much of a problem!",
+	description: "&o敌人没穿盔甲？暴击他们！",
 	dependencies: [
 		"0f56d604"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_axe"

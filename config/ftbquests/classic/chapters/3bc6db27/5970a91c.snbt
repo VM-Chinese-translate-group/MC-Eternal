@@ -1,8 +1,8 @@
 {
-	title: "Other ingots?",
+	title: "其他金属锭？",
 	x: -0.5d,
 	y: 7.5d,
-	description: "Chrome dust can be obtained by electrolyzing 9 ruby dust or 20 uvarovite dust. Combine tungsten and steel in a blast furnace housing 3,000 heat to obtain hot tungstensteel.",
+	description: "铬粉可通过9个红宝石粉或20个钙铬榴石粉电解获得。 在3,000热量的高炉里结合钨和钢就能获得热钨钢锭",
 	dependencies: [
 		"06cc512e"
 	],
@@ -10,9 +10,6 @@
 		uid: "718a5f0b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "techreborn:ingot",
 			Damage: 3s
 		}],
@@ -22,9 +19,6 @@
 		uid: "63a9e265",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "techreborn:ingot",
 			Damage: 16s
 		}],
@@ -35,7 +29,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "ingotBrass",
 					id: "ore"

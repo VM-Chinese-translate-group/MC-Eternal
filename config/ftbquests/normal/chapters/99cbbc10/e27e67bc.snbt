@@ -5,7 +5,10 @@
 		uid: "84371977",
 		type: "item",
 		items: [{
-			item: "harvestcraft:apricotjuiceitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:apricotjuiceitem"
 		}]
 	}],
 	rewards: [{

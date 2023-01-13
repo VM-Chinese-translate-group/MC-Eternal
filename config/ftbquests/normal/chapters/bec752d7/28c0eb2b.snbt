@@ -1,7 +1,10 @@
 {
 	x: 29.5d,
 	y: 5.0d,
-	description: "Stores much more Aura than an Aura Cache.",
+	description: "灵气缓存PLUS版",
+	text: [
+		""
+	],
 	dependencies: [
 		"cf40c7b4",
 		"6bdef9f0"
@@ -10,10 +13,11 @@
 		uid: "d4199992",
 		type: "item",
 		items: [{
-			id: "naturesaura:aura_trove",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "naturesaura:aura_trove"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -10,7 +10,10 @@
 		uid: "c7e96b7d",
 		type: "item",
 		items: [{
-			item: "thaumcraft:alumentum"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:alumentum"
 		}]
 	}],
 	rewards: [{

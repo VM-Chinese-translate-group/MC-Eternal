@@ -18,7 +18,10 @@
 		uid: "0f2347b1",
 		type: "item",
 		items: [{
-			item: "thaumcraft:metal_alchemical"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:metal_alchemical"
 		}],
 		count: 2L
 	}],

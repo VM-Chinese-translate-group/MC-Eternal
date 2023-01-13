@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: -0.5d,
 	shape: "hexagon",
-	description: "&oThe Moon has unfortunately been drained of its natural resource by those greedy rats! If you dig deep enough you may find treasure however",
+	description: "&o不幸的是，月球的自然资源已经被那些贪婪的老鼠榨干了！不过如果你挖得够深，你可能会发现宝藏。",
 	dependencies: [
 		"2b45993e"
 	],
@@ -12,10 +12,7 @@
 		uid: "2a1651e7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:emerald_block"
+			item: "minecraft:emerald_block"
 		}],
 		count: 64L
 	}],
@@ -28,9 +25,6 @@
 		uid: "9ff30c3b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

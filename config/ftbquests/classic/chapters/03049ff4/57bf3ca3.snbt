@@ -1,14 +1,13 @@
 {
-	title: "&lBeeDex",
+	title: "&l蜂王浆",
 	x: 1.0d,
 	y: 4.0d,
-	description: "&e&oNot the bees? Bees are fun now did you not get the memo?",
+	description: "&e&o\"不要蜜蜂？蜜蜂很有趣的，现在你没拿到我的备忘录吗？\"",
 	tasks: [{
 		uid: "963bc8da",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -159,7 +158,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -311,7 +309,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -462,7 +459,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -613,7 +609,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -768,7 +763,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -919,7 +913,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -1070,7 +1063,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -1221,7 +1213,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -1372,7 +1363,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -1523,7 +1513,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -1674,7 +1663,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -1828,7 +1816,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -1979,7 +1966,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -2130,7 +2116,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -2281,7 +2266,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -2432,7 +2416,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -2583,7 +2566,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -2734,7 +2716,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forestry:bee_queen_ge",
@@ -2889,9 +2870,6 @@
 		uid: "01c378e2",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -2901,25 +2879,16 @@
 	{
 		uid: "aef1db7d",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "27eeaabf",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:written_book",
 			tag: {
 				pages: [
-					"{\"text\":\"That quest sure was un-bee-lievable huh.\\n\\nWhat did one bee say to the other when they landed on the same flower? Buzz off.\\n\\nA bee who is good in math knows exactly what a rhom-buzz is.\\n\"}",
+					"{\"text\":\"这个任务可真是“蜂”富难忘啊！\\n\\n当两只蜜蜂落到同一朵花上他们会互相说什么？ 哥“嗡”恩（滚） 开！.\\n\\nA bee who is good in math knows exactly what a rhom-buzz is.\\n\"}",
 					"{\"text\":\"Bee puns really sting. Am I right? I\\u0027ll be here all weekend.\\n\\nOnly bees who are on their best bee-havior get to go to the hive and make honey.\\n\\nThat bee is talking too quietly, it must be a mumble-bee!\"}",
 					"{\"text\":\"That single bee finally got married because he found his honey.\\n\\nQuit pollen my leg.\\n\\nHah!\\n\\nPeople always tell me to bee myself\\n\\nWasp are you talking about?\"}",
 					"{\"text\":\"The bees went on strike because they wanted more honey and less working flowers.\\n\\nWho\\u0027s a bee\\u0027s favorite painter? Pablo Bee-casso\\n\\nTo bee or not to bee, that is the question!\"}"

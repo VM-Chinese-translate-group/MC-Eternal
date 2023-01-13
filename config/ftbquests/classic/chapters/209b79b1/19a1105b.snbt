@@ -1,7 +1,6 @@
 {
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "twilightforest:knightmetal_sword"
@@ -9,7 +8,7 @@
 	x: -5.0d,
 	y: -4.0d,
 	shape: "square",
-	description: "Battle towers are an excellent source of loot. *You will know its a tower if it has windows all along the base and an angry stone giant ontop*",
+	description: "战斗高塔是获得战利品的绝佳来源。*在世界各处分布着高耸入云的石塔，如果它的四周有窗户，并且顶部有一个愤怒的石头巨人，那么你就能分辨这是一座战斗高塔了。*",
 	dependencies: [
 		"3acd3f99"
 	],
@@ -17,10 +16,9 @@
 	tasks: [{
 		uid: "0af7f29f",
 		type: "kill",
-		title: "Bounty: Tower Golem",
+		title: "悬赏：高塔傀儡",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -43,7 +41,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:bonesword"
@@ -52,12 +49,7 @@
 	{
 		uid: "7e8a964f",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:diamond_block"
-		},
+		item: "minecraft:diamond_block",
 		count: 2
 	}]
 }

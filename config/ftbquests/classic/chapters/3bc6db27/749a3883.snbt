@@ -2,13 +2,12 @@
 	x: -6.0d,
 	y: -4.0d,
 	shape: "hexagon",
-	description: "Jet Propulsion Laboratory who?",
+	description: "谁在喷气推进实验室？",
 	tasks: [{
 		uid: "17ba5fe7",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "simplyjetpacks:itemjetpack",

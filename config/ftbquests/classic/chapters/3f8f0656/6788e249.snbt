@@ -1,7 +1,7 @@
 {
 	x: -7.0d,
 	y: 14.0d,
-	description: "Teleports Channels (or other things) to linked ends.",
+	description: "将通道（或其他东西）传送到链接的末端。",
 	dependencies: [
 		"1e041009"
 	],
@@ -9,11 +9,7 @@
 		uid: "2840765c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:part",
-			Damage: 460s
+			item: "appliedenergistics2:part 1 460"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

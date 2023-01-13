@@ -1,8 +1,11 @@
 {
-	title: "Tokens of Emotion",
+	title: "情绪徽章",
 	x: 23.5d,
 	y: 5.5d,
-	description: "Important crafting ingredients for various devices.",
+	description: "重要合成材料",
+	text: [
+		""
+	],
 	dependencies: [
 		"a074c6bd"
 	],
@@ -10,28 +13,40 @@
 		uid: "07a0f7e3",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_joy"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_joy"
 		}]
 	},
 	{
 		uid: "b5abebcc",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_fear"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_fear"
 		}]
 	},
 	{
 		uid: "a65096c4",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_anger"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_anger"
 		}]
 	},
 	{
 		uid: "ff10cccd",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_sorrow"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_sorrow"
 		}]
 	}],
 	rewards: [{

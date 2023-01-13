@@ -20,22 +20,45 @@
 		type: "item",
 		title: "4x Any &5Curiosity",
 		items: [{
-			item: "thaumcraft:curio 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 1s
 		},
 		{
-			item: "thaumcraft:curio"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio"
 		},
 		{
-			item: "thaumcraft:curio 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 5s
 		},
 		{
-			item: "thaumcraft:curio 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 4s
 		},
 		{
-			item: "thaumcraft:curio 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 2s
 		},
 		{
-			item: "thaumcraft:curio 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 3s
 		}],
 		count: 4L
 	}],

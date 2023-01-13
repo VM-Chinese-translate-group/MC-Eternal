@@ -4,10 +4,9 @@
 	tasks: [{
 		uid: "352b1a64",
 		type: "kill",
-		title: "&6&lBounty: Titan Beetle",
+		title: "&6&l悬赏：提坦天牛",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:wasp_sword"
@@ -19,9 +18,6 @@
 		uid: "6c4c2660",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

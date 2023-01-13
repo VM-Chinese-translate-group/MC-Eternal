@@ -1,8 +1,8 @@
 {
-	title: "Upgrade Cards",
+	title: "升级卡",
 	x: -6.5d,
 	y: 10.5d,
-	description: "Basic and Advanced Cards are the base for all types of Cards in AE2, used in various devices as Upgrades or Modifiers to their functionality.",
+	description: "基础卡和高级卡是AE2中所有卡的基础，在各种设备中用作其功能的升级或修饰。",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -11,18 +11,10 @@
 		type: "item",
 		title: "&6Basic &rOr &6Advanced Card",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 25s
+			item: "appliedenergistics2:material 1 25"
 		},
 		{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 28s
+			item: "appliedenergistics2:material 1 28"
 		}]
 	}],
 	rewards: [{

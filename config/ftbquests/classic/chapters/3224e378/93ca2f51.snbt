@@ -4,10 +4,9 @@
 	tasks: [{
 		uid: "708aab03",
 		type: "kill",
-		title: "&6&lBounty: Midge Swarm",
+		title: "&6&l悬赏：蠓群",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:wasp_sword"
@@ -19,9 +18,6 @@
 		uid: "e8a00cb2",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

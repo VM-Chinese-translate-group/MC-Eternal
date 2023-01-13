@@ -1,7 +1,7 @@
 {
 	x: 9.0d,
 	y: 9.0d,
-	description: "Used for EnderIO conduits",
+	description: "用于末影接口的导管",
 	dependencies: [
 		"d3804759"
 	],
@@ -9,11 +9,7 @@
 		uid: "683f7e74",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_material",
-			Damage: 4s
+			item: "enderio:item_material 1 4"
 		}],
 		count: 32L
 	}],

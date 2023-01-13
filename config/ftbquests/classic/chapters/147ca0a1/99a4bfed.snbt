@@ -1,17 +1,16 @@
 {
-	title: "&2Visit Atum",
+	title: "&2前往阿图姆",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "octagon",
-	description: "&oDesert planet but not devoid of life, quite the opposite strangely enough... An ancient force has awoken, you feel the urge to investigate. What treasures lay untouched? Only one way to find out!",
+	description: "&o一个沙漠星球，但并非没有生命，奇怪的是恰恰相反……一股古老的力量正在觉醒了，你求知探索的内心愈发冲动。有哪些未被发现的宝藏？只有一种方式能找到答案！",
 	size: 1.3d,
 	tasks: [{
 		uid: "326080ae",
 		type: "dimension",
-		title: "Visit Atum",
+		title: "前往阿图姆",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "atum:dagger_poison"
@@ -27,9 +26,6 @@
 		uid: "505a585e",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

@@ -17,7 +17,10 @@
 		uid: "75968b56",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:void_recharge_pedestal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:void_recharge_pedestal"
 		}]
 	}],
 	rewards: [{

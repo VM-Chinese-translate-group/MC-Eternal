@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -12.5d,
 	shape: "octagon",
-	description: "Grows better on End Stone",
+	description: "在末地石上种植长得更好",
 	dependencies: [
 		"0739b5ef"
 	],
@@ -10,7 +10,10 @@
 		uid: "34340272",
 		type: "item",
 		items: [{
-			item: "extrautils2:enderlilly"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:enderlilly"
 		}]
 	}],
 	rewards: [{
@@ -28,6 +31,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:steeleaf_axe",

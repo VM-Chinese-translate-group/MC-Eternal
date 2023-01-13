@@ -27,14 +27,20 @@
 		uid: "5401bd45",
 		type: "item",
 		items: [{
-			item: "thaumcraft:smelter_basic"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:smelter_basic"
 		}]
 	},
 	{
 		uid: "76b8df13",
 		type: "item",
 		items: [{
-			item: "thaumcraft:alembic"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:alembic"
 		}]
 	}],
 	rewards: [{

@@ -1,15 +1,23 @@
 {
 	x: 3.5d,
 	y: 0.0d,
-	description: "Wizard's can trade for exotic magical items!",
+	description: "友好的巫师们会出售一些魔法物品",
+	text: [
+		""
+	],
 	dependencies: [
 		"86043d1b"
 	],
 	tasks: [{
 		uid: "0e86528e",
 		type: "advancement",
-		title: "Trade with a Wizard",
-		icon: "ebwizardry:transportation_stone",
+		title: "与一名巫师完成一笔交易",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:transportation_stone"
+		},
 		advancement: "ebwizardry:wizard_trade",
 		criterion: ""
 	}],

@@ -8,10 +8,7 @@
 		uid: "f367b7df",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:blockadvdetector"
+			item: "stevescarts:blockadvdetector"
 		}]
 	}],
 	rewards: [{

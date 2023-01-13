@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: 8.5d,
-	description: "Pain and Suffering",
+	description: "痛苦与磨难",
 	dependencies: [
 		"ca973051"
 	],
@@ -11,11 +11,7 @@
 		uid: "245e050c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "extrautils2:opinium",
-			Damage: 8s
+			item: "extrautils2:opinium 1 8"
 		}],
 		count: 100L
 	}],
@@ -28,9 +24,6 @@
 		uid: "9c148a9a",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

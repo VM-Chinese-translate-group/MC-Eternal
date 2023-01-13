@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: 0.5d,
-	description: "&oFeels warm to the touch",
+	description: "&o摸起来很温暖",
 	dependencies: [
 		"b97f548a"
 	],
@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:moltenaxe"

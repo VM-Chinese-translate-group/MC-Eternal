@@ -13,7 +13,10 @@
 		uid: "edd98045",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:impetus_relay"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:impetus_relay"
 		}]
 	}],
 	rewards: [{

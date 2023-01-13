@@ -1,15 +1,20 @@
 {
 	x: -9.0d,
 	y: -3.0d,
-	description: "Find an Altar in a swamp biome",
+	description: "在沼泽生物群系中找到一个祭坛",
 	dependencies: [
 		"d22a6b71"
 	],
 	tasks: [{
 		uid: "21c7b216",
 		type: "observation",
-		title: "Unknown Energies",
-		icon: "thebetweenlands:wisp",
+		title: "未知的能量",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:wisp"
+		},
 		match_type: "block_id",
 		match: "thebetweenlands:druid_altar",
 		timer: 0L

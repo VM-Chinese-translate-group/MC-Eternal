@@ -8,10 +8,7 @@
 		uid: "1f575cb2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:rat_upgrade_ratinator"
+			item: "rats:rat_upgrade_ratinator"
 		}]
 	}],
 	rewards: [{
@@ -23,9 +20,6 @@
 		uid: "18b1dc84",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

@@ -1,10 +1,10 @@
 {
-	title: "Lost Knowledge",
+	title: "失落的文稿",
 	x: 3.0d,
 	y: -2.0d,
-	description: "Find a Ruined Library",
+	description: "发现图书馆遗迹",
 	text: [
-		"There must be more to learn! Maybe I can find more knowledge in the jungles and caves of this land."
+		"这片大地中埋葬了无数先人的智慧，这只是一小部分，在其他地方，我应该能找到更多。"
 	],
 	dependencies: [
 		"ec0bd6f7"
@@ -14,6 +14,9 @@
 		type: "advancement",
 		title: "Advancement: &eI Think My Books Are Overdue",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ebwizardry:ruined_spell_book"
 		},
 		advancement: "ebwizardry:find_library_ruins",

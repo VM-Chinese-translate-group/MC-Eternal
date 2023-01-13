@@ -1,10 +1,10 @@
 {
 	x: -18.5d,
 	y: -5.5d,
-	description: "Heads drop from Feral Ratlanteans *They spawn rarely at night in Ratlantis* *READ DESCRIPTION*",
+	description: "从野蛮鼠西族上砍下的头颅 *他们一般在鼠西洲的夜晚少量生成* *详情阅读描述*",
 	text: [
-		"Build structure in wither formation with core as centre block.",
-		"&6BEWARE! This foe has been massively powered up!"
+		"建造凋零形状的多方快结构并以中央方块为核心",
+		"&6警告！这个敌人被大幅增强过。"
 	],
 	dependencies: [
 		"fc9d0886"
@@ -13,30 +13,21 @@
 		uid: "e7b333f0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:marbled_cheese_rat_head"
+			item: "rats:marbled_cheese_rat_head"
 		}]
 	},
 	{
 		uid: "9b6c35c5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:marbled_cheese_golem_core"
+			item: "rats:marbled_cheese_golem_core"
 		}]
 	},
 	{
 		uid: "77c50caf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:marbled_cheese_chiseled"
+			item: "rats:marbled_cheese_chiseled"
 		}],
 		count: 3L
 	}],

@@ -1,7 +1,8 @@
 {
+	title: "月蚀计",
 	x: -15.5d,
 	y: 1.0d,
-	description: "Beds? Who needs em",
+	description: "床？谁需要这玩意！",
 	dependencies: [
 		"63c7ef68"
 	],
@@ -9,7 +10,10 @@
 		uid: "e01d9d5c",
 		type: "item",
 		items: [{
-			item: "randomthings:eclipsedclock"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "randomthings:eclipsedclock"
 		}]
 	}],
 	rewards: [{

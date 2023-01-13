@@ -11,7 +11,10 @@
 		uid: "898adb08",
 		type: "item",
 		items: [{
-			item: "thaumadditions:mithrillium_smelter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumadditions:mithrillium_smelter"
 		}]
 	}],
 	rewards: [{

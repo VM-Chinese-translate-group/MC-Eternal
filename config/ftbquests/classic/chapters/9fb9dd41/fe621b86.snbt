@@ -4,11 +4,8 @@
 	tasks: [{
 		uid: "2a95a1e3",
 		type: "advancement",
-		title: "Advancement: &eHeliomancer",
+		title: "进度：&e太阳法师",
 		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "mowziesmobs:grant_suns_blessing"
 		},
 		advancement: "mowziesmobs:suns_blessing",

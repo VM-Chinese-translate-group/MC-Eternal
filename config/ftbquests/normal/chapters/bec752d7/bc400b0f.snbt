@@ -24,14 +24,20 @@
 		uid: "bac35c73",
 		type: "item",
 		items: [{
-			item: "thaumcraft:stone_eldritch_tile"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:stone_eldritch_tile"
 		}]
 	},
 	{
 		uid: "68868381",
 		type: "item",
 		items: [{
-			item: "thaumcraft:stone_ancient"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:stone_ancient"
 		}]
 	}],
 	rewards: [{

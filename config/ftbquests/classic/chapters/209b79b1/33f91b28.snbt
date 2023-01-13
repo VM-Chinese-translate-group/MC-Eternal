@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -3.0d,
 	shape: "square",
-	description: "Cave Trolls inhabit the caves under the Highlands, known as the Troll Caves. These creatures will attack with surprising speed in the same way an Iron Golem or Carminite Golem does.",
+	description: "洞穴巨魔只会在高原下的巨魔洞穴中生成。这种生物会以惊人的速度攻击，就像铁傀儡和高塔铁傀儡一样。",
 	dependencies: [
 		"bc906172"
 	],
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "be14054d",
 		type: "kill",
-		title: "Bounty: Cave Troll",
+		title: "悬赏：洞穴巨魔",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -34,12 +33,7 @@
 	{
 		uid: "0353aa4a",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "iceandfire:troll_leather_forest"
-		},
+		item: "iceandfire:troll_leather_forest",
 		count: 16
 	}]
 }

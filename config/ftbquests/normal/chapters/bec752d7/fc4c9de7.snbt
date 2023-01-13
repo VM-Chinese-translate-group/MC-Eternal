@@ -16,7 +16,10 @@
 		uid: "1c9011a6",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:impetus_generator"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:impetus_generator"
 		}]
 	}],
 	rewards: [{

@@ -8,7 +8,10 @@
 		uid: "b082ce22",
 		type: "item",
 		items: [{
-			item: "iceandfire:chain_sticky"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:chain_sticky"
 		}]
 	}],
 	rewards: [{

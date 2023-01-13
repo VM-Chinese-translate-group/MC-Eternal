@@ -1,7 +1,10 @@
 {
 	x: 1.5d,
 	y: -16.0d,
-	description: "&oThis Wand can &9&oLight Flares&7&o wherever the holder desires, with a simple &d&oRight-click&7&o, a Light Flare will be created for a bit of the wielder's Starlight Charge...",
+	description: "&o这根法杖可以创造&9&o耀斑&7&o强化方块，并使其发光，只需要&d&o右击&7&o，就可以让一个方块变得坚不可摧（创造都挖不掉），并且发出耀眼的光芒。",
+	text: [
+		""
+	],
 	dependencies: [
 		"d5074b4b",
 		"34c44f54"
@@ -11,6 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemilluminationwand",

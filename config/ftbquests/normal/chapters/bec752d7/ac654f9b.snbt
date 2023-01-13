@@ -1,17 +1,18 @@
 {
-	title: "&4Sentient Sword",
+	title: "&4感知之剑",
 	x: -1.0d,
 	y: 15.5d,
 	shape: "octagon",
-	description: "&oSustainable Slaughter",
+	description: "&o竭泽而渔？不不不……",
 	text: [
-		"&7The &4Sentient Sword&7 gathers &bDemonic Will&7 from Hostiles killed, regardless of if they had the effect from a &cRudimentary Snare&7.",
+		"&4感知之剑&7可以从被杀死的怪物身上掠夺&b恶魔意志&7，即使它们并没有受到&c原始投网&7的影响。",
 		"",
-		"It also grows stronger based on how much &bDemonic Will&7 the user has on them, becoming a little better than a &cDiamond Sword&7 when the user has a full &bGreater Tartaric Gem&7.",
+		"与其他感知工具一样，它也可以通过使用者魂石里的&b恶魔意志&7强化自身，被强化了的它甚至可以拥有超过&c钻石剑d&7的力量，当使用者拥有一个满的&b较大地狱魂石&7时，强化将会封顶。",
 		"",
-		"The &cLooting&7 Enchantment increases &bWill&7 drops, as does having more &bWill&7 in Gems (Up to a full &bGreater Gem&7).",
+		" &c抢夺&7附魔可以增加&b意志&7掉落，这同样可以被宝石里的&b意志&7 增强 (至多一个&b较大地狱魂石&7)。",
 		"",
-		"&cFurther progression into the Bloody arts may allow for &4Alterations&c to the properties of this Weapon..."
+		"&c随着你对鲜血的追奉愈加深刻，你将习得如何&4改变&c感知之剑的力量……",
+		"（PS：其实你只要主手拿着感知之剑，无论用什么攻击都可以掉落意志，也就是说你主手拿剑，副手拿弓，法杖之类的东西杀怪，意志同样会掉落，甚至感知之剑上的附魔也同样生效。）"
 	],
 	dependencies: [
 		"041f3de8"
@@ -21,6 +22,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sentient_sword",
@@ -39,6 +41,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "quark:ancient_tome",

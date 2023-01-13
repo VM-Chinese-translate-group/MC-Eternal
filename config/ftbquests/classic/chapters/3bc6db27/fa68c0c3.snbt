@@ -8,11 +8,7 @@
 		uid: "11d11bfb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:cartmodule",
-			Damage: 12s
+			item: "stevescarts:cartmodule 1 12"
 		}],
 		ignore_nbt: 1b
 	}],

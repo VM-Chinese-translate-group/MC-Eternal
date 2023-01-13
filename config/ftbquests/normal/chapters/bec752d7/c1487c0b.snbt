@@ -1,11 +1,12 @@
 {
-	title: "Resonating Attunement",
+	title: "强化共鸣星杖",
 	x: 3.0d,
 	y: -21.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThe &9&oResonating Wand&7&o can be attuned to one of the five &9&oBright Constellations&7&o, and has special effects based upon each...",
-		"See the proper page in the &6&oAstral Tome&7&o for further information..."
+		"&9&o强化共鸣星杖&7&o可以与五种&9&o明亮星座&7&o共鸣， 并且具有一些星座的特质。",
+		"",
+		"详见&6&o星芒宝典&7&o光辉条目。"
 	],
 	dependencies: [
 		"d6707898"
@@ -13,9 +14,10 @@
 	tasks: [{
 		uid: "9b42de72",
 		type: "item",
-		title: "Any &9Attuned Resonating Wand",
+		title: "随便一个&9被调谐的共鸣星杖",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemwand",
@@ -27,6 +29,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemwand",
@@ -38,6 +41,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemwand",
@@ -49,6 +53,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemwand",
@@ -60,6 +65,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemwand",

@@ -1,8 +1,11 @@
 {
-	title: "Ritual of the Forest",
+	title: "森林仪式",
 	x: 24.0d,
 	y: 7.5d,
-	description: "What you need to perform the Ritual of the Forest. Refer to the Book of Natural Aura for more info!",
+	description: "怎么搭建？你问我干嘛？你不会看书吗？",
+	text: [
+		""
+	],
 	dependencies: [
 		"c1f80434"
 	],
@@ -10,7 +13,10 @@
 		uid: "c9392ee8",
 		type: "item",
 		items: [{
-			item: "naturesaura:wood_stand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:wood_stand"
 		}],
 		count: 8L
 	},
@@ -18,7 +24,10 @@
 		uid: "4ac9e180",
 		type: "item",
 		items: [{
-			item: "naturesaura:gold_powder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:gold_powder"
 		}],
 		count: 16L
 	}],

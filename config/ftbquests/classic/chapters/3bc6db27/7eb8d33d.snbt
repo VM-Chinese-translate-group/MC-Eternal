@@ -8,10 +8,7 @@
 		uid: "c6f905ed",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "industrialforegoing:block_destroyer"
+			item: "industrialforegoing:block_destroyer"
 		}]
 	}],
 	rewards: [{

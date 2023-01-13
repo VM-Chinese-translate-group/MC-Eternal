@@ -1,7 +1,7 @@
 {
 	x: 18.0d,
 	y: 7.5d,
-	description: "Used to craft enhanced chassis",
+	description: "用于制作强化机械框架",
 	dependencies: [
 		"63c1390f"
 	],
@@ -9,11 +9,7 @@
 		uid: "5eea9799",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:item_material",
-			Damage: 67s
+			item: "enderio:item_material 1 67"
 		}],
 		count: 4L
 	}],

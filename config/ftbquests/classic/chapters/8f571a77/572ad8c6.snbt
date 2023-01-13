@@ -1,10 +1,10 @@
 {
-	title: "Lapis x16",
+	title: "青金石x16",
 	x: -8.0d,
 	y: -6.0d,
-	description: "Mining",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing the Introduction chapter*"
+		"*完成介绍章节后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -14,11 +14,7 @@
 		uid: "0c4003f2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:dye",
-			Damage: 4s
+			item: "minecraft:dye 1 4"
 		}],
 		count: 16L
 	}],

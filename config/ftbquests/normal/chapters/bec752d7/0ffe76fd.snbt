@@ -1,10 +1,10 @@
 {
-	title: "&4Ritual Stones",
+	title: "&4仪式石",
 	x: 8.5d,
 	y: 24.0d,
-	description: "&oPieces of the Puzzle",
+	description: "&o只是一块拼图罢了",
 	text: [
-		"&7Critical components used in ALL Rituals"
+		"&7这些东西适用于所有的仪式。"
 	],
 	dependencies: [
 		"382cc3a8"
@@ -13,14 +13,20 @@
 		uid: "f3d51967",
 		type: "item",
 		items: [{
-			item: "bloodmagic:ritual_controller"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_controller"
 		}]
 	},
 	{
 		uid: "c3b25ec7",
 		type: "item",
 		items: [{
-			item: "bloodmagic:ritual_stone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_stone"
 		}],
 		count: 16L
 	}],
@@ -37,7 +43,12 @@
 	{
 		uid: "8c51f3f0",
 		type: "item",
-		item: "bloodmagic:ritual_stone",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_stone"
+		},
 		count: 32
 	}]
 }

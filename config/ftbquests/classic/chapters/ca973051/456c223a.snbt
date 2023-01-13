@@ -8,40 +8,28 @@
 		uid: "9862538f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:cook_stag_flank"
+			item: "midnight:cook_stag_flank"
 		}]
 	},
 	{
 		uid: "860c7b82",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:cook_suavis"
+			item: "midnight:cook_suavis"
 		}]
 	},
 	{
 		uid: "adecbc94",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:cook_hunter_wing"
+			item: "midnight:cook_hunter_wing"
 		}]
 	},
 	{
 		uid: "e37ab255",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:deceitful_snapper"
+			item: "midnight:deceitful_snapper"
 		}]
 	}],
 	rewards: [{

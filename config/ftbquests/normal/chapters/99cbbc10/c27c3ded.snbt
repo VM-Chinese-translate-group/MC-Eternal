@@ -2,7 +2,7 @@
 	x: 10.0d,
 	y: -3.0d,
 	text: [
-		"Cookie!"
+		"饼干!"
 	],
 	dependencies: [
 		"17f50c84"
@@ -11,7 +11,11 @@
 		uid: "42721723",
 		type: "item",
 		items: [{
-			item: "actuallyadditions:item_food 1 12"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_food",
+			Damage: 12s
 		}],
 		count: 16L
 	}],

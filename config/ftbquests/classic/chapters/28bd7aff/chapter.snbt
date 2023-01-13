@@ -1,8 +1,7 @@
 {
-	title: "Mayor Position Available!",
+	title: "市长职位空缺！",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "minecolonies:supplychestdeployer"

@@ -1,10 +1,10 @@
 {
-	title: "&4Imperfect Rituals",
+	title: "&4不完美的仪式",
 	x: 7.5d,
 	y: 19.0d,
 	description: "&o",
 	text: [
-		"&4Imperfect Ritual Stones&7 can be used to activate some weak &cRitual-like effects&7, by simply having certain Blocks ontop and &cRight-clicking&7 the Ritual Stone, Effects will be performed and LP drained from your &cSoul network&7, &4or you, rapidly&7."
+		"&4不完善仪式石&7可以举行一些&c伪仪式&7，只需要在其顶部放置一些特殊方块并&c右击&7仪式石，之后便会吞噬你&c灵魂网络&7里的LP，&4或者……吞噬你&7。"
 	],
 	dependencies: [
 		"8dc4ca66"
@@ -13,7 +13,11 @@
 		uid: "a3b7e666",
 		type: "item",
 		items: [{
-			item: "bloodmagic:ritual_controller 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_controller",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

@@ -1,8 +1,11 @@
 {
-	title: "Tokens of Greater Emotion",
+	title: "更加强烈的情感",
 	x: 29.0d,
 	y: 1.5d,
-	description: "Important crafting ingredients for more powerful devices.",
+	description: "十分高级的合成材料",
+	text: [
+		""
+	],
 	dependencies: [
 		"484f7836"
 	],
@@ -10,28 +13,40 @@
 		uid: "5523f171",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_euphoria"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_euphoria"
 		}]
 	},
 	{
 		uid: "d2482a49",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_terror"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_terror"
 		}]
 	},
 	{
 		uid: "4c3c2bf2",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_rage"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_rage"
 		}]
 	},
 	{
 		uid: "81cfb088",
 		type: "item",
 		items: [{
-			item: "naturesaura:token_grief"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:token_grief"
 		}]
 	}],
 	rewards: [{

@@ -5,7 +5,10 @@
 		uid: "af74e2cf",
 		type: "item",
 		items: [{
-			item: "minecraft:pumpkin_seeds"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:pumpkin_seeds"
 		}]
 	}],
 	rewards: [{

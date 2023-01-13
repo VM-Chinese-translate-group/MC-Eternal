@@ -4,10 +4,9 @@
 	tasks: [{
 		uid: "ee2ca66d",
 		type: "kill",
-		title: "&6&lBounty: Punchroom",
+		title: "&6&l悬赏：重击蘑菇精",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:wasp_sword"
@@ -19,9 +18,6 @@
 		uid: "a16a1a3b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

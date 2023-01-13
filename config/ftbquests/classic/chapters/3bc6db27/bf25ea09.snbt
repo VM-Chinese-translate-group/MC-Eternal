@@ -1,8 +1,8 @@
 {
-	title: "'Cause this is driller, driller night",
+	title: "因为今天是钻钻钻之夜",
 	x: -1.0d,
 	y: 2.5d,
-	description: "Can be upgraded to a diamond drill, excellent for mining ",
+	description: "能升级到钻石钻， 挖矿良品",
 	dependencies: [
 		"06cc512e"
 	],
@@ -11,7 +11,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "techreborn:irondrill",

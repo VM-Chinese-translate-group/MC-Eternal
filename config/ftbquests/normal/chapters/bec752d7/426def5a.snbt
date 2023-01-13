@@ -1,15 +1,15 @@
 {
-	title: "Dynamic Abilities",
+	title: "外置能力强化",
 	x: -1.0d,
 	y: -13.0d,
-	description: "*Read Description*",
+	description: "*阅读说明*",
 	text: [
-		"&9&oDynamism Gems&7&o are several types of &9&oRock Crystals&7&o mutated with &9&oGlowstone Dust&7&o to focus the &r&oStarlight&7&o they can conduct to coalesce into a type of power inside them...",
+		"&9&o内嵌宝石&7&o是以&9&o荧石粉&7&o与&r&o星能液&7&o为材料制造几种&9&o水晶簇&7&o，它们被制造出来便已经汇聚了部分寰宇之力。",
 		"",
-		"The type of gem grown is determined by the time of a day the gem finished growing at, the effects are determined by the gem type...",
-		"If left for a long while after being done growing, they will reverse their growth by a stage, allowing regrowth into potentially another kind of gem...",
+		"不同的宝石取决于宝石水晶簇生长完成的时间，不同的时间生长完成的水晶簇凝聚出来的宝石是不同的……",
+		"如果你在制造了一个宝石水晶簇，在它生长完全后，很长一段时间没有管他。那么，它将会执行一次逆生长，重新长成一种新的宝石。（也有可能没变化）",
 		"",
-		"These gems can be socketed into special &9&oGem Socket&7&o perks in the Perk Tree to grant their effects..."
+		"这些宝石可以镶嵌在星能力的&9&o宝石插槽&7&o中，会提供一些额外的属性加成。"
 	],
 	dependencies: [
 		"94fe6f69"
@@ -17,9 +17,10 @@
 	tasks: [{
 		uid: "99bdb098",
 		type: "item",
-		title: "Any &9Dynamism Gem",
+		title: "随便一个&9内嵌宝石",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemperkgem",
@@ -29,6 +30,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemperkgem",
@@ -39,6 +41,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "astralsorcery:itemperkgem",

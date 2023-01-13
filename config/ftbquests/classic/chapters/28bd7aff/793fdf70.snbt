@@ -1,22 +1,16 @@
 {
-	title: "New Mayor Needed!",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "minecraft:paper"
-	},
+	title: "需要一位新市长！",
+	icon: "minecraft:paper",
 	x: 0.0d,
 	y: -2.0d,
 	text: [
-		"After our last mayor vanished due to some \"unknown\" circumstances, we lack the leadership and independence to rule ourselves and we love to be told what to do so please become our mayor, text us back when you get this. xx - your future citizens"
+		"在我们的上一任市长由于一些“未知”的事故消失后，因为我们缺乏领导能力和独立性来管理自己，我们喜欢被告知要去做什么，所以请您成为我们的新市长，收到留言后请给我们回信。XX——你未来的市民"
 	],
 	tasks: [{
 		uid: "7d7fd09c",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "structurize:sceptergold"
@@ -27,18 +21,9 @@
 	rewards: [{
 		uid: "75113ba0",
 		type: "item",
-		title: "Signing Bonus",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "buildcraftbuilders:snapshot",
-			Damage: 2s
-		},
+		title: "签约奖金",
+		icon: "buildcraftbuilders:snapshot 1 2",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "signing_bonus"

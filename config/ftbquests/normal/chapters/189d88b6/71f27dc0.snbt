@@ -1,7 +1,7 @@
 {
 	x: -6.5d,
 	y: -7.5d,
-	description: "Who needs torches anyway?",
+	description: "谁会想到处都是火把呢？",
 	dependencies: [
 		"36443d40"
 	],
@@ -9,8 +9,12 @@
 	tasks: [{
 		uid: "84d0e6fe",
 		type: "item",
+		title: "隐藏的光源",
 		items: [{
-			item: "stupidthings:hidden_light"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stupidthings:hidden_light"
 		}]
 	}],
 	rewards: [{

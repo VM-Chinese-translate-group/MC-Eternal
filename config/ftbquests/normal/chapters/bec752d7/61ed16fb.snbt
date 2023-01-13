@@ -1,13 +1,13 @@
 {
-	title: "&dBotanically Brewed Sanity",
+	title: "&d片刻的小憩——精灵特供",
 	x: 18.0d,
 	y: -6.5d,
-	description: "&oIn the Gardens of Madness&7 *Read Description*",
+	description: "&o花园中的片刻舒心&7 *阅读须知*",
 	text: [
-		"&7Avid pursurers of &5Thaumaturgy&7 often find themselves more and more paranoid every day, try as they might, they cannot shake it forever, but they can atleast ward themselves, though, not in a terribly effective manner.",
+		"&7在探寻世界隐秘的&5神秘使&7们总是因为那些禁忌的知识而变得越来越不正常（虽然他们本人并不这么想），为了避免这种情况愈演愈烈，他们采取了各种方法缓解状况，但是他们早已为力量献上了永久的牺牲——扭曲永远也甩不掉。",
 		"",
-		"Those who dip into &dBotanical Magics&7 are familiar with a method of brewing using &bMana&7, and it just so happens that the energies of both magics align in the perfect way to permit a brew that more effectively wards off the madness Thaumaturges find themselves dealing with every day.",
-		"It is also possible to imbue this effect into an &dIncense Stick&7, for less portable, but far more long-lasting effects."
+		"他们中一些研究&d植物魔法&7的人精通使用&b魔力&7来酿造药剂，于是就有一位天才的神秘使想到，如果将植物魔法温和舒缓的魔力与净化浴盐的力量结合起来，是否可以创造出一种抑制扭曲的药剂呢？很显然，他成功了。",
+		"这种独特的药剂也可以被制成&d熏香&7，以便携性换取持久性。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,9 +17,10 @@
 	tasks: [{
 		uid: "d7a423ed",
 		type: "item",
-		title: "&6Botanical Means of &dWarp Warding",
+		title: "&6精灵酿造——&d扭曲守护",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "botania:brewvial",
@@ -29,6 +30,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "botania:brewflask",
@@ -38,6 +40,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "botania:incensestick",
@@ -58,6 +61,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "botania:brewflask",

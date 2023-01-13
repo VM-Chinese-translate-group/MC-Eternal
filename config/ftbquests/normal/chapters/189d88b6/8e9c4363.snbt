@@ -1,7 +1,7 @@
 {
 	x: -11.5d,
 	y: -7.0d,
-	description: "Baby tamed cockatrices can be hatched by throwing a &lrotten egg.",
+	description: "鸡蛇（被驯服）可以通过扔&l烂鸡蛋&l来孵化。",
 	dependencies: [
 		"a9d286cd"
 	],
@@ -9,7 +9,10 @@
 		uid: "00122728",
 		type: "item",
 		items: [{
-			item: "iceandfire:rotten_egg"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:rotten_egg"
 		}],
 		count: 3L
 	}],

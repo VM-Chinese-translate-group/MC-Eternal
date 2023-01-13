@@ -11,7 +11,10 @@
 		uid: "d51f69e0",
 		type: "item",
 		items: [{
-			item: "harvestcraft:creamcookieitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:creamcookieitem"
 		}],
 		count: 16L
 	}],

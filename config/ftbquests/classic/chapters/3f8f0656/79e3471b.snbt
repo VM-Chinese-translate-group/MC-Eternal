@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: 9.0d,
-	description: "Accepts Energy for the attached ME Network",
+	description: "为连接的ME网络输入能量",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -9,10 +9,7 @@
 		uid: "a4c67527",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:energy_acceptor"
+			item: "appliedenergistics2:energy_acceptor"
 		}]
 	}],
 	rewards: [{

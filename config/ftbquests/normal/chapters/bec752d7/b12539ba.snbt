@@ -1,10 +1,15 @@
 {
-	icon: "naturesaura:nature_altar",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "naturesaura:nature_altar"
+	},
 	x: 25.5d,
 	y: 6.0d,
-	description: "Infuses Items placed on it with Aura",
+	description: "为物品注入灵气",
 	text: [
-		"Refer to the Book of Natural Aura for Building instructions."
+		"多方块结构？看书啊我的宝。"
 	],
 	dependencies: [
 		"a074c6bd"
@@ -13,14 +18,20 @@
 		uid: "c68372c7",
 		type: "item",
 		items: [{
-			item: "naturesaura:nature_altar"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:nature_altar"
 		}]
 	},
 	{
 		uid: "86711ac9",
 		type: "item",
 		items: [{
-			item: "naturesaura:gold_brick"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:gold_brick"
 		}],
 		count: 8L
 	},
@@ -28,7 +39,11 @@
 		uid: "9bb73fd8",
 		type: "item",
 		items: [{
-			item: "minecraft:stonebrick 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:stonebrick",
+			Damage: 3s
 		}],
 		count: 4L
 	},
@@ -36,7 +51,10 @@
 		uid: "5926f66b",
 		type: "item",
 		items: [{
-			item: "minecraft:stonebrick"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:stonebrick"
 		}],
 		count: 16L
 	},
@@ -44,7 +62,10 @@
 		uid: "af4e2433",
 		type: "item",
 		items: [{
-			item: "minecraft:planks"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:planks"
 		}],
 		count: 20L
 	}],

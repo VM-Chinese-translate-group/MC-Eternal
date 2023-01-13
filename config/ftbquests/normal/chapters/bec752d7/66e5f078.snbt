@@ -18,7 +18,12 @@
 		uid: "ee966548",
 		type: "observation",
 		title: "Gaze at an &5Ancient Altar",
-		icon: "crimsonwarfare:boss_activator",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "crimsonwarfare:boss_activator"
+		},
 		match_type: "block_id",
 		match: "crimsonwarfare:boss_activator",
 		timer: 0L

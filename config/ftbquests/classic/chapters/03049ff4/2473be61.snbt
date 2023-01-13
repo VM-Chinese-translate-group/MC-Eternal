@@ -1,22 +1,14 @@
 {
-	title: "Jaffa Factory",
+	title: "伽法工厂",
 	x: 0.0d,
 	y: 0.0d,
-	description: "&oShould only take about 93 episodes or so",
+	description: "&o大概只会演个93集吧",
 	tasks: [{
 		uid: "b124de0c",
 		type: "item",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "harvestcraft:jaffaitem"
-		},
+		icon: "harvestcraft:jaffaitem",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "harvestcraft:jaffaitem"
+			item: "harvestcraft:jaffaitem"
 		}],
 		count: 1000L
 	}],
@@ -29,9 +21,6 @@
 		uid: "60496e27",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "minecraft:skull",
 			tag: {
 				SkullOwner: {
@@ -52,9 +41,6 @@
 		uid: "97987fe3",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "dungeontactics:sharp_stick",
 			tag: {
 				ench: [{
@@ -62,7 +48,7 @@
 					id: 19
 				}],
 				display: {
-					Name: "Compliance Stick"
+					Name: "戒棍"
 				}
 			}
 		}
@@ -70,21 +56,12 @@
 	{
 		uid: "c828e03c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "365a42e5",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: 14.5d,
-	description: "Grows Crystal Seeds into Pure Crystals quickly for some Energy from the Network! Can also create Fluix Crystals!",
+	description: "将水晶种子加速生长成高纯度水晶，从网络中获取能量！还可以制造福鲁伊克斯水晶！",
 	dependencies: [
 		"8e9ea584"
 	],
@@ -10,10 +10,7 @@
 		uid: "824fc37d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ae2stuff:grower"
+			item: "ae2stuff:grower"
 		}]
 	}],
 	rewards: [{

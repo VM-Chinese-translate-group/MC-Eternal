@@ -1,7 +1,7 @@
 {
 	x: 16.5d,
 	y: 6.0d,
-	description: "Used to create fluids with different uses",
+	description: "用于制造不同用途的流体",
 	dependencies: [
 		"20e40ad0"
 	],
@@ -9,10 +9,7 @@
 		uid: "c1d13ac3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_vat"
+			item: "enderio:block_vat"
 		}],
 		ignore_nbt: 1b
 	}],

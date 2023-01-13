@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: 12.0d,
-	description: "Explode a Singularity and Ender Pearl Dust to create in pairs! Pairs are inserted into Quantum Link Chambers to connect them!",
+	description: "使奇点和末影粉同时受到爆炸来制造一对！成对插入ME量子链接仓来连接它们！",
 	dependencies: [
 		"76c477ac"
 	],
@@ -9,11 +9,7 @@
 		uid: "d1f8b2cc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "appliedenergistics2:material",
-			Damage: 48s
+			item: "appliedenergistics2:material 1 48"
 		}],
 		ignore_nbt: 1b
 	}],

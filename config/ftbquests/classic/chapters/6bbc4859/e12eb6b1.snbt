@@ -1,15 +1,10 @@
 {
-	title: "Creative Cheese",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "rats:creative_cheese"
-	},
+	title: "创意奶酪",
+	icon: "rats:creative_cheese",
 	x: 2.0d,
 	y: 1.0d,
 	shape: "square",
-	description: "*Unlocked by completing Secret*",
+	description: "*完成秘密以解锁*",
 	can_repeat: true,
 	dependencies: [
 		"09898bbf"
@@ -23,11 +18,6 @@
 		uid: "d5401b01",
 		type: "item",
 		title: "Creative Cheese",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:creative_cheese"
-		}
+		item: "rats:creative_cheese"
 	}]
 }

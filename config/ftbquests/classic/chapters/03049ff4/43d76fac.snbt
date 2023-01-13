@@ -5,30 +5,18 @@
 		uid: "a3a19342",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "extrautils2:compressedcobblestone",
-			Damage: 7s
+			item: "extrautils2:compressedcobblestone 1 7"
 		}]
 	}],
 	rewards: [{
 		uid: "3b4ff331",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "storagedrawers:upgrade_creative"
-		}
+		item: "storagedrawers:upgrade_creative"
 	},
 	{
 		uid: "8b457af8",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

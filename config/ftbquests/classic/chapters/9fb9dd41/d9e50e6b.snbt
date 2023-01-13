@@ -2,7 +2,7 @@
 	x: -13.0d,
 	y: -5.0d,
 	shape: "square",
-	description: "As a symbol of my... Oh, just take the damn thing.",
+	description: "...哦，就拿这该死的东西作为我的一个象征吧。",
 	dependencies: [
 		"cb5183d8"
 	],
@@ -11,7 +11,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "dungeontactics:wackerjab"

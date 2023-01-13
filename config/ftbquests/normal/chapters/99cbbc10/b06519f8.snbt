@@ -1,8 +1,8 @@
 {
-	title: "Traps and Bait",
+	title: "陷阱和诱饵",
 	x: 6.0d,
 	y: 1.0d,
-	description: "To use the Ground Trap, place the crafted trap in the ground touching at least one grass block on each side of the trap. Same for water trap but ground must be water.",
+	description: "要使用地面陷阱，请将其放在地面上并接触至少一个草方块。渔栅也一样，但需要接触到水。",
 	text: [
 		""
 	],
@@ -10,21 +10,30 @@
 		uid: "30227c9d",
 		type: "item",
 		items: [{
-			item: "harvestcraft:groundtrap"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:groundtrap"
 		}]
 	},
 	{
 		uid: "25bbaf67",
 		type: "item",
 		items: [{
-			item: "harvestcraft:watertrap"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:watertrap"
 		}]
 	},
 	{
 		uid: "a4f04f22",
 		type: "item",
 		items: [{
-			item: "harvestcraft:fruitbaititem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:fruitbaititem"
 		}],
 		count: 16L
 	},
@@ -32,7 +41,10 @@
 		uid: "e21f9ce7",
 		type: "item",
 		items: [{
-			item: "harvestcraft:grainbaititem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:grainbaititem"
 		}],
 		count: 16L
 	},
@@ -40,7 +52,10 @@
 		uid: "e3059816",
 		type: "item",
 		items: [{
-			item: "harvestcraft:veggiebaititem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:veggiebaititem"
 		}],
 		count: 16L
 	},
@@ -48,7 +63,10 @@
 		uid: "ab919526",
 		type: "item",
 		items: [{
-			item: "harvestcraft:fishtrapbaititem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:fishtrapbaititem"
 		}],
 		count: 16L
 	}],
@@ -57,6 +75,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thermalfoundation:tool.fishing_rod_diamond"

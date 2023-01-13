@@ -1,27 +1,32 @@
 {
-	title: "Matrix Enchanting",
-	icon: "minecraft:enchanting_table",
+	title: "矩阵附魔",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:enchanting_table"
+	},
 	x: -11.5d,
 	y: -4.0d,
-	description: "Enchanting might look a little different, an explanation! *Read description*",
+	description: "附魔操作可能有那么亿点点不同，下面是使用指南! *阅读说明*",
 	text: [
-		"&7This modpack has &bQuark's §6Matrix Enchanting§7 system enabled, it's essentially a system that turns enchanting from 100% RNG into reduced RNG and a Puzzle.",
+		"&7这个整合包启用了&b夸克模组的§6矩阵附魔§7系统，本质上是一个将附魔操作从完全随机发生变为缓慢随机发生的系统并通过俄罗斯方块拼图的形式进行附魔操作。",
 		"",
-		"To get Enchantments, &9Lapis&7 and &aXP Levels&7 are spent using &d&l+&d Button&7 in the UI.",
-		"Having more &dEnchanting Power&7 (Bookshelves and the like) will increase the maximum amount of pieces you can roll for, it still caps out at 15 Enchanting Power (27 pieces total) by default.",
+		"为了附魔，你需要在打开这个神奇的俄罗斯方块式附魔台gui使用里面的&d&l“+”&d 按钮&7来消耗&9青金石&7和&a经验等级&7来获得一个随机的附魔碎片",
+		"当拥有更多的&d附魔等级&7（书架等）会增加你可以随机的附魔拼图最大数量，一般情况下，它的上限仍然是附魔等级15时为最大（共27件）。",
 		"",
-		"You might notice that you only get &cLevel I pieces&7, you need to &dcombine pieces with the same Enchantment&7 in order to get higher level ones!",
-		"Pieces are combined by placing one onto the Grid, and then clicking it with the one to combine selected.",
-		"&dPieces have different shapes&7, so it may not be best to combine pieces until you're done rolling, to ensure you can fit everything you want.",
+		"你可能注意到了，无论你如何随机你只得到了I级的碎片，其实你只需要把具有相同附魔的碎片组合起来，就能得到更高级别的附魔！",
+		"组合碎片的方法是将一个碎片放在矩阵中，然后再选中要组合的碎片再点击矩阵中的碎片。",
+		"&d碎片有许多不同的形状&7，所以在你完成“碎片抽取”之前，我建议你最好不要把碎片组合起来，这样能确保你能装下你所需要的一切碎片。",
 		"",
-		"Unlike vanilla Enchanting, it will hold onto the &9Lapis&7 and Items put into it if the menu is closed.",
-		"Items can also be removed from the Input slot and will keep data related to Matrix Enchanting, allowing you to do any other things you may want before confirming your Enchantments.",
+		"与原版附魔不同，如果关闭矩阵附魔的gui，它将储存&9青金石&7以及放入其中的物品。",
+		"所需附魔的物品也可以随时从输入槽中取出，并且它将保留所有碎片以及矩阵中碎片放置位置有关的数据，允许你在确认附魔前可以做任何其他事情。",
 		"",
-		"You can increase the chance to get certain Enchantments by placing different &dCandles&7 from &bQuark&7 down in valid Enchanting Power locations, &dsee each Candle's Tooltip for what it affects&7.",
-		"The effect Candles have on Matrix Enchanting has been doubled in &5MC Eternal&7, and so has the maximum amount that can help one Enchantment group!",
-		"Other modded Enchantments not normally affected by Candles are also affected!",
+		"你可以在有效的“附魔等级”位置放置不同的&b夸克&7模组的&d蜡烛&7以增加获得某些你想要附魔的的几率，&d关于它所影响的范围，详见每个蜡烛的tooltip&7。 译者注：tooltip指jei中的注释界面",
+		"蜡烛对矩阵附魔的影响在&5永恒的MC&7中增加了一倍，而且可添加的附魔组的最大数量也增加了一倍。",
+		"其他模组不受蜡烛影响的附魔在这里也因为魔改会受影响",
 		"",
-		"&8&lBy not reading this, you are claiming responsibility for any damages caused by misunderstanding, Adam Co. is not liable to pay for any damages."
+		"&8&l如果你没好好阅读本说明，你任何因错误操作造成的损失， Adam Co.不负责支付任何损失。"
 	],
 	dependencies: [
 		"d22a6b71"
@@ -35,7 +40,12 @@
 		uid: "762c0396",
 		type: "observation",
 		title: "§d§lLook at an Enchanting Table, Open your Questbook!",
-		icon: "minecraft:enchanting_table",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:enchanting_table"
+		},
 		match_type: "block_id",
 		match: "minecraft:enchanting_table",
 		timer: 0L

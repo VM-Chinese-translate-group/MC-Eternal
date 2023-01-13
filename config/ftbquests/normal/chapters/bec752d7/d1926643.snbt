@@ -1,8 +1,11 @@
 {
-	title: "Light Burst",
+	title: "辉光粉",
 	x: 6.0d,
 	y: -11.5d,
-	description: "&oThrow this powder with &d&oRight-click&7&o to create a Flare of Light at the impact point... The Flare will be removed if something else is set over its space...",
+	description: "&o按&d&o鼠标右键&7&o扔出后可以创造一个光源，因为没有明火的缘故，所以非常安全",
+	text: [
+		""
+	],
 	dependencies: [
 		"8d95e24a"
 	],
@@ -10,7 +13,10 @@
 		uid: "34c44f54",
 		type: "item",
 		items: [{
-			item: "astralsorcery:itemusabledust"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:itemusabledust"
 		}],
 		count: 16L
 	}],

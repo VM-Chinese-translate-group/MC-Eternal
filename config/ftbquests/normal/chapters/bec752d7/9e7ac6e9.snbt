@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "ebwizardry:wizard_handbook"
@@ -24,7 +25,13 @@
 	{
 		uid: "b39f3c8d",
 		type: "choice",
-		icon: "ebwizardry:spell_book 1 111",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 111s
+		},
 		table: 14
 	}]
 }

@@ -11,7 +11,10 @@
 		uid: "b6138520",
 		type: "item",
 		items: [{
-			item: "thaumcraft:void_seed"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:void_seed"
 		}]
 	}],
 	rewards: [{

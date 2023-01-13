@@ -1,23 +1,14 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "techreborn:nuggets",
-		Damage: 23s
-	},
+	icon: "techreborn:nuggets 1 23",
 	x: -3.5d,
 	y: -7.0d,
-	description: "Mining",
+	description: "挖矿",
 	can_repeat: true,
 	tasks: [{
 		uid: "8c8cc740",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:iron_ingot"
+			item: "minecraft:iron_ingot"
 		}]
 	}],
 	rewards: [{
@@ -26,9 +17,6 @@
 		title: "1 Currency",
 		auto: "no_toast",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 1L

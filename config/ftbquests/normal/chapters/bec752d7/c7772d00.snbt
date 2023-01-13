@@ -1,7 +1,10 @@
 {
 	x: 1.0d,
 	y: -5.5d,
-	description: "These trees would make for a perfect courtyard!",
+	description: "这些树简直就是为我的花园量身定做的！（如果拿这些树做绿化带，那还是绿化带吗？）",
+	text: [
+		""
+	],
 	dependencies: [
 		"25cd07cd"
 	],
@@ -9,6 +12,9 @@
 		uid: "082132f0",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "twilightforest:twilight_sapling",
 			Damage: 9s
 		}]
@@ -17,6 +23,10 @@
 		uid: "06c2d691",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tfspellpack:charm_goblin"
 		}
 	},
@@ -29,6 +39,10 @@
 		uid: "d0a150ca",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:shield_scepter"
 		}
 	}]

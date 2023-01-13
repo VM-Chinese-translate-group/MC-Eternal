@@ -1,6 +1,12 @@
 {
 	title: "&5An Annoying Bit",
-	icon: "thaumcraft:curio 1 6",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thaumcraft:curio",
+		Damage: 6s
+	},
 	x: 26.5d,
 	y: -11.0d,
 	shape: "hexagon",
@@ -23,6 +29,9 @@
 		uid: "0daa0624",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thermalexpansion:morb",
 			tag: {
 				Generic: 1b,
@@ -34,6 +43,9 @@
 		uid: "8244a57f",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thaumcraft:curio",
 			tag: {
 				display: {

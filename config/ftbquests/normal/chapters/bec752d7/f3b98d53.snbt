@@ -1,32 +1,33 @@
 {
-	title: "&4Routing with Bloodmagic",
+	title: "&4血魔法，但是路由器",
 	x: -5.0d,
 	y: 21.5d,
-	description: "&oA Tech mod?!?",
+	description: "&o科技模组（迫真）",
 	text: [
-		"&7Yep, &cBlood Magic&7 can do automated &cItem Transfer&7.",
+		"&7啊对， &c血魔法&7也是拥有物流网络滴&7。",
 		"",
-		"The &4Node Router&7 is your Connection Wrench, use it to connect Nodes together to form a &cRouting Network&7.",
+		"&4节点连接工具&7就是个扳手，可以把你的路由节点串联成&c路由网络&7。",
 		"",
-		"The &4Master Routing Node&7 is the Heart of a &cRouting Network&7, you can't have one without it!",
-		"The regular &4Routing Node&7 is just a Relay for the Routing Network, not much to it.",
+		"&4主控路由节点&7是一个&c路由网络&7的心脏，你必须有，且只能有一个！",
+		"普通&4路由节点&7只起到中继作，一般而言用不着。（PS：血魔法2中，路由节点之间是没有连接距离限制的，这导致这个中继器的作用约等于没有）",
 		"",
-		"The function of &4Input&7 and &4Ouput Routing Nodes&7 should be fairly self-explanatory, but their configuration menu might not be.",
+		"&4输入&7与&4输出路由节点&7的作用我想你应该能明白，但是它们的配置界面可能不那么……友善？",
 		"",
-		"There's a &cFilter Slot&7 on the Left, and &c9 Filtering Slots&7 to the Right of it.",
-		"&cStock Amount&7 can be set for each Item filtered, for Input, it will always keep atleast that many in the Input container, and for Output, try keep that many in the Output Container.",
-		"And there's a &cPriority Level&7, however, &cPriority is reverse!&7 Lower numbers are Higher priority!",
+		"界面左边有一个&c过滤器插槽&7，过滤器插槽旁边就是&c过滤槽位&7（就是可以往里面塞东西设置黑白名单）。",
+		"你可以为输入节点和输出节点配置&c输出数额&7（就是p2p的那种，或者说末影接口的那种） ，这一操作需要用到过滤器，输出数额决定了节点传输物品的数量。",
+		"以及&c优先级&7系统，不过注意一下，&c血魔法里优先级的数字和优先程度成反比！&7数字越低越优先！",
 		"",
-		"You can also change Settings for each individual Side of the Node!",
+		"你还可以配置节点的链接面，每一面都是可以配置的，你想让它们怎么连就能让它们怎么连！",
 		"",
-		"Input/Output Routing Nodes also require a &4Filter&7 to work.",
-		"There are &45 Types of Filters&7, each works a bit different.",
+		"想要输入/输出节点正常工作还需要&4过滤器&7。",
+		"一共有&45种&7，每一种都有着自己独特的作用。",
 		"",
-		"&4Precise&7 Filters will only allow exact copies of filtered items, which means a slightly differently enchanted Sword will not be allowed through.",
-		"&4NBT&7 Filters will ignore NBT Data of items, so a slightly differently enchanted Sword will be allowed through.",
-		"&4Mod&7 Filters will allow all items from the same Mod as filtered items through.",
-		"&4Ore Dictionary&7 Filters will allow all items which share an Ore Dictionary entry with filtered items through.",
-		"&4Fluid&7 Filters allow the Routing Node to transfer Fluids, and filter what Fluids are allowed through."
+		"&4精准物品&7过滤器会让与标记物品一模一样的物品通过，也就是说耐久不同，附魔不同的武器是不能过的。",
+		"&4NBT&7过滤器可以使用NBT进行过滤，也就是说不同附魔的武器和盔甲也能过滤了。",
+		"&4Mod&7过滤器可以根据物品所属模组进行统一过滤。（用到这个过滤器的情况真的很少）",
+		"&4矿物辞典&7过滤器可以过滤矿辞相同的物品。（用于解决加了一堆工业模组出现10种铜锭8种钢锭的问题）",
+		"&4流体&7过滤器可以使得节点传输流体。",
+		"（PS：所以你为什么要指望一个魔法模组的物流系统很出众呢？为什么不去用cyclic的无限传输还有xnet以及玩家接口这些好东西？）"
 	],
 	dependencies: [
 		"393c6058"
@@ -36,6 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:node_router"
@@ -47,28 +49,40 @@
 		uid: "2fcc9756",
 		type: "item",
 		items: [{
-			item: "bloodmagic:master_routing_node"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:master_routing_node"
 		}]
 	},
 	{
 		uid: "752309b5",
 		type: "item",
 		items: [{
-			item: "bloodmagic:item_routing_node"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:item_routing_node"
 		}]
 	},
 	{
 		uid: "84305927",
 		type: "item",
 		items: [{
-			item: "bloodmagic:input_routing_node"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:input_routing_node"
 		}]
 	},
 	{
 		uid: "8da9a755",
 		type: "item",
 		items: [{
-			item: "bloodmagic:output_routing_node"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:output_routing_node"
 		}]
 	},
 	{
@@ -76,19 +90,37 @@
 		type: "item",
 		title: "Any &4Routing Node Filter",
 		items: [{
-			item: "bloodmagic:base_item_filter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:base_item_filter"
 		},
 		{
-			item: "bloodmagic:base_item_filter 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:base_item_filter",
+			Damage: 1s
 		},
 		{
-			item: "bloodmagic:base_item_filter 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:base_item_filter",
+			Damage: 2s
 		},
 		{
-			item: "bloodmagic:base_item_filter 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:base_item_filter",
+			Damage: 3s
 		},
 		{
-			item: "bloodmagic:base_fluid_filter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:base_fluid_filter"
 		}]
 	}],
 	rewards: [{

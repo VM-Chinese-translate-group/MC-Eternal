@@ -1,7 +1,10 @@
 {
 	x: 27.0d,
 	y: 3.0d,
-	description: "Unleashes the Power of Creation to an Aura generator placed ontop, increasing the cap of the Aura production limit drastically.",
+	description: "让灵气制造设备的力量被彻底解放，突破区块灵气限制！",
+	text: [
+		""
+	],
 	dependencies: [
 		"185e679f"
 	],
@@ -9,7 +12,10 @@
 		uid: "a15491da",
 		type: "item",
 		items: [{
-			item: "naturesaura:generator_limit_remover"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:generator_limit_remover"
 		}]
 	}],
 	rewards: [{

@@ -1,7 +1,10 @@
 {
 	x: 23.5d,
 	y: 4.0d,
-	description: "Allows the Natural Altar to crumble some items into others using Aura.",
+	description: "差不多可以把自然祭坛变成一个粉碎机（大概）",
+	text: [
+		""
+	],
 	dependencies: [
 		"07a0f7e3",
 		"b12539ba"
@@ -10,7 +13,10 @@
 		uid: "f2d3ad51",
 		type: "item",
 		items: [{
-			item: "naturesaura:crushing_catalyst"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "naturesaura:crushing_catalyst"
 		}]
 	}],
 	rewards: [{

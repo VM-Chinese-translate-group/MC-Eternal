@@ -1,9 +1,17 @@
 {
-	title: "Terraforged",
-	icon: "botania:terraplate",
+	title: "锻造泰拉钢",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "botania:terraplate"
+	},
 	x: 15.0d,
 	y: -6.0d,
-	description: "A critical device in Botania's progression, it's used to forge Terrasteel, one of the most costly items in the mod. *Read the Lexica Botania for more Info, including how to supply Mana to it quickly enough*",
+	description: "泰拉凝聚板用于锻造泰拉钢，这是植物魔法里最强大的金属，也是最贵的*详见植物魔法辞典，注意！合成时一定要保证魔力充足！*",
+	text: [
+		""
+	],
 	dependencies: [
 		"42aae76f"
 	],
@@ -11,14 +19,20 @@
 		uid: "1e600cd2",
 		type: "item",
 		items: [{
-			item: "botania:terraplate"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:terraplate"
 		}]
 	},
 	{
 		uid: "fdd7236f",
 		type: "item",
 		items: [{
-			item: "minecraft:lapis_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:lapis_block"
 		}],
 		count: 4L
 	},
@@ -26,7 +40,10 @@
 		uid: "b13384ae",
 		type: "item",
 		items: [{
-			item: "botania:livingrock"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "botania:livingrock"
 		}],
 		count: 5L
 	}],

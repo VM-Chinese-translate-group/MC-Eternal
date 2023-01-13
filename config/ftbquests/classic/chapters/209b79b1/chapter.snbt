@@ -1,8 +1,7 @@
 {
-	title: "Exploration",
+	title: "探险",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "thebetweenlands:explorers_hat"
@@ -227,7 +226,7 @@
 		rotation: 0.0d,
 		image: "assets:quest.png",
 		hover: [
-			"Quest Chain Available!"
+			"任务线可完成！"
 		],
 		click: "",
 		dev: false

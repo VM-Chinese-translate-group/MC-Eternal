@@ -1,14 +1,9 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "twilightforest:thorn_rose"
-	},
+	icon: "twilightforest:thorn_rose",
 	x: -10.0d,
 	y: -3.0d,
 	shape: "diamond",
-	description: "\"Imagine stepping through a portal into a twilight realm, filled with trees as far as they eye can see. Breathtaking vistas and amazing discoveries await you around every corner. But beware! Not all denizens of the forest respond to you lightly\"",
+	description: "“想象一下，步入传送门即可进入一个暮光领域, 一眼望去是无穷无尽的树. 在这个世界的任何角落都可能有令人叹为观止的美景和惊人的发现在等待着你.。但是请注意，并非这森林中的所有居民都会对你彬彬有礼”",
 	tasks: [{
 		uid: "26141e32",
 		type: "dimension",

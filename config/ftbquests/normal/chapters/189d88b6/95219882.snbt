@@ -1,7 +1,7 @@
 {
 	x: -10.5d,
 	y: -2.5d,
-	description: "&o&nNice and toasty! Can be used to cook food and looks delightful",
+	description: "&o&n真香！ 它可用于烤制食物，啊，烧烤总是令人心情愉快！",
 	dependencies: [
 		"c6a58218"
 	],
@@ -9,7 +9,10 @@
 		uid: "57d71d2c",
 		type: "item",
 		items: [{
-			item: "futuremc:campfire"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "futuremc:campfire"
 		}]
 	}],
 	rewards: [{

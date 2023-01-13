@@ -2,7 +2,7 @@
 	x: 0.5d,
 	y: -0.5d,
 	shape: "square",
-	description: "A ravenous worm that digs through the desert sands and devours anything it comes across... *Try feeding one TNT*",
+	description: "一种饥不择食的蠕虫，在沙漠中挖掘并吞食它遇到的任何东西。*试试给它喂个TNT*",
 	text: [
 		"Dune by Frank Herbert"
 	],
@@ -13,10 +13,9 @@
 	tasks: [{
 		uid: "e5150c43",
 		type: "kill",
-		title: "Bounty: Death Worm",
+		title: "悬赏：死亡蠹虫",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -37,19 +36,13 @@
 	{
 		uid: "23e8be6f",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:diamond_block"
-		}
+		item: "minecraft:diamond_block"
 	},
 	{
 		uid: "1c15db24",
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:iceandfire.deathworm_egg",
@@ -61,7 +54,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:deathworm_white_chestplate"

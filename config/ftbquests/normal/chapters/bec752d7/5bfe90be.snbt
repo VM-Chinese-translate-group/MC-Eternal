@@ -1,11 +1,12 @@
 {
-	title: "&4Will Smith",
+	title: "&4意志收集",
 	x: -2.0d,
 	y: 30.0d,
 	shape: "gear",
-	description: "&oYes Will Smith Will Smith!",
+	description: "&o是的！意志收集完成！",
 	text: [
-		"&7Get a full &4Grand Tartaric Gem&7 of all 5 &bWill Types&7."
+		"&7获得包含&b所有意志类型&7的&4精致地狱魂石&7。",
+		"（你好闲啊）"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -20,6 +21,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -34,6 +36,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -50,6 +53,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -66,6 +70,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -82,6 +87,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:soul_gem",
@@ -102,6 +108,9 @@
 		uid: "e1c7ecf7",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

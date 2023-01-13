@@ -1,11 +1,13 @@
 {
-	title: "Scribing Desk",
+	title: "抄写台",
 	x: 7.0d,
 	y: -5.0d,
-	description: "Ancient Power at your Fingertips",
+	description: "学习上古知识",
 	text: [
-		"After researching a tablet containing an Ancient Spell in the Sphere of Cognizance, you can use the Scribing Desk to recreate the Spell.",
-		"Use some ink sacks, books and other potent materials to restore the spell to its former glory!"
+		"鉴定完一块记载了上古法术的石板之后，你就可以通过抄写台来将石板上的法术制作成法术书了。",
+		"书写法术书可不是一个容易的过程，首先我需要一些墨水来誊写这些铭文，为这些铭文附魔还需要一些魔法水晶，最后，我需要一个法术的载体——书。",
+		"不同的法术撰写时消耗的材料也是不同的，好在石板上记录了那些材料，我只需要找到它们……",
+		"古代法术无一例外具有着强大的力量，它们的魔力不属于现在的任何一种元素形式，掌握它们，我将重现它们曾经的辉煌。"
 	],
 	dependencies: [
 		"9ef1b860"
@@ -15,6 +17,9 @@
 		uid: "284c91de",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ancientspellcraft:scribing_desk"
 		}]
 	}],

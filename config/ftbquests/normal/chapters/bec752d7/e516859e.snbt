@@ -8,7 +8,10 @@
 		uid: "020fce7d",
 		type: "item",
 		items: [{
-			item: "bewitchment:distillery"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bewitchment:distillery"
 		}]
 	}],
 	rewards: [{

@@ -1,10 +1,10 @@
 {
-	title: "&4Draft of Angelus",
+	title: "&4祷告之始",
 	x: -0.5d,
 	y: 24.5d,
-	description: "&oAmbrosian't",
+	description: "&o拜清诸神，降下最为猛烈的改变",
 	text: [
-		"&4Draft of Angelus&7 can be slurped up while wearing &4Living Armor&7 to increase the &6Upgrade Point&7 limit to &6200&7."
+		"&4祷告之始&7可以将&4束灵盔甲&7的&6升级点数&7提升至&6200&7。"
 	],
 	dependencies: [
 		"a146eff2",
@@ -15,7 +15,10 @@
 		uid: "ba617409",
 		type: "item",
 		items: [{
-			item: "bloodmagic:points_upgrade"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:points_upgrade"
 		}]
 	}],
 	rewards: [{

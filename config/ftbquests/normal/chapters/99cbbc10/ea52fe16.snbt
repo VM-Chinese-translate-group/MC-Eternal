@@ -1,16 +1,19 @@
 {
-	title: "Rats!",
+	title: "老鼠!",
 	x: 4.5d,
 	y: -1.0d,
-	description: "Rats eating all yo crops?",
+	description: "老鼠吃光了你所有的作物?",
 	text: [
-		"Rats dig through wooden walls, steal food and seeds from chests and destroy crops! Protect your home with traps! "
+		"老鼠会挖穿你家的墙，从箱子里偷你的食物和种子，摧毁庄稼!用捕鼠夹保护你的家! "
 	],
 	tasks: [{
 		uid: "8ec1d7ed",
 		type: "item",
 		items: [{
-			item: "rats:rattrap"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rattrap"
 		}],
 		count: 4L
 	}],
@@ -23,6 +26,9 @@
 		uid: "6f6123a7",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "cheesy_cache"
@@ -32,7 +38,12 @@
 	{
 		uid: "a98fa8e7",
 		type: "item",
-		item: "rats:garbage_pile",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:garbage_pile"
+		},
 		count: 3
 	}]
 }

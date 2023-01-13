@@ -7,13 +7,8 @@
 	tasks: [{
 		uid: "816df6cc",
 		type: "advancement",
-		title: "Advancement: &eBingo! Dino DNA!",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "fossil:triceratops_dna"
-		},
+		title: "成就: &eBingo！ 恐龙 DNA！",
+		icon: "fossil:triceratops_dna",
 		advancement: "fossil:fossil/dna",
 		criterion: ""
 	}],

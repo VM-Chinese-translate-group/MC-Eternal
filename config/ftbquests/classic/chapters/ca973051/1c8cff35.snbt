@@ -1,7 +1,7 @@
 {
 	x: -10.5d,
 	y: -9.0d,
-	description: "&oLaunch Magical Projectiles at your foes! &7&l*Recharge with an Ender Pearl*",
+	description: "&o向你的敌人射出神奇子弹&7&l*用末影珍珠进行充能*",
 	dependencies: [
 		"0647fe18"
 	],
@@ -10,7 +10,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:twilight_scepter"

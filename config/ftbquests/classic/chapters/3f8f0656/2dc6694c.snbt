@@ -1,7 +1,7 @@
 {
 	x: 12.0d,
 	y: 6.0d,
-	description: "Create a spawner out of any non-boss mob ",
+	description: "从中创建一个任意非Boss生物的刷怪箱",
 	dependencies: [
 		"7b601388"
 	],
@@ -9,10 +9,7 @@
 		uid: "297b288d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "enderio:block_powered_spawner"
+			item: "enderio:block_powered_spawner"
 		}],
 		ignore_nbt: 1b
 	}],

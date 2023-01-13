@@ -8,10 +8,7 @@
 		uid: "191f6be2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "stevescarts:blockjunction"
+			item: "stevescarts:blockjunction"
 		}],
 		count: 3L
 	}],

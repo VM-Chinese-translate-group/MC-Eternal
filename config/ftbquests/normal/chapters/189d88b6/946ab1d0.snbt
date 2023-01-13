@@ -1,8 +1,8 @@
 {
-	title: "&7&lWar &kdestruction",
+	title: "&7&l战争 &kdestruction",
 	x: -3.5d,
 	y: 2.0d,
-	description: "What is it good for?",
+	description: "它有什么好处吗？",
 	dependencies: [
 		"f687915f"
 	],
@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:war"
@@ -27,6 +28,9 @@
 		uid: "040b1638",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -38,6 +42,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dread_knight_sword",

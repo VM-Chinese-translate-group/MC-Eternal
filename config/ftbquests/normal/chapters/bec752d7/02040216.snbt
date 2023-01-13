@@ -1,7 +1,10 @@
 {
 	x: 18.5d,
 	y: -4.5d,
-	description: "Mana = Dirt!",
+	description: "魔力=土",
+	text: [
+		""
+	],
 	dependencies: [
 		"10a2bedf"
 	],
@@ -9,10 +12,11 @@
 		uid: "922ea081",
 		type: "item",
 		items: [{
-			id: "botania:dirtrod",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "botania:dirtrod"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

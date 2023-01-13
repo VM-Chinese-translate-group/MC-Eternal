@@ -1,43 +1,26 @@
 {
-	title: "&a&lNuclear TNT",
+	title: "&a&l核弹",
 	x: 1.0d,
 	y: -2.0d,
-	description: "&o\"I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.\"",
+	description: "&o\"我不知道第三次世界大战会用什么样的武器进行，但我能肯定第四次世界大战一定会用石头与棍棒作为武器\"",
 	tasks: [{
 		uid: "b89ccf1c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ghostsexplosives:tnt_nuclear"
+			item: "ghostsexplosives:tnt_nuclear"
 		}],
 		count: 10L
 	}],
 	rewards: [{
 		uid: "7eedfc4c",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 50s
-		}
+		item: "tconstruct:materials 1 50"
 	},
 	{
 		uid: "6185918c",
 		type: "item",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "treasure2:gold_strongbox"
-		},
+		icon: "treasure2:gold_strongbox",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "rare_lootbox"
@@ -49,9 +32,6 @@
 		uid: "f83d284a",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {

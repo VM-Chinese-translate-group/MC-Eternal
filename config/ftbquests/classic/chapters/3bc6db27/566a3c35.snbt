@@ -8,10 +8,7 @@
 		uid: "112d5b06",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "forestry:centrifuge"
+			item: "forestry:centrifuge"
 		}]
 	}],
 	rewards: [{

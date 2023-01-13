@@ -8,7 +8,10 @@
 		uid: "51ca2355",
 		type: "item",
 		items: [{
-			item: "totemic:drum"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "totemic:drum"
 		}]
 	}],
 	rewards: [{

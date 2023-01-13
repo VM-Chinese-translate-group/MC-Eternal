@@ -1,15 +1,18 @@
 {
-	title: "Top Tier Food: Gourmet Vension Burger",
+	title: "顶级食品：美味鹿肉汉堡",
 	x: -1.0d,
 	y: -5.5d,
 	text: [
-		"Bet you can�t eat 5 of them! No no! Stop, don�t eat 5 of them! "
+		"我打赌你不能吃掉 5 个！不 不！5 个，不要吃掉其中 5 个! "
 	],
 	tasks: [{
 		uid: "5639618b",
 		type: "item",
 		items: [{
-			item: "harvestcraft:gourmetvenisonburgeritem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:gourmetvenisonburgeritem"
 		}]
 	}],
 	rewards: [{

@@ -5,10 +5,7 @@
 		uid: "cd3ab7c9",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:manufactory_idle"
+			item: "nuclearcraft:manufactory_idle"
 		}]
 	}],
 	rewards: [{

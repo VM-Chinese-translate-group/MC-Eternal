@@ -1,9 +1,9 @@
 {
-	title: "&c&lDragon Steel Sword",
+	title: "&c&l龙钢剑",
 	x: -12.5d,
 	y: -11.5d,
 	shape: "octagon",
-	description: "&oI've heard tales of such power",
+	description: "&o我曾听过关于这种恐怖力量的传说",
 	dependencies: [
 		"e375f1be"
 	],
@@ -12,12 +12,14 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonsteel_fire_sword"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonsteel_ice_sword"
@@ -34,6 +36,9 @@
 		uid: "9a7eebfd",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

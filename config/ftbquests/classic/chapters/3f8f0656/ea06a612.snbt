@@ -8,10 +8,7 @@
 		uid: "78f28645",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "mekanism:controlcircuit"
+			item: "mekanism:controlcircuit"
 		}]
 	}],
 	rewards: [{

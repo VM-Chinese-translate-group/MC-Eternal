@@ -2,14 +2,14 @@
 	x: -1.0d,
 	y: -4.0d,
 	shape: "gear",
-	description: "&oSo you want to become a bounty hunter eh? Hunting down some of the most hated, dangerous and feared creatures is hard work!",
+	description: "&o你想成为一名赏金猎人？你将会猎杀一些最恶心、最危险、最恐怖的生物，这可是一项艰苦的工作！你，准备好了吗？",
 	text: [
-		"Bounties are quests that can be completed for a reward, rewards start off small but the more bounties you complete the more unlock, with every bounty you become a more seasoned hunter no doubt, of course the reward increases along with the danger..."
+		"通过完成悬赏可以获得奖励。奖励开始时很少，但随着你完成和解锁的悬赏越多，奖励也会越加丰厚。当然，毫无疑问，风险与奖励成正比——风险越大，奖励越多。"
 	],
 	tasks: [{
 		uid: "eaa757cf",
 		type: "checkmark",
-		title: "&6&lBounties and how they work!"
+		title: "&6&l悬赏及介绍"
 	}],
 	rewards: [{
 		uid: "01cc171b",
@@ -25,13 +25,10 @@
 		uid: "fabbd448",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "harvestcraft:sundayroastitem",
 			tag: {
 				display: {
-					Name: "Bounty Hunters Feast"
+					Name: "赏金猎人盛宴"
 				}
 			}
 		},

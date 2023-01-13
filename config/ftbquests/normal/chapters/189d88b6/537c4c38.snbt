@@ -1,11 +1,11 @@
 {
 	x: -15.0d,
 	y: -6.5d,
-	description: "An alpine flying predator that can be tamed and handled as a sturdy flying war mount.",
+	description: "一种可以飞行的奇异掠食者，你可以驯服它们并作为一种可靠抗揍的飞行坐骑。",
 	text: [
-		"Hippogryphs are mysterious alpine flying carnivores that can be tamed using Rabbits Feet.",
-		"Hippogryph eggs are items obtained after breeding two hippogryphs. You hatch them like a chicken, and a baby hippogryph will spawn.",
-		"Two hippogryphs can be bred by feeding them rabbit stew. "
+		"骏鹰是一种神秘凶猛的掠食者，你可以使用兔脚来驯服它。",
+		"骏鹰蛋是繁殖骏鹰后获得的物品。你可以向孵化鸡一样孵化它（指丢出），然后就会生成一个小骏鹰。",
+		"你可以通过喂食两只骏鹰兔肉煲来繁殖。"
 	],
 	dependencies: [
 		"a9d286cd"
@@ -13,27 +13,54 @@
 	tasks: [{
 		uid: "6c1c1298",
 		type: "item",
-		title: "Obtain a Hippogryph egg",
+		title: "获得一个骏鹰蛋",
 		items: [{
-			item: "iceandfire:hippogryph_egg"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_egg"
 		},
 		{
-			item: "iceandfire:hippogryph_egg 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_egg",
+			Damage: 1s
 		},
 		{
-			item: "iceandfire:hippogryph_egg 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_egg",
+			Damage: 2s
 		},
 		{
-			item: "iceandfire:hippogryph_egg 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_egg",
+			Damage: 3s
 		},
 		{
-			item: "iceandfire:hippogryph_egg 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_egg",
+			Damage: 4s
 		},
 		{
-			item: "iceandfire:hippogryph_egg 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_egg",
+			Damage: 5s
 		},
 		{
-			item: "iceandfire:hippogryph_egg 1 6"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippogryph_egg",
+			Damage: 6s
 		}]
 	}],
 	rewards: [{

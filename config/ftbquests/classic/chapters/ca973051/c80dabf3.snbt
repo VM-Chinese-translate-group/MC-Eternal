@@ -8,10 +8,7 @@
 		uid: "d738b99c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:ratlantean_flame"
+			item: "rats:ratlantean_flame"
 		}]
 	}],
 	rewards: [{

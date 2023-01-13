@@ -1,7 +1,7 @@
 {
 	x: -9.5d,
 	y: -4.0d,
-	description: "Simple ore doubling",
+	description: "简单矿石加倍",
 	dependencies: [
 		"3d01c8ca"
 	],
@@ -9,9 +9,6 @@
 		uid: "dcc2b624",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "thermalexpansion:machine",
 			tag: {
 				RSControl: 0b,

@@ -17,25 +17,46 @@
 		type: "item",
 		title: "Any Crystal",
 		items: [{
-			item: "thaumcraft:crystal_aer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crystal_aer"
 		},
 		{
-			item: "thaumcraft:crystal_ignis"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crystal_ignis"
 		},
 		{
-			item: "thaumcraft:crystal_aqua"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crystal_aqua"
 		},
 		{
-			item: "thaumcraft:crystal_terra"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crystal_terra"
 		},
 		{
-			item: "thaumcraft:crystal_ordo"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crystal_ordo"
 		},
 		{
-			item: "thaumcraft:crystal_perditio"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crystal_perditio"
 		},
 		{
-			item: "thaumcraft:crystal_vitium"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:crystal_vitium"
 		}]
 	}],
 	rewards: [{

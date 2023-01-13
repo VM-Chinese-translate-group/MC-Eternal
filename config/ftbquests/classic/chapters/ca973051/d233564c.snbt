@@ -1,22 +1,17 @@
 {
-	title: "The Alpha Yeti",
+	title: "雪怪首领",
 	x: -10.0d,
 	y: -11.0d,
 	shape: "diamond",
-	description: "&oIn the Coldest regions of the Twilight Forest lies a great hill with Cavern openings... What could possibly reside in it?",
+	description: "&o在暮色森林最寒冷的地区，有一座巨大的山丘，山丘上有一个洞穴。。。我不禁好奇，什么生物会住在那里面?",
 	dependencies: [
 		"0647fe18"
 	],
 	tasks: [{
 		uid: "3ed0a731",
 		type: "advancement",
-		title: "Advancement: &eAlpha Fur",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "twilightforest:alpha_fur"
-		},
+		title: "进度: &e首领的毛皮",
+		icon: "twilightforest:alpha_fur",
 		advancement: "twilightforest:progress_yeti",
 		criterion: ""
 	}],
@@ -29,9 +24,6 @@
 		uid: "b1bce2a3",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -43,7 +35,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:yeti_chestplate",
@@ -62,8 +53,8 @@
 				}],
 				display: {
 					Lore: [
-						"Warm on the inside, Cold to the touch on the outside...",
-						"§dExclusive Twilight Relic"
+						"外冷内热，有点神奇。。。",
+						"§d暮色森林独家遗物"
 					],
 					Name: "§9§lJacket of the Frozen Alpha"
 				},

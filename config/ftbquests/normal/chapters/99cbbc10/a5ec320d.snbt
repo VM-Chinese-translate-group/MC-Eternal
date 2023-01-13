@@ -5,7 +5,10 @@
 		uid: "35b3844a",
 		type: "item",
 		items: [{
-			item: "minecraft:melon_seeds"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:melon_seeds"
 		}]
 	}],
 	rewards: [{

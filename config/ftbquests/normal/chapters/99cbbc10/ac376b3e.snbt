@@ -1,4 +1,5 @@
 {
+
 	x: 11.0d,
 	y: 0.5d,
 	dependencies: [
@@ -8,7 +9,10 @@
 		uid: "8e8711fa",
 		type: "item",
 		items: [{
-			item: "cookingforblockheads:toaster"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cookingforblockheads:toaster"
 		}]
 	}],
 	rewards: [{
@@ -19,11 +23,21 @@
 	{
 		uid: "d182a499",
 		type: "item",
-		item: "harvestcraft:ironbrewitem"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:ironbrewitem"
+		}
 	},
 	{
 		uid: "c647e6da",
 		type: "item",
-		item: "minecraft:bread"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bread"
+		}
 	}]
 }

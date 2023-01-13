@@ -1,16 +1,17 @@
 {
-	title: "&4Sanguine Scientiem",
+	title: "&4血魔法？血科技！",
 	x: 7.5d,
 	y: 15.0d,
-	description: "&oBlood Science!",
+	description: "&o鲜血铸成科技进步的道路！",
 	text: [
-		"&7The &4Sanguine Scientiem&7 is Blood Magic's guidebook, it's pretty solid, but doesn't cover all bases, so you might still want to check the Quests for info."
+		"&4血染知书&7是血魔法的指南书。不可否认，它确实十分详细且精致，但是仍不够完善，如果有看了书还不懂的地方可以看看任务提示。"
 	],
 	tasks: [{
 		uid: "7044c8f7",
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "guideapi:bloodmagic-guide"

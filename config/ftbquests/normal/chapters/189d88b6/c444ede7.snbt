@@ -1,7 +1,7 @@
 {
 	x: -7.5d,
 	y: -7.5d,
-	description: "Nether Resource",
+	description: "地狱资源",
 	dependencies: [
 		"36443d40"
 	],
@@ -10,7 +10,10 @@
 		uid: "0b44e495",
 		type: "item",
 		items: [{
-			item: "minecraft:quartz"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:quartz"
 		}],
 		count: 32L
 	}],
@@ -29,6 +32,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "forge:bucketfilled",

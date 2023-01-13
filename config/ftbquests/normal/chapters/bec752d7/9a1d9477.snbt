@@ -1,6 +1,11 @@
 {
 	title: "&5Stabilizer",
-	icon: "thaumcraft:stabilizer",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thaumcraft:stabilizer"
+	},
 	x: 23.0d,
 	y: -6.5d,
 	description: "&oNOOO my expensive components :C&7 *Read Description*",
@@ -20,14 +25,20 @@
 		uid: "06541698",
 		type: "item",
 		items: [{
-			item: "thaumcraft:stabilizer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:stabilizer"
 		}]
 	},
 	{
 		uid: "7d60b001",
 		type: "item",
 		items: [{
-			item: "thaumcraft:inlay"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:inlay"
 		}]
 	}],
 	rewards: [{

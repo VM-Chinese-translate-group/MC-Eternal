@@ -16,7 +16,10 @@
 		uid: "e43decdb",
 		type: "item",
 		items: [{
-			item: "thaumcraft:jar_normal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:jar_normal"
 		}]
 	}],
 	rewards: [{

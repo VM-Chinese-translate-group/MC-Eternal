@@ -1,8 +1,8 @@
 {
-	title: "Cooking Part 3.",
+	title: "烹饪的第三部分.",
 	x: 10.0d,
 	y: 2.0d,
-	description: "&oYou gotta do the cooking by the book!",
+	description: "&o你得按规定做饭!",
 	dependencies: [
 		"cb9faa4a"
 	],
@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cookingforblockheads:recipe_book",
@@ -31,7 +32,12 @@
 	{
 		uid: "9c240b28",
 		type: "item",
-		item: "minecraft:milk_bucket",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:milk_bucket"
+		},
 		count: 3
 	}]
 }

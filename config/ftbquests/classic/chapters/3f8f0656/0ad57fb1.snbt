@@ -10,10 +10,7 @@
 		uid: "96df574c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:fusion_core"
+			item: "nuclearcraft:fusion_core"
 		}]
 	}],
 	rewards: [{

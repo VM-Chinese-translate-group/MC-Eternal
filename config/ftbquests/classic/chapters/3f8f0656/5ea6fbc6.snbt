@@ -8,10 +8,7 @@
 		uid: "ce9b3f7b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:alloy_furnace_idle"
+			item: "nuclearcraft:alloy_furnace_idle"
 		}]
 	}],
 	rewards: [{

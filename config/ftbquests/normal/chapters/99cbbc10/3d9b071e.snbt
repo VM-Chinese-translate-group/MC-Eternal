@@ -5,7 +5,10 @@
 		uid: "8e5a3213",
 		type: "item",
 		items: [{
-			item: "harvestcraft:mulberryseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:mulberryseeditem"
 		}]
 	}],
 	rewards: [{

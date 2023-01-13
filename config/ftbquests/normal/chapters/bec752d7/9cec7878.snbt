@@ -9,9 +9,16 @@
 	tasks: [{
 		uid: "b6ab9855",
 		type: "item",
-		icon: "thaumcraft:ingot 1 2",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:ingot",
+			Damage: 2s
+		},
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "ingotBrass",
 					id: "ore"
@@ -29,7 +36,10 @@
 		uid: "b7fef104",
 		type: "item",
 		items: [{
-			item: "thaumcraft:ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:ingot"
 		}]
 	}],
 	rewards: [{

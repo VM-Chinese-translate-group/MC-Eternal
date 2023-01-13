@@ -5,7 +5,10 @@
 		uid: "49ecc8d1",
 		type: "item",
 		items: [{
-			item: "actuallyadditions:item_worm"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "actuallyadditions:item_worm"
 		}]
 	}],
 	rewards: [{

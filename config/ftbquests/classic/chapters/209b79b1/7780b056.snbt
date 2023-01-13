@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: -4.0d,
 	shape: "square",
-	description: "An extradimensional being sent to drag creatures big and small into unknown, hostile enviroments",
+	description: "一个会把大大小小的生物拖进未知异次元空间的敌对生物。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d8852201"
@@ -10,10 +10,9 @@
 	tasks: [{
 		uid: "96ad6605",
 		type: "kill",
-		title: "Bounty: Rifter",
+		title: "悬赏：裂隙人",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -34,32 +33,16 @@
 	{
 		uid: "e8bae6fa",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"treasure2:pouchable": {}
-			},
-			id: "minecraft:diamond"
-		}
+		item: "minecraft:diamond"
 	},
 	{
 		uid: "74dd7eb0",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:crystalotus"
-		}
+		item: "midnight:crystalotus"
 	},
 	{
 		uid: "1e2ece42",
 		type: "item",
-		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "midnight:cook_stinger_egg"
-		}
+		item: "midnight:cook_stinger_egg"
 	}]
 }

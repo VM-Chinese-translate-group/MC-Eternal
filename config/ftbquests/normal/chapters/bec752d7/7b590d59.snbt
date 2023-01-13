@@ -25,42 +25,60 @@
 		uid: "a95a4017",
 		type: "item",
 		items: [{
-			item: "thaumcraft:tube"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:tube"
 		}]
 	},
 	{
 		uid: "bb0a696d",
 		type: "item",
 		items: [{
-			item: "thaumcraft:tube_valve"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:tube_valve"
 		}]
 	},
 	{
 		uid: "f36c23b0",
 		type: "item",
 		items: [{
-			item: "thaumcraft:tube_restrict"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:tube_restrict"
 		}]
 	},
 	{
 		uid: "dcb29eaa",
 		type: "item",
 		items: [{
-			item: "thaumcraft:tube_oneway"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:tube_oneway"
 		}]
 	},
 	{
 		uid: "238141c9",
 		type: "item",
 		items: [{
-			item: "thaumcraft:tube_filter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:tube_filter"
 		}]
 	},
 	{
 		uid: "607beee8",
 		type: "item",
 		items: [{
-			item: "thaumcraft:tube_buffer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:tube_buffer"
 		}]
 	}],
 	rewards: [{

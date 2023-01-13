@@ -2,7 +2,7 @@
 	x: -1.0d,
 	y: -6.5d,
 	shape: "square",
-	description: "These green, hulking monstrosities are considered an abomination by most. Feared by Villagers, they are capable of knocking around their victims with ease, no matter their size.",
+	description: "这种绿色、笨重的怪物应该没人觉得它们好看，连村民们也不例外，对它们退避三舍。值得注意的是，无论受害者的体型大小，巨人都能轻而易举地将受害者击飞数十格远。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d8852201"
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "fc568a13",
 		type: "kill",
-		title: "Bounty: Giant",
+		title: "悬赏：巨人",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

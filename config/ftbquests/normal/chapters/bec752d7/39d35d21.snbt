@@ -18,10 +18,16 @@
 		type: "item",
 		title: "Regular or Toggle &5Arcane Ear",
 		items: [{
-			item: "thaumcraft:arcane_ear"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:arcane_ear"
 		},
 		{
-			item: "thaumcraft:arcane_ear_toggle"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:arcane_ear_toggle"
 		}]
 	}],
 	rewards: [{

@@ -7,8 +7,13 @@
 	tasks: [{
 		uid: "58e74235",
 		type: "advancement",
-		title: "Discover the Vampire Forest",
-		icon: "vampirism:vampirism_flower",
+		title: "寻找吸血鬼森林，和你的同类交流一下感情",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampirism_flower"
+		},
 		advancement: "vampirism:main/vampire_forest",
 		criterion: ""
 	}],
@@ -27,6 +32,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:blood_bottle",

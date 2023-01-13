@@ -1,8 +1,8 @@
 {
-	title: "Mining is my passion!",
+	title: "挖矿使我激情！！",
 	x: -11.5d,
 	y: 4.5d,
-	description: "Way back in the mine... ",
+	description: "让我们回到矿洞......",
 	dependencies: [
 		"cf376a10"
 	],
@@ -10,7 +10,11 @@
 		uid: "5997c10f",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 128"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 128s
 		}],
 		count: 32L
 	},
@@ -18,7 +22,10 @@
 		uid: "7ec2aad8",
 		type: "item",
 		items: [{
-			item: "minecraft:iron_ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_ingot"
 		}],
 		count: 32L
 	},
@@ -26,7 +33,11 @@
 		uid: "ebc318f7",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 130"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 130s
 		}],
 		count: 32L
 	},
@@ -34,7 +45,11 @@
 		uid: "4a036cec",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 132"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 132s
 		}],
 		count: 32L
 	}],

@@ -9,7 +9,10 @@
 		uid: "a8c3c0c1",
 		type: "item",
 		items: [{
-			item: "mob_grinding_utils:fan"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mob_grinding_utils:fan"
 		}]
 	}],
 	rewards: [{

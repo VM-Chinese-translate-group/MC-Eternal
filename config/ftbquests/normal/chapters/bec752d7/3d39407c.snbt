@@ -13,7 +13,10 @@
 		uid: "f2174211",
 		type: "item",
 		items: [{
-			item: "thaumicaugmentation:impetus_gate"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumicaugmentation:impetus_gate"
 		}]
 	}],
 	rewards: [{

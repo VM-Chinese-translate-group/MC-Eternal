@@ -1,11 +1,11 @@
 {
-	title: "&4Ritual of the Feathered Knife",
+	title: "&4羽刀仪式",
 	x: 11.5d,
 	y: 26.0d,
-	description: "&oLight as a Feather, Sharp as a Dagger.",
+	description: "&o轻如鸿毛，锋如尖刀",
 	text: [
-		"&7The &4Ritual of the Feathered Knife&7 Automatically &cSelf-Sacrifices&7 the Health of nearby players to the nearest Blood Altar.",
-		"The Ritual will never drain Health of nearby Players below &c30% of its maximum&7, by default, that is."
+		"&4羽刀仪式&7是一种 &c牺牲&7仪式，它会以一种无痛的方式掠走附近玩家的血液充入血之祭坛。",
+		"通常来说仪式会在玩家最大生命值&c低于30%&7,时停止工作，当然，这是通常情况下……"
 	],
 	dependencies: [
 		"24209710",
@@ -20,7 +20,10 @@
 		uid: "6cb3f88f",
 		type: "item",
 		items: [{
-			item: "bloodmagic:ritual_stone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bloodmagic:ritual_stone"
 		}],
 		count: 40L
 	}]

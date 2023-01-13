@@ -5,7 +5,10 @@
 		uid: "c7643c02",
 		type: "item",
 		items: [{
-			item: "harvestcraft:flaxseeditem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:flaxseeditem"
 		}]
 	}],
 	rewards: [{

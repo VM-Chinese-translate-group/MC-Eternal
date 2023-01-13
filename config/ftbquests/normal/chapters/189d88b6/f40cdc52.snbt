@@ -8,7 +8,10 @@
 		uid: "150f9d76",
 		type: "item",
 		items: [{
-			item: "minecraft:nether_star"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:nether_star"
 		}]
 	}],
 	rewards: [{
@@ -21,6 +24,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cyclicmagic:tool_torch_launcher"

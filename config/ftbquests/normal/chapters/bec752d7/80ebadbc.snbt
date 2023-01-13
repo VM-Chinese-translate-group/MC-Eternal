@@ -1,8 +1,11 @@
 {
-	title: "Perfect Perception",
+	title: "完美的观星设备",
 	x: 0.0d,
 	y: -21.5d,
-	description: "&oThe &9&oObservatory&7&o can perceive the faintest of Stars, it returns to the method of usage the &9&oLooking Glass&7&o used, for precision... One may find a &9&oTelescope&7&o still useful to see what Constellations are out on a given Night...",
+	description: "&9&o瞭望台&7&o可以用来发现那种极为暗淡的星座，右击它的&9&o玻璃&7&o以骑上它（是座位那里的，不是望远镜镜筒部分），但是人们可能会发现，&9&o天文望远镜&7&o在某些时候仍然好用。",
+	text: [
+		""
+	],
 	dependencies: [
 		"d6707898"
 	],
@@ -10,7 +13,10 @@
 		uid: "57e860a2",
 		type: "item",
 		items: [{
-			item: "astralsorcery:blockobservatory"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "astralsorcery:blockobservatory"
 		}]
 	}],
 	rewards: [{

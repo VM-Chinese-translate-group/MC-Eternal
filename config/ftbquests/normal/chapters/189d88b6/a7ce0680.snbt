@@ -2,13 +2,13 @@
 	x: -14.0d,
 	y: -6.0d,
 	shape: "circle",
-	description: "Amphitheres are mystical feathered serpents that soar through the dense jungle and can be tackled and cowed into fast flying mounts.",
+	description: "翼蚺是一种神秘的羽蛇，在高树的天际线自由穿梭，乘风不息，你可以将它驯服作为坐骑。翼蚺用来赶路再合适不过了",
 	text: [
-		"First, one must catch up with the amphithere's quick slithering speed and mount it by interacting with it with an empty hand; if it is found flying, one must knock it out of the sky with a projectile before initiating the chase.",
-		"Once the amphithere is mounted, it will repeatedly turn its head over its side to bite its rider; in order to tame it, one must survive its bite attacks long enough before it begins to listen to commands",
-		"Feeding a tamed amphithere cocoa beans will heal it.",
-		"The dragon command staff can be used to set home and to command the beast",
-		"They can be bred using cookies!"
+		"首先，如果你想驯服它，你需要赶上翼蚺快速的奔跑速度并空手右键它骑在它的背上；如果在尝试驯服前你发现它在空中滑翔，你需要先用投掷物（弓箭或弹弓，要是打不死用枪也行）击落它",
+		"当你骑在它身上后，它会反复转动头部并咬住你。你必须在它的撕咬中坚持足够的时间才能使他们屈服侍奉你。当翼蚺冒出爱心粒子效果，并向前滑行，而非继续扭转身体，说明翼蚺已被驯服。",
+		"喂养驯服的翼蚺可可豆可以治愈它。",
+		"使用龙杖它交互可以命令它并为它设置home",
+		"它们可以通过喂食曲奇来繁殖！"
 	],
 	dependencies: [
 		"a9d286cd"
@@ -16,8 +16,13 @@
 	tasks: [{
 		uid: "ec75856a",
 		type: "advancement",
-		title: "Tame a Amphithere",
-		icon: "iceandfire:amphithere_feather",
+		title: "驯服翼蚺",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:amphithere_feather"
+		},
 		advancement: "iceandfire:iceandfire/tame_amphithere",
 		criterion: ""
 	}],
@@ -29,12 +34,23 @@
 	{
 		uid: "8507270f",
 		type: "item",
-		item: "minecraft:golden_apple 1 1"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:golden_apple",
+			Damage: 1s
+		}
 	},
 	{
 		uid: "e68e0b7c",
 		type: "item",
-		item: "iceandfire:amphithere_arrow",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:amphithere_arrow"
+		},
 		count: 64
 	},
 	{
@@ -47,6 +63,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragon_stick"

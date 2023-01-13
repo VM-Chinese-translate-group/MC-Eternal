@@ -5,7 +5,10 @@
 		uid: "b7e21dff",
 		type: "item",
 		items: [{
-			item: "harvestcraft:applejuiceitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:applejuiceitem"
 		}]
 	}],
 	rewards: [{

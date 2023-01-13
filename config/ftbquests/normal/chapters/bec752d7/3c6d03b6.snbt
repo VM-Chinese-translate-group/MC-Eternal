@@ -15,7 +15,12 @@
 		uid: "661564e3",
 		type: "observation",
 		title: "Look at an &5Arcane Workbench",
-		icon: "thaumcraft:arcane_workbench",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:arcane_workbench"
+		},
 		match_type: "block_id",
 		match: "thaumcraft:arcane_workbench",
 		timer: 0L

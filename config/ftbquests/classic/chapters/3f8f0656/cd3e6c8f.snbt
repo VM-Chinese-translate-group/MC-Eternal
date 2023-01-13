@@ -8,10 +8,7 @@
 		uid: "3b41e846",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "nuclearcraft:fuel_reprocessor_idle"
+			item: "nuclearcraft:fuel_reprocessor_idle"
 		}]
 	}],
 	rewards: [{

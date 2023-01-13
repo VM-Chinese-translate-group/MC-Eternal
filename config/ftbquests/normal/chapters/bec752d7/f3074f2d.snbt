@@ -1,10 +1,10 @@
 {
-	title: "&4Basic Sigils",
+	title: "&4基础印记",
 	x: 4.5d,
 	y: 17.0d,
-	description: "&oFluidity",
+	description: "&o一些流体",
 	text: [
-		"&7The &4Water&7 and &4Lava&7 Sigils place their respective Fluids when used, consuming LP from the user's &cSoul Network&7."
+		"&4水&7和&4熔岩&7印记可以在使用的时候创造或提供流体，这一过程需要消耗使用者&c灵魂网络&7里的LP。"
 	],
 	dependencies: [
 		"44e1406a",
@@ -15,6 +15,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_water"
@@ -27,6 +28,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "bloodmagic:sigil_lava"
