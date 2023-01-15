@@ -29,7 +29,7 @@
 	tasks: [{
 		uid: "795cbb16",
 		type: "checkmark",
-		title: "It's totally safe to press me"
+		title: "等你足够安全了就按下它吧"
 	}],
 	rewards: [{
 		uid: "b5431f8c",
@@ -41,7 +41,7 @@
 			id: "botania:corporeaspark",
 			tag: {
 				display: {
-					Name: "Player Soul"
+					Name: "玩家灵魂"
 				}
 			},
 			Damage: 1s
@@ -61,7 +61,7 @@
 	{
 		uid: "eb5b2a94",
 		type: "command",
-		title: "&e&lSPECIAL REWARD FROM ADAM",
+		title: "&e&l作者的神秘大礼",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

@@ -2,6 +2,7 @@
 	title: "&c&l完成所有的挑战，从整合包作者那里夺回你的灵魂！",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "botania:enderdagger"
@@ -28,16 +29,19 @@
 	tasks: [{
 		uid: "795cbb16",
 		type: "checkmark",
-		title: "It's totally safe to press me"
+		title: "等你足够安全了就按下它吧"
 	}],
 	rewards: [{
 		uid: "b5431f8c",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "botania:corporeaspark",
 			tag: {
 				display: {
-					Name: "Player Soul"
+					Name: "玩家灵魂"
 				}
 			},
 			Damage: 1s
@@ -48,6 +52,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "yoyos:creative_yoyo"
@@ -56,8 +61,13 @@
 	{
 		uid: "eb5b2a94",
 		type: "command",
-		title: "&e&lSPECIAL REWARD FROM ADAM",
-		icon: "thaumcraft:loot_bag",
+		title: "&e&l作者的神秘大礼",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:loot_bag"
+		},
 		command: "/kill @p"
 	}]
 }
