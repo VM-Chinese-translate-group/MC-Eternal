@@ -7,7 +7,10 @@
 		uid: "7bcec48b",
 		type: "item",
 		items: [{
-			item: "minecraft:ender_pearl"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:ender_pearl"
 		}]
 	}],
 	rewards: [{

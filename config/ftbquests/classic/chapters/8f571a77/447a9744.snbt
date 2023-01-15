@@ -1,5 +1,8 @@
 {
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "openblocks:tank",
 		tag: {
 			tank: {

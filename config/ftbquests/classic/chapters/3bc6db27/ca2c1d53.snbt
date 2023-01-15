@@ -8,7 +8,11 @@
 		uid: "bc135c6e",
 		type: "item",
 		items: [{
-			item: "stevescarts:upgrade 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:upgrade",
+			Damage: 5s
 		}]
 	}],
 	rewards: [{
@@ -20,6 +24,9 @@
 		uid: "1db23e98",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

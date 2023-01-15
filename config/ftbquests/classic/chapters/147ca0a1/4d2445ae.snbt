@@ -11,7 +11,10 @@
 		uid: "552d9616",
 		type: "item",
 		items: [{
-			item: "atum:fish_skeletal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "atum:fish_skeletal"
 		}],
 		count: 16L
 	},
@@ -19,7 +22,10 @@
 		uid: "85c79ef6",
 		type: "item",
 		items: [{
-			item: "atum:fish_forsaken"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "atum:fish_forsaken"
 		}],
 		count: 16L
 	},
@@ -27,7 +33,10 @@
 		uid: "7a183a20",
 		type: "item",
 		items: [{
-			item: "atum:fish_mummified"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "atum:fish_mummified"
 		}],
 		count: 16L
 	}],
@@ -40,6 +49,9 @@
 		uid: "deabe244",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

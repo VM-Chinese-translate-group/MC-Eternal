@@ -10,7 +10,10 @@
 		uid: "d374c736",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:crafting_accelerator"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:crafting_accelerator"
 		}]
 	},
 	{
@@ -18,23 +21,38 @@
 		type: "item",
 		title: "Any &6Crafting Storage",
 		items: [{
-			item: "appliedenergistics2:crafting_storage_1k"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_1k"
 		},
 		{
-			item: "appliedenergistics2:crafting_storage_4k"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_4k"
 		},
 		{
-			item: "appliedenergistics2:crafting_storage_16k"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_16k"
 		},
 		{
-			item: "appliedenergistics2:crafting_storage_64k"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_64k"
 		}]
 	},
 	{
 		uid: "474b769c",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:crafting_monitor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:crafting_monitor"
 		}]
 	}],
 	rewards: [{

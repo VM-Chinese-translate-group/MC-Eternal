@@ -10,7 +10,10 @@
 		uid: "48917937",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:sky_stone_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:sky_stone_block"
 		}],
 		count: 32L
 	}],

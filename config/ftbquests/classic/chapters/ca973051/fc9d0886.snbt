@@ -1,5 +1,10 @@
 {
-	icon: "rats:creative_cheese",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "rats:creative_cheese"
+	},
 	x: -17.5d,
 	y: -3.5d,
 	shape: "diamond",
@@ -7,7 +12,12 @@
 	tasks: [{
 		uid: "289290f7",
 		type: "dimension",
-		icon: "rats:idol_of_ratlantis",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:idol_of_ratlantis"
+		},
 		dim: -8
 	}],
 	rewards: [{
@@ -15,6 +25,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:scythe",
@@ -74,6 +85,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "rats:rat_arrow"
@@ -82,12 +94,20 @@
 	{
 		uid: "b5c620fa",
 		type: "item",
-		item: "rats:rat_upgrade_feral_bite"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_upgrade_feral_bite"
+		}
 	},
 	{
 		uid: "efac0e08",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "cheesy_cache"

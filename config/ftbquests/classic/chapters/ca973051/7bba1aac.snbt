@@ -8,7 +8,11 @@
 		uid: "5213feea",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:items_misc 1 19"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:items_misc",
+			Damage: 19s
 		}],
 		count: 16L
 	}],
@@ -27,6 +31,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:sludge_slicer"

@@ -5,7 +5,10 @@
 		uid: "878edfdc",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:dominos"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:dominos"
 		}]
 	}],
 	rewards: [{
@@ -16,6 +19,11 @@
 	{
 		uid: "ec1adafd",
 		type: "item",
-		item: "chancecubes:chance_cube"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chancecubes:chance_cube"
+		}
 	}]
 }

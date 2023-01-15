@@ -9,7 +9,10 @@
 		uid: "d0b089e9",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:foursmore"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:foursmore"
 		}]
 	}],
 	rewards: [{

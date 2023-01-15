@@ -8,7 +8,10 @@
 		uid: "782a68a9",
 		type: "item",
 		items: [{
-			item: "mekanism:cardboardbox"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:cardboardbox"
 		}]
 	}],
 	rewards: [{

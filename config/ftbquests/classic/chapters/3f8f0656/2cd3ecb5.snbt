@@ -10,7 +10,10 @@
 		uid: "09c6843d",
 		type: "item",
 		items: [{
-			item: "ae2stuff:inscriber"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ae2stuff:inscriber"
 		}]
 	}],
 	rewards: [{

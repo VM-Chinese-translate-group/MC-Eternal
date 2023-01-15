@@ -13,7 +13,10 @@
 		uid: "dc96e0a8",
 		type: "item",
 		items: [{
-			item: "techreborn:machine_casing"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:machine_casing"
 		}],
 		count: 18L
 	},
@@ -21,7 +24,11 @@
 		uid: "856b2ef2",
 		type: "item",
 		items: [{
-			item: "techreborn:machine_casing 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:machine_casing",
+			Damage: 1s
 		}],
 		count: 8L
 	},
@@ -29,7 +36,10 @@
 		uid: "491f3b8e",
 		type: "item",
 		items: [{
-			item: "techreborn:industrial_grinder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:industrial_grinder"
 		}]
 	}],
 	rewards: [{

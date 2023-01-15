@@ -7,7 +7,10 @@
 		uid: "89b9a3c2",
 		type: "item",
 		items: [{
-			item: "minecraft:beetroot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:beetroot"
 		}],
 		count: 16L
 	}],

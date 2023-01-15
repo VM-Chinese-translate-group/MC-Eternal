@@ -11,6 +11,7 @@
 		title: "前往阿图姆",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "atum:dagger_poison"
@@ -26,6 +27,9 @@
 		uid: "505a585e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

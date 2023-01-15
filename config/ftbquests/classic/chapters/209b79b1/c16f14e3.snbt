@@ -13,6 +13,7 @@
 		title: "悬赏：血腥骑士",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,13 +34,19 @@
 	{
 		uid: "36325599",
 		type: "item",
-		item: "minecraft:gold_block"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_block"
+		}
 	},
 	{
 		uid: "72462cad",
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"thaumicaugmentation:elytra_harness_augment": {}
 			},
 			id: "thaumcraft:banner_crimson_cult"

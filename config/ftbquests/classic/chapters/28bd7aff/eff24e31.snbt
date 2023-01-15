@@ -7,7 +7,12 @@
 		uid: "bc7b6a1e",
 		type: "kill",
 		title: "谋杀一位无辜的市民",
-		icon: "witherskelefix:fragment",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "witherskelefix:fragment"
+		},
 		entity: "minecolonies:citizen",
 		value: 1L
 	}],
@@ -25,6 +30,9 @@
 		uid: "746fec5b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ancientspellcraft:ancient_spellcraft_scroll",
 			tag: {
 				display: {

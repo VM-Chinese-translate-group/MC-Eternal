@@ -13,6 +13,7 @@
 		title: "悬赏：卫道士",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -30,6 +31,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cyclicmagic:evoker_fang"
@@ -45,6 +47,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "rats:top_hat"

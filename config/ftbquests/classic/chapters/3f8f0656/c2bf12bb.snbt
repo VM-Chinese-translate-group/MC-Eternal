@@ -9,7 +9,10 @@
 		uid: "74930bca",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:interface"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:interface"
 		}]
 	}],
 	rewards: [{

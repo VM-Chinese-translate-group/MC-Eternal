@@ -14,7 +14,11 @@
 		uid: "666c6c9e",
 		type: "item",
 		items: [{
-			item: "minecraft:diamond"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"treasure2:pouchable": {}
+			},
+			id: "minecraft:diamond"
 		}],
 		count: 16L
 	}],

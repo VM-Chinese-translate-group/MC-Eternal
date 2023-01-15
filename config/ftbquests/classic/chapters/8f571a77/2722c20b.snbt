@@ -12,9 +12,19 @@
 	tasks: [{
 		uid: "e4cec100",
 		type: "item",
-		icon: "tconstruct:nuggets 1 2",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:nuggets",
+			Damage: 2s
+		},
 		items: [{
-			item: "tconstruct:ingots 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{
@@ -23,6 +33,9 @@
 		title: "10 Currency",
 		auto: "no_toast",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 10L

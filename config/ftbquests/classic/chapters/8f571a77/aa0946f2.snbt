@@ -13,7 +13,11 @@
 		uid: "5eaf9f71",
 		type: "item",
 		items: [{
-			item: "tconstruct:ingots 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 2s
 		}],
 		count: 16L
 	}],

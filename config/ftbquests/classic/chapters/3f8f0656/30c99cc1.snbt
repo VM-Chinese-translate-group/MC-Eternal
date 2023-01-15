@@ -8,7 +8,11 @@
 		uid: "f9952ccf",
 		type: "item",
 		items: [{
-			item: "mekanism:glowpanel 1 15"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:glowpanel",
+			Damage: 15s
 		}]
 	}],
 	rewards: [{

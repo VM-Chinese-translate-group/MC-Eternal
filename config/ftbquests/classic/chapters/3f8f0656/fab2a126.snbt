@@ -9,14 +9,22 @@
 		uid: "ae3a2a7b",
 		type: "item",
 		items: [{
-			item: "ae2wtlib:infinity_booster_card"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ae2wtlib:infinity_booster_card"
 		}]
 	}],
 	rewards: [{
 		uid: "024e0ad1",
 		type: "item",
 		title: "&6Here, have some extras!",
-		item: "ae2wtlib:infinity_booster_card",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ae2wtlib:infinity_booster_card"
+		},
 		count: 20
 	}]
 }

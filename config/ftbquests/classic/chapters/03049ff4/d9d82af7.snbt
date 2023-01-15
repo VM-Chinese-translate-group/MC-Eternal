@@ -7,6 +7,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:triceratops_egg"
@@ -18,6 +19,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:velociraptor_egg"
@@ -29,6 +31,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:tyrannosaurus_egg"
@@ -40,6 +43,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:pterosaur_egg"
@@ -51,6 +55,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:plesiosaur_egg"
@@ -62,6 +67,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:mosasaurus_egg"
@@ -73,6 +79,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:stegosaurus_egg"
@@ -84,6 +91,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:dilophosaurus_egg"
@@ -95,6 +103,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:brachiosaurus_egg"
@@ -106,6 +115,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:spinosaurus_egg"
@@ -117,6 +127,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:compsognathus_egg"
@@ -128,6 +139,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:ankylosaurus_egg"
@@ -139,6 +151,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:pachycephalosaurus_egg"
@@ -150,6 +163,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:deinonychus_egg"
@@ -161,6 +175,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:gallimimus_egg"
@@ -172,6 +187,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:liopleurodon_egg"
@@ -183,6 +199,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:allosaurus_egg"
@@ -194,6 +211,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:sarcosuchus_egg"
@@ -205,6 +223,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:ceratosaurus_egg"
@@ -216,6 +235,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:dryosaurus_egg"
@@ -227,6 +247,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:therizinosaurus_egg"
@@ -238,6 +259,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:parasaurolophus_egg"
@@ -249,6 +271,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:citipati_egg"
@@ -260,6 +283,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:diplodocus_egg"
@@ -271,6 +295,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:ornitholestes_egg"
@@ -282,6 +307,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:henodus_egg"
@@ -293,6 +319,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:icthyosaurus_egg"
@@ -304,6 +331,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:meganeura_egg"
@@ -315,6 +343,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:megalograptus_egg"
@@ -325,42 +354,60 @@
 		uid: "b70aac25",
 		type: "item",
 		items: [{
-			item: "fossil:confuciusornis_egg_cultivated"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:confuciusornis_egg_cultivated"
 		}]
 	},
 	{
 		uid: "79030964",
 		type: "item",
 		items: [{
-			item: "fossil:dodo_egg_cultivated"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:dodo_egg_cultivated"
 		}]
 	},
 	{
 		uid: "4c7ff37e",
 		type: "item",
 		items: [{
-			item: "fossil:gastornis_egg_cultivated"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:gastornis_egg_cultivated"
 		}]
 	},
 	{
 		uid: "7b4e6d08",
 		type: "item",
 		items: [{
-			item: "fossil:kelenken_egg_cultivated"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:kelenken_egg_cultivated"
 		}]
 	},
 	{
 		uid: "f726d94a",
 		type: "item",
 		items: [{
-			item: "fossil:phorusrhacos_egg_cultivated"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:phorusrhacos_egg_cultivated"
 		}]
 	},
 	{
 		uid: "0786d210",
 		type: "item",
 		items: [{
-			item: "fossil:titanis_egg_cultivated"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:titanis_egg_cultivated"
 		}]
 	},
 	{
@@ -368,6 +415,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:megalania_egg"
@@ -379,6 +427,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:megalodon_egg"
@@ -390,6 +439,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:tiktaalik_egg"
@@ -401,6 +451,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:crassigyrinus_egg"
@@ -412,6 +463,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:diplocaulus_egg"
@@ -423,6 +475,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:edaphosaurus_egg"
@@ -434,6 +487,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "fossil:arthropleura_egg"
@@ -444,28 +498,40 @@
 		uid: "a2b057d9",
 		type: "item",
 		items: [{
-			item: "fossil:mammoth_syringe"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:mammoth_syringe"
 		}]
 	},
 	{
 		uid: "a6821ccc",
 		type: "item",
 		items: [{
-			item: "fossil:smilodon_syringe"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:smilodon_syringe"
 		}]
 	},
 	{
 		uid: "b377490a",
 		type: "item",
 		items: [{
-			item: "fossil:elasmotherium_syringe"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:elasmotherium_syringe"
 		}]
 	},
 	{
 		uid: "3c2e67a7",
 		type: "item",
 		items: [{
-			item: "fossil:megaloceros_syringe"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:megaloceros_syringe"
 		}]
 	}],
 	rewards: [{
@@ -477,6 +543,9 @@
 		uid: "a56acf1a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -487,7 +556,12 @@
 	{
 		uid: "b9292b3d",
 		type: "item",
-		item: "fossil:scarab_gem",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:scarab_gem"
+		},
 		count: 8
 	}]
 }

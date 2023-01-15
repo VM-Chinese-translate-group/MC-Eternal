@@ -9,7 +9,10 @@
 		uid: "6f5ed911",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:quantum_link"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:quantum_link"
 		}],
 		count: 2L
 	},
@@ -17,7 +20,10 @@
 		uid: "d3843993",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:quantum_ring"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:quantum_ring"
 		}],
 		count: 16L
 	}],

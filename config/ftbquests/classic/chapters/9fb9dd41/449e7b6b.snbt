@@ -6,7 +6,10 @@
 		uid: "a939580c",
 		type: "item",
 		items: [{
-			item: "bibliocraft:toolrack"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bibliocraft:toolrack"
 		}]
 	}],
 	rewards: [{

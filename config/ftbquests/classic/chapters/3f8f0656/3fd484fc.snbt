@@ -10,7 +10,10 @@
 		uid: "fa846be7",
 		type: "item",
 		items: [{
-			item: "enderio:block_simple_furnace"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_simple_furnace"
 		}],
 		ignore_nbt: 1b
 	},
@@ -18,7 +21,10 @@
 		uid: "1285ef25",
 		type: "item",
 		items: [{
-			item: "enderio:block_simple_alloy_smelter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_simple_alloy_smelter"
 		}],
 		ignore_nbt: 1b
 	},
@@ -26,7 +32,10 @@
 		uid: "357ea426",
 		type: "item",
 		items: [{
-			item: "enderio:block_simple_sag_mill"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_simple_sag_mill"
 		}],
 		ignore_nbt: 1b
 	}],

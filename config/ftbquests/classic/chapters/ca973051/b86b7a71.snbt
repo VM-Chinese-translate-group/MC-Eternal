@@ -1,5 +1,11 @@
 {
-	icon: "thebetweenlands:items_misc 1 25",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thebetweenlands:items_misc",
+		Damage: 25s
+	},
 	x: -8.0d,
 	y: -3.0d,
 	shape: "diamond",

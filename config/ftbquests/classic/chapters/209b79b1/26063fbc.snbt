@@ -13,6 +13,7 @@
 		title: "悬赏：海鸥",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,19 +34,34 @@
 	{
 		uid: "9c2e4de1",
 		type: "item",
-		item: "harvestcraft:honeybreaditem",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:honeybreaditem"
+		},
 		count: 3
 	},
 	{
 		uid: "d54669fc",
 		type: "item",
-		item: "minecraft:feather",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:feather"
+		},
 		count: 16
 	},
 	{
 		uid: "1425a398",
 		type: "item",
-		item: "rats:garbage_pile",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:garbage_pile"
+		},
 		count: 3
 	}]
 }

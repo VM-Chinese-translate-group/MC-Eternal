@@ -11,7 +11,10 @@
 		uid: "b5a95207",
 		type: "item",
 		items: [{
-			item: "enderio:block_normal_wireless_charger"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_normal_wireless_charger"
 		}],
 		ignore_nbt: 1b
 	}],

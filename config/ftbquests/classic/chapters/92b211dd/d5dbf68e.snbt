@@ -17,7 +17,10 @@
 		uid: "d35da0f4",
 		type: "item",
 		items: [{
-			item: "libvulpes:holoprojector"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:holoprojector"
 		}],
 		ignore_nbt: 1b
 	}],

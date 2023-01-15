@@ -2,6 +2,7 @@
 	title: "&6&l悬赏：&c&l第五军团",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "iceandfire:dread_knight_sword"
@@ -20,6 +21,7 @@
 		title: "&6&l悬赏：&c&l第五军团",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dread_sword"
@@ -31,6 +33,9 @@
 		uid: "d9b04622",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				RepairCost: 0,

@@ -4,19 +4,35 @@
 	tasks: [{
 		uid: "5c7e9e5a",
 		type: "stat",
-		icon: "cyclicmagic:heart_food",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		},
 		stat: "stat.animalsBred",
 		value: 1000
 	}],
 	rewards: [{
 		uid: "376ab1af",
 		type: "item",
-		item: "tconstruct:materials 1 50"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
 	},
 	{
 		uid: "200527a1",
 		type: "item",
-		item: "harvestcraft:cheesesteakitem",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:cheesesteakitem"
+		},
 		count: 32
 	}]
 }

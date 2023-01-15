@@ -9,7 +9,10 @@
 		uid: "142e1eb9",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:fission_port"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:fission_port"
 		}]
 	}],
 	rewards: [{

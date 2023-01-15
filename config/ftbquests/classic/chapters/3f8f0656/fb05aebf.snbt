@@ -7,7 +7,10 @@
 		uid: "f4d97b9a",
 		type: "item",
 		items: [{
-			item: "powersuits:tinkertable"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "powersuits:tinkertable"
 		}]
 	}],
 	rewards: [{
@@ -19,6 +22,9 @@
 		uid: "cfe0ac9c",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

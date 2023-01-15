@@ -9,6 +9,9 @@
 		type: "item",
 		title: "&6Any Cable Facade",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "appliedenergistics2:facade",
 			tag: {
 				damage: 0,

@@ -10,7 +10,10 @@
 		uid: "94e399d5",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:oxygencharger"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:oxygencharger"
 		}]
 	}],
 	rewards: [{

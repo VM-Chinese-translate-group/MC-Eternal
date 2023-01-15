@@ -10,14 +10,21 @@
 		uid: "65eccd9e",
 		type: "item",
 		items: [{
-			item: "openmodularturrets:turret_base 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openmodularturrets:turret_base",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "950f17ed",
 		type: "item",
 		items: [{
-			item: "openmodularturrets:machine_gun_turret"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openmodularturrets:machine_gun_turret"
 		}]
 	}],
 	rewards: [{

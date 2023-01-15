@@ -10,6 +10,7 @@
 		title: "&6&l悬赏：悚怖尸巫&r&d",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dread_sword"
@@ -21,6 +22,9 @@
 		uid: "ecfdf326",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				RepairCost: 0,

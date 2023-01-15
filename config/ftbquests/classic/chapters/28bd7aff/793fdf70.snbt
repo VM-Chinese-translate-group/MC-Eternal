@@ -1,6 +1,11 @@
 {
 	title: "需要一位新市长！",
-	icon: "minecraft:paper",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:paper"
+	},
 	x: 0.0d,
 	y: -2.0d,
 	text: [
@@ -11,6 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "structurize:sceptergold"
@@ -22,8 +28,17 @@
 		uid: "75113ba0",
 		type: "item",
 		title: "签约奖金",
-		icon: "buildcraftbuilders:snapshot 1 2",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftbuilders:snapshot",
+			Damage: 2s
+		},
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "signing_bonus"

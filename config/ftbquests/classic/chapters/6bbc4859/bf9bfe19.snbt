@@ -1,6 +1,7 @@
 {
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "wct:wct_creative"
@@ -23,6 +24,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "wct:wct_creative"

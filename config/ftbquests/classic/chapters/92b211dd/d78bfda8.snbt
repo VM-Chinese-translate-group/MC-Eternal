@@ -1,5 +1,10 @@
 {
-	icon: "advancedrocketry:rocketbuilder",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:rocketbuilder"
+	},
 	x: 0.0d,
 	y: -4.0d,
 	description: "将发射台上的结构组装成可使用的火箭。 *阅读描述以了解更多信息*",
@@ -23,14 +28,20 @@
 		uid: "2315706c",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:rocketbuilder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:rocketbuilder"
 		}]
 	},
 	{
 		uid: "d616d311",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:launchpad"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:launchpad"
 		}],
 		count: 9L
 	},
@@ -38,7 +49,10 @@
 		uid: "6c1921e6",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:structuretower"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:structuretower"
 		}],
 		count: 8L
 	}],

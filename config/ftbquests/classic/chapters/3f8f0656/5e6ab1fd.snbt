@@ -11,14 +11,22 @@
 		uid: "7cd435a4",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:part 1 340"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 340s
 		}]
 	},
 	{
 		uid: "982f8fad",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material 1 52"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 52s
 		}],
 		count: 8L
 	}],

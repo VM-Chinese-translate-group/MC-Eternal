@@ -8,21 +8,33 @@
 		uid: "6d9fa2b4",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:ore 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:ore",
+			Damage: 3s
 		}]
 	},
 	{
 		uid: "9a340b6c",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:ore 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:ore",
+			Damage: 5s
 		}]
 	},
 	{
 		uid: "d377fe2c",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:ore 1 7"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:ore",
+			Damage: 7s
 		}]
 	}],
 	rewards: [{

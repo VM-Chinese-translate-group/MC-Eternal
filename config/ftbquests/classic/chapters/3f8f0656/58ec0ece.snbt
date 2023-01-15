@@ -8,7 +8,11 @@
 		uid: "14917459",
 		type: "item",
 		items: [{
-			item: "mekanism:controlcircuit 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:controlcircuit",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

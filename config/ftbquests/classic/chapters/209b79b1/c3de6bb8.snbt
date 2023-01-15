@@ -2,6 +2,7 @@
 	title: "战斗高塔大师",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "tconstruct:battlesign",
@@ -78,6 +79,7 @@
 		type: "kill",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:longsword",
@@ -165,6 +167,9 @@
 		uid: "19f297f0",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

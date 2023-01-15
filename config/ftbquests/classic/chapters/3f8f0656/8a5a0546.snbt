@@ -9,7 +9,11 @@
 		uid: "bd65eeaa",
 		type: "item",
 		items: [{
-			item: "mekanism:basicblock 1 9"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:basicblock",
+			Damage: 9s
 		}]
 	}],
 	rewards: [{

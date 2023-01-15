@@ -8,7 +8,11 @@
 		uid: "7ee97085",
 		type: "item",
 		items: [{
-			item: "mekanism:basicblock2 1 9"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:basicblock2",
+			Damage: 9s
 		}],
 		ignore_nbt: 1b
 	}],

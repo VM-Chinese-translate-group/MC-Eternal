@@ -11,10 +11,18 @@
 		type: "item",
 		title: "&6Basic &rOr &6Advanced Card",
 		items: [{
-			item: "appliedenergistics2:material 1 25"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 25s
 		},
 		{
-			item: "appliedenergistics2:material 1 28"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 28s
 		}]
 	}],
 	rewards: [{

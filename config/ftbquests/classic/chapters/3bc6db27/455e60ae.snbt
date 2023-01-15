@@ -8,7 +8,10 @@
 		uid: "3fba88a7",
 		type: "item",
 		items: [{
-			item: "forestry:bee_house"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "forestry:bee_house"
 		}]
 	}],
 	rewards: [{

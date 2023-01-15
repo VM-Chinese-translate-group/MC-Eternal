@@ -11,7 +11,13 @@
 		uid: "410a5816",
 		type: "advancement",
 		title: "进度: &e号令砷铅铁机关",
-		icon: "twilightforest:trophy 1 4",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:trophy",
+			Damage: 4s
+		},
 		advancement: "twilightforest:progress_knights",
 		criterion: ""
 	}],
@@ -24,6 +30,9 @@
 		uid: "b454a205",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -35,6 +44,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -8851329178942211897L,
 					AS_Amulet_HolderMost: 867781763579201090L

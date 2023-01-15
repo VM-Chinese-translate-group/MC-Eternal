@@ -13,6 +13,7 @@
 		title: "悬赏：悚怖尸骑",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,23 +34,43 @@
 	{
 		uid: "f75d8787",
 		type: "item",
-		item: "minecraft:diamond_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
+		},
 		count: 3
 	},
 	{
 		uid: "4ab02ede",
 		type: "item",
-		item: "iceandfire:dragonbone_arrow",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonbone_arrow"
+		},
 		count: 32
 	},
 	{
 		uid: "aa2b2481",
 		type: "item",
-		item: "minecraft:emerald_block"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald_block"
+		}
 	},
 	{
 		uid: "ce7a1f82",
 		type: "item",
-		item: "iceandfire:dread_key"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dread_key"
+		}
 	}]
 }

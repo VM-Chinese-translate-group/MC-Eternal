@@ -12,6 +12,10 @@
 		type: "kill",
 		title: "悬赏：剧场人偶",
 		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "twilightforest:knightmetal_sword"
 		},
 		entity: "ancientbeasts:vessel",
@@ -31,6 +35,9 @@
 		uid: "22bf9c6e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "mod_lavacow:zombiepiranha_item"
 		},
 		count: 3

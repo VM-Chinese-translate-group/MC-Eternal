@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					Size: 1,
 					Items: []

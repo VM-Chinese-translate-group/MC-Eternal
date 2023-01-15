@@ -8,7 +8,11 @@
 		uid: "dab8f78c",
 		type: "item",
 		items: [{
-			item: "buildcraftcore:engine 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{

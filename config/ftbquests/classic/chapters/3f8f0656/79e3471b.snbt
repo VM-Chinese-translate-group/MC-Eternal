@@ -9,7 +9,10 @@
 		uid: "a4c67527",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:energy_acceptor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:energy_acceptor"
 		}]
 	}],
 	rewards: [{

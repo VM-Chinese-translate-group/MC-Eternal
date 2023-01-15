@@ -12,7 +12,11 @@
 		uid: "915c947b",
 		type: "item",
 		items: [{
-			item: "techreborn:ingot 1 15"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:ingot",
+			Damage: 15s
 		}],
 		count: 16L
 	}],

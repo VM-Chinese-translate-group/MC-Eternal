@@ -11,7 +11,10 @@
 		uid: "8f84a92b",
 		type: "item",
 		items: [{
-			item: "stevescarts:blockcartassembler"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:blockcartassembler"
 		}]
 	}],
 	rewards: [{

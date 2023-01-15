@@ -22,7 +22,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:stability_field_generator"
 		}]

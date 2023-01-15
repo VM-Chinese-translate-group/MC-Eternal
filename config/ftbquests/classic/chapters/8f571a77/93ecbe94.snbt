@@ -7,7 +7,10 @@
 		uid: "dd46218b",
 		type: "item",
 		items: [{
-			item: "minecraft:bread"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bread"
 		}],
 		count: 16L
 	}],

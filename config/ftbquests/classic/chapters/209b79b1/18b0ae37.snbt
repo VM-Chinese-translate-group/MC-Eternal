@@ -16,6 +16,7 @@
 		title: "悬赏：下界黄蜂",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -26,7 +27,12 @@
 	rewards: [{
 		uid: "eb59ed30",
 		type: "item",
-		item: "forestry:honeyed_slice",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "forestry:honeyed_slice"
+		},
 		count: 3
 	},
 	{
@@ -34,6 +40,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "biomesoplenty:jar_filled"

@@ -8,7 +8,11 @@
 		uid: "da21502e",
 		type: "item",
 		items: [{
-			item: "techreborn:part 1 31"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:part",
+			Damage: 31s
 		}],
 		count: 16L
 	}],

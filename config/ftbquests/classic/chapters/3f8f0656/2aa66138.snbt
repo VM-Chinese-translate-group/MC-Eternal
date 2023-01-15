@@ -8,7 +8,11 @@
 		uid: "0edc5225",
 		type: "item",
 		items: [{
-			item: "openmodularturrets:upgrade_meta 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openmodularturrets:upgrade_meta",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{

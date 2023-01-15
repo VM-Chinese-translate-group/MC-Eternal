@@ -10,6 +10,7 @@
 		title: "&6&l悬赏：&e野蛮鼠西族",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:cleaver",
@@ -82,6 +83,9 @@
 		uid: "4daacf62",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				RepairCost: 0,

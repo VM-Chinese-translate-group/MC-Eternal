@@ -10,7 +10,10 @@
 		uid: "1e13f7d3",
 		type: "item",
 		items: [{
-			item: "enderio:item_material"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_material"
 		}],
 		count: 3L
 	}],

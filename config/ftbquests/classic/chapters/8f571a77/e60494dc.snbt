@@ -7,7 +7,11 @@
 		uid: "4f9146c6",
 		type: "item",
 		items: [{
-			item: "minecraft:log 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:log",
+			Damage: 1s
 		}],
 		count: 32L
 	}],

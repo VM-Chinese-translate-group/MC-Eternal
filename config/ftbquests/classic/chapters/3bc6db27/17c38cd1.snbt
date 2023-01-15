@@ -8,7 +8,10 @@
 		uid: "1b92bbdf",
 		type: "item",
 		items: [{
-			item: "forestry:carpenter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "forestry:carpenter"
 		}]
 	}],
 	rewards: [{

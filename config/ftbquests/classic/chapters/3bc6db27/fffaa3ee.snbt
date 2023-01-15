@@ -1,5 +1,10 @@
 {
-	icon: "teslacorelib:speed_tier1",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "teslacorelib:speed_tier1"
+	},
 	x: -2.5d,
 	y: -6.0d,
 	description: "工业先锋的升级如何使用",
@@ -20,16 +25,28 @@
 		type: "item",
 		title: "速度或能量升级",
 		items: [{
-			item: "teslacorelib:energy_tier1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "teslacorelib:energy_tier1"
 		},
 		{
-			item: "teslacorelib:energy_tier2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "teslacorelib:energy_tier2"
 		},
 		{
-			item: "teslacorelib:speed_tier1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "teslacorelib:speed_tier1"
 		},
 		{
-			item: "teslacorelib:speed_tier2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "teslacorelib:speed_tier2"
 		}]
 	},
 	{
@@ -37,87 +54,99 @@
 		type: "item",
 		title: "范围升级",
 		items: [{
-			id: "industrialforegoing:range_addon",
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon"
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 1s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 1s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 2s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 2s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 3s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 3s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 4s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 4s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 5s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 5s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 6s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 6s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 7s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 7s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 8s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 8s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 9s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 9s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 10s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 10s
 		},
 		{
-			id: "industrialforegoing:range_addon",
-			Damage: 11s,
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 11s
 		}],
 		ignore_nbt: 1b
 	}]

@@ -8,6 +8,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "extrautils2:angelring"
@@ -27,12 +28,20 @@
 	{
 		uid: "461d8d3c",
 		type: "item",
-		item: "mod_lavacow:undyingheart"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:undyingheart"
+		}
 	},
 	{
 		uid: "525cd9fd",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

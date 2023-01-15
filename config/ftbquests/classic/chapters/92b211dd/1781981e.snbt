@@ -1,5 +1,10 @@
 {
-	icon: "advancedrocketry:chemicalreactor",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:chemicalreactor"
+	},
 	x: 1.5d,
 	y: -3.0d,
 	description: "可制作火箭燃料，并能将任何盔甲密封起来。",
@@ -11,30 +16,37 @@
 		uid: "d9f66e4c",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:chemicalreactor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:chemicalreactor"
 		}]
 	},
 	{
 		uid: "b32808ca",
 		type: "item",
 		items: [{
-			item: "libvulpes:structuremachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:structuremachine"
 		}]
 	},
 	{
 		uid: "ee06171a",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				}
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "任意马达"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "blockMotor"
 				}
 			}
 		}]
@@ -43,21 +55,32 @@
 		uid: "ed5b2a20",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch"
 		}]
 	},
 	{
 		uid: "f8bd9ea2",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "2e93572c",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 2s
 		}],
 		count: 2L
 	},
@@ -65,14 +88,21 @@
 		uid: "986da940",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 3s
 		}]
 	},
 	{
 		uid: "f320e1f6",
 		type: "item",
 		items: [{
-			item: "libvulpes:forgepowerinput"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:forgepowerinput"
 		}],
 		count: 2L
 	}],

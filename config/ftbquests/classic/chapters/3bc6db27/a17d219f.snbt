@@ -10,7 +10,10 @@
 		uid: "44790813",
 		type: "item",
 		items: [{
-			item: "techreborn:rolling_machine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:rolling_machine"
 		}]
 	}],
 	rewards: [{

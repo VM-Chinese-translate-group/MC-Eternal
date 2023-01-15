@@ -9,7 +9,10 @@
 		uid: "f11efc60",
 		type: "item",
 		items: [{
-			item: "fossil:feeder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:feeder"
 		}]
 	}],
 	rewards: [{

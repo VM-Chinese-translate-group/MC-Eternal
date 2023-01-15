@@ -1,5 +1,10 @@
 {
-	icon: "advancedrocketry:cuttingmachine",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:cuttingmachine"
+	},
 	x: 2.0d,
 	y: -1.5d,
 	description: "将晶片切割成电路，将原木切割成木板。",
@@ -10,14 +15,20 @@
 		uid: "acd4637f",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:cuttingmachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:cuttingmachine"
 		}]
 	},
 	{
 		uid: "80e330ca",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:sawblade"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:sawblade"
 		}]
 	},
 	{
@@ -25,6 +36,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockMotor",
 					id: "ore"
@@ -42,21 +54,31 @@
 		uid: "5e65ea81",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch"
 		}]
 	},
 	{
 		uid: "cd00d11d",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "b6f837f1",
 		type: "item",
 		items: [{
-			item: "libvulpes:forgepowerinput"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:forgepowerinput"
 		}]
 	}],
 	rewards: [{

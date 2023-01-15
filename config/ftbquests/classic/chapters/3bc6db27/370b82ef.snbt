@@ -10,7 +10,10 @@
 		uid: "25dcdcd4",
 		type: "item",
 		items: [{
-			item: "techreborn:upgrades"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:upgrades"
 		}],
 		count: 3L
 	}],

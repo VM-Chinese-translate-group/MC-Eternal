@@ -9,7 +9,10 @@
 		uid: "297b288d",
 		type: "item",
 		items: [{
-			item: "enderio:block_powered_spawner"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_powered_spawner"
 		}],
 		ignore_nbt: 1b
 	}],

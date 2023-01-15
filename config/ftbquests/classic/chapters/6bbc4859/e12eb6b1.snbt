@@ -1,6 +1,11 @@
 {
 	title: "创意奶酪",
-	icon: "rats:creative_cheese",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "rats:creative_cheese"
+	},
 	x: 2.0d,
 	y: 1.0d,
 	shape: "square",
@@ -18,6 +23,11 @@
 		uid: "d5401b01",
 		type: "item",
 		title: "Creative Cheese",
-		item: "rats:creative_cheese"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:creative_cheese"
+		}
 	}]
 }

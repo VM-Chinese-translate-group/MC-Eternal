@@ -8,7 +8,10 @@
 		uid: "1b64512d",
 		type: "item",
 		items: [{
-			item: "mekanism:oreblock"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:oreblock"
 		}]
 	}],
 	rewards: [{
@@ -19,7 +22,12 @@
 	{
 		uid: "85ee2550",
 		type: "item",
-		item: "mekanism:obsidiantnt",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:obsidiantnt"
+		},
 		count: 3
 	},
 	{

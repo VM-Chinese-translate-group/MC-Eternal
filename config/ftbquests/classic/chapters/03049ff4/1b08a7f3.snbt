@@ -6,14 +6,25 @@
 	tasks: [{
 		uid: "b9edbae7",
 		type: "stat",
-		icon: "bibliocraft:clock",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bibliocraft:clock"
+		},
 		stat: "stat.playOneMinute",
 		value: 2900000
 	}],
 	rewards: [{
 		uid: "02da9521",
 		type: "item",
-		item: "tconstruct:materials 1 50"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
 	},
 	{
 		uid: "c9eb371e",
@@ -24,6 +35,9 @@
 		uid: "09605d93",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {

@@ -9,7 +9,11 @@
 		uid: "e320c921",
 		type: "item",
 		items: [{
-			item: "enderio:item_basic_capacitor 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_basic_capacitor",
+			Damage: 2s
 		}],
 		count: 2L
 	}],

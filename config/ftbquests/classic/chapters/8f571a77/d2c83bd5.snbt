@@ -7,7 +7,10 @@
 		uid: "2b9a1ceb",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:dark_chocolate"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:dark_chocolate"
 		}],
 		count: 16L
 	}],

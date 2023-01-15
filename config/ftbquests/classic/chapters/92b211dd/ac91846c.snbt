@@ -1,6 +1,11 @@
 {
 	title: "跃迁核心和跃迁控制器",
-	icon: "advancedrocketry:warpcore",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:warpcore"
+	},
 	x: 1.5d,
 	y: -6.5d,
 	description: "要去月球以外的地方，你需要一个跃迁核心和跃迁控制器。*阅读描述以了解更多信息*",
@@ -18,14 +23,20 @@
 		uid: "869103ef",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:warpcore"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:warpcore"
 		}]
 	},
 	{
 		uid: "e3005e5e",
 		type: "item",
 		items: [{
-			item: "libvulpes:structuremachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:structuremachine"
 		}],
 		count: 4L
 	},
@@ -34,6 +45,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockWarpCoreRim",
 					id: "ore"
@@ -52,7 +64,10 @@
 		uid: "d6933c45",
 		type: "item",
 		items: [{
-			item: "minecraft:gold_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_block"
 		}],
 		count: 2L
 	},
@@ -60,14 +75,20 @@
 		uid: "2cc07052",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch"
 		}]
 	},
 	{
 		uid: "94626f4f",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:warpmonitor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:warpmonitor"
 		}]
 	}],
 	rewards: [{

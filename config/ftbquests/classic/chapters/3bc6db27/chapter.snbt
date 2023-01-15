@@ -1,6 +1,11 @@
 {
 	title: "科学导论",
-	icon: "jaopca:item_gearosmium",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "jaopca:item_gearosmium"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "",

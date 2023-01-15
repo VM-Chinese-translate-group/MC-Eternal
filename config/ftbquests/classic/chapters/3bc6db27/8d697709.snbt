@@ -10,7 +10,10 @@
 		uid: "75e89bab",
 		type: "item",
 		items: [{
-			item: "fossil:analyzer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:analyzer"
 		}]
 	}],
 	rewards: [{

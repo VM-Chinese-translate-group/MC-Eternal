@@ -6,7 +6,10 @@
 		uid: "a8854afc",
 		type: "item",
 		items: [{
-			item: "biomestaff:biome_staff"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "biomestaff:biome_staff"
 		}]
 	}],
 	rewards: [{

@@ -8,7 +8,10 @@
 		uid: "983d68f5",
 		type: "item",
 		items: [{
-			item: "rats:idol_of_ratlantis"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:idol_of_ratlantis"
 		}]
 	}],
 	rewards: [{

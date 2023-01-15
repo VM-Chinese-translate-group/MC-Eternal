@@ -13,6 +13,7 @@
 		title: "悬赏：洞穴巨魔",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,7 +34,12 @@
 	{
 		uid: "0353aa4a",
 		type: "item",
-		item: "iceandfire:troll_leather_forest",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:troll_leather_forest"
+		},
 		count: 16
 	}]
 }

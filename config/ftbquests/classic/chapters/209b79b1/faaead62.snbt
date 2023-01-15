@@ -13,6 +13,7 @@
 		title: "悬赏：巨型腐化触手",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -29,6 +30,9 @@
 		uid: "a7dd3239",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -38,17 +42,32 @@
 	{
 		uid: "5bafb898",
 		type: "item",
-		item: "minecraft:diamond_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
+		},
 		count: 3
 	},
 	{
 		uid: "f4ec6bc1",
 		type: "item",
-		item: "minecraft:emerald_block"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald_block"
+		}
 	},
 	{
 		uid: "980cf1ec",
 		type: "item",
-		item: "minecraft:nether_star"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:nether_star"
+		}
 	}]
 }

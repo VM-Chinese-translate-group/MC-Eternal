@@ -7,6 +7,9 @@
 		uid: "0c2cd485",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thermalexpansion:dynamo",
 			tag: {
 				RSControl: 0b,

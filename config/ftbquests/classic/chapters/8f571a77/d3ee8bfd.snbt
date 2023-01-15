@@ -11,6 +11,7 @@
 		title: "10x生鱼",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "listAllfishfresh",
 					id: "ore"

@@ -9,7 +9,11 @@
 		uid: "5d446723",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:alloy 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:alloy",
+			Damage: 1s
 		}],
 		count: 32L
 	}],

@@ -1,6 +1,11 @@
 {
 	title: "&c访问 &c混沌之地",
-	icon: "erebus:block_of_bones",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "erebus:block_of_bones"
+	},
 	x: -0.5d,
 	y: 0.0d,
 	shape: "octagon",
@@ -20,6 +25,9 @@
 		uid: "abee9370",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

@@ -13,7 +13,10 @@
 		uid: "19c1b044",
 		type: "item",
 		items: [{
-			item: "minecraft:redstone_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:redstone_block"
 		}],
 		count: 32L
 	}],

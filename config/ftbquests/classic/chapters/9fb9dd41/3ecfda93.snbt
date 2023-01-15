@@ -5,7 +5,10 @@
 		uid: "da42c716",
 		type: "item",
 		items: [{
-			item: "iceandfire:stymphalian_feather_bundle"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:stymphalian_feather_bundle"
 		}]
 	}],
 	rewards: [{

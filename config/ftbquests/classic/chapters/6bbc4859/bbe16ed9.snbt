@@ -1,5 +1,10 @@
 {
-	icon: "doggytalents:creative_collar",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "doggytalents:creative_collar"
+	},
 	x: -2.0d,
 	y: 1.0d,
 	shape: "square",
@@ -15,6 +20,11 @@
 	rewards: [{
 		uid: "23126386",
 		type: "item",
-		item: "doggytalents:creative_collar"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "doggytalents:creative_collar"
+		}
 	}]
 }

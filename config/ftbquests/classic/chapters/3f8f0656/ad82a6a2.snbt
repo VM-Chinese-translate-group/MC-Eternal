@@ -8,7 +8,10 @@
 		uid: "3ab9eb54",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:melter_idle"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:melter_idle"
 		}]
 	}],
 	rewards: [{

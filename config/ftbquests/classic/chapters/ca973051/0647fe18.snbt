@@ -11,7 +11,13 @@
 		uid: "cba4d362",
 		type: "advancement",
 		title: "进度: &e巫妖猎人",
-		icon: "twilightforest:miniature_structure 1 6",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:miniature_structure",
+			Damage: 6s
+		},
 		advancement: "twilightforest:progress_lich",
 		criterion: ""
 	}],
@@ -24,6 +30,9 @@
 		uid: "7da4b399",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -34,6 +43,9 @@
 		uid: "51b8982e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "twilightforest:trophy",
 			tag: {
 				display: {

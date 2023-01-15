@@ -15,10 +15,11 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 2
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:elytra_harness"
 		}],

@@ -10,7 +10,10 @@
 		uid: "5a7b8024",
 		type: "item",
 		items: [{
-			item: "enderio:item_basic_capacitor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_basic_capacitor"
 		}]
 	}],
 	rewards: [{

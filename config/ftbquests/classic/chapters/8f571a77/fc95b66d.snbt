@@ -7,9 +7,17 @@
 	tasks: [{
 		uid: "12a6f92e",
 		type: "item",
-		icon: "jaopca:item_dusttinyredstone",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "jaopca:item_dusttinyredstone"
+		},
 		items: [{
-			item: "minecraft:redstone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:redstone"
 		}]
 	}],
 	rewards: [{
@@ -18,6 +26,9 @@
 		title: "1货币",
 		auto: "no_toast",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 1L

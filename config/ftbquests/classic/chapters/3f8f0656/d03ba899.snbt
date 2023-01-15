@@ -9,7 +9,11 @@
 		uid: "299b8b2a",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material 1 42"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 42s
 		}]
 	}],
 	rewards: [{

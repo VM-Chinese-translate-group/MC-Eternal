@@ -8,7 +8,10 @@
 		uid: "b4131daa",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:decay_generator"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:decay_generator"
 		}]
 	}],
 	rewards: [{

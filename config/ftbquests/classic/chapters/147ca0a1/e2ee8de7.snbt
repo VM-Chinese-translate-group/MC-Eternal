@@ -10,7 +10,12 @@
 	tasks: [{
 		uid: "be6e31fc",
 		type: "advancement",
-		icon: "atum:loot_gold_idol",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "atum:loot_gold_idol"
+		},
 		advancement: "atum:core/powerwasher",
 		criterion: ""
 	}],
@@ -23,6 +28,9 @@
 		uid: "8eff0bb0",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

@@ -10,7 +10,10 @@
 		uid: "60659ea9",
 		type: "item",
 		items: [{
-			item: "techreborn:plate_bending_machine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:plate_bending_machine"
 		}]
 	}],
 	rewards: [{

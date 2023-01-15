@@ -8,7 +8,10 @@
 		uid: "dd79fcac",
 		type: "item",
 		items: [{
-			item: "midnight:midnight_furnace"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:midnight_furnace"
 		}]
 	}],
 	rewards: [{

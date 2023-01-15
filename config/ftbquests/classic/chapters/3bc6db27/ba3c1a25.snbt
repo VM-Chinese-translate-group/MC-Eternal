@@ -8,7 +8,11 @@
 		uid: "bb59f18e",
 		type: "item",
 		items: [{
-			item: "thermaldynamics:servo 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:servo",
+			Damage: 1s
 		}],
 		count: 3L
 	}],

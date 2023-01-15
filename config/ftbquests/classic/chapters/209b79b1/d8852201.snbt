@@ -25,6 +25,9 @@
 		uid: "fabbd448",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "harvestcraft:sundayroastitem",
 			tag: {
 				display: {

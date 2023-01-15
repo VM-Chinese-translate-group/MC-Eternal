@@ -12,6 +12,7 @@
 		title: "杀害50名无辜的市民",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thermalfoundation:diagram_redprint"
@@ -28,6 +29,9 @@
 		uid: "ec3ce099",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

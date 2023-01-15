@@ -8,6 +8,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -27,6 +28,9 @@
 		uid: "48acca97",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

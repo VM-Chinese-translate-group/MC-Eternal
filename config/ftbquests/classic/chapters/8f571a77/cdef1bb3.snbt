@@ -13,7 +13,10 @@
 		uid: "1fc8afe5",
 		type: "item",
 		items: [{
-			item: "minecraft:gold_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_block"
 		}],
 		count: 32L
 	}],

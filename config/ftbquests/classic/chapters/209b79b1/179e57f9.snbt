@@ -13,6 +13,7 @@
 		title: "悬赏：伊萨库亚",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -29,6 +30,9 @@
 		uid: "288088b9",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -41,6 +45,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "cyclicmagic:ender_lightning",
@@ -50,18 +55,33 @@
 	{
 		uid: "89b07a89",
 		type: "item",
-		item: "minecraft:emerald_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald_block"
+		},
 		count: 8
 	},
 	{
 		uid: "45270171",
 		type: "item",
-		item: "minecraft:nether_star"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:nether_star"
+		}
 	},
 	{
 		uid: "804934de",
 		type: "item",
-		item: "minecraft:diamond_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
+		},
 		count: 3
 	}]
 }

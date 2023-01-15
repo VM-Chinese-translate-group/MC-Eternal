@@ -13,7 +13,10 @@
 		uid: "91ef5d78",
 		type: "item",
 		items: [{
-			item: "ebwizardry:magic_crystal"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:magic_crystal"
 		}],
 		count: 64L
 	}],

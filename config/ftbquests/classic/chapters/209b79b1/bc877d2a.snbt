@@ -16,6 +16,7 @@
 		title: "悬赏：独眼巨人",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -32,6 +33,9 @@
 		uid: "2e32e84b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -43,6 +47,9 @@
 		uid: "b91c1430",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thermalexpansion:morb",
 			tag: {
 				Generic: 1b,
@@ -53,17 +60,32 @@
 	{
 		uid: "e07ccac8",
 		type: "item",
-		item: "bewitchment:gold_leonard_statue"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bewitchment:gold_leonard_statue"
+		}
 	},
 	{
 		uid: "73f1f4db",
 		type: "item",
-		item: "minecraft:emerald_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald_block"
+		},
 		count: 3
 	},
 	{
 		uid: "9709ab02",
 		type: "item",
-		item: "minecraft:gold_block"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_block"
+		}
 	}]
 }

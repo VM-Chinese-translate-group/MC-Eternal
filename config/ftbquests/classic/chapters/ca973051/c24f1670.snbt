@@ -1,5 +1,11 @@
 {
-	icon: "mysticalagriculture:crafting 1 29",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "mysticalagriculture:crafting",
+		Damage: 29s
+	},
 	x: -4.5d,
 	y: -3.0d,
 	shape: "hexagon",
@@ -14,6 +20,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "dimdoors:record_creepy"

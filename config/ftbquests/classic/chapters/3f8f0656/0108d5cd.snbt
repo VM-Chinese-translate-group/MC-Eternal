@@ -9,7 +9,10 @@
 		uid: "04f5ed5d",
 		type: "item",
 		items: [{
-			item: "enderio:item_item_conduit"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_item_conduit"
 		}],
 		count: 16L
 	},
@@ -17,7 +20,11 @@
 		uid: "dd8ef7d2",
 		type: "item",
 		items: [{
-			item: "enderio:item_liquid_conduit 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_liquid_conduit",
+			Damage: 1s
 		}],
 		count: 8L
 	}],

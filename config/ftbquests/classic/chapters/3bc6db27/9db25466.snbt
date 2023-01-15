@@ -1,5 +1,10 @@
 {
-	icon: "fossil:dinopedia",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "fossil:dinopedia"
+	},
 	x: -22.0d,
 	y: 5.0d,
 	description: "把它们都孵化出来！ *阅读描述*",
@@ -13,7 +18,10 @@
 		uid: "3e85df92",
 		type: "item",
 		items: [{
-			item: "fossil:dinopedia"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:dinopedia"
 		}]
 	}],
 	rewards: [{

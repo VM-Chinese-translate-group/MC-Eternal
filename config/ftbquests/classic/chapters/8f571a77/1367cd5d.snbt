@@ -13,21 +13,42 @@
 		uid: "04c84cf4",
 		type: "checkmark",
 		title: "Task Screen",
-		icon: "ftbquests:screen"
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:screen"
+		}
 	}],
 	rewards: [{
 		uid: "8e36a700",
 		type: "item",
-		item: "ftbquests:screen"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:screen"
+		}
 	},
 	{
 		uid: "8e88bc09",
 		type: "item",
-		item: "thermaldynamics:duct_32"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_32"
+		}
 	},
 	{
 		uid: "a7209431",
 		type: "item",
-		item: "thermaldynamics:servo 1 1"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:servo",
+			Damage: 1s
+		}
 	}]
 }

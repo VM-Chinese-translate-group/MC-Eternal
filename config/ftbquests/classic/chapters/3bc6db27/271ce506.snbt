@@ -8,7 +8,10 @@
 		uid: "f74c6b42",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:water_resources_collector"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:water_resources_collector"
 		}]
 	}],
 	rewards: [{

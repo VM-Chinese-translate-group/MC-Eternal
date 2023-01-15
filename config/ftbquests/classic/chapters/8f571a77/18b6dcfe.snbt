@@ -13,7 +13,11 @@
 		uid: "f0802649",
 		type: "item",
 		items: [{
-			item: "tconstruct:metal 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:metal",
+			Damage: 2s
 		}],
 		count: 32L
 	}],

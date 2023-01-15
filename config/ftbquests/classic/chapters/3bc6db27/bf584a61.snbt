@@ -8,7 +8,10 @@
 		uid: "42836cf5",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:animal_growth_increaser"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:animal_growth_increaser"
 		}]
 	}],
 	rewards: [{

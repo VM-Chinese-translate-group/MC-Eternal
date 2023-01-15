@@ -8,7 +8,10 @@
 		uid: "f3b618e8",
 		type: "item",
 		items: [{
-			item: "mekanism:atomicalloy"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:atomicalloy"
 		}]
 	}],
 	rewards: [{

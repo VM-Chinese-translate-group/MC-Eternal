@@ -1,6 +1,7 @@
 {
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "twilightforest:knightmetal_sword"
@@ -19,6 +20,7 @@
 		title: "悬赏：小精灵",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -39,7 +41,12 @@
 	{
 		uid: "c313c053",
 		type: "item",
-		item: "iceandfire:pixie_dust",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:pixie_dust"
+		},
 		count: 3
 	},
 	{
@@ -47,6 +54,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:ambrosia"

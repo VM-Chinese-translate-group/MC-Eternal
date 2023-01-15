@@ -15,6 +15,7 @@
 		title: "&l探索星球上的所有生物群系",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "atum:desert_boots_gold"
@@ -36,6 +37,9 @@
 		uid: "5da273bd",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

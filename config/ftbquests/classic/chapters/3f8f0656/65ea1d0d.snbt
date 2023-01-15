@@ -10,7 +10,11 @@
 		uid: "2aa3b2a9",
 		type: "item",
 		items: [{
-			item: "enderio:item_basic_capacitor 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_basic_capacitor",
+			Damage: 1s
 		}],
 		count: 2L
 	}],

@@ -10,7 +10,10 @@
 		uid: "043d0a65",
 		type: "item",
 		items: [{
-			item: "enderio:item_alloy_ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ingot"
 		}],
 		count: 16L
 	},
@@ -18,7 +21,11 @@
 		uid: "e109b18b",
 		type: "item",
 		items: [{
-			item: "enderio:item_alloy_ingot 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 1s
 		}],
 		count: 8L
 	},
@@ -26,7 +33,11 @@
 		uid: "6e7548d0",
 		type: "item",
 		items: [{
-			item: "enderio:item_alloy_ingot 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 2s
 		}],
 		count: 4L
 	}],

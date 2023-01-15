@@ -1,6 +1,11 @@
 {
 	title: "在空间站发呆",
-	icon: "advancedrocketry:stationbuilder",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:stationbuilder"
+	},
 	x: 1.5d,
 	y: -4.5d,
 	description: "所有§o建造§r§7空间站所需的材料。*阅读描述以了解更多信息*",
@@ -20,14 +25,21 @@
 		uid: "3fd8307b",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:stationbuilder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:stationbuilder"
 		}]
 	},
 	{
 		uid: "0c94c724",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:loader 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:loader",
+			Damage: 1s
 		}],
 		count: 2L
 	},
@@ -35,7 +47,10 @@
 		uid: "9876070f",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:spacestationchip"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:spacestationchip"
 		}]
 	}],
 	rewards: [{

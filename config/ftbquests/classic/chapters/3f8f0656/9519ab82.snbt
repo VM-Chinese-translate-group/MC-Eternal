@@ -8,7 +8,11 @@
 		uid: "6dd5eb51",
 		type: "item",
 		items: [{
-			item: "enderio:block_solar_panel 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_solar_panel",
+			Damage: 3s
 		}]
 	}],
 	rewards: [{

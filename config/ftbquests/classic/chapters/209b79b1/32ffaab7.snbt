@@ -16,6 +16,7 @@
 		title: "悬赏：巨蜂",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,6 +34,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:potion_of_mooten_lava"
@@ -42,6 +44,9 @@
 		uid: "e0c3e084",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -51,7 +56,12 @@
 	{
 		uid: "983ef712",
 		type: "item",
-		item: "minecraft:emerald_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald_block"
+		},
 		count: 2
 	}]
 }

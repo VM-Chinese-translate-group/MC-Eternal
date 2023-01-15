@@ -11,7 +11,13 @@
 		uid: "dcb0ca9b",
 		type: "advancement",
 		title: "进度: &e火之泪",
-		icon: "twilightforest:trophy 1 3",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:trophy",
+			Damage: 3s
+		},
 		advancement: "twilightforest:progress_ur_ghast",
 		criterion: ""
 	}],
@@ -24,6 +30,9 @@
 		uid: "76313f6a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -35,6 +44,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:fiery_pickaxe",

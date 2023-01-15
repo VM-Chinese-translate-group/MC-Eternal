@@ -1,6 +1,11 @@
 {
 	title: "Murray遗失的骨头",
-	icon: "minecraft:bone",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:bone"
+	},
 	x: 5.0d,
 	y: -5.5d,
 	shape: "circle",
@@ -11,13 +16,21 @@
 		uid: "2540ad73",
 		type: "checkmark",
 		title: "骨之歌",
-		icon: "minecraft:bone"
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bone"
+		}
 	},
 	{
 		uid: "fd0a9dbb",
 		type: "item",
 		items: [{
-			item: "minecraft:bone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bone"
 		}],
 		count: 16L
 	},
@@ -25,7 +38,11 @@
 		uid: "2107acfd",
 		type: "item",
 		items: [{
-			item: "tconstruct:materials 1 17"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 17s
 		}],
 		count: 3L
 	},
@@ -33,14 +50,20 @@
 		uid: "0935639d",
 		type: "item",
 		items: [{
-			item: "doggytalents:big_bone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "doggytalents:big_bone"
 		}]
 	},
 	{
 		uid: "374ee14f",
 		type: "item",
 		items: [{
-			item: "iceandfire:dragonbone"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonbone"
 		}]
 	}],
 	rewards: [{
@@ -48,6 +71,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -73,6 +97,9 @@
 		uid: "9051876b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

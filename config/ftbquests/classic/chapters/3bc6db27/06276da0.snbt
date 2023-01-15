@@ -8,7 +8,10 @@
 		uid: "7e4a034d",
 		type: "item",
 		items: [{
-			item: "thermaldynamics:duct_32"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermaldynamics:duct_32"
 		}],
 		count: 6L
 	}],

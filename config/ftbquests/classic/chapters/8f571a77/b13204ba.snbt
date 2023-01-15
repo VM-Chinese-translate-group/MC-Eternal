@@ -7,7 +7,11 @@
 		uid: "7839f6c3",
 		type: "item",
 		items: [{
-			item: "minecraft:skull 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

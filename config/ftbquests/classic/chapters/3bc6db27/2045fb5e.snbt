@@ -8,7 +8,10 @@
 		uid: "a601d2e7",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:mob_relocator"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:mob_relocator"
 		}]
 	}],
 	rewards: [{

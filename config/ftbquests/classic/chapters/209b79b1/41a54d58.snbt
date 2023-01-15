@@ -13,6 +13,7 @@
 		title: "悬赏：唤魔者",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -28,7 +29,13 @@
 	{
 		uid: "38d579ca",
 		type: "item",
-		item: "minecraft:golden_apple 1 1"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:golden_apple",
+			Damage: 1s
+		}
 	},
 	{
 		uid: "36011df8",

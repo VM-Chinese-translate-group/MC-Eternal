@@ -15,7 +15,10 @@
 		uid: "11ba3099",
 		type: "item",
 		items: [{
-			item: "fossil:cultivate"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:cultivate"
 		}]
 	}],
 	rewards: [{

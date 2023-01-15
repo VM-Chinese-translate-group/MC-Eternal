@@ -1,6 +1,11 @@
 {
 	title: "&6&l月球",
-	icon: "rats:marbled_cheese_raw",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "rats:marbled_cheese_raw"
+	},
 	always_invisible: false,
 	group: -1833823779,
 	default_quest_shape: "",

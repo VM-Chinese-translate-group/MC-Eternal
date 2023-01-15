@@ -10,14 +10,22 @@
 		uid: "96895a1d",
 		type: "item",
 		items: [{
-			item: "stevescarts:modulecomponents 1 26"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 26s
 		}]
 	},
 	{
 		uid: "1b392f40",
 		type: "item",
 		items: [{
-			item: "stevescarts:cartmodule 1 29"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 29s
 		}]
 	}],
 	rewards: [{
@@ -29,6 +37,9 @@
 		uid: "66b37ca0",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:tipped_arrow",
 			tag: {
 				Potion: "minecraft:strong_harming"

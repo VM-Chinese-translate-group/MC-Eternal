@@ -13,7 +13,8 @@
 		title: "随便一把&5虚空元素工具",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumadditions:void_elemental_pickaxe",
 			tag: {
@@ -29,7 +30,8 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumadditions:void_elemental_axe",
 			tag: {
@@ -45,7 +47,8 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumadditions:void_elemental_shovel",
 			tag: {
@@ -57,7 +60,8 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumadditions:void_elemental_hoe"
 		}],

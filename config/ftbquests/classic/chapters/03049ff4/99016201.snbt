@@ -6,6 +6,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "extrautils2:snowglobe",
@@ -21,13 +22,20 @@
 	{
 		uid: "8d5825fb",
 		type: "item",
-		item: "tconstruct:materials 1 50"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
 	},
 	{
 		uid: "f459d41f",
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "totemic:ceremony_cheat"
@@ -37,6 +45,9 @@
 		uid: "2c987954",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

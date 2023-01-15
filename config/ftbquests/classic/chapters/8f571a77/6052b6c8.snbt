@@ -1,5 +1,10 @@
 {
-	icon: "ghostsexplosives:gunpowder_charged",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ghostsexplosives:gunpowder_charged"
+	},
 	x: 3.0d,
 	y: -3.5d,
 	description: "掉落物",
@@ -8,7 +13,10 @@
 		uid: "3640eecf",
 		type: "item",
 		items: [{
-			item: "minecraft:gunpowder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gunpowder"
 		}],
 		count: 64L
 	}],

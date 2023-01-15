@@ -9,7 +9,11 @@
 		uid: "156f145f",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:stone_decoration 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:stone_decoration",
+			Damage: 1s
 		}],
 		count: 27L
 	}],

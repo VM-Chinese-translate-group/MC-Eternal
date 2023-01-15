@@ -1,6 +1,11 @@
 {
 	title: "黄金种子",
-	icon: "mysticalagriculture:gold_seeds",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "mysticalagriculture:gold_seeds"
+	},
 	x: 0.0d,
 	y: -0.5d,
 	shape: "diamond",
@@ -17,6 +22,11 @@
 	rewards: [{
 		uid: "f527e159",
 		type: "item",
-		item: "mysticalagriculture:gold_seeds"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:gold_seeds"
+		}
 	}]
 }

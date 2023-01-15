@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:lamp_of_cinders"
@@ -27,8 +28,16 @@
 		uid: "78b50a1a",
 		type: "item",
 		title: "黄金战利品箱",
-		icon: "treasure2:gold_strongbox",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "treasure2:gold_strongbox"
+		},
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "rare_lootbox"

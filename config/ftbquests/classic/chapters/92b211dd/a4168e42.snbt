@@ -10,7 +10,11 @@
 		uid: "958fe9fb",
 		type: "item",
 		items: [{
-			item: "minecraft:diamond"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"treasure2:pouchable": {}
+			},
+			id: "minecraft:diamond"
 		}],
 		count: 4L
 	},
@@ -19,6 +23,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "advancedrocketry:pressuretank",

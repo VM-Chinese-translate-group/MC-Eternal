@@ -12,7 +12,10 @@
 		uid: "2d1ba05c",
 		type: "item",
 		items: [{
-			item: "fossil:sifter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:sifter"
 		}]
 	}],
 	rewards: [{

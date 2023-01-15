@@ -10,7 +10,10 @@
 		uid: "da1be5e0",
 		type: "item",
 		items: [{
-			item: "techreborn:industrial_electrolyzer"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:industrial_electrolyzer"
 		}]
 	}],
 	rewards: [{

@@ -12,14 +12,21 @@
 		uid: "fc432572",
 		type: "item",
 		items: [{
-			item: "techreborn:implosion_compressor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:implosion_compressor"
 		}]
 	},
 	{
 		uid: "5c06238e",
 		type: "item",
 		items: [{
-			item: "techreborn:machine_casing 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:machine_casing",
+			Damage: 1s
 		}],
 		count: 9L
 	}],

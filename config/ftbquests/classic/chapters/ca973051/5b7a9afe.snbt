@@ -10,14 +10,20 @@
 		uid: "f4661de9",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:draeton_balloon"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:draeton_balloon"
 		}]
 	},
 	{
 		uid: "c7eac718",
 		type: "item",
 		items: [{
-			item: "thebetweenlands:draeton_burner"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:draeton_burner"
 		}]
 	},
 	{
@@ -25,6 +31,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:draeton_upgrade_crafting"
@@ -37,6 +44,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:draeton_upgrade_furnace"
@@ -49,6 +57,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thebetweenlands:draeton_upgrade_anchor"
@@ -65,6 +74,9 @@
 		uid: "41ecc6d9",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

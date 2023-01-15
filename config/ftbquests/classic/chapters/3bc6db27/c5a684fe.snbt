@@ -8,7 +8,11 @@
 		uid: "f5a1e441",
 		type: "item",
 		items: [{
-			item: "stevescarts:modulecomponents 1 22"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 22s
 		}],
 		count: 8L
 	}],

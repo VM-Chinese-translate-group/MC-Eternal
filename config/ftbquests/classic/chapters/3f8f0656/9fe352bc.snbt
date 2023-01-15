@@ -9,14 +9,22 @@
 		uid: "a8f19303",
 		type: "item",
 		items: [{
-			item: "enderio:item_power_conduit 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_power_conduit",
+			Damage: 2s
 		}]
 	},
 	{
 		uid: "ffa69750",
 		type: "item",
 		items: [{
-			item: "enderio:item_liquid_conduit 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_liquid_conduit",
+			Damage: 2s
 		}]
 	}],
 	rewards: [{

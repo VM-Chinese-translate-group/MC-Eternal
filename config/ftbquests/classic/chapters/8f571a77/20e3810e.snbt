@@ -1,5 +1,11 @@
 {
-	icon: "botania:manaresource 1 16",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "botania:manaresource",
+		Damage: 16s
+	},
 	x: 4.0d,
 	y: -7.0d,
 	description: "掉落物",
@@ -8,7 +14,10 @@
 		uid: "a0cbc4ea",
 		type: "item",
 		items: [{
-			item: "minecraft:string"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:string"
 		}],
 		count: 64L
 	}],

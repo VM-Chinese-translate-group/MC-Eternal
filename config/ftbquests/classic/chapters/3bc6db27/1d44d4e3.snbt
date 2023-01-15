@@ -13,7 +13,10 @@
 		uid: "0696e6fa",
 		type: "item",
 		items: [{
-			item: "techreborn:machine_casing"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:machine_casing"
 		}],
 		count: 34L
 	},
@@ -21,6 +24,9 @@
 		uid: "a3210398",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "techreborn:industrial_blast_furnace",
 			tag: {}
 		}],

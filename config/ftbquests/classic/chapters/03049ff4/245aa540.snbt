@@ -1,6 +1,7 @@
 {
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "appliedenergistics2:storage_cell_64k",
@@ -13,6 +14,7 @@
 		type: "stat",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:fluid_storage_cell_64k",
@@ -24,7 +26,13 @@
 	rewards: [{
 		uid: "bbc5786d",
 		type: "item",
-		item: "tconstruct:materials 1 50"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
 	},
 	{
 		uid: "1c85ee29",

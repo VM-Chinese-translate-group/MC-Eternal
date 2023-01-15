@@ -8,7 +8,11 @@
 		uid: "dc170fed",
 		type: "item",
 		items: [{
-			item: "stevescarts:cartmodule 1 39"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 39s
 		}]
 	}],
 	rewards: [{

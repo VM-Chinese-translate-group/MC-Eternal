@@ -13,6 +13,7 @@
 		title: "悬赏：疫猪",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -35,6 +36,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:dreamcatcher"
@@ -43,7 +45,12 @@
 	{
 		uid: "85130a08",
 		type: "item",
-		item: "minecraft:emerald_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald_block"
+		},
 		count: 2
 	}]
 }

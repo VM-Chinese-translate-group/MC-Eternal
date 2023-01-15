@@ -82,7 +82,7 @@
         
 		"Bisect":
         {
-            "text" : "想要服务器吗？使用代码Eternal",
+            "text" : "\u60f3\u8981\u670d\u52a1\u5668\u5417\uff1f\u4f7f\u7528\u4ee3\u7801Eternal",
 			"normalTextColor" : 3125670,
 			"hoverTextColor" : 7654321,
             "posX" : -90,
@@ -101,7 +101,7 @@
         {
 			"text" : "",
 			"texture": "assets:mce.png",
-			"hoverText": "点击加入我们的Discord！",
+			"hoverText": "\u70b9\u51fb\u52a0\u5165\u6211\u4eec\u7684Discord！",
 			"hoverTextColor": 3547073,
             "posX" : -124,
             "posY" : 87,
@@ -184,7 +184,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "\u00a7nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,

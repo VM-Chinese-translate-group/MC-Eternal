@@ -8,13 +8,19 @@
 		uid: "403425ed",
 		type: "item",
 		items: [{
-			item: "rats:rat_upgrade_archeologist"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_upgrade_archeologist"
 		}]
 	}],
 	rewards: [{
 		uid: "c6d4acfe",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "cheesy_cache"

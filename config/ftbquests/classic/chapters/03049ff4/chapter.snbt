@@ -2,6 +2,7 @@
 	title: "挑战",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "mod_lavacow:mootenheart"

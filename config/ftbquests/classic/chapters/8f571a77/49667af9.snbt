@@ -8,7 +8,10 @@
 		uid: "a0cc0e14",
 		type: "item",
 		items: [{
-			item: "minecraft:obsidian"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:obsidian"
 		}],
 		count: 32L
 	}],

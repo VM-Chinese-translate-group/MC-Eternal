@@ -13,7 +13,10 @@
 		uid: "b0a2a332",
 		type: "item",
 		items: [{
-			item: "minecraft:lapis_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:lapis_block"
 		}],
 		count: 32L
 	}],

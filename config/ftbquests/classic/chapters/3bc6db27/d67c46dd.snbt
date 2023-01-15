@@ -9,6 +9,9 @@
 		uid: "dcc2b624",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thermalexpansion:machine",
 			tag: {
 				RSControl: 0b,

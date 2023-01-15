@@ -9,7 +9,10 @@
 		uid: "8e0e1251",
 		type: "item",
 		items: [{
-			item: "rats:vial_of_sentience"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:vial_of_sentience"
 		}]
 	}],
 	rewards: [{
@@ -26,6 +29,9 @@
 		uid: "712fc3a0",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "cheesy_cache"

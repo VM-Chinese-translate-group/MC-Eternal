@@ -6,9 +6,17 @@
 	tasks: [{
 		uid: "b124de0c",
 		type: "item",
-		icon: "harvestcraft:jaffaitem",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:jaffaitem"
+		},
 		items: [{
-			item: "harvestcraft:jaffaitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:jaffaitem"
 		}],
 		count: 1000L
 	}],
@@ -21,6 +29,9 @@
 		uid: "60496e27",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:skull",
 			tag: {
 				SkullOwner: {
@@ -41,6 +52,9 @@
 		uid: "97987fe3",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "dungeontactics:sharp_stick",
 			tag: {
 				ench: [{
@@ -56,12 +70,21 @@
 	{
 		uid: "c828e03c",
 		type: "item",
-		item: "tconstruct:materials 1 50"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
 	},
 	{
 		uid: "365a42e5",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

@@ -8,7 +8,10 @@
 		uid: "3923ee41",
 		type: "item",
 		items: [{
-			item: "buildcrafttransport:pipe_stripes_item"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcrafttransport:pipe_stripes_item"
 		}]
 	}],
 	rewards: [{

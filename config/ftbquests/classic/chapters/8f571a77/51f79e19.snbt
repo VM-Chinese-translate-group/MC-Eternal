@@ -10,7 +10,11 @@
 		type: "item",
 		title: "出售1x龙首",
 		items: [{
-			item: "minecraft:skull 1 5"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 5s
 		}],
 		ignore_nbt: 1b
 	}],

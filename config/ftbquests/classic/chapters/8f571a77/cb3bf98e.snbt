@@ -10,12 +10,20 @@
 		uid: "d2c2ad39",
 		type: "checkmark",
 		title: "An Introduction To Selling!",
-		icon: "rats:tiny_coin"
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:tiny_coin"
+		}
 	}],
 	rewards: [{
 		uid: "391eafe1",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 10L

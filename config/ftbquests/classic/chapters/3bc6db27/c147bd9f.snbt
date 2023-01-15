@@ -10,7 +10,11 @@
 		uid: "e673fee9",
 		type: "item",
 		items: [{
-			item: "techreborn:plates 1 38"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:plates",
+			Damage: 38s
 		}],
 		count: 4L
 	}],

@@ -1,6 +1,12 @@
 {
 	title: "探索太空",
-	icon: "extrautils2:ingredients 1 5",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 5s
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "octagon",

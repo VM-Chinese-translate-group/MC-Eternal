@@ -12,7 +12,10 @@
 		uid: "2a1651e7",
 		type: "item",
 		items: [{
-			item: "minecraft:emerald_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald_block"
 		}],
 		count: 64L
 	}],
@@ -25,6 +28,9 @@
 		uid: "9ff30c3b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

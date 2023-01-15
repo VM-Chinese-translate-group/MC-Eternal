@@ -9,7 +9,11 @@
 		uid: "48637645",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:part 1 360"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 360s
 		}]
 	}],
 	rewards: [{

@@ -8,7 +8,10 @@
 		uid: "1c9e3919",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:laser_drill"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:laser_drill"
 		}]
 	}],
 	rewards: [{

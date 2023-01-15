@@ -12,7 +12,10 @@
 		uid: "182a0cb0",
 		type: "item",
 		items: [{
-			item: "ftbquests:reward_collector"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:reward_collector"
 		}]
 	}],
 	rewards: [{

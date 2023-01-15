@@ -1,11 +1,22 @@
 {
-	icon: "minecraft:skull 1 5",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:skull",
+		Damage: 5s
+	},
 	x: 0.0d,
 	y: -2.0d,
 	tasks: [{
 		uid: "13d53dd1",
 		type: "kill",
-		icon: "enderio:block_enderman_skull",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_enderman_skull"
+		},
 		entity: "minecraft:ender_dragon",
 		value: 100L
 	}],
@@ -19,6 +30,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "dungeontactics:peg_hammer"
@@ -33,12 +45,21 @@
 	{
 		uid: "96f970bb",
 		type: "item",
-		item: "tconstruct:materials 1 50"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
 	},
 	{
 		uid: "c842aad6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {

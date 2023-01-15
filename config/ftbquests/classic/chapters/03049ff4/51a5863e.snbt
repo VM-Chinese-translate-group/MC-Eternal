@@ -12,6 +12,7 @@
 		title: "杀死100只龙",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dragonbone_sword_fire"
@@ -27,13 +28,21 @@
 	{
 		uid: "78859ba6",
 		type: "item",
-		item: "iceandfire:dragonsteel_fire_ingot",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonsteel_fire_ingot"
+		},
 		count: 64
 	},
 	{
 		uid: "7fec26d6",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

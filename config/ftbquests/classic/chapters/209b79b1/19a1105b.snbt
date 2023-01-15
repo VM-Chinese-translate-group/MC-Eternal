@@ -1,6 +1,7 @@
 {
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "twilightforest:knightmetal_sword"
@@ -19,6 +20,7 @@
 		title: "悬赏：高塔傀儡",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -41,6 +43,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "mod_lavacow:bonesword"
@@ -49,7 +52,12 @@
 	{
 		uid: "7e8a964f",
 		type: "item",
-		item: "minecraft:diamond_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
+		},
 		count: 2
 	}]
 }

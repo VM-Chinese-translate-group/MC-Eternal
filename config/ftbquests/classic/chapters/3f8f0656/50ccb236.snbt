@@ -8,7 +8,11 @@
 		uid: "ed3ce2c0",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:cooler 1 7"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:cooler",
+			Damage: 7s
 		}]
 	}],
 	rewards: [{

@@ -10,7 +10,10 @@
 		uid: "7fa02aca",
 		type: "item",
 		items: [{
-			item: "enderio:item_extract_speed_upgrade"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_extract_speed_upgrade"
 		}],
 		count: 4L
 	}],

@@ -7,7 +7,10 @@
 		uid: "176c7752",
 		type: "item",
 		items: [{
-			item: "harvestcraft:coconutitem"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:coconutitem"
 		}],
 		count: 16L
 	}],

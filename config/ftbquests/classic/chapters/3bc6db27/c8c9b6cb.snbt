@@ -8,7 +8,12 @@
 		uid: "816df6cc",
 		type: "advancement",
 		title: "成就: &eBingo！ 恐龙 DNA！",
-		icon: "fossil:triceratops_dna",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:triceratops_dna"
+		},
 		advancement: "fossil:fossil/dna",
 		criterion: ""
 	}],

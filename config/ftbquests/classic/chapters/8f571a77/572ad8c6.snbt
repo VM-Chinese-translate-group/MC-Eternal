@@ -14,7 +14,11 @@
 		uid: "0c4003f2",
 		type: "item",
 		items: [{
-			item: "minecraft:dye 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 4s
 		}],
 		count: 16L
 	}],

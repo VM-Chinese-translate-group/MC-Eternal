@@ -14,7 +14,10 @@
 		uid: "23dd5d92",
 		type: "item",
 		items: [{
-			item: "minecraft:gold_ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_ingot"
 		}],
 		count: 16L
 	}],

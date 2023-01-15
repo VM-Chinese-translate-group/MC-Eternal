@@ -5,7 +5,10 @@
 		uid: "ca93acae",
 		type: "item",
 		items: [{
-			item: "rftools:builder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rftools:builder"
 		}],
 		ignore_nbt: 1b
 	}],

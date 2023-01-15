@@ -8,7 +8,10 @@
 		uid: "6ffa3b2b",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:laser_base"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:laser_base"
 		}]
 	}],
 	rewards: [{

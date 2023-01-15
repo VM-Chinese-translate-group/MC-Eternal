@@ -9,7 +9,10 @@
 		uid: "3a4fd2bb",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:machine_interface"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:machine_interface"
 		}]
 	}],
 	rewards: [{

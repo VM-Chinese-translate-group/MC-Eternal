@@ -8,7 +8,11 @@
 		uid: "087288fe",
 		type: "item",
 		items: [{
-			item: "mekanism:controlcircuit 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:controlcircuit",
+			Damage: 3s
 		}]
 	}],
 	rewards: [{
@@ -25,6 +29,9 @@
 		uid: "4dc65431",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

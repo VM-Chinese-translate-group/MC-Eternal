@@ -11,7 +11,13 @@
 		uid: "6c74d970",
 		type: "advancement",
 		title: "进度: &e澄澈之空",
-		icon: "twilightforest:trophy 1 5",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:trophy",
+			Damage: 5s
+		},
 		advancement: "twilightforest:progress_glacier",
 		criterion: ""
 	}],
@@ -24,6 +30,9 @@
 		uid: "558c8b6b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -35,6 +44,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:ender_bow",

@@ -13,6 +13,7 @@
 		title: "悬赏：塞壬",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,12 +34,22 @@
 	{
 		uid: "cccf02d6",
 		type: "item",
-		item: "iceandfire:siren_tear"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:siren_tear"
+		}
 	},
 	{
 		uid: "3736ed2b",
 		type: "item",
-		item: "minecraft:gold_ingot",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
 		count: 8
 	}]
 }

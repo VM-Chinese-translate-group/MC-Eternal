@@ -9,7 +9,10 @@
 		uid: "92c86373",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:stone_decoration"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "immersiveengineering:stone_decoration"
 		}],
 		count: 27L
 	}],

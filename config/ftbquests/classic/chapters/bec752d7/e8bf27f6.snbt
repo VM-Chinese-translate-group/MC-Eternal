@@ -17,15 +17,17 @@
 		title: "&5Gyroscope&r or &5Girdle&r Upgrade",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness_augment"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness_augment",
 			Damage: 1s

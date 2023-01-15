@@ -2,6 +2,7 @@
 	title: "&c&l完成所有的挑战，从整合包作者那里夺回你的灵魂！",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "botania:enderdagger"
@@ -34,6 +35,9 @@
 		uid: "b5431f8c",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "botania:corporeaspark",
 			tag: {
 				display: {
@@ -48,6 +52,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "yoyos:creative_yoyo"
@@ -57,7 +62,12 @@
 		uid: "eb5b2a94",
 		type: "command",
 		title: "&e&lSPECIAL REWARD FROM ADAM",
-		icon: "thaumcraft:loot_bag",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:loot_bag"
+		},
 		command: "/kill @p"
 	}]
 }

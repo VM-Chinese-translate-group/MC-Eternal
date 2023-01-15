@@ -14,7 +14,12 @@
 		uid: "9ef9be50",
 		type: "choice",
 		title: "NuclearCraft Tutorial Links",
-		icon: "nuclearcraft:rtg_plutonium",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:rtg_plutonium"
+		},
 		table: 27
 	}]
 }

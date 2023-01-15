@@ -9,7 +9,10 @@
 		uid: "ce5ee9d0",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:charger"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:charger"
 		}]
 	}],
 	rewards: [{

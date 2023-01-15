@@ -13,6 +13,7 @@
 		title: "悬赏：菌尸",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -28,7 +29,12 @@
 	{
 		uid: "760bd244",
 		type: "item",
-		item: "minecraft:mushroom_stew"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:mushroom_stew"
+		}
 	},
 	{
 		uid: "fa6da100",
@@ -38,7 +44,12 @@
 	{
 		uid: "8cb0a91b",
 		type: "item",
-		item: "minecraft:gold_ingot",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
 		count: 6
 	},
 	{
@@ -46,6 +57,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "stupidthings:paper_bag_hat",

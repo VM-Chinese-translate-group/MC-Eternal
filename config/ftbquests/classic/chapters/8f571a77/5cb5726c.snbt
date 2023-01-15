@@ -8,7 +8,11 @@
 		uid: "bc6db7c4",
 		type: "item",
 		items: [{
-			item: "minecraft:emerald"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"treasure2:pouchable": {}
+			},
+			id: "minecraft:emerald"
 		}],
 		count: 16L
 	}],

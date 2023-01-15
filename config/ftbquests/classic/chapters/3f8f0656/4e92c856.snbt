@@ -9,7 +9,10 @@
 		uid: "703a5dcd",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:drive"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:drive"
 		}]
 	},
 	{
@@ -18,6 +21,7 @@
 		title: "Any &6ME Storage Cell",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_1k",
@@ -25,6 +29,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_4k",
@@ -32,6 +37,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_16k",
@@ -39,6 +45,7 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "appliedenergistics2:storage_cell_64k",

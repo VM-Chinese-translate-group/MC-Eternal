@@ -10,7 +10,10 @@
 		uid: "f5659714",
 		type: "item",
 		items: [{
-			item: "enderio:block_enhanced_alloy_smelter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_enhanced_alloy_smelter"
 		}],
 		ignore_nbt: 1b
 	},
@@ -18,7 +21,10 @@
 		uid: "ba176e36",
 		type: "item",
 		items: [{
-			item: "enderio:block_enhanced_sag_mill"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_enhanced_sag_mill"
 		}],
 		ignore_nbt: 1b
 	},
@@ -26,7 +32,10 @@
 		uid: "cd214df2",
 		type: "item",
 		items: [{
-			item: "enderio:block_enhanced_vat"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_enhanced_vat"
 		}],
 		ignore_nbt: 1b
 	}],

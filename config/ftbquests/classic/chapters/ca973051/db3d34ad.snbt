@@ -1,6 +1,7 @@
 {
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "dungeontactics:charm_darkened"
@@ -23,6 +24,9 @@
 		uid: "d6a5605d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "enderio:item_soul_vial",
 			tag: {
 				display: {

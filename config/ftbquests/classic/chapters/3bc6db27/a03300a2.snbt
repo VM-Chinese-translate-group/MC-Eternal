@@ -10,6 +10,9 @@
 		type: "item",
 		title: "钻",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "stevescarts:cartmodule",
 			tag: {
 				Data: 100b
@@ -17,6 +20,9 @@
 			Damage: 42s
 		},
 		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "stevescarts:cartmodule",
 			tag: {
 				Data: 100b
@@ -24,6 +30,9 @@
 			Damage: 8s
 		},
 		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "stevescarts:cartmodule",
 			tag: {
 				Data: 100b
@@ -36,7 +45,11 @@
 		uid: "4cb17ee1",
 		type: "item",
 		items: [{
-			item: "stevescarts:cartmodule 1 10"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "stevescarts:cartmodule",
+			Damage: 10s
 		}]
 	}],
 	rewards: [{

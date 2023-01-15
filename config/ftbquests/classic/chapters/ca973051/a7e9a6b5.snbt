@@ -10,7 +10,13 @@
 		uid: "cd6a83f6",
 		type: "kill",
 		title: "&d&l打败最终BOSS",
-		icon: "twilightforest:castle_door 1 2",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:castle_door",
+			Damage: 2s
+		},
 		entity: "twilightforest:kobold",
 		value: 1L
 	}],
@@ -24,6 +30,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:giant_sword",

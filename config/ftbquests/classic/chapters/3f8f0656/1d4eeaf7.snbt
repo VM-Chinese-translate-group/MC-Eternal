@@ -9,7 +9,10 @@
 		uid: "00b599e9",
 		type: "item",
 		items: [{
-			item: "enderio:block_enchanter"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_enchanter"
 		}]
 	}],
 	rewards: [{

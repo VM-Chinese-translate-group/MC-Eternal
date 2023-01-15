@@ -9,7 +9,10 @@
 		uid: "c1d13ac3",
 		type: "item",
 		items: [{
-			item: "enderio:block_vat"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_vat"
 		}],
 		ignore_nbt: 1b
 	}],

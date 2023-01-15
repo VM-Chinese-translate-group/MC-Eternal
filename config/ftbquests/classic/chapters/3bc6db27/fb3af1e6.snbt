@@ -10,14 +10,20 @@
 		uid: "f1a26f6c",
 		type: "item",
 		items: [{
-			item: "techreborn:extractor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:extractor"
 		}]
 	},
 	{
 		uid: "8bb3e9bb",
 		type: "item",
 		items: [{
-			item: "techreborn:compressor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:compressor"
 		}]
 	}],
 	rewards: [{

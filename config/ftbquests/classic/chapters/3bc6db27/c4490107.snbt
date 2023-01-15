@@ -8,7 +8,10 @@
 		uid: "a7969a50",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:latex_processing_unit"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:latex_processing_unit"
 		}]
 	}],
 	rewards: [{

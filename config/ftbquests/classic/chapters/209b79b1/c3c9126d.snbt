@@ -13,6 +13,7 @@
 		title: "悬赏：巫师",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -33,12 +34,22 @@
 	{
 		uid: "659d8125",
 		type: "item",
-		item: "ebwizardry:identification_scroll",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:identification_scroll"
+		},
 		count: 3
 	},
 	{
 		uid: "e3baba5a",
 		type: "item",
-		item: "ebwizardry:astral_diamond"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:astral_diamond"
+		}
 	}]
 }

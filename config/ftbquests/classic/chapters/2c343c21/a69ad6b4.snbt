@@ -11,6 +11,7 @@
 		title: "&6&l悬赏：&c&l可悲的憎恶",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:dread_knight_sword"
@@ -22,6 +23,9 @@
 		uid: "4fe7777b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				RepairCost: 0,

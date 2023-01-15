@@ -10,22 +10,45 @@
 		type: "item",
 		title: "4x 原始小雕像",
 		items: [{
-			item: "fossil:figurine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:figurine"
 		},
 		{
-			item: "fossil:figurine 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:figurine",
+			Damage: 1s
 		},
 		{
-			item: "fossil:figurine 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:figurine",
+			Damage: 2s
 		},
 		{
-			item: "fossil:figurine 1 3"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:figurine",
+			Damage: 3s
 		},
 		{
-			item: "fossil:figurine 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:figurine",
+			Damage: 4s
 		},
 		{
-			item: "fossil:figurine 1 15"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:figurine",
+			Damage: 15s
 		}],
 		count: 4L
 	}],

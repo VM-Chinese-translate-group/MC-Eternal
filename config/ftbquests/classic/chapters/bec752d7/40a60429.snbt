@@ -33,8 +33,7 @@
 			id: "lodsofemone:coin_big",
 			tag: {
 				value: 100L
-			},
-			Count: 1b
+			}
 		},
 		auto: "enabled",
 		command: "/tellraw @p {\"text\":\"§dYou did read the description of §5\\\"§lRead the Book, or you'll be Cooked!\\\"§d, right §5Thaumaturge§d?\"}"

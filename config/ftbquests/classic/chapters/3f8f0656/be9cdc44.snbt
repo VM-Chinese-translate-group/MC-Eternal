@@ -9,7 +9,11 @@
 		uid: "d1181f61",
 		type: "item",
 		items: [{
-			item: "enderio:item_alloy_ingot 1 8"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 8s
 		}],
 		count: 8L
 	}],

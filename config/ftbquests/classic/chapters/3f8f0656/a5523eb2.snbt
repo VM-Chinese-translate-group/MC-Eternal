@@ -8,14 +8,21 @@
 		uid: "f8ae1e18",
 		type: "item",
 		items: [{
-			item: "openmodularturrets:turret_base 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openmodularturrets:turret_base",
+			Damage: 4s
 		}]
 	},
 	{
 		uid: "8a8e9799",
 		type: "item",
 		items: [{
-			item: "openmodularturrets:rail_gun_turret"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openmodularturrets:rail_gun_turret"
 		}]
 	}],
 	rewards: [{
@@ -32,6 +39,9 @@
 		uid: "d9206e9b",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

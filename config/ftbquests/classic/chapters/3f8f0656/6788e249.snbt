@@ -9,7 +9,11 @@
 		uid: "2840765c",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:part 1 460"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 460s
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

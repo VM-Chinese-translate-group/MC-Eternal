@@ -2,6 +2,7 @@
 	title: "&d&l我的能量，能驱动地球！",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "techreborn:lithiumbattery",
@@ -29,6 +30,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "conarm:chestplate",
@@ -75,6 +77,9 @@
 		uid: "82890cac",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -86,6 +91,9 @@
 		uid: "5c4d1108",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "heavenly_box"
@@ -95,6 +103,12 @@
 	{
 		uid: "237d8913",
 		type: "item",
-		item: "buildcraftcore:engine 1 3"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "buildcraftcore:engine",
+			Damage: 3s
+		}
 	}]
 }

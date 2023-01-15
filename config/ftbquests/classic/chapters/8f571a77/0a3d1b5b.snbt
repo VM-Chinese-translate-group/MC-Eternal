@@ -14,7 +14,10 @@
 		uid: "cc2432a7",
 		type: "item",
 		items: [{
-			item: "minecraft:iron_ingot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_ingot"
 		}],
 		count: 16L
 	}],

@@ -9,7 +9,10 @@
 		uid: "4c96eb4d",
 		type: "item",
 		items: [{
-			item: "enderio:block_transceiver"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_transceiver"
 		}],
 		count: 2L,
 		ignore_nbt: 1b

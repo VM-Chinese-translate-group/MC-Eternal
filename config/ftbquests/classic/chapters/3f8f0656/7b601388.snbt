@@ -9,7 +9,10 @@
 		uid: "5e8fbe8e",
 		type: "item",
 		items: [{
-			item: "enderio:block_soul_binder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_soul_binder"
 		}],
 		ignore_nbt: 1b
 	},
@@ -17,7 +20,10 @@
 		uid: "c9998f87",
 		type: "item",
 		items: [{
-			item: "enderio:block_slice_and_splice"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_slice_and_splice"
 		}],
 		ignore_nbt: 1b
 	}],

@@ -16,7 +16,10 @@
 		uid: "ac13a72d",
 		type: "item",
 		items: [{
-			item: "fossil:worktable"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "fossil:worktable"
 		}]
 	}],
 	rewards: [{

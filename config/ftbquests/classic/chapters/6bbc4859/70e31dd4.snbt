@@ -1,5 +1,10 @@
 {
-	icon: "minecraft:bedrock",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:bedrock"
+	},
 	x: 0.0d,
 	y: 1.0d,
 	description: "*完成进阶科技章节以解锁*",
@@ -16,6 +21,11 @@
 		uid: "d3f811a7",
 		type: "item",
 		title: "Bedrock",
-		item: "minecraft:bedrock"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bedrock"
+		}
 	}]
 }

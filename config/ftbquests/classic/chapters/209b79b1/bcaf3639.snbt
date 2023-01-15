@@ -13,6 +13,7 @@
 		title: "悬赏：蛰髑",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -28,7 +29,12 @@
 	{
 		uid: "80c3a673",
 		type: "item",
-		item: "mod_lavacow:holy_grenade",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mod_lavacow:holy_grenade"
+		},
 		count: 3
 	},
 	{
@@ -39,7 +45,12 @@
 	{
 		uid: "62ca30f8",
 		type: "item",
-		item: "minecraft:gold_block",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_block"
+		},
 		count: 2
 	}]
 }

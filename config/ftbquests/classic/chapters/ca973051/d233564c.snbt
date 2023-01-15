@@ -11,7 +11,12 @@
 		uid: "3ed0a731",
 		type: "advancement",
 		title: "进度: &e首领的毛皮",
-		icon: "twilightforest:alpha_fur",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:alpha_fur"
+		},
 		advancement: "twilightforest:progress_yeti",
 		criterion: ""
 	}],
@@ -24,6 +29,9 @@
 		uid: "b1bce2a3",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -35,6 +43,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:yeti_chestplate",

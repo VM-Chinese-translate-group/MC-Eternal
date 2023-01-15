@@ -10,7 +10,10 @@
 		uid: "71516946",
 		type: "item",
 		items: [{
-			item: "enderio:block_wireless_charger_extension"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_wireless_charger_extension"
 		}]
 	}],
 	rewards: [{

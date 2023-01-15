@@ -11,7 +11,12 @@
 		uid: "00e56e63",
 		type: "observation",
 		title: "Look at a Rocket",
-		icon: "mysticalagriculture:fire_essence",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:fire_essence"
+		},
 		match_type: "entity_id",
 		match: "advancedrocketry:rocket",
 		timer: 40L

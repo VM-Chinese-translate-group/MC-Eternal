@@ -16,6 +16,7 @@
 		title: "悬赏：死亡蠹虫",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -36,13 +37,19 @@
 	{
 		uid: "23e8be6f",
 		type: "item",
-		item: "minecraft:diamond_block"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
+		}
 	},
 	{
 		uid: "1c15db24",
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:iceandfire.deathworm_egg",
@@ -54,6 +61,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:deathworm_white_chestplate"

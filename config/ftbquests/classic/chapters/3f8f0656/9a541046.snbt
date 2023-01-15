@@ -9,7 +9,10 @@
 		uid: "381aeb4b",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:sky_compass"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:sky_compass"
 		}]
 	}],
 	rewards: [{

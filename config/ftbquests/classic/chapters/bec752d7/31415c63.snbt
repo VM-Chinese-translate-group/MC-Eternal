@@ -17,12 +17,13 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					energy: {
 						energy: 0L
 					}
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:elytra_harness_augment"
 		}],

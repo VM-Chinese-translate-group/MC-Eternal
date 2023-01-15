@@ -10,7 +10,10 @@
 		uid: "7affb74e",
 		type: "item",
 		items: [{
-			item: "enderio:block_travel_anchor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_travel_anchor"
 		}],
 		count: 2L,
 		ignore_nbt: 1b

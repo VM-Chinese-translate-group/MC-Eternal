@@ -14,7 +14,12 @@
 		uid: "2a2d98f2",
 		type: "choice",
 		title: "AE2 Tutorial Links",
-		icon: "appliedenergistics2:controller",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:controller"
+		},
 		table: 26
 	}]
 }

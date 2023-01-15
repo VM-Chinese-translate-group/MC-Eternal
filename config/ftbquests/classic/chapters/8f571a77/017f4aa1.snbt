@@ -7,7 +7,10 @@
 		uid: "107e429c",
 		type: "item",
 		items: [{
-			item: "minecraft:baked_potato"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:baked_potato"
 		}],
 		count: 16L
 	}],

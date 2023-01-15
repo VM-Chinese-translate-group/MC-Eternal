@@ -10,6 +10,9 @@
 		uid: "718a5f0b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "techreborn:ingot",
 			Damage: 3s
 		}],
@@ -19,6 +22,9 @@
 		uid: "63a9e265",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "techreborn:ingot",
 			Damage: 16s
 		}],
@@ -29,6 +35,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "ingotBrass",
 					id: "ore"

@@ -1,6 +1,7 @@
 {
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "twilightforest:knightmetal_sword"
@@ -19,6 +20,7 @@
 		title: "悬赏：国王蜘蛛",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -39,7 +41,12 @@
 	{
 		uid: "ea9a3219",
 		type: "item",
-		item: "minecraft:gold_ingot",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
 		count: 8
 	}]
 }

@@ -18,8 +18,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				Parent: {},
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				Parent: {}
 			},
 			id: "thaumicaugmentation:impetus_linker"
 		}]

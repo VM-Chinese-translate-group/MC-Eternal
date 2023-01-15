@@ -13,6 +13,7 @@
 		title: "悬赏：高阶吸血鬼",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:knightmetal_sword"
@@ -24,6 +25,9 @@
 		uid: "e0ff2c8a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -33,7 +37,13 @@
 	{
 		uid: "8ca63462",
 		type: "item",
-		item: "vampirism:pure_blood 1 2"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:pure_blood",
+			Damage: 2s
+		}
 	},
 	{
 		uid: "ae9a02cd",
@@ -45,6 +55,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "vampirism:vampire_cloak",
@@ -54,6 +65,11 @@
 	{
 		uid: "a3b13bc2",
 		type: "item",
-		item: "minecraft:diamond_block"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
+		}
 	}]
 }

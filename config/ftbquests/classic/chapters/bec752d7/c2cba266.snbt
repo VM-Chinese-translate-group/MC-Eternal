@@ -17,7 +17,7 @@
 		title: "Gaze upon an &5Eldritch Lock&r breakable with &0Impetus没翻译",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_impetus"
 		},

@@ -10,7 +10,12 @@
 		uid: "a6834200",
 		type: "advancement",
 		title: "揭开一座古老金字塔的面纱",
-		icon: "atum:khnumite_face",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "atum:khnumite_face"
+		},
 		advancement: "",
 		criterion: "atum:core/pyramidscheme"
 	}],
@@ -23,6 +28,9 @@
 		uid: "01a82960",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

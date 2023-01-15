@@ -1,6 +1,12 @@
 {
 	title: "玩家商店",
-	icon: "twilightforest:twilight_sapling 1 9",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "twilightforest:twilight_sapling",
+		Damage: 9s
+	},
 	disable_toast: true,
 	always_invisible: false,
 	group: 0,

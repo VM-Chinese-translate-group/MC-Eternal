@@ -1,6 +1,12 @@
 {
 	title: "钻石x1",
-	icon: "thermalfoundation:material 1 16",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 16s
+	},
 	x: -6.5d,
 	y: -7.0d,
 	description: "挖矿",
@@ -9,7 +15,11 @@
 		uid: "3cce256b",
 		type: "item",
 		items: [{
-			item: "minecraft:diamond"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"treasure2:pouchable": {}
+			},
+			id: "minecraft:diamond"
 		}]
 	}],
 	rewards: [{
@@ -18,6 +28,9 @@
 		title: "10 Currency",
 		auto: "no_toast",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 10L

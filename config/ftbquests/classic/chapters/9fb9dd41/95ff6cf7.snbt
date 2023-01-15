@@ -6,7 +6,10 @@
 		uid: "b1dceed4",
 		type: "item",
 		items: [{
-			item: "bibliocraft:armorstand"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "bibliocraft:armorstand"
 		}]
 	}],
 	rewards: [{

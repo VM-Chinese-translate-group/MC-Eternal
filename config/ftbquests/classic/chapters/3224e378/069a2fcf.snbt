@@ -9,6 +9,7 @@
 		title: "&c&lBoss：粉碎蘑菇精",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:mushroom_helmet"
@@ -30,6 +31,9 @@
 		uid: "5eb82ff1",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

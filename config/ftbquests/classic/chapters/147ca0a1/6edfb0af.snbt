@@ -10,7 +10,10 @@
 		uid: "9699bbca",
 		type: "item",
 		items: [{
-			item: "atum:fish_jeweled"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "atum:fish_jeweled"
 		}]
 	}],
 	rewards: [{
@@ -22,6 +25,9 @@
 		uid: "87d875a1",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

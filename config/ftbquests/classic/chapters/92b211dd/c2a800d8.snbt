@@ -1,5 +1,10 @@
 {
-	icon: "advancedrocketry:rollingmachine",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:rollingmachine"
+	},
 	x: -2.0d,
 	y: -1.5d,
 	description: "制作板材、薄板和压力罐。",
@@ -10,14 +15,20 @@
 		uid: "64e1a6f9",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:rollingmachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:rollingmachine"
 		}]
 	},
 	{
 		uid: "95c801a7",
 		type: "item",
 		items: [{
-			item: "libvulpes:structuremachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:structuremachine"
 		}],
 		count: 6L
 	},
@@ -26,6 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockCoil",
 					id: "ore"
@@ -45,6 +57,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockMotor",
 					id: "ore"
@@ -62,7 +75,10 @@
 		uid: "9329d8fa",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch"
 		}],
 		count: 2L
 	},
@@ -70,7 +86,11 @@
 		uid: "2ae837a8",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
 		}],
 		count: 2L
 	},
@@ -78,14 +98,21 @@
 		uid: "11fd2dc0",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 2s
 		}]
 	},
 	{
 		uid: "7f3477aa",
 		type: "item",
 		items: [{
-			item: "libvulpes:forgepowerinput"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:forgepowerinput"
 		}]
 	}],
 	rewards: [{

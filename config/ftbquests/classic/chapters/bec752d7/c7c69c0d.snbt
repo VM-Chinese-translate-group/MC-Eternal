@@ -1,4 +1,4 @@
-	{
+{
 	title: "&5进阶",
 	x: 27.5d,
 	y: -12.0d,
@@ -30,10 +30,11 @@
 		title: "&5Thaumium&7 or &5Voidseer&7 Caster's Gauntlet没翻译",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:gauntlet",
 			tag: {
@@ -42,10 +43,11 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:gauntlet",
 			tag: {
@@ -61,7 +63,7 @@
 		title: "Any &5Modifier",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:augment_builder_power",
 			tag: {
@@ -76,7 +78,7 @@
 		title: "Any &5Effect Crystal",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:augment_builder_effect",
 			tag: {

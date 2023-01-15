@@ -1,6 +1,11 @@
 {
 	title: "钻石种子",
-	icon: "mysticalagriculture:diamond_seeds",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "mysticalagriculture:diamond_seeds"
+	},
 	x: 1.5d,
 	y: -0.5d,
 	shape: "diamond",
@@ -17,6 +22,11 @@
 	rewards: [{
 		uid: "b77fd009",
 		type: "item",
-		item: "mysticalagriculture:diamond_seeds"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:diamond_seeds"
+		}
 	}]
 }

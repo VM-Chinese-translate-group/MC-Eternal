@@ -14,7 +14,10 @@
 		uid: "6a422262",
 		type: "item",
 		items: [{
-			item: "minecraft:iron_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_block"
 		}],
 		count: 32L
 	}],

@@ -8,7 +8,10 @@
 		uid: "a1983514",
 		type: "item",
 		items: [{
-			item: "rats:rat_upgrade_nonbeliever"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_upgrade_nonbeliever"
 		}]
 	}],
 	rewards: [{
@@ -20,6 +23,9 @@
 		uid: "fd6ec85e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

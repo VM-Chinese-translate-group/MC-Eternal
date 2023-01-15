@@ -1,5 +1,10 @@
 {
-	icon: "inventorypets:nugget_lapis",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "inventorypets:nugget_lapis"
+	},
 	x: -8.0d,
 	y: -7.0d,
 	description: "挖矿",
@@ -8,7 +13,11 @@
 		uid: "db124768",
 		type: "item",
 		items: [{
-			item: "minecraft:dye 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 4s
 		}]
 	}],
 	rewards: [{
@@ -17,6 +26,9 @@
 		title: "1 Currency",
 		auto: "no_toast",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "lodsofemone:coin_small",
 			tag: {
 				value: 1L

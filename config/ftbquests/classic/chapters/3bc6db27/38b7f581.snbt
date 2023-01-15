@@ -8,7 +8,10 @@
 		uid: "893eda21",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:tree_fluid_extractor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:tree_fluid_extractor"
 		}]
 	}],
 	rewards: [{

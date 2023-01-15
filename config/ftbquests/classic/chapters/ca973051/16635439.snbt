@@ -9,7 +9,10 @@
 		uid: "fbf075ff",
 		type: "item",
 		items: [{
-			item: "twilightforest:experiment_115"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:experiment_115"
 		}],
 		count: 8L
 	}],

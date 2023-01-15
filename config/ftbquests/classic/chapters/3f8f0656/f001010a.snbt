@@ -11,13 +11,25 @@
 		type: "item",
 		title: "Any &6ME Cable",
 		items: [{
-			item: "appliedenergistics2:part 1 16"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 16s
 		},
 		{
-			item: "appliedenergistics2:part 1 36"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 36s
 		},
 		{
-			item: "appliedenergistics2:part 1 56"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 56s
 		}]
 	}],
 	rewards: [{

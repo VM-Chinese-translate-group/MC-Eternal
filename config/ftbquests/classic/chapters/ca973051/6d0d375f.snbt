@@ -9,7 +9,10 @@
 		uid: "f155fc75",
 		type: "item",
 		items: [{
-			item: "twilightforest:tower_device"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:tower_device"
 		}],
 		count: 4L
 	}],

@@ -1,5 +1,11 @@
 {
-	icon: "mysticalagriculture:crafting 1 24",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "mysticalagriculture:crafting",
+		Damage: 24s
+	},
 	x: 3.0d,
 	y: -2.5d,
 	description: "掉落物",
@@ -8,7 +14,10 @@
 		uid: "f9355618",
 		type: "item",
 		items: [{
-			item: "minecraft:feather"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:feather"
 		}],
 		count: 64L
 	}],

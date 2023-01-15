@@ -10,7 +10,11 @@
 		uid: "56644c9d",
 		type: "item",
 		items: [{
-			item: "enderio:item_alloy_ball 1 6"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_alloy_ball",
+			Damage: 6s
 		}],
 		count: 24L
 	}],

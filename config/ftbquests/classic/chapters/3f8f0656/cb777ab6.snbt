@@ -9,7 +9,11 @@
 		uid: "683f7e74",
 		type: "item",
 		items: [{
-			item: "enderio:item_material 1 4"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 4s
 		}],
 		count: 32L
 	}],

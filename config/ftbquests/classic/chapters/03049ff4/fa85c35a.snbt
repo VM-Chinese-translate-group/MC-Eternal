@@ -11,7 +11,12 @@
 	rewards: [{
 		uid: "c0bdbe87",
 		type: "item",
-		item: "mysticalagradditions:nether_star_seeds"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagradditions:nether_star_seeds"
+		}
 	},
 	{
 		uid: "5ac9d2a1",
@@ -37,6 +42,9 @@
 		uid: "8d301dab",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

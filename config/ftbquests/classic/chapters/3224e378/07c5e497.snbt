@@ -7,6 +7,7 @@
 		title: "&7&l悬赏：棕石傀儡",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "erebus:wasp_sword"

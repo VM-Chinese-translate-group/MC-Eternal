@@ -20,7 +20,7 @@
 		title: "Any &5Vis Salt",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumadditions:salt_essence",
 			tag: {

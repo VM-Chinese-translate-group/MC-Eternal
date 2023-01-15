@@ -11,6 +11,7 @@
 		title: "16x Raw Meat",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "listAllmeatraw",
 					id: "ore"

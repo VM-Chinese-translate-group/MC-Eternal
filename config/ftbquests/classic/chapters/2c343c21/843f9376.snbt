@@ -5,16 +5,16 @@
 	shape: "diamond",
 	description: "&e月亮是我的啦！Muahah！",
 	hide_dependency_lines: true,
-	dependencies: [
-		"935cd7e4"
-	],
 	size: 0.5d,
 	optional: true,
 	tasks: [{
 		uid: "03783b8e",
 		type: "item",
 		items: [{
-			item: "rats:block_of_cheese"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:block_of_cheese"
 		}],
 		count: 32L
 	},
@@ -23,6 +23,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "iceandfire:armor_silver_metal_helmet",
@@ -56,6 +57,9 @@
 		uid: "b099a2c0",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "rats:cheese",
 			tag: {
 				ench: [{
@@ -94,6 +98,9 @@
 		uid: "8ce71407",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

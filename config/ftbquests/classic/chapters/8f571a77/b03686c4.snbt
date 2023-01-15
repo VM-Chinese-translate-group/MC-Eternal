@@ -14,7 +14,10 @@
 		type: "item",
 		disable_toast: true,
 		items: [{
-			item: "minecraft:diamond_block"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond_block"
 		}],
 		count: 32L
 	}],

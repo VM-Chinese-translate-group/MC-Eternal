@@ -1,6 +1,9 @@
 {
 	title: "下界之星三明治",
 	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
 		id: "culinaryconstruct:sandwich",
 		tag: {
 			Size: 5,
@@ -68,6 +71,9 @@
 		uid: "223b6f64",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "culinaryconstruct:sandwich",
 			tag: {
 				Size: 5,

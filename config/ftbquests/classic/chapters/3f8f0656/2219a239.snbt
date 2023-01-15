@@ -9,7 +9,11 @@
 		uid: "5cd31ab4",
 		type: "item",
 		items: [{
-			item: "mekanism:ingot 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mekanism:ingot",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

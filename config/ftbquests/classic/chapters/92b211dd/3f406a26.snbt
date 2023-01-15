@@ -1,5 +1,10 @@
 {
-	icon: "advancedrocketry:precisionassemblingmachine",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "advancedrocketry:precisionassemblingmachine"
+	},
 	x: 0.0d,
 	y: -3.0d,
 	description: "制作电路板和某些芯片。",
@@ -10,14 +15,20 @@
 		uid: "eb115850",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:precisionassemblingmachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:precisionassemblingmachine"
 		}]
 	},
 	{
 		uid: "cfdf1277",
 		type: "item",
 		items: [{
-			item: "libvulpes:structuremachine"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:structuremachine"
 		}],
 		count: 24L
 	},
@@ -26,6 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockCoil",
 					id: "ore"
@@ -45,6 +57,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockMotor",
 					id: "ore"
@@ -63,7 +76,10 @@
 		uid: "dcbc5135",
 		type: "item",
 		items: [{
-			item: "minecraft:glass"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:glass"
 		}],
 		count: 2L
 	},
@@ -71,21 +87,31 @@
 		uid: "dff5fb37",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch"
 		}]
 	},
 	{
 		uid: "d45dac83",
 		type: "item",
 		items: [{
-			item: "libvulpes:hatch 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
 		}]
 	},
 	{
 		uid: "923e84b2",
 		type: "item",
 		items: [{
-			item: "libvulpes:forgepowerinput"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "libvulpes:forgepowerinput"
 		}]
 	}],
 	rewards: [{

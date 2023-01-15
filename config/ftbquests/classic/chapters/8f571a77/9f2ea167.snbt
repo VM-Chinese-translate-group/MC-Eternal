@@ -7,7 +7,10 @@
 		uid: "0cb25e4a",
 		type: "item",
 		items: [{
-			item: "minecraft:carrot"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:carrot"
 		}],
 		count: 16L
 	}],

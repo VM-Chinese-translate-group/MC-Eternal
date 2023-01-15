@@ -10,7 +10,10 @@
 		uid: "0e2f0701",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:planetidchip"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "advancedrocketry:planetidchip"
 		}]
 	}]
 }

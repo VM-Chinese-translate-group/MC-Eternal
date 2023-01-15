@@ -1,5 +1,11 @@
 {
-	icon: "immersiveengineering:metal_device0 1 2",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "immersiveengineering:metal_device0",
+		Damage: 2s
+	},
 	x: 1.0d,
 	y: -5.5d,
 	description: "*能量* *输入进任务显示器* ",

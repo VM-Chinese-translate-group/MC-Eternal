@@ -12,7 +12,11 @@
 		uid: "20da1f91",
 		type: "item",
 		items: [{
-			item: "enderio:block_cap_bank 1 2"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:block_cap_bank",
+			Damage: 2s
 		}],
 		ignore_nbt: 1b
 	}],

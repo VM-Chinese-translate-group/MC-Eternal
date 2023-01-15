@@ -20,6 +20,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "rats:rat_upgrade_combined_creative"
@@ -29,13 +30,26 @@
 	{
 		uid: "d998ef0c",
 		type: "item",
-		item: "rats:rat_upgrade_creative"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:rat_upgrade_creative"
+		}
 	},
 	{
 		uid: "aadec96f",
 		type: "item",
-		icon: "treasure2:safe",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "treasure2:safe"
+		},
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "heavenly_box"
@@ -48,6 +62,9 @@
 		uid: "b5dc5041",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "thermalexpansion:morb",
 			tag: {
 				Generic: 1b,
@@ -60,6 +77,9 @@
 		uid: "7d4649c9",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "enderio:item_soul_vial",
 			tag: {
 				entityId: "inventorypets:entitybillgates"
@@ -71,6 +91,9 @@
 		uid: "d0ca37d3",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "enderio:item_soul_vial",
 			tag: {
 				entityId: "inventorypets:entitysteveballmer"
@@ -83,6 +106,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:cleaver",

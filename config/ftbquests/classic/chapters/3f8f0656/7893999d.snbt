@@ -10,10 +10,16 @@
 		uid: "6217a2a3",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "appliedenergistics2:energy_cell",
 			tag: {}
 		},
 		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "appliedenergistics2:dense_energy_cell",
 			tag: {}
 		}],

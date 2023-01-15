@@ -11,7 +11,13 @@
 		uid: "0611b624",
 		type: "advancement",
 		title: "进度: &e娜迦猎人",
-		icon: "twilightforest:miniature_structure 1 5",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:miniature_structure",
+			Damage: 5s
+		},
 		advancement: "twilightforest:progress_naga",
 		criterion: ""
 	}],
@@ -24,6 +30,9 @@
 		uid: "e88fb4a1",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"
@@ -35,6 +44,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:naga_leggings",

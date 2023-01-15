@@ -1,6 +1,11 @@
 {
 	title: "&b前往极光幽境",
-	icon: "theaurorian:petuniaplant",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "theaurorian:petuniaplant"
+	},
 	x: 0.0d,
 	y: 0.0d,
 	shape: "octagon",
@@ -20,6 +25,9 @@
 		uid: "02b4a1e5",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "extraterrestrial_cache"

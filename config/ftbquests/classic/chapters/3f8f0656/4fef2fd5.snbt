@@ -10,7 +10,10 @@
 		uid: "824fc37d",
 		type: "item",
 		items: [{
-			item: "ae2stuff:grower"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ae2stuff:grower"
 		}]
 	}],
 	rewards: [{

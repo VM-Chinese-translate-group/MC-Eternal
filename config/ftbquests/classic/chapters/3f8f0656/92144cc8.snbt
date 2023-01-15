@@ -9,7 +9,11 @@
 		uid: "0e8d9226",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 26"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 26s
 		}]
 	}],
 	rewards: [{

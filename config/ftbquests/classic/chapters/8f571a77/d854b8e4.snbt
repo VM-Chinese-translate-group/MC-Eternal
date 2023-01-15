@@ -7,7 +7,10 @@
 		uid: "85938d9a",
 		type: "item",
 		items: [{
-			item: "rats:cheese"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "rats:cheese"
 		}],
 		count: 16L
 	}],

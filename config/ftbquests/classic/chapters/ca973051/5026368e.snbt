@@ -1,5 +1,10 @@
 {
-	icon: "midnight:tendrilweed",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "midnight:tendrilweed"
+	},
 	x: -12.0d,
 	y: -3.0d,
 	shape: "diamond",

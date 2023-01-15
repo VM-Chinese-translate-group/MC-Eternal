@@ -9,6 +9,7 @@
 		title: "Any compressed4xDirt",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "compressed4xDirt",
 					id: "ore"
@@ -47,8 +48,16 @@
 		uid: "6583c282",
 		type: "item",
 		title: "黄金战利品箱",
-		icon: "treasure2:gold_strongbox",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "treasure2:gold_strongbox"
+		},
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "rare_lootbox"
@@ -59,6 +68,9 @@
 		uid: "1f637b9f",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "minecraft:dirt",
 			tag: {
 				display: {
@@ -70,12 +82,21 @@
 	{
 		uid: "aabd8882",
 		type: "item",
-		item: "tconstruct:materials 1 50"
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
 	},
 	{
 		uid: "67c9068f",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

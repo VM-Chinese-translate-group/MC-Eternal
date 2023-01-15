@@ -12,7 +12,12 @@
 		uid: "7485143d",
 		type: "advancement",
 		title: "进度: &e最终对决",
-		icon: "twilightforest:uberous_soil",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:uberous_soil"
+		},
 		advancement: "twilightforest:progress_merge",
 		criterion: ""
 	},
@@ -20,7 +25,10 @@
 		uid: "571a950b",
 		type: "item",
 		items: [{
-			item: "twilightforest:magic_beans"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:magic_beans"
 		}]
 	},
 	{
@@ -28,6 +36,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "twilightforest:giant_pickaxe"

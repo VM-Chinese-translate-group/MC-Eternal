@@ -14,7 +14,10 @@
 		uid: "91199f79",
 		type: "item",
 		items: [{
-			item: "minecraft:nether_star"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:nether_star"
 		}]
 	}],
 	rewards: [{

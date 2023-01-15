@@ -8,7 +8,11 @@
 		uid: "c1beca83",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:upgrade 1 1"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 1s
 		}]
 	}],
 	rewards: [{

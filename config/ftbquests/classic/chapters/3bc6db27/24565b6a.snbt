@@ -8,7 +8,10 @@
 		uid: "00032bdd",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:conveyor"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:conveyor"
 		}],
 		count: 16L
 	}],

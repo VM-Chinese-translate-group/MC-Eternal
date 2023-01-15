@@ -8,7 +8,11 @@
 		uid: "a04b3dcc",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:fuel_uranium 1 7"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "nuclearcraft:fuel_uranium",
+			Damage: 7s
 		}]
 	}],
 	rewards: [{

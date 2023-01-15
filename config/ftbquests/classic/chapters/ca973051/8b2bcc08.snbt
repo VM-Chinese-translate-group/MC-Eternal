@@ -1,5 +1,10 @@
 {
-	icon: "twilightforest:thorn_rose",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "twilightforest:thorn_rose"
+	},
 	x: -10.0d,
 	y: -3.0d,
 	shape: "diamond",

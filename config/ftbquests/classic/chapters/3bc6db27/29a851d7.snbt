@@ -16,6 +16,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "minecraft:lava_bucket"
@@ -28,7 +29,11 @@
 		uid: "6ef4217a",
 		type: "item",
 		items: [{
-			item: "techreborn:part 1 15"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:part",
+			Damage: 15s
 		}],
 		count: 4L
 	},
@@ -36,7 +41,11 @@
 		uid: "16605b15",
 		type: "item",
 		items: [{
-			item: "techreborn:part 1 14"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "techreborn:part",
+			Damage: 14s
 		}],
 		count: 4L
 	}],

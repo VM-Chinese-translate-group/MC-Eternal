@@ -8,21 +8,30 @@
 		uid: "5f5cf0da",
 		type: "item",
 		items: [{
-			item: "midnight:unstable_fruit_green"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:unstable_fruit_green"
 		}]
 	},
 	{
 		uid: "026776c2",
 		type: "item",
 		items: [{
-			item: "midnight:unstable_fruit_lime"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:unstable_fruit_lime"
 		}]
 	},
 	{
 		uid: "2289544a",
 		type: "item",
 		items: [{
-			item: "midnight:unstable_fruit_blue"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:unstable_fruit_blue"
 		}]
 	}],
 	rewards: [{

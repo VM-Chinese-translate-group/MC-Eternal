@@ -10,7 +10,11 @@
 		uid: "4c3b2077",
 		type: "item",
 		items: [{
-			item: "enderio:item_material 1 51"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 51s
 		}],
 		count: 6L
 	},
@@ -18,7 +22,11 @@
 		uid: "2cd9f453",
 		type: "item",
 		items: [{
-			item: "enderio:item_material 1 52"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 52s
 		}],
 		count: 6L
 	}],

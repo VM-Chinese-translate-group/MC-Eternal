@@ -2,6 +2,7 @@
 	title: "探险",
 	icon: {
 		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "thebetweenlands:explorers_hat"

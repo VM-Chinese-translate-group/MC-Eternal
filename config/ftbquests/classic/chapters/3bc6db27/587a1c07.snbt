@@ -8,7 +8,10 @@
 		uid: "72b7ffb3",
 		type: "item",
 		items: [{
-			item: "industrialforegoing:animal_independence_selector"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "industrialforegoing:animal_independence_selector"
 		}]
 	}],
 	rewards: [{

@@ -7,7 +7,10 @@
 		uid: "aa104f94",
 		type: "item",
 		items: [{
-			item: "minecraft:gunpowder"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:gunpowder"
 		}],
 		count: 16L,
 		consume_items: true

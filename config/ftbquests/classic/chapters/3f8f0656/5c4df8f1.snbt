@@ -9,7 +9,10 @@
 		uid: "8323e3ac",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:security_station"
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "appliedenergistics2:security_station"
 		}]
 	}],
 	rewards: [{
