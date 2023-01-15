@@ -2,7 +2,7 @@
 	title: "&5好烦人",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumcraft:curio",
 		Damage: 6s
@@ -36,7 +36,8 @@
 			tag: {
 				Generic: 1b,
 				id: "thaumcraft:cultistportallesser"
-			}
+			},
+			Count: 1b
 		}
 	},
 	{
@@ -44,7 +45,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:curio",
 			tag: {

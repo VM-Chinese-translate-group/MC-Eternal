@@ -7,7 +7,8 @@
 		id: "thermalexpansion:florb",
 		tag: {
 			Fluid: "flux_goo"
-		}
+		},
+		Count: 1b
 	},
 	x: 20.5d,
 	y: -0.5d,

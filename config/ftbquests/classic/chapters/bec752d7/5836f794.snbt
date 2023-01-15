@@ -2,8 +2,7 @@
 	title: "&5终极知识",
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
-			"astralsorcery:cap_item_amulet_holder": {}
+			"customnpcs:itemscripteddata": {}
 		},
 		id: "thaumcraft:thaumonomicon",
 		Damage: 1s
@@ -76,6 +75,7 @@
 		"be79159d",
 		"7e79f19c",
 		"917c261b",
+		"39343e5d",
 		"f83b3551",
 		"9a1d9477",
 		"fc33a2d8",
@@ -97,7 +97,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -116,7 +116,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -135,7 +135,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -154,7 +154,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -173,7 +173,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -192,7 +192,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -211,7 +211,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -230,7 +230,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -249,7 +249,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -268,8 +268,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:primordial_pearl"
 		}],
@@ -282,8 +281,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:thaumonomicon",
 			tag: {
@@ -302,8 +300,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:creative_flux_sponge"
 		}
@@ -314,8 +311,7 @@
 		title: "&5Cleanse Permanent Warp. &cDo after acquiring Ultimate Knowledge!",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"astralsorcery:cap_item_amulet_holder": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:sanity_checker"
 		},

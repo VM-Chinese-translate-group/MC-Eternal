@@ -17,7 +17,7 @@
 		title: "观测&5奥术工作台",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:arcane_workbench"
 		},

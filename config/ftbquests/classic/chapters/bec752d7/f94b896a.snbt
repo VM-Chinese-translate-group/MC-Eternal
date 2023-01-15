@@ -1,7 +1,7 @@
 {
 	x: 26.5d,
 	y: 5.0d,
-	description: "一种能够利用灵气重塑自身的金属。",
+	description: "A Metal that can harness the Aura to reshape itself to pristine condition.",
 	dependencies: [
 		"b12539ba"
 	],

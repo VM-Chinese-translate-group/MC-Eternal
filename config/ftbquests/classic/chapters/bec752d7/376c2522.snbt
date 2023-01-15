@@ -20,7 +20,7 @@
 		title: "Gaze at a &5Golem Press",
 		icon: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:golem_builder"
 		},

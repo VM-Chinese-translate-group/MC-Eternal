@@ -17,55 +17,55 @@
 		title: "Any &5Native Cluster",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster"
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster",
 			Damage: 1s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster",
 			Damage: 2s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster",
 			Damage: 3s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster",
 			Damage: 4s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster",
 			Damage: 5s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster",
 			Damage: 6s
 		},
 		{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
+				"customnpcs:itemscripteddata": {}
 			},
 			id: "thaumcraft:cluster",
 			Damage: 7s
@@ -74,121 +74,141 @@
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusteraluminium"
+			id: "jaopca:item_clusteraluminium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterancientdebris"
+			id: "jaopca:item_clusterancientdebris",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterardite"
+			id: "jaopca:item_clusterardite",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterastralstarmetal"
+			id: "jaopca:item_clusterastralstarmetal",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterboron"
+			id: "jaopca:item_clusterboron",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clustercobalt"
+			id: "jaopca:item_clustercobalt",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterdilithium"
+			id: "jaopca:item_clusterdilithium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusteriridium"
+			id: "jaopca:item_clusteriridium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterlithium"
+			id: "jaopca:item_clusterlithium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clustermagnesium"
+			id: "jaopca:item_clustermagnesium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clustermithril"
+			id: "jaopca:item_clustermithril",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusternickel"
+			id: "jaopca:item_clusternickel",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusteroctine"
+			id: "jaopca:item_clusteroctine",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterosmium"
+			id: "jaopca:item_clusterosmium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterplatinum"
+			id: "jaopca:item_clusterplatinum",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clustersyrmorite"
+			id: "jaopca:item_clustersyrmorite",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusterthorium"
+			id: "jaopca:item_clusterthorium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clustertitanium"
+			id: "jaopca:item_clustertitanium",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clustertungsten"
+			id: "jaopca:item_clustertungsten",
+			Count: 1b
 		},
 		{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "jaopca:item_clusteruranium"
+			id: "jaopca:item_clusteruranium",
+			Count: 1b
 		},
 		{
 			item: "jaopca:item_clusterzinc"
