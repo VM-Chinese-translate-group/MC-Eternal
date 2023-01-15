@@ -13,8 +13,8 @@ labelPRBasedOnFilePath:
     - .github/**
 
   resource:
-    - resoursepacks/**
-    - resourse/**
+    - resourcepacks/**
+    - resources/**
     - kubejs/assets/**
 
   # Complex: Add 'area/core' label to any change within the 'core' package
@@ -43,11 +43,6 @@ firstPRMergeComment: >
 firstIssueWelcomeComment: >
   欢迎，感谢你为整合包汉化做出的反馈，下次再来，客官您慢走。
   
-# Install dependencies
-npm install
-
-# Run the bot
-npm start
 ###### IssueLink Adder #################################################################################################
 # Insert Issue (Jira/Github etc) link in PR description based on the Issue ID in PR title.
 #insertIssueLinkInPrDescription:
