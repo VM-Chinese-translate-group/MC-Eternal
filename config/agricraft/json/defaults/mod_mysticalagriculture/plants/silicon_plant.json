@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/silicon_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:silicon_plant",
-  "plant_name": "Silicon Crop",
-  "seed_name": "Silicon Seeds",
+  "plant_name": "硅精华株",
+  "seed_name": "硅种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:silicon_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Silicon Seeds."
+    "default": "硅种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

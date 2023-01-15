@@ -1,9 +1,9 @@
 {
-	title: "The cake isn't a lie!",
+	title: "蛋糕不是谎言!",
 	x: 3.0d,
 	y: -6.5d,
 	text: [
-		"What kind of cake do you like?"
+		"你喜欢哪种蛋糕?"
 	],
 	tasks: [{
 		uid: "f5ac5685",

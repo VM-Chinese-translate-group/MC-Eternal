@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "48a519c7",
 		type: "kill",
-		title: "&6&lBounty: Scorpion",
+		title: "&6&l悬赏：蝎",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

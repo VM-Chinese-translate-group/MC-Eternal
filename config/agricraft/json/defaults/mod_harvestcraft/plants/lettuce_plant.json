@@ -3,7 +3,7 @@
   "enabled": true,
   "id": "harvestcraft:lettuce_plant",
   "plant_name": "Lettuce",
-  "seed_name": "Lettuce Seeds",
+  "seed_name": "Lettuce种子",
   "seed_items": [
     {
       "item": "harvestcraft:lettuceseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Lettuce Seeds."
+    "default": "Lettuce种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -1,14 +1,14 @@
 {
 	x: -11.0d,
 	y: -11.0d,
-	description: "&oFire and Ice Dragon Summoning Crystal is an item that can teleport a dragon to you. To do so, right-click on a dragon to bind it and after, use when bound to teleport the dragon by right-clicking.",
+	description: "&o冰与火的唤龙晶石可以将你的龙传送到你身边。那么该如何使用它呢，手持龙晶石右键龙来绑定它，然后，你就可以通过右键晶石将以绑定的龙传送到你身边！",
 	dependencies: [
 		"e375f1be"
 	],
 	tasks: [{
 		uid: "f5c5b40e",
 		type: "item",
-		title: "&lDragon Crystal",
+		title: "&l唤龙晶石",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

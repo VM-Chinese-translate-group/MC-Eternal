@@ -18,7 +18,7 @@
 	tasks: [{
 		uid: "8ff9899e",
 		type: "kill",
-		title: "&c&lNether Bounty: &4Wither Skeleton",
+		title: "&c&l地狱悬赏：&4凋灵骷髅",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/juniperberry_plant.json",
   "enabled": true,
   "id": "harvestcraft:juniperberry_plant",
-  "plant_name": "Juniper Berry",
-  "seed_name": "Juniper Berry Seeds",
+  "plant_name": "杜松子",
+  "seed_name": "杜松子种子",
   "seed_items": [
     {
       "item": "harvestcraft:juniperberryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Juniper Berry Seeds."
+    "default": "杜松子种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

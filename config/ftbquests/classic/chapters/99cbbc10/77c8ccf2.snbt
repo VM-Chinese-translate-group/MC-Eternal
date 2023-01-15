@@ -1,7 +1,7 @@
 {
 	x: -3.5d,
 	y: -3.5d,
-	description: "This book keeps record of everything you've ever eaten and its nutritional values. *It also keeps a record of how close you are to unlocking more hearts*",
+	description: "这本书记录了你吃过的东西及其营养价值。*它还记录了你离加下一颗心要吃多少种美味的食物*",
 	tasks: [{
 		uid: "29a11025",
 		type: "item",

@@ -1,7 +1,7 @@
 {
 	x: 0.5d,
 	y: 0.0d,
-	description: "The Neo-Ratlantean does not spawn normally and must be created by a player. This can be done by throwing a Vial of Consciousness at a Feral Ratlantean.",
+	description: "新·鼠西族不会自然生成，只能被玩家召唤。召唤方法是对野蛮鼠西族使用知性之瓶。",
 	tasks: [{
 		uid: "86f3d522",
 		type: "kill",

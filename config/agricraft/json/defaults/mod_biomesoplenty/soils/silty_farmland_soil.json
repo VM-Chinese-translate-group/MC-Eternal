@@ -2,7 +2,7 @@
   "path": "mod_biomesoplenty/soils/silty_farmland_soil.json",
   "enabled": true,
   "id": "silty_farmland_soil",
-  "name": "Silty Farmland",
+  "name": "淤泥土耕地",
   "varients": [
     {
       "item": "biomesoplenty:farmland_1",

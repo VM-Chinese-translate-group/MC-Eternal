@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/ruby_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:rubyr_plant",
-  "plant_name": "Ruby",
-  "seed_name": "Ruby Seeds",
+  "plant_name": "红宝石精华株",
+  "seed_name": "红宝石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:ruby_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ruby Seeds."
+    "default": "红宝石种子"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

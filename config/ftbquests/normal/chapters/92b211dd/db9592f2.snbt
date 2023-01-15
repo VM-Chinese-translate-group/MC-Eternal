@@ -1,11 +1,11 @@
 {
-	title: "§6MC Eternal - Advanced Rocketry Guide",
+	title: "§6永恒的MC - 高级火箭指南",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "gear",
-	description: "§7§oWritten by §cEmperdog",
+	description: "§7§o作者：§cEmperdog",
 	text: [
-		"The Questline will be a simplified version of this guide, you may want to refer to this guide or the MC Eternal Discord for further help!"
+		"任务线是指南的简化版，你可能会想参考指南或永恒的MC Discord以获得进一步帮助"
 	],
 	can_repeat: true,
 	optional: true,
@@ -16,7 +16,7 @@
 	rewards: [{
 		uid: "710a5909",
 		type: "command",
-		title: "§7§lClick me for the link!",
-		command: "/tellraw @p {\"text\":\"§9§lClick to open a webpage with the Guide you seek.\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gist.github.com/anabsolutesloth/adb7b8a1f081f0f961bff3c25eab755e\"}}"
+		title: "§7§l点我获取链接！",
+		command: "/tellraw @p {\"text\":\"§9§l点击打开网页，它会有你所寻找的指南。\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gist.github.com/anabsolutesloth/adb7b8a1f081f0f961bff3c25eab755e\"}}"
 	}]
 }

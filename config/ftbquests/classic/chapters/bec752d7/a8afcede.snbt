@@ -1,8 +1,11 @@
 {
-	title: "Star-Steel",
+	title: "星辉金属",
 	x: 3.5d,
 	y: -15.0d,
-	description: "&oInfuse Iron to create the mineral of the Stars, and utilize the cosmic potential it carries to create new wonders...",
+	description: "&o为凡铁注入星寰之力，以创造新的金属，并用它承载更为强大的力量",
+	text: [
+		""
+	],
 	dependencies: [
 		"ac1e0498"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -8.5d,
 	y: -1.0d,
-	description: "&oKnees weak!",
+	description: "&o好吃的膝盖一软！",
 	dependencies: [
 		"7eee0151"
 	],

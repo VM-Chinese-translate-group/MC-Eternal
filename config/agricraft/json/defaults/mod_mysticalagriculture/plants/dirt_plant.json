@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/dirt_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:dirt_plant",
-  "plant_name": "Dirt Crop",
-  "seed_name": "Dirt Seeds",
+  "plant_name": "泥土精华株",
+  "seed_name": "泥土种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:dirt_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Dirt Seeds."
+    "default": "泥土种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

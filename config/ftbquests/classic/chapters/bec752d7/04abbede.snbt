@@ -1,8 +1,11 @@
 {
-	title: "Dimensional Rails",
+	title: "维度轨道",
 	x: 28.5d,
 	y: 4.5d,
-	description: "These Rails will teleport Minecarts that pass over them into the Dimension related to the rail! They can't take beings inside the cart with them sadly.",
+	description: "这种特殊的铁轨会将除了乘坐生物之外的矿车传送到对应维度的对应位置，此操作会消耗灵气",
+	text: [
+		""
+	],
 	dependencies: [
 		"cf40c7b4"
 	],

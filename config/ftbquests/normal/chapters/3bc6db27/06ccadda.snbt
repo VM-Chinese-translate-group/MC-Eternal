@@ -1,7 +1,7 @@
 {
 	x: -21.0d,
 	y: 3.5d,
-	description: "All kinds of creatures need food! A Feeder will supply Food for Prehistoric creatures to come and chomp on.",
+	description: "所有生物都需要食物！ 投喂器会给史前生物提供食物来撕咬啃食.",
 	dependencies: [
 		"044435a4"
 	],

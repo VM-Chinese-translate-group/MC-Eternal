@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/sunstone_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:sunstone_plant",
-  "plant_name": "Sunstone Crop",
-  "seed_name": "Sunstone Seeds",
+  "plant_name": "太阳石精华株",
+  "seed_name": "太阳石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:sunstone_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sunstone Seeds."
+    "default": "太阳石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

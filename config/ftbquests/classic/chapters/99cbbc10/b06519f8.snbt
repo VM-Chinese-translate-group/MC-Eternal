@@ -1,8 +1,8 @@
 {
-	title: "Traps and Bait",
+	title: "陷阱和诱饵",
 	x: 6.0d,
 	y: 1.0d,
-	description: "To use the Ground Trap, place the crafted trap in the ground touching at least one grass block on each side of the trap. Same for water trap but ground must be water.",
+	description: "要使用地面陷阱，请将其放在地面上并接触至少一个草方块。渔栅也一样，但需要接触到水。",
 	text: [
 		""
 	],

@@ -1,9 +1,9 @@
 {
-	title: "Taming rats.",
+	title: "驯服老鼠.",
 	x: 4.5d,
 	y: 0.0d,
 	text: [
-		"You can tame rats by feeding them cheese. You can command them to wander, stay, follow, transport items, harvest, gather items and to hunt! Place milk in an cauldron to make a block of cheese."
+		"你可以喂老鼠奶酪来驯服它们。你可以命令他们巡逻，停留，跟随，运输物品，收获，收集物品和狩猎!把牛奶放在炼药锅里就可以做成一块奶酪."
 	],
 	dependencies: [
 		"ea52fe16"

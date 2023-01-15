@@ -2,7 +2,7 @@
 	x: 2.5d,
 	y: -0.5d,
 	shape: "square",
-	description: "These undead sandworms tend to lurk beneath the sand and spit nasty poison at their foes.",
+	description: "这些沙漠蠕虫会潜伏在沙子下面发起攻击，向它们的敌人吐出令人作呕的毒液。",
 	dependencies: [
 		"2afde645"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "0afff876",
 		type: "kill",
-		title: "Bounty: Osvermis",
+		title: "悬赏：蛰髑",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

@@ -1,0 +1,715 @@
+
+#https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/179210793d408b1dff5a92cf0015ca752091e10a/projects/1.12.2/assets/treasure2/treasure2/lang/zh_cn.lang
+
+#chests
+tile.treasure2:wood_chest.name=木宝箱
+tile.treasure2:crate_chest.name=板条箱
+tile.treasure2:crate_chest_moldy.name=老旧的板条箱
+tile.treasure2:ironbound_chest.name=铁板加固的箱子
+tile.treasure2:iron_strongbox.name=铁质保险箱
+tile.treasure2:gold_strongbox.name=金质保险箱
+tile.treasure2:pirate_chest.name=海盗宝箱
+tile.treasure2:safe.name=保险箱
+tile.treasure2:dread_pirate_chest.name=可怖海盗宝箱
+tile.treasure2:compressor_chest.name=压缩箱子
+tile.treasure2:wither_chest.name=凋灵箱子
+tile.treasure2:skull_chest.name=骷髅头箱子
+tile.treasure2:crystal_skull_chest.name=水晶骷髅头箱子
+tile.treasure2:gold_skull_chest.name=黄金骷髅头箱子
+tile.treasure2:cauldron_chest.name=坩埚箱子
+tile.treasure2:spider_chest.name=蜘蛛箱子
+tile.treasure2:viking_chest.name=维京箱子
+tile.treasure2:milk_crate.name=奶瓶箱
+tile.treasure2:cardboard_box.name=纸板箱
+tile.treasure2:wood_mimic.name=木头宝箱怪
+tile.treasure2:pirate_mimic.name=海盗宝箱怪
+
+#wells
+tile.treasure2:wishing_well_block.name=许愿井铸石
+tile.treasure2:desert_wishing_well_block.name=沙漠许愿井铸石
+
+#gravestones
+tile.treasure2:gravestone1_stone.name=石头墓碑
+tile.treasure2:gravestone1_cobblestone.name=圆石墓碑
+tile.treasure2:gravestone1_mossy_cobblestone.name=苔石墓碑
+tile.treasure2:gravestone1_polished_granite.name=花岗岩墓碑
+tile.treasure2:gravestone1_polished_andesite.name=安山岩墓碑
+tile.treasure2:gravestone1_polished_diorite.name=闪长岩墓碑
+tile.treasure2:gravestone1_obsidian.name=黑曜石墓碑
+
+tile.treasure2:gravestone2_stone.name=石头墓碑
+tile.treasure2:gravestone2_cobblestone.name=圆石墓碑
+tile.treasure2:gravestone2_mossy_cobblestone.name=苔石墓碑
+tile.treasure2:gravestone2_polished_granite.name=花岗岩墓碑
+tile.treasure2:gravestone2_polished_andesite.name=安山岩墓碑
+tile.treasure2:gravestone2_polished_diorite.name=闪长岩墓碑
+tile.treasure2:gravestone2_obsidian.name=黑曜石墓碑
+
+tile.treasure2:gravestone3_stone.name=石头墓碑
+tile.treasure2:gravestone3_cobblestone.name=圆石墓碑
+tile.treasure2:gravestone3_mossy_cobblestone.name=苔石墓碑
+tile.treasure2:gravestone3_polished_granite.name=花岗岩墓碑
+tile.treasure2:gravestone3_polished_andesite.name=安山岩墓碑
+tile.treasure2:gravestone3_polished_diorite.name=闪长岩墓碑
+tile.treasure2:gravestone3_obsidian.name=黑曜石墓碑
+
+tile.treasure2:gravestone1_spawner_stone.name=石头墓碑
+tile.treasure2:gravestone2_spawner_cobblestone.name=圆石墓碑
+tile.treasure2:gravestone3_spawner_obsidian.name=黑曜石墓碑
+
+tile.treasure2:skull_and_crossbones.name=骷髅头和骨头
+tile.treasure2:skeleton.name=骷髅
+
+#wither tree
+tile.treasure2:wither_log.name=凋灵木
+tile.treasure2:wither_broken_log.name=缺损的凋灵木
+tile.treasure2:wither_log_soul.name=凋灵木之魂
+tile.treasure2:wither_branch.name=凋灵树枝
+tile.treasure2:wither_root.name=凋灵树根
+tile.treasure2:wither_planks.name=凋灵木板
+
+#ores
+tile.treasure2:amethyst_ore.name=紫水晶矿石
+tile.treasure2:onyx_ore.name=缟玛瑙矿石
+tile.treasure2:sapphire_ore.name=蓝宝石矿石
+tile.treasure2:ruby_ore.name=红宝石矿石
+
+#other
+tile.treasure2:spanish_moss.name=寄生藤
+tile.treasure2:falling_grass.name=草方块
+tile.treasure2:falling_sand.name=沙块
+tile.treasure2:falling_red_sand.name=红沙块
+tile.treasure2:blackstone.name=黑石
+tile.treasure2:jeweler_bench.name=珠宝工作台
+tile.treasure2:charming_table.name=符咒台
+
+#items
+item.treasure2:copper_coin.name=铜币
+item.treasure2:gold_coin.name=金币
+item.treasure2:silver_coin.name=银币
+
+# special adornments
+item.treasure2:angel_blessed.name=天使的保佑
+item.treasure2:fools_coin.name=愚人钱币
+item.treasure2:angels_ring.name=天使之戒
+item.treasure2:bracelet_of_wonder.name=奇迹手镯
+item.treasure2:ring_of_fortitude.name=坚韧之戒
+item.treasure2:gottschs_ring_of_moon.name=戈奇的月亮戒指
+item.treasure2:gottschs_amulet_of_heavens.name=戈奇的天堂护符
+item.treasure2:shadows_gift.name=影子的礼物
+item.treasure2:ring_of_life_death.name=生死之戒
+item.treasure2:miners_friend.name=矿工之友
+item.treasure2:medics_token.name=医生象征
+item.treasure2:salandaars_ward.name=萨尔安达尔的保护
+item.treasure2:dwarven_talisman.name=矮人护符
+item.treasure2:adephagias_bounty.name=阿尔福杰的赏金
+item.treasure2:mirthas_torch.name=米尔达的火炬
+item.treasure2:peasants_fortune.name=农民的财富
+item.treasure2:castle_ring.name=城堡之戒
+item.treasure2:pocket_watch.name=怀表
+
+#铁 adornments
+item.treasure2:iron_ring.name=铁戒指
+item.treasure2:diamond_iron_ring.name=铁钻石戒指
+item.treasure2:emerald_iron_ring.name=铁绿宝石戒指
+item.treasure2:amethyst_iron_ring.name=铁钻石戒指
+item.treasure2:onyx_iron_ring.name=铁缟玛瑙戒指
+item.treasure2:ruby_iron_ring.name=铁红宝石戒指
+item.treasure2:sapphire_iron_ring.name=铁蓝宝石戒指
+item.treasure2:white_pearl_iron_ring.name=铁白色珍珠戒指
+item.treasure2:black_pearl_iron_ring.name=铁黑色珍珠戒指
+
+item.treasure2:great_iron_ring.name=大铁戒指
+item.treasure2:great_diamond_iron_ring.name=大铁钻石戒指
+item.treasure2:great_emerald_iron_ring.name=大铁绿宝石戒指
+item.treasure2:great_amethyst_iron_ring.name=大紫水晶铁戒指
+item.treasure2:great_onyx_iron_ring.name=大缟玛瑙铁戒指
+item.treasure2:great_ruby_iron_ring.name=大铁红宝石戒指
+item.treasure2:great_sapphire_iron_ring.name=大铁蓝宝石戒指
+item.treasure2:great_white_pearl_iron_ring.name=大铁白色珍珠戒指
+item.treasure2:great_black_pearl_iron_ring.name=大铁黑色珍珠戒指
+
+item.treasure2:iron_bracelet.name=铁手镯
+item.treasure2:diamond_iron_bracelet.name=铁钻石手镯
+item.treasure2:emerald_iron_bracelet.name=铁绿宝石手镯
+item.treasure2:amethyst_iron_bracelet.name=铁紫水晶手镯
+item.treasure2:onyx_iron_bracelet.name=铁缟玛瑙手镯
+item.treasure2:ruby_iron_bracelet.name=铁红宝石手镯
+item.treasure2:sapphire_iron_bracelet.name=铁蓝宝石手镯
+item.treasure2:white_pearl_iron_bracelet.name=铁白色珍珠手镯
+item.treasure2:black_pearl_iron_bracelet.name=铁黑色珍珠手镯
+
+item.treasure2:great_iron_bracelet.name=大铁手镯
+item.treasure2:great_diamond_iron_bracelet.name=大铁钻石手镯
+item.treasure2:great_emerald_iron_bracelet.name=大铁绿宝石手镯
+item.treasure2:great_amethyst_iron_bracelet.name=大铁紫水晶手镯
+item.treasure2:great_onyx_iron_bracelet.name=大铁缟玛瑙手镯
+item.treasure2:great_ruby_iron_bracelet.name=大铁红宝石手镯
+item.treasure2:great_sapphire_iron_bracelet.name=大铁蓝宝石手镯
+item.treasure2:great_white_pearl_iron_bracelet.name=大铁白色珍珠手镯
+item.treasure2:great_black_pearl_iron_bracelet.name=大铁黑色珍珠手镯
+
+item.treasure2:iron_necklace.name=铁项链
+item.treasure2:diamond_iron_necklace.name=铁钻石项链
+item.treasure2:emerald_iron_necklace.name=铁绿宝石项链
+item.treasure2:amethyst_iron_necklace.name=铁紫水晶项链
+item.treasure2:onyx_iron_necklace.name=铁缟玛瑙项链
+item.treasure2:ruby_iron_necklace.name=铁红宝石项链
+item.treasure2:sapphire_iron_necklace.name=铁蓝宝石项链
+item.treasure2:white_pearl_iron_necklace.name=铁白色珍珠项链
+item.treasure2:black_pearl_iron_necklace.name=铁黑色珍珠项链
+
+item.treasure2:great_iron_necklace.name=大铁项链
+item.treasure2:great_diamond_iron_necklace.name=大铁钻石项链
+item.treasure2:great_emerald_iron_necklace.name=大铁绿宝石项链
+item.treasure2:great_amethyst_iron_necklace.name=大铁紫水晶项链
+item.treasure2:great_onyx_iron_necklace.name=大铁缟玛瑙项链
+item.treasure2:great_ruby_iron_necklace.name=大铁红宝石项链
+item.treasure2:great_sapphire_iron_necklace.name=大铁蓝宝石项链
+item.treasure2:great_white_pearl_iron_necklace.name=大铁白色珍珠项链
+item.treasure2:great_black_pearl_iron_necklace.name=大铁黑色珍珠项链
+
+# copper adornments
+item.treasure2:copper_ring.name=铜戒指
+item.treasure2:diamond_copper_ring.name=铜钻石戒指
+item.treasure2:emerald_copper_ring.name=铜绿宝石戒指
+item.treasure2:amethyst_copper_ring.name=铜紫水晶戒指
+item.treasure2:onyx_copper_ring.name=铜缟玛瑙戒指
+item.treasure2:ruby_copper_ring.name=铜红宝石戒指
+item.treasure2:sapphire_copper_ring.name=铜蓝宝石戒指
+item.treasure2:white_pearl_copper_ring.name=铜白色珍珠戒指
+item.treasure2:black_pearl_copper_ring.name=铜黑色珍珠戒指
+
+item.treasure2:great_copper_ring.name=大铜戒指
+item.treasure2:great_diamond_copper_ring.name=大铜钻石戒指
+item.treasure2:great_emerald_copper_ring.name=大铜绿宝石戒指
+item.treasure2:great_amethyst_copper_ring.name=大铜紫水晶戒指
+item.treasure2:great_onyx_copper_ring.name=大铜缟玛瑙戒指
+item.treasure2:great_ruby_copper_ring.name=大铜红宝石戒指
+item.treasure2:great_sapphire_copper_ring.name=大铜蓝宝石戒指
+item.treasure2:great_white_pearl_copper_ring.name=大铜白色珍珠戒指
+item.treasure2:great_black_pearl_copper_ring.name=大铜黑色珍珠戒指
+
+item.treasure2:copper_bracelet.name=铜手镯
+item.treasure2:diamond_copper_bracelet.name=铜钻石手镯
+item.treasure2:emerald_copper_bracelet.name=铜绿宝石手镯
+item.treasure2:amethyst_copper_bracelet.name=铜紫水晶手镯
+item.treasure2:onyx_copper_bracelet.name=铜缟玛瑙手镯
+item.treasure2:ruby_copper_bracelet.name=铜红宝石手镯
+item.treasure2:sapphire_copper_bracelet.name=铜蓝宝石手镯
+item.treasure2:white_pearl_copper_bracelet.name=铜白色珍珠手镯
+item.treasure2:black_pearl_copper_bracelet.name=铜黑色珍珠手镯
+
+item.treasure2:great_copper_bracelet.name=大铜手镯
+item.treasure2:great_diamond_copper_bracelet.name=大铜钻石手镯
+item.treasure2:great_emerald_copper_bracelet.name=大铜绿宝石手镯
+item.treasure2:great_amethyst_copper_bracelet.name=大铜紫水晶手镯
+item.treasure2:great_onyx_copper_bracelet.name=大铜缟玛瑙手镯
+item.treasure2:great_ruby_copper_bracelet.name=大铜红宝石手镯
+item.treasure2:great_sapphire_copper_bracelet.name=大铜蓝宝石手镯
+item.treasure2:great_white_pearl_copper_bracelet.name=大铜白色珍珠手镯
+item.treasure2:great_black_pearl_copper_bracelet.name=大铜黑色珍珠手镯
+
+item.treasure2:copper_necklace.name=铜项链
+item.treasure2:diamond_copper_necklace.name=铜钻石项链
+item.treasure2:emerald_copper_necklace.name=铜绿宝石项链
+item.treasure2:amethyst_copper_necklace.name=铜紫水晶项链
+item.treasure2:onyx_copper_necklace.name=铜缟玛瑙项链
+item.treasure2:ruby_copper_necklace.name=铜红宝石项链
+item.treasure2:sapphire_copper_necklace.name=铜蓝宝石项链
+item.treasure2:white_pearl_copper_necklace.name=铜白色珍珠项链
+item.treasure2:black_pearl_copper_necklace.name=铜黑色珍珠项链
+
+item.treasure2:great_copper_necklace.name=大铜项链
+item.treasure2:great_diamond_copper_necklace.name=大铜钻石项链
+item.treasure2:great_emerald_copper_necklace.name=大铜绿宝石项链
+item.treasure2:great_amethyst_copper_necklace.name=大铜紫水晶项链
+item.treasure2:great_onyx_copper_necklace.name=大铜缟玛瑙项链
+item.treasure2:great_ruby_copper_necklace.name=大铜红宝石项链
+item.treasure2:great_sapphire_copper_necklace.name=大铜蓝宝石项链
+item.treasure2:great_white_pearl_copper_necklace.name=大铜白色珍珠项链
+item.treasure2:great_black_pearl_copper_necklace.name=大铜黑色珍珠项链
+
+# silver
+item.treasure2:silver_ring.name=银戒指
+item.treasure2:diamond_silver_ring.name=银钻石戒指
+item.treasure2:emerald_silver_ring.name=银绿宝石戒指
+item.treasure2:amethyst_silver_ring.name=银紫水晶戒指
+item.treasure2:onyx_silver_ring.name=银缟玛瑙戒指
+item.treasure2:ruby_silver_ring.name=银红宝石戒指
+item.treasure2:sapphire_silver_ring.name=银蓝宝石戒指
+item.treasure2:white_pearl_silver_ring.name=银白色珍珠戒指
+item.treasure2:black_pearl_silver_ring.name=银黑色珍珠戒指
+
+item.treasure2:great_silver_ring.name=大银戒指
+item.treasure2:great_diamond_silver_ring.name=大银钻石戒指
+item.treasure2:great_emerald_silver_ring.name=大银绿宝石戒指
+item.treasure2:great_amethyst_silver_ring.name=大银紫水晶戒指
+item.treasure2:great_onyx_silver_ring.name=大银缟玛瑙戒指
+item.treasure2:great_ruby_silver_ring.name=大银红宝石戒指
+item.treasure2:great_sapphire_silver_ring.name=大银蓝宝石戒指
+item.treasure2:great_white_pearl_silver_ring.name=大银白色珍珠戒指
+item.treasure2:great_black_pearl_silver_ring.name=大银黑色珍珠戒指
+
+item.treasure2:silver_bracelet.name=银手镯
+item.treasure2:diamond_silver_bracelet.name=银钻石手镯
+item.treasure2:emerald_silver_bracelet.name=银绿宝石手镯
+item.treasure2:amethyst_silver_bracelet.name=银紫水晶手镯
+item.treasure2:onyx_silver_bracelet.name=银缟玛瑙手镯
+item.treasure2:ruby_silver_bracelet.name=银红宝石手镯
+item.treasure2:sapphire_silver_bracelet.name=银蓝宝石手镯
+item.treasure2:white_pearl_silver_bracelet.name=银白色珍珠手镯
+item.treasure2:black_pearl_silver_bracelet.name=银黑色珍珠手镯
+
+item.treasure2:great_silver_bracelet.name=大银手镯
+item.treasure2:great_diamond_silver_bracelet.name=大银钻石手镯
+item.treasure2:great_emerald_silver_bracelet.name=大银绿宝石手镯
+item.treasure2:great_amethyst_silver_bracelet.name=大银紫水晶手镯
+item.treasure2:great_onyx_silver_bracelet.name=大银缟玛瑙手镯
+item.treasure2:great_ruby_silver_bracelet.name=大银红宝石手镯
+item.treasure2:great_sapphire_silver_bracelet.name=大银蓝宝石手镯
+item.treasure2:great_white_pearl_silver_bracelet.name=大银白色珍珠手镯
+item.treasure2:great_black_pearl_silver_bracelet.name=大银黑色珍珠手镯
+
+item.treasure2:silver_necklace.name=银项链
+item.treasure2:diamond_silver_necklace.name=银钻石项链
+item.treasure2:emerald_silver_necklace.name=银绿宝石项链
+item.treasure2:amethyst_silver_necklace.name=银紫水晶项链
+item.treasure2:onyx_silver_necklace.name=银缟玛瑙项链
+item.treasure2:ruby_silver_necklace.name=银红宝石项链
+item.treasure2:sapphire_silver_necklace.name=银蓝宝石项链
+item.treasure2:white_pearl_silver_necklace.name=银白色珍珠项链
+item.treasure2:black_pearl_silver_necklace.name=银黑色珍珠项链
+
+item.treasure2:great_silver_necklace.name=大银项链
+item.treasure2:great_diamond_silver_necklace.name=大银钻石项链
+item.treasure2:great_emerald_silver_necklace.name=大银绿宝石项链
+item.treasure2:great_amethyst_silver_necklace.name=大银紫水晶项链
+item.treasure2:great_onyx_silver_necklace.name=大银缟玛瑙项链
+item.treasure2:great_ruby_silver_necklace.name=大银红宝石项链
+item.treasure2:great_sapphire_silver_necklace.name=大银蓝宝石项链
+item.treasure2:great_white_pearl_silver_necklace.name=大银白色珍珠项链
+item.treasure2:great_black_pearl_silver_necklace.name=大银黑色珍珠项链
+
+item.treasure2:silver_signet_ring.name=银图章戒指
+
+# gold
+item.treasure2:gold_ring.name=金戒指
+item.treasure2:diamond_gold_ring.name=金钻石戒指
+item.treasure2:emerald_gold_ring.name=金绿宝石戒指
+item.treasure2:amethyst_gold_ring.name=金紫水晶戒指
+item.treasure2:onyx_gold_ring.name=金缟玛瑙戒指
+item.treasure2:ruby_gold_ring.name=金红宝石戒指
+item.treasure2:sapphire_gold_ring.name=金蓝宝石戒指
+item.treasure2:white_pearl_gold_ring.name=金白色珍珠戒指
+item.treasure2:black_pearl_gold_ring.name=金黑色珍珠戒指
+
+item.treasure2:great_gold_ring.name=大金戒指
+item.treasure2:great_diamond_gold_ring.name=大金钻石戒指
+item.treasure2:great_emerald_gold_ring.name=大金绿宝石戒指
+item.treasure2:great_amethyst_gold_ring.name=大紫水晶金戒指
+item.treasure2:great_onyx_gold_ring.name=大缟玛瑙金戒指
+item.treasure2:great_ruby_gold_ring.name=大金红宝石戒指
+item.treasure2:great_sapphire_gold_ring.name=大金蓝宝石戒指
+item.treasure2:great_white_pearl_gold_ring.name=大金白色珍珠戒指
+item.treasure2:great_black_pearl_gold_ring.name=大金黑色珍珠戒指
+
+item.treasure2:gold_bracelet.name=金手镯
+item.treasure2:diamond_gold_bracelet.name=金钻石手镯
+item.treasure2:emerald_gold_bracelet.name=金绿宝石手镯
+item.treasure2:amethyst_gold_bracelet.name=金紫水晶手镯
+item.treasure2:onyx_gold_bracelet.name=金缟玛瑙手镯
+item.treasure2:ruby_gold_bracelet.name=金红宝石手镯
+item.treasure2:sapphire_gold_bracelet.name=金蓝宝石手镯
+item.treasure2:white_pearl_gold_bracelet.name=金白色珍珠手镯
+item.treasure2:black_pearl_gold_bracelet.name=金黑色珍珠手镯
+
+item.treasure2:great_gold_bracelet.name=大金手镯
+item.treasure2:great_diamond_gold_bracelet.name=大金钻石手镯
+item.treasure2:great_emerald_gold_bracelet.name=大金绿宝石手镯
+item.treasure2:great_amethyst_gold_bracelet.name=大金紫水晶手镯
+item.treasure2:great_onyx_gold_bracelet.name=大金缟玛瑙手镯
+item.treasure2:great_ruby_gold_bracelet.name=大金红宝石手镯
+item.treasure2:great_sapphire_gold_bracelet.name=大金蓝宝石手镯
+item.treasure2:great_white_pearl_gold_bracelet.name=大金白色珍珠手镯
+item.treasure2:great_black_pearl_gold_bracelet.name=大金黑色珍珠手镯
+
+item.treasure2:gold_necklace.name=金项链
+item.treasure2:diamond_gold_necklace.name=金钻石项链
+item.treasure2:emerald_gold_necklace.name=金绿宝石项链
+item.treasure2:amethyst_gold_necklace.name=金紫水晶项链
+item.treasure2:onyx_gold_necklace.name=金缟玛瑙项链
+item.treasure2:ruby_gold_necklace.name=金红宝石项链
+item.treasure2:sapphire_gold_necklace.name=金蓝宝石项链
+item.treasure2:white_pearl_gold_necklace.name=金白色珍珠项链
+item.treasure2:black_pearl_gold_necklace.name=金黑色珍珠项链
+
+item.treasure2:great_gold_necklace.name=大金项链
+item.treasure2:great_diamond_gold_necklace.name=大金钻石项链
+item.treasure2:great_emerald_gold_necklace.name=大金绿宝石项链
+item.treasure2:great_amethyst_gold_necklace.name=大金紫水晶项链
+item.treasure2:great_onyx_gold_necklace.name=大金缟玛瑙项链
+item.treasure2:great_ruby_gold_necklace.name=大金红宝石项链
+item.treasure2:great_sapphire_gold_necklace.name=大金蓝宝石项链
+item.treasure2:great_white_pearl_gold_necklace.name=大金白色珍珠项链
+item.treasure2:great_black_pearl_gold_necklace.name=大金黑色珍珠项链
+
+# blood
+item.treasure2:great_blood_ring.name=大血色戒指
+item.treasure2:great_diamond_blood_ring.name=大血色钻石戒指
+item.treasure2:great_emerald_blood_ring.name=大血色绿宝石戒指
+item.treasure2:great_amethyst_blood_ring.name=大血色紫水晶戒指
+item.treasure2:great_onyx_blood_ring.name=大血色缟玛瑙戒指
+item.treasure2:great_ruby_blood_ring.name=大血色红宝石戒指
+item.treasure2:great_sapphire_blood_ring.name=大血色蓝宝石戒指
+item.treasure2:great_white_pearl_blood_ring.name=大血色白色珍珠戒指
+item.treasure2:great_black_pearl_blood_ring.name=大血色黑色珍珠戒指
+
+item.treasure2:great_blood_necklace.name=大血色项链
+item.treasure2:great_diamond_blood_necklace.name=大血色钻石项链
+item.treasure2:great_emerald_blood_necklace.name=大血色绿宝石项链
+item.treasure2:great_amethyst_blood_necklace.name=大血色紫水晶项链
+item.treasure2:great_onyx_blood_necklace.name=大血色缟玛瑙项链
+item.treasure2:great_ruby_blood_necklace.name=大血色红宝石项链
+item.treasure2:great_sapphire_blood_necklace.name=大血色蓝宝石项链
+item.treasure2:great_white_pearl_blood_necklace.name=大血色白色珍珠项链
+item.treasure2:great_black_pearl_blood_necklace.name=大血色黑色珍珠项链
+
+item.treasure2:great_blood_bracelet.name=大血色手镯
+item.treasure2:great_diamond_blood_bracelet.name=大血色钻石手镯
+item.treasure2:great_emerald_blood_bracelet.name=大血色绿宝石手镯
+item.treasure2:great_amethyst_blood_bracelet.name=大血色紫水晶手镯
+item.treasure2:great_onyx_blood_bracelet.name=大血色缟玛瑙手镯
+item.treasure2:great_ruby_blood_bracelet.name=大血色红宝石手镯
+item.treasure2:great_sapphire_blood_bracelet.name=大血色蓝宝石手镯
+item.treasure2:great_white_pearl_blood_bracelet.name=大血色白色珍珠手镯
+item.treasure2:great_black_pearl_blood_bracelet.name=大血色黑色珍珠手镯
+
+# black
+item.treasure2:great_black_ring.name=大阴影戒指
+item.treasure2:great_diamond_black_ring.name=大阴影钻石戒指
+item.treasure2:great_emerald_black_ring.name=大阴影绿宝石戒指
+item.treasure2:great_amethyst_black_ring.name=大阴影紫水晶戒指
+item.treasure2:great_onyx_black_ring.name=大阴影缟玛瑙戒指
+item.treasure2:great_ruby_black_ring.name=大阴影红宝石戒指
+item.treasure2:great_sapphire_black_ring.name=大阴影蓝宝石戒指
+item.treasure2:great_white_pearl_black_ring.name=大阴影白色珍珠戒指
+item.treasure2:great_black_pearl_black_ring.name=大阴影黑色珍珠戒指
+
+item.treasure2:great_black_necklace.name=大阴影项链
+item.treasure2:great_diamond_black_necklace.name=大阴影钻石项链
+item.treasure2:great_emerald_black_necklace.name=大阴影绿宝石项链
+item.treasure2:great_amethyst_black_necklace.name=大阴影紫水晶项链
+item.treasure2:great_onyx_black_necklace.name=大阴影缟玛瑙项链
+item.treasure2:great_ruby_black_necklace.name=大阴影红宝石项链
+item.treasure2:great_sapphire_black_necklace.name=大阴影蓝宝石项链
+item.treasure2:great_white_pearl_black_necklace.name=大阴影白色珍珠项链
+item.treasure2:great_black_pearl_black_necklace.name=大阴影黑色珍珠项链
+
+item.treasure2:great_black_bracelet.name=大阴影手镯
+item.treasure2:great_diamond_black_bracelet.name=大阴影钻石手镯
+item.treasure2:great_emerald_black_bracelet.name=大阴影绿宝石手镯
+item.treasure2:great_amethyst_black_bracelet.name=大阴影紫水晶手镯
+item.treasure2:great_onyx_black_bracelet.name=大阴影缟玛瑙手镯
+item.treasure2:great_ruby_black_bracelet.name=大阴影红宝石手镯
+item.treasure2:great_sapphire_black_bracelet.name=大阴影蓝宝石手镯
+item.treasure2:great_white_pearl_black_bracelet.name=大阴影白色珍珠手镯
+item.treasure2:great_black_pearl_black_bracelet.name=大阴影黑色珍珠手镯
+
+# pouch
+item.treasure2:pouch.name=币袋
+
+# keys
+item.treasure2:key_ring.name=钥匙环
+item.treasure2:wood_key.name=木钥匙
+item.treasure2:stone_key.name=石头钥匙
+item.treasure2:ember_key.name=烬火钥匙
+item.treasure2:leaf_key.name=翠叶钥匙
+item.treasure2:lightning_key.name=雷电钥匙
+item.treasure2:iron_key.name=铁钥匙
+item.treasure2:gold_key.name=金钥匙
+item.treasure2:diamond_key.name=钻石钥匙
+item.treasure2:emerald_key.name=绿宝石钥匙
+item.treasure2:ruby_key.name=红宝石钥匙
+item.treasure2:sapphire_key.name=绿宝石钥匙
+item.treasure2:jewelled_key.name=镶宝石钥匙
+item.treasure2:metallurgists_key.name=冶金学家的钥匙
+item.treasure2:skeleton_key.name=骷髅钥匙
+item.treasure2:spider_key.name=蜘蛛钥匙
+item.treasure2:wither_key.name=凋灵钥匙
+item.treasure2:shucking_knife.name=剥壳刀
+
+item.treasure2:wood_lock.name=木锁
+item.treasure2:stone_lock.name=石头锁
+item.treasure2:ember_lock.name=烬火锁
+item.treasure2:leaf_lock.name=翠叶锁
+item.treasure2:lightning_lock.name=雷电锁
+item.treasure2:iron_lock.name=铁锁
+item.treasure2:gold_lock.name=金锁
+item.treasure2:diamond_lock.name=钻石锁
+item.treasure2:emerald_lock.name=绿宝石锁
+item.treasure2:ruby_lock.name=红宝石锁
+item.treasure2:sapphire_lock.name=蓝宝石锁
+item.treasure2:spider_lock.name=蜘蛛锁
+item.treasure2:wither_lock.name=凋灵锁
+
+item.treasure2:wither_stick_item.name=凋灵树枝
+item.treasure2:wither_root_item.name=凋灵树根
+item.treasure2:pilferers_lock_pick.name=盗贼撬锁工具
+item.treasure2:thiefs_lock_pick.name=小偷撬锁工具
+
+item.treasure2:painting_blocks_bricks.name=o2xygeno的砖块
+item.treasure2:painting_blocks_cobblestone.name=o2xygeno的圆石
+item.treasure2:painting_blocks_dirt.name=o2xygeno的泥土
+item.treasure2:painting_blocks_lava.name=o2xygeno的熔岩
+item.treasure2:painting_blocks_sand.name=o2xygeno的沙子
+item.treasure2:painting_blocks_water.name=o2xygeno的水
+item.treasure2:painting_blocks_wood.name=o2xygeno的木头
+
+item.treasure2:eye_patch.name=眼罩
+item.treasure2:skull_sword.name=骷髅剑
+item.treasure2:spanish_moss.name=寄生藤
+item.treasure2:amethyst.name=紫水晶
+item.treasure2:onyx.name=缟玛瑙
+item.treasure2:sapphire.name=蓝宝石
+item.treasure2:ruby.name=红宝石
+item.treasure2:skeleton.name=骷髅
+item.treasure2:white_pearl.name=白色珍珠
+item.treasure2:black_pearl.name=黑色珍珠
+item.treasure2:copper_charm.name=铜符咒
+item.treasure2:silver_charm.name=银符咒
+item.treasure2:gold_charm.name=金符咒
+item.treasure2:amethyst_charm.name=紫水晶符咒
+item.treasure2:onyx_charm.name=缟玛瑙符咒
+item.treasure2:diamond_charm.name=钻石符咒
+item.treasure2:emerald_charm.name=绿宝石符咒
+item.treasure2:ruby_charm.name=红宝石符咒
+item.treasure2:sapphire_charm.name=蓝宝石符咒
+item.treasure2:legendary_charm.name=传说符咒
+item.treasure2:mythical_charm.name=神话符咒
+item.treasure2:charm_book.name=符咒之书
+item.treasure2:anvil_runestone.name=符文砧
+item.treasure2:mana_runestone.name=魔力符石
+item.treasure2:greater_mana_runestone.name=法力无边符石
+item.treasure2:durability_runestone.name=耐久符石
+item.treasure2:quality_runestone.name=品质符石
+item.treasure2:equip_mana_runestone.name=装备魔力符石
+item.treasure2:angels_runestone.name=天使祝福神器
+item.treasure2:persistence_runestone.name=持久符石
+item.treasure2:sockets_runestone.name=容量符石
+item.treasure2:double_charge_runestone.name=双重能量符石
+
+item.treasure2:treasure_tool.name=寻宝工具
+
+#entities
+entity.wood_mimic.name=木宝箱怪
+entity.pirate_mimic.name=海盗宝箱怪
+entity.bound_soul.name=地缚灵
+
+#groups
+itemGroup.treasure2:treasure_tab=寻宝记2！
+itemGroup.treasure2:adornments_tab=寻宝记2！丨饰品
+
+# string resources
+tooltip.indent1= %s
+tooltip.indent2=  %s
+tooltip.indent3=   %s
+tooltip.indent4=    %s
+tooltip.yes=是
+tooltip.no=否
+tooltip.label.rarity=稀有度: %s
+tooltip.label.category=类别: %s
+tooltip.label.uses=剩余使用数: [%s/%s]
+tooltip.label.max_uses=基础最大使用数: %s
+tooltip.label.effective_max_uses=增益最大使用数: %s
+tooltip.label.remaining_uses=剩余使用数: %s
+tooltip.label.breakable=可破坏: %s
+tooltip.label.craftable=可合成: %s
+tooltip.label.damageable=可损坏: %s
+tooltip.label.specials=特性: %s
+tooltip.label.accepts_keys=钥匙索引:
+tooltip.label.wishable=许愿井信物
+tooltip.label.gem=扔到许愿井，可以用于升级符咒，或用于升级饰品
+tooltip.label.key_ring=收纳钥匙的容器
+tooltip.label.pouch=存放小且贵重的物品——硬币、宝石、符咒等。
+tooltip.label.treasure_tool=用以合成钥匙及撬锁工具
+tooltip.label.charmable=用铁砧在槽位中镶嵌符咒
+
+tooltip.label.max_locks=最大装锁数: %s
+tooltip.label.container_size=物品容量: %s
+
+tooltip.durability.amount=耐久度: [%s/%s]
+tooltip.durability.amount.infinite=耐久度: 无限
+tooltip.durability.repairs=R[%s/%s]
+tooltip.charm.recharges=R[%s/%s]
+tooltip.charmable.usage=手持或绑定在饰品上
+tooltip.charmable.usage.adornment=存放于硬币袋、快捷栏或持握于手中以激活增益
+tooltip.runestones.usage=与砧座上的饰品结合，用于增强
+tooltip.charm_book.usage=用于将符咒灌输到符咒物上。
+tooltip.charmable.slots=容量: [%s/%s]
+tooltip.charmable.slots.stats=[%s/%s]
+tooltip.charmable.inventory.innate=[天生] 
+tooltip.charmable.inventory.imbue=[灌输] 
+tooltip.charmable.inventory.socket=[插孔] 
+
+tooltip.label.charms=符咒: 最大。等级 [%s]
+tooltip.label.charms.no_level=符咒:
+
+tooltip.charm.type.aegis=庇护
+tooltip.charm.type.cheat_death=诈死
+tooltip.charm.type.drain=引流
+tooltip.charm.type.fire_immunity=火免
+tooltip.charm.type.fire_resistence=抗火
+tooltip.charm.type.greater_healing=高级治疗
+tooltip.charm.type.healing=治疗
+tooltip.charm.type.illumination=照明
+tooltip.charm.type.life_strike=生命狩猎
+tooltip.charm.type.reflection=反弹
+tooltip.charm.type.satiety=饱食
+tooltip.charm.type.shielding=屏障
+tooltip.charm.type.decay=衰退
+tooltip.charm.type.decrepit=衰老
+tooltip.charm.type.dirt_fill=泥土
+tooltip.charm.type.dirt_walk=泥土
+tooltip.charm.type.ruin=毁坏
+
+tooltip.charm.level=%s %s
+	
+tooltip.charm.rate.aegis=吸收所有伤害
+tooltip.charm.rate.cheat_death=防止因致命伤害致死
+tooltip.charm.rate.drain=使 %s 格半径内的生物受伤 0.5 心 / 5 秒 
+tooltip.charm.rate.fire_resistence=吸收 %s% 火伤的
+tooltip.charm.rate.fire_immunity=吸收所有火伤
+tooltip.charm.rate.healing=治愈 %s 心 / %s 秒
+tooltip.charm.rate.greater_healing=治愈 1 心 / %s 秒
+tooltip.charm.rate.illumination=每 5 秒点亮一次周围
+tooltip.charm.rate.life_strike=造成对方 %s% 的伤害恢复 1 颗心
+tooltip.charm.rate.reflection=反弹 %s 格半径内的 %s% 所有伤害
+tooltip.charm.rate.satiety=恢复 0.5 饥饿度 / %s 秒
+tooltip.charm.rate.shielding=吸收 %s% 的伤害
+tooltip.charm.rate.decay=你的血量腐朽 %s 心 / %s 秒
+tooltip.charm.rate.decrepit=每次攻击多受到 %s% 的伤害
+tooltip.charm.rate.ruin=你的装备损坏 %s 耐久 / %s 秒
+tooltip.charm.uses_gauge=[%s/%s]
+tooltip.charm.cooldown.meter=%s 秒
+
+tooltip.adornment.type.ring=戒指
+tooltip.adornment.type.necklace=项链
+tooltip.adornment.type.bracelet=手镯
+tooltip.adornment.upgradable=(可升级)
+
+// TODO rename to rune.treasure2:...
+# runestone (typically but not necessary the same as the runestone item)
+runestone.treasure2:anvil_rune.name=砧符文
+runestone.treasure2:mana_rune.name=魔力符文
+runestone.treasure2:greater_mana_rune.name=法力无边符文
+runestone.treasure2:durability_rune.name=耐久符文
+runestone.treasure2:quality_rune.name=品质符文
+runestone.treasure2:equip_mana_rune.name=装备魔力符文
+runestone.treasure2:angels_rune.name=天使祝福符文
+runestone.treasure2:persistence_rune.name=持久符文
+runestone.treasure2:sockets_rune.name=容量符文
+runestone.treasure2:double_charge_rune.name=双重能量祝福
+
+tooltip.runestones.title=符石:
+tooltip.runestones.effects=符文效果:
+tooltip.runestones.inventory.socket=[插孔] 
+tooltip.runestones.slots=容量: [%s/%s]
+
+# runestone lore
+tooltip.runestone.lore.anvil_rune=Adds Infinite durability to the adornment.
+tooltip.runestone.lore.mana_rune=Adds 25% mana to all charms.
+tooltip.runestone.lore.greater_mana_rune=Adds 50% mana to all charms.
+tooltip.runestone.lore.durability_rune=Adds 25% durability to the adornment.
+tooltip.runestone.lore.quality_rune=Adds 25% effect (damange, healing, etc) to all charms.
+tooltip.runestone.lore.equip_mana_rune=Reduces random armor/equipment durability at 2x cost instead of mana.
+tooltip.runestone.lore.angels_rune=Adds 2x mana to all Healing and Shielding charms.\nAdds Infinite durability.
+tooltip.runestone.lore.persistence_rune=Removes Curse of Vanishing from adornment.
+tooltip.runestone.lore.sockets_rune=Adds an extra charm socket slot to the adornment.
+tooltip.runestone.lore.double_charge_rune=Doubles the recharges of all charms.
+
+tooltip.ember_key.specials=会毁坏木锁
+tooltip.ember_lock.specials=会毁坏包括烬火钥匙和雷电钥匙在内的所有钥匙，无视其本身是否可被毁坏
+tooltip.metallurgists_key.specials=可打开所有类别为METALS的锁
+tooltip.skeleton_key.specials=可打开除凋零锁以外所有稀有度为COMMON、UNCOMMON、SCARCE和RARE的锁
+tooltip.lightning_key.specials=打开ELEMENTAL类别中的任何锁
+tooltip.pilferers_lock_pick.specials=可尝试撬开稀有度为 COMMON（概率：%s%%）与UNCOMMON（概率：%s%%）的锁
+tooltip.thiefs_lock_pick.specials=可尝试撬开稀有度为COMMON（概率：%s%%）、UNCOMMON（概率：%s%%）与SCARCE（概率：%s%%）的锁
+tooltip.jewelled_key.specials=可打开所有类别为GEMS的锁
+
+# charm uses gauge
+tooltip.charm.uses_gauge=[%s/%s]
+
+# charm levels (general)
+tooltip.charm.prefix.level1=次等
+tooltip.charm.prefix.level2=普通
+tooltip.charm.prefix.level3=优等
+tooltip.charm.prefix.level4=特大
+tooltip.charm.prefix.level5=超大
+tooltip.charm.prefix.level6=巨大
+tooltip.charm.prefix.level8=浩大
+tooltip.charm.prefix.level9=极大
+tooltip.charm.prefix.level10=庞大
+
+tooltip.charm.suffix.level11=来自利维坦
+tooltip.charm.suffix.level12=来自魔神
+tooltip.charm.suffix.level13=来自鲸鱼
+tooltip.charm.suffix.level20=来自月亮
+tooltip.charm.suffix.level99=来自鲸鱼
+
+# charm levels (shielding)
+tooltip.charm.shielding.prefix.level1=耐用的
+tooltip.charm.shielding.prefix.level2=厚实的
+tooltip.charm.shielding.prefix.level3=硬化的
+tooltip.charm.shielding.prefix.level4=壮力的
+
+tooltip.charm.gottschs_ring_of_moon.special=限量版：Treasure2 400万月下载奖励。
+tooltip.charm.gottschs_amulet_of_heavens.special=限量版：Treasure2 500万月下载奖励。
+tooltip.painting.name=%s
+tooltip.painting.collection=集合: %s
+tooltip.painting.issue=问题: %s/%s
+tooltip.painting.artist=由 %s
+
+tooltip.jeweler_bench.usage=用于修改饰品。
+tooltip.jeweler_bench.usage1=将饰品和宝石放在第一排，升级饰品。
+tooltip.jeweler_bench.usage2=将饰品放在第二排，破坏宝石并保留饰品。
+tooltip.jeweler_bench.usage3=将饰品放在第三排，破坏饰品并保留宝石。
+tooltip.jeweler_bench.note=如果饰品的新的最高等级低于当前的符咒，你可能会失去符咒。
+
+tooltip.charming_table.usage=用于修改饰品上的符咒和符文。
+tooltip.charming_table.usage1=在第一排放置饰品和符咒/符石，将符咒/符石添加到饰品上。
+tooltip.charming_table.usage2=将寻宝工具放置在任何带有符咒/符文的一排，以移除饰品上的符咒/符文。
+tooltip.charming_table.usage3=在允许的情况下，将有效宝石/物品放置在任何符咒行中以充能宝石。
+tooltip.charming_table.note=如果某些符文被移除，你可能会失去符咒（例如符咒容量符文）。
+
+#gui
+display.wood_chest.name=木箱子
+display.crate_chest.name=板条箱
+display.crate_chest_moldy.name=老旧的板条箱
+display.ironbound_chest.name=铁钉箱
+display.pirate_chest.name=海盗宝箱
+display.iron_strongbox.name=铁质保险箱
+display.gold_strongbox.name=金质保险箱
+display.safe.name=保险箱
+display.dread_pirate_chest.name=可怖海盗宝箱
+display.compressor_chest.name=压缩箱子
+display.wither_chest.name=凋灵箱子
+display.skull_chest.name=骷髅头箱子
+display.gold_skull_chest.name=金质骷髅头箱子
+display.cauldron_chest.name=坩埚箱子
+display.spider_chest.name=蜘蛛箱子
+display.viking_chest.name=维京箱子
+display.cardboard_box.name=纸板箱
+display.milk_crate.name=奶瓶箱
+display.crystal_skull_chest.name=水晶骷髅头箱子
+display.jeweler_bench.name=珠宝工作台
+display.jeweler_bench.cost=消耗: %s
+display.charming_table.name=符咒台
+display.charming_table.charms=可修改的符咒:
+display.charming_table.runes=可修改的符文:
+display.charming_table.cost=消耗: %s
+
+#chat messages
+chat.key_break=你的钥匙在开锁时坏了！
+chat.key_not_fit=你的钥匙不适合这把锁！
+chat.key_unable_unlock=你的钥匙无法开锁！

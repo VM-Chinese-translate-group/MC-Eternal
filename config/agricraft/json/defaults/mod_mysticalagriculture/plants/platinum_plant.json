@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/platinum_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:platinum_plant",
-  "plant_name": "Platinum Crop",
-  "seed_name": "Platinum Seeds",
+  "plant_name": "铂精华株",
+  "seed_name": "铂种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:platinum_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Platinum Seeds."
+    "default": "铂种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

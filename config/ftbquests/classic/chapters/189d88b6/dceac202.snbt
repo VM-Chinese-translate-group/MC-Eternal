@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: -3.0d,
-	description: "&oA Raven can be tamed by feeding them Spider Eye, or Fermented Spider Eye, with 1?3 chance of success. Once tamed, interacting with a Raven when holding a Stick will make it sit down and stand up.",
+	description: "&o你可以通过喂食蜘蛛眼或发酵蜘蛛眼来驯服乌鸦，有1/3的机率驯服成功。当它被驯服后，你可以拿着棍子右键乌鸦以让它坐下或站起。",
 	text: [
 		"A tamed Raven on the ground can be made to perch on its player's head by moving through the Raven. Players with Raven perching will have their falling speed decreased by 50% and neglect any falling damage."
 	],

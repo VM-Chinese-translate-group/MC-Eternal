@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/alumite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:alumite_plant",
-  "plant_name": "Alumite Crop",
-  "seed_name": "Alumite Seeds",
+  "plant_name": "耐酸铝精华株",
+  "seed_name": "耐酸铝种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:alumite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Alumite Seeds."
+    "default": "耐酸铝种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

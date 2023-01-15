@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/amaranth_plant.json",
   "enabled": true,
   "id": "harvestcraft:amaranth_plant",
-  "plant_name": "Amaranth",
-  "seed_name": "Amaranth Seeds",
+  "plant_name": "苋菜",
+  "seed_name": "苋菜种子",
   "seed_items": [
     {
       "item": "harvestcraft:amaranthseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Amaranth Seeds."
+    "default": "苋菜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

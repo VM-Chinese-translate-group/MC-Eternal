@@ -2,12 +2,12 @@
   "path": "vanilla/plants/pink_tulip_plant.json",
   "enabled": true,
   "id": "vanilla:pink_tulip_plant",
-  "plant_name": "Pink Tulip",
-  "seed_name": "Pink Tulip Seeds",
+  "plant_name": "粉色郁金香",
+  "seed_name": "粉色郁金香种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A pink varient of the perrenial tulip plant. The plant is valued mostly for its distinctive blooms."
+    "default": "郁金香以四季长久著称，粉色郁金香是郁金香的粉色变种。因其花朵与众不同，故拥有一定美学价值。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

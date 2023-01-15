@@ -2,7 +2,7 @@
 	x: -4.5d,
 	y: -0.5d,
 	shape: "square",
-	description: "The homicidal rush-mob, the Vindicator - lurching at you from the dark recesses of the woodland mansion, axe raised high",
+	description: "他，是杀人的急行军。他，是来自林地府邸黑暗角落中的复仇者。他，正在高高地举起斧子，恶狠狠地向你冲来……",
 	dependencies: [
 		"05ce51d7"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "416c359c",
 		type: "kill",
-		title: "Bounty: Vindicator",
+		title: "悬赏：卫道士",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

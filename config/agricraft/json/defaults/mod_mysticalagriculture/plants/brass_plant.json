@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/brass_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:brass_plant",
-  "plant_name": "Brass Crop",
-  "seed_name": "Brass Seeds",
+  "plant_name": "黄铜精华株",
+  "seed_name": "黄铜种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:brass_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Brass Seeds."
+    "default": "黄铜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

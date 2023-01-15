@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/manyullyn_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:manyullyn_plant",
-  "plant_name": "Manyullyn Crop",
-  "seed_name": "Manyullyn Seeds",
+  "plant_name": "玛玉灵精华株",
+  "seed_name": "玛玉灵种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:manyullyn_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Manyullyn Seeds."
+    "default": "玛玉灵种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

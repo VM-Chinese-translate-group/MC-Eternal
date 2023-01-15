@@ -2,9 +2,9 @@
 	title: "Zzzzz",
 	x: -14.5d,
 	y: -1.5d,
-	description: "/sethome allows for fast travel back to your cozy home!",
+	description: "/sethome指令可以允许你使用其他指令快速回到家!",
 	text: [
-		"/home to warp home"
+		"/home以回到家"
 	],
 	min_required_dependencies: 1,
 	dependencies: [

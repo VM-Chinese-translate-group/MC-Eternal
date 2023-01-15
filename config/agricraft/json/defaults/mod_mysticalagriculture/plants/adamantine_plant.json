@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/adamantine_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:adamantine_plant",
-  "plant_name": "Adamantine Crop",
-  "seed_name": "Adamantine Seeds",
+  "plant_name": "艾德曼合金精华株",
+  "seed_name": "艾德曼合金种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:adamantine_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Adamantine Seeds."
+    "default": "艾德曼合金种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

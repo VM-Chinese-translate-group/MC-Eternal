@@ -1,5 +1,5 @@
 {
-	title: "Common Lootbox",
+	title: "普通战利品箱",
 	icon: "treasure2:ironbound_chest",
 	loot_size: 1,
 	rewards: [{
@@ -1462,7 +1462,7 @@
 			tag: {
 				Color: 10,
 				display: {
-					Name: "Adam's Backpack"
+					Name: "Adam 的背包"
 				}
 			}
 		},

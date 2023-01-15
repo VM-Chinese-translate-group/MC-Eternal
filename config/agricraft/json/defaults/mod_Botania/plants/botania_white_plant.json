@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_white_plant.json",
   "enabled": true,
   "id": "botania:white_flower_plant",
-  "plant_name": "Mystical White Flower",
-  "seed_name": "Mystical White Seeds",
+  "plant_name": "白色神秘花",
+  "seed_name": "白色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A purely divine flower."
+    "default": "一株纯洁神圣的花。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

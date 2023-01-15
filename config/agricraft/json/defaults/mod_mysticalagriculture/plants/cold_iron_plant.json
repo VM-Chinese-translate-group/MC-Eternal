@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/cold_iron_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:cold_iron_plant",
-  "plant_name": "Cold-Iron Crop",
-  "seed_name": "Cold-Iron Seeds",
+  "plant_name": "寒铁精华株",
+  "seed_name": "寒铁种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:cold_iron_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Cold-Iron Seeds."
+    "default": "寒铁种子"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

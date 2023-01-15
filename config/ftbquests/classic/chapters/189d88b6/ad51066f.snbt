@@ -2,14 +2,14 @@
 	x: -11.0d,
 	y: -8.0d,
 	shape: "diamond",
-	description: "Interacting with a pixie with a jar in your hand will capture the pixie, dropping a jar with the pixie inside. Players can then place this jar, and, as soon as the pixie inside sits down, collect pixie dust from it. ",
+	description: "手持广口瓶右键小精灵，然后小精灵会被捕捉并变成一个装着小精灵的广口瓶掉落物。然后你可以把这个瓶子放在地上等待它生产，当里面的小精灵坐下来后，右键瓶子就可以从里面收集精灵尘。",
 	dependencies: [
 		"a9d286cd"
 	],
 	tasks: [{
 		uid: "dc1b42fb",
 		type: "advancement",
-		title: "Trap a Pixie in a jar",
+		title: "将一支小精灵囚禁在瓶子中",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

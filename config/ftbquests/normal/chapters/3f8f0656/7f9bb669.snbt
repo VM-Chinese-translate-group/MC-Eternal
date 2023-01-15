@@ -2,7 +2,7 @@
 	title: "Misc. Alloys",
 	x: 10.5d,
 	y: 4.5d,
-	description: "Required Alloys to craft/upgrade machines",
+	description: "需要合金去制作/升级机械",
 	dependencies: [
 		"3fd484fc"
 	],

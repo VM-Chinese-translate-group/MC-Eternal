@@ -1,8 +1,8 @@
 {
-	title: "&l&cRegicide",
+	title: "&l&c弑君者",
 	x: -12.0d,
 	y: -6.0d,
-	description: "&oFind and slay the King and his knights",
+	description: "&o找到并击杀国王和他的骑士",
 	dependencies: [
 		"92ca1bd3"
 	],

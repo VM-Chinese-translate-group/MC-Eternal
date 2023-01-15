@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_black_plant.json",
   "enabled": true,
   "id": "botania:black_flower_plant",
-  "plant_name": "Mystical Black Flower",
-  "seed_name": "Mystical Black Seeds",
+  "plant_name": "黑色神秘花",
+  "seed_name": "黑色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A beautiful flower that is as dark as the night."
+    "default": "花黑如夜。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

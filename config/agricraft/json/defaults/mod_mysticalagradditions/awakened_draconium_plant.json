@@ -2,8 +2,8 @@
   "path": "mod_mysticalagradditions/awakened_draconium_plant.json",
   "enabled": true,
   "id": "mysticalagradditions:awakened_draconium_plant",
-  "plant_name": "Awakened Draconium Crop",
-  "seed_name": "Awakened Draconium Seeds",
+  "plant_name": "觉醒龙株",
+  "seed_name": "觉醒龙种子",
   "seed_items": [
     {
       "item": "mysticalagradditions:awakened_draconium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Awakened Draconium Seeds."
+    "default": "觉醒龙种子。"
   },
   "growth_chance": 0.85,
   "growth_bonus": 0.02,

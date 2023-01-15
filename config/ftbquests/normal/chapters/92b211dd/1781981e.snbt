@@ -2,7 +2,7 @@
 	icon: "advancedrocketry:chemicalreactor",
 	x: 1.5d,
 	y: -3.0d,
-	description: "Makes Rocket Fuel and can Seal any armor Airtight.",
+	description: "可制作火箭燃料，并能将任何盔甲密封起来。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"d5dbf68e"
@@ -28,7 +28,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockMotor"
+					Name: "任意马达"
 				}
 			},
 			ForgeCaps: {

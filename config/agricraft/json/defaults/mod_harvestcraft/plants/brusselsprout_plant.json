@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/brusselsprout_plant.json",
   "enabled": true,
   "id": "harvestcraft:brusselsprout_plant",
-  "plant_name": "Brussel Sprout",
-  "seed_name": "Brussel Sprout Seeds",
+  "plant_name": "芽甘蓝",
+  "seed_name": "芽甘蓝种子",
   "seed_items": [
     {
       "item": "harvestcraft:brusselsproutseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Brussel Sprout Seeds."
+    "default": "芽甘蓝种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -1,8 +1,8 @@
 {
-	title: "Plate Bending",
+	title: "卷板",
 	x: -2.5d,
 	y: 7.5d,
-	description: "Used to craft plates that are used in many recipes.",
+	description: "用于制作许多合成都需要的各种板",
 	dependencies: [
 		"06cc512e"
 	],

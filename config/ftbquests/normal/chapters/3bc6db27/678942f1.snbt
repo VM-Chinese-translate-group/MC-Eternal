@@ -1,14 +1,14 @@
 {
 	x: -18.5d,
 	y: 6.5d,
-	description: "&oSimple Figurines crafted by an Ancient people, a particular variety of these figurines is unsettling...",
+	description: "&o简单小雕像由古人制得, 其中一种特殊的雕像令人不安……",
 	dependencies: [
 		"85acd8e6"
 	],
 	tasks: [{
 		uid: "e9d41ebc",
 		type: "item",
-		title: "4x Pristine Figurine",
+		title: "4x 原始小雕像",
 		items: [{
 			item: "fossil:figurine"
 		},

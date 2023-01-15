@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:crafting 1 24",
 	x: 3.0d,
 	y: -2.5d,
-	description: "Drop `",
+	description: "掉落物",
 	can_repeat: true,
 	tasks: [{
 		uid: "f9355618",

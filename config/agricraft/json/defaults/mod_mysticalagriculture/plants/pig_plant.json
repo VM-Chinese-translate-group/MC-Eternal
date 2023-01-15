@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/pig_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:pig_plant",
-  "plant_name": "Pig Crop",
-  "seed_name": "Pig Seeds",
+  "plant_name": "猪精华株",
+  "seed_name": "猪种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:pig_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Pig Seeds."
+    "default": "猪种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

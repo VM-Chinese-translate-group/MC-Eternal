@@ -2,7 +2,7 @@
 	x: -4.5d,
 	y: 1.0d,
 	shape: "octagon",
-	description: "Non-Sanctioned Nuclear Fission `",
+	description: "未经许可的核裂变",
 	can_repeat: true,
 	tasks: [{
 		uid: "a04b3dcc",

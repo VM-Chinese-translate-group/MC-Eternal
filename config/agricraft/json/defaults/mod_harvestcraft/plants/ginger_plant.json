@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/ginger_plant.json",
   "enabled": true,
   "id": "harvestcraft:ginger_plant",
-  "plant_name": "Ginger",
-  "seed_name": "Ginger Seeds",
+  "plant_name": "生姜",
+  "seed_name": "生姜种子",
   "seed_items": [
     {
       "item": "harvestcraft:gingerseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ginger Seeds."
+    "default": "生姜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

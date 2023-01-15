@@ -1,5 +1,5 @@
 {
-	title: "Almost ready for the beach!",
+	title: "准备去海滩度假咯~",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {},
@@ -9,7 +9,7 @@
 	},
 	x: 14.5d,
 	y: 9.0d,
-	description: "'I need the umbrella, or otherwise I burst into flames, see?'",
+	description: "“我想我得打把伞，不然我就成灰了，懂不？”",
 	text: [
 		""
 	],

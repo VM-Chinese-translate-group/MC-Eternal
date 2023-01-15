@@ -1,12 +1,12 @@
 {
-	title: "&4Arcane Ashes",
+	title: "&4奥术粉灰",
 	x: 1.0d,
 	y: 19.0d,
-	description: "&o...The Fundamental Basis of all Alchemy...",
+	description: "&o炼金术之基……",
 	text: [
-		"&4Arcane Ashes&7 are a Tool used to create &cAlchemy Arrays&7 for various purpose, they can do more than just creating Sigils or other items...",
+		"&4奥术粉灰&7是一个用来创建&c奥术法阵&7的工具，奥术法阵用途甚多，可以改变地形，合成物品，改变时间等。",
 		"",
-		"Input the &cReagent&7 Material (Left Item in JEI), and then the &cCatalyst&7 Material (Middle Item in JEI), the &cResult&7 item should appear after some animation."
+		"首先放入&c试剂&7物品（JEI左边的那个），然后放入&c催化剂&7物品（JEI右边的），在一串看起来酷爆了（拖时间）的动画后，&c合成物品&7将会掉落在原法阵处。"
 	],
 	dependencies: [
 		"7e97f122"

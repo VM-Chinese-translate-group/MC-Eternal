@@ -1,10 +1,10 @@
 {
-	title: "&4Apprentice Blood Orb",
+	title: "&4学徒气血宝珠",
 	x: 6.5d,
 	y: 20.5d,
-	description: "&oBigger Battery for Blood",
+	description: "&o更加干渴的宝珠",
 	text: [
-		"&7More Capacity, more Recipes."
+		"&7更大的存量，以及更多的可合成配方。"
 	],
 	dependencies: [
 		"98b3e4fb"
@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "8dc06538",
 		type: "item",
-		title: "&4Apprentice Blood Orb&r (or Better)",
+		title: "&4学徒气血宝珠&r （或者更好的）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

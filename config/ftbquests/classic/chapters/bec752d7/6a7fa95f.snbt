@@ -1,10 +1,10 @@
 {
-	title: "Multi-flection",
+	title: "星光折射",
 	x: 3.5d,
 	y: -16.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&9&oPrism Lenses&7&o are similar to regular Lenses, only that they can have multiple targets, the &r&oStarlight&7&o it conducts will be split among these targets..."
+		"&9&o棱镜&7&o是透镜的强化版，它可以将&r&o星能&7&o由一束分为多束。（当然你也可以把它当成透镜用）"
 	],
 	dependencies: [
 		"d5074b4b"

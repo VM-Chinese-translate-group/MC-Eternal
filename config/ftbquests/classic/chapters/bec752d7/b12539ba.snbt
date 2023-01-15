@@ -7,9 +7,9 @@
 	},
 	x: 25.5d,
 	y: 6.0d,
-	description: "Infuses Items placed on it with Aura",
+	description: "为物品注入灵气",
 	text: [
-		"Refer to the Book of Natural Aura for Building instructions."
+		"多方块结构？看书啊我的宝。"
 	],
 	dependencies: [
 		"a074c6bd"

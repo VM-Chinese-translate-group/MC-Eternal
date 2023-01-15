@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/whitemushroom_plant.json",
   "enabled": true,
   "id": "harvestcraft:whitemushroom_plant",
-  "plant_name": "White Mushroom",
-  "seed_name": "White Mushroom Seeds",
+  "plant_name": "白蘑菇",
+  "seed_name": "白蘑菇孢子",
   "seed_items": [
     {
       "item": "harvestcraft:whitemushroomseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "White Mushroom Seeds."
+    "default": "白蘑菇孢子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

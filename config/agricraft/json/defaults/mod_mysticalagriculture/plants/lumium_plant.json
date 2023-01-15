@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/lumium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:lumium_plant",
-  "plant_name": "Lumium Crop",
-  "seed_name": "Lumium Seeds",
+  "plant_name": "流明精华株",
+  "seed_name": "流明种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:lumium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Lumium Seeds."
+    "default": "流明种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

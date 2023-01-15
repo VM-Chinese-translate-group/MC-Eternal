@@ -1,13 +1,14 @@
 {
-	title: "Starfinder",
+	title: "寻星者",
 	x: 4.0d,
 	y: -10.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oSome locations in the world may have higher concentrations of &r&oStarlight&7&o, if you wish to find these locations, create this device and explore the world while holding it during the time of the Moon...",
-		"These locations will appear as &1&oBlankets of Blue Particles&7&o...",
+		"&7&o有些地方的&r&o星能&7&o多的异于其他地方， 如果你在这些地方进行星辉合成，应该会更高效。",
+		"使用汇星共振器可以检测哪些地方有更多的星能，检测到的区块会发出&1&o蓝色的光&7&o。",
 		"",
-		"Being closer to the Stars themselves will also impact the &r&oStarlight&7&o your Table can gather, but the increase in potential of such effect halts halfway to the peak of the world..."
+		"将星辉合成台搬到离&r&o群星&7&o更近的地方也可以增加星能的获取，但是，这将在世界的顶峰停止。",
+		"（PS：通常来说，你只需要将合成台或者更高级的祭坛搬到120层就行了，再高也不会获得额外星辉加成，你也不需要用这个东西去寻找所谓的星能场，有这个时间还不如原地垫到120层，然后叠光波增幅器和聚能水晶，或者你可以升级它然后去找万向泉的流体精华？）"
 	],
 	dependencies: [
 		"8d95e24a"

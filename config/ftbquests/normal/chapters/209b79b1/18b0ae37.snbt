@@ -2,9 +2,9 @@
 	x: -2.5d,
 	y: -3.0d,
 	shape: "square",
-	description: "Nether Wasps are a flying mob in the Nether that spawn in Hives.",
+	description: "下界黄蜂是一种生成在下界蜂窝的飞行生物。",
 	text: [
-		"I don't think you could come up with a worse combo..."
+		"我不认为你能想出一个更糟糕的组合……"
 	],
 	dependencies: [
 		"3acd3f99"
@@ -13,7 +13,7 @@
 	tasks: [{
 		uid: "bd0aa705",
 		type: "kill",
-		title: "Bounty: Nether Wasp",
+		title: "悬赏：下界黄蜂",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

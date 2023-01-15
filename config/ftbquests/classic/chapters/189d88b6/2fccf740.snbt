@@ -1,8 +1,8 @@
 {
-	title: "&6Intro King!",
+	title: "&6介绍之王！",
 	x: -1.5d,
 	y: -6.5d,
-	description: "&oCongrats on completing the Introduction! How does it feel to be a winner?",
+	description: "&o 祝贺你完成了介绍章节！ 成为最后赢家的感受如何？haha",
 	hide_dependency_lines: true,
 	dependencies: [
 		"67039193",

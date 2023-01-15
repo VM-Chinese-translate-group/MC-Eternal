@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/nature_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:nature_plant",
-  "plant_name": "Nature Crop",
-  "seed_name": "Nature Seeds",
+  "plant_name": "自然精华株",
+  "seed_name": "自然种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:nature_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Nature Seeds."
+    "default": "自然种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -1,14 +1,14 @@
 {
-	title: "The Star Charts",
+	title: "星座的模样",
 	x: 4.5d,
 	y: -7.5d,
 	shape: "octagon",
-	description: "*Read Description*",
+	description: "*阅读说明*",
 	text: [
-		"&9&oConstellation Papers&7&o are records of the Constellations in the Sky, once you have acquired the paper for a Constellation, you should now notice the Stars that compose it in the Sky when looking through a Star-seeing device... ",
+		"&9&o星图&7&o是先人留下的星座虚像，一旦你找到了一张星图，那么你就可以用你的观星设备在暗淡的天空中寻找它了。",
 		"",
-		"Once you have found a Paper for a Constellation, you will never find that one again, be sure to store it to your &6&oAstral Tome's Paper Storage section&7&o, you can open it by &d&oSneak+Right-click&7&o with your Tome...",
-		"Do not fret if you have stored a Paper somewhere you cannot recall, you may be able to imbue your own papers of the Constellations, even those you had not found..."
+		"一旦你找到了一种星座的星图，你就无法再次找到第二张了，所以你可以把它们保管在&6&o星芒宝典&7里&o，你可以通过&d&oshift右击&7&o打开宝典的星图存放栏。",
+		"如果你还是不小心，把一张宝贵的星图丢在了只有天知道的地方。不要担心，随着对星芒的深入了解，你将可以制作星图，无论你找没找到它们。"
 	],
 	dependencies: [
 		"f4b3ac9b"

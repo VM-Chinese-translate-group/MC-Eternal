@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/jute_plant.json",
   "enabled": true,
   "id": "harvestcraft:jute_plant",
-  "plant_name": "Jute",
-  "seed_name": "Jute Seeds",
+  "plant_name": "黄麻",
+  "seed_name": "黄麻种子",
   "seed_items": [
     {
       "item": "harvestcraft:juteseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Jute Seeds."
+    "default": "黄麻种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

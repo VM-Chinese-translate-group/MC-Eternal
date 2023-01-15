@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/electrum_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:electrum_plant",
-  "plant_name": "Electrum Crop",
-  "seed_name": "Electrum Seeds",
+  "plant_name": "琥珀金精华株",
+  "seed_name": "琥珀金种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:electrum_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Electrum Seeds."
+    "default": "琥珀金种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

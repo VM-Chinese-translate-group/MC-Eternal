@@ -2,12 +2,12 @@
 	x: -5.75d,
 	y: -1.5d,
 	shape: "square",
-	description: "&oHorrific mutated beast created by multiple detatched bodyparts and shaped into a wolf-like creature by the most twisted and corrupt Necromancers in the Undying",
+	description: "&o可怕的变异野兽，由多个分离的身体部分创造，并由不死的最扭曲和腐败的死灵法师塑造成一个类似狼的生物。",
 	size: 0.5d,
 	tasks: [{
 		uid: "3d1b4547",
 		type: "kill",
-		title: "&6&lBounty: &r&8Undying Bloodhound",
+		title: "&6&l悬赏：&r&8亡灵猎血犬",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -25,7 +25,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

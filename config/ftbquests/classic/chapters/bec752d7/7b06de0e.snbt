@@ -1,8 +1,11 @@
 {
-	title: "Runes of Season",
+	title: "季节符文！",
 	x: 16.5d,
 	y: -5.0d,
-	description: "Quests around will unlock as you acquire each Rune!",
+	description: "解锁需要这些符文作为合成材料的任务",
+	text: [
+		""
+	],
 	dependencies: [
 		"2d45e4da"
 	],

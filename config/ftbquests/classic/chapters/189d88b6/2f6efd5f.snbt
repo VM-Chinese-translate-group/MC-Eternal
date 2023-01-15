@@ -1,7 +1,8 @@
 {
+	title: "月蚀计",
 	x: -15.5d,
 	y: 1.0d,
-	description: "Beds? Who needs em",
+	description: "床？谁需要这玩意！",
 	dependencies: [
 		"63c7ef68"
 	],

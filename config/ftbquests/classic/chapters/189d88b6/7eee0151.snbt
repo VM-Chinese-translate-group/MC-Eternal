@@ -1,7 +1,7 @@
 {
 	x: -9.0d,
 	y: -2.0d,
-	description: "You can use this block to create custom sandwiches, using different sources of food and combo's will result in a tastier meal! *Note baguettes can be used instead of bread*",
+	description: "你可以用这个方块来定制的三明治，使用不同的食物并将它们组合，这会使它们更美味！ *注意，你可以用法国长面包代替面包*",
 	dependencies: [
 		"14b54c00"
 	],

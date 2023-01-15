@@ -1,7 +1,7 @@
 {
 	x: 7.5d,
 	y: -6.0d,
-	description: "The power to play all night...",
+	description: "通宵的动力...",
 	tasks: [{
 		uid: "0724a71e",
 		type: "item",

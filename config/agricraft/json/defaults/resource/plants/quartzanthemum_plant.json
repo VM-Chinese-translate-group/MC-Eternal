@@ -2,12 +2,12 @@
   "path": "resource/plants/quartzanthemum_plant.json",
   "enabled": true,
   "id": "resource:quartzanthemum_plant",
-  "plant_name": "Quartzanthemum",
-  "seed_name": "Crystalline Seeds",
+  "plant_name": "石英菊",
+  "seed_name": "石英菊种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A suprisingly crystalline plant."
+    "default": "难以置信，它是一株晶莹剔透的植物！"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

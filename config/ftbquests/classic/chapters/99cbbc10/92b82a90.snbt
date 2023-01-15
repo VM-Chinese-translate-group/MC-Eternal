@@ -1,5 +1,5 @@
 {
-	title: "Hot and Cold!",
+	title: "冷和热!",
 	x: 8.5d,
 	y: -0.5d,
 	dependencies: [

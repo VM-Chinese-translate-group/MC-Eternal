@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/knightslime_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:knightslime_plant",
-  "plant_name": "Knightslime Crop",
-  "seed_name": "Knightslime Seeds",
+  "plant_name": "骑士史莱姆精华株",
+  "seed_name": "骑士史莱姆种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:knightslime_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Knightslime Seeds."
+    "default": "骑士史莱姆种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

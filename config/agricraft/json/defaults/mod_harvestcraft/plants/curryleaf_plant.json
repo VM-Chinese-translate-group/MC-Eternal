@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/curryleaf_plant.json",
   "enabled": true,
   "id": "harvestcraft:curryleaf_plant",
-  "plant_name": "Curryleaf",
-  "seed_name": "Curryleaf Seeds",
+  "plant_name": "咖喱叶",
+  "seed_name": "咖喱叶种子",
   "seed_items": [
     {
       "item": "harvestcraft:curryleafseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Curryleaf Seeds."
+    "default": "咖喱叶种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -1,8 +1,8 @@
 {
-	title: "Powerwash an ancient relic!",
+	title: "彻底清洗一件古老的遗物！",
 	x: 1.2d,
 	y: -0.4d,
-	description: "&oOh what great power is hidden amongst the rubble!",
+	description: "&o噢，碎砾中隐藏着多么强大的力量！",
 	dependencies: [
 		"99a4bfed"
 	],

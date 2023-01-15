@@ -7,7 +7,7 @@
 	},
 	x: -11.0d,
 	y: 0.0d,
-	description: "The Naga is a serpent that lurks in a Naga Courtyard. It appears as an immense green snake-like creature with a human-like face. Its scales have subtle hints of all sorts of other colors.",
+	description: "娜迦是一种生活在娜迦庭院中的蛇。它是长着人脸的绿色蛇形生物，绿色的鳞片上的隐隐约约能看到其他颜色。",
 	tasks: [{
 		uid: "27ee254f",
 		type: "kill",

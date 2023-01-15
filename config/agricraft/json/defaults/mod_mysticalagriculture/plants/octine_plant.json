@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/octine_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:octine_plant",
-  "plant_name": "Octine Crop",
-  "seed_name": "Octine Seeds",
+  "plant_name": "炽炎铁精华株",
+  "seed_name": "炽炎铁种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:octine_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Octine Seeds."
+    "default": "炽炎铁种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

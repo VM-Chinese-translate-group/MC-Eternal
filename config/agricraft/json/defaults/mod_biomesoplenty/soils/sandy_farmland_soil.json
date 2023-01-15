@@ -2,7 +2,7 @@
   "path": "mod_biomesoplenty/soils/sandy_farmland_soil.json",
   "enabled": true,
   "id": "sandy_farmland_soil",
-  "name": "Sandy Farmland",
+  "name": "沙质土耕地",
   "varients": [
     {
       "item": "biomesoplenty:farmland_0",

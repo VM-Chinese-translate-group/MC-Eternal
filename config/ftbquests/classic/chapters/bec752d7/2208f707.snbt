@@ -1,7 +1,10 @@
 {
 	x: 13.5d,
 	y: -6.0d,
-	description: "Doesn't require a Broken Hero Sword.",
+	description: "断裂英雄剑？那是啥？",
+	text: [
+		""
+	],
 	dependencies: [
 		"59dd41e8"
 	],

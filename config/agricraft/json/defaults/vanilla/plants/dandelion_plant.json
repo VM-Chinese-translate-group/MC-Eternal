@@ -2,12 +2,12 @@
   "path": "vanilla/plants/dandelion_plant.json",
   "enabled": true,
   "id": "vanilla:dandelion_plant",
-  "plant_name": "Dandelion",
-  "seed_name": "Dandelion Seeds",
+  "plant_name": "蒲公英",
+  "seed_name": "蒲公英种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "While colloquially considered a weed, this yellow-flowering plant is one of unspoken value. Having a deep-rooting taproot, the plant brings up nutrients from lower levels of soil, making it a good companion plant for shallow rooting plants."
+    "default": "虽然通俗上来说蒲公英被认为是杂草，但它的价值不言而喻。蒲公英主根深入土壤，能从更深层的土壤中的养分带到浅层，这让它成为了浅根植物的良好伴侣。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

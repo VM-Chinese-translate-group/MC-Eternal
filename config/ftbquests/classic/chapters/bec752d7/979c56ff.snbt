@@ -1,7 +1,10 @@
 {
 	x: 12.5d,
 	y: -4.5d,
-	description: "Mana to Enderman Teleport Denial! *Read Lexica Botania for more Info*",
+	description: "为末影人准备好空间锚定点！ *详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"34f7ff53",
 		"80831a7a",

@@ -1,15 +1,15 @@
 {
-	title: "Warp Core and Warp Controller",
+	title: "跃迁核心和跃迁控制器",
 	icon: "advancedrocketry:warpcore",
 	x: 1.5d,
 	y: -6.5d,
-	description: "To get to places beyond The Moon, you'll need a Warp Core and Warp Controller. *Read description for more info*",
+	description: "要去月球以外的地方，你需要一个跃迁核心和跃迁控制器。*阅读描述以了解更多信息*",
 	text: [
-		"Assembling the Warp Core, and then packing it into a Space Station Container may result in it not functioning until broken and reformed, best to leave it unformed if you pack it into the container.",
+		"组装跃迁核心，然后将其装入空间站容器中，可能会导致其直到被打破并重新组合之前无法运作，如果你将其装入容器中，最好保持其未成型。",
 		"",
-		"A Warp Core also needs Dilithium Crystals from Advanced Rocketry as fuel, there's a handful of ways you can process Dilithium to get them, check out JEI.",
+		"跃迁核心还需要高级火箭的双锂水晶作为燃料，你可以通过一些方法加工双锂来获得它们，请查看JEI。",
 		"",
-		"The Warp Controller is used to select the Planet you want to warp to, you probably want to select it from the Planet List in the top left of the Select Planet UI."
+		"跃迁控制器是用来选择你想跃迁的星球的，你可能想从选择星球UI左上方的星球列表中选择它。"
 	],
 	dependencies: [
 		"40210c1c"
@@ -42,7 +42,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockWarpCoreRim"
+					Name: "任意跃迁核心边缘方块"
 				}
 			}
 		}],

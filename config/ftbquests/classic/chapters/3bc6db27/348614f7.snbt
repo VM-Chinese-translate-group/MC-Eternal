@@ -1,7 +1,7 @@
 {
 	x: -4.0d,
 	y: 7.0d,
-	description: "*Click to read description*",
+	description: "*点击阅读描述*",
 	text: [
 		"Vacuum freezer is required to cool hot tungstensteel ingots. It requires 9 reinforced machine casing in a 3x3 pattern below it, with the main machine at the top of the center casing."
 	],

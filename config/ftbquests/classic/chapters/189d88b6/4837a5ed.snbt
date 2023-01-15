@@ -1,7 +1,7 @@
 {
 	x: -8.5d,
 	y: 1.0d,
-	description: "&oThe smeltery is a wonderful multiblock that allows you to ore double and create custom tools. Check the guide \"materials and you\" for more details",
+	description: "&o冶炼炉可是个非常棒的多方块结构，它可以使你获得双倍于原版熔炉的产出（指一个矿产连个锭的熔炉金属），同时你可以将其中的熔炼金属导出并浇注成不同的部件以定制工具。查看指南“匠魂宝典”以获取更多信息",
 	dependencies: [
 		"14b54c00"
 	],

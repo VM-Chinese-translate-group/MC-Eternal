@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/enderman_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:enderman_plant",
-  "plant_name": "Enderman Crop",
-  "seed_name": "Enderman Seeds",
+  "plant_name": "末影人精华株",
+  "seed_name": "末影人种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:enderman_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Enderman Seeds."
+    "default": "末影人种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

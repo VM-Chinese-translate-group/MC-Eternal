@@ -1,17 +1,17 @@
 {
-	title: "Spacing out for a Station",
+	title: "在空间站发呆",
 	icon: "advancedrocketry:stationbuilder",
 	x: 1.5d,
 	y: -4.5d,
-	description: "Everything you need to §obuild§r §7a Space Station. *Read description for more info*",
+	description: "所有§o建造§r§7空间站所需的材料。*阅读描述以了解更多信息*",
 	text: [
-		"Space Station Assembler functions similarly to the Rocket Assembling Machine.",
+		"太空站组装机的功能与火箭组装机类似。",
 		"",
-		"In order to start a Space Station, you need to pack up a base to start from into a Space Station Container. Blocks ontop of an adjacent Launch Pad will be packed into the Container when you press the Build button inside it.",
+		"为了启动空间站，你需要将一个基地打包到空间站容器中。当你按下组装机内的组装按钮时，相邻发射台上面的方块将被装入容器。",
 		"",
-		"To deploy a Space Station, insert the Space Station Container into a Satellite Bay on your Rocket and launch the Rocket, it is suggested to insert the Space Station ID Chip for that station aswell and launch with it, with no Chip, the Rocket is lost.",
+		"要部署空间站，要将空间站容器插入火箭上的卫星舱，然后发射火箭。建议为该空间站插入空间站ID芯片，并带着它发射，如果没有芯片，火箭就会丢失。",
 		"",
-		"If you plan on making a Space Station, pack up your Space Station into a Container before putting your Rocket on the launch pad."
+		"如果你打算做一个空间站，在把火箭放在发射台上之前，先把空间站装进一个容器。"
 	],
 	dependencies: [
 		"d78bfda8"

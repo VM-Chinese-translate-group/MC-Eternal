@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/aquamarine_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:aquamarine_plant",
-  "plant_name": "Aquamarine Crop",
-  "seed_name": "Aquamarine Seeds",
+  "plant_name": "海蓝宝石精华株",
+  "seed_name": "海蓝宝石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:aquamarine_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Aquamarine Seeds."
+    "default": "海蓝宝石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

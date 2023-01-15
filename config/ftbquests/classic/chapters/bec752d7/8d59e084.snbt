@@ -1,8 +1,11 @@
 {
-	title: "&6Lexica Botania - Elven Knowledge",
+	title: "&6植物魔法辞典——精灵篇",
 	x: 15.0d,
 	y: -8.5d,
-	description: "Toss your Lexica Botania into the Portal and unlock new Knowledge!",
+	description: "把你的植物魔法辞典丢进精灵门，让那边的文抄公帮你写上属于他们的知识。",
+	text: [
+		""
+	],
 	dependencies: [
 		"21b847aa"
 	],

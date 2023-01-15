@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/basalz_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:basalz_plant",
-  "plant_name": "Basalz Crop",
-  "seed_name": "Basalz Seeds",
+  "plant_name": "地岩精华株",
+  "seed_name": "地岩种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:basalz_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Basalz Seeds."
+    "default": "地岩种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

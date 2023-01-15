@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/zombie_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:zombie_plant",
-  "plant_name": "Zombie Crop",
-  "seed_name": "Zombie Seeds",
+  "plant_name": "僵尸精华株",
+  "seed_name": "僵尸种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:zombie_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Zombie Seeds."
+    "default": "僵尸种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

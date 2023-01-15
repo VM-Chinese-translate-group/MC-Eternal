@@ -1,14 +1,14 @@
 {
-	title: "Fueling your Rocket up",
+	title: "给火箭加油",
 	x: 0.5d,
 	y: -7.5d,
-	description: "*Read Description*",
+	description: "*阅读描述*",
 	text: [
-		"Right-click on a Rocket with a container that has Rocket Fuel to dump all the Fuel in the container into it, Fuel that cannot fit in the Rocket is lost!",
+		"右键单击带有火箭燃料的容器的火箭，将容器中的所有燃料倾倒到其中，任何容器中无法装入火箭的火箭燃料都将丢失！",
 		"",
-		"&oNote: Only Advanced Rocketry's Rocket Fuel works in MCE.",
+		"&o注意：只有高级火箭的火箭燃料能在MCE中使用。",
 		"",
-		"&lClick the Fluid Task icon while carrying a Fluid Container with Rocket Fuel on you to submit it!"
+		"&l在身上带着装有火箭燃料的液体容器时，点击液体任务图标即可提交！"
 	],
 	dependencies: [
 		"d78bfda8"

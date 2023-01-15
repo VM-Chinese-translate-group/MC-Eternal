@@ -2,12 +2,12 @@
 	x: -5.0d,
 	y: 0.0d,
 	shape: "square",
-	description: "&oSome say Ratlantean Spirits are the trapped souls of the long dead Ratlanteans. Its unknown however if these creatures existed around the Ratlantean era or were created from their destruction...",
+	description: "&o有人说，鼠西族精灵是死去多年的鼠西族的被困灵魂。然而，这些生物是在鼠西族时代就已经存在，还是由于他们的毁灭而创造出来的，这一点不得而知……",
 	size: 0.5d,
 	tasks: [{
 		uid: "d764c045",
 		type: "kill",
-		title: "&6&lBounty: &eRatlantean Spirit",
+		title: "&6&l悬赏：&e鼠西族精灵",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -86,7 +86,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

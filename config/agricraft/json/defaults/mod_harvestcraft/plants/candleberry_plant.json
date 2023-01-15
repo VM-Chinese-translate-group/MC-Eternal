@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/candleberry_plant.json",
   "enabled": true,
   "id": "harvestcraft:candleberry_plant",
-  "plant_name": "Candleberry",
-  "seed_name": "Candleberry Seeds",
+  "plant_name": "蜡杨梅",
+  "seed_name": "蜡杨梅种子",
   "seed_items": [
     {
       "item": "harvestcraft:candleberryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Candleberry Seeds."
+    "default": "蜡杨梅种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

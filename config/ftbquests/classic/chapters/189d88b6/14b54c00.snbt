@@ -1,8 +1,8 @@
 {
-	title: "Make a house a home",
+	title: "安居乐业",
 	x: -12.0d,
 	y: -0.5d,
-	description: "&o&nCreate a team and claim the land around where you want to build. *This also protects you from mob griefing, you can do so by opening up your inventory and navigating to the \"claimed chunks\" gui on the top left",
+	description: "&o&n创建一个团队并在你想建家的地方声明区块。 *这同时能保护你免受怪物的骚扰（指怪物破坏地形），打开你的背包并使用左上角的 “声明区块 ”来做到这一点。",
 	dependencies: [
 		"a2b4f121"
 	],

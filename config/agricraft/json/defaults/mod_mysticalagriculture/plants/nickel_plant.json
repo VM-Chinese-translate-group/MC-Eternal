@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/nickel_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:nickel_plant",
-  "plant_name": "Nickel Crop",
-  "seed_name": "Nickel Seeds",
+  "plant_name": "镍精华株",
+  "seed_name": "镍种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:nickel_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Nickel Seeds."
+    "default": "镍种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/hucklegrape_plant.json",
   "enabled": true,
   "id": "harvestcraft:huckleberry_plant",
-  "plant_name": "Huckleberry",
-  "seed_name": "Huckleberry Seeds",
+  "plant_name": "越橘",
+  "seed_name": "越橘种子",
   "seed_items": [
     {
       "item": "harvestcraft:huckleberryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Huckleberry Seeds."
+    "default": "越橘种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

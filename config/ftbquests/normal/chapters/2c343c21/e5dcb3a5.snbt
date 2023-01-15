@@ -1,8 +1,8 @@
 {
-	title: "&8Discover a Ratlantean Landfill",
+	title: "&8发现鼠西族的垃圾填埋场",
 	x: -2.4d,
 	y: 0.4d,
-	description: "&rRats! such messy creatures. On the bright side however, these dumpsites seem to be an excellent source of &lrat upgrades&r and &lloot&r if you are willing to get your hands a &olittle dirty",
+	description: "老鼠！真是一种混乱的生物。然而，从好的方面看，这些垃圾场似乎是&l老鼠升级&r和&l战利品&r的绝佳来源，如果你愿意把你的手弄得很脏的话。",
 	dependencies: [
 		"9c87f669"
 	],
@@ -22,7 +22,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

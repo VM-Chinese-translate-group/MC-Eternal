@@ -2,7 +2,7 @@
 	x: 5.5d,
 	y: -5.0d,
 	shape: "square",
-	description: "A hulking monster made out of tar that resides in tar pits.",
+	description: "一个生成在焦油池中或焦油池地牢里的巨大怪物。",
 	dependencies: [
 		"bb3a64b5"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "59398b14",
 		type: "kill",
-		title: "Bounty: Tar Beast",
+		title: "悬赏：焦油怪",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

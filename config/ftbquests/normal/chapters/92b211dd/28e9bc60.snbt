@@ -1,9 +1,9 @@
 {
-	title: "Oxygenation Station",
+	title: "氧气站",
 	icon: "advancedrocketry:oxygenvent",
 	x: 1.0d,
 	y: -5.5d,
-	description: "An Oxygen Vent can be used to make a closed room Space breathable without the need for Oxygen from Airtight armor. CO2 Scrubbers can allow it to not consume 50% of Oxygen each, up to 100%!",
+	description: "氧气排放口可用于使封闭的房间空间充满氧气，而不需要从密封盔甲中获得氧气。每个二氧化碳净化器可使其不消耗50％的氧气，最高可以达到100％！",
 	dependencies: [
 		"40210c1c"
 	],

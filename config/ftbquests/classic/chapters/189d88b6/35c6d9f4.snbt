@@ -1,7 +1,7 @@
 {
 	x: -8.5d,
 	y: -4.0d,
-	description: "*Place the elevator block below another elevator to travel instantaneously between them (hold shift/jump)*",
+	description: "*将电梯放在另一个电梯的下面或上面，（按住shift/jump）就可以在它们之间瞬间移动了*",
 	dependencies: [
 		"d22a6b71"
 	],

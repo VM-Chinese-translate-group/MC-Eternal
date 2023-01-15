@@ -12,7 +12,7 @@
 	x: -8.0d,
 	y: -4.0d,
 	shape: "square",
-	description: "The elder guardian is a stronger, larger variant of the guardian that can inflict Mining Fatigue.",
+	description: "远古守卫者是体型更大、身体更强壮的守卫者变种，它可以对玩家施加挖掘疲劳的负面效果。",
 	tasks: [{
 		uid: "e1ab8844",
 		type: "kill",

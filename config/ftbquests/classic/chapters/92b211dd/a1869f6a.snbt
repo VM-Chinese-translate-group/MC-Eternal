@@ -1,11 +1,11 @@
 {
 	x: 2.5d,
 	y: -5.5d,
-	description: "*READ DESCRIPTION, IT'S IMPORTANT*",
+	description: "*阅读描述，这很重要*",
 	text: [
-		"It's advised to bring something that can get you back and forth from your Space Station, besides a Rocket, if your Space Station ID Chip is lost, and you have no backup method to travel to your station, it's as good as gone.",
+		"除了火箭之外，建议带一些能让你往返空间站的东西，如果你的空间站ID芯片丢失了，而你又没有后备方法前往你的空间站，那就跟没了一样。",
 		"",
-		"A Satellite Builder can copy most Advanced Rocketry Chips, so do take note of that. A Sat builder is a tiny multiblock composed of a Satellite Builder (the block) and a Power Input Plug."
+		"因此，请注意这一点，卫星建造机可以复制大多数高级火箭的芯片。卫星建造机是由卫星建造机（方块）和能源输入口组成的小型多方块结构。"
 	],
 	dependencies: [
 		"40210c1c"
@@ -13,7 +13,7 @@
 	tasks: [{
 		uid: "5dc1625f",
 		type: "checkmark",
-		title: "Backups, people, backups."
+		title: "备份，人，备份。"
 	}],
 	rewards: [{
 		uid: "954d7d6a",

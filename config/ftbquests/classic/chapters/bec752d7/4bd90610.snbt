@@ -1,20 +1,22 @@
 {
-	title: "&4Demonic Runes",
+	title: "&4邪祟符文",
 	x: 3.5d,
 	y: 25.0d,
-	description: "&oRunes, but better.",
+	description: "&o更好的符文",
 	text: [
-		"&4Augmented Capacity&7 Runes add a &cStacking 10% Capacity Bonus&7 to the &4Blood Altar's&7 Main Tank.",
-		"This Bonus, like other Stacking bonuses, can absolutely snowball at higher amounts.",
-		"&cAugmented Capacity Runes&7 do not take the effect of &cCapacity Runes&7 into account!",
+		"&4超容&7符文会增加&c血之祭坛基础存储量的10%&7的储量。",
+		"与其它可叠加的符文是一样的吗，这个也行。",
+		"&c超容符文&7是吃基础存量的！和&c增容符文&7不能叠加使用！（虽然这俩符文配合起来挺好的）",
 		"",
-		"&4Orb&7 Runes allow the &4Blood Altar&7 to force extra LP into a Soul Network, 2% of inserted &cBlood Orb's&7 Limit per Rune.",
-		"&cNo Blood Orbs are consumed in the making of Runes of the Orb!",
+		"&4宝珠&7符文可以增加&4血之祭坛&7上的&c气血宝珠s&7获得2%的最大容量加成，多个可叠加",
+		"&c制作时不会消耗气血宝珠。",
 		"",
-		"&4Acceleration&7 Runes reduce the delay between Transfers between the Main and Hidden I/O Tanks of the Blood Altar by &61 Tick&7 per Rune.",
-		"Acceleration runes effectively &6do nothing past 19 on a single Altar.&7",
+		"&4促进符文&7可以加速血之祭坛与管道交互的速度和充能符文工作的速度，最快可以加速到&61 Tick&7。",
+		"促进符文最多可以装&619个&7。",
 		"",
-		"&4Charging&7 Runes allow the &4Blood Altar&7 to store \"Charge\" by expending LP, which is instantly discharged when adding an Item to Infuse LP into the Altar, providing the Potential for lightning-fast LP Infusion."
+		"&4充能&7符文通过消耗&4血之祭坛&7中存储的LP来获得充能点数，在下一次合成中，充能点数将会作为LP瞬间消耗。合成时优先使用充能点数。",
+		"（翻译一下：充能符文会提供一个额外的LP存储，存在这个额外存储里的LP在合成时会优先消耗，而且速度非常非常快，比装满了速度符文的祭坛还快）",
+		"（PS：充能符文提供的充能点数为血之祭坛最大容量/20的值*充能符文数量，如果血之祭坛最大容量/20的结果小于1000，则将提供的充能点数改为1000*充能符文数量）"
 	],
 	dependencies: [
 		"a2f883f9"

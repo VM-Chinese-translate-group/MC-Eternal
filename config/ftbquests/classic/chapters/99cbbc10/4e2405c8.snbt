@@ -1,9 +1,9 @@
 {
-	title: "Top Tier Food: Thankful Dinner",
+	title: "顶级食品：感恩节便餐",
 	x: 1.0d,
 	y: -5.5d,
 	text: [
-		"Eating this restores 24 hunger, 28.8 saturation and 3 minutes of strength and resistance buffs."
+		"食用恢复 24 点饥饿值, 28.8 点饱和度和 3 分钟的力量与抗性效果."
 	],
 	tasks: [{
 		uid: "9177a81a",

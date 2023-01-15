@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/nether_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:nether_plant",
-  "plant_name": "Nether Crop",
-  "seed_name": "Nether Seeds",
+  "plant_name": "下界精华株",
+  "seed_name": "下界种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:nether_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Nether Seeds."
+    "default": "下界种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

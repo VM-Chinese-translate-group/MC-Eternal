@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/sky_stone_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:sky_stone_plant",
-  "plant_name": "Sky Stone Crop",
-  "seed_name": "Sky Stone Seeds",
+  "plant_name": "陨石精华株",
+  "seed_name": "陨石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:sky_stone_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sky Stone Seeds."
+    "default": "陨石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

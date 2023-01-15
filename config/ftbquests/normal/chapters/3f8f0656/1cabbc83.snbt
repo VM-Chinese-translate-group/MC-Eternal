@@ -1,7 +1,7 @@
 {
 	x: 19.5d,
 	y: 10.5d,
-	description: "Extends the range of the wireless charging antenna on a single direction",
+	description: "在单个方向上扩展无线充电天线的范围",
 	dependencies: [
 		"be9cdc44",
 		"8bd5dd8f"

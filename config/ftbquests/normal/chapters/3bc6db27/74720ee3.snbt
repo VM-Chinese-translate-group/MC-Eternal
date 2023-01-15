@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "6d2a7f7f",
 		type: "advancement",
-		title: "Advancement: &eSeeds of the Past",
+		title: "成就: &e昔日的种子",
 		advancement: "fossil:fossil/fossil_seed",
 		criterion: ""
 	}],

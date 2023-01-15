@@ -2,7 +2,7 @@
 	x: 0.5d,
 	y: -0.5d,
 	shape: "square",
-	description: "A ravenous worm that digs through the desert sands and devours anything it comes across... *Try feeding one TNT*",
+	description: "一种饥不择食的蠕虫，在沙漠中挖掘并吞食它遇到的任何东西。*试试给它喂个TNT*",
 	text: [
 		"Dune by Frank Herbert"
 	],
@@ -13,7 +13,7 @@
 	tasks: [{
 		uid: "e5150c43",
 		type: "kill",
-		title: "Bounty: Death Worm",
+		title: "悬赏：死亡蠹虫",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

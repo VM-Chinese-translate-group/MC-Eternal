@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/basalt_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:basalt_plant",
-  "plant_name": "Basalt",
-  "seed_name": "Basalt Seeds",
+  "plant_name": "玄武岩",
+  "seed_name": "玄武岩种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:basalt_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Basalt Seeds."
+    "default": "玄武岩种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -1,8 +1,11 @@
 {
-	title: "Starting off with the Stars",
+	title: "扬帆于星河",
 	x: 8.0d,
 	y: -8.0d,
-	description: "&oCollect these items and return to the Crystal... Set down one of the Crafting Tables and watch as it gains the power of &r&oStarlight&7&o...",
+	description: "&o收集星辉神殿里的战利品，并用&r&o星光&7&o转化工作台。",
+	text: [
+		""
+	],
 	dependencies: [
 		"f4b3ac9b"
 	],
@@ -20,6 +23,7 @@
 	{
 		uid: "016f4e69",
 		type: "item",
+		title: "8个随便什么大理石（夸克的记得用凿子改一下模组）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

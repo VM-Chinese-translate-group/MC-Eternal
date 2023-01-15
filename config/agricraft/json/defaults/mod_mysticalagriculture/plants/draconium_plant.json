@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/draconium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:draconium_plant",
-  "plant_name": "Draconium",
-  "seed_name": "Draconium Seeds",
+  "plant_name": "龙精华株",
+  "seed_name": "龙种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:draconium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Draconium Seeds."
+    "default": "龙种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

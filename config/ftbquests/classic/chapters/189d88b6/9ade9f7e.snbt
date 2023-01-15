@@ -1,5 +1,5 @@
 {
-	title: "Basic Automated Mob Farm",
+	title: "基础的自动化怪物农场",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -9,7 +9,7 @@
 	x: -9.45d,
 	y: -9.45d,
 	shape: "hexagon",
-	description: "&cIt was a graveyard smash!",
+	description: "这可真是一场大屠杀!",
 	dependencies: [
 		"3b41a4ca"
 	],

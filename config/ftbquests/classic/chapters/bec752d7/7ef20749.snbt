@@ -1,11 +1,11 @@
 {
-	title: "&4Demon Will Aura Gauge",
+	title: "&4恶魔灵域测量器",
 	x: -6.5d,
 	y: 20.5d,
-	description: "&oAura of Malice",
+	description: "&o空气中弥漫着憎恶的气息",
 	text: [
-		"&7Allows you to see &bWill&7 levels in the chunk you're in.",
-		"Works as long as it's in your Inventory."
+		"&7让你可以看见你所在的区块的&b意志&7存储情况。",
+		"带在背包里就行了。"
 	],
 	dependencies: [
 		"66d9a17b"

@@ -1,8 +1,11 @@
 {
-	title: "Unwanted Powers",
+	title: "封印力量",
 	x: -2.0d,
 	y: -14.0d,
-	description: "&oIt is possible to seal the potential of undesired powers, to do so, simply create a &9&oSealing Sigil&7&o, open your &6&oAstral Tome's Perks tab&7&o, and drag and drop the Sigil from the slot at the top to the perk you want to seal... The Seal can always be broken later if desired...",
+	description: "&o有一些星能力你可能不太想要，但是它又挡住了你的路，这时就可以选择制造一个&9&o封闭印章&7&o，打开你的&6&o星芒宝典的星能力栏目&7&o，然后看左上角，把印章拖到你不需要的能力上，就可以封印它。（注意！此操作不会返还技能点数！！！而且必须是已激活的能力才可以封印！！！）",
+	text: [
+		""
+	],
 	dependencies: [
 		"94fe6f69"
 	],

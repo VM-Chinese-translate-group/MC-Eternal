@@ -2,8 +2,8 @@
   "path": "mod_immersiveengineering/hemp_plant.json",
   "enabled": true,
   "id": "immersiveengineering:hemp_plant",
-  "plant_name": "Hemp",
-  "seed_name": "Hemp Seeds",
+  "plant_name": "工业大麻",
+  "seed_name": "工业大麻种子",
   "seed_items": [
     {
       "item": "immersiveengineering:seed",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Testing 1, 2, 3."
+    "default": "工业大麻种子。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

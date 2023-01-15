@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/peanut_plant.json",
   "enabled": true,
   "id": "harvestcraft:peanut_plant",
-  "plant_name": "Peanut",
-  "seed_name": "Peanut Seeds",
+  "plant_name": "花生",
+  "seed_name": "花生种子",
   "seed_items": [
     {
       "item": "harvestcraft:peanutseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Peanut Seeds."
+    "default": "花生种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

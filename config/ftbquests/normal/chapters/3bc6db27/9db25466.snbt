@@ -2,9 +2,9 @@
 	icon: "fossil:dinopedia",
 	x: -22.0d,
 	y: 5.0d,
-	description: "Gotta Hatch em All! *Read Description*",
+	description: "把它们都孵化出来！ *阅读描述*",
 	text: [
-		"Right-Click on a Prehistoric Creature or Egg to get information about what state it's currently in."
+		"右键点击一个史前生物或蛋来获取当前状态信息"
 	],
 	dependencies: [
 		"044435a4"

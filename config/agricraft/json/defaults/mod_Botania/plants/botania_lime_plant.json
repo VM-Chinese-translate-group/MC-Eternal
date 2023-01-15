@@ -2,12 +2,12 @@
   "path": "mod_botania/plants/botania_lime_plant.json",
   "enabled": true,
   "id": "botania:lime_flower_plant",
-  "plant_name": "Mystical Lime Flower",
-  "seed_name": "Mystical Lime Seeds",
+  "plant_name": "黄绿色神秘花",
+  "seed_name": "黄绿色神秘花种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "I wonder if this flower would taste sour?"
+    "default": "这株花尝起来酸吗？"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

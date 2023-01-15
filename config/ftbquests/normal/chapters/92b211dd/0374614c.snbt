@@ -2,7 +2,7 @@
 	icon: "advancedrocketry:cuttingmachine",
 	x: 2.0d,
 	y: -1.5d,
-	description: "Cuts Wafers into Circuits, and Wood into Planks.",
+	description: "将晶片切割成电路，将原木切割成木板。",
 	dependencies: [
 		"d5dbf68e"
 	],
@@ -33,7 +33,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockMotor"
+					Name: "任意马达"
 				}
 			}
 		}]

@@ -1,12 +1,12 @@
 {
-	title: "&4Serenade of the Nether",
+	title: "&4下界夜曲",
 	x: 12.0d,
 	y: 22.0d,
-	description: "&oA Song of Only Fire",
+	description: "&o余烬颂歌",
 	text: [
-		"&7The &4Serenade of the Nether&7 summons Source Blocks of &cLava&7 ontop of it, at a considerable cost of 500LP/Bucket.",
+		"&4下界夜曲&7会在其主仪式石上召唤一桶&c熔岩&7，一桶岩浆消耗500LP。",
 		"",
-		"If Augmented with &bRaw Will&7, it can insert into valid Tanks atop the Master Stone instead."
+		"如果使用&b原生意志&7强化此仪式，它可以将生成的熔岩直接导入主仪式石上方的储罐里，同时降低LP消耗。"
 	],
 	dependencies: [
 		"40cdcd64"

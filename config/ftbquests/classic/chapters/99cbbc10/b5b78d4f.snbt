@@ -2,7 +2,7 @@
 	x: 12.0d,
 	y: -8.0d,
 	text: [
-		"Cookie! COOKIE! COOOOOOKIE!!!!!"
+		"饼干！饼干！饼干干干干!!!!!"
 	],
 	dependencies: [
 		"17f50c84"

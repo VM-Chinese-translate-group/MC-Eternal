@@ -1,13 +1,8 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "advancedrocketry:cuttingmachine"
-	},
+	icon: "advancedrocketry:cuttingmachine",
 	x: 2.0d,
 	y: -1.5d,
-	description: "Cuts Wafers into Circuits, and Wood into Planks.",
+	description: "将晶片切割成电路，将原木切割成木板。",
 	dependencies: [
 		"d5dbf68e"
 	],
@@ -15,20 +10,14 @@
 		uid: "acd4637f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:cuttingmachine"
+			item: "advancedrocketry:cuttingmachine"
 		}]
 	},
 	{
 		uid: "80e330ca",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "advancedrocketry:sawblade"
+			item: "advancedrocketry:sawblade"
 		}]
 	},
 	{
@@ -36,7 +25,6 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "blockMotor",
 					id: "ore"
@@ -45,7 +33,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any blockMotor"
+					Name: "任意马达"
 				}
 			}
 		}]
@@ -54,31 +42,21 @@
 		uid: "5e65ea81",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:hatch"
+			item: "libvulpes:hatch"
 		}]
 	},
 	{
 		uid: "cd00d11d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:hatch",
-			Damage: 1s
+			item: "libvulpes:hatch 1 1"
 		}]
 	},
 	{
 		uid: "b6f837f1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "libvulpes:forgepowerinput"
+			item: "libvulpes:forgepowerinput"
 		}]
 	}],
 	rewards: [{

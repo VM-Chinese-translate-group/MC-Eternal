@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "ee2ca66d",
 		type: "kill",
-		title: "&6&lBounty: Punchroom",
+		title: "&6&l悬赏：重击蘑菇精",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

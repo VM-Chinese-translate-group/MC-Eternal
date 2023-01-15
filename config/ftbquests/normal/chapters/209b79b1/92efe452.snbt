@@ -8,9 +8,9 @@
 	x: -3.5d,
 	y: -6.5d,
 	shape: "square",
-	description: "A vile chicken-like creature that brings death upon its foes with its piercing stare.",
+	description: "鸡蛇是一种类似于鸡的生物。只要凝视鸡蛇，鸡蛇就会用它锐利的目光给猎物带来死亡。",
 	text: [
-		"Sometimes when you look into the abyss, the abyss looks back into you."
+		"当你凝望深渊时，深渊也在凝望你。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -20,7 +20,7 @@
 	tasks: [{
 		uid: "d1e78978",
 		type: "kill",
-		title: "Bounty: Cockatrice",
+		title: "悬赏：鸡蛇",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

@@ -2,7 +2,7 @@
 	x: 5.5d,
 	y: -3.0d,
 	shape: "square",
-	description: "Giants live on solid cloudbanks above the Highlands biome. For unknown reasons (Sorcery? Coincidence? Symbolism?) they look like giant versions of the player looking at them.",
+	description: "巨人生成在高原生物群系上方的云上小屋上。至于为何，原因不明（巫术？巧合？象征主义？）但无论如何，他们看上去就像是玩家的巨型版。",
 	dependencies: [
 		"bc906172"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "2d89cdac",
 		type: "kill",
-		title: "Bounty: Armored Giant",
+		title: "悬赏：武装巨人",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

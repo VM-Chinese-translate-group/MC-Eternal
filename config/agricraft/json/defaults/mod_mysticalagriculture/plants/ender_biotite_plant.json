@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/ender_biotite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:ender_biotite_plant",
-  "plant_name": "Ender Biotite Crop",
-  "seed_name": "Ender Biotite Seeds",
+  "plant_name": "末地云母精华株",
+  "seed_name": "末地云母种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:ender_biotite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Ender Biotite Seeds."
+    "default": "末地云母种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

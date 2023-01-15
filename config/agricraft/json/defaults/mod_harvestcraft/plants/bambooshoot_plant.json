@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/bambooshoot_plant.json",
   "enabled": true,
   "id": "harvestcraft:bambooshoot_plant",
-  "plant_name": "Bamboo Shoot",
-  "seed_name": "Bamboo Shoot Seeds",
+  "plant_name": "竹笋",
+  "seed_name": "竹笋种子",
   "seed_items": [
     {
       "item": "harvestcraft:bambooshootseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Bamboo Shoot Seeds."
+    "default": "竹笋种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -1,10 +1,11 @@
 {
 	x: 7.0d,
 	y: -2.0d,
-	description: "Identifying Spells made easier!",
+	description: "问问神奇的水晶球吧！",
 	text: [
-		"The Sphere of Cognizance is a device that can consume Magic Crystals to provide information about the various properties of a Spell, and sometimes instantly Identify it!",
-		"Just give it a Spell Book, some Magic Crystals, and press the button in its GUI to get hints."
+		"鉴咒魔球是一种鉴定法术的工具，通常情况下，它会给出法术的部分信息，让你在实践法术时少点错误行为，但是如果你运气爆棚，它也可以直接鉴定一种法术。",
+		"打开它的GUI，放入一本法术书和一些魔法水晶，然后等一会。",
+		"（也可以用来鉴定奥术石板，倒不如说这才是真正的作用）"
 	],
 	dependencies: [
 		"66a69ac3"

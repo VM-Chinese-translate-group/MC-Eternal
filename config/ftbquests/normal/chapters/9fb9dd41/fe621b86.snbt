@@ -4,7 +4,7 @@
 	tasks: [{
 		uid: "2a95a1e3",
 		type: "advancement",
-		title: "Advancement: &eHeliomancer",
+		title: "进度：&e太阳法师",
 		icon: {
 			id: "mowziesmobs:grant_suns_blessing"
 		},

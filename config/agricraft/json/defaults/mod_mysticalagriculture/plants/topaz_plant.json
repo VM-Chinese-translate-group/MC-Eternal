@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/topaz_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:topaz_plant",
-  "plant_name": "Topaz",
-  "seed_name": "Topaz Seeds",
+  "plant_name": "黄玉",
+  "seed_name": "黄玉种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:topaz_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Topaz Seeds."
+    "default": "黄玉种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

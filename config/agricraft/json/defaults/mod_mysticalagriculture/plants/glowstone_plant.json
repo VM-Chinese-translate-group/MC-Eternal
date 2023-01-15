@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/glowstone_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:glowstone_plant",
-  "plant_name": "Glowstone Crop",
-  "seed_name": "Glowstone Seeds",
+  "plant_name": "荧石精华株",
+  "seed_name": "荧石种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:glowstone_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Glowstone Seeds."
+    "default": "荧石种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

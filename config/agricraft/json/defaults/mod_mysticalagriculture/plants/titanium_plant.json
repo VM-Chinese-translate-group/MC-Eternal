@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/titanium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:titanium_plant",
-  "plant_name": "Titanium Crop",
-  "seed_name": "Titanium Seeds",
+  "plant_name": "钛精华株",
+  "seed_name": "钛种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:titanium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Titanium Seeds."
+    "default": "钛种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "vanilla/plants/sugarcane_plant.json",
   "enabled": true,
   "id": "vanilla:sugarcane_plant",
-  "plant_name": "Sugarcane",
-  "seed_name": "Sugarcane Seeds",
+  "plant_name": "甘蔗",
+  "seed_name": "甘蔗种子",
   "seed_items": [
     {
       "item": "agricraft:agri_seed",
@@ -29,9 +29,10 @@
   "description": {
     "translations": {
       "en_US": "High in fructose, a healthy part of your daily breakfast.",
-      "es_ES": "Mucho azucar."
+      "es_ES": "Mucho azucar.",
+      "zh_CN": "富含蔗糖。"
     },
-    "default": "A good source of sugar."
+    "default": "甘蔗是糖类的主要来源。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/barley_plant.json",
   "enabled": true,
   "id": "harvestcraft:barley_plant",
-  "plant_name": "Barley",
-  "seed_name": "Barley Seeds",
+  "plant_name": "大麦",
+  "seed_name": "大麦种子",
   "seed_items": [
     {
       "item": "harvestcraft:barleyseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Barley Seeds."
+    "default": "大麦种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

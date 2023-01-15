@@ -1,12 +1,12 @@
 {
-	title: "Stellar Creation",
+	title: "精英合成",
 	x: 2.5d,
 	y: -17.0d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oThis Table requires a greater &6&oMultiblock construct&7&o than the last, so that the power it channels can be amplified further... ",
+		"&7&o这是个更加巨大的&6&o多方块结构&7&o，它能解锁更多的合成。",
 		"",
-		"If you enhanced to this level and would like to create something from the tiers below, fret not, you can create whatever they could if you have the proper construct for them, or the proper construct for this Table..."
+		"如果你已经升级到了这个祭坛，却需要合成一些低级祭坛的东西，不用担心，高级的祭坛兼容低级祭坛的所有合成。"
 	],
 	dependencies: [
 		"a8afcede"
@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "54e1b8a5",
 		type: "advancement",
-		title: "Create the &9Celestial Altar",
+		title: "制作&9天辉祭坛",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

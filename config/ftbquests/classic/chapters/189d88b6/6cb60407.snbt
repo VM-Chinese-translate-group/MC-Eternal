@@ -2,7 +2,7 @@
 	x: -8.0d,
 	y: -6.0d,
 	shape: "hexagon",
-	description: "The new age of flight is here! Press ALT GR to toggle flight. (Check keybinds to rebind)",
+	description: "新的飞行时代来领了！按ALT GR来切换飞行模式。(建议重新绑定键位)",
 	dependencies: [
 		"c5db2dbe"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "871b4e75",
 		type: "item",
-		title: "&oCraft a pair of wings!",
+		title: "&o制作一对翅膀！",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

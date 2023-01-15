@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/broccoli_plant.json",
   "enabled": true,
   "id": "harvestcraft:broccoli_plant",
-  "plant_name": "Broccoli",
-  "seed_name": "Broccoli Seeds",
+  "plant_name": "西兰花",
+  "seed_name": "西兰花种子",
   "seed_items": [
     {
       "item": "harvestcraft:broccoliseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Broccoli Seeds."
+    "default": "西兰花种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

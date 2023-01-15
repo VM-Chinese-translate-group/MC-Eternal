@@ -1,10 +1,10 @@
 {
-	title: "Passing it Down",
+	title: "写下知识",
 	x: 2.5d,
 	y: -15.5d,
-	description: "*Read Description*",
+	description: "*阅读须知*",
 	text: [
-		"&7&oIf one desires, they may create a &9&oScroll&7&o to write down all they know about the power hidden in the Stars, so that such knowledge may not be lost again..."
+		"&7&o如果你是多人游戏，你可能会需要这个&9&o卷轴&7&o来写下你对群星的认识，并把它传给你的伙伴们。"
 	],
 	dependencies: [
 		"a8afcede"

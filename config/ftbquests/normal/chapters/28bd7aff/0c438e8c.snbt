@@ -1,10 +1,10 @@
 {
-	title: "Landlocked Village",
+	title: "内陆殖民地",
 	x: 1.0d,
 	y: -1.0d,
-	description: "*Only pick one!*",
+	description: "*只能选一个！*",
 	text: [
-		"Tip: Supply Camp needs an area of 16 x 12 x 17 to place down."
+		"提示:补给营地需要16x12x17的面积来放置。"
 	],
 	dependencies: [
 		"793fdf70"

@@ -2,7 +2,7 @@
 	x: 0.5d,
 	y: -3.0d,
 	shape: "square",
-	description: "I ain't afraid of no ghost!",
+	description: "我害怕鬼，但鬼未伤我分毫，我不害怕人，但人把我伤得遍体鳞伤。",
 	dependencies: [
 		"7780b056"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "86bc9640",
 		type: "kill",
-		title: "Bounty: Ghost",
+		title: "悬赏：鬼魂",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

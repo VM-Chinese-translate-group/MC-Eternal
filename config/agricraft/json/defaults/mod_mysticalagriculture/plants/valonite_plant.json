@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/valonite_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:valonite_plant",
-  "plant_name": "Valonite Crop",
-  "seed_name": "Valonite Seeds",
+  "plant_name": "法罗钠精华株",
+  "seed_name": "法罗钠种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:valonite_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Valonite Seeds."
+    "default": "法罗钠种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

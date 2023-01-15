@@ -1,9 +1,9 @@
 {
-	title: "&c&lBoss: Tarantula Brood Mother",
+	title: "&c&lBoss：狼育母",
 	x: 6.5d,
 	y: -1.5d,
 	shape: "pentagon",
-	description: "&oTarantula Brood Mothers only spawn in Giant Baobab Trees, found exclusively in Subterranean Savannah.",
+	description: "&o狼育母只在巨型猴面包树生成，树只在地下草原出现。",
 	tasks: [{
 		uid: "f0fdea0d",
 		type: "kill",

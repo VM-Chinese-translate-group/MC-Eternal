@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/enderium_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:enderium_plant",
-  "plant_name": "Enderium Crop",
-  "seed_name": "Enderium Seeds",
+  "plant_name": "末影锭精华株",
+  "seed_name": "末影锭种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:enderium_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Enderium Seeds."
+    "default": "末影锭种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

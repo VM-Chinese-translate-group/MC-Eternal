@@ -2,12 +2,12 @@
   "path": "vanilla/plants/red_tulip_plant.json",
   "enabled": true,
   "id": "vanilla:red_tulip_plant",
-  "plant_name": "Red Tulip",
-  "seed_name": "Red Tulip Seeds",
+  "plant_name": "红色郁金香",
+  "seed_name": "红色郁金香种子",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A vibrant red varient of the perrenial tulip plant. The plant is valued mostly for its distinctive blooms."
+    "default": "郁金香以四季长久著称，红色郁金香是郁金香的红色变种。因其花朵与众不同，故拥有一定美学价值。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

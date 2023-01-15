@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/dark_steel_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:dark_steel_plant",
-  "plant_name": "Dark Steel Crop",
-  "seed_name": "Dark Steel Seeds",
+  "plant_name": "玄钢精华株",
+  "seed_name": "玄钢种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:dark_steel_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Dark Steel Seeds."
+    "default": "玄钢种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/mulberry_plant.json",
   "enabled": true,
   "id": "harvestcraft:mulberry_plant",
-  "plant_name": "Mulberry",
-  "seed_name": "Mulberry Seeds",
+  "plant_name": "桑葚",
+  "seed_name": "桑葚种子",
   "seed_items": [
     {
       "item": "harvestcraft:mulberryseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Mulberry Seeds."
+    "default": "桑葚种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

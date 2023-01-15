@@ -1,9 +1,12 @@
 {
-	title: "Immunise yourself to the Vampire Affliction",
+	title: "免疫吸血之疾",
 	x: 11.5d,
 	y: 11.0d,
 	shape: "hexagon",
-	description: "Heard they're reforming the Dawnguard. Vampire hunters or something...",
+	description: "听说他们正在招人，好像是要去当什么吸血鬼猎人……",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "a171c342",
 		type: "item",

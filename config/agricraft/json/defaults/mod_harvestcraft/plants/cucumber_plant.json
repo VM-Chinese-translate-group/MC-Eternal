@@ -1,12 +1,12 @@
 {
-  "path": "mod_harvestcraft/plants/cucumber_plant.json",
+  "path": "mod_harvestcraft/plants/黄瓜_plant.json",
   "enabled": true,
-  "id": "harvestcraft:cucumber_plant",
-  "plant_name": "Cucumber",
-  "seed_name": "Cucumber Seeds",
+  "id": "harvestcraft:黄瓜_plant",
+  "plant_name": "黄瓜",
+  "seed_name": "黄瓜种子",
   "seed_items": [
     {
-      "item": "harvestcraft:cucumberseeditem",
+      "item": "harvestcraft:黄瓜seeditem",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Cucumber Seeds."
+    "default": "黄瓜种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "harvestcraft:cucumberitem",
+        "item": "harvestcraft:黄瓜item",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -67,16 +67,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "harvestcraft:items/cucumberitem",
+    "seed_texture": "harvestcraft:items/黄瓜item",
     "plant_textures": [
-      "harvestcraft:blocks/crops/cucumber_stage_0",
-      "harvestcraft:blocks/crops/cucumber_stage_0",
-      "harvestcraft:blocks/crops/cucumber_stage_0",
-      "harvestcraft:blocks/crops/cucumber_stage_1",
-      "harvestcraft:blocks/crops/cucumber_stage_1",
-      "harvestcraft:blocks/crops/cucumber_stage_2",
-      "harvestcraft:blocks/crops/cucumber_stage_2",
-      "harvestcraft:blocks/crops/cucumber_stage_3"
+      "harvestcraft:blocks/crops/黄瓜_stage_0",
+      "harvestcraft:blocks/crops/黄瓜_stage_0",
+      "harvestcraft:blocks/crops/黄瓜_stage_0",
+      "harvestcraft:blocks/crops/黄瓜_stage_1",
+      "harvestcraft:blocks/crops/黄瓜_stage_1",
+      "harvestcraft:blocks/crops/黄瓜_stage_2",
+      "harvestcraft:blocks/crops/黄瓜_stage_2",
+      "harvestcraft:blocks/crops/黄瓜_stage_3"
     ]
   }
 }

@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/oats_plant.json",
   "enabled": true,
   "id": "harvestcraft:oats_plant",
-  "plant_name": "Oats",
-  "seed_name": "Oats Seeds",
+  "plant_name": "燕麦",
+  "seed_name": "燕麦种子",
   "seed_items": [
     {
       "item": "harvestcraft:oatsseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Oats Seeds."
+    "default": "燕麦种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

@@ -1,7 +1,10 @@
 {
 	x: 13.5d,
 	y: -4.0d,
-	description: "Mana from Leaves! *Read Lexica Botania for more Info*",
+	description: "来自自然的魔力！*详见植物魔法辞典*",
+	text: [
+		""
+	],
 	dependencies: [
 		"20d39f85"
 	],

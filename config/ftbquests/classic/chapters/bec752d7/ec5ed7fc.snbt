@@ -1,7 +1,10 @@
 {
 	x: 17.0d,
 	y: -2.5d,
-	description: "Transmutes some items into others, such as Flint into Gunpowder.",
+	description: "可以开启魔力池的某些特殊合成，使用方式是把它放在魔力池下面",
+	text: [
+		""
+	],
 	dependencies: [
 		"cce52b0e"
 	],

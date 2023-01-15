@@ -1,13 +1,13 @@
 {
 	x: -6.0d,
 	y: 13.5d,
-	description: "Automatic Crafting Table for ME Networks! *Read Description*",
+	description: "ME网络的自动制作合成台！*阅读下方文本*",
 	text: [
-		"Place an ME Interface adjacent to it and put Crafting Patterns in the Interface to let the network do that recipe for Autocrafting requests...",
+		"在它旁边放置一个ME接口，并在界面中放置制作样板，让ME网络执行自动化制作样板配方的请求......",
 		"",
-		"...Or put a Pattern in the Assembler and provide the required Items for full-auto crafting.",
+		"......或者在分子装配室放入编码样板，并为自动化制作提供所需的物品。",
 		"",
-		"Automatically pushes results of crafting to adjacent Containers"
+		"自动地将制作结果推送到相邻容器"
 	],
 	dependencies: [
 		"c2bf12bb"

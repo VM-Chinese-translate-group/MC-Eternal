@@ -1,8 +1,11 @@
 {
-	title: "Purifying the Impurities",
+	title: "纯化与淬炼",
 	x: 9.5d,
 	y: -15.0d,
-	description: "&oIf a &9&oRock Crystal&7&o has grown &6&overy large&7&o, it may split in two, one of the split pieces retains the purity of the old crystal, while the other one is usually more pure than the one it split from...",
+	description: "&o如果一个&9&o水晶石&7&o生长的&6&o非常非常大&7&o，它可能会裂成两块水晶石，其中一块水晶石的纯度是碎裂前的，另一块往往比碎裂前的水晶石更加纯净",
+	text: [
+		""
+	],
 	dependencies: [
 		"85ccecbd"
 	],

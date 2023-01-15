@@ -1,8 +1,8 @@
 {
-	title: "&cAre you &kaaa &rstill sane? &k3918&r",
+	title: "&c你还&r理智吗？ &k3918&r",
 	x: 0.5d,
 	y: -0.5d,
-	description: "&k315dd&rWe're all &kaser&r&cmad here &kt3df&r",
+	description: "&k315dd&r在这里我们都是&kaser&r&c疯子 &kt3df&r",
 	dependencies: [
 		"996f6a7a"
 	],
@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "24b9b885",
 		type: "checkmark",
-		title: "&kwewfh&r &cSanity Check &k--  &r(Click me if &kwrw&r insane)",
+		title: "&kwewfh&r &c理智检测&k-- &r（如果你&kwrw&r疯了就点我）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

@@ -1,0 +1,224 @@
+#PARSE_ESCAPES
+
+itemGroup.dimensional_doors_creative_tab=次元门物品
+
+tile.gold_door.name=金门
+tile.quartz_door.name=石英门
+
+tile.iron_dimensional_door.name=次元门
+tile.gold_dimensional_door.name=金制次元门
+tile.quartz_dimensional_door.name=私人次元门
+tile.unstable_dimensional_door.name=不稳定的门
+tile.oak_dimensional_door.name=扭曲之门
+tile.dimensional_trapdoor.name=空间活板门
+tile.dimensional_portal.name=瞬息之门
+
+tile.fabric.black.name=现实之壁
+tile.fabric.white.name=变化之壁
+
+tile.fabric.orange.name=橙色变化之壁
+tile.fabric.magenta.name=品红色变化之壁
+tile.fabric.lightBlue.name=淡蓝色变化之壁
+tile.fabric.yellow.name=黄色变化之壁
+tile.fabric.lime.name=淡绿色变化之壁
+tile.fabric.pink.name=粉色变化之壁
+tile.fabric.gray.name=灰色变化之壁
+tile.fabric.silver.name=淡灰色变化之壁
+tile.fabric.cyan.name=青色变化之壁
+tile.fabric.purple.name=紫色变化之壁
+tile.fabric.blue.name=蓝色变化之壁
+tile.fabric.brown.name=棕色变化之壁
+tile.fabric.green.name=绿色变化之壁
+tile.fabric.red.name=红色变化之壁
+
+tile.ancient_fabric.black.name=远古现实之壁
+tile.ancient_fabric.white.name=远古变化之壁
+
+tile.ancient_fabric.orange.name=橙色远古变化之壁
+tile.ancient_fabric.magenta.name=品红色远古变化之壁
+tile.ancient_fabric.lightBlue.name=淡蓝色远古变化之壁
+tile.ancient_fabric.yellow.name=黄色远古变化之壁
+tile.ancient_fabric.lime.name=淡绿色远古变化之壁
+tile.ancient_fabric.pink.name=粉色远古变化之壁
+tile.ancient_fabric.gray.name=灰色远古变化之壁
+tile.ancient_fabric.silver.name=淡灰色远古变化之壁
+tile.ancient_fabric.cyan.name=青色远古变化之壁
+tile.ancient_fabric.purple.name=紫色远古变化之壁
+tile.ancient_fabric.blue.name=蓝色远古变化之壁
+tile.ancient_fabric.brown.name=棕色远古变化之壁
+tile.ancient_fabric.green.name=绿色远古变化之壁
+tile.ancient_fabric.red.name=红色远古变化之壁
+
+tile.eternal_fabric.name=永恒之壁
+tile.unravelled_fabric.name=边境之壁
+tile.rift.name=裂痕
+
+item.gold_door.name=金门
+item.quartz_door.name=石英门
+
+item.iron_dimensional_door.name=次元门
+item.gold_dimensional_door.name=金制次元门
+item.quartz_dimensional_door.name=私人次元门
+item.unstable_dimensional_door.name=不稳定的门
+item.oak_dimensional_door.name=扭曲之门
+
+item.rift_key=裂痕钥匙
+item.rift_signature.name=裂痕印记
+item.rift_signature.stored=存储的位置
+item.rift_signature.created=创建的裂痕
+item.stabilized_rift_signature.name=稳定的裂痕印记
+item.stabilized_rift_signature.stored=存储的位置
+item.stabilized_rift_signature.created=创建的裂痕
+item.rift_configuration_tool.name=裂痕配置工具
+item.rift_remover.name=裂痕闭合器
+item.rift_remover.closing=裂痕很快就会闭合
+item.rift_remover.already_closing=这条裂痕已经闭合了
+item.rift_stabilizer.name=裂痕稳定器
+item.rift_stabilizer.info=使用裂痕核心来阻止其增长。
+item.rift_stabilizer.stabilized=裂痕已稳定，将停止增长
+item.rift_stabilizer.already_stabilized=这个裂痕已处在稳定态
+item.rift_blade.name=裂痕之刃
+item.rift_blade.rift_miss=你只能在裂痕核心上使用这个物品
+
+item.world_thread.name=世界纤维
+item.stable_fabric.name=稳定构造
+
+item.woven_world_thread_boots.name=梭织世界纤维靴子
+item.woven_world_thread_helmet.name=梭织世界纤维头盔
+item.woven_world_thread_leggings.name=梭织世界纤维护腿
+item.woven_world_thread_chestplate.name=梭织世界纤维胸甲
+
+item.rift_key.bound.info=绑定
+item.rift_key.unbound.info=取消绑定
+
+item.iron_dimensional_door.info=放在裂痕下方的方块上 \n来激活裂痕 \n或放在任意地点生成 \n一个口袋次元.
+item.gold_dimensional_door.info=类似于次元门 \n但它放在次元内部时 \n会保持次元的加载.
+item.quartz_dimensional_door.info=生成一个通向你 \n口袋次元的路径
+item.rift_blade.info=在裂痕上开启临时的门 \n它还拥有瞬移攻击的能力.
+item.rift_remover.info=在外露的裂痕附近使用 \n来移除它以及附近的其他 \n裂痕.
+item.rift_signature.bound.info=指向(%d, %d, %d) 位于#%d
+item.rift_signature.unbound.info=第一次点击记录一个位置; \n第二次点击在两地间创造 \n一对相互连接的裂痕.
+item.stabilized_rift_signature.bound.info=指向(%d, %d, %d) 位于#%d
+item.stabilized_rift_signature.unbound.info=首次点击记录一个位置, \n再次点击生成连接两地的 \n裂痕.
+item.unstable_dimensional_door.info=注意: 将会随机传送
+item.oak_dimensional_door.info=放在裂痕下方的方块上 \n来制造传送门, \n放在口袋次元中 \n以退出空间.
+
+item.record.creepy.desc=Creepy - The sound of Limbo
+
+entity.dimdoors.monolith.name=巨石
+
+commands.dimteleport.usage=/dimteleport <dimension> <x> <y> <z> [yaw] [pitch]
+commands.fabricconvert.usage=/fabricconvert
+commands.fabricconvert.success=现实之壁都被转换成了黑色。
+commands.pocket.usage=/pocket <group> <name> [setup]
+commands.pocket.group_not_found=找不到组 %s 
+commands.pocket.template_not_found=找不到模板 %s
+commands.saveschem.usage=/saveschem <name>
+commands.saveschem.success=口袋 %s 已成功保存
+commands.generic.dimdoors.not_in_pocket_dim=你必须在口袋次元里才能使用这个命令
+commands.generic.dimdoors.not_in_pocket=你必须在口袋次元才能使用这个命令
+
+rifts.unlinked=这条裂痕什么都没有
+rifts.destinations.escape.cannot_escape_limbo=很好，但你如果想离开次元监牢，那么就选择死去，或者找到永恒之壁。
+rifts.destinations.escape.not_in_pocket_dim=你只能用这个逃离口袋次元！
+rifts.destinations.escape.did_not_use_rift=你没有用裂痕进入口袋次元，所以你现在在次元监牢！
+rifts.destinations.escape.rift_has_closed=你用来进入口袋次元的裂痕已经闭合，你现在来到了次元监牢！
+rifts.destinations.private_pocket_exit.did_not_use_rift=你没有用裂痕进入口袋次元，你现在在次元监牢！
+rifts.destinations.private_pocket_exit.rift_has_closed=你用来进入口袋次元的裂痕已经闭合，你现在来到了次元监牢！
+rifts.entrances.rift_too_close=把一扇门放在世界上如此接近撕裂的地方是危险的。按住Shift+右键以放置，或将其放置在裂缝核心上以将其绑定到裂缝。
+rifts.entrances.cannot_be_placed_on_rift=这种门不能放在裂痕上。
+
+tools.rift_miss=你只能在裂痕核心上使用这个物品
+tools.target_became_block=失败，存储的位置现在有了一个方块
+
+#往下都是设置，不翻了（
+
+dimdoors.general=通用设置
+dimdoors.general.tooltip=模组常规配置设置
+dimdoors.general.baseDimensionID=起始次元ID
+dimdoors.general.baseDimensionID.tooltip=第一个次元门的次元ID。其他次元将使用连续的次元ID（依次递增）。强烈建议将其保留为默认值。
+dimdoors.general.useStatusBar=状态栏显示消息
+dimdoors.general.useStatusBar.tooltip=是否使用状态栏显示消息而不是在聊天界面显示。
+dimdoors.general.closeDoorBehind=自动关闭次元门
+dimdoors.general.closeDoorBehind.tooltip=如果为true，当玩家进入传送门时，次元门将自动关闭。
+dimdoors.general.depthSpreadFactor=深度分散因子
+dimdoors.general.depthSpreadFactor.tooltip=从口袋次元或次元监牢离开时的分散度，以格/深度为单位。重要的是要记住，默认情况下，次元监牢的深度为50。
+dimdoors.general.teleportOffset=传送偏移度
+dimdoors.general.teleportOffset.tooltip=将玩家传送到次元门前的距离（以格为单位）。
+
+
+dimdoors.rifts.riftCloseSpeed=裂痕关闭速度
+dimdoors.rifts.riftCloseSpeed.tooltip=使用裂痕闭合器时裂痕闭合的速度，单位为每tick的裂痕大小。
+dimdoors.rifts.riftBoundingBoxInCreative=创造裂痕碰撞箱
+dimdoors.rifts.riftBoundingBoxInCreative.tooltip=如果为true，则玩家在创造模式下显示不稳定的裂痕的碰撞箱。
+dimdoors.rifts.enableRiftDecay=启用裂痕侵蚀
+dimdoors.rifts.enableRiftDecay.tooltip=如果为true，不稳定的裂痕会侵蚀附近的方块，掉落世界纤维
+dimdoors.rifts.blockRiftDecayBlackList=方块侵蚀黑名单
+dimdoors.rifts.blockRiftDecayBlackList.tooltip=将被列入裂痕侵蚀黑名单的方块列表
+dimdoors.rifts.maxRiftSize=最大裂痕大小
+dimdoors.rifts.maxRiftSize.tooltip=一个野生裂痕可以达到的最大大小。设置为-1则忽略。注意，裂痕呈对数增长
+dimdoors.rifts.enableWildRifts=启用野生裂痕
+dimdoors.rifts.enableWildRifts.tooltip=确定是否启用野生裂痕
+
+
+dimdoors.pockets=口袋次元设置
+dimdoors.pockets.tooltip=决定口袋次元中口袋间距和最大大小的设置
+dimdoors.pockets.pocketGridSize=Pocket Grid Size
+dimdoors.pockets.pocketGridSize.tooltip=Sets how many chunks apart all pockets in any pocket dimensions should be placed.
+dimdoors.pockets.maxPocketSize=Maximum Pocket Size
+dimdoors.pockets.maxPocketSize.tooltip=Sets the maximum size of any pocket. A size of x will allow for pockets up to (x + 1) * (x + 1) chunks. If this is set to any value bigger than pocketGridSize / 2, the value of pocketGridSize / 2 will be used instead.
+dimdoors.pockets.privatePocketSize=Private Pocket Size
+dimdoors.pockets.privatePocketSize.tooltip=Sets the minimum size of a newly created Private Pocket. If this is set to any value bigger than maxPocketSize, the value of maxPocketSize will be used instead.
+dimdoors.pockets.publicPocketSize=Public Pocket Size
+dimdoors.pockets.publicPocketSize.tooltip=Sets the minimum size of a newly created Public Pocket. If this is set to any value bigger than privatePocketSize, the value of privatePocketSize will be used instead.
+dimdoors.pockets.loadAllSchematics=Load All Schematics
+dimdoors.pockets.loadAllSchematics.tooltip= When true, all available Pocket Schematics will be loaded on game-start, even if the gridSize and pocketSize configuration fields would exclude these schematics from being used in 'naturally generated' pockets. The /pocket command can be used to force-generate these pockets for dungeon building or testing purposes.
+dimdoors.pockets.cachedSchematics=Maximum number of cached schematics
+dimdoors.pockets.cachedSchematics.tooltip= The maximum number of schematics cached as NBT instead of bytes. If a schematic is cached, it will be faster to place, but takes up more RAM. Schematics that are used more are more likely to be cached. The cache resets on restart.
+
+dimdoors.world=世界生成设置
+dimdoors.world.tooltip=确定维度折跃门和裂痕集群生成位置和频率的设置
+dimdoors.world.clusterGenChance=Cluster Generation Chance
+dimdoors.world.clusterGenChance.tooltip=Sets the chance (out of 1) that a cluster of rifts will generate in a given chunk.
+dimdoors.world.gatewayGenChance=Gateway Generation Chance
+dimdoors.world.gatewayGenChance.tooltip=Sets the chance (out of 1) that a dimensional gateway will generate in a given chunk.
+dimdoors.world.clusterDimBlacklist=Cluster Dimension Blacklist
+dimdoors.world.clusterDimBlacklist.tooltip=Dimension Blacklist for the generation of Rift Scar clusters. Add a dimension ID here to prevent generation in certain dimensions.
+dimdoors.world.gatewayDimBlacklist=Gateway Dimension Blacklist
+dimdoors.world.gatewayDimBlacklist.tooltip=Dimension Blacklist for the generation of Dimensional Portal gateways. Add a dimension ID here to prevent generation in certain dimensions.
+dimdoors.world.enableDecayDrops=Enable Rift Decay Drops
+dimdoors.world.enableDecayDrops.tooltip=When true, blocks destroyed by rift decay will drop world thread.
+
+dimdoors.dungeons=地牢设置
+dimdoors.dungeons.tooltip=Settings that affect the generation of pocket dungeons
+dimdoors.dungeons.maxDungeonDepth=Maximum Dungeon Depth
+dimdoors.dungeons.maxDungeonDepth.tooltip=The depth at which limbo is located. If a Rift reaches any deeper than this while searching for a new destination, the player trying to enter the Rift will be sent straight to Limbo.
+
+dimdoors.monoliths=巨石设置
+dimdoors.monoliths.tooltip=决定巨石危险程度的设置
+dimdoors.monoliths.dangerousLimboMonoliths=次元监牢巨石
+dimdoors.monoliths.dangerousLimboMonoliths.tooltip=如果为true，次元监牢中的巨石可以攻击玩家并造成伤害。
+dimdoors.monoliths.monolithTeleportation=巨石传送
+dimdoors.monoliths.monolithTeleportation.tooltip=如果为true，长时间被巨石的注视，会让玩家被传送到次元监牢上方的虚空。
+
+dimdoors.limbo=次元监牢设置
+dimdoors.limbo.tooltip=控制次元监牢各个方面的设置
+dimdoors.limbo.universalLimbo=全局次元监牢
+dimdoors.limbo.universalLimbo.tooltip=如果为true，玩家在任何非口袋次元死亡时也会被传送到次元监牢（除了次元监牢本身）。否则，玩家只有在口袋次元中死亡时才能进入次元监牢。
+dimdoors.limbo.hardcoreLimbo=硬核次元监牢
+dimdoors.limbo.hardcoreLimbo.tooltip=如果为true，在次元监牢死亡的玩家将在次元监牢重生，永恒流体与黄金次元门将成为逃离次元监牢的唯一途径。
+dimdoors.limbo.enableLimboDecay=启用侵蚀
+dimdoors.limbo.enableLimboDecay.tooltip=如果为假，将禁用从次元监牢回来后的边境之壁的侵蚀
+dimdoors.limbo.blockLimboDecayBlackList=方块侵蚀黑名单
+dimdoors.limbo.blockLimboDecayBlackList.tooltip=从次元监牢回来后的边境之壁不会侵蚀的方块
+
+dimdoors.graphics=图形设置
+dimdoors.graphics.tooltip=控制此模组外观的设置，例如裂痕的动画。
+dimdoors.graphics.highlightRiftCoreFor=裂痕核心高亮时间
+dimdoors.graphics.highlightRiftCoreFor.tooltip=当试图将门放置在大裂痕附近而不是直接放置在裂痕上时，裂痕核心（tesseract动画）应显示多长时间（以毫秒为单位）。设置为-1将禁用。
+dimdoors.graphics.showRiftCore=总是显示裂痕核心
+dimdoors.graphics.showRiftCore.tooltip=将此设置为true以始终显示裂缝的核心（tesseract动画）。
+dimdoors.graphics.riftSize=裂痕大小
+dimdoors.graphics.riftSize.tooltip=影响裂痕大小的乘数，1为默认大小。
+dimdoors.graphics.riftJitter=裂痕抖动
+dimdoors.graphics.riftJitter.tooltip=影响裂痕抖动程度的乘数，1是默认大小。

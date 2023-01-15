@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/black_quartz_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:black_quartz_plant",
-  "plant_name": "Black Quartz Crop",
-  "seed_name": "Black Quartz Seeds",
+  "plant_name": "焦黑石英精华株",
+  "seed_name": "焦黑石英种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:black_quartz_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Black Quartz Seeds."
+    "default": "焦黑石英种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

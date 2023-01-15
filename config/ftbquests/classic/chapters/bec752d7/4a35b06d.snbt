@@ -1,8 +1,11 @@
 {
-	title: "The Full Chart",
+	title: "天文学家",
 	x: 5.5d,
 	y: -8.5d,
-	description: "&oCollect all &9&oConstellation Papers&7&o...",
+	description: "&o收集或制作&9&o所有的星图&7&o……",
+	text: [
+		""
+	],
 	dependencies: [
 		"19ff9bc2"
 	],

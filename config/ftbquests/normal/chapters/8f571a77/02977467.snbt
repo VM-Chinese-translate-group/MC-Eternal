@@ -1,9 +1,9 @@
 {
 	x: 3.5d,
 	y: 1.0d,
-	description: "Drop",
+	description: "掉落物",
 	text: [
-		"*Unlocked from completing Essence of Magic*"
+		"*完成魔法精华后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [

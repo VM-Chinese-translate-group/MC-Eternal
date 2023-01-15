@@ -2,7 +2,7 @@
 	x: -2.5d,
 	y: -5.0d,
 	shape: "square",
-	description: "&c&oI am going far away to the land of robbers and ghosts. You must not go further, the werewolf haunts the woods. My dreams are heavy in this desolate castle, but do not fear.",
+	description: "&c&o我到了一个充满强盗和幽灵的地方，而且树林里还有狼人出没，太可怕了！这里有一座荒凉的城堡，我好不容易睡着，但做的梦都是噩梦，给我吓出一身冷汗……",
 	dependencies: [
 		"3acd3f99"
 	],
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "a9bd21cd",
 		type: "kill",
-		title: "Bounty: Vampire Baron",
+		title: "悬赏：吸血鬼伯爵",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}

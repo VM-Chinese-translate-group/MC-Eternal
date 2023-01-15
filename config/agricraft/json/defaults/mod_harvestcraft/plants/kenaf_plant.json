@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/kenaf_plant.json",
   "enabled": true,
   "id": "harvestcraft:kenaf_plant",
-  "plant_name": "Kenaf",
-  "seed_name": "Kenaf Seeds",
+  "plant_name": "洋麻",
+  "seed_name": "洋麻种子",
   "seed_items": [
     {
       "item": "harvestcraft:kenafseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Kenaf Seeds."
+    "default": "洋麻种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

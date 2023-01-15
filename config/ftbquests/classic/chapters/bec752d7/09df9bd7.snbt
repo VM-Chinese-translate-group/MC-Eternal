@@ -1,7 +1,10 @@
 {
 	x: 14.0d,
 	y: -1.0d,
-	description: "The first way of moving Mana around, and the only way to harvest it from Generating Flowers to be put into Mana Pools.",
+	description: "你的第一个魔力传输设备，只能把产能花的魔力导出",
+	text: [
+		""
+	],
 	dependencies: [
 		"58996ce0"
 	],

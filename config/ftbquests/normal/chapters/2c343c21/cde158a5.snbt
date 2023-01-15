@@ -2,12 +2,12 @@
 	x: -5.75d,
 	y: -0.75d,
 	shape: "square",
-	description: "&oThe most common ground infantry unit sent into battle during an invasion by the Undying forces. Unfortunately for the living, their numbers only keep growing as people perish...",
+	description: "&o在亡灵士兵部队的入侵中，最常见的地面步兵部队被派往战场。对活人来说不幸的是，亡灵士兵的人数会随着人们的死亡而不断增加……",
 	size: 0.5d,
 	tasks: [{
 		uid: "a26a499c",
 		type: "kill",
-		title: "&6&lBounty: &r&8Undying Soldier",
+		title: "&6&l悬赏：&r&8亡灵士兵",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -25,7 +25,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}

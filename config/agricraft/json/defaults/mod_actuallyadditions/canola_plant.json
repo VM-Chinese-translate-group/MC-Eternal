@@ -2,8 +2,8 @@
   "path": "mod_actuallyadditions/canola_plant.json",
   "enabled": true,
   "id": "actuallyadditions:canola_plant",
-  "plant_name": "Canola",
-  "seed_name": "Canola Seeds",
+  "plant_name": "油菜",
+  "seed_name": "油菜种子",
   "seed_items": [
     {
       "item": "actuallyadditions:item_canola_seed",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Hola, canola! According to something called the internet, the term \u0027canola\u0027 is a contraction of \u0027Canada\u0027 and \u0027ola\u0027, meaning oil"
+    "default": "嗨！油菜！就像“因特网”这个词一样，“油菜”物如其名，是个富含“油”的“菜”。"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

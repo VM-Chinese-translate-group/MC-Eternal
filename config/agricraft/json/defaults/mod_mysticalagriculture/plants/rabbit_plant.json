@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/rabbit_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:rabbit_plant",
-  "plant_name": "Rabbit Crop",
-  "seed_name": "Rabbit Seeds",
+  "plant_name": "兔子精华株",
+  "seed_name": "兔子种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:rabbit_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Rabbit Seeds."
+    "default": "兔子种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

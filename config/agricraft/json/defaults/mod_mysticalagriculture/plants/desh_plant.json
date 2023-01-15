@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/desh_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:desh_plant",
-  "plant_name": "Desh Crop",
-  "seed_name": "Desh Seeds",
+  "plant_name": "戴斯精华株",
+  "seed_name": "戴斯种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:desh_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Desh Seeds."
+    "default": "戴斯种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

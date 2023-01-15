@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: 2.0d,
-	description: "&8&oDrains the life from victims, leaves behind empty lifeless husks. In most circles of the world a weapon fueled by such dark magic would be forbidden, One should be careful wielding such a weapon or you too may fall prey to its corrupting power.",
+	description: "&8&o吸干敌人的生机，只留下空虚的躯壳。在这个世界中的大多数地方，这种通过黑魔法驱使的武器是被绝对禁止的，使用这种武器使请小心，否则，你可能成为它恐怖力量下的牺牲品。",
 	dependencies: [
 		"ad9ad2ba"
 	],

@@ -1,7 +1,7 @@
 {
 	x: -15.4d,
 	y: -4.55d,
-	description: "If you die and lose currency or change dimension and you notice all of your hard earned money has vanished, use the command /pay username 1 this will reload the money",
+	description: "如果你死后或进入其他维度后发现你所有辛苦赚来的钱都消失了，请使用 /pay username 1 命令，它可以重新加载ftb商店的钱。",
 	dependencies: [
 		"87cb3976"
 	],
@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "6f1f4a56",
 		type: "checkmark",
-		title: "Losing Currency",
+		title: "消失的货币",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: -1.0d,
-	description: "By placing this artifact in my hotbar, it will summon the nightmarish creature from the horrible dream you found yourself enduring, what is the difference between what's real and what isn't &k2&r &cI fear my dreams may be more real than I thought...",
+	description: "将这个宝贝放在我的饰品栏中，它就可以从你难以忍受的可怕梦境中召唤出来自噩梦的生物，真实和非真实的区别 &k2&r &c 我的梦境可能太过真实......那些怪物.......",
 	dependencies: [
 		"03bf751d"
 	],

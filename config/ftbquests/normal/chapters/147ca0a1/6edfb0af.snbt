@@ -1,7 +1,7 @@
 {
 	x: 1.75d,
 	y: 1.05d,
-	description: "&oShiny..... So shiny....",
+	description: "&o闪耀……金光闪闪……",
 	dependencies: [
 		"cac64582"
 	],

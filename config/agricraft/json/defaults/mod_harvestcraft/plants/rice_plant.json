@@ -2,8 +2,8 @@
   "path": "mod_harvestcraft/plants/rice_plant.json",
   "enabled": true,
   "id": "harvestcraft:rice_plant",
-  "plant_name": "Rice",
-  "seed_name": "Rice Seeds",
+  "plant_name": "水稻",
+  "seed_name": "水稻种子",
   "seed_items": [
     {
       "item": "harvestcraft:riceseeditem",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Rice Seeds."
+    "default": "水稻种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

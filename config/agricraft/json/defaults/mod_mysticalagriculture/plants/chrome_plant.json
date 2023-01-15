@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/chrome_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:chrome_plant",
-  "plant_name": "Chrome Crop",
-  "seed_name": "Chrome Seeds",
+  "plant_name": "铬精华株",
+  "seed_name": "铬种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:chrome_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Chrome Seeds."
+    "default": "铬种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

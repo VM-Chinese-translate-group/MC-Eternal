@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/aluminum_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:aluminum_plant",
-  "plant_name": "Aluminum Crop",
-  "seed_name": "Aluminum Seeds",
+  "plant_name": "铝精华株",
+  "seed_name": "铝种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:aluminum_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Aluminum Seeds."
+    "default": "铝种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

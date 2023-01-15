@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/fiery_ingot_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:fiery_ingot_plant",
-  "plant_name": "Fiery Ingot Crop",
-  "seed_name": "Fiery Ingot Seeds",
+  "plant_name": "炽铁精华株",
+  "seed_name": "炽热的铁锭种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:fiery_ingot_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Fiery Ingot Seeds."
+    "default": "炽热的铁锭种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

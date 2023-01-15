@@ -2,8 +2,8 @@
   "path": "mod_mysticalagriculture/plants/slime_plant.json",
   "enabled": true,
   "id": "mysticalagriculture:slime_plant",
-  "plant_name": "Slime Crop",
-  "seed_name": "Slime Seeds",
+  "plant_name": "史莱姆精华株",
+  "seed_name": "史莱姆种子",
   "seed_items": [
     {
       "item": "mysticalagriculture:slime_seeds",
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Slime Seeds."
+    "default": "史莱姆种子。"
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,

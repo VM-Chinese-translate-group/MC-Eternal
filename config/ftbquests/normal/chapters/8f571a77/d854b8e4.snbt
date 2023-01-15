@@ -1,7 +1,7 @@
 {
 	x: -0.5d,
 	y: -2.0d,
-	description: "Cheesemaker `",
+	description: "奶酪制造机",
 	can_repeat: true,
 	tasks: [{
 		uid: "85938d9a",

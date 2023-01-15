@@ -2,7 +2,7 @@
 	title: "What a Blast",
 	x: -5.0d,
 	y: 5.5d,
-	description: "*Click to read description*",
+	description: "*点击阅读描述*",
 	text: [
 		"Requires 34 machine casing of any kind to form the 3x4 multi-block structure with the Blast furnace machine is placed in front the center of the bottom layer."
 	],

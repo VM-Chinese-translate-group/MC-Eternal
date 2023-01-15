@@ -1,7 +1,10 @@
 {
 	x: 19.0d,
 	y: -5.5d,
-	description: "Mana = Water!",
+	description: "魔力=水（一个颜色的）",
+	text: [
+		""
+	],
 	dependencies: [
 		"80831a7a"
 	],
