@@ -28,7 +28,7 @@
 	{
 		uid: "125f4ed1",
 		type: "item",
-		title: "Any boneWithered",
+		title: "任意凋零之骨",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

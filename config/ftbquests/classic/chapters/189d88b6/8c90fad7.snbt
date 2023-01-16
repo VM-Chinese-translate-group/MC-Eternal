@@ -31,7 +31,7 @@
 	rewards: [{
 		uid: "fa70bee1",
 		type: "item",
-		title: "Kaboomerang II",
+		title: "回旋爆炸II",
 		auto: "no_toast",
 		item: {
 			ForgeCaps: {

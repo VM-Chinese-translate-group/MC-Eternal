@@ -3,7 +3,7 @@
 	y: -3.0d,
 	description: "似乎是更加先进的武器弹药",
 	text: [
-		"*Spawns in jungles*"
+		"*生成在丛林地形*"
 	],
 	dependencies: [
 		"2cf9d199"

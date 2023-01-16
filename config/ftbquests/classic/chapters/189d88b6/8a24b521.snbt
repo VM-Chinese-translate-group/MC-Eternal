@@ -25,7 +25,7 @@
 	{
 		uid: "1863647c",
 		type: "item",
-		title: "Any ingotBronze",
+		title: "任意青铜锭",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

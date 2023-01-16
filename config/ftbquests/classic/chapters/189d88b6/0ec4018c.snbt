@@ -48,9 +48,9 @@
 				}],
 				display: {
 					Lore: [
-						"You have a regrettably large head, I would very much like to bat it."
+						"你有一个令人扫兴的大脑袋，我很想把它砍下来！！"
 					],
-					Name: "The Mad Batter"
+					Name: "疯帽子"
 				}
 			}
 		}

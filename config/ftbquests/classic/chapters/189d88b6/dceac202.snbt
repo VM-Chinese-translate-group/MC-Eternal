@@ -3,7 +3,7 @@
 	y: -3.0d,
 	description: "&o通过喂食蜘蛛眼或发酵蜘蛛眼来驯服乌鸦，有1/3的机率驯服成功。当它被驯服后，你可以拿着棍子右键乌鸦让它坐下或站起。",
 	text: [
-		"A tamed Raven on the ground can be made to perch on its player's head by moving through the Raven. Players with Raven perching will have their falling speed decreased by 50% and neglect any falling damage."
+		"渡鸦在玩家的头上时，坠落速度降低50%，并忽略任何摔落伤害。"
 	],
 	dependencies: [
 		"2cf9d199"

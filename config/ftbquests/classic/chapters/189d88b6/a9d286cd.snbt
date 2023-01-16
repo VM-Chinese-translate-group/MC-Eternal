@@ -88,7 +88,7 @@
 	{
 		uid: "4f7e757a",
 		type: "item",
-		title: "Promised Prince",
+		title: "应许王子",
 		item: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -96,7 +96,7 @@
 			id: "minecraft:obsidian",
 			tag: {
 				display: {
-					Name: "Promised Prince"
+					Name: "应许王子"
 				}
 			}
 		}

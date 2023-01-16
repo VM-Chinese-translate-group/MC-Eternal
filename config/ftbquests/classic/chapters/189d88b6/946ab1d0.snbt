@@ -61,9 +61,9 @@
 				}],
 				display: {
 					Lore: [
-						"Forged to destroy life, created to bring about the end of the world. You feel a sense of duty after placing your hands on the hilt. All life must die."
+						"锻造以毁灭生命，创造终带来末日。将手握在剑柄上，你忽然感受到了你的责任，一切生灵都必须被毁灭！"
 					],
-					Name: "Apocalypse"
+					Name: "启示录"
 				}
 			}
 		}

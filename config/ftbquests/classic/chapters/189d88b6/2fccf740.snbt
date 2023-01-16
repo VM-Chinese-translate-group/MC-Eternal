@@ -19,7 +19,7 @@
 	tasks: [{
 		uid: "617935b4",
 		type: "checkmark",
-		title: "&lClick me!",
+		title: "&l点我！",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
@@ -29,7 +29,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§6Winners Golden Crown"
+					Name: "§6金冠奖获奖者"
 				}
 			}
 		}
@@ -46,7 +46,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§6Winners Golden Crown"
+					Name: "§6金冠奖获奖者"
 				}
 			}
 		}

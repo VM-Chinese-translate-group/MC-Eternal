@@ -40,7 +40,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Forgotten trash can (Open me!)"
+					Name: "被遗忘的垃圾桶（打开我！）"
 				},
 				type: "starting_gear"
 			}

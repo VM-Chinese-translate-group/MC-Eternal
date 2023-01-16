@@ -27,7 +27,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Anti-Radiation StrongBox"
+					Name: "抗辐射保险箱"
 				},
 				type: "anti_radiation_box"
 			}

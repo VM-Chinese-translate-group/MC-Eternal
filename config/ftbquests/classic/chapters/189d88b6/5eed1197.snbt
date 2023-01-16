@@ -15,12 +15,12 @@
 	tasks: [{
 		uid: "3e8f72d9",
 		type: "checkmark",
-		title: "Sign here ... here... ... here ... and here ..."
+		title: "在这里签名......在这里.........这里 ...和这里 ..."
 	}],
 	rewards: [{
 		uid: "29145916",
 		type: "loot",
-		title: "&7Common Lootbox &8&o&l(Random Reward)",
+		title: "&7普通战利品箱 &8&o&l（随机奖励）",
 		table: 1
 	},
 	{

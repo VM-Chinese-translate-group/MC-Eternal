@@ -23,7 +23,7 @@
 	tasks: [{
 		uid: "a37d516e",
 		type: "checkmark",
-		title: "§lClick after you've read the text below!§r",
+		title: "§l阅读完下面的文字后点击!§r",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -34,7 +34,7 @@
 	{
 		uid: "729303f9",
 		type: "observation",
-		title: "Look at a Chopped Log! Open your Questbook!",
+		title: "看看原木条！然后打开你的任务书！",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

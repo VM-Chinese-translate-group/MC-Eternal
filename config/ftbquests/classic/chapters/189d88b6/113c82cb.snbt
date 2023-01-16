@@ -33,7 +33,7 @@
 			id: "stupidthings:mine_turtle",
 			tag: {
 				display: {
-					Name: "Turtle buddy"
+					Name: "小乌龟兄弟"
 				}
 			}
 		}

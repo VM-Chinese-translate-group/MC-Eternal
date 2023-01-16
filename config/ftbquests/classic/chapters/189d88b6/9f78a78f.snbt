@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "372da97f",
 		type: "advancement",
-		title: "Locate and Kill the King",
+		title: "找到并击杀国王",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

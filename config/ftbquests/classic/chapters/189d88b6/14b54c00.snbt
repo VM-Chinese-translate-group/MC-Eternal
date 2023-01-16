@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "cb9727de",
 		type: "checkmark",
-		title: "Create a team and claim land",
+		title: "创建一个团队并声明区块",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

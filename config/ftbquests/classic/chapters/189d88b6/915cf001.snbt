@@ -41,7 +41,7 @@
 			id: "ancientspellcraft:ancient_spellcraft_scroll",
 			tag: {
 				display: {
-					Name: "Scroll of Ant Swarm"
+					Name: "蚁群卷轴"
 				}
 			},
 			Damage: 252s

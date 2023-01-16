@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "4cba2945",
 		type: "advancement",
-		title: "Trade Sugar to the Traveler",
+		title: "用糖和旅行者交易",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

@@ -63,7 +63,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Unclaimed Black Market Container "
+					Name: "无人认领的黑市集装箱 "
 				},
 				type: "unclaimed_black_market_container"
 			}

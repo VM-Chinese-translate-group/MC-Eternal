@@ -34,12 +34,12 @@
 	tasks: [{
 		uid: "9234e61d",
 		type: "checkmark",
-		title: "§8Click to Accept the Terms and Conditions"
+		title: "§8点击接受条款"
 	},
 	{
 		uid: "762c0396",
 		type: "observation",
-		title: "§d§lLook at an Enchanting Table, Open your Questbook!",
+		title: "§d§l看看附魔台，然后打开你的任务书！!",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

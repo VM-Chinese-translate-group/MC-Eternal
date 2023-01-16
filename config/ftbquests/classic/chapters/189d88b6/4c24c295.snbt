@@ -13,7 +13,7 @@
 	tasks: [{
 		uid: "2e7373d9",
 		type: "advancement",
-		title: "Tame a Hippocampus",
+		title: "驯服一只海马",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
