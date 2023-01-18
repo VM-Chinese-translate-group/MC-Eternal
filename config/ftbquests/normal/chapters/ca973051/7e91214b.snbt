@@ -3,7 +3,7 @@
 	x: -12.0d,
 	y: -13.5d,
 	shape: "diamond",
-	description: "&o在暮色森林的黑暗深处，有一座宏伟的高塔在静静等待着。。。让人不免遐想，塔的顶端会有什么？",
+	description: "&o在暮色森林的黑暗深处，有一座宏伟的高塔在静静等待着……让人不免遐想，塔的顶端会有什么？",
 	dependencies: [
 		"0f56d604"
 	],
@@ -49,10 +49,10 @@
 				}],
 				display: {
 					Lore: [
-						"Forged in Pyrotheum with the Tears of the Ur-Ghast...",
-						"§dExclusive Twilight Relic"
+						"以暮色恶魂的眼泪炽焰锻造",
+						"§d暮色森林独家遗物"
 					],
-					Name: "§c§lPickaxe of Molten Tears"
+					Name: "§c§l熔融之泪稿"
 				}
 			}
 		}

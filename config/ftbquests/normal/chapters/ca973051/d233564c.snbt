@@ -3,7 +3,7 @@
 	x: -10.0d,
 	y: -11.0d,
 	shape: "diamond",
-	description: "&o在暮色森林最寒冷的地区，有一座巨大的山丘，山丘上有一个洞穴。。。我不禁好奇，什么生物会住在那里面?",
+	description: "&o在暮色森林最寒冷的地区，有一座巨大的山丘，山丘上有一个洞穴……我不禁好奇，什么生物会住在那里面？",
 	dependencies: [
 		"0647fe18"
 	],
@@ -53,10 +53,10 @@
 				}],
 				display: {
 					Lore: [
-						"外冷内热，有点神奇。。。",
+						"外冷内热，有点神奇……",
 						"§d暮色森林独家遗物"
 					],
-					Name: "§9§lJacket of the Frozen Alpha"
+					Name: "§9§l雪怪首领外套"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 4328,
@@ -65,7 +65,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Alpha's Protection"
+					Name: "首领的庇护"
 				},
 				{
 					UUIDMost: 43784,
@@ -74,7 +74,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Alpha's Protection"
+					Name: "首领的庇护"
 				}]
 			}
 		}
