@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "d2c2ad39",
 		type: "checkmark",
-		title: "An Introduction To Selling!",
+		title: "入门出售物品！",
 		icon: "rats:tiny_coin"
 	}],
 	rewards: [{

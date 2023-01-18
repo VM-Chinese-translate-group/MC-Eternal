@@ -17,7 +17,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any cropWheat"
+					Name: "任意小麦作物"
 				}
 			}
 		}],

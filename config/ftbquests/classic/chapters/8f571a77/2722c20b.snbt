@@ -30,7 +30,7 @@
 	rewards: [{
 		uid: "900f9a30",
 		type: "item",
-		title: "10 Currency",
+		title: "10货币",
 		auto: "no_toast",
 		item: {
 			ForgeCaps: {

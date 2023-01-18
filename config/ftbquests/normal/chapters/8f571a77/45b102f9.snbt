@@ -14,7 +14,7 @@
 	rewards: [{
 		uid: "0755c8b3",
 		type: "item",
-		title: "1 Currency",
+		title: "1货币",
 		auto: "no_toast",
 		item: {
 			id: "lodsofemone:coin_small",
