@@ -1,9 +1,9 @@
 {
 	x: 3.5d,
 	y: 1.0d,
-	description: "Drop",
+	description: "掉落物",
 	text: [
-		"*Unlocked from completing Essence of Magic*"
+		"*完成魔法精华后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -13,10 +13,7 @@
 		uid: "91ef5d78",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "ebwizardry:magic_crystal"
+			item: "ebwizardry:magic_crystal"
 		}],
 		count: 64L
 	}],

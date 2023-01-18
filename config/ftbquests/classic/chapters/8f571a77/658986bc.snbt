@@ -1,8 +1,5 @@
 {
 	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
 		id: "openblocks:tank",
 		tag: {
 			tank: {
@@ -14,7 +11,7 @@
 	x: -5.5d,
 	y: 1.0d,
 	shape: "hexagon",
-	description: "*Liquid* *Pipe into a task screen* `",
+	description: "*流体* *通过管道输入到任务显示器*",
 	can_repeat: true,
 	tasks: [{
 		uid: "4577925b",

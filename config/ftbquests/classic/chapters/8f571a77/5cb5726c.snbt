@@ -2,17 +2,13 @@
 	x: 0.0d,
 	y: -6.0d,
 	shape: "diamond",
-	description: "Mining `",
+	description: "挖矿",
 	can_repeat: true,
 	tasks: [{
 		uid: "bc6db7c4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"treasure2:pouchable": {}
-			},
-			id: "minecraft:emerald"
+			item: "minecraft:emerald"
 		}],
 		count: 16L
 	}],

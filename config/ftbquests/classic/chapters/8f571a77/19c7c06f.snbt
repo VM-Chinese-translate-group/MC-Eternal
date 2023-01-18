@@ -1,14 +1,13 @@
 {
 	x: -4.5d,
 	y: -3.0d,
-	description: "Farming `",
+	description: "耕作",
 	can_repeat: true,
 	tasks: [{
 		uid: "49141d66",
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "cropWheat",
 					id: "ore"
@@ -17,7 +16,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any cropWheat"
+					Name: "任意小麦作物"
 				}
 			}
 		}],

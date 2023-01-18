@@ -1,16 +1,13 @@
 {
 	x: 1.0d,
 	y: -2.0d,
-	description: "Cheesemaker `",
+	description: "奶酪制作机",
 	can_repeat: true,
 	tasks: [{
 		uid: "69dff4a8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "rats:block_of_cheese"
+			item: "rats:block_of_cheese"
 		}],
 		count: 32L
 	}],

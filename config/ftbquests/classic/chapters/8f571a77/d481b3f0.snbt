@@ -1,11 +1,6 @@
 {
-	title: "Murray's missing bones",
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "minecraft:bone"
-	},
+	title: "Murray遗失的骨头",
+	icon: "minecraft:bone",
 	x: 5.0d,
 	y: -5.5d,
 	shape: "circle",
@@ -15,22 +10,14 @@
 	tasks: [{
 		uid: "2540ad73",
 		type: "checkmark",
-		title: "The Bones Song",
-		icon: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:bone"
-		}
+		title: "骨之歌",
+		icon: "minecraft:bone"
 	},
 	{
 		uid: "fd0a9dbb",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:bone"
+			item: "minecraft:bone"
 		}],
 		count: 16L
 	},
@@ -38,11 +25,7 @@
 		uid: "2107acfd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "tconstruct:materials",
-			Damage: 17s
+			item: "tconstruct:materials 1 17"
 		}],
 		count: 3L
 	},
@@ -50,20 +33,14 @@
 		uid: "0935639d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "doggytalents:big_bone"
+			item: "doggytalents:big_bone"
 		}]
 	},
 	{
 		uid: "374ee14f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "iceandfire:dragonbone"
+			item: "iceandfire:dragonbone"
 		}]
 	}],
 	rewards: [{
@@ -71,7 +48,6 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				"astralsorcery:cap_item_amulet_holder": {
 					AS_Amulet_HolderLeast: -5863096196267452682L,
 					AS_Amulet_HolderMost: -2754331757198947019L
@@ -80,15 +56,15 @@
 			id: "minecraft:writable_book",
 			tag: {
 				pages: [
-					"The Rib Bone is connected to the Arm BoneThe Arm Bone is connected to the Head BoneThe Head Bone is connected to the Leg Bone",
-					"Toebone connected to the ankleboneanklebone connected to the shinboneshinbone connected to the kneebonekneebone connected to the thighbone",
-					"The Rib Bone is connected to the Arm BoneThe Arm Bone is connected to the Head BoneThe Head Bone is connected to the Leg Bone",
-					"Toebone connected to the ankleboneanklebone connected to the shinboneshinbone connected to the kneebonekneebone connected to the thighbone",
-					"The Rib Bone is connected to the Arm BoneThe Arm Bone is connected to the Head BoneThe Head Bone is connected to the Leg Bone",
-					"Toebone connected to the ankleboneanklebone connected to the shinboneshinbone connected to the kneebonekneebone connected to the thighbone"
+					"肋骨与臂骨相连臂骨与头骨相连头骨与腿骨相连",
+					"趾骨与踝骨相连踝骨与胫骨相连鼻骨与膝骨相连膝骨与大腿骨相连",
+					"肋骨与臂骨相连臂骨与头骨相连头骨与腿骨相连",
+					"趾骨与踝骨相连踝骨与胫骨相连鼻骨与膝骨相连膝骨与大腿骨相连",
+					"肋骨与臂骨相连臂骨与头骨相连头骨与腿骨相连",
+					"趾骨与踝骨相连踝骨与胫骨相连鼻骨与膝骨相连膝骨与大腿骨相连"
 				],
 				display: {
-					Name: "The Bones Song"
+					Name: "骨之歌"
 				}
 			}
 		}
@@ -97,9 +73,6 @@
 		uid: "9051876b",
 		type: "item",
 		item: {
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "unclaimed_black_market_container"

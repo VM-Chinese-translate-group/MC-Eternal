@@ -1,16 +1,13 @@
 {
 	x: 3.0d,
 	y: -1.5d,
-	description: "Drop `",
+	description: "掉落物",
 	can_repeat: true,
 	tasks: [{
 		uid: "22be95c8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:bone_block"
+			item: "minecraft:bone_block"
 		}],
 		count: 32L
 	}],

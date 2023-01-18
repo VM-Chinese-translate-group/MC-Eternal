@@ -1,16 +1,13 @@
 {
 	x: -9.5d,
 	y: -2.0d,
-	description: "Lumberjack `",
+	description: "伐木",
 	can_repeat: true,
 	tasks: [{
 		uid: "18154a0d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:log2"
+			item: "minecraft:log2"
 		}],
 		count: 32L
 	}],

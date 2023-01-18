@@ -1,16 +1,15 @@
 {
 	icon: {
 		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {},
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "immersiveengineering:powerpack"
 	},
 	x: 1.0d,
 	y: -6.5d,
-	description: "*Energy* *Input into Task Screen* ",
+	description: "*能量* *输入进任务显示器* ",
 	text: [
-		"*Unlocked after completing Introduction to Science*"
+		"*完成科学导论后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [

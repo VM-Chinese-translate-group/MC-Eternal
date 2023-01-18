@@ -1,16 +1,13 @@
 {
 	x: 4.0d,
 	y: -1.5d,
-	description: "*Can not be automated*",
+	description: "*不可自动提交*",
 	can_repeat: true,
 	tasks: [{
 		uid: "705f7157",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:bone"
+			item: "minecraft:bone"
 		}],
 		count: 32L
 	}],

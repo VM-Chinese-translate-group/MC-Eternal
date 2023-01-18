@@ -1,9 +1,9 @@
 {
 	x: -8.0d,
 	y: -5.0d,
-	description: "Mining `",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing the Introduction chapter*"
+		"*完成介绍章节后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -13,10 +13,7 @@
 		uid: "b0a2a332",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:lapis_block"
+			item: "minecraft:lapis_block"
 		}],
 		count: 32L
 	}],

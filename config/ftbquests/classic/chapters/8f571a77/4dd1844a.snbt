@@ -1,17 +1,16 @@
 {
-	title: "16x Raw Meat",
+	title: "16x生肉",
 	x: -0.5d,
 	y: -3.0d,
 	shape: "octagon",
-	description: "Hunter `",
+	description: "狩猎",
 	can_repeat: true,
 	tasks: [{
 		uid: "b2076dad",
 		type: "item",
-		title: "16x Raw Meat",
+		title: "16x生肉",
 		items: [{
 			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "listAllmeatraw",
 					id: "ore"

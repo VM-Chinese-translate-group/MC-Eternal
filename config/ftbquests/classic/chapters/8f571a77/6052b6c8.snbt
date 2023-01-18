@@ -1,22 +1,14 @@
 {
-	icon: {
-		ForgeCaps: {
-			"wizardryutils:summoneditemdata": {}
-		},
-		id: "ghostsexplosives:gunpowder_charged"
-	},
+	icon: "ghostsexplosives:gunpowder_charged",
 	x: 3.0d,
 	y: -3.5d,
-	description: "Drop",
+	description: "掉落物",
 	can_repeat: true,
 	tasks: [{
 		uid: "3640eecf",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gunpowder"
+			item: "minecraft:gunpowder"
 		}],
 		count: 64L
 	}],

@@ -1,10 +1,10 @@
 {
-	title: "Diamond x16",
+	title: "钻石x16",
 	x: -6.5d,
 	y: -6.0d,
-	description: "Mining",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing the Introduction chapter*"
+		"*完成介绍章节后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -14,11 +14,7 @@
 		uid: "666c6c9e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {},
-				"treasure2:pouchable": {}
-			},
-			id: "minecraft:diamond"
+			item: "minecraft:diamond"
 		}],
 		count: 16L
 	}],

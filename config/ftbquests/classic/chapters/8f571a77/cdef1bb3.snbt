@@ -1,9 +1,9 @@
 {
 	x: -5.0d,
 	y: -5.0d,
-	description: "Mining `",
+	description: "挖矿",
 	text: [
-		"*Unlocked after completing the Legendary Artifacts chapter*"
+		"*完成传说装备章节后解锁*"
 	],
 	can_repeat: true,
 	dependencies: [
@@ -13,10 +13,7 @@
 		uid: "1fc8afe5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"wizardryutils:summoneditemdata": {}
-			},
-			id: "minecraft:gold_block"
+			item: "minecraft:gold_block"
 		}],
 		count: 32L
 	}],
