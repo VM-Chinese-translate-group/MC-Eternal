@@ -8,7 +8,7 @@
 	tasks: [{
 		uid: "b2076dad",
 		type: "item",
-		title: "16x Raw Meat",
+		title: "16x生肉",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
