@@ -19,7 +19,7 @@ labelPRBasedOnFilePath:
 
   # Complex: Add 'area/core' label to any change within the 'core' package
   ftbquest:
-    - "config/ftbquests/**"
+    - "**/ftbquests/**"
 
   # Add 'test' label to any change to *.spec.js files within the source dir
   #test:
