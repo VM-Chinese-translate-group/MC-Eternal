@@ -1,0 +1,12 @@
+{
+    "name": "模组物品译名翻译缺失",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"VM汉化组主要负责翻译整合包中作者原创的内容，若缺少的模组物品译名影响游戏体验较大，请邮箱3370605778@qq.com或B站私信（发送截图，且截图内需包括物品名称，来源模组）"
+        }
+    ]
+}
+

@@ -1,0 +1,12 @@
+{
+    "name": "怎么装翻译补丁",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"一拳把你头打下来（不是"
+        }
+    ]
+}
+

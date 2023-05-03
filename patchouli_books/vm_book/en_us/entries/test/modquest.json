@@ -1,0 +1,12 @@
+{
+    "name": "任务翻译缺失",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"请发送任务章节，相信任务名称到邮箱3379605778@qq.com或B站私信）"
+        }
+    ]
+}
+

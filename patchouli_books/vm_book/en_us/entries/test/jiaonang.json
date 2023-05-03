@@ -1,0 +1,12 @@
+{
+    "name": "遇到了不可名状的胶囊蓝图",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"那玩意是直接读取文件名的，我后续会把翻译直接写在这本书里"
+        }
+    ]
+}
+

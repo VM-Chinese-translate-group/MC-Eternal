@@ -1,0 +1,12 @@
+{
+    "name": "发现疑似机翻内容",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"VM汉化组对机翻有一系列的处理方式，如若发现疑似机翻内容请发送内容截图，来源，到邮箱3379605778@qq.com或B站私信"
+        }
+    ]
+}
+

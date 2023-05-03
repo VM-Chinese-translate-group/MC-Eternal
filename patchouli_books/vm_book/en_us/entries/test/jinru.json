@@ -1,0 +1,12 @@
+{
+    "name": "我也想汉化但不会",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"加QQ群：820153803，这是整合包译者技术交流群（非加入VM汉化组）"
+        }
+    ]
+}
+

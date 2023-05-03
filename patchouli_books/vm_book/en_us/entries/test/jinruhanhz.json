@@ -1,0 +1,12 @@
+{
+    "name": "我想加入VM汉化组",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"汉化组最低要求是高中生且拥有一定时间的整合包游玩经验，如若达标到B站私信 加入汉化组 （不带空格）获取进入VM汉化组外群链接"
+        }
+    ]
+}
+

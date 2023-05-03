@@ -1,0 +1,8 @@
+{
+    "name": "VM百科",
+    "landing_text":
+    "VM汉化补丁使用须知(第五版汉化补丁仍在准备中，因为额外发现了2000行影响游戏的模组翻译（原译者没更新只能咱来了（悲)",
+    "book_texture": "patchouli:textures/gui/book_gray.png",
+    "model": "patchouli:book_gray",
+    "version": 4.5
+}

@@ -1,0 +1,12 @@
+{
+    "name": "物品下方词条翻译缺失",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:bikan",
+    "pages": [
+        {
+            "type":"text",
+            "text":"整合包内能够翻译的词条基本都翻译了，剩下的词条大多是因为硬编码导致我们无法翻译，如若发现非硬编码的词条请发送文件位置到邮箱3379605778@qq.com或B站私信）"
+        }
+    ]
+}
+
