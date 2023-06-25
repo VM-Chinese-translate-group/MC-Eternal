@@ -21,7 +21,7 @@
 	tasks: [{
 		uid: "9d829032",
 		type: "item",
-		title: "&4Coat of Arms&r or &4Blood Letter's Pack",
+		title: "&4斗士铠衣&r或者&4血液背包",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

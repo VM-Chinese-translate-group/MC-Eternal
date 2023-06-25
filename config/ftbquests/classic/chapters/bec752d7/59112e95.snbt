@@ -4,7 +4,7 @@
 	y: -9.0d,
 	description: "&o砸得稀巴烂&7 阅读描述以了解更多信息*",
 	text: [
-		"&55水晶粉碎机&7使用附近罐子的&8机械&7源质来自动将&d源质水晶碎片&7粉碎为&d魔力盐&7。不用自己跳楼了，好耶！"
+		"&5水晶粉碎机&7使用附近罐子的&8机械&7源质来自动将&d源质水晶碎片&7粉碎为&d魔力盐&7。不用自己跳楼了，好耶！"
 	],
 	dependencies: [
 		"a150a701"
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumadditions:crystal_crusher"
 		}]

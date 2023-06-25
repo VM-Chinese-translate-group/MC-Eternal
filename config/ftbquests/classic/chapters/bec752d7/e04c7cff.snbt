@@ -19,7 +19,7 @@
 		title: "凝视&5开眼祭坛",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:capstone",
 			Damage: 2s

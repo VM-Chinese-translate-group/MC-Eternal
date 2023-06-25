@@ -6,7 +6,7 @@
 	text: [
 		"&5源质喷枪&7将会从嵌入其中的罐中发射源质，并对其射中的实体添加其罐中源质所对应的&d魔力盐效果&7。",
 		"",
-		"&d潜行+右击&7以打开其UI界面,，在此界面你可以调整其嵌入的源质罐子以及一次性发射源质的数量。"
+		"&d潜行+右击&7以打开其UI界面，在此界面你可以调整其嵌入的源质罐子以及一次性发射源质的数量。"
 	],
 	dependencies: [
 		"8b1c89c2"
@@ -16,7 +16,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumadditions:essentia_pistol"
 		}],

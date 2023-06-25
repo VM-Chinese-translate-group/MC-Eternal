@@ -12,7 +12,7 @@
 	tasks: [{
 		uid: "259addd1",
 		type: "item",
-		title: "Advanced Wand",
+		title: "进阶魔杖",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

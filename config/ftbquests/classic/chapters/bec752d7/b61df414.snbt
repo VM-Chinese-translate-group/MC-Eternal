@@ -19,7 +19,7 @@
 	tasks: [{
 		uid: "56601915",
 		type: "item",
-		title: "&4Ritual Diviner&7 or Any &4Inscription Tool",
+		title: "&4仪式推测杖&7或者随便一个&4元素铭文工具",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

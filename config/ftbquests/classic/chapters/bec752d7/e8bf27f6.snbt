@@ -14,18 +14,20 @@
 	tasks: [{
 		uid: "cf57699d",
 		type: "item",
-		title: "&5Gyroscope&r or &5Girdle&r Upgrade",
+		title: "&5回旋仪&r或&5腰带&r升级",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness_augment"
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness_augment",
 			Damage: 1s

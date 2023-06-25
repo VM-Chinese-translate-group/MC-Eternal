@@ -5,7 +5,7 @@
 	description: "&oMaCl&7 *阅读描述以了解更多信息*",
 	text: [
 		"&5魔力盐&7可以由玩家从至少十五格的高处落到&d两个魔力水晶碎片&7产生&7。",
-		"最好一次性做出多个魔力盐，因为&死亡水晶变为魔力盐的概率极低&7。",
+		"最好一次性做出多个魔力盐，因为&d魔力水晶碎片转化为魔力盐的效率很低&7。",
 		"",
 		"其可通过合成被应用于食物或其他物品上。",
 		"附着于食物上时提供多种效果,取决于其源素种类。"
@@ -20,7 +20,7 @@
 		title: "Any &5Vis Salt",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumadditions:salt_essence",
 			tag: {

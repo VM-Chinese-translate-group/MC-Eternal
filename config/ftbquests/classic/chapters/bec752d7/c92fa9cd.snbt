@@ -4,7 +4,7 @@
 	y: 3.0d,
 	description: "&o将你的知识分享给他人&7 *阅读描述以了解更多信息*",
 	text: [
-		"&7A &5知识共享之书&7可以将你获得到的知识分享给其他人。&d潜行+右击&7将你的研究存入。其他人可以 &d直接右击&7来获取储存在其中的知识。",
+		"&5知识共享之书&7可以将你获得到的知识分享给其他人。&d潜行+右击&7将你的研究存入。其他人可以&d直接右击&7来获取储存在其中的知识。",
 		"如果需要的话，它可以放在合成台里合成一下来清空研究。",
 		"",
 		"&6解锁这个研究的时候会消耗掉魔导手册，小心不要让它吞掉你的阿卡什宝典！"
@@ -18,7 +18,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumadditions:knowledge_tome"
 		}],
