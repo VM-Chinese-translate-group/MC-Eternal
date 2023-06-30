@@ -36,7 +36,7 @@ print("--- 加载 Tooltip.zs ---");
 <lootgames:ms_activator>.addTooltip(format.red("警告：不！要！放！在！你！的！基！地！里！"));
 <erebus:materials:1>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
 <theaurorian:auroriansteel>.addTooltip(format.gold("此材料在匠魂中已被大量修改。"));
-<patchouli:vm_book>.addTooltip(format.gold("一本神秘的书，蕴含着神秘的力量，Adam似乎并没有意识到它的存在？"));
+<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:vm_book"}).addTooltip(format.gold("一本神秘的书，蕴含着神秘的力量，Adam似乎并没有意识到它的存在？"));
 <extrautils2:teleporter:1>.addTooltip(format.red("已禁用，如果你尝试使用它，将导致崩溃！请改用深渊世界和深渊世界传送门。"));
 <thaumcraft:condenser_lattice_dirty>.addTooltip(format.aqua("用源质滤管右键以清洗！"));
 <thaumcraft:filter>.addTooltip(format.aqua("右键堵塞的咒波凝结器格栅以清洗！"));
