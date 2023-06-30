@@ -5,7 +5,7 @@
 	shape: "hexagon",
 	description: "&o现在，这座塔归我了！&7 *阅读以获得更多信息*",
 	text: [
-		"&7现在，&5虚空中的强大生灵已然逝去&7, 守护奥术也失去了力量来源，纷纷褪去了。你现在是这座万古之前的神秘堡垒的新主人了。这座高塔的组成部分主要是那些&5诡术石材&7，你可以用它们来制造&5注魔基座&7的替代品，或者说升级版。",
+		"&7现在，&5虚空中的强大生灵已然逝去&7，守护奥术也失去了力量来源，纷纷褪去了。你现在是这座万古之前的神秘堡垒的新主人了。这座高塔的组成部分主要是那些&5诡术石材&7，你可以用它们来制造&5注魔基座&7的替代品，或者说升级版。",
 		"",
 		"&0邪术祭坛&7比正常注魔祭坛&6稳定的多&7, 而且因为其独特的性质，&6吸收源质要来的更快&7，但与其速度快，相对的，&c注魔的源质消耗也更高&7。",
 		"&d邪术基座&7是用&0邪术石&7制成的。它在各种方面都可以代替正常的注魔基座。但更加脆弱, 如果它们处于不对称状态，同样会导致&c稳定性降低&7。",
@@ -25,7 +25,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:stone_eldritch_tile"
 		}]
@@ -35,7 +35,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:stone_ancient"
 		}]

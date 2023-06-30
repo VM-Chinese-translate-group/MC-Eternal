@@ -40,7 +40,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "ftbquests:lootcrate",
 			tag: {

@@ -18,7 +18,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key"
 		}],
@@ -29,7 +30,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key",
 			Damage: 1s
@@ -41,7 +43,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key",
 			Damage: 2s
@@ -53,7 +56,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:eldritch_lock_key",
 			Damage: 3s

@@ -16,10 +16,11 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 1
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumostatic_harness"
 		}],

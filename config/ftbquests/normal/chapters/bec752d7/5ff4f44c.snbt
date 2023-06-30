@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:thaumonomicon"
 		}],
@@ -34,13 +35,13 @@
 		title: "&5&lSpecial Surprise",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:warded_chest"
 		},
 		item: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "minecraft:paper",
 			tag: {

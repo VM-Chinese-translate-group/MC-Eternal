@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:cloth_chest"
 		}],
@@ -24,7 +25,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:cloth_legs"
 		}],
@@ -36,7 +38,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:cloth_boots"
 		}],

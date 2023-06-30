@@ -1,4 +1,4 @@
-	{
+{
 	title: "&5进阶",
 	x: 27.5d,
 	y: -12.0d,
@@ -10,7 +10,7 @@
 		"&7两种护手同样都有&d灵气减免&7的功效，&5神秘锭&7制成的护手可减免10%魔力消耗，&5虚空预言者护手&7则可减免30%。",
 		"&7除此之外，它们还有其他的次要功效，&5虚空预言者护手&7可以生成光环，从使用者周围3x3半径区块内的灵气厂汲取&d魔力&7，而&5神秘锭护手&7则可略微缩短法术的冷却时间。",
 		"",
-		"&5进阶&7仪式由&d谐振器&7和&d增效水晶&7共同构成，当满足进阶条件时，谐振器将决定&6属性加强&7以及＆6相应条件&7，而增效水晶则决定其&6授予的效果&7&5元素谐振器&7将根据提供进阶所使用的&6增效水晶&5为施法者提供相应加成，&7但对其带来的负面效果则不予加成&7",
+		"&5进阶&7仪式由&d谐振器&7和&d增效水晶&7共同构成，当满足进阶条件时，谐振器将决定&6属性加强&7以及&6相应条件&7，而增效水晶则决定其&6授予的效果&7&5元素谐振器&7将根据提供进阶所使用的&6增效水晶&5为施法者提供相应加成，&7但对其带来的负面效果则不予加成&7",
 		"",
 		"&5元素谐振器&7将根据提供进阶所使用的&6增效水晶&5为施法者提供相应加成，&7但对其带来的负面效果则不予加成&7。",
 		"如有需要，该元素谐振器所对应的&d增效水晶&7也可通过将护手与您所需要的魔力水晶共同合成进行替换。",
@@ -18,7 +18,7 @@
 		"&d进阶&7也可被消除。通过单独将护手在工作台上进行合成的方式，可以消除最近的一次进阶效果。",
 		"",
 		"&6&l重要!",
-		"&5维度调整器&7在&d永恒的MC&7整合包中进行了一些调整，该整合包中的绝大多数维度都有其独占的谐振器。而&d终结与虚空&7的相应谐振器则均稍微进行了加强！"
+		"&5维度调整器&7在&d永恒的MC&7整合包中进行了一些调整，该整合包中的绝大多数维度都有其独占的谐振器。而&d末地与虚域&7的相应谐振器则均稍微进行了加强！"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -27,13 +27,14 @@
 	tasks: [{
 		uid: "166dd47c",
 		type: "item",
-		title: "&5Thaumium&7 or &5Voidseer&7 Caster's Gauntlet没翻译",
+		title: "&5神秘&7或&5虚空预言者&7法师护手",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:gauntlet",
 			tag: {
@@ -42,10 +43,11 @@
 		},
 		{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					slots: 3
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:gauntlet",
 			tag: {
@@ -58,10 +60,10 @@
 	{
 		uid: "e9bab543",
 		type: "item",
-		title: "Any &5Modifier",
+		title: "任意&5强化模块",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:augment_builder_power",
 			tag: {
@@ -73,10 +75,10 @@
 	{
 		uid: "4b2657f8",
 		type: "item",
-		title: "Any &5Effect Crystal",
+		title: "随便一种&5增效水晶",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:augment_builder_effect",
 			tag: {

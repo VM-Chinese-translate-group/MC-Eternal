@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "37bfa559",
 		type: "item",
-		title: "&4Weak&r or &4Awakened&r Activation Crystal",
+		title: "&4虚弱&r或者&4觉醒&r激活水晶",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

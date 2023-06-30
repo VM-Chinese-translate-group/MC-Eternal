@@ -19,13 +19,13 @@
 		title: "Regular or Toggle &5Arcane Ear",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:arcane_ear"
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:arcane_ear_toggle"
 		}]

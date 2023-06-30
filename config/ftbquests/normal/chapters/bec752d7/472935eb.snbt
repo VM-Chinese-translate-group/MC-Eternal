@@ -23,8 +23,8 @@
 	rewards: [{
 		uid: "32c24e56",
 		type: "command",
-		title: "&dClick to get the Solutions",
+		title: "&d动动小手，习得真知",
 		team_reward: true,
-		command: "/tellraw @p {\"text\":\"§5Normal: §dget hit by an Arrow\\n§5Fiery: §dget hit by a Blaze Fireball\\n§5Sticky: §dget hit by Llama Spit\"}"
+		command: "/tellraw @p {\"text\":\"§5普通： §d被箭矢击中\\n§5炽热 §d被烈焰弹击中\\n§5粘性： §d被羊驼吐一口唾沫\"}"
 	}]
 }

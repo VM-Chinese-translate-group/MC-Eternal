@@ -4,7 +4,7 @@
 	y: -1.0d,
 	description: "&o好问题……&7 *阅读以获得更多信息*",
 	text: [
-		"&7部分&5研究&7需要你去扫描某些方块或实体来解锁，而这个任务将会&da显示所有研究中的谜语人行为（大概）&7。如果你是个喜欢解密的人，就忽略这个任务吧！",
+		"&7部分&5研究&7需要你去扫描某些方块或实体来解锁，而这个任务将会&d显示所有研究中的谜语人行为（大概）&7。如果你是个喜欢解密的人，就忽略这个任务吧！",
 		"",
 		"&6这个任务是可重复的，如果你哪天改主意了，这里随时欢迎你。"
 	],
@@ -22,7 +22,7 @@
 	rewards: [{
 		uid: "582feaf1",
 		type: "command",
-		title: "&dClaim to reveal the secrets",
-		command: "/tellraw @p {\"text\":\"§5Cloud: §dDragon's Breath\\n§5Curse: §dPech Wand\\n§5Spellbat: §dFirebat\"}"
+		title: "&d揭示书中隐秘",
+		command: "/tellraw @p {\"text\":\"§5云雾： §d扫描龙息§5。诅咒： §d岩精法杖。§d巫蝠: §d九狱焱蝠\"}"
 	}]
 }
