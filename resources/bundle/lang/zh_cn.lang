@@ -1,0 +1,67 @@
+
+# Generic
+item.spellbundle:generic.disabled_with_modname=这个物品已在设置中被禁用，因为你缺失了 %s 模组
+
+# WAYSTONES mod
+spell.spellbundle:waystones_missing=这个法术已在设置中被禁用，因为你缺失了指路石模组
+
+integration.spellbundle:waystones=指路石
+spell.spellbundle:warp=洞开缝隙
+spell.spellbundle:warp.desc=洞开空间，将你传送到最后被你记录的指路石旁，记录指路石的方式为潜行时对指路石释放此法术
+spell.spellbundle:warp.remember=已记录%s
+spell.spellbundle:warp.remember_with_old=已记录 %1$s (%2$s已被遗忘)
+spell.spellbundle:warp.undefined=想要施法，你必须先记录一个指路石！ (潜行时对指路石释放此法术)
+spell.spellbundle:warp.wrong_dimension=指路石无法对你的请求做出回应，你们之间相隔了整整一个次元……
+spell.spellbundle:mass_warp=洞开门户
+spell.spellbundle:mass_warp.desc=洞开空间，将你和你周围的玩家传送到最后被你记录的指路石旁，记录指路石的方式为潜行时对指路石释放此法术
+spell.spellbundle:mass_warp.remember=已记录%s
+spell.spellbundle:mass_warp.remember_with_old=已记录 %1$s (%2$s已被遗忘)
+spell.spellbundle:mass_warp.undefined=想要施法，你必须先记录一个指路石！ (潜行时对指路石释放此法术)
+spell.spellbundle:mass_warp.wrong_dimension=指路石无法对你的请求做出回应，你们之间相隔了整整一个次元……
+spell.spellbundle:summon_ally=召唤盟友巫师
+spell.spellbundle:summon_ally.desc=施法后，被该法术选中的盟友将会被传送到被此法术绑定的指路石边，记录指路石的方式为潜行时对指路石释放此法术，选择盟友方方式为潜行对着地面释放此法术
+spell.spellbundle:summon_ally.distance_from_waystone_too_big=你离指路石太远了！(%s)
+spell.spellbundle:summon_ally.remember=已记录%s
+spell.spellbundle:summon_ally.remember_with_old=已记录 %1$s (%2$s已被遗忘)
+spell.spellbundle:summon_ally.undefined=想要施法，你必须先记录一个指路石！ (潜行时对指路石释放此法术)
+spell.spellbundle:summon_ally.wrong_dimension=指路石无法对你的请求做出回应，你们之间相隔了整整一个次元……
+spell.spellbundle:summon_ally.caster_wrong_dimension=指路石无法对你的请求做出回应，你们之间相隔了整整一个次元……
+spell.spellbundle:summon_ally.ally_wrong_dimension=指路石无法对你的盟友做出回应，他们之间相隔了整整一个次元……
+spell.spellbundle:summon_ally.not_casting=盟友打断了法术施展！
+
+item.spellbundle:ring_warpstone.name=归航之戒
+item.spellbundle:ring_warpstone.desc=洞开门户法术现在可以传送施法者身边的非玩家实体了！
+
+gui.spellbundle:summon_ally.no_player=你孑然一身，这个法术并不适合你
+gui.spellbundle:summon_ally.select_player=选择你要召唤的玩家
+gui.spellbundle:summon_ally.click_here=你的盟友试图将你传送到%s，单击此处以接受请求
+
+# TREAUSRE2! mod
+spell.spellbundle:treasure2_missing=这个法术已在设置中被禁用，因为你缺失了寻宝记2！模组
+
+integration.spellbundle:treasure2=寻宝记2
+
+spell.spellbundle:ice_chest=永冻之箱
+spell.spellbundle:ice_chest.desc=召唤一个永不融化的寒冰箱子，箱子的容量受法术效力影响
+spell.spellbundle:lock=上锁
+spell.spellbundle:lock.desc=如果目标容器上有未锁上的锁，则将其锁上
+spell.spellbundle:summon_bound_soul=召唤地缚灵
+spell.spellbundle:summon_bound_soul.desc=召唤地缚灵，它们不会离开被召唤处太远
+spell.spellbundle:summon_bound_soul.minion_distance_not_met=离上一个召唤物太近了！
+spell.spellbundle:summon_mimic=召唤宝箱怪
+spell.spellbundle:summon_mimic.desc=召唤一只宝箱怪为你作战，如果不出意外，它能持续30秒
+spell.spellbundle:knock=洞开
+spell.spellbundle:knock.desc=用魔法打开目标容器上的锁
+spell.spellbundle:knock.weak_spell=你的开启之力还不足以洞开如此强大的锁头……
+
+item.spellbundle:ring_key.name=开启之戒
+item.spellbundle:ring_key.desc=洞开法术可以开启更为强大的锁头
+item.spellbundle:charm_frozen_lock.name=冰洁之锁
+item.spellbundle:charm_frozen_lock.desc=这把由整块冰雕琢而成的堪称艺术品的锁不能锁上任何凡俗的容器，它只对永冻之箱感兴趣
+item.spellbundle:charm_wishing_well.name=愿望单
+item.spellbundle:charm_wishing_well.desc=将这份由祈愿书写而成的清单投入一口布满青苔的沧桑古井力，它就会变成一口许愿井。而众神会收回这份清单
+item.spellbundle:spectral_lock.name=幽冥锁
+
+tile.spellbundle:display.ice_chest.name=永冻之箱
+tile.spellbundle.display.ice_chest.name=永冻之箱
+tile.spellbundle:ice_chest.name=永冻之箱
