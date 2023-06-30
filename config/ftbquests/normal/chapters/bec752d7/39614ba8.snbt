@@ -24,7 +24,7 @@
 		title: "Gaze at a &5Crucible ",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:crucible"
 		},

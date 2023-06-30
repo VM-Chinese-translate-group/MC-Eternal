@@ -16,16 +16,16 @@
 	tasks: [{
 		uid: "c0e98e25",
 		type: "item",
-		title: "&5Auxiliary Venting Port&7 or &5Slurry Pump",
+		title: "&5辅助排放口&7或者&5附属黏浆泵",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:smelter_vent"
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:smelter_aux"
 		}]

@@ -2,7 +2,7 @@
 	title: "&5门控传输",
 	x: 26.5d,
 	y: -21.5d,
-	description: "&o对不起嗷，要想合成这东西可需要一堆乱七八糟的&k破玩意&7。&o&7， *阅读描述以了解更多信息*",
+	description: "&o对不起嗷，要想合成这东西可需要一堆乱七八糟的&k破玩意&7。&o&7 *阅读描述以了解更多信息*",
 	text: [
 		"&5元动阀门&7与&5元动中继器&7功能相似。但如果给元动阀门提供&c红石信号&7的话可以停止元动能量的传输哦！"
 	],
@@ -14,7 +14,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:impetus_gate"
 		}]

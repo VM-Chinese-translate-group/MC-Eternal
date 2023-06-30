@@ -3,7 +3,7 @@
 	y: -9.0d,
 	description: "焚烧不焚者无疑是愚蠢至极的",
 	text: [
-		"... 但是爆炸依然能把你送去见上帝 :)"
+		"……但是爆炸依然能把你送去见上帝 :)"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

@@ -41,6 +41,7 @@
 	{
 		uid: "3d93ce25",
 		type: "item",
+		title: "任意木质压力板",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

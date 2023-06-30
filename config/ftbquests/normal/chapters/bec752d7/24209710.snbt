@@ -14,7 +14,7 @@
 	tasks: [{
 		uid: "324d9485",
 		type: "item",
-		title: "&4Ritual Diviner [Dusk]&7 or &4Inscription Tool: Dusk",
+		title: "&4仪式推测杖[薄暮]&7或者&4元素铭文工具[薄暮]",
 		items: [{
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

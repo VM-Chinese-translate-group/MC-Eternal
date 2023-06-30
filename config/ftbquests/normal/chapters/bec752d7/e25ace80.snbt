@@ -21,13 +21,13 @@
 	tasks: [{
 		uid: "bac7b377",
 		type: "dimension",
-		title: "Enter &5The Emptiness",
+		title: "进入&5邪术旋塔",
 		icon: {
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					biome: "dimdoors:black_void"
-				},
-				"customnpcs:itemscripteddata": {}
+				}
 			},
 			id: "thaumicaugmentation:biome_selector"
 		},

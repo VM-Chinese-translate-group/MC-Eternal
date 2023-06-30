@@ -2,7 +2,7 @@
 	title: "&5元动矩阵",
 	icon: {
 		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
+			"wizardryutils:summoneditemdata": {}
 		},
 		id: "thaumicaugmentation:impetus_matrix"
 	},
@@ -24,7 +24,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:infusion_matrix"
 		}]
@@ -34,7 +34,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:pedestal_eldritch"
 		}],
@@ -45,7 +45,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:material",
 			Damage: 3s
@@ -54,10 +54,10 @@
 	{
 		uid: "b9d40cb0",
 		type: "observation",
-		title: "Gaze at an activated &5Impetus Matrix",
+		title: "凝视一座&5元动矩阵",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumicaugmentation:impetus_matrix"
 		},

@@ -18,7 +18,7 @@
 	tasks: [{
 		uid: "55fd446c",
 		type: "advancement",
-		title: "Advancement: &eA Tale of Six Trillion Years and a Night",
+		title: "完成成就: &eA Tale of Six Trillion Years and a Night",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
