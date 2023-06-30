@@ -5,7 +5,7 @@
 	shape: "octagon",
 	description: "&o昔日的辉煌化为今日的残垣……&7 *阅读以获得更多信息*",
 	text: [
-		"&7&o这是一张来自&5&oa另一位神秘使的笔记残片&7&o？ 其上以一种完全不符合如今认知的的方式描述了&d&o灵气厂与灵气&7&o，或许他们来自另一重历史，亦或者只是在很多很多年前……",
+		"&7&o这是一张来自&5&o另一位神秘使的笔记残片&7&o？ 其上以一种完全不符合如今认知的的方式描述了&d&o灵气厂与灵气&7&o，或许他们来自另一重历史，亦或者只是在很多很多年前……",
 		"",
 		"&6使用&5魔导透镜&6扫描它来解锁新的，不被世界所接受的知识。亲爱的邪术使。"
 	],
@@ -18,7 +18,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:research_notes"
 		}],
@@ -34,7 +35,7 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "ftbquests:lootcrate",
 			tag: {

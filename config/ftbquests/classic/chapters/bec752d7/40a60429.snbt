@@ -33,10 +33,9 @@
 			id: "lodsofemone:coin_big",
 			tag: {
 				value: 100L
-			},
-			Count: 1b
+			}
 		},
 		auto: "enabled",
-		command: "/tellraw @p {\"text\":\"§dYou did read the description of §5\\\"§lRead the Book, or you'll be Cooked!\\\"§d, right §5Thaumaturge§d?\"}"
+		command: "/tellraw @p {\"text\":\"§d再确认一遍，你确确实实，真真切切，逐字逐句地多次阅读了 §5\\\"§l《书读百遍，其意自现》\\\"§d,任务的内容了，对吧？§5我亲爱的神秘使阁下？§d?\"}"
 	}]
 }

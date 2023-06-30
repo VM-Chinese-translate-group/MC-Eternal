@@ -2,7 +2,7 @@
 	title: "&5诅咒之棍",
 	icon: {
 		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
+			"wizardryutils:summoneditemdata": {}
 		},
 		id: "thaumcraft:pech_wand"
 	},
@@ -29,12 +29,12 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:pech_wand",
 			tag: {
 				display: {
-					Name: "Scan me!"
+					Name: "扫描我！"
 				}
 			}
 		}

@@ -2,7 +2,7 @@
 	title: "&5求知者的衣柜",
 	x: 27.5d,
 	y: -5.0d,
-	description: "&o魔术师（左转隔壁fate锡类，谢谢）的长袍&7 *阅读以获得更多信息*",
+	description: "&o魔术师（左转隔壁fate系列，谢谢）的长袍&7 *阅读以获得更多信息*",
 	text: [
 		"&5秘术师套装&7是一套&d灵气亲和性&7很强的盔甲,当然了，还有&6不错的防御性&7。",
 		"",
@@ -22,7 +22,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumium_robes_hood",
 			tag: {
@@ -37,7 +38,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumium_robes_chestplate",
 			tag: {
@@ -52,7 +54,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:thaumium_robes_leggings",
 			tag: {

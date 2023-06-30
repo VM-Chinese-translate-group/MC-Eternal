@@ -22,6 +22,6 @@
 	tasks: [{
 		uid: "95505151",
 		type: "checkmark",
-		title: "&4Ritual Time!"
+		title: "&4仪式时间！"
 	}]
 }

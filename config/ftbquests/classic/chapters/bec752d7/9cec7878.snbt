@@ -11,18 +11,18 @@
 		type: "item",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:ingot",
 			Damage: 2s
 		},
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					data: "ingotBrass",
 					id: "ore"
-				},
-				"customnpcs:itemscripteddata": {}
+				}
 			},
 			id: "itemfilters:filter",
 			tag: {
@@ -37,7 +37,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:ingot"
 		}]

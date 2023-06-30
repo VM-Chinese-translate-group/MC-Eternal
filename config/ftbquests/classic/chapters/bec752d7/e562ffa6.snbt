@@ -2,7 +2,7 @@
 	title: "&5好烦人",
 	icon: {
 		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
+			"wizardryutils:summoneditemdata": {}
 		},
 		id: "thaumcraft:curio",
 		Damage: 6s
@@ -12,7 +12,7 @@
 	shape: "hexagon",
 	description: "&o这也太慢了&7 *阅读描述以了解更多信息",
 	text: [
-		"&7必须找到&5绯红传送门&7才能解锁后面的内容真的很烦人。所以我和你用一个生物来做一次交易，奖励是一本免费的&5猩红仪式&7之书！",
+		"&7必须找到&5血腥传送门&7才能解锁后面的内容真的很烦人。所以我和你用一个生物来做一次交易，奖励是一本免费的&5猩红仪式&7之书！",
 		"",
 		"记住要用&6魔导透镜来扫描血腥信徒&7！"
 	],
@@ -36,8 +36,7 @@
 			tag: {
 				Generic: 1b,
 				id: "thaumcraft:cultistportallesser"
-			},
-			Count: 1b
+			}
 		}
 	},
 	{
@@ -45,12 +44,12 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:curio",
 			tag: {
 				display: {
-					Name: "Don't Right-click me, you'll regret it later."
+					Name: "准备好成为一名邪术使了吗？没准备好就别读我！"
 				}
 			},
 			Damage: 6s

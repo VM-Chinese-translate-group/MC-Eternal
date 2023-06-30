@@ -19,13 +19,14 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
 				Parent: {
 					augment: {},
 					energy: {
 						energy: 0L
 					}
 				},
-				"customnpcs:itemscripteddata": {}
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
 		}],

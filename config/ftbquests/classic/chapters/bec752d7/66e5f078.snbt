@@ -17,13 +17,12 @@
 	tasks: [{
 		uid: "ee966548",
 		type: "observation",
-		title: "Gaze at an &5Ancient Altar",
+		title: "凝视一座&5荒古祭坛",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
 			},
-			id: "crimsonwarfare:boss_activator",
-			Count: 1b
+			id: "crimsonwarfare:boss_activator"
 		},
 		match_type: "block_id",
 		match: "crimsonwarfare:boss_activator",

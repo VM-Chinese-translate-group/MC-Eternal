@@ -28,7 +28,8 @@
 		title: "看向一个&5腐化孢子巢穴",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumicaugmentation:rift_seed",
 			tag: {
@@ -52,9 +53,8 @@
 			id: "lodsofemone:coin_big",
 			tag: {
 				value: 100L
-			},
-			Count: 1b
+			}
 		},
-		command: "/tellraw @p {\"text\":\"§5§l我打赌你在点这个之前没有阅读描述! 赶紧去读它！\"}"
+ 		command: "/tellraw @p {\"text\":\"§5§l我打赌你在点这个之前没有阅读描述！赶紧去读它！\"}"
 	}]
 }

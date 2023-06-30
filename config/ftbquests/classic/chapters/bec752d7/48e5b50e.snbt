@@ -2,7 +2,7 @@
 	title: "&5在研究中寻找答案……",
 	icon: {
 		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
+			"wizardryutils:summoneditemdata": {}
 		},
 		id: "thaumcraft:research_table"
 	},
@@ -24,7 +24,7 @@
 		title: "观测&5研究台",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:research_table"
 		},
@@ -37,7 +37,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:scribing_tools"
 		}],
@@ -49,7 +50,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "minecraft:paper"
 		}],

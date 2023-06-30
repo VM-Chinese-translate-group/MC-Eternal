@@ -20,7 +20,7 @@
 	tasks: [{
 		uid: "030ab95d",
 		type: "interaction",
-		title: "&cRight-Click&r a &bHellfire Forge",
+		title: "&c右击&r一个&b狱火熔炉",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

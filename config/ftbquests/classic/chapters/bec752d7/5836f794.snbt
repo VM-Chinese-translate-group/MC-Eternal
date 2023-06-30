@@ -2,7 +2,8 @@
 	title: "&5终极知识",
 	icon: {
 		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
+			"wizardryutils:summoneditemdata": {},
+			"astralsorcery:cap_item_amulet_holder": {}
 		},
 		id: "thaumcraft:thaumonomicon",
 		Damage: 1s
@@ -75,7 +76,6 @@
 		"be79159d",
 		"7e79f19c",
 		"917c261b",
-		"39343e5d",
 		"f83b3551",
 		"9a1d9477",
 		"fc33a2d8",
@@ -97,7 +97,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -116,7 +116,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -135,7 +135,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -154,7 +154,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -173,7 +173,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -192,7 +192,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -211,7 +211,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -230,7 +230,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -249,7 +249,7 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:phial",
 			tag: {
@@ -268,7 +268,8 @@
 		type: "item",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:primordial_pearl"
 		}],
@@ -281,14 +282,15 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:thaumonomicon",
 			tag: {
 				display: {
 					Lore: [
-						"Ultimate Knowledge for the Ultimate price...",
-						"Right-Click to know all there is about the art of Thaumaturgy."
+						"开启宇宙真理的钥匙……但还远远不够！",
+						"手持右击，习得神秘时代所有的研究。"
 					]
 				}
 			},
@@ -300,7 +302,8 @@
 		type: "item",
 		item: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:creative_flux_sponge"
 		}
@@ -308,10 +311,11 @@
 	{
 		uid: "92b749c0",
 		type: "command",
-		title: "&5Cleanse Permanent Warp. &cDo after acquiring Ultimate Knowledge!",
+		title: "&5清理你的永久扭曲。&c记得在习得终极知识之后使用！",
 		icon: {
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "thaumcraft:sanity_checker"
 		},

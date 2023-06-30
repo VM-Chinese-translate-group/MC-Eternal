@@ -7,10 +7,10 @@
 	tasks: [{
 		uid: "3a25c820",
 		type: "item",
-		title: "Any Vis Crystal",
+		title: "任意魔力水晶碎片",
 		items: [{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -22,7 +22,7 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -34,7 +34,7 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -46,7 +46,7 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -58,7 +58,7 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {
@@ -70,7 +70,7 @@
 		},
 		{
 			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
+				"wizardryutils:summoneditemdata": {}
 			},
 			id: "thaumcraft:crystal_essence",
 			tag: {

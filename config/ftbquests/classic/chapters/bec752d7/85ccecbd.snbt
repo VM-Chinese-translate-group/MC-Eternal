@@ -10,9 +10,9 @@
 		"f5fa1f8d"
 	],
 	tasks: [{
-		uid: "15a80776",
-		type: "observation",
-		title: "观察&9液化的星能",
+		uid: "662ba97e",
+		type: "fluid",
+		title: "一桶&9液化的星能",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
@@ -24,9 +24,7 @@
 				Amount: 1000
 			}
 		},
-		match_type: "block_id",
-		match: "",
-		timer: 0L
+		fluid: "astralsorcery.liquidstarlight"
 	}],
 	rewards: [{
 		uid: "77426cbb",

@@ -17,7 +17,7 @@
 	tasks: [{
 		uid: "6a75fdf5",
 		type: "advancement",
-		title: "Create the &9Iridescent Altar",
+		title: "制作&9五彩祭坛",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
