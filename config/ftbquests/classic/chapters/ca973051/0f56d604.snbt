@@ -3,14 +3,14 @@
 	x: -12.0d,
 	y: -11.5d,
 	shape: "diamond",
-	description: "&o在暮色森林最黑暗的角落里，有着十分古老的要塞。。。令我不禁好奇，要塞里边有什么？",
+	description: "&o在暮色森林最黑暗的角落里，有着一座十分古老的要塞。令我不禁好奇，要塞里边有什么？",
 	dependencies: [
 		"0647fe18"
 	],
 	tasks: [{
 		uid: "410a5816",
 		type: "advancement",
-		title: "进度: &e号令砷铅铁机关",
+		title: "进度：&e号令砷铅铁机关",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -58,7 +58,7 @@
 				}],
 				display: {
 					Lore: [
-						"有着神秘背景的骑士团。。",
+						"有着神秘背景的骑士团。",
 						"不再那么神秘了，不是吗？",
 						"§d暮色森林独家遗物"
 					],
