@@ -2,7 +2,7 @@
 	title: "&5魔力冶金",
 	x: 21.5d,
 	y: -2.0d,
-	description: "&5（炼金）黄铜锭&7和&5神秘锭&7对于任何神秘使来说，都是有用的材料，它们有着很多的应用……",
+	description: "&5（炼金）黄铜锭&7和&5神秘锭&7对于任何神秘使来说，都是非常有用的材料。",
 	dependencies: [
 		"af231639"
 	],
@@ -27,7 +27,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any ingotBrass"
+					Name: "任意黄铜锭"
 				}
 			}
 		}]
