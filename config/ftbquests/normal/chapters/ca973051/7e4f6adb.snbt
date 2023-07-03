@@ -1,16 +1,16 @@
 {
-	title: "暮色森林的米诺菇",
+	title: "暮色森林的米诺陶",
 	x: -14.0d,
 	y: -11.0d,
 	shape: "diamond",
-	description: "&o在暮色森林的沼泽地中，有一个小山包，里面有通向地下迷宫的入口。。。 地下迷宫里会有什么呢？ &l*吃了牛头人沙拉酱肉才能有进一步发现*",
+	description: "&o在暮色森林的沼泽地中，有一个小山包，里面有通向地下迷宫的入口。地下迷宫里会有什么呢？ &l*吃了牛头人沙拉酱肉才能有进一步发现*",
 	dependencies: [
 		"0647fe18"
 	],
 	tasks: [{
 		uid: "5767c4a6",
 		type: "advancement",
-		title: "进度: &e强力的牛肉人沙拉酱肉",
+		title: "进度：&e强力的牛肉人沙拉酱肉",
 		icon: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
@@ -63,7 +63,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.attackDamage",
 					Operation: 0,
-					Name: "Minoshroom's Fury"
+					Name: "米诺陶之怒"
 				},
 				{
 					UUIDMost: 3254524,
@@ -72,7 +72,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.attackSpeed",
 					Operation: 0,
-					Name: "Minoshroom's Fury"
+					Name: "米诺陶之怒"
 				},
 				{
 					UUIDMost: 324924,
@@ -81,7 +81,7 @@
 					Slot: "offhand",
 					AttributeName: "generic.movementSpeed",
 					Operation: 1,
-					Name: "Minoshroom's Fury"
+					Name: "米诺陶之怒"
 				}]
 			}
 		}
