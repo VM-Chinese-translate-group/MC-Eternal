@@ -3,14 +3,14 @@
 	x: -10.0d,
 	y: -14.0d,
 	shape: "diamond",
-	description: "&o在暮色森林最寒冷地区的大冰川中心，坐落着一座与极光一样美丽的高塔。。。我不禁幻想，里边会有些什么呢？",
+	description: "&o在暮色森林最寒冷地区的大冰川中心，坐落着一座与极光一样美丽的高塔……我不禁幻想，里边会有些什么呢？",
 	dependencies: [
 		"d233564c"
 	],
 	tasks: [{
 		uid: "6c74d970",
 		type: "advancement",
-		title: "进度: &e澄澈之空",
+		title: "进度：&e澄澈之空",
 		icon: "twilightforest:trophy 1 5",
 		advancement: "twilightforest:progress_glacier",
 		criterion: ""
@@ -45,7 +45,7 @@
 				}],
 				display: {
 					Lore: [
-						"充满了强大而神奇的末影能量。。。",
+						"充满了强大而神奇的末影能量……",
 						"§6射击强而有力，但是代价是什么？",
 						"§d暮色森林专属遗物"
 					],
@@ -58,7 +58,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.movementSpeed",
 					Operation: 1,
-					Name: "Ender Swiftness"
+					Name: "末影之速"
 				},
 				{
 					UUIDMost: 43294,
@@ -67,7 +67,7 @@
 					Slot: "mainhand",
 					AttributeName: "potioncore.projectileDamage",
 					Operation: 1,
-					Name: "Ender Force"
+					Name: "末影之力"
 				}]
 			}
 		}
