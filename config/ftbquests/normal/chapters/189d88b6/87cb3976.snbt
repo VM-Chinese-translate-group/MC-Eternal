@@ -9,7 +9,7 @@
 	x: -16.0d,
 	y: -3.0d,
 	shape: "heart",
-	description: "感谢你下载我的整合包! 为了它我们花费了大量的时间，希望它能带给大家一个有趣的体验。祝您游玩愉快!  -Adam",
+	description: "感谢你下载我的整合包！为了它我们花费了大量的时间，希望它能带给大家一个有趣的体验。祝你游玩愉快！-整合包作者Adam",
 	hide_dependency_lines: true,
 	dependencies: [
 		"5eed1197"
@@ -40,7 +40,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Forgotten trash can (Open me!)"
+					Name: "被遗忘的垃圾桶（打开我！）"
 				},
 				type: "starting_gear"
 			}
