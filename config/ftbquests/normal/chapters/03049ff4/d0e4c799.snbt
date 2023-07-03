@@ -2,7 +2,7 @@
 	title: "&a&l核弹",
 	x: 1.0d,
 	y: -2.0d,
-	description: "&o\"我不知道第三次世界大战会用什么样的武器进行，但我能肯定第四次世界大战一定会用石头与棍棒作为武器\"",
+	description: "&o“我不知道第三次世界大战会用什么样的武器进行，但我能肯定第四次世界大战一定会用石头与棍棒作为武器。”",
 	tasks: [{
 		uid: "b89ccf1c",
 		type: "item",
@@ -35,7 +35,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Unclaimed Black Market Container "
+					Name: "无主的黑市货柜"
 				},
 				type: "unclaimed_black_market_container"
 			}
