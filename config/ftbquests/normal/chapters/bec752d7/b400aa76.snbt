@@ -23,7 +23,7 @@
 	{
 		uid: "016f4e69",
 		type: "item",
-		title: "8个随便什么大理石（夸克的记得用凿子改一下模组）",
+		title: "8个任意大理石（如果是夸克的用凿子改一下模组）",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -41,7 +41,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any stoneMarble"
+					Name: "任意大理石"
 				}
 			}
 		}],
