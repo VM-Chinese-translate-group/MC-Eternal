@@ -2,7 +2,7 @@
 	title: "&6介绍之王！",
 	x: -1.5d,
 	y: -6.5d,
-	description: "&o 祝贺你完成了介绍章节！ 成为最后赢家的感受如何？haha",
+	description: "&o 祝贺你完成了介绍章节！成为最后赢家的感受如何？哈哈。",
 	hide_dependency_lines: true,
 	dependencies: [
 		"67039193",
@@ -19,7 +19,7 @@
 	tasks: [{
 		uid: "617935b4",
 		type: "checkmark",
-		title: "&lClick me!",
+		title: "&l点我！",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},
@@ -29,7 +29,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§6Winners Golden Crown"
+					Name: "§6赢家金冠"
 				}
 			}
 		}
@@ -46,7 +46,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "§6Winners Golden Crown"
+					Name: "§6赢家金冠"
 				}
 			}
 		}
