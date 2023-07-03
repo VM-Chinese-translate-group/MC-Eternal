@@ -10,7 +10,7 @@
 	y: -2.5d,
 	description: "*阅读说明*",
 	text: [
-		"花格箱、漏斗、压力板、红石火把，懂？再不懂我只能说你没有自主自考能力了。"
+		"花格箱、漏斗、压力板、红石火把，懂？再不懂我只能说你没有自主思考能力了。"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -53,7 +53,7 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any pressurePlateWood"
+					Name: "任意木质压力板"
 				}
 			}
 		}]
