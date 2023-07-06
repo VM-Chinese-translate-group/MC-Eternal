@@ -44,7 +44,7 @@
 			id: "minecraft:emerald_block",
 			tag: {
 				display: {
-					Name: "Villager's Prize"
+					Name: "村民的奖励"
 				}
 			}
 		},
