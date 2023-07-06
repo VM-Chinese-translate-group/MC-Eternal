@@ -2,7 +2,7 @@
 	title: "&l游戏时间",
 	x: 4.0d,
 	y: -2.0d,
-	description: "&o\"时间就是金钱，我的朋友\"!",
+	description: "&o“时间就是金钱！”",
 	tasks: [{
 		uid: "b9edbae7",
 		type: "stat",
@@ -27,7 +27,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Magical Fancy Dress Box"
+					Name: "魔法服装盒"
 				},
 				type: "fancy_dress_box"
 			}
