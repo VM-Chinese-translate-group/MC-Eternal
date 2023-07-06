@@ -1,5 +1,5 @@
 {
-	title: "不是太好，但也不算太差",
+	title: "不算太好，也不算太差",
 	x: -15.0d,
 	y: -0.5d,
 	description: "发现一个核泄漏之地！",
@@ -27,7 +27,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "Anti-Radiation StrongBox"
+					Name: "防辐射加固箱"
 				},
 				type: "anti_radiation_box"
 			}
