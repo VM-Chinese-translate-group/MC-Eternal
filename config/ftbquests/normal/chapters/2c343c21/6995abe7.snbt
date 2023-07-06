@@ -34,7 +34,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "迷失"
 				},
 				{
 					UUIDMost: 99,
@@ -43,7 +43,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "迷失"
 				}]
 			}
 		}],
@@ -79,7 +79,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "迷失"
 				},
 				{
 					UUIDMost: 99,
@@ -88,7 +88,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "迷失"
 				}]
 			}
 		}],
@@ -172,7 +172,7 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"§8\"但我们所谓的绝望，往往只是对未被满足的希望的痛苦渴望。\"",
+						"§8“但我们所谓的绝望，往往只是对未被满足的希望的痛苦渴望。”",
 						"§c（腐化套装的一部分）",
 						"§e（稀有月球装备）"
 					],
@@ -203,7 +203,7 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"§8你有足够的勇气，我确信",
+						"§8我相信，你有足够的勇气",
 						"§c（腐化套装的一部分）"
 					],
 					Name: "§7红宝石鞋"
@@ -215,7 +215,7 @@
 					Slot: "head",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "迷失"
 				},
 				{
 					UUIDMost: 99,
@@ -224,7 +224,7 @@
 					Slot: "head",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "迷失"
 				}]
 			}
 		}],
