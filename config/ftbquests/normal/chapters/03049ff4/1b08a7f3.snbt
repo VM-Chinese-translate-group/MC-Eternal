@@ -27,7 +27,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "魔法服装盒"
+					Name: "奇妙的化妆舞会服装礼盒"
 				},
 				type: "fancy_dress_box"
 			}
