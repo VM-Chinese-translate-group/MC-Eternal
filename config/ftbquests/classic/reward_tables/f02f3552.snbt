@@ -1,5 +1,5 @@
 {
-	title: "Violin",
+	title: "小提琴",
 	loot_size: 27,
 	rewards: [{
 		item: {
