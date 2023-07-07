@@ -1,5 +1,5 @@
 {
-	title: "锭！锭！锭！锭！锭！锭！锭！锭！锭！",
+	title: "锭！锭！锭！锭！",
 	x: -3.5d,
 	y: 4.5d,
 	shape: "circle",
@@ -63,7 +63,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "无人认领的黑市集装箱 "
+					Name: "无主的黑市货柜"
 				},
 				type: "unclaimed_black_market_container"
 			}
