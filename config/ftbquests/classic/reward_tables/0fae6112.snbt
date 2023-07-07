@@ -1,5 +1,5 @@
 {
-	title: "Heavenly Box",
+	title: "天堂之箱",
 	loot_size: 1,
 	hide_tooltip: true,
 	rewards: [{
