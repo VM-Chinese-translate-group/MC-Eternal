@@ -1,5 +1,5 @@
 {
-	title: "Common Lootbox",
+	title: "普通战利品箱",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
