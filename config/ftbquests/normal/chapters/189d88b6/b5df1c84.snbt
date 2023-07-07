@@ -27,7 +27,7 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				display: {
-					Name: "防辐射加固箱"
+					Name: "防辐射用品保险箱"
 				},
 				type: "anti_radiation_box"
 			}
