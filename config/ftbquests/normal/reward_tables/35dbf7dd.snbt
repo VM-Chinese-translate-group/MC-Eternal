@@ -492,7 +492,7 @@
 	}],
 	loot_crate: {
 		string_id: "cheesy_cache",
-		item_name: "Cheesy Cache",
+		item_name: "奶酪秘匣",
 		color: 16557570,
 		drops: {
 			boss: 0,

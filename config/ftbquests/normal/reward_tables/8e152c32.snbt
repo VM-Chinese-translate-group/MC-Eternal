@@ -1,5 +1,5 @@
 {
-	title: "黑市盲盒",
+	title: "无主的的黑市货柜",
 	icon: "treasure2:dread_pirate_chest",
 	loot_size: 1,
 	rewards: [{
@@ -3006,7 +3006,7 @@
 	}],
 	loot_crate: {
 		string_id: "unclaimed_black_market_container",
-		item_name: "Unclaimed Black Market Container",
+		item_name: "无主的的黑市货柜",
 		color: 0,
 		drops: {
 			boss: 0,

@@ -49,7 +49,7 @@
 			id: "minecraft:paper",
 			tag: {
 				display: {
-					Name: "出租-一只-老鼠       ：收据"
+					Name: "出租一只老鼠       ：收据"
 				}
 			}
 		},

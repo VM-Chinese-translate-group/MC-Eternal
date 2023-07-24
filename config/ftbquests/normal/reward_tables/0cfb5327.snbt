@@ -38,7 +38,7 @@
 				display: {
 					Lore: [
 						"§8众所周知，月亮由奶酪构成",
-						"§e(月球套装)"
+						"§e（月球套装）"
 					],
 					Name: "§6§l月魂灵锹"
 				},
@@ -76,7 +76,7 @@
 					Slot: "head",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -85,7 +85,7 @@
 					Slot: "head",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		},
@@ -225,7 +225,7 @@
 					Slot: "head",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -234,7 +234,7 @@
 					Slot: "head",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}
@@ -749,7 +749,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -758,7 +758,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}
@@ -790,7 +790,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -799,7 +799,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}
@@ -929,7 +929,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.attackDamage",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}
