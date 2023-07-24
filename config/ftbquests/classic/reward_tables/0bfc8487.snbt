@@ -1,5 +1,5 @@
 {
-	title: "Magic Quest",
+	title: "魔法探索",
 	loot_size: 27,
 	rewards: [{
 		item: {

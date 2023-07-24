@@ -1,5 +1,5 @@
 {
-	title: "Master Spell Book",
+	title: "大师级法术书",
 	loot_size: 1,
 	rewards: [{
 		item: {

@@ -1,5 +1,5 @@
 {
-	title: "&5Extraterrestrial Cache",
+	title: "&5地外秘匣",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {},
@@ -54,10 +54,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"�8Everybody Knows The Moon's Made of Cheese",
-						"�e(Part of the Moon set)"
+						"§8众所周知，月亮由奶酪构成",
+						"§e（月球套装）"
 					],
-					Name: "�6�lHaunted Moon Shovel "
+					Name: "§6§l月魂灵锹"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -82,10 +82,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"�8You have plenty of courage, I am sure",
-						"�c(Part of the Corruption Set)"
+						"§8我很确信你有足够的勇气",
+						"§c（腐化套装的一部分）"
 					],
-					Name: "�7Ruby Slippers"
+					Name: "§7红宝石靴"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -94,7 +94,7 @@
 					Slot: "head",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -103,7 +103,7 @@
 					Slot: "head",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		},
@@ -120,10 +120,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8Rusted and uncomfortable to hold, unlikely to last very long",
-						"�e(Part of the Moon set)"
+						"§8充满了锈斑而且握在手中有些不适，不可能持续使用",
+						"§e（月球套装的一部分）"
 					],
-					Name: "�7Ratlantean Dagger"
+					Name: "§7鼠西族匕首"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -160,10 +160,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�8�k232!�r�l�8It yearns to be returned to its home planet�8�k3242",
-						"�l�e(Rare Moon Artifact)"
+						"§8§k232!§r§l§8它渴望着回归母星§8§k3242",
+						"§l§e（稀有月球遗物）"
 					],
-					Name: "�9Frozen Blade �rof the �4Unholy Prince"
+					Name: "§4亵渎王子§r之§9寒锋"
 				}
 			}
 		}
@@ -179,10 +179,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8Rusted and uncomfortable to hold, unlikely to last very long (aaarrg)",
-						"�e(Part of the Moon set)"
+						"§8充满了锈斑而且握在手中有些不适，不可能持续使用（啊啊啊啊啊！）",
+						"§e（月球套装的一部分）"
 					],
-					Name: "�7Pirat Hook"
+					Name: "§7鼠盗钩"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -207,10 +207,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8Made completely out of 100% cheese sourced locally from the Moon.",
-						"�e(Part of the Moon set)"
+						"§8百分百纯奶酪制作，产自月球本地。",
+						"§e（月球套装的一部分）"
 					],
-					Name: "�7Cheese Blade"
+					Name: "§7乳酪之刃"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -235,11 +235,11 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"�8In my dream, I was drowning my sorrows",
-						"�8But my sorrows they'd learned to swim",
-						"�e(Part of the Moon set)"
+						"§8在梦里我借酒浇愁",
+						"§8可我的悲伤随波逐流",
+						"§e（月球套装的一部分）"
 					],
-					Name: "�7Mask of Sorrows"
+					Name: "§7痛苦面具"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -248,7 +248,7 @@
 					Slot: "head",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -257,7 +257,7 @@
 					Slot: "head",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}
@@ -271,13 +271,13 @@
 			id: "minecraft:writable_book",
 			tag: {
 				pages: [
-					"�cSoon�k------------------�cIntersteller travel�k-------------------�cThe universeIs mine...�k-------------------",
-					"Ticket for oneTo the home planet of the UndeadBeautiful around this time of the yearPlease check tripadvisor for advice and tips for survival",
-					"�m�l7/7/2020"
+					"§c很快§k------------------\\n§c星际旅行§k-------------------\\n§c宇宙都是我的……§k-------------------",
+					"在一年中这个时间前往美丽亡灵母星的船票。请向旅游顾问咨询有关的生存建议和注意事项",
+					"§m§l7/7/2020"
 				],
 				RepairCost: 0,
 				display: {
-					Name: "�6Economy Ticket to Primordium"
+					Name: "§6去往原基的经济舱船票"
 				}
 			}
 		}
@@ -609,11 +609,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8All that's left is a Nightmare...",
-						"�c(Part of the Corruption Set)",
-						"�e(Rare Moon Artifact)"
+						"§8只留下噩梦……",
+						"§c（腐化套装的一部分）",
+						"§e（稀有月球遗物）"
 					],
-					Name: "�7Dream Eater"
+					Name: "§7食梦者"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -713,15 +713,16 @@
 			id: "minecraft:written_book",
 			tag: {
 				pages: [
-					"{\"text\":\"Ground Control to Major Tom\\nGround Control to Major Tom\\nTake your protein pills and put your helmet on\\nGround Control to Major Tom (ten, nine, eight, seven, six)\"}",
-					"{\"text\":\"Commencing countdown, engines on (five, four, three)\\nCheck ignition and may God\\u0027s love be with you (two, one, liftoff)\\n\\nThis is Ground Control to Major Tom\\nYou\\u0027ve really made the grade\\nAnd the papers want to know whose shirts you wear\"}",
-					"{\"text\":\"Now it\\u0027s time to leave the capsule if you dare\\n\\\"This is Major Tom to Ground Control\\nI\\u0027m stepping through the door\\nAnd I\\u0027m floating in a most peculiar way\\n\\nAnd the stars look very different today\\nFor here\"}",
-					"{\"text\":\"Am I sitting in a tin can\\nFar above the world\\nPlanet Earth is blue\\nAnd there\\u0027s nothing I can do\\n\\nThough I\\u0027m past one hundred thousand miles\\nI\\u0027m feeling very still\\n\\nAnd I think my spaceship knows which way to go\"}",
-					"{\"text\":\"Tell my wife I love her very much she knows\\nGround Control to Major Tom\\nYour circuit\\u0027s dead, there\\u0027s something wrong\\n\\nCan you hear me, Major Tom?\\nCan you hear me, Major Tom?\\nCan you hear me, Major Tom?\"}",
-					"{\"text\":\"Can you \\\"Here am I floating \\u0027round my tin can\\nFar above the moon\\n\\n\\n\\n\\nPlanet Earth is blue\\nAnd there\\u0027s nothing I can do\\\"\"}"
+					"{\"text\":\"地面指挥呼叫汤姆船长\\n地面指挥呼叫汤姆船长\\n服下蛋白质药片 戴上头盔\\n地面指挥呼叫汤姆船长（十，九，八，七，六）\"}",
+					"{\"text\":\"倒计时开始 启动引擎（五，四，三）\\n检查点火装置 祝你好运（二，一，点火）\\n\\n这是地面指挥 呼叫汤姆船长\\n你干的真不错\\n媒体们都想知道是怎样把你送到那儿的\"}",
+					"{\"text\":\"如果可以的话 现在是时候出舱了\\n\\\"这里是汤姆船长 呼叫地面指挥\\n我正一步步穿过舱门\\n以奇妙的方式漂浮着\\n\\n今日的星尘看起来也如此不同\\n在这儿\"}",
+					"{\"text\":\"我待在船舱里\\n远在地球之上\\n看着蔚蓝的地球\\n如此自由自在\\n\\n虽然穿越数万英里\\n但我此刻非常平静\\n\\n我想我的飞船知道该奔向何方\"}",
+					"{\"text\":\"告诉我的妻子 我爱她 她知道的\\n地面指挥呼叫汤姆船长\\n你的电路装置停止运行了 出问题了\\n\\n你能听到吗，汤姆船长？\\n你能听到吗，汤姆船长？\\n你能听到吗，汤姆船长？\"}",
+					"{\"text\":\"你能 \\\"我漂浮在船舱的周围\\n远在月球之上\\n\\n\\n\\n\\n地球如此蔚蓝\\n如此自由自在\\\"\"}",
+					"{\"text\":\"————歌曲《Spaze Oddity》歌词\"}"
 				],
 				author: "adam98991",
-				title: "Journey To Space",
+				title: "星际航行",
 				resolved: 1
 			}
 		},
@@ -735,16 +736,17 @@
 			id: "minecraft:written_book",
 			tag: {
 				pages: [
-					"{\"text\":\"Didn\\u0027t know what time it was and the lights were low\\nI leaned back on my radio\\nSome cat was layin\\u0027 down some get it on rock \\u0027n\\u0027 roll, he said\\nThen the loud sound did seem to fade \"}",
-					"{\"text\":\"Came back like a slow voice on a wave of phase haze\\nThat weren\\u0027t no D.J. that was hazy cosmic jive\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027d like to come and meet us\\nBut he thinks he\\u0027d blow our minds\"}",
-					"{\"text\":\"There\\u0027s a starman waiting in the sky\\nHe\\u0027s told us not to blow it\\nCause he knows it\\u0027s all worthwhile\\nHe told me:\\nLet the children lose it\\nLet the children use it\\nLet all the children boogie\"}",
-					"{\"text\":\"I had to phone someone so I picked on you\\nHey, that\\u0027s far out so you heard him too\\nSwitch on the TV we may pick him up on channel two\\n\\nLook out your window I can see his light\\nIf we can sparkle he may land tonight\"}",
-					"{\"text\":\"Don\\u0027t tell your poppa or he\\u0027ll get us locked up in fright\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027d like to come and meet us\\nBut he thinks he\\u0027d blow our minds\\n\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027s told us not to blow it\"}",
-					"{\"text\":\"Cause he knows it\\u0027s all worthwhile\\nHe told me:\\nLet the children lose it\\nLet the children use it\\nLet all the children boogie\\n\\nThere\\u0027s a starman waiting in the sky\\nHe\\u0027d like to come and meet us\\nBut he thinks he\\u0027d blow our minds\"}",
-					"{\"text\":\"There\\u0027s a starman waiting in the sky\\nHe\\u0027s told us not to blow it\\nCause he knows it\\u0027s all worthwhile\\nHe told me:\\n\\nLet the children lose it\\nLet the children use it\\nLet all the children boogie\"}"
+					"{\"text\":\"不知道现在是什么时间 灯光很暗\\n我倚靠着录音机\\n他说着 有些女人躺着 有些在摇摆 有些在出卖灵魂\\n喧闹的声音突然消失了\"}",
+					"{\"text\":\"声音再次恢复就像是又一层波浪来袭\\n那不是DJ在跳扭摆舞\\n星星在天空出现\\n他想要来和我们相遇\\n他认为自己打动了我们的心\"}",
+					"{\"text\":\"星星在天空出现\\n他告诉我们不要搞砸了\\n因为他知道一切都是值得的\\n他告诉我：\\n让孩子们舞动起来\\n让孩子们动起来\\n让孩子们扭动身体\"}",
+					"{\"text\":\"我要给一个人打电话 所以我打给你\\n声音很清楚 你也听到了\\n打开电视 我们在两个频道上都看到了他\\n\\n你看着窗外 我看到星光点点\\n如果一直闪耀的话 他就会躺在地上看着这满天繁星\"}",
+					"{\"text\":\"不要告诉你的爸爸 否则他会把我们锁起来\\n星星在天空出现\\n他想要来和我们相遇\\n他认为他打动了我们的心\\n\\n星星在天空出现\\n他告诉我们不要搞砸了\"}",
+					"{\"text\":\"因为他知道一切都是值得的\\n他告诉我：\\n让孩子们舞动起来\\n让孩子们动起来\\n让孩子们扭动身体\\n星星在天空出现\\n他想要来和我们相遇He\\n他认为他打动了我们的心\"}",
+					"{\"text\":\"星星在天空出现\\n他告诉我们不要搞砸了\\n因为他知道一切都是值得的\\n他告诉我：\\n\\n让孩子们舞动起来\\n让孩子们动起来\\n让孩子们扭动身体\"}",
+					"{\"text\":\"————歌曲《Starman》歌词\"}"
 				],
 				author: "adam98991",
-				title: "Space Journal",
+				title: "太空日志",
 				resolved: 1
 			}
 		},
@@ -773,10 +775,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�8�r�lAncient Tarnished Blade",
-						"�l�e(Rare Moon Artifact)"
+						"§8§r§l远古污浊之剑",
+						"§l§e（稀有月球遗物）"
 					],
-					Name: "�3Giant's Bane"
+					Name: "§3巨人之祸"
 				}
 			}
 		}
@@ -804,10 +806,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�8�r�rTriple Compressed Cheese",
-						"�l�e(Rare Moon Artifact)"
+						"§8§r§r三重压缩奶酪",
+						"§l§e（稀有月球遗物）"
 					],
-					Name: "�6�lMoon King"
+					Name: "§6§l月王剑"
 				}
 			}
 		}
@@ -823,8 +825,8 @@
 				HideFlags: 4,
 				display: {
 					Lore: [
-						"Blue in the darkness",
-						"Like a sickly diamond"
+						"黯淡的蓝色",
+						"像不纯净的钻石"
 					]
 				}
 			}
@@ -853,10 +855,10 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8From a faraway land where the dead stay awake and the living are most unwelcome",
-						"�e(Rare Extraterrestrial Artifact)"
+						"§8在一片遥远的大地上，亡灵们保持清醒而活物却不受待见。",
+						"§e（稀有地外遗物）"
 					],
-					Name: "�7Hammer of the Undying"
+					Name: "§7亡灵之锤"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -900,10 +902,10 @@
 				Unbreakable: 1,
 				display: {
 					Lore: [
-						"�aThree things are certain in life: death, taxes and opening a bad chancecube",
-						"�e(�R�eRare Moon Artifact)"
+						"§a在人生中有三件事是确定的：生老病死，纳税和在机会方块中开出厄运惩罚",
+						"§e（§R§e稀有月球遗物）"
 					],
-					Name: "�9God-King's Grace, Breath of Life"
+					Name: "§9天王圣恩，生命之息"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -932,10 +934,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"�8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"�c(Part of the Corruption set)"
+						"§8延长生命的方法是亵渎、非自然的而且并非毫无代价……",
+						"§c（腐化套装的一部分）"
 					],
-					Name: "�4�lGrasp of Death"
+					Name: "§4§l死亡之握"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -944,7 +946,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -953,7 +955,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}
@@ -974,10 +976,10 @@
 				HideFlags: 33,
 				display: {
 					Lore: [
-						"�8The means to prolong one's life is corrupting, unnatural and not without cost...",
-						"�c(Part of the Corruption set)"
+						"§8延长生命的方法是亵渎、非自然的而且并非毫无代价……",
+						"§c（腐化套装的一部分）"
 					],
-					Name: "�4�lGrasp of Suffering"
+					Name: "§4§l痛苦之握"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -986,7 +988,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armorToughness",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				},
 				{
 					UUIDMost: 99,
@@ -995,7 +997,7 @@
 					Slot: "chest",
 					AttributeName: "generic.armor",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}
@@ -1024,11 +1026,11 @@
 				HideFlags: 39,
 				display: {
 					Lore: [
-						"�8\"But what we call our despair is often only the painful eagerness of unfed hope.\"",
-						"�c(Part of the Corruption Set)",
-						"�e(Rare Moon Artifact)"
+						"§8“但我们所说的绝望，往往只是对毫无根据的希望的痛苦渴望",
+						"§c（腐化套装的一部分）",
+						"§e（稀有月球遗物）"
 					],
-					Name: "�5Despair"
+					Name: "§5绝望之刃"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -1050,7 +1052,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExtraterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}
@@ -1066,7 +1068,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "�dExtraterrestrial Cache"
+					Name: "§d地外秘匣"
 				},
 				type: "extraterrestrial_cache"
 			}
@@ -1153,10 +1155,10 @@
 				HideFlags: 37,
 				display: {
 					Lore: [
-						"�8Hide from the darkness, the dead does not feel fear.",
-						"�e(Part of the Primordium set)"
+						"§8藏匿于黑暗深处，亡魂不会感到恐惧。",
+						"§e（原基套装的一部分）"
 					],
-					Name: "�cNightfallen"
+					Name: "§c夜幕降临"
 				},
 				AttributeModifiers: [{
 					UUIDMost: 99,
@@ -1165,7 +1167,7 @@
 					Slot: "mainhand",
 					AttributeName: "generic.attackDamage",
 					Operation: 0,
-					Name: "Sorrow"
+					Name: "痛苦"
 				}]
 			}
 		}

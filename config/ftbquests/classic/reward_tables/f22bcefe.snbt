@@ -1,5 +1,5 @@
 {
-	title: "Astral Sorcery Tutorials",
+	title: "星辉魔法教程",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {},
@@ -22,7 +22,7 @@
 	},
 	loot_size: 1,
 	rewards: [{
-		title: "Astral Sorcery Tutorials by &6Mischief of Mice",
+		title: "&6Mischief of Mice§f的星辉魔法教程",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -42,7 +42,7 @@
 			},
 			Damage: 3s
 		},
-		command: "/tellraw @p {\"text\": \"§9§lClick here to open §rAstral Sorcery Tutorials §9§lby §6Mischief of Mice!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=9uU67eYK_Mc&list=PLQzDSnrhrcyyZKmHp1zdj03jRbuZN7NOh\"}}",
+		command: "/tellraw @p {\"text\": \"§9§l点击此处打开§6Mischief of Mice§9§l的§r星辉魔法教程！\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=9uU67eYK_Mc&list=PLQzDSnrhrcyyZKmHp1zdj03jRbuZN7NOh\"}}",
 		type: "command"
 	}]
 }

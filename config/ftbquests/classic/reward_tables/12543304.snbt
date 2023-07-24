@@ -1,5 +1,5 @@
 {
-	title: "AE2 Tutorials",
+	title: "AE2教程",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -8,7 +8,7 @@
 	},
 	loot_size: 1,
 	rewards: [{
-		title: "AE2 Tutorials by &6Corjaantje",
+		title: "&6Corjaantje§f的AE2教程",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -28,11 +28,11 @@
 			},
 			Damage: 3s
 		},
-		command: "/tellraw @p {\"text\": \"§9§lClick here for AE2 Tutorials by §6Corjaantje!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://bit.ly/AE2TutorialSeries\"}}",
+		command: "/tellraw @p {\"text\": \"§9§l点击此处查看§6Corjaantje§9§l的AE2教程！\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://bit.ly/AE2TutorialSeries\"}}",
 		type: "command"
 	},
 	{
-		title: "AE2 Tutorials by &6TKH",
+		title: "&6TKH§f的AE2教程",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}
@@ -52,7 +52,7 @@
 			},
 			Damage: 3s
 		},
-		command: "/tellraw @p {\"text\": \"§9§lClick here for AE2 Tutorials by §6TKH!\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLPCqiTnvx2Gv3rd5fpVPpKtb2oH53eYYa\"}}",
+		command: "/tellraw @p {\"text\": \"§9§l点击此处查看§6TKH§9§l的AE2教程！\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLPCqiTnvx2Gv3rd5fpVPpKtb2oH53eYYa\"}}",
 		type: "command"
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	title: "Hellish Box",
+	title: "地狱宝盒",
 	loot_size: 1,
 	rewards: [{
 		item: {

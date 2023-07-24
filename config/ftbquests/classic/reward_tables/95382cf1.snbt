@@ -1,5 +1,5 @@
 {
-	title: "Advanced Spell Book",
+	title: "进阶级法术书",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}

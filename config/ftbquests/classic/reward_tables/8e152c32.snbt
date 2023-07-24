@@ -1,5 +1,5 @@
 {
-	title: "Unclaimed Blackmarket Cache",
+	title: "无主的的黑市货柜",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -4153,7 +4153,7 @@
 	}],
 	loot_crate: {
 		string_id: "unclaimed_black_market_container",
-		item_name: "Unclaimed Black Market Container",
+		item_name: "无主的黑市货柜",
 		color: 0,
 		drops: {
 			boss: 0,

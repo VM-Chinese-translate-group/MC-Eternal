@@ -1,5 +1,5 @@
 {
-	title: "Forgotten trash can",
+	title: "无人问津的垃圾桶",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
@@ -75,7 +75,7 @@
 			id: "minecraft:paper",
 			tag: {
 				display: {
-					Name: "Rent - a - rat       : RECEIPT"
+					Name: "出租一只老鼠       ：收据"
 				}
 			}
 		},

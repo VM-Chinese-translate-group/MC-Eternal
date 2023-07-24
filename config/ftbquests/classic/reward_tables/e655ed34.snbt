@@ -1,5 +1,5 @@
 {
-	title: "Novice Spell Book",
+	title: "新手级法术书",
 	icon: {
 		ForgeCaps: {
 			"wizardryutils:summoneditemdata": {}
