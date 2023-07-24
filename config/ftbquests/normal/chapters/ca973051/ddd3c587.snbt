@@ -11,7 +11,7 @@
 	tasks: [{
 		uid: "7485143d",
 		type: "advancement",
-		title: "进度: &e最终对决",
+		title: "进度：&e最终对决",
 		icon: "twilightforest:uberous_soil",
 		advancement: "twilightforest:progress_merge",
 		criterion: ""

@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "5767c4a6",
 		type: "advancement",
-		title: "进度: &e强力的牛肉人沙拉酱肉",
+		title: "进度：&e强力的牛肉人沙拉酱肉",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {},

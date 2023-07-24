@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "6c74d970",
 		type: "advancement",
-		title: "进度: &e澄澈之空",
+		title: "进度：&e澄澈之空",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

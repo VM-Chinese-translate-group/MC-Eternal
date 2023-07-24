@@ -3,14 +3,14 @@
 	x: -14.0d,
 	y: -14.0d,
 	shape: "diamond",
-	description: "&o在暮色森林的沼泽中心有一片火热的沼泽，在这片火热沼泽的中心有一座巨大的山丘。。。我不禁好奇，什么生物会住在那里面?",
+	description: "&o在暮色森林的沼泽中心有一片火热的沼泽，在这片火热沼泽的中心有一座巨大的山丘。。。我不禁好奇，什么生物会住在那里面？",
 	dependencies: [
 		"7e4f6adb"
 	],
 	tasks: [{
 		uid: "7b039951",
 		type: "advancement",
-		title: "进度: &e九头蛇猎人",
+		title: "进度：&e九头蛇猎人",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

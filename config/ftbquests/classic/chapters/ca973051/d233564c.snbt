@@ -3,14 +3,14 @@
 	x: -10.0d,
 	y: -11.0d,
 	shape: "diamond",
-	description: "&o在暮色森林最寒冷的地区，有一座巨大的山丘，山丘上有一个洞穴。。。我不禁好奇，什么生物会住在那里面?",
+	description: "&o在暮色森林最寒冷的地区，有一座巨大的山丘，山丘上有一个洞穴。。。我不禁好奇，什么生物会住在那里面？",
 	dependencies: [
 		"0647fe18"
 	],
 	tasks: [{
 		uid: "3ed0a731",
 		type: "advancement",
-		title: "进度: &e首领的毛皮",
+		title: "进度：&e首领的毛皮",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

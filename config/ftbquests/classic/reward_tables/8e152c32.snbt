@@ -2389,7 +2389,7 @@
 			id: "chancecubes:compact_giant_chance_cube",
 			tag: {
 				display: {
-					Name: "So I heard you like RNG?"
+					Name: ""
 				}
 			}
 		}

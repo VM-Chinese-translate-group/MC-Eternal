@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "410a5816",
 		type: "advancement",
-		title: "进度: &e号令砷铅铁机关",
+		title: "进度：&e号令砷铅铁机关",
 		icon: "twilightforest:trophy 1 4",
 		advancement: "twilightforest:progress_knights",
 		criterion: ""

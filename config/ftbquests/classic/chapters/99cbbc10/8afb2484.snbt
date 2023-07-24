@@ -1,7 +1,7 @@
 {
 	x: 11.5d,
 	y: -0.5d,
-	description: "&oMoo（牛的拟声词）?",
+	description: "&oMoo（牛的拟声词）？",
 	dependencies: [
 		"0a5005e1"
 	],

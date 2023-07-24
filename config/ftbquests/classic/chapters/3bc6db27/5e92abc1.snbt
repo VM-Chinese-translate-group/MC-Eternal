@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "f1f4f0c5",
 		type: "advancement",
-		title: "进度: &e破碎成百万块",
+		title: "进度：&e破碎成百万块",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

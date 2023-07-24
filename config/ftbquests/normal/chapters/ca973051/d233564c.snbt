@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "3ed0a731",
 		type: "advancement",
-		title: "进度: &e首领的毛皮",
+		title: "进度：&e首领的毛皮",
 		icon: "twilightforest:alpha_fur",
 		advancement: "twilightforest:progress_yeti",
 		criterion: ""

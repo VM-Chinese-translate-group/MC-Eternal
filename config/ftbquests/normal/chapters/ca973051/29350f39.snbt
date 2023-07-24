@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "0611b624",
 		type: "advancement",
-		title: "进度: &e娜迦猎人",
+		title: "进度：&e娜迦猎人",
 		icon: "twilightforest:miniature_structure 1 5",
 		advancement: "twilightforest:progress_naga",
 		criterion: ""

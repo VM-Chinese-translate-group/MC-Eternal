@@ -2,7 +2,7 @@
 	title: "挖矿使我激情！！",
 	x: -11.5d,
 	y: 4.5d,
-	description: "让我们回到矿洞......",
+	description: "让我们回到矿洞……",
 	dependencies: [
 		"cf376a10"
 	],

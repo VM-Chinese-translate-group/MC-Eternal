@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "3787c47a",
 		type: "advancement",
-		title: "进度: &e... 画出图案",
+		title: "进度：&e画出图案",
 		icon: {
 			ForgeCaps: {
 				"wizardryutils:summoneditemdata": {}

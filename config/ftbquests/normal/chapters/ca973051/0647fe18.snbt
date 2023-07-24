@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "cba4d362",
 		type: "advancement",
-		title: "进度: &e巫妖猎人",
+		title: "进度：&e巫妖猎人",
 		icon: "twilightforest:miniature_structure 1 6",
 		advancement: "twilightforest:progress_lich",
 		criterion: ""
